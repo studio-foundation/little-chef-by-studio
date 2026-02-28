@@ -42,3 +42,8 @@ next-env.d.ts
 
 # git worktrees
 .worktrees/
+
+# Studio (generated)
+.studio/config.yaml
+.studio/runs/
+*.keymap.json
