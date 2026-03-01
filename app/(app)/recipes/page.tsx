@@ -10,10 +10,10 @@ import { useRouter } from "next/navigation";
 
 export default function RecipesPage() {
   const [selected, setSelected] = useState<Recipe | null>(null);
-  const [regenIds, setRegenIds] = useState<Set<number>>(new Set());
+  const [regenIds, setRegenIds] = useState<Set<string>>(new Set());
 
   const router = useRouter();
-  const handleRegenerate = (id: number) => {
+  const handleRegenerate = (id: string) => {
     setRegenIds((prev) => new Set([...prev, id]));
     setTimeout(() => {
       setRegenIds((prev) => {
