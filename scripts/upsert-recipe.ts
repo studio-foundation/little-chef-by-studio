@@ -2,8 +2,8 @@ import { config } from 'dotenv'
 import { resolve } from 'path'
 
 // Load .env.local from the project root; no-op if already set in environment
-config({ path: resolve(process.cwd(), '.env.local') })
-config({ path: resolve(process.cwd(), '.env') })
+config({ path: resolve(process.cwd(), '.env.local'), quiet: true })
+config({ path: resolve(process.cwd(), '.env'), quiet: true })
 
 import { PrismaClient } from '@prisma/client'
 import { PrismaPg } from '@prisma/adapter-pg'
