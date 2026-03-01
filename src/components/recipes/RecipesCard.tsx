@@ -11,20 +11,11 @@ interface RecipesCardProps {
 
 export function RecipesCard({ recipe, onOpen }: RecipesCardProps) {
   const [isFav, setIsFav] = useState(false);
-  const [hovered, setHovered] = useState(false);
 
   return (
     <div
       onClick={() => onOpen(recipe)}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      className="relative cursor-pointer overflow-hidden rounded-2xl bg-white transition-all duration-200"
-      style={{
-        boxShadow: hovered
-          ? "0 8px 24px rgba(0,0,0,0.10)"
-          : "0 2px 12px rgba(0,0,0,0.06)",
-        transform: hovered ? "translateY(-3px)" : "translateY(0)",
-      }}
+      className="relative cursor-pointer overflow-hidden rounded-2xl bg-white shadow-[0_2px_12px_rgba(0,0,0,0.06)] transition-all duration-200 hover:shadow-[0_8px_24px_rgba(0,0,0,0.10)] hover:-translate-y-[3px]"
     >
       {/* Zone image */}
       <div
