@@ -14,6 +14,7 @@ model User {
   image         String?
   createdAt     DateTime     @default(now())
   accounts      Account[]
+  Recipe        Recipe[]
   sessions      Session[]
   plans         WeeklyPlan[]
 }
@@ -53,27 +54,64 @@ model VerificationToken {
 }
 
 model Recipe {
-  id          String       @id @default(cuid())
-  planId      String
-  title       String
-  rawJson     Json
-  createdAt   DateTime     @default(now())
-  GroceryList GroceryList?
-  WeeklyPlan  WeeklyPlan   @relation(fields: [planId], references: [id])
+  id               String             @id @default(cuid())
+  title            String
+  createdAt        DateTime           @default(now())
+  calories         Int?
+  cuisine          String?
+  emoji            String?
+  ingredients      Json
+  notes            Json?
+  portions         Int?
+  steps            Json
+  timeMinutes      Int?
+  userId           String
+  User             User               @relation(fields: [userId], references: [id])
+  WeeklyPlanRecipe WeeklyPlanRecipe[]
 }
 
 model WeeklyPlan {
-  id        String   @id @default(cuid())
-  userId    String
-  weekStart DateTime
-  createdAt DateTime @default(now())
-  Recipe    Recipe[]
-  user      User     @relation(fields: [userId], references: [id])
+  id               String             @id @default(cuid())
+  userId           String
+  weekStart        DateTime
+  createdAt        DateTime           @default(now())
+  GroceryList      GroceryList?
+  user             User               @relation(fields: [userId], references: [id])
+  WeeklyPlanRecipe WeeklyPlanRecipe[]
 }
 
 model GroceryList {
-  id       String @id @default(cuid())
-  recipeId String @unique
-  items    Json
-  Recipe   Recipe @relation(fields: [recipeId], references: [id])
+  id         String     @id @default(cuid())
+  items      Json
+  planId     String     @unique
+  WeeklyPlan WeeklyPlan @relation(fields: [planId], references: [id])
+}
+
+model WeeklyPlanRecipe {
+  id         String     @id
+  planId     String
+  recipeId   String
+  position   Int
+  addedAt    DateTime   @default(now())
+  WeeklyPlan WeeklyPlan @relation(fields: [planId], references: [id])
+  Recipe     Recipe     @relation(fields: [recipeId], references: [id])
+
+  @@unique([planId, position])
+  @@unique([planId, recipeId])
+}
+
+model studio_pipeline_runs {
+  id            String    @id
+  pipeline_name String
+  status        String
+  result        String
+  started_at    String
+  completed_at  String?
+  log_path      String?
+  parent_run_id String?
+  created_at    DateTime? @default(now()) @db.Timestamptz(6)
+
+  @@index([created_at(sort: Desc)], map: "idx_studio_pipeline_runs_created")
+  @@index([parent_run_id], map: "idx_studio_pipeline_runs_parent")
+  @@index([status], map: "idx_studio_pipeline_runs_status")
 }
