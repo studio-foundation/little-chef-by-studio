@@ -75,7 +75,7 @@ export async function GET(req: NextRequest) {
     const recipes: Recipe[] = dbRecipes.map(dbToRecipe);
     return NextResponse.json(recipes);
   } catch (err) {
-    const message = err instanceof Error ? err.message : 'DB error';
-    return NextResponse.json({ error: message }, { status: 500 });
+    console.error('[GET /api/recipes]', err);
+    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
   }
 }

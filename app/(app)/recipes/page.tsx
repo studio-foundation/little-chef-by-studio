@@ -60,13 +60,17 @@ export default async function RecipesPage() {
   const session = await auth();
   if (!session?.user?.id) redirect('/login');
 
-  const dbRecipes = await prisma.recipe.findMany({
-    where: { userId: session.user.id },
-    orderBy: { createdAt: 'desc' },
-    take: 5,
-  });
-
-  const recipes: Recipe[] = dbRecipes.map(dbToRecipe);
+  let recipes: Recipe[] = [];
+  try {
+    const dbRecipes = await prisma.recipe.findMany({
+      where: { userId: session.user.id },
+      orderBy: { createdAt: 'desc' },
+      take: 5,
+    });
+    recipes = dbRecipes.map(dbToRecipe);
+  } catch (err) {
+    console.error('[RecipesPage] DB error', err);
+  }
 
   return <RecipesGrid recipes={recipes} />;
 }
