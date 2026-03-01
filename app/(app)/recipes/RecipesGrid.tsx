@@ -46,6 +46,17 @@ export function RecipesGrid({ recipes }: RecipesGridProps) {
       </div>
 
       {/* Grille */}
+      {recipes.length === 0 && (
+        <div className="flex flex-col items-center justify-center gap-3 rounded-2xl border-2 border-dashed border-[var(--color-border)] bg-white py-16 text-center">
+          <span className="text-[40px] opacity-40">🍽</span>
+          <p className="text-sm text-[var(--color-text-muted)]">
+            Aucune recette pour l&apos;instant —{" "}
+            <a href="/generate" className="text-[var(--color-primary)] underline">
+              génère ta semaine
+            </a>
+          </p>
+        </div>
+      )}
       <div className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-[18px]">
         {recipes.map((recipe) => (
           <div key={recipe.id ?? recipe.name} className="relative">
