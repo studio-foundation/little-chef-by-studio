@@ -2,7 +2,7 @@ import type { Recipe } from "./types";
 
 export const SAMPLE_RECIPES: Recipe[] = [
   {
-    id: 1,
+    id: "1",
     name: "Bol de quinoa aux légumes rôtis",
     time: "25 min",
     kcal: "480 kcal",
@@ -34,7 +34,7 @@ export const SAMPLE_RECIPES: Recipe[] = [
     ],
   },
   {
-    id: 2,
+    id: "2",
     name: "Saumon teriyaki au riz jasmin",
     time: "20 min",
     kcal: "560 kcal",
@@ -66,7 +66,7 @@ export const SAMPLE_RECIPES: Recipe[] = [
     ],
   },
   {
-    id: 3,
+    id: "3",
     name: "Pasta e fagioli",
     time: "35 min",
     kcal: "420 kcal",
@@ -98,7 +98,7 @@ export const SAMPLE_RECIPES: Recipe[] = [
     ],
   },
   {
-    id: 4,
+    id: "4",
     name: "Poulet miso aux champignons",
     time: "30 min",
     kcal: "510 kcal",
@@ -130,7 +130,7 @@ export const SAMPLE_RECIPES: Recipe[] = [
     ],
   },
   {
-    id: 5,
+    id: "5",
     name: "Tacos de lentilles épicées",
     time: "25 min",
     kcal: "390 kcal",
