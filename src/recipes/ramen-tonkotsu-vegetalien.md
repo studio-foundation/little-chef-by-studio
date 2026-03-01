@@ -2,86 +2,79 @@
 
 ## Ingrédients
 
-### Pour le bouillon (1L pour 4 personnes)
-- 10g de kombu (algue séchée)
-- 20g de champignons shiitake séchés
-- 300g de champignons frais mélangés (shiitake, enoki, king oyster)
-- 1 carotte moyenne (150g)
-- 100g de navet blanc (daikon)
-- 1/2 oignon moyen (75g)
-- 15g de gingembre frais
-- 3 gousses d'ail
-- 80ml de sauce soja tamari
-- 60g de miso blanc (shiro miso)
-- 15ml d'huile de sésame grillée
-- 1,2L d'eau
-- 5g de sel
+### Pour le bouillon (1L, 4 personnes)
+- Kombu (algue séchée) : 10g
+- Champignons shiitake séchés : 20g
+- Champignons frais variés (shiitake, enoki, pleurotes) : 300g
+- Carotte moyenne : 1 (150g)
+- Navet blanc (daikon) : 100g
+- Oignon : 1/2 moyen (75g)
+- Gingembre frais : 15g
+- Ail : 3 gousses
+- Sauce soja tamari : 80ml
+- Miso blanc (shiro miso) : 60g
+- Huile de sésame : 15ml
+- Eau : 1,2L
+- Sel : 5g
 
 ### Pour les nouilles et garnitures
-- 400g de nouilles ramen fraîches (100g par portion)
-- 300g de tofu ferme pour marinade
-- 150g de germes de soja
-- 4 feuilles de nori grillé
-- 30g de ciboulette fraîche
-- 150g de champignons shiitake frais (pour garniture sautée)
-- 20g de cacahuètes concassées ou graines de sésame (optionnel)
+- Nouilles ramen fraîches ou sèches : 400g (100g par portion)
+- Tofu ferme : 300g
+- Germes de soja : 150g
+- Nori (feuilles d'algues grillées) : 4 feuilles
+- Ciboulette fraîche : 30g
+- Champignons shiitake frais (pour garniture) : 150g
+- Graines de sésame : 20g (optionnel)
 
 ### Pour la marinade du tofu
-- 40ml de sauce soja tamari
-- 20ml de mirin ou sirop d'agave
-- 10ml de vinaigre de riz
-- 2 gousses d'ail
-- 5g de gingembre frais
+- Sauce soja tamari : 40ml
+- Mirin ou sirop d'agave : 20ml
+- Vinaigre de riz : 10ml
+- Ail haché : 2 gousses
+- Gingembre frais râpé : 5g
 
 ## Préparation
 
-### 1. Préparation du tofu mariné (15 min active + marinade)
-1. Couper le tofu en tranches de 1cm d'épaisseur
-2. Mélanger tous les ingrédients de la marinade
-3. Faire mariner le tofu 30 minutes minimum (peut être fait la veille)
-4. Faire griller le tofu mariné à la poêle 3-4 minutes de chaque côté
-5. Réserver et couper en lamelles
+### Préparation du bouillon (60 minutes)
+1. **Réhydratation** : Faire tremper le kombu et les champignons shiitake séchés dans 200ml d'eau tiède pendant 20 minutes.
 
-### 2. Préparation du bouillon riche (60 min)
-1. Faire tremper le kombu et les shiitake séchés dans 300ml d'eau tiède pendant 20 minutes
-2. Émincer finement l'oignon, râper le gingembre et l'ail
-3. Couper la carotte et le navet en gros morceaux
-4. Émincer grossièrement les champignons frais
-5. Dans une grande casserole, faire chauffer l'huile de sésame
-6. Faire revenir l'oignon, l'ail et le gingembre 3 minutes
-7. Ajouter les champignons frais et faire suer 5 minutes
-8. Ajouter les légumes-racines, le kombu et les shiitake avec leur eau de trempage
-9. Ajouter le reste d'eau (900ml) et porter à ébullition
-10. Réduire le feu et laisser mijoter 45 minutes
-11. Filtrer le bouillon et réserver les légumes
-12. Diluer le miso dans un peu de bouillon chaud puis l'incorporer
-13. Ajouter la sauce soja tamari et rectifier l'assaisonnement
+2. **Préparation des légumes** : Couper la carotte et le navet en gros morceaux. Émincer l'oignon, hacher l'ail et le gingembre. Nettoyer et émincer les champignons frais.
 
-### 3. Préparation des garnitures (15 min)
-1. Faire sauter les champignons shiitake en lamelles avec un peu d'huile de sésame
-2. Blanchir les germes de soja 1 minute dans l'eau bouillante
-3. Ciseler finement la ciboulette
-4. Découper les feuilles de nori en lanières
+3. **Cuisson du bouillon** : Dans une grande casserole, porter 1,2L d'eau à ébullition. Ajouter le kombu réhydraté avec son eau de trempage, les champignons séchés réhydratés, les légumes coupés et les champignons frais. Laisser mijoter à feu doux pendant 45 minutes.
 
-### 4. Cuisson des nouilles et assemblage (10 min)
-1. Porter une grande casserole d'eau à ébullition
-2. Cuire les nouilles ramen selon les instructions (2-3 min pour fraîches, 4-5 min pour sèches)
-3. Égoutter immédiatement et répartir dans 4 bols préchauffés
-4. Verser le bouillon chaud dans chaque bol
-5. Disposer harmonieusement les garnitures : tofu grillé, champignons sautés, germes de soja, nori, ciboulette
-6. Parsemer de cacahuètes concassées si désiré
-7. Servir immédiatement
+4. **Finition** : Filtrer le bouillon et le remettre dans la casserole. Dans un bol, délayer le miso blanc avec un peu de bouillon chaud pour éviter les grumeaux. Incorporer ce mélange au bouillon avec la sauce soja tamari et l'huile de sésame. Rectifier l'assaisonnement avec du sel si nécessaire.
+
+### Préparation du tofu mariné (30 minutes)
+1. **Découpe** : Couper le tofu en tranches épaisses de 1cm ou en cubes de 2cm.
+
+2. **Marinade** : Mélanger tous les ingrédients de la marinade. Faire mariner le tofu pendant au moins 20 minutes.
+
+3. **Cuisson** : Dans une poêle, faire dorer le tofu mariné 3-4 minutes de chaque côté jusqu'à obtenir une belle coloration.
+
+### Préparation des garnitures (15 minutes)
+1. **Champignons sautés** : Faire sauter les champignons shiitake dans un peu d'huile de sésame pendant 5 minutes.
+
+2. **Germes de soja** : Blanchir rapidement les germes de soja dans l'eau bouillante pendant 1 minute, puis rafraîchir à l'eau froide.
+
+3. **Préparation finale** : Découper le nori en lanières, hacher finement la ciboulette.
+
+### Cuisson des nouilles et assemblage (10 minutes)
+1. **Nouilles** : Cuire les nouilles ramen selon les instructions du paquet (généralement 2-3 minutes pour les fraîches, 3-5 minutes pour les sèches).
+
+2. **Assemblage** : Répartir les nouilles égouttées dans 4 bols chauds. Verser le bouillon fumant par-dessus.
+
+3. **Garnitures** : Disposer harmonieusement le tofu mariné, les champignons sautés, les germes de soja, les lanières de nori et la ciboulette. Parsemer de graines de sésame si désiré.
 
 ## Notes du chef
 
-**Secrets d'un bouillon authentique** : L'extraction longue des saveurs umami est cruciale. Les champignons séchés apportent une profondeur incomparable, tandis que le kombu développe cette texture soyeuse caractéristique du tonkotsu traditionnel.
+**Technique du bouillon** : La richesse de ce bouillon végétalien provient de l'extraction lente des saveurs umami des champignons, du kombu et de la fermentation du miso. Ne pas faire bouillir vigoureusement pour préserver la clarté et éviter l'amertume.
 
-**Timing parfait** : Préparez le tofu en premier pour optimiser la marinade. Le bouillon peut être préparé à l'avance et réchauffé, mais les nouilles doivent être cuites à la dernière minute pour conserver leur texture al dente.
+**Astuce marinade** : Pour un goût plus prononcé, mariner le tofu la veille au réfrigérateur. Vous pouvez aussi le faire légèrement fumer en ajoutant une pincée de paprika fumé à la marinade.
 
-**Équilibre gustatif** : Ce ramen développe ~280-320 kcal par portion avec un profil équilibré en protéines végétales (12-14g). Attention au sodium élevé (900-1200mg) - ajustez selon vos besoins.
+**Service** : Servir immédiatement dans des bols préchauffés pour maintenir la température optimale. Le contraste de textures (nouilles tendres, tofu ferme, légumes croquants) est essentiel à l'expérience gustative.
 
-**Variantes saisonnières** : En hiver, ajoutez des épinards blanchis. Au printemps, privilégiez les pousses de bambou. L'été, augmentez les germes frais pour plus de croquant.
+**Conservation** : Le bouillon se conserve 3-4 jours au réfrigérateur ou peut être congelé pour une utilisation ultérieure. Les nouilles doivent être cuites au moment du service pour éviter qu'elles ne ramollissent.
 
-**Conservation** : Le bouillon se conserve 3-4 jours au réfrigérateur ou 2-3 mois au congélateur. Préparez-en plus pour des ramens express en semaine !
+**Variantes** : Ajoutez des pousses de bambou, du maïs ou des œufs de caille végétaliens pour plus de diversité. Un trait d'huile pimentée (rayu) apporte une note épicée appréciable.
 
-**Adaptations** : Version sans gluten possible en remplaçant les nouilles par des nouilles de riz et en utilisant un miso certifié sans gluten. Pour plus de protéines, doublez la portion de tofu ou ajoutez du tempeh.
+**Valeurs nutritionnelles** : Environ 300 kcal par portion, riche en protéines végétales (12-14g) et en umami naturel. Attention au taux de sodium élevé dû aux condiments fermentés.

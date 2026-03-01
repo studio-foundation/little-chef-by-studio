@@ -2,88 +2,69 @@
 
 ## Ingrédients
 
-### Base du curry
-- 800g de pois chiches (2 boîtes de 400g, égouttés et rincés)
-- 2 oignons jaunes moyens (300g), finement hachés
-- 400g de tomates concassées (1 boîte) ou 3 tomates fraîches moyennes
-- 3-4 gousses d'ail, émincées
-- 15g de gingembre frais, râpé
-- 3 cuillères à soupe d'huile de coco (45ml)
+**Pour 4 personnes :**
 
-### Mélange d'épices
-- 1,5 cuillère à café de curcuma en poudre
-- 1 cuillère à café de cumin en poudre
-- 1 cuillère à café de coriandre en poudre
-- 0,5 à 1 cuillère à café de piment rouge en poudre (selon goût)
-- 0,5 cuillère à café de graines de moutarde noire
-- 0,25 cuillère à café de poivre noir moulu
-
-### Finition
-- 250ml d'eau ou bouillon de légumes
-- 100ml de lait de coco (optionnel, pour l'onctuosité)
-- Jus d'1/2 citron frais
-- 1 à 1,5 cuillère à café de sel de mer
-- 30g de coriandre fraîche, ciselée
-- 10g de menthe fraîche, ciselée (optionnel)
-- 1 petit piment frais pour décoration (optionnel)
+- 800g de pois chiches (2 boîtes de 400g ou 250g secs réhydratés)
+- 2 oignons moyens (300g), émincés
+- 400g de tomates (1 boîte de conserve ou 3-4 fraîches moyennes)
+- 400ml de lait de coco (1 boîte)
+- 20g de gingembre frais, râpé
+- 4-5 gousses d'ail (15g), hachées finement
+- 3-4 cuillères à soupe d'huile végétale (45ml)
+- 1,5 cuillère à café de curcuma moulu
+- 1,5 cuillère à café de graines de cumin + 0,5 cuillère à café de cumin moulu
+- 1,5 cuillère à café de graines de coriandre + 0,5 cuillère à café de coriandre moulue
+- 1 cuillère à café de garam masala
+- 0,5 à 1 cuillère à café de piment rouge (selon goût)
+- 1 à 1,5 cuillère à café de sel
+- Le jus et le zeste de 0,5 citron
+- 15g de coriandre fraîche (cilantro)
+- 200-300ml d'eau pour ajuster la consistance
+- 1 pincée de poivre noir (pour améliorer l'absorption du curcuma)
 
 ## Préparation
 
-### Étape 1 : Préparation des ingrédients (5 min)
-1. Égoutter et rincer les pois chiches en conserve
-2. Hacher finement les oignons
-3. Émince l'ail et râper le gingembre
-4. Préparer le mélange d'épices dans un petit bol
+**Temps de préparation :** 15 minutes  
+**Temps de cuisson :** 30 minutes  
+**Total :** 45 minutes
 
-### Étape 2 : Tempérage des épices (3-4 min)
-1. Chauffer l'huile de coco dans une grande casserole à fond épais à feu moyen
-2. Ajouter les graines de moutarde noire et laisser crépiter 30 secondes
-3. Incorporer le cumin, la coriandre et le curcuma en poudre
-4. Faire revenir 30 secondes jusqu'à ce que les épices libèrent leurs arômes
+### Étape 1 : Préparation des épices (5 min)
+1. Dans une grande poêle ou casserole, chauffer l'huile à feu moyen.
+2. Ajouter les graines de cumin et de coriandre. Les faire griller 1-2 minutes jusqu'à ce qu'elles libèrent leurs arômes (technique du tadka).
+3. Ajouter le curcuma, le cumin moulu, la coriandre moulue et le poivre noir. Mélanger 30 secondes.
 
-### Étape 3 : Base aromatique (8-10 min)
-1. Ajouter les oignons hachés et cuire 5-6 minutes jusqu'à transparence
-2. Incorporer l'ail et le gingembre, cuire 1 minute supplémentaire
-3. Ajouter le piment rouge et le poivre noir, mélanger
+### Étape 2 : Base aromatique (8 min)
+4. Ajouter les oignons émincés et faire revenir 5-6 minutes jusqu'à ce qu'ils soient dorés et caramélisés.
+5. Incorporer l'ail et le gingembre hachés. Cuire 1-2 minutes jusqu'à ce que l'ail embaume.
 
-### Étape 4 : Déglaçage et sauce (12-15 min)
-1. Verser les tomates concassées et déglacér le fond de casserole
-2. Ajouter les pois chiches et mélanger délicatement
-3. Verser l'eau ou le bouillon de légumes
-4. Porter à ébullition puis réduire à feu doux
-5. Laisser mijoter 10-12 minutes en remuant occasionnellement
+### Étape 3 : Sauce tomate (7 min)
+6. Ajouter les tomates (écraser si fraîches) et le piment rouge. 
+7. Cuire 5-7 minutes en remuant régulièrement jusqu'à ce que les tomates se décomposent et forment une pâte épaisse.
+8. Assaisonner avec le sel et le garam masala.
 
-### Étape 5 : Finition (3-5 min)
-1. Incorporer le lait de coco si désiré
-2. Assaisonner avec le sel et le jus de citron
-3. Goûter et ajuster l'assaisonnement
-4. Laisser réduire 2-3 minutes pour épaissir la sauce
+### Étape 4 : Cuisson des pois chiches (12 min)
+9. Ajouter les pois chiches égouttés et rincés. Mélanger pour bien les enrober de sauce.
+10. Verser le lait de coco et 200ml d'eau. Porter à ébullition.
+11. Réduire le feu et laisser mijoter 10-12 minutes. La sauce doit épaissir et les pois chiches s'imprégner des saveurs.
+12. Ajuster la consistance avec de l'eau si nécessaire.
 
-### Étape 6 : Service
-1. Retirer du feu et parsemer de coriandre fraîche
-2. Ajouter la menthe ciselée et le piment frais décoratif
-3. Servir immédiatement avec du riz basmati ou du pain naan
+### Étape 5 : Finition (3 min)
+13. Ajouter le jus et le zeste de citron. Goûter et ajuster l'assaisonnement.
+14. Parsemer de coriandre fraîche hachée avant de servir.
 
 ## Notes du chef
 
-### Techniques essentielles
-- **Tempérage des épices** : Cette étape cruciale libère les huiles essentielles et développe la complexité aromatique. Ne pas brûler les épices.
-- **Caramélisation des oignons** : Prendre le temps de bien faire dorer les oignons pour créer une base savoureuse.
-- **Réduction de la sauce** : La consistance finale doit napper une cuillère sans être liquide.
+**Technique clé :** Le tempérage des épices (tadka) au début de la cuisson est essentiel pour développer les saveurs. Ne sautez pas cette étape qui différencie un curry authentique d'une simple sauce aux épices.
 
-### Optimisations nutritionnelles
-- **Biodisponibilité du curcuma** : Le poivre noir augmente l'absorption de la curcumine de 2000%
-- **Équilibre protéique** : Les pois chiches fournissent 12-14g de protéines complètes par portion
-- **Richesse en fibres** : 7-8g de fibres par portion contribuent à la satiété
+**Consistance parfaite :** Le curry doit avoir la consistance d'une sauce onctueuse qui nappa une cuillère sans être trop liquide. Le lait de coco agit comme liant végétalien naturel.
 
-### Variantes et substitutions
-- **Pois chiches** : Remplacer par des lentilles rouges (150g sèches, temps de cuisson réduit à 20 min)
-- **Lait de coco** : Substituer par de la crème d'avoine pour une version moins riche
-- **Épices** : Utiliser 2 cuillères à soupe de garam masala pré-mélangé pour simplifier
+**Variations possibles :**
+- **Plus crémeux :** Mixer 100g de pois chiches avec un peu de liquide de cuisson et incorporer à la sauce
+- **Version allégée :** Remplacer le lait de coco par de la crème d'avoine ou du lait d'amande enrichi
+- **Épices sur mesure :** Préparez votre garam masala maison (cumin, coriandre, cannelle, clous de girofle, cardamome)
 
-### Conservation
-- Se conserve 3 jours au réfrigérateur dans un contenant hermétique
-- Les saveurs se bonifient après une nuit de repos
-- Réchauffer doucement en ajoutant un peu d'eau si nécessaire
+**Conservation :** Se conserve 3-4 jours au réfrigérateur et se congèle parfaitement. Les saveurs se développent même après repos.
 
-### Temps total : 35-40 minutes | Pour 4 personnes | 220-240 kcal par portion
+**Accompagnements traditionnels :** Servir avec du riz basmati, des chapatis ou des naans pour un repas complet et équilibré en protéines.
+
+**Astuce nutritionnelle :** Le citron et la vitamine C des tomates améliorent l'absorption du fer des pois chiches. Le poivre noir augmente l'absorption de la curcumine du curcuma de 2000%.

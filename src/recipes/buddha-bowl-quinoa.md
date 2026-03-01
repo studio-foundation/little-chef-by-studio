@@ -2,84 +2,78 @@
 
 ## Ingrédients
 
-**Pour 2 personnes**
+### Base quinoa (pour 2 personnes)
+- 150g de quinoa (certifié sans gluten)
+- 300ml d'eau
+- 1 pincée de sel
 
-### Base quinoa
-- Quinoa blanc : 100g (poids sec)
-- Eau : 200ml
-- Sel : 1 pincée
+### Légumes frais
+- 80g de betterave crue, râpée finement
+- 80g de carotte crue, râpée ou en julienne
+- 100g de concombre, en dés
+- 50g d'épinards frais, lavés
+- 100g de tomates cerises, coupées en deux
 
-### Légumes crus
-- Carottes : 1 moyenne (120g), en julienne
-- Concombre : 1/2 (150g), en dés
-- Tomates cerises : 150g, coupées en deux
-- Feuilles vertes (roquette ou épinards) : 80g
-
-### Légumes cuits
-- Pois chiches cuits : 200g (conserve ou surgelés)
-- Brocoli : 150g, en petits fleurons
-- Huile d'olive : 1 cuillère à soupe
+### Protéines
+- 200g de pois chiches en conserve, égouttés et rincés
+- 150g de tofu nature (optionnel), coupé en dés
 
 ### Sauce tahini
-- Tahini (beurre de sésame) : 3 cuillères à soupe
-- Jus de citron frais : 2 cuillères à soupe
-- Eau tiède : 3-4 cuillères à soupe
-- Miel : 1 cuillère à café
-- Ail : 1 gousse, écrasée
-- Sel et poivre du moulin
+- 60ml de tahini (purée de sésame)
+- 60ml d'eau tiède
+- Le jus d'1 citron frais
+- 1 gousse d'ail, pressée
+- 1 pincée de sel
+- Poivre noir fraîchement moulu
 
 ### Garnitures
-- Graines de sésame grillées : 2 cuillères à soupe
-- Graines de courge : 2 cuillères à soupe
-- Herbes fraîches (coriandre ou persil) : quelques brins
+- 15g de persil frais, ciselé
+- 20g de graines de courge
+- 10g de graines de sésame
+- 30ml d'huile d'olive extra vierge
 
 ## Préparation
 
-### Étape 1 : Cuisson du quinoa (15 min)
-1. Rincer le quinoa à l'eau froide dans une passoire fine jusqu'à ce que l'eau soit claire
-2. Dans une casserole, porter 200ml d'eau salée à ébullition
+### Étape 1 : Cuisson du quinoa (15 minutes)
+1. Rincer le quinoa sous l'eau froide jusqu'à ce que l'eau soit claire
+2. Dans une casserole, porter 300ml d'eau salée à ébullition
 3. Ajouter le quinoa, réduire le feu et couvrir
-4. Laisser mijoter 15 minutes jusqu'à absorption complète de l'eau
-5. Retirer du feu et laisser reposer 5 minutes couvert, puis égrener à la fourchette
+4. Laisser cuire 15 minutes à feu doux jusqu'à absorption complète
+5. Retirer du feu, laisser reposer 5 minutes puis égrener à la fourchette
 
-### Étape 2 : Préparation des légumes (12 min)
-1. Préchauffer le four à 200°C
-2. Tailler les carottes en fine julienne, le concombre en dés, couper les tomates cerises en deux
-3. Disposer les fleurons de brocoli sur une plaque, arroser d'huile d'olive, saler et poivrer
-4. Enfourner 12-15 minutes jusqu'à ce qu'ils soient dorés et tendres
-5. Si pois chiches en conserve : les rincer et les égoutter
+### Étape 2 : Préparation des légumes (10 minutes)
+1. Râper finement la betterave et la carotte (utiliser des râpes séparées pour éviter la coloration)
+2. Couper le concombre en dés réguliers
+3. Laver et essorer les épinards
+4. Couper les tomates cerises en deux
+5. Si utilisé, couper le tofu en dés de 1cm et les faire revenir 3-4 minutes dans une poêle avec un peu d'huile d'olive
 
-### Étape 3 : Sauce tahini (3 min)
-1. Dans un bol, mélanger le tahini et le jus de citron (le mélange va épaissir)
-2. Ajouter l'ail écrasé et le miel
-3. Incorporer l'eau tiède cuillère par cuillère jusqu'à obtenir une consistance crémeuse
-4. Assaisonner avec sel et poivre
+### Étape 3 : Sauce tahini (5 minutes)
+1. Dans un bol, délayer le tahini avec l'eau tiède en fouettant
+2. Ajouter le jus de citron, l'ail pressé, le sel et le poivre
+3. Bien émulsionner jusqu'à obtenir une consistance crémeuse
+4. Ajuster l'assaisonnement selon le goût
 
-### Étape 4 : Assemblage (2 min)
-1. Répartir le quinoa cuit dans 2 bols
-2. Disposer harmonieusement les légumes crus et cuits dans chaque bol
-3. Ajouter les pois chiches
-4. Arroser généreusement de sauce tahini
-5. Parsemer de graines grillées et d'herbes fraîches
+### Étape 4 : Assemblage
+1. Répartir le quinoa tiède dans 2 bols profonds
+2. Disposer harmonieusement chaque légume en sections colorées
+3. Ajouter les pois chiches et le tofu si utilisé
+4. Parsemer de persil frais et des graines
+5. Arroser généreusement de sauce tahini
+6. Finir par un filet d'huile d'olive
 
 ## Notes du chef
 
-**Timing optimisé 30 min :**
-- Lancer la cuisson du quinoa en premier (15 min + 5 min repos)
-- Pendant la cuisson : préparer les légumes et enfourner le brocoli
-- Préparer la sauce pendant que le brocoli rôtit
-- Assembler dès que le quinoa a reposé
+**Timing optimal** : Cette recette se réalise facilement en 25-30 minutes. Le quinoa cuit pendant que vous préparez les légumes, optimisant le temps de préparation.
 
-**Sans gluten :** Vérifier que le quinoa soit certifié sans gluten sur l'emballage pour éviter toute contamination croisée.
+**Conservation** : Le quinoa cuit se conserve 3 jours au réfrigérateur. La sauce tahini peut être préparée à l'avance et se garde 1 semaine au frais.
 
-**Substitutions rapides :**
-- Quinoa → riz blanc cuit (même temps de cuisson)
-- Brocoli → patate douce en dés (même temps de cuisson au four)
-- Pois chiches → lentilles corail cuites ou œufs durs
-- Tahini → beurre d'arachide + huile d'olive
+**Variantes sans gluten** : Remplacez le quinoa par du riz basmati complet, du millet ou des pâtes certifiées sans gluten pour varier les plaisirs.
 
-**Conservation :** Les éléments se préparent séparément à l'avance. Le quinoa et les légumes rôtis se conservent 3 jours au réfrigérateur. Assembler au moment de servir.
+**Équilibre nutritionnel** : Ce bol apporte environ 520-580 kcal par portion avec un excellent profil : 18-22g de protéines, fibres abondantes et micronutriments essentiels (fer, zinc, magnésium).
 
-**Équilibre nutritionnel :** Chaque bol apporte environ 520 kcal avec 14g de protéines complètes, des fibres et des bons lipides. Parfait pour un repas sain et rassasiant.
+**Personnalisation** : Adaptez selon la saison - courge butternut rôtie en hiver, avocat et radis en été. L'essence du Buddha bowl réside dans l'équilibre des couleurs, textures et saveurs.
 
-**Variante vegan :** Remplacer le miel par du sirop d'agave ou d'érable.
+**Astuce texture** : Pour un contraste optimal, servez le quinoa encore tiède sur les légumes frais. Les graines torréfées à sec 2-3 minutes révèlent leurs arômes.
+
+**Alternative protéines** : Pour augmenter l'apport protéique, ajoutez un œuf dur ou remplacez une partie du quinoa par des lentilles corail cuites.
