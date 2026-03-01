@@ -1,4 +1,5 @@
-const STUDIO_URL = process.env.STUDIO_API_URL ?? 'http://localhost:3001';
+const STUDIO_URL = process.env.NEXT_PUBLIC_API_URL;
+if (!STUDIO_URL) throw new Error('NEXT_PUBLIC_API_URL is not set');
 
 export interface RunCreated {
   run_id: string;

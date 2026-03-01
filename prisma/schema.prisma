@@ -16,6 +16,7 @@ model User {
   accounts      Account[]
   sessions      Session[]
   plans         WeeklyPlan[]
+  recipes       Recipe[]
 }
 
 model Account {
@@ -52,28 +53,49 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
-model WeeklyPlan {
-  id        String   @id @default(cuid())
-  userId    String
-  weekStart DateTime
-  createdAt DateTime @default(now())
-  recipes   Recipe[]
-  user      User     @relation(fields: [userId], references: [id])
+model Recipe {
+  id          String             @id @default(cuid())
+  userId      String
+  title       String
+  cuisine     String?
+  timeMinutes Int?
+  portions    Int?
+  calories    Int?
+  emoji       String?
+  ingredients Json
+  steps       Json
+  notes       Json?
+  createdAt   DateTime           @default(now())
+  user        User               @relation(fields: [userId], references: [id])
+  weeklyPlans WeeklyPlanRecipe[]
 }
 
-model Recipe {
-  id          String       @id @default(cuid())
-  planId      String
-  title       String
-  rawJson     Json
-  createdAt   DateTime     @default(now())
+model WeeklyPlan {
+  id          String             @id @default(cuid())
+  userId      String
+  weekStart   DateTime
+  createdAt   DateTime           @default(now())
+  user        User               @relation(fields: [userId], references: [id])
+  recipes     WeeklyPlanRecipe[]
   groceryList GroceryList?
-  plan        WeeklyPlan   @relation(fields: [planId], references: [id])
+}
+
+model WeeklyPlanRecipe {
+  id       String     @id @default(cuid())
+  planId   String
+  recipeId String
+  position Int
+  addedAt  DateTime   @default(now())
+  plan     WeeklyPlan @relation(fields: [planId], references: [id])
+  recipe   Recipe     @relation(fields: [recipeId], references: [id])
+
+  @@unique([planId, recipeId])
+  @@unique([planId, position])
 }
 
 model GroceryList {
-  id       String @id @default(cuid())
-  recipeId String @unique
-  items    Json
-  recipe   Recipe @relation(fields: [recipeId], references: [id])
+  id      String     @id @default(cuid())
+  planId  String     @unique
+  items   Json
+  plan    WeeklyPlan @relation(fields: [planId], references: [id])
 }

@@ -10,7 +10,6 @@ import { Button } from "@/src/components/ui";
 import { useRouter } from "next/navigation";
 import type { StageStartData, StageCompleteData, PipelineCompleteData } from "@/src/lib/studio/events";
 
-const STUDIO_URL = process.env.NEXT_PUBLIC_STUDIO_API_URL ?? 'http://localhost:3001';
 const TOTAL = 5;
 
 type SlotStatus = 'idle' | 'running' | 'done' | 'error';
@@ -55,7 +54,7 @@ export default function GeneratePage() {
 
     // Ouvrir 5 EventSource en parallèle
     sourcesRef.current = runs.map((run, index) => {
-      const es = new EventSource(`${STUDIO_URL}/api/runs/${run.run_id}/stream`);
+      const es = new EventSource(`/api/runs/${run.run_id}/stream`);
 
       es.addEventListener('stage_start', (e) => {
         const data = JSON.parse((e as MessageEvent).data) as StageStartData;
