@@ -16,10 +16,7 @@ export function Nav() {
     <nav className="sticky top-0 z-10 border-b border-[var(--color-border)] bg-white">
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
         <Link href="/generate" className="flex items-center gap-2">
-          <span className="text-2xl">🍳</span>
-          <span className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[var(--color-text)]">
-            little chef
-          </span>
+       <img src="/logo.png" alt="little chef" width={180} height={50} />
         </Link>
         <ul className="flex items-center gap-6">
           {navLinks.map((link) => {
