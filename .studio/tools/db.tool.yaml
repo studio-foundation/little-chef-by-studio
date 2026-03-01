@@ -21,7 +21,10 @@ commands:
           notes format: { chef[], variations[], conservation?, nutrition? }
     execute:
       type: shell
-      command: "npx tsx scripts/upsert-recipe.ts '{{data | json}}'"
+      command: |
+        npx tsx scripts/upsert-recipe.ts << 'STUDIO_EOF'
+        {{data | json}}
+        STUDIO_EOF
       parse_output: json
 
 prompt_snippet: |

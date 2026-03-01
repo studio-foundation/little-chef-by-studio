@@ -20,9 +20,14 @@ function createPrismaClient() {
 const prisma = createPrismaClient()
 
 async function main() {
-  const raw = process.argv[2]
+  process.stdin.setEncoding('utf-8')
+  let raw = ''
+  for await (const chunk of process.stdin) {
+    raw += chunk
+  }
+  raw = raw.trim()
   if (!raw) {
-    console.error(JSON.stringify({ success: false, error: 'Missing JSON argument' }))
+    console.error(JSON.stringify({ success: false, error: 'Missing stdin input' }))
     process.exit(1)
   }
 
