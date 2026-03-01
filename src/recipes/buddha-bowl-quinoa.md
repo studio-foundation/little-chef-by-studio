@@ -1,79 +1,79 @@
-# Buddha bowl quinoa
+# Buddha Bowl Quinoa
 
 ## Ingrédients
 
-### Base quinoa (pour 2 personnes)
-- 150g de quinoa (certifié sans gluten)
-- 300ml d'eau
+### Base de quinoa
+- 150g de quinoa non cuit
+- 300ml d'eau ou bouillon de légumes
 - 1 pincée de sel
 
-### Légumes frais
-- 80g de betterave crue, râpée finement
-- 80g de carotte crue, râpée ou en julienne
-- 100g de concombre, en dés
-- 50g d'épinards frais, lavés
-- 100g de tomates cerises, coupées en deux
+### Légumes crus
+- 100g de laitue ou épinards
+- 1/2 concombre
+- 100g de tomates cerises
+- 75g de carottes râpées
+- 75g de betteraves cuites (sous vide)
 
-### Protéines
-- 200g de pois chiches en conserve, égouttés et rincés
-- 150g de tofu nature (optionnel), coupé en dés
+### Légumes cuits et protéines
+- 100g de brocoli
+- 1 boîte de pois chiches (400g, rincés et égouttés)
+- 2 œufs durs
+- 150g de tofu nature (optionnel)
+
+### Garniture
+- 1 avocat mûr
+- 25g de graines de courge ou sésame
+- 10g de persil plat frais
+- 5g de coriandre fraîche
 
 ### Sauce tahini
-- 60ml de tahini (purée de sésame)
-- 60ml d'eau tiède
-- Le jus d'1 citron frais
-- 1 gousse d'ail, pressée
-- 1 pincée de sel
-- Poivre noir fraîchement moulu
-
-### Garnitures
-- 15g de persil frais, ciselé
-- 20g de graines de courge
-- 10g de graines de sésame
-- 30ml d'huile d'olive extra vierge
+- 60ml de tahini
+- 45ml de jus de citron frais
+- 45ml d'eau tiède
+- 1 gousse d'ail écrasée
+- Sel et poivre noir
 
 ## Préparation
 
-### Étape 1 : Cuisson du quinoa (15 minutes)
+### Étape 1 - Quinoa (15 min)
 1. Rincer le quinoa sous l'eau froide jusqu'à ce que l'eau soit claire
-2. Dans une casserole, porter 300ml d'eau salée à ébullition
+2. Porter l'eau ou le bouillon à ébullition avec le sel
 3. Ajouter le quinoa, réduire le feu et couvrir
-4. Laisser cuire 15 minutes à feu doux jusqu'à absorption complète
-5. Retirer du feu, laisser reposer 5 minutes puis égrener à la fourchette
+4. Cuire 15 minutes jusqu'à absorption complète du liquide
+5. Laisser reposer 5 minutes hors du feu, puis égrainer à la fourchette
 
-### Étape 2 : Préparation des légumes (10 minutes)
-1. Râper finement la betterave et la carotte (utiliser des râpes séparées pour éviter la coloration)
-2. Couper le concombre en dés réguliers
-3. Laver et essorer les épinards
-4. Couper les tomates cerises en deux
-5. Si utilisé, couper le tofu en dés de 1cm et les faire revenir 3-4 minutes dans une poêle avec un peu d'huile d'olive
+### Étape 2 - Légumes et protéines (10 min en parallèle)
+1. Cuire les brocolis à la vapeur 5 minutes (al dente)
+2. Faire durcir les œufs (8 minutes dans l'eau bouillante)
+3. Découper les légumes crus : concombre en dés, tomates cerises en deux
+4. Râper les carottes, couper les betteraves en lamelles
+5. Si utilisé, découper le tofu en cubes et le faire revenir 3 minutes à la poêle
 
-### Étape 3 : Sauce tahini (5 minutes)
-1. Dans un bol, délayer le tahini avec l'eau tiède en fouettant
-2. Ajouter le jus de citron, l'ail pressé, le sel et le poivre
-3. Bien émulsionner jusqu'à obtenir une consistance crémeuse
-4. Ajuster l'assaisonnement selon le goût
+### Étape 3 - Sauce tahini (5 min)
+1. Mélanger le tahini avec l'eau tiède jusqu'à consistance lisse
+2. Ajouter le jus de citron, l'ail écrasé
+3. Assaisonner avec sel et poivre
+4. Ajuster la texture avec un peu d'eau si nécessaire
 
-### Étape 4 : Assemblage
-1. Répartir le quinoa tiède dans 2 bols profonds
-2. Disposer harmonieusement chaque légume en sections colorées
-3. Ajouter les pois chiches et le tofu si utilisé
-4. Parsemer de persil frais et des graines
-5. Arroser généreusement de sauce tahini
-6. Finir par un filet d'huile d'olive
+### Étape 4 - Assemblage (5 min)
+1. Répartir le quinoa tiède dans 2 bols
+2. Disposer harmonieusement chaque légume par section colorée
+3. Ajouter l'avocat coupé en tranches et les œufs durs en quartiers
+4. Parsemer de graines et d'herbes fraîches
+5. Servir avec la sauce tahini à côté
 
 ## Notes du chef
 
-**Timing optimal** : Cette recette se réalise facilement en 25-30 minutes. Le quinoa cuit pendant que vous préparez les légumes, optimisant le temps de préparation.
+**Timing optimal :** Commencer par le quinoa, puis cuire les œufs et légumes en parallèle pendant que le quinoa repose. Préparer la sauce en dernier pour éviter qu'elle ne se sépare.
 
-**Conservation** : Le quinoa cuit se conserve 3 jours au réfrigérateur. La sauce tahini peut être préparée à l'avance et se garde 1 semaine au frais.
+**Présentation :** L'esthétique du Buddha bowl repose sur la séparation visuelle des couleurs. Disposez chaque ingrédient dans sa propre section plutôt que de tout mélanger.
 
-**Variantes sans gluten** : Remplacez le quinoa par du riz basmati complet, du millet ou des pâtes certifiées sans gluten pour varier les plaisirs.
+**Conservation :** Le quinoa se conserve 3 jours au réfrigérateur. Préparez les légumes crus au dernier moment pour conserver le croquant.
 
-**Équilibre nutritionnel** : Ce bol apporte environ 520-580 kcal par portion avec un excellent profil : 18-22g de protéines, fibres abondantes et micronutriments essentiels (fer, zinc, magnésium).
+**Variantes sans gluten :** Remplacez le quinoa par du riz complet, du millet ou des pâtes sans gluten selon vos préférences.
 
-**Personnalisation** : Adaptez selon la saison - courge butternut rôtie en hiver, avocat et radis en été. L'essence du Buddha bowl réside dans l'équilibre des couleurs, textures et saveurs.
+**Boost protéiné :** Pour un apport protéique renforcé, ajoutez 50g de pois chiches rôtis ou un troisième œuf dur.
 
-**Astuce texture** : Pour un contraste optimal, servez le quinoa encore tiède sur les légumes frais. Les graines torréfées à sec 2-3 minutes révèlent leurs arômes.
+**Sauce alternative :** Remplacez la sauce tahini par une vinaigrette citron-huile d'olive (60ml d'huile + 30ml de citron + 1 cuillère à café de moutarde de Dijon + 1 cuillère à café de miel).
 
-**Alternative protéines** : Pour augmenter l'apport protéique, ajoutez un œuf dur ou remplacez une partie du quinoa par des lentilles corail cuites.
+**Astuce économique :** Utilisez des légumes de saison et des conserves de pois chiches pour réduire les coûts tout en gardant la qualité nutritionnelle.

@@ -1,80 +1,77 @@
-# Ramen tonkotsu végétalien
+# Ramen Tonkotsu Végétalien
 
 ## Ingrédients
 
-### Pour le bouillon (1L, 4 personnes)
-- Kombu (algue séchée) : 10g
-- Champignons shiitake séchés : 20g
-- Champignons frais variés (shiitake, enoki, pleurotes) : 300g
-- Carotte moyenne : 1 (150g)
-- Navet blanc (daikon) : 100g
-- Oignon : 1/2 moyen (75g)
-- Gingembre frais : 15g
-- Ail : 3 gousses
-- Sauce soja tamari : 80ml
-- Miso blanc (shiro miso) : 60g
-- Huile de sésame : 15ml
-- Eau : 1,2L
-- Sel : 5g
+### Pour le bouillon (4 personnes, 1L environ)
+- 30g de champignons shiitake séchés
+- 10g de kombu (algue)
+- 1 oignon jaune moyen (150g)
+- 4 gousses d'ail (20g)
+- 20g de gingembre frais
+- 60ml de miso blanc (shiro miso)
+- 200ml de lait de coco
+- 30ml de sauce soja tamari
+- 15ml de vinaigre de riz
+- 10ml d'huile de sésame
+- 800ml d'eau
+- 5g de sel fin
 
 ### Pour les nouilles et garnitures
-- Nouilles ramen fraîches ou sèches : 400g (100g par portion)
-- Tofu ferme : 300g
-- Germes de soja : 150g
-- Nori (feuilles d'algues grillées) : 4 feuilles
-- Ciboulette fraîche : 30g
-- Champignons shiitake frais (pour garniture) : 150g
-- Graines de sésame : 20g (optionnel)
+- 400g de nouilles ramen fraîches ou déshydratées (100g par personne)
+- 200g de chou frisé (kale) ou épinards
+- 100g de germes de soja frais
+- 1 carotte moyenne (80g)
+- 4 feuilles de nori (algue)
+- 2 tiges de cébettes (oignons verts, 30g)
+- 200g de tofu fumé mariné ou champignons king oyster rôtis (chashu végétal)
+- 10g de graines de sésame
 
-### Pour la marinade du tofu
-- Sauce soja tamari : 40ml
-- Mirin ou sirop d'agave : 20ml
-- Vinaigre de riz : 10ml
-- Ail haché : 2 gousses
-- Gingembre frais râpé : 5g
+### Finitions optionnelles
+- 5g de chili en flocons
+- 30ml de sauce sriracha végétalienne
+- 100ml de bouillon dashi végétal (facultatif pour renforcement)
 
 ## Préparation
 
-### Préparation du bouillon (60 minutes)
-1. **Réhydratation** : Faire tremper le kombu et les champignons shiitake séchés dans 200ml d'eau tiède pendant 20 minutes.
+### Préparation du bouillon (30 minutes)
+1. **Réhydratation des champignons** (5 min) : Faire tremper les champignons shiitake séchés dans 300ml d'eau tiède. Réserver l'eau de trempage.
 
-2. **Préparation des légumes** : Couper la carotte et le navet en gros morceaux. Émincer l'oignon, hacher l'ail et le gingembre. Nettoyer et émincer les champignons frais.
+2. **Préparation des aromates** (10 min) : Éplucher et émincer l'oignon, l'ail et le gingembre. Dans une grande casserole, faire revenir l'oignon dans un peu d'huile jusqu'à ce qu'il soit doré et caramélisé.
 
-3. **Cuisson du bouillon** : Dans une grande casserole, porter 1,2L d'eau à ébullition. Ajouter le kombu réhydraté avec son eau de trempage, les champignons séchés réhydratés, les légumes coupés et les champignons frais. Laisser mijoter à feu doux pendant 45 minutes.
+3. **Construction du bouillon** (15 min) : Ajouter l'ail, le gingembre, les champignons égouttés et le kombu. Verser l'eau de trempage des champignons et les 500ml d'eau restante. Porter à ébullition puis laisser mijoter 20 minutes à feu moyen.
 
-4. **Finition** : Filtrer le bouillon et le remettre dans la casserole. Dans un bol, délayer le miso blanc avec un peu de bouillon chaud pour éviter les grumeaux. Incorporer ce mélange au bouillon avec la sauce soja tamari et l'huile de sésame. Rectifier l'assaisonnement avec du sel si nécessaire.
+4. **Finition du bouillon** : Retirer le kombu et les gros morceaux de champignons. Dans un bol, délayer le miso blanc avec un peu de bouillon chaud. Incorporer ce mélange au bouillon, puis ajouter le lait de coco, la sauce soja tamari et le vinaigre de riz. Maintenir au chaud sans faire bouillir.
 
-### Préparation du tofu mariné (30 minutes)
-1. **Découpe** : Couper le tofu en tranches épaisses de 1cm ou en cubes de 2cm.
+### Préparation des garnitures (20 minutes)
+1. **Chashu végétal** : Couper le tofu fumé en tranches épaisses et les faire griller à la poêle jusqu'à ce qu'elles soient dorées. Si vous utilisez des champignons king oyster, les trancher et les faire revenir avec un peu de sauce soja.
 
-2. **Marinade** : Mélanger tous les ingrédients de la marinade. Faire mariner le tofu pendant au moins 20 minutes.
+2. **Légumes** : Laver et découper le chou frisé en lanières. Éplucher et râper finement la carotte. Nettoyer les cébettes et les découper en rondelles.
 
-3. **Cuisson** : Dans une poêle, faire dorer le tofu mariné 3-4 minutes de chaque côté jusqu'à obtenir une belle coloration.
+3. **Cuisson des légumes** : Blanchir rapidement le chou frisé dans l'eau bouillante (1-2 minutes) puis l'égoutter. Les germes de soja peuvent être utilisés crus ou blanchis 30 secondes.
 
-### Préparation des garnitures (15 minutes)
-1. **Champignons sautés** : Faire sauter les champignons shiitake dans un peu d'huile de sésame pendant 5 minutes.
+### Cuisson des nouilles (5 minutes)
+1. Porter une grande casserole d'eau salée à ébullition.
+2. Cuire les nouilles ramen selon les instructions du paquet (généralement 3-4 minutes pour les fraîches, 5-6 minutes pour les déshydratées).
+3. Égoutter immédiatement et répartir dans 4 bols préchauffés.
 
-2. **Germes de soja** : Blanchir rapidement les germes de soja dans l'eau bouillante pendant 1 minute, puis rafraîchir à l'eau froide.
-
-3. **Préparation finale** : Découper le nori en lanières, hacher finement la ciboulette.
-
-### Cuisson des nouilles et assemblage (10 minutes)
-1. **Nouilles** : Cuire les nouilles ramen selon les instructions du paquet (généralement 2-3 minutes pour les fraîches, 3-5 minutes pour les sèches).
-
-2. **Assemblage** : Répartir les nouilles égouttées dans 4 bols chauds. Verser le bouillon fumant par-dessus.
-
-3. **Garnitures** : Disposer harmonieusement le tofu mariné, les champignons sautés, les germes de soja, les lanières de nori et la ciboulette. Parsemer de graines de sésame si désiré.
+### Assemblage final (5 minutes)
+1. Verser le bouillon chaud sur les nouilles dans chaque bol.
+2. Disposer harmonieusement les garnitures : chashu végétal, chou frisé, germes de soja, carotte râpée.
+3. Ajouter une demi-feuille de nori, les cébettes et les graines de sésame.
+4. Terminer par quelques gouttes d'huile de sésame et les épices optionnelles.
 
 ## Notes du chef
 
-**Technique du bouillon** : La richesse de ce bouillon végétalien provient de l'extraction lente des saveurs umami des champignons, du kombu et de la fermentation du miso. Ne pas faire bouillir vigoureusement pour préserver la clarté et éviter l'amertume.
+**Temps total** : 90 minutes maximum respecté (30 min bouillon + 20 min garnitures + 5 min nouilles + 5 min assemblage + temps de préparation simultanée)
 
-**Astuce marinade** : Pour un goût plus prononcé, mariner le tofu la veille au réfrigérateur. Vous pouvez aussi le faire légèrement fumer en ajoutant une pincée de paprika fumé à la marinade.
+**L'art du bouillon végétal** : La richesse de ce ramen vient de l'extraction prolongée des champignons shiitake et du kombu, qui apportent cette profondeur umami caractéristique du tonkotsu original. Le miso blanc et le lait de coco créent la texture crémeuse sans aucun produit animal.
 
-**Service** : Servir immédiatement dans des bols préchauffés pour maintenir la température optimale. Le contraste de textures (nouilles tendres, tofu ferme, légumes croquants) est essentiel à l'expérience gustative.
+**Technique d'émulsion** : Pour éviter que le lait de coco se sépare, ne jamais faire bouillir le bouillon une fois ajouté. Maintenir à température de service (70-80°C).
 
-**Conservation** : Le bouillon se conserve 3-4 jours au réfrigérateur ou peut être congelé pour une utilisation ultérieure. Les nouilles doivent être cuites au moment du service pour éviter qu'elles ne ramollissent.
+**Optimisation nutritionnelle** : Cette recette apporte 14-16g de protéines par portion. Pour un repas plus protéiné, augmenter le tofu fumé à 300g total (75g par portion).
 
-**Variantes** : Ajoutez des pousses de bambou, du maïs ou des œufs de caille végétaliens pour plus de diversité. Un trait d'huile pimentée (rayu) apporte une note épicée appréciable.
+**Conservation** : Le bouillon se conserve 3-4 jours au réfrigérateur. Réchauffer doucement sans faire bouillir. Les nouilles doivent être cuites fraîchement à chaque service.
 
-**Valeurs nutritionnelles** : Environ 300 kcal par portion, riche en protéines végétales (12-14g) et en umami naturel. Attention au taux de sodium élevé dû aux condiments fermentés.
+**Variantes saisonnières** : En hiver, ajouter des champignons enoki pour plus de texture. En été, servir avec plus de germes de soja crus et des pousses fraîches.
+
+**Note sur les allergènes** : Vérifier que les nouilles ramen et la sauce tamari sont certifiées sans gluten si nécessaire. Cette recette est 100% végétalienne et sans lactose.

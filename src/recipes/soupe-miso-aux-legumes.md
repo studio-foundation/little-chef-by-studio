@@ -2,70 +2,84 @@
 
 ## Ingrédients
 
-**Pour 2 personnes :**
+**Pour 2 personnes (20 minutes)**
 
-### Base
-- 500 ml de bouillon dashi instantané sans gluten (1 sachet Marukome) OU dashi maison*
-- 3-4 cuillères à soupe de miso blanc certifié sans gluten (60-80g)
-- 400 ml d'eau filtrée
+### Base de la soupe
+- 500 ml de dashi (bouillon japonais) ou bouillon de légumes
+  - *Alternative rapide : 1 sachet de dashi instantané sans gluten*
+- 2-3 cuillères à soupe de pâte miso (50-75g) **certifiée sans gluten**
+  - *Privilégier miso blanc (shiro miso) pour plus de douceur*
+- 100 ml d'eau filtrée (si besoin)
 
 ### Légumes et protéines
-- 150g de tofu soyeux, coupé en dés de 2cm
-- 100g de champignons shiitaké, tranchés
-- 50g de carottes, taillées en fine julienne
-- 50g de concombre ou courge d'été, en julienne
-- 2 tiges d'oignons verts, ciselés
-- 10g d'algue wakamé réhydratée (optionnel)
+- 100g de tofu soyeux, coupé en dés
+- 1/2 carotte (40g), taillée en julienne fine
+- 50g de champignons shiitaké ou de Paris, émincés
+- 1 tige de poireau ou oignon vert (30g), émincé
+- 30g d'épinards frais (optionnel)
+- 30g de daikon (radis blanc japonais), en julienne (optionnel)
 
 ### Garnitures
-- 1 cuillère à café d'huile de sésame grillée
-- Graines de sésame blanc
-- Feuille de nori, ciselée (optionnel)
-
-*Dashi maison : 5g de kombu + 10g de flocons de bonite dans 500ml d'eau
+- 1 feuille d'algue nori, coupée en lanières
+- 20g de germes de soja
+- 1 cuillère à café de mirin sans gluten (optionnel)
+- Pincée de sel fin
 
 ## Préparation
 
-**Temps total : 15-20 minutes**
+### Étape 1 : Préparation du dashi (5 min)
+1. **Si dashi instantané** : Dissoudre 1 sachet dans 500ml d'eau chaude
+2. **Si bouillon maison** : Chauffer 500ml de bouillon de légumes dans une casserole
 
-### Étape 1 - Préparation du dashi (5 min)
-1. **Version rapide** : Porter l'eau à ébullition, ajouter le sachet de dashi instantané, laisser infuser 2 minutes puis retirer le sachet.
-2. **Version maison** : Faire tremper le kombu dans l'eau froide 10 minutes, chauffer doucement jusqu'aux premiers frémissements, retirer le kombu. Ajouter les flocons de bonite, laisser infuser 3 minutes hors du feu, filtrer.
+### Étape 2 : Préparation des légumes (5 min)
+1. Tailler la carotte et le daikon en julienne fine
+2. Émincer les champignons et le poireau
+3. Couper le tofu en dés de 1cm
+4. Découper l'algue nori en fines lanières
 
-### Étape 2 - Préparation des ingrédients (5 min)
-1. Couper le tofu soyeux en dés réguliers de 2cm.
-2. Émincer finement les champignons shiitaké.
-3. Tailler les carottes et le concombre en fine julienne.
-4. Ciseler les oignons verts.
-5. Si utilisée, faire tremper l'algue wakamé dans un bol d'eau tiède.
+### Étape 3 : Cuisson des légumes (5 min)
+1. Porter le dashi à frémissement (pas d'ébullition)
+2. Ajouter les carottes et champignons, cuire 3 minutes
+3. Ajouter le poireau et le daikon, cuire 2 minutes
+4. Incorporer délicatement les dés de tofu
 
-### Étape 3 - Assemblage (8-10 min)
-1. Porter le dashi à frémissement doux (65-70°C, ne pas bouillir).
-2. Ajouter les carottes et champignons, laisser cuire 3 minutes.
-3. Dans un petit bol, délayer le miso avec 3-4 cuillères à soupe de bouillon chaud jusqu'à obtenir une pâte lisse.
-4. Incorporer délicatement le mélange miso au bouillon en remuant.
-5. Ajouter le tofu et le concombre, réchauffer 1 minute sans bouillir.
-6. Ajouter l'algue wakamé égouttée si utilisée.
+### Étape 4 : Incorporation du miso (3 min)
+1. **CRUCIAL** : Baisser le feu au minimum
+2. Prélever 100ml de bouillon chaud dans un bol
+3. Délayer la pâte miso dans ce bouillon avec une cuillère
+4. Verser ce mélange dans la casserole en remuant délicatement
+5. **Ne plus faire bouillir** pour préserver les probiotiques
 
-### Étape 4 - Finition
-1. Retirer du feu, incorporer l'huile de sésame.
-2. Répartir dans 2 bols, parsemer d'oignons verts ciselés.
-3. Garnir de graines de sésame et nori selon goût.
+### Étape 5 : Finition (2 min)
+1. Ajouter les épinards en dernière minute
+2. Rectifier l'assaisonnement avec une pincée de sel si nécessaire
+3. Ajouter le mirin pour une note sucrée (optionnel)
 
 ## Notes du chef
 
-**Technique cruciale :** Ne jamais faire bouillir le miso ! La température idéale est de 65-70°C pour préserver les probiotiques et éviter l'amertume. Le bouillon doit juste frémir.
+**🍜 Secrets d'une soupe miso parfaite :**
+- **Ne jamais faire bouillir après l'ajout du miso** - cela détruit les bactéries bénéfiques et altère le goût
+- **Toujours délayer le miso** dans un peu de bouillon chaud avant incorporation pour éviter les grumeaux
+- **Servir immédiatement** - la soupe miso se déguste fraîchement préparée
 
-**Dissolution du miso :** Toujours délayer le miso dans un peu de bouillon chaud avant de l'incorporer. Cette technique évite les grumeaux et assure une texture parfaitement lisse.
+**⚠️ Contrainte sans gluten :**
+- Vérifier impérativement que la pâte miso est certifiée sans gluten (certains miso contiennent du malt d'orge)
+- Privilégier les marques Clearspring, Hikari ou Marukame pour la certification
 
-**Choix du miso :** Le miso blanc (shiro miso) offre une saveur douce et sucrée, idéale pour les débutants. Le miso rouge (aka miso) apporte plus de profondeur mais peut dominer les légumes délicats.
+**🥕 Variations saisonnières :**
+- **Printemps** : ajouter des pousses de bambou et mizuna
+- **Été** : incorporer des courgettes et tomates cerises
+- **Automne** : enrichir avec des champignons variés et potimarron
+- **Hiver** : ajouter du chou chinois et des pousses de soja
 
-**Texture des légumes :** La julienne permet une cuisson rapide et uniforme. Les légumes doivent rester légèrement croquants pour contraster avec la douceur du bouillon.
+**💡 Astuces de conservation :**
+- Le dashi se prépare à l'avance et se conserve 3 jours au réfrigérateur
+- La pâte miso ouverte se garde 6 mois au réfrigérateur
+- Congeler le dashi en bacs à glaçons pour un usage rapide
 
-**Version express :** Avec le dashi instantané certifié sans gluten, cette recette se prépare en 15 minutes chrono, parfaite pour un déjeuner léger.
+**🌱 Boost nutritionnel :**
+- Ajouter 1 œuf poché pour 6g de protéines supplémentaires
+- Saupoudrer de graines de sésame pour le calcium
+- Incorporer du gingembre frais râpé pour ses propriétés digestives
 
-**Conservation :** Se consomme immédiatement. Ne pas réchauffer car cela altère les probiotiques du miso et peut rendre les légumes mous.
-
-**Variantes saisonnières :** Printemps (pousses de bambou, petits pois), été (courgettes, maïs), automne (champignons variés), hiver (daikon, épinards).
-
-**Équilibre nutritionnel :** Cette soupe apporte 12-15g de protéines complètes par portion grâce au tofu et au miso, tout en restant légère (100-130 kcal).
+**Temps total :** 20 minutes | **Calories :** ~115 kcal/portion | **Difficulté :** Facile
