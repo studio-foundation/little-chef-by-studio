@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { Recipe } from "@/src/components/generate/types";
+import { Button } from "@/src/components/ui";
 
 interface RecipesCardProps {
   recipe: Recipe;
@@ -35,15 +36,17 @@ export function RecipesCard({ recipe, onOpen }: RecipesCardProps) {
         {recipe.emoji}
 
         {/* Bouton favori — haut droite */}
-        <button
+        <Button
+          variant="icon"
           onClick={(e) => {
             e.stopPropagation();
             setIsFav(!isFav);
           }}
-          className="absolute right-2.5 top-2.5 flex h-8 w-8 items-center justify-center rounded-full bg-white/85 text-[15px] transition-transform hover:scale-110"
+          aria-label={isFav ? "Retirer des favoris" : "Ajouter aux favoris"}
+          className="absolute right-2.5 top-2.5 h-8 w-8 text-[15px]"
         >
           {isFav ? "♥" : "♡"}
-        </button>
+        </Button>
 
         {/* Badges temps / kcal — bas GAUCHE */}
         <div className="absolute bottom-2.5 left-2.5 flex gap-1.5">
