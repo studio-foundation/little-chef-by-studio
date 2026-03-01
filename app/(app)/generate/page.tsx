@@ -17,6 +17,7 @@ export default function GeneratePage() {
   const [msgIndex, setMsgIndex] = useState(0);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const msgRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const startGeneration = () => {
     setState("generating");
@@ -37,7 +38,7 @@ export default function GeneratePage() {
         clearInterval(intervalRef.current!);
         clearInterval(msgRef.current!);
         setMsgIndex(GENERATION_MESSAGES.length - 1);
-        setTimeout(() => setState("success"), 800);
+        timeoutRef.current = setTimeout(() => setState("success"), 800);
       }
     }, 1400);
   };
@@ -45,11 +46,13 @@ export default function GeneratePage() {
   const cancel = () => {
     clearInterval(intervalRef.current!);
     clearInterval(msgRef.current!);
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setState("idle");
     setRevealed(0);
   };
 
   const reset = () => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setState("idle");
     setRevealed(0);
     setMsgIndex(0);
@@ -60,6 +63,7 @@ export default function GeneratePage() {
     return () => {
       clearInterval(intervalRef.current!);
       clearInterval(msgRef.current!);
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
   }, []);
 
