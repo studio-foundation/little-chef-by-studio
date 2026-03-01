@@ -1,0 +1,8 @@
+name: ingredient-sourcing
+version: 1
+
+schema:
+  required_fields:
+    - ingredients_list
+    - substitutions
+    - sourcing_notes

@@ -50,7 +50,7 @@ export function Button({
   const isIcon = variant === "icon";
 
   const classes = [
-    "inline-flex items-center justify-center transition-all disabled:cursor-not-allowed disabled:opacity-60",
+    "inline-flex items-center cursor-pointer justify-center transition-all disabled:cursor-not-allowed disabled:opacity-60",
     variantClasses[variant],
     !isIcon ? sizeClasses[size] : "",
     className,

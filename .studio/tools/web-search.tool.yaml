@@ -1,0 +1,25 @@
+# tools/web-search.tool.yaml
+name: web_search
+description: Search the web for information
+version: 1
+
+commands:
+  - name: web_search-search
+    description: Search the web using a query
+    parameters:
+      query:
+        type: string
+        required: true
+        description: Search query
+    execute:
+      type: shell
+      command: |
+        curl -s -X POST "https://api.tavily.com/search" \
+          -H "Content-Type: application/json" \
+          -d "{\"api_key\": \"${TAVILY_API_KEY}\", \"query\": \"{{query}}\", \"max_results\": 5}"
+      parse_output: json
+
+prompt_snippet: |
+  You have access to web search via Tavily. Use it to find culinary techniques,
+  ingredient information, and recipe inspiration. Search in the language most
+  likely to return relevant results.

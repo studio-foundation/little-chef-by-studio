@@ -1,0 +1,65 @@
+name: recipe-developer
+description: Research, develop and validate a complex recipe from a brief
+version: 1
+
+stages:
+  - name: culinary-research
+    kind: research
+    agent: culinary-researcher
+    contract: culinary-research
+    ralph:
+      max_attempts: 3
+    context:
+      include:
+        - input
+
+  - name: ingredient-sourcing
+    kind: research
+    agent: ingredient-specialist
+    contract: ingredient-sourcing
+    ralph:
+      max_attempts: 3
+    context:
+      include:
+        - input
+        - previous_stage_output
+
+  - name: nutritional-profile
+    kind: analysis
+    agent: nutritionist
+    contract: nutritional-profile
+    ralph:
+      max_attempts: 3
+    context:
+      include:
+        - input
+        - all_stage_outputs
+
+  - group: recipe-refinement
+    max_iterations: 4
+    stages:
+      - name: recipe-drafting
+        kind: creation
+        agent: recipe-writer
+        contract: recipe-drafting
+        ralph:
+          max_attempts: 5
+        context:
+          include:
+            - input
+            - all_stage_outputs
+            - group_feedback
+        tools:
+          required:
+            - repo_manager-write_file
+
+      - name: technique-validation
+        kind: qa
+        agent: culinary-critic
+        contract: technique-validations
+        ralph:
+          max_attempts: 3
+        context:
+          include:
+            - previous_stage_output
+            - group_feedback

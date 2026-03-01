@@ -6,11 +6,13 @@ import { SAMPLE_RECIPES } from "@/src/components/generate/sampleData";
 import { RecipesCard } from "@/src/components/recipes/RecipesCard";
 import { RecipeDetail } from "@/src/components/recipes/RecipeDetail";
 import { Button } from "@/src/components/ui";
+import { useRouter } from "next/navigation";
 
 export default function RecipesPage() {
   const [selected, setSelected] = useState<Recipe | null>(null);
   const [regenIds, setRegenIds] = useState<Set<number>>(new Set());
 
+  const router = useRouter();
   const handleRegenerate = (id: number) => {
     setRegenIds((prev) => new Set([...prev, id]));
     setTimeout(() => {
@@ -34,7 +36,7 @@ export default function RecipesPage() {
             Semaine du 3 au 7 mars · 5 repas · Cliquer sur une recette pour les détails
           </p>
         </div>
-        <Button variant="primary" size="sm">📋 Liste d&apos;épicerie</Button>
+        <Button variant="primary" size="sm" onClick={() => router.push("/grocery-list")}>📋 Liste d&apos;épicerie</Button>
       </div>
 
       {/* Grille */}

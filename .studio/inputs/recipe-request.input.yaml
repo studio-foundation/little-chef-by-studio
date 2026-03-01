@@ -1,0 +1,6 @@
+dish_name: "Ramen tonkotsu végétalien"
+constraints:
+  - sans produits animaux
+  - temps de préparation max 90 minutes
+  - pour 4 personnes
+output_path: "src/recipes/"

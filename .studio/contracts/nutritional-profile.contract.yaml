@@ -1,0 +1,9 @@
+name: nutritional-profile
+version: 1
+
+schema:
+  required_fields:
+    - macros
+    - allergens
+    - dietary_flags
+    - adjustment_recommendations

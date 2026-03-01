@@ -1,0 +1,20 @@
+name: technique-validation
+version: 1
+
+schema:
+  required_fields:
+    - verdict
+    - critique
+
+post_validation:
+  rejection_detection:
+    field: verdict
+    approved_values:
+      - approved
+      - approved_with_notes
+    rejected_values:
+      - rejected
+      - technique_invalid
+      - unrealizable
+    details_field: issues
+    summary_field: critique

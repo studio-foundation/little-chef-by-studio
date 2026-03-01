@@ -10,6 +10,7 @@ import {
 } from "@/src/components/generate/sampleData";
 import PageLayout from "@/src/components/ui/PageLayout";
 import { Button } from "@/src/components/ui";
+import { useRouter } from "next/navigation";
 
 type GenerationState = "idle" | "generating" | "success";
 
@@ -21,6 +22,7 @@ export default function GeneratePage() {
   const msgRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  const router = useRouter();
   const startGeneration = () => {
     setState("generating");
     setRevealed(0);
@@ -147,8 +149,8 @@ export default function GeneratePage() {
             </p>
           </div>
           <div className="flex gap-2.5">
-            <Button variant="ghost" size="sm">📋 Liste d&apos;épicerie</Button>
-            <Button variant="primary" size="sm">Voir les recettes →</Button>
+            <Button variant="ghost" size="sm" onClick={() => router.push("/grocery-list")}>📋 Liste d&apos;épicerie</Button>
+            <Button variant="primary" size="sm" onClick={() => router.push("/recipes")}>Voir les recettes →</Button>
           </div>
         </div>
       )}
