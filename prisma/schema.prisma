@@ -1,3 +1,6 @@
+// little-chef-by-studio — Prisma schema
+// Docs: https://pris.ly/d/prisma-schema
+
 generator client {
   provider = "prisma-client-js"
 }

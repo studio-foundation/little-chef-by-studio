@@ -45,3 +45,8 @@ next-env.d.ts
 .worktrees/
 
 /app/generated/prisma
+
+# Studio (generated)
+.studio/config.yaml
+.studio/runs/
+*.keymap.json
