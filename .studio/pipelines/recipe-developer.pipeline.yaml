@@ -41,7 +41,7 @@ stages:
       - name: recipe-drafting
         kind: creation
         agent: recipe-writer
-        contract: recipe-drafting
+        contract: recipe-output
         ralph:
           max_attempts: 5
         context:
@@ -51,7 +51,7 @@ stages:
             - group_feedback
         tools:
           required:
-            - repo_manager-write_file
+            - db-upsert_recipe
 
       - name: technique-validation
         kind: qa
