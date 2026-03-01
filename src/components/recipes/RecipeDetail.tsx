@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { Recipe } from "@/src/components/generate/types";
+import { Button } from "@/src/components/ui";
 
 interface RecipeDetailProps {
   recipe: Recipe;
@@ -74,12 +75,14 @@ export function RecipeDetail({
           {recipe.emoji}
 
           {/* Bouton fermer */}
-          <button
+          <Button
+            variant="icon"
             onClick={onClose}
-            className="absolute right-4 top-4 flex h-9 w-9 items-center justify-center rounded-full bg-white/85 text-lg text-[var(--color-text-muted)] hover:bg-white"
+            aria-label="Fermer"
+            className="absolute right-4 top-4 text-lg text-[var(--color-text-muted)]"
           >
             ×
-          </button>
+          </Button>
 
           {/* Tags */}
           <div className="absolute bottom-3.5 left-5 flex gap-1.5">
@@ -174,23 +177,15 @@ export function RecipeDetail({
 
           {/* Boutons d'action */}
           <div className="flex gap-2.5">
-            <button
+            <Button
+              variant="outline"
               onClick={handleRegen}
-              disabled={regenerating}
-              className="flex-1 rounded-xl border border-[var(--color-border)] bg-white px-4 py-3.5 text-sm font-semibold text-[var(--color-primary)] transition-colors hover:bg-[#f5f1eb] disabled:cursor-not-allowed disabled:opacity-60"
+              isLoading={regenerating}
+              className="flex-1"
             >
-              {regenerating ? (
-                <span className="inline-flex items-center gap-2">
-                  <span className="inline-block animate-[spin_1s_linear_infinite]">⟳</span>
-                  Génération…
-                </span>
-              ) : (
-                "↺ Régénérer cette recette"
-              )}
-            </button>
-            <button className="flex-1 rounded-xl bg-[var(--color-primary)] px-4 py-3.5 text-sm font-bold text-white transition-colors hover:bg-[var(--color-primary-hover)]">
-              ⭐ Sauvegarder
-            </button>
+              {regenerating ? "Génération…" : "↺ Régénérer cette recette"}
+            </Button>
+            <Button variant="primary" className="flex-1">⭐ Sauvegarder</Button>
           </div>
         </div>
       </div>
