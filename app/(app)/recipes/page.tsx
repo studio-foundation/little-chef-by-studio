@@ -1,76 +1,72 @@
-"use client";
-
-import { useState } from "react";
+import { redirect } from "next/navigation";
+import { auth } from "@/auth";
+import { prisma } from "@/src/lib/prisma";
+import { RecipesGrid } from "./RecipesGrid";
 import type { Recipe } from "@/src/components/generate/types";
-import { SAMPLE_RECIPES } from "@/src/components/generate/sampleData";
-import { RecipesCard } from "@/src/components/recipes/RecipesCard";
-import { RecipeDetail } from "@/src/components/recipes/RecipeDetail";
-import { Button } from "@/src/components/ui";
-import { useRouter } from "next/navigation";
 
-export default function RecipesPage() {
-  const [selected, setSelected] = useState<Recipe | null>(null);
-  const [regenIds, setRegenIds] = useState<Set<string>>(new Set());
+type DbStep = { order: number; title: string; instructions: string[] };
+type DbIngredient = { name: string; quantity: string };
+type DbNotes = { chef?: string[]; nutrition?: string } | null;
 
-  const router = useRouter();
-  const handleRegenerate = (id: string) => {
-    setRegenIds((prev) => new Set([...prev, id]));
-    setTimeout(() => {
-      setRegenIds((prev) => {
-        const next = new Set(prev);
-        next.delete(id);
-        return next;
-      });
-    }, 2500);
+const CUISINE_COLORS: Record<string, { color: string; accent: string }> = {
+  japonaise:   { color: '#FFF3E0', accent: '#FF9800' },
+  italienne:   { color: '#FCE4EC', accent: '#E91E63' },
+  indienne:    { color: '#FFF8E1', accent: '#FFC107' },
+  mexicaine:   { color: '#FFF8E1', accent: '#FF5722' },
+  française:   { color: '#E8F4FD', accent: '#1565C0' },
+  asiatique:   { color: '#F3E5F5', accent: '#9C27B0' },
+  américaine:  { color: '#FBE9E7', accent: '#FF5722' },
+  default:     { color: '#E8F5E9', accent: '#4CAF50' },
+};
+
+function cuisineToColors(cuisine: string | null): { color: string; accent: string } {
+  if (!cuisine) return CUISINE_COLORS.default;
+  return CUISINE_COLORS[cuisine.toLowerCase()] ?? CUISINE_COLORS.default;
+}
+
+function dbToRecipe(r: {
+  id: string;
+  title: string;
+  cuisine: string | null;
+  timeMinutes: number | null;
+  calories: number | null;
+  portions: number | null;
+  emoji: string | null;
+  ingredients: unknown;
+  steps: unknown;
+  notes: unknown;
+}): Recipe {
+  const steps = (r.steps as DbStep[]) ?? [];
+  const ingredients = (r.ingredients as DbIngredient[]) ?? [];
+  const notes = r.notes as DbNotes;
+
+  return {
+    id: r.id,
+    name: r.title,
+    time: r.timeMinutes ? `${r.timeMinutes} min` : '—',
+    kcal: r.calories ? `${r.calories} kcal` : '—',
+    tags: [],
+    emoji: r.emoji ?? '🍽️',
+    ...cuisineToColors(r.cuisine),
+    desc: notes?.chef?.[0] ?? steps[0]?.title ?? '',
+    description: notes?.chef?.join(' ') ?? '',
+    portions: r.portions ?? undefined,
+    ingredients: ingredients.map(i => ({ qty: i.quantity, name: i.name })),
+    steps: steps.flatMap(s => s.instructions),
   };
+}
 
-  return (
-    <>
-      {/* En-tête */}
-      <div className="mb-7 flex flex-wrap items-end justify-between gap-3">
-        <div>
-          <h1 className="mb-1 font-[family-name:var(--font-playfair)] text-3xl font-bold text-[var(--color-text)]">
-            Mes recettes
-          </h1>
-          <p className="text-sm text-[var(--color-text-muted)]">
-            Semaine du 3 au 7 mars · 5 repas · Cliquer sur une recette pour les détails
-          </p>
-        </div>
-        <Button variant="primary" size="sm" onClick={() => router.push("/grocery-list")}>📋 Liste d&apos;épicerie</Button>
-      </div>
+export default async function RecipesPage() {
+  const session = await auth();
+  if (!session?.user?.id) redirect('/login');
 
-      {/* Grille */}
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-[18px]">
-        {SAMPLE_RECIPES.map((recipe) => (
-          <div key={recipe.id ?? recipe.name} className="relative">
-            {/* Overlay de régénération */}
-            {recipe.id !== undefined && regenIds.has(recipe.id) && (
-              <div
-                className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-2 rounded-2xl text-[13px] font-semibold text-[var(--color-primary)]"
-                style={{
-                  background: "rgba(250,248,245,0.85)",
-                  backdropFilter: "blur(2px)",
-                }}
-              >
-                <span className="inline-block animate-[spin_1s_linear_infinite] text-2xl">
-                  ⟳
-                </span>
-                Génération…
-              </div>
-            )}
-            <RecipesCard recipe={recipe} onOpen={setSelected} />
-          </div>
-        ))}
-      </div>
+  const dbRecipes = await prisma.recipe.findMany({
+    where: { userId: session.user.id },
+    orderBy: { createdAt: 'desc' },
+    take: 5,
+  });
 
-      {/* Modal */}
-      {selected && (
-        <RecipeDetail
-          recipe={selected}
-          onClose={() => setSelected(null)}
-          onRegenerate={handleRegenerate}
-        />
-      )}
-    </>
-  );
+  const recipes: Recipe[] = dbRecipes.map(dbToRecipe);
+
+  return <RecipesGrid recipes={recipes} />;
 }
