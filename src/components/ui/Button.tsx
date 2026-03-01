@@ -3,16 +3,12 @@
 import React from "react";
 
 // Minimal Slot — clones the child element injecting button props
-function Slot({
-  children,
-  ...props
-}: { children: React.ReactElement } & React.HTMLAttributes<HTMLElement>) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function Slot({ children, ...props }: { children: React.ReactElement<any> } & React.HTMLAttributes<HTMLElement>) {
   return React.cloneElement(children, {
     ...props,
     ...children.props,
-    className: [props.className, children.props.className]
-      .filter(Boolean)
-      .join(" "),
+    className: [props.className, children.props.className].filter(Boolean).join(" "),
   });
 }
 
