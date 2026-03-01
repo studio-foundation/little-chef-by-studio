@@ -8,6 +8,8 @@ import {
   GENERATION_MESSAGES,
   SAMPLE_RECIPES,
 } from "@/src/components/generate/sampleData";
+import PageLayout from "@/src/components/ui/PageLayout";
+import { Button } from "@/src/components/ui";
 
 type GenerationState = "idle" | "generating" | "success";
 
@@ -72,53 +74,41 @@ export default function GeneratePage() {
   const isDone = state === "success";
 
   return (
-    <>
-      {/* Titre + sous-titre + actions */}
-      <div className="mb-8">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div>
-            <h1 className="mb-1.5 font-[family-name:var(--font-playfair)] text-3xl font-bold text-[var(--color-text)]">
-              {isDone ? "Ta semaine est prête 🎉" : "Ma semaine"}
-            </h1>
-            <p className="text-sm text-[var(--color-text-muted)]">
-              {isIdle && "5 repas générés selon tes préférences"}
-              {isGenerating && (
-                <span key={msgIndex} className="animate-[fadeSlideUp_0.4s_ease]">
-                  {GENERATION_MESSAGES[msgIndex]}
-                </span>
-              )}
-              {isDone && "Semaine du 3 au 7 mars 2026"}
-            </p>
-          </div>
-
-          {/* Boutons */}
-          <div className="flex items-center gap-2.5">
-            {isGenerating && (
-              <button
-                onClick={cancel}
-                className="rounded-xl border border-[var(--color-border)] bg-white px-5 py-2.5 text-sm text-[var(--color-text-muted)] transition-colors hover:bg-[#f5f5f5]"
-              >
-                Annuler
-              </button>
-            )}
-            {(isIdle || isDone) && (
-              <button
-                onClick={isDone ? reset : startGeneration}
-                className="rounded-xl bg-[var(--color-primary)] px-7 py-3 text-[15px] font-bold text-white shadow-[0_4px_16px_rgba(196,96,45,0.3)] transition-all hover:-translate-y-0.5 hover:bg-[var(--color-primary-hover)] hover:shadow-[0_8px_24px_rgba(196,96,45,0.35)] active:translate-y-0"
-              >
-                {isDone ? "↺ Regénérer" : "✨ Générer ma semaine"}
-              </button>
-            )}
-          </div>
+    <PageLayout
+      title={isDone ? "Ta semaine est prête 🎉" : "Ma semaine"}
+      description={
+        <>
+          {isIdle && "5 repas générés selon tes préférences"}
+          {isGenerating && (
+            <span key={msgIndex} className="animate-[fadeSlideUp_0.4s_ease]">
+              {GENERATION_MESSAGES[msgIndex]}
+            </span>
+          )}
+          {isDone && "Semaine du 3 au 7 mars 2026"}
+        </>
+      }
+      headerAction={
+        <div className="flex items-center gap-2.5">
+          {isGenerating && (
+            <Button variant="outline" size="sm" onClick={cancel}>
+              Annuler
+            </Button>
+          )}
+          {(isIdle || isDone) && (
+            <Button variant="primary" size="lg" onClick={isDone ? reset : startGeneration}>
+              {isDone ? "↺ Regénérer" : "✨ Générer ma semaine"}
+            </Button>
+          )}
         </div>
+      }
+    >
+      {/* Progress bar */}
+      {isGenerating && (
+        <div className="mb-6 animate-[fadeSlideUp_0.3s_ease]">
+          <ProgressBar current={revealed} total={SAMPLE_RECIPES.length} />
+        </div>
+      )}
 
-        {/* Progress bar */}
-        {isGenerating && (
-          <div className="mt-5 animate-[fadeSlideUp_0.3s_ease]">
-            <ProgressBar current={revealed} total={SAMPLE_RECIPES.length} />
-          </div>
-        )}
-      </div>
 
       {/* Grid recettes */}
       <div className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-4">
@@ -157,15 +147,11 @@ export default function GeneratePage() {
             </p>
           </div>
           <div className="flex gap-2.5">
-            <button className="rounded-xl bg-[#f5f1eb] px-5 py-2.5 text-sm font-semibold text-[var(--color-primary)] transition-colors hover:bg-[#ede8e1]">
-              📋 Liste d'épicerie
-            </button>
-            <button className="rounded-xl bg-[var(--color-primary)] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[var(--color-primary-hover)]">
-              Voir les recettes →
-            </button>
+            <Button variant="ghost" size="sm">📋 Liste d&apos;épicerie</Button>
+            <Button variant="primary" size="sm">Voir les recettes →</Button>
           </div>
         </div>
       )}
-    </>
+    </PageLayout>
   );
 }
