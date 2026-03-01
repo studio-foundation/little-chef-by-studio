@@ -8,7 +8,7 @@ import { SAMPLE_RECIPES } from "@/src/components/generate/sampleData";
 import PageLayout from "@/src/components/ui/PageLayout";
 import { Button } from "@/src/components/ui";
 import { useRouter } from "next/navigation";
-import type { StageCompleteData, PipelineCompleteData } from "@/src/lib/studio/events";
+import type { StageStartData, StageCompleteData, PipelineCompleteData } from "@/src/lib/studio/events";
 
 const STUDIO_URL = process.env.NEXT_PUBLIC_STUDIO_API_URL ?? 'http://localhost:3001';
 const TOTAL = 5;
@@ -28,7 +28,7 @@ type PageState = 'idle' | 'generating' | 'success';
 
 export default function GeneratePage() {
   const [pageState, setPageState] = useState<PageState>('idle');
-  const [slots, setSlots] = useState<Slot[]>(Array(TOTAL).fill({ status: 'idle' }));
+  const [slots, setSlots] = useState<Slot[]>(Array.from({ length: TOTAL }, () => ({ status: 'idle' as SlotStatus })));
   const sourcesRef = useRef<EventSource[]>([]);
   const router = useRouter();
 
@@ -37,7 +37,7 @@ export default function GeneratePage() {
 
   const startGeneration = async () => {
     setPageState('generating');
-    setSlots(Array(TOTAL).fill({ status: 'idle' }));
+    setSlots(Array.from({ length: TOTAL }, () => ({ status: 'idle' as SlotStatus })));
 
     let runs: Array<{ run_id: string; stream_url: string }>;
     try {
@@ -58,7 +58,7 @@ export default function GeneratePage() {
       const es = new EventSource(`${STUDIO_URL}/api/runs/${run.run_id}/stream`);
 
       es.addEventListener('stage_start', (e) => {
-        const data = JSON.parse((e as MessageEvent).data) as StageCompleteData;
+        const data = JSON.parse((e as MessageEvent).data) as StageStartData;
         updateSlot(index, {
           currentStage: data.stage_name,
           stageIndex: data.stage_index,
@@ -110,14 +110,13 @@ export default function GeneratePage() {
     sourcesRef.current.forEach(es => es.close());
     sourcesRef.current = [];
     setPageState('idle');
-    setSlots(Array(TOTAL).fill({ status: 'idle' }));
+    setSlots(Array.from({ length: TOTAL }, () => ({ status: 'idle' as SlotStatus })));
   };
 
   const reset = () => {
     sourcesRef.current.forEach(es => es.close());
     sourcesRef.current = [];
-    setPageState('idle');
-    setSlots(Array(TOTAL).fill({ status: 'idle' }));
+    void startGeneration();
   };
 
   // Cleanup on unmount
