@@ -62,7 +62,8 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  const limit = Number(req.nextUrl.searchParams.get('limit') ?? '5');
+  const rawLimit = parseInt(req.nextUrl.searchParams.get('limit') ?? '5', 10);
+  const limit = Number.isFinite(rawLimit) && rawLimit > 0 ? Math.min(rawLimit, 20) : 5;
 
   try {
     const dbRecipes = await prisma.recipe.findMany({
