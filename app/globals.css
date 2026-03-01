@@ -1,26 +1,21 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Couleurs Little Chef */
+  --color-background: #FAF7F2;
+  --color-primary: #C4602D;
+  --color-primary-hover: #A84E24;
+  --color-secondary: #7A9E7E;
+  --color-text: #3B2A1A;
+  --color-text-muted: #7A6A5A;
+  --color-border: #E8E0D5;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Fonts */
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-playfair);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAF7F2;
+  color: #3B2A1A;
 }
