@@ -8,7 +8,7 @@ export interface Recipe {
   accent: string;  // vivid accent color, e.g. "#FF9800"
   desc: string;
   // Extended fields for /recipes page
-  id?: number;
+  id?: string;
   description?: string;
   portions?: number;
   protein?: string;

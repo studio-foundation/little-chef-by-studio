@@ -7,7 +7,7 @@ import { Button } from "@/src/components/ui";
 interface RecipeDetailProps {
   recipe: Recipe;
   onClose: () => void;
-  onRegenerate: (id: number) => void;
+  onRegenerate: (id: string) => void;
 }
 
 function NutritionPill({

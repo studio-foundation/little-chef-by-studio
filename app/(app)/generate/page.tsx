@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { ProgressBar } from "@/src/components/generate/ProgressBar";
 import { RecipeCard } from "@/src/components/generate/RecipeCard";
 import { SkeletonCard } from "@/src/components/generate/SkeletonCard";
-import { SAMPLE_RECIPES } from "@/src/components/generate/sampleData";
+import type { Recipe } from "@/src/components/generate/types";
 import PageLayout from "@/src/components/ui/PageLayout";
 import { Button } from "@/src/components/ui";
 import { useRouter } from "next/navigation";
@@ -29,6 +29,7 @@ export default function GeneratePage() {
   const [pageState, setPageState] = useState<PageState>('idle');
   const [slots, setSlots] = useState<Slot[]>(Array.from({ length: TOTAL }, () => ({ status: 'idle' as SlotStatus })));
   const sourcesRef = useRef<EventSource[]>([]);
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
   const router = useRouter();
 
   const updateSlot = (index: number, patch: Partial<Slot>) =>
@@ -36,6 +37,7 @@ export default function GeneratePage() {
 
   const startGeneration = async () => {
     setPageState('generating');
+    setRecipes([]);
     setSlots(Array.from({ length: TOTAL }, () => ({ status: 'idle' as SlotStatus })));
 
     let runs: Array<{ run_id: string; stream_url: string }>;
@@ -105,6 +107,14 @@ export default function GeneratePage() {
     }
   }, [slots, pageState]);
 
+  useEffect(() => {
+    if (pageState !== 'success') return;
+    fetch('/api/recipes?limit=5')
+      .then(res => res.ok ? res.json() as Promise<Recipe[]> : Promise.resolve([]))
+      .then(setRecipes)
+      .catch(() => { /* non-critical */ });
+  }, [pageState]);
+
   const cancel = () => {
     sourcesRef.current.forEach(es => es.close());
     sourcesRef.current = [];
@@ -115,6 +125,7 @@ export default function GeneratePage() {
   const reset = () => {
     sourcesRef.current.forEach(es => es.close());
     sourcesRef.current = [];
+    setRecipes([]);
     void startGeneration();
   };
 
@@ -192,11 +203,21 @@ export default function GeneratePage() {
             );
           }
           if (slot.status === 'done') {
-            // Afficher la recipe mock correspondante avec les données disponibles
-            // TODO: remplacer par les vraies données de l'output quand le parsing est implémenté
-            return (
-              <RecipeCard key={i} recipe={SAMPLE_RECIPES[i]} visible />
-            );
+            const recipe = recipes[i];
+            if (!recipe) {
+              return (
+                <div
+                  key={i}
+                  className="flex h-64 flex-col items-center justify-center gap-2 rounded-2xl border-2 border-[var(--color-border)] bg-white"
+                >
+                  <span className="text-[28px] opacity-40">✓</span>
+                  <span className="text-[13px] text-[var(--color-text-muted)]">
+                    Recette {i + 1} prête
+                  </span>
+                </div>
+              );
+            }
+            return <RecipeCard key={i} recipe={recipe} visible />;
           }
           if (slot.status === 'error') {
             return (

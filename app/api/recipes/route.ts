@@ -1,12 +1,7 @@
-import { redirect } from "next/navigation";
-import { auth } from "@/auth";
-import { prisma } from "@/src/lib/prisma";
-import { RecipesGrid } from "./RecipesGrid";
-import type { Recipe } from "@/src/components/generate/types";
-
-type DbStep = { order: number; title: string; instructions: string[] };
-type DbIngredient = { name: string; quantity: string };
-type DbNotes = { chef?: string[]; nutrition?: string } | null;
+import { NextRequest, NextResponse } from 'next/server';
+import { auth } from '@/auth';
+import { prisma } from '@/src/lib/prisma';
+import type { Recipe } from '@/src/components/generate/types';
 
 const CUISINE_COLORS: Record<string, { color: string; accent: string }> = {
   japonaise:   { color: '#FFF3E0', accent: '#FF9800' },
@@ -21,8 +16,13 @@ const CUISINE_COLORS: Record<string, { color: string; accent: string }> = {
 
 function cuisineToColors(cuisine: string | null): { color: string; accent: string } {
   if (!cuisine) return CUISINE_COLORS.default;
-  return CUISINE_COLORS[cuisine.toLowerCase()] ?? CUISINE_COLORS.default;
+  const key = cuisine.toLowerCase();
+  return CUISINE_COLORS[key] ?? CUISINE_COLORS.default;
 }
+
+type DbStep = { order: number; title: string; instructions: string[] };
+type DbIngredient = { name: string; quantity: string };
+type DbNotes = { chef?: string[]; nutrition?: string } | null;
 
 function dbToRecipe(r: {
   id: string;
@@ -56,21 +56,26 @@ function dbToRecipe(r: {
   };
 }
 
-export default async function RecipesPage() {
+export async function GET(req: NextRequest) {
   const session = await auth();
-  if (!session?.user?.id) redirect('/login');
+  if (!session?.user?.id) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
 
-  let recipes: Recipe[] = [];
+  const rawLimit = parseInt(req.nextUrl.searchParams.get('limit') ?? '5', 10);
+  const limit = Number.isFinite(rawLimit) && rawLimit > 0 ? Math.min(rawLimit, 20) : 5;
+
   try {
     const dbRecipes = await prisma.recipe.findMany({
       where: { userId: session.user.id },
       orderBy: { createdAt: 'desc' },
-      take: 5,
+      take: limit,
     });
-    recipes = dbRecipes.map(dbToRecipe);
-  } catch (err) {
-    console.error('[RecipesPage] DB error', err);
-  }
 
-  return <RecipesGrid recipes={recipes} />;
+    const recipes: Recipe[] = dbRecipes.map(dbToRecipe);
+    return NextResponse.json(recipes);
+  } catch (err) {
+    console.error('[GET /api/recipes]', err);
+    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+  }
 }
