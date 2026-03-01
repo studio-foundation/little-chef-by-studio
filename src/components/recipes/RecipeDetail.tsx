@@ -163,7 +163,7 @@ export function RecipeDetail({
                     >
                       {i + 1}
                     </span>
-                    <p className="text-[15px] leading-relaxed text-[#333]">
+                    <p className="text-[15px] leading-relaxed text-[var(--color-text)]">
                       {step}
                     </p>
                   </li>
