@@ -5,6 +5,7 @@ import type { Recipe } from "@/src/components/generate/types";
 import { SAMPLE_RECIPES } from "@/src/components/generate/sampleData";
 import { RecipesCard } from "@/src/components/recipes/RecipesCard";
 import { RecipeDetail } from "@/src/components/recipes/RecipeDetail";
+import { Button } from "@/src/components/ui";
 
 export default function RecipesPage() {
   const [selected, setSelected] = useState<Recipe | null>(null);
@@ -33,9 +34,7 @@ export default function RecipesPage() {
             Semaine du 3 au 7 mars · 5 repas · Cliquer sur une recette pour les détails
           </p>
         </div>
-        <button className="rounded-xl bg-[var(--color-primary)] px-5 py-2.5 text-sm font-bold text-white shadow-[0_3px_12px_rgba(196,96,45,0.28)] transition-colors hover:bg-[var(--color-primary-hover)]">
-          📋 Liste d&apos;épicerie
-        </button>
+        <Button variant="primary" size="sm">📋 Liste d&apos;épicerie</Button>
       </div>
 
       {/* Grille */}

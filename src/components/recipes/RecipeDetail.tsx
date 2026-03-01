@@ -183,7 +183,7 @@ export function RecipeDetail({
               isLoading={regenerating}
               className="flex-1"
             >
-              {regenerating ? "Génération…" : "↺ Régénérer cette recette"}
+              ↺ Régénérer cette recette
             </Button>
             <Button variant="primary" className="flex-1">⭐ Sauvegarder</Button>
           </div>

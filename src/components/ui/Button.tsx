@@ -2,13 +2,14 @@
 
 import React from "react";
 
-// Minimal Slot — clones the child element injecting button props
+// Minimal Slot — clones the child element injecting button props.
+// Parent (button) props take precedence over child props; className is merged.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function Slot({ children, ...props }: { children: React.ReactElement<any> } & React.HTMLAttributes<HTMLElement>) {
   return React.cloneElement(children, {
-    ...props,
     ...children.props,
-    className: [props.className, children.props.className].filter(Boolean).join(" "),
+    ...props,
+    className: [children.props.className, props.className].filter(Boolean).join(" "),
   });
 }
 
@@ -49,7 +50,7 @@ export function Button({
   const isIcon = variant === "icon";
 
   const classes = [
-    "inline-flex items-center justify-center transition-all",
+    "inline-flex items-center justify-center transition-all disabled:cursor-not-allowed disabled:opacity-60",
     variantClasses[variant],
     !isIcon ? sizeClasses[size] : "",
     className,

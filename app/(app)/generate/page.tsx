@@ -74,24 +74,41 @@ export default function GeneratePage() {
   const isDone = state === "success";
 
   return (
-    <PageLayout title= {isDone ? "Ta semaine est prête 🎉" : "Ma semaine"} description={<> {isIdle && "5 repas générés selon tes préférences"}
-    {isGenerating && (
-      <span key={msgIndex} className="animate-[fadeSlideUp_0.4s_ease]">
-        {GENERATION_MESSAGES[msgIndex]}
-      </span>
-    )}
-    {isDone && "Semaine du 3 au 7 mars 2026"}</>} headerAction={<Button variant="primary" size="sm">📋 Liste d&apos;épicerie</Button>} >
-      {/* Titre + sous-titre + actions */}
-    
-        
+    <PageLayout
+      title={isDone ? "Ta semaine est prête 🎉" : "Ma semaine"}
+      description={
+        <>
+          {isIdle && "5 repas générés selon tes préférences"}
+          {isGenerating && (
+            <span key={msgIndex} className="animate-[fadeSlideUp_0.4s_ease]">
+              {GENERATION_MESSAGES[msgIndex]}
+            </span>
+          )}
+          {isDone && "Semaine du 3 au 7 mars 2026"}
+        </>
+      }
+      headerAction={
+        <div className="flex items-center gap-2.5">
+          {isGenerating && (
+            <Button variant="outline" size="sm" onClick={cancel}>
+              Annuler
+            </Button>
+          )}
+          {(isIdle || isDone) && (
+            <Button variant="primary" size="lg" onClick={isDone ? reset : startGeneration}>
+              {isDone ? "↺ Regénérer" : "✨ Générer ma semaine"}
+            </Button>
+          )}
+        </div>
+      }
+    >
+      {/* Progress bar */}
+      {isGenerating && (
+        <div className="mb-6 animate-[fadeSlideUp_0.3s_ease]">
+          <ProgressBar current={revealed} total={SAMPLE_RECIPES.length} />
+        </div>
+      )}
 
-        {/* Progress bar */}
-        {isGenerating && (
-          <div className="mt-5 animate-[fadeSlideUp_0.3s_ease]">
-            <ProgressBar current={revealed} total={SAMPLE_RECIPES.length} />
-          </div>
-        )}
-   
 
       {/* Grid recettes */}
       <div className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-4">
