@@ -17,6 +17,7 @@ stages:
 
   - group: recipe-generation
     mode: parallel
+    max_iterations: 1
     on_failure: collect-all
     stages:
       - name: recipe-1
