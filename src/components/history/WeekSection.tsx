@@ -19,8 +19,10 @@ export function WeekSection({ week, isOpen, onToggle, weekLabel }: WeekSectionPr
     <div className="overflow-hidden rounded-2xl border border-[#e8e0d5] bg-white">
       {/* Header accordéon */}
       <button
+        type="button"
         onClick={onToggle}
-        className="flex w-full items-center justify-between px-5 py-4 text-left hover:bg-[#faf5ef] transition-colors"
+        aria-expanded={isOpen}
+        className="flex w-full items-center justify-between px-5 py-4 text-left hover:bg-[#faf5ef] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[var(--color-primary)]"
       >
         <div className="flex items-center gap-3">
           <span className="font-[family-name:var(--font-playfair)] text-lg font-bold text-[var(--color-text)]">
@@ -36,9 +38,9 @@ export function WeekSection({ week, isOpen, onToggle, weekLabel }: WeekSectionPr
         <div className="flex items-center gap-3">
           {/* Emoji chips — desktop: 5, mobile: 3 + "+N" */}
           <div className="hidden items-center gap-1 sm:flex">
-            {week.recipes.slice(0, 5).map((r, i) => (
+            {week.recipes.slice(0, 5).map((r) => (
               <span
-                key={i}
+                key={r.id}
                 className="flex h-8 w-8 items-center justify-center rounded-full bg-[#FAF7F2] text-lg"
               >
                 {r.emoji ?? '🍽️'}
@@ -46,9 +48,9 @@ export function WeekSection({ week, isOpen, onToggle, weekLabel }: WeekSectionPr
             ))}
           </div>
           <div className="flex items-center gap-1 sm:hidden">
-            {week.recipes.slice(0, 3).map((r, i) => (
+            {week.recipes.slice(0, 3).map((r) => (
               <span
-                key={i}
+                key={r.id}
                 className="flex h-8 w-8 items-center justify-center rounded-full bg-[#FAF7F2] text-lg"
               >
                 {r.emoji ?? '🍽️'}
