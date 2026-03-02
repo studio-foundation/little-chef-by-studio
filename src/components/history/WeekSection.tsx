@@ -1,6 +1,6 @@
 'use client'
 
-import { useTransition } from 'react'
+import { useState } from 'react'
 import type { WeekWithRecipes } from './types'
 import { toggleFavorite } from './actions'
 
@@ -12,7 +12,7 @@ interface WeekSectionProps {
 }
 
 export function WeekSection({ week, isOpen, onToggle, weekLabel }: WeekSectionProps) {
-  const [isPending, startTransition] = useTransition()
+  const [pendingId, setPendingId] = useState<string | null>(null)
   const favoriteCount = week.recipes.filter(r => r.isFavorite).length
 
   return (
@@ -98,9 +98,14 @@ export function WeekSection({ week, isOpen, onToggle, weekLabel }: WeekSectionPr
                   </div>
                 </div>
                 <button
-                  onClick={() => startTransition(() => toggleFavorite(recipe.id))}
-                  disabled={isPending}
-                  className={`shrink-0 text-xl transition-opacity ${isPending ? 'opacity-40' : 'opacity-100'} ${
+                  type="button"
+                  onClick={async () => {
+                    setPendingId(recipe.id)
+                    await toggleFavorite(recipe.id)
+                    setPendingId(null)
+                  }}
+                  disabled={pendingId === recipe.id}
+                  className={`shrink-0 text-xl transition-opacity ${pendingId === recipe.id ? 'opacity-40' : 'opacity-100'} ${
                     recipe.isFavorite ? 'text-[var(--color-primary)]' : 'text-[#d4c8bc]'
                   }`}
                   aria-label={recipe.isFavorite ? 'Retirer des favoris' : 'Ajouter aux favoris'}
