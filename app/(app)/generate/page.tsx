@@ -9,6 +9,7 @@ import PageLayout from "@/src/components/ui/PageLayout";
 import { Button } from "@/src/components/ui";
 import { useRouter } from "next/navigation";
 import type { StageStartData, StageCompleteData, PipelineCompleteData } from "@/src/lib/studio/events";
+import { startWeeklyPlan } from "@/src/lib/studio/client";
 
 const TOTAL = 5;
 
@@ -28,7 +29,7 @@ type PageState = 'idle' | 'generating' | 'success';
 export default function GeneratePage() {
   const [pageState, setPageState] = useState<PageState>('idle');
   const [slots, setSlots] = useState<Slot[]>(Array.from({ length: TOTAL }, () => ({ status: 'idle' as SlotStatus })));
-  const sourcesRef = useRef<EventSource[]>([]);
+  const sourcesRef = useRef<EventSource | null>(null);
   const [recipes, setRecipes] = useState<Recipe[]>([]);
   const router = useRouter();
 
@@ -40,62 +41,59 @@ export default function GeneratePage() {
     setRecipes([]);
     setSlots(Array.from({ length: TOTAL }, () => ({ status: 'idle' as SlotStatus })));
 
-    let runs: Array<{ run_id: string; stream_url: string }>;
+    let runId: string;
     try {
-      const res = await fetch('/api/generate', { method: 'POST' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const body = await res.json() as { runs: Array<{ run_id: string; stream_url: string }> };
-      runs = body.runs;
+      // startWeeklyPlan prend un userId — passe '' comme placeholder
+      // Le proxy /api/runs ajoute le userId depuis la session côté serveur
+      const run = await startWeeklyPlan('');
+      runId = run.run_id;
     } catch {
       setPageState('idle');
       return;
     }
 
-    // Initialiser les slots avec les run_ids
-    setSlots(runs.map(r => ({ status: 'running' as SlotStatus, runId: r.run_id })));
+    // 1 seul EventSource pour le run meal-planner-weekly
+    const es = new EventSource(`/api/runs/${runId}/stream`);
+    sourcesRef.current = es;
 
-    // Ouvrir 5 EventSource en parallèle
-    sourcesRef.current = runs.map((run, index) => {
-      const es = new EventSource(`/api/runs/${run.run_id}/stream`);
-
-      es.addEventListener('stage_start', (e) => {
-        const data = JSON.parse((e as MessageEvent).data) as StageStartData;
-        updateSlot(index, {
-          currentStage: data.stage_name,
-          stageIndex: data.stage_index,
-          totalStages: data.total_stages,
-        });
-      });
-
-      es.addEventListener('stage_complete', (e) => {
-        const data = JSON.parse((e as MessageEvent).data) as StageCompleteData;
-        updateSlot(index, {
-          currentStage: data.stage_name,
-          stageIndex: data.stage_index,
-          totalStages: data.total_stages,
-          summary: data.output_summary ?? undefined,
-        });
-      });
-
-      es.addEventListener('pipeline_complete', (e) => {
-        const data = JSON.parse((e as MessageEvent).data) as PipelineCompleteData;
-        updateSlot(index, {
-          status: data.status === 'success' ? 'done' : 'error',
-          currentStage: undefined,
-        });
-      });
-
-      es.addEventListener('done', () => {
-        es.close();
-      });
-
-      es.onerror = () => {
-        updateSlot(index, { status: 'error' });
-        es.close();
-      };
-
-      return es;
+    es.addEventListener('stage_start', (e) => {
+      const data = JSON.parse((e as MessageEvent).data) as StageStartData;
+      const match = data.stage_name.match(/^recipe-(\d+)$/);
+      if (!match) return;
+      const idx = parseInt(match[1], 10) - 1;
+      updateSlot(idx, { status: 'running', currentStage: 'Génération en cours...' });
     });
+
+    es.addEventListener('stage_complete', (e) => {
+      const data = JSON.parse((e as MessageEvent).data) as StageCompleteData;
+      const match = data.stage_name.match(/^recipe-(\d+)$/);
+      if (!match) return;
+      const idx = parseInt(match[1], 10) - 1;
+      updateSlot(idx, {
+        status: data.status === 'success' ? 'done' : 'error',
+        currentStage: undefined,
+      });
+    });
+
+    es.addEventListener('pipeline_complete', (e) => {
+      const data = JSON.parse((e as MessageEvent).data) as PipelineCompleteData;
+      if (data.status !== 'success') {
+        setSlots(prev => prev.map(s =>
+          s.status === 'running' ? { ...s, status: 'error' as SlotStatus } : s
+        ));
+      }
+    });
+
+    es.addEventListener('done', () => {
+      es.close();
+    });
+
+    es.onerror = () => {
+      setSlots(prev => prev.map(s =>
+        s.status === 'running' ? { ...s, status: 'error' as SlotStatus } : s
+      ));
+      es.close();
+    };
   };
 
   // Passer à 'success' quand tous les slots sont done/error
@@ -116,22 +114,22 @@ export default function GeneratePage() {
   }, [pageState]);
 
   const cancel = () => {
-    sourcesRef.current.forEach(es => es.close());
-    sourcesRef.current = [];
+    sourcesRef.current?.close();
+    sourcesRef.current = null;
     setPageState('idle');
     setSlots(Array.from({ length: TOTAL }, () => ({ status: 'idle' as SlotStatus })));
   };
 
   const reset = () => {
-    sourcesRef.current.forEach(es => es.close());
-    sourcesRef.current = [];
+    sourcesRef.current?.close();
+    sourcesRef.current = null;
     setRecipes([]);
     void startGeneration();
   };
 
   // Cleanup on unmount
   useEffect(() => {
-    return () => { sourcesRef.current.forEach(es => es.close()); };
+    return () => { sourcesRef.current?.close(); };
   }, []);
 
   const doneCount = slots.filter(s => s.status === 'done').length;
