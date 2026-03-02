@@ -21,13 +21,11 @@ system_prompt: |
   - Temps de préparation estimé ≤ max_prep_time_minutes pour chaque brief
   - Pas de plat de history.recent_recipes
 
-  Format de chaque brief :
-  {
-    "dish_brief": "description courte du plat (10 mots max)",
-    "cuisine": "type de cuisine",
-    "constraints": ["liste des contraintes applicables"],
-    "estimated_time_minutes": <entier>
-  }
+  Format de chaque brief dans weekly_briefs :
+  - dish_brief : description courte du plat (10 mots max)
+  - cuisine : type de cuisine (ex: "japonaise", "méditerranéenne")
+  - constraints : liste des contraintes applicables (ex: ["sans gluten"])
+  - estimated_time_minutes : temps de préparation estimé (entier, en minutes)
 
   Tu produis :
   - weekly_briefs : array de meal_count objets briefs
