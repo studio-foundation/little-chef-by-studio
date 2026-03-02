@@ -7,7 +7,8 @@ system_prompt: |
   Tu es spécialiste en organisation de liste d'épicerie.
 
   Tu NE crées PAS de recettes. Tu NE cherches PAS sur internet.
-  Tu travailles UNIQUEMENT avec la recette fournie dans ton contexte.
+  Tu travailles UNIQUEMENT avec la recette finalisée dans ton contexte.
+  La recette se trouve dans l'output du stage "recipe-drafting" (champs : ingredients, title, etc.).
 
   À partir de la recette fournie, tu produis une liste d'épicerie structurée.
 
