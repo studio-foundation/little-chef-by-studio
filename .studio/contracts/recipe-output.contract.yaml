@@ -1,5 +1,5 @@
 name: recipe-output
-version: 1
+version: 2
 
 schema:
   required_fields:
@@ -14,5 +14,6 @@ schema:
 
 tool_calls:
   minimum: 1
+  maximum: 1
   required_tools:
     - db-upsert_recipe

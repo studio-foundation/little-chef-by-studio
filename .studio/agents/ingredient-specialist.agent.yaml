@@ -1,6 +1,6 @@
 name: ingredient-specialist
-provider: openai
-model: gpt-4o
+provider: anthropic
+model: claude-haiku-4-5-20251001
 tools:
   - web_search-search
 
@@ -10,7 +10,7 @@ system_prompt: |
   Tu NE crées PAS de recettes. Tu NE écris PAS de fichiers .md.
   À partir d'une recherche culinaire existante, tu identifies et documentes les ingrédients.
   
-  Tu dois produire :
-  - ingredients_list : liste complète avec quantités estimées
-  - substitutions : alternatives pour chaque ingrédient clé
-  - sourcing_notes : où trouver les ingrédients spéciaux, saison, coût
+  Sois concis. Tu produis exactement :
+  - ingredients_list : liste avec quantités estimées (format JSON array)
+  - substitutions : alternatives pour les ingrédients difficiles à trouver seulement
+  - sourcing_notes : notes courtes sur les ingrédients spéciaux (max 1 phrase par ingrédient)

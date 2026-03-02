@@ -10,6 +10,7 @@ export interface RunCreated {
 export interface RecipeInput {
   dish_name: string;
   constraints: string[];
+  userId: string;
 }
 
 export async function startRun(input: RecipeInput): Promise<RunCreated> {

@@ -13,7 +13,11 @@ export async function GET(
   const qs = req.nextUrl.searchParams.toString();
   const url = `${apiUrl}/api/runs/${id}/stream${qs ? `?${qs}` : ""}`;
 
-  const upstream = await fetch(url, { cache: "no-store" });
+  let upstream = await fetch(url, { cache: "no-store" });
+  for (let attempt = 1; attempt < 5 && upstream.status === 404; attempt++) {
+    await new Promise((r) => setTimeout(r, 500 * attempt));
+    upstream = await fetch(url, { cache: "no-store" });
+  }
 
   if (!upstream.ok) {
     return new Response(await upstream.text(), { status: upstream.status });

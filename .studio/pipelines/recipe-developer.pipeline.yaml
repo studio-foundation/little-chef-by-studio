@@ -1,6 +1,6 @@
 name: recipe-developer
 description: Research, develop and validate a complex recipe from a brief
-version: 1
+version: 2
 
 stages:
   - name: culinary-research
@@ -33,17 +33,17 @@ stages:
     context:
       include:
         - input
-        - all_stage_outputs
+        - previous_stage_output # était: all_stage_outputs — nutritionist n'a besoin que des ingrédients
 
   - group: recipe-refinement
-    max_iterations: 4
+    max_iterations: 3 # était: 4 — 3 suffisent, la 4e itération coûte cher pour peu de gain
     stages:
       - name: recipe-drafting
         kind: creation
         agent: recipe-writer
         contract: recipe-output
         ralph:
-          max_attempts: 5
+          max_attempts: 3 # était: 5 — réduit les retry coûteux
         context:
           include:
             - input
@@ -58,7 +58,7 @@ stages:
         agent: culinary-critic
         contract: technique-validations
         ralph:
-          max_attempts: 3
+          max_attempts: 2 # était: 3 — la validation est binaire, 2 tentatives suffisent
         context:
           include:
             - previous_stage_output

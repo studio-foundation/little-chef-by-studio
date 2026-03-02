@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
-import { startRun, type RecipeInput } from '@/src/lib/studio/client';
+import { auth } from '@/auth';
+import { startRun } from '@/src/lib/studio/client';
 
-// 5 recettes MVP — remplacées par le profil utilisateur plus tard
-const RECIPE_REQUESTS: RecipeInput[] = [
+const DISH_REQUESTS = [
   { dish_name: 'Ramen tonkotsu végétalien', constraints: ['sans produits animaux', '90 min max', '4 personnes'] },
   { dish_name: 'Buddha bowl quinoa', constraints: ['sans gluten', '30 min max', '2 personnes'] },
   { dish_name: 'Curry de pois chiches', constraints: ['végétalien', '45 min max', '4 personnes'] },
@@ -11,8 +11,16 @@ const RECIPE_REQUESTS: RecipeInput[] = [
 ];
 
 export async function POST() {
+  const session = await auth();
+  if (!session?.user?.id) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
   try {
-    const runs = await Promise.all(RECIPE_REQUESTS.map(startRun));
+    const runs: Awaited<ReturnType<typeof startRun>>[] = [];
+    for (const dish of DISH_REQUESTS) {
+      runs.push(await startRun({ ...dish, userId: session.user.id }));
+    }
     return NextResponse.json({ runs });
   } catch (err) {
     const message = err instanceof Error ? err.message : 'Studio API unreachable';
