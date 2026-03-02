@@ -1,0 +1,22 @@
+name: recipe-runs
+version: 1
+
+schema:
+  required_fields:
+    - runs
+    - runs_count
+    - status
+
+tool_calls:
+  minimum: 1
+
+post_validation:
+  rejection_detection:
+    field: status
+    approved_values:
+      - complete
+    rejected_values:
+      - incomplete
+      - error
+    details_field: runs_errors
+    summary_field: runs_count
