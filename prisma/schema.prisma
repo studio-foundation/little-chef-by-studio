@@ -69,6 +69,8 @@ model Recipe {
   userId            String
   user              User               @relation(fields: [userId], references: [id])
   WeeklyPlanRecipes WeeklyPlanRecipe[]
+
+  @@index([userId, isFavorite])
 }
 
 model WeeklyPlan {
