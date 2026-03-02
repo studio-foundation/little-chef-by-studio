@@ -1,8 +1,8 @@
 name: meal-planner-weekly
 description: >
   Orchestrates N recipe runs per week (N = week_constraints.meal_count, default 5, range 3-7).
-  Selects N diverse meal briefs, runs recipe-developer for each, consolidates grocery list.
-version: 1
+  Selects N diverse meal briefs, runs recipe-developer for each in parallel, consolidates grocery list.
+version: 2
 
 stages:
   - name: meal-selection
@@ -15,19 +15,84 @@ stages:
       include:
         - input
 
-  - name: recipe-runs
-    kind: orchestration
-    agent: recipe-orchestrator
-    contract: recipe-runs
-    ralph:
-      max_attempts: 2
-    context:
-      include:
-        - input
-        - previous_stage_output
-    tools:
-      required:
-        - studio_run-run_pipeline
+  - group: recipe-generation
+    mode: parallel
+    on_failure: collect-all
+    stages:
+      - name: recipe-1
+        kind: orchestration
+        agent: meal-orchestrator
+        contract: recipe-run
+        ralph:
+          max_attempts: 2
+        context:
+          include:
+            - input
+            - previous_stage_output
+            - stage_name
+        tools:
+          required:
+            - studio_run-run_pipeline
+
+      - name: recipe-2
+        kind: orchestration
+        agent: meal-orchestrator
+        contract: recipe-run
+        ralph:
+          max_attempts: 2
+        context:
+          include:
+            - input
+            - previous_stage_output
+            - stage_name
+        tools:
+          required:
+            - studio_run-run_pipeline
+
+      - name: recipe-3
+        kind: orchestration
+        agent: meal-orchestrator
+        contract: recipe-run
+        ralph:
+          max_attempts: 2
+        context:
+          include:
+            - input
+            - previous_stage_output
+            - stage_name
+        tools:
+          required:
+            - studio_run-run_pipeline
+
+      - name: recipe-4
+        kind: orchestration
+        agent: meal-orchestrator
+        contract: recipe-run
+        ralph:
+          max_attempts: 2
+        context:
+          include:
+            - input
+            - previous_stage_output
+            - stage_name
+        tools:
+          required:
+            - studio_run-run_pipeline
+
+      - name: recipe-5
+        kind: orchestration
+        agent: meal-orchestrator
+        contract: recipe-run
+        ralph:
+          max_attempts: 2
+        context:
+          include:
+            - input
+            - previous_stage_output
+            - stage_name
+        tools:
+          required:
+            - studio_run-run_pipeline
 
   - name: consolidate-grocery-list
     kind: aggregation
