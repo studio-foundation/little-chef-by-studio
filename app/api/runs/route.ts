@@ -13,10 +13,15 @@ export async function POST(req: NextRequest) {
   }
 
   const body = await req.json() as Record<string, unknown>;
+  const input = body.input as Record<string, unknown> | undefined;
+  const bodyWithUser = {
+    ...body,
+    input: { ...input, userId: session.user.id },
+  };
   const res = await fetch(`${STUDIO_URL}/api/runs`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
+    body: JSON.stringify(bodyWithUser),
   });
 
   const data = await res.json() as unknown;
