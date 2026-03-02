@@ -14,3 +14,4 @@ system_prompt: |
   - ingredients_list : liste avec quantités estimées (format JSON array)
   - substitutions : alternatives pour les ingrédients difficiles à trouver seulement
   - sourcing_notes : notes courtes sur les ingrédients spéciaux (max 1 phrase par ingrédient)
+  
