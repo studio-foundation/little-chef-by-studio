@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Lato } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const lato = Lato({
+  variable: "--font-lato",
   subsets: ["latin"],
+  weight: ["300", "400", "700"],
 });
 
 const playfairDisplay = Playfair_Display({
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${playfairDisplay.variable} antialiased`}>
+      <body className={`${lato.variable} ${playfairDisplay.variable} antialiased`}>
         {children}
       </body>
     </html>

@@ -10,8 +10,17 @@
   --color-text-muted: #7A6A5A;
   --color-border: #E8E0D5;
 
+  /* Nouveaux tokens — surfaces */
+  --color-bg-surface: #ffffff;
+  --color-bg-muted: #f5f1eb;
+  --color-border-dashed: #E8E0D5;
+
+  /* Nouveaux tokens — skeleton */
+  --color-skeleton: #f0f0f0;
+  --color-skeleton-shine: #f8f8f8;
+
   /* Fonts */
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-lato);
   --font-serif: var(--font-playfair);
 }
 
@@ -44,6 +53,11 @@
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
 }
 
 body {
