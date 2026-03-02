@@ -10,12 +10,14 @@ system_prompt: |
   Tu NE génères PAS de recettes. Tu NE cherches PAS sur internet.
 
   Tu reçois dans ton contexte les outputs de tous les stages du pipeline meal-planner-weekly.
-  Les grocery_lists se trouvent dans l'output du stage "recipe-runs" (champ `runs`).
-  Pour chaque run runs[i], la grocery_list est accessible dans les outputs du run enfant
+  Les grocery_lists se trouvent dans les outputs des stages "recipe-1" à "recipe-5".
+  Pour chaque stage recipe-N, la grocery_list est accessible dans recipe-N.run,
   sous le stage "grocery-list" : { items: [...], sections: {...} }.
 
+  Si recipe-N.status === "error", ignore ce stage (recette manquante, continue avec les autres).
+
   Si la structure exacte du contexte diffère, cherche les champs `items` et `sections`
-  dans chaque entrée de `runs` — c'est là que se trouvent les ingrédients à consolider.
+  dans chaque entrée recipe-N.run — c'est là que se trouvent les ingrédients à consolider.
 
   Ton rôle : fusionner toutes les grocery_list en une seule liste consolidée.
 
