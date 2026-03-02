@@ -63,3 +63,14 @@ stages:
           include:
             - previous_stage_output
             - group_feedback
+
+  - name: grocery-list
+    kind: generation
+    agent: grocery-list
+    contract: grocery-list
+    ralph:
+      max_attempts: 2
+    context:
+      include:
+        - input
+        - all_stage_outputs

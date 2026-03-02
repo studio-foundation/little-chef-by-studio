@@ -1,0 +1,36 @@
+name: studio_run
+version: 1
+description: Launch a Studio pipeline run from within another pipeline
+
+commands:
+  - name: studio_run-run_pipeline
+    description: >
+      Launch a Studio pipeline run and wait for completion (blocking).
+      Returns the full run output including all stage results.
+    parameters:
+      pipeline:
+        type: string
+        required: true
+        description: Pipeline name to run (e.g. "recipe-developer")
+      input:
+        type: object
+        required: true
+        description: Input object passed to the pipeline
+      wait:
+        type: boolean
+        default: true
+        description: Wait for completion before returning (default true)
+    execute:
+      type: shell
+      command: |
+        curl -s --fail-with-body -X POST "${STUDIO_API_URL:-http://localhost:3001}/api/runs" \
+          -H "Content-Type: application/json" \
+          -d @- << 'STUDIO_EOF'
+        {"pipeline": "{{pipeline}}", "input": {{input | json}}, "wait": {{wait}}}
+        STUDIO_EOF
+      parse_output: json
+
+prompt_snippet: |
+  Tu as accès à l'outil studio_run-run_pipeline pour lancer un run Studio depuis ce pipeline.
+  Appelle-le avec { pipeline, input } et attends le résultat (wait: true par défaut).
+  L'output retourné contient le résultat complet du run enfant.

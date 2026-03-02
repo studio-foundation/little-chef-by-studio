@@ -19,10 +19,13 @@ export default async function HistoryPage() {
     },
   })
 
-  const weeks: WeekWithRecipes[] = weeklyPlans.map(plan => ({
+  type WeeklyPlanWithRecipes = (typeof weeklyPlans)[number]
+  type WeeklyPlanRecipeWithRecipe = WeeklyPlanWithRecipes['recipes'][number]
+
+  const weeks: WeekWithRecipes[] = weeklyPlans.map((plan: WeeklyPlanWithRecipes) => ({
     id: plan.id,
     weekStart: plan.weekStart,
-    recipes: plan.recipes.map(wpr => ({
+    recipes: plan.recipes.map((wpr: WeeklyPlanRecipeWithRecipe) => ({
       id: wpr.recipe.id,
       title: wpr.recipe.title,
       cuisine: wpr.recipe.cuisine,

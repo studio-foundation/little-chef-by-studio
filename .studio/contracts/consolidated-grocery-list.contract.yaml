@@ -1,0 +1,25 @@
+name: consolidated-grocery-list
+version: 1
+
+schema:
+  required_fields:
+    - items
+    - sections
+    - status
+
+tool_calls:
+  minimum: 1
+  maximum: 1
+  required_tools:
+    - db-upsert_grocery_list
+
+post_validation:
+  rejection_detection:
+    field: status
+    approved_values:
+      - complete
+    rejected_values:
+      - incomplete
+      - error
+    details_field: error_details
+    summary_field: total_items

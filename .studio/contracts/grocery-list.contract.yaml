@@ -1,0 +1,7 @@
+name: grocery-list
+version: 1
+
+schema:
+  required_fields:
+    - items
+    - sections

@@ -1,0 +1,43 @@
+# Input de test pour meal-planner-weekly
+# meal_count: 3..7 (défaut 5)
+
+userId: "dev-user-001"
+planId: "test-plan-001"
+
+week_constraints:
+  meal_count: 5
+  max_prep_time_minutes: 45
+  servings: 2
+  avoid_repeat_from_history: true
+
+profiles:
+  person_1:
+    name: "Ariane"
+    preferences:
+      - plats végétariens
+      - cuisine asiatique
+    dietary_constraints:
+      - sans gluten
+    sensory_profile:
+      spice_tolerance: low
+      texture_aversions:
+        - gluant
+      sauce_preference: light
+  person_2:
+    name: "Alex"
+    preferences:
+      - cuisine méditerranéenne
+    dietary_constraints: []
+    sensory_profile:
+      spice_tolerance: medium
+      texture_aversions: []
+      sauce_preference: heavy
+
+history:
+  recent_cuisines:
+    - italienne
+    - mexicaine
+  recent_recipes:
+    - Pasta primavera
+    - Tacos al pastor
+  favoris: []
