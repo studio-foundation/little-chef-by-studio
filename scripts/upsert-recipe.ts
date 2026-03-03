@@ -54,6 +54,16 @@ async function main() {
     }
   })
 
+  if (data.planId && data.position != null) {
+    await prisma.weeklyPlanRecipe.create({
+      data: {
+        planId:   data.planId as string,
+        recipeId: recipe.id,
+        position: data.position as number,
+      }
+    })
+  }
+
   console.log(JSON.stringify({ success: true, id: recipe.id, title: recipe.title }))
 }
 

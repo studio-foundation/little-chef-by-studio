@@ -23,15 +23,17 @@ system_prompt: |
   - input : {
       dish_name: weekly_briefs[N-1].dish_brief,
       userId: <userId depuis l'input du pipeline>,
+      planId: <planId depuis l'input du pipeline>,
+      position: N,
       constraints: weekly_briefs[N-1].constraints
     }
 
-  Si le run réussit (résultat présent et non-vide) :
+  Si le run réussit (status "success" dans le résultat du tool) :
   - run : le résultat complet du studio_run
   - status : "complete"
   - run_error : null
 
-  Si le run échoue (erreur ou résultat absent) :
+  Si le run échoue (status différent de "success" ou erreur levée) :
   - run : null
   - status : "error"
   - run_error : description courte de l'erreur
