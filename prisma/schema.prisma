@@ -17,6 +17,8 @@ model User {
   recipes       Recipe[]
   sessions      Session[]
   plans         WeeklyPlan[]
+  profile       UserProfile?
+  chatQuota     ChatQuota?
 }
 
 model Account {
@@ -117,4 +119,28 @@ model studio_pipeline_runs {
   @@index([created_at(sort: Desc)], map: "idx_studio_pipeline_runs_created")
   @@index([parent_run_id], map: "idx_studio_pipeline_runs_parent")
   @@index([status], map: "idx_studio_pipeline_runs_status")
+}
+
+model UserProfile {
+  id                    String    @id @default(cuid())
+  userId                String    @unique
+  dietary               String[]  @default([])
+  dislikes              String[]  @default([])
+  cuisines              String[]  @default([])
+  mealsPerWeek          Int       @default(5)
+  portions              Int       @default(2)
+  maxTimeMinutes        Int       @default(30)
+  budgetWeekly          String    @default("medium")
+  onboardingCompleted   Boolean   @default(false)
+  onboardingCompletedAt DateTime?
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model ChatQuota {
+  id      String  @id @default(cuid())
+  userId  String  @unique
+  month   String
+  used    Int     @default(0)
+  max     Int     @default(10)
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
