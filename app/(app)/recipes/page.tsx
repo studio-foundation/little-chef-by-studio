@@ -62,12 +62,17 @@ export default async function RecipesPage() {
 
   let recipes: Recipe[] = [];
   try {
-    const dbRecipes = await prisma.recipe.findMany({
-      where: { userId: session.user.id },
-      orderBy: { createdAt: 'desc' },
-      take: 5,
+    const latestPlan = await prisma.weeklyPlan.findFirst({
+      where: { userId: session.user.id, recipes: { some: {} } },
+      orderBy: { weekStart: 'desc' },
+      include: {
+        recipes: {
+          include: { recipe: true },
+          orderBy: { position: 'asc' },
+        },
+      },
     });
-    recipes = dbRecipes.map(dbToRecipe);
+    recipes = (latestPlan?.recipes ?? []).map((wpr) => dbToRecipe(wpr.recipe));
   } catch (err) {
     console.error('[RecipesPage] DB error', err);
   }
