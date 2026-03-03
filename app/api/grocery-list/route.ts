@@ -4,7 +4,7 @@ import { prisma } from '@/src/lib/prisma';
 
 // --- Types ---
 
-type DbItem = { name: string; quantity: string; group: string };
+type DbItem = { name: string; quantity: string; group?: string | null };
 
 export type GroceryGroup = {
   rayon: string;
@@ -81,8 +81,8 @@ function transformItems(items: DbItem[]): GroceryGroup[] {
     rayon: config.rayon,
     bg: config.bg,
     accent: config.accent,
-    items: items.map((i) => ({
-      id: slugify(i.name),
+    items: items.map((i, idx) => ({
+      id: `${slugify(i.name)}-${idx}`,
       name: i.name,
       qty: i.quantity,
     })),
@@ -111,7 +111,20 @@ export async function GET() {
       return NextResponse.json({ empty: true });
     }
 
-    const rawItems = plan.GroceryList.items as DbItem[];
+    const raw = plan.GroceryList.items;
+    if (!Array.isArray(raw)) {
+      return NextResponse.json({ empty: true });
+    }
+    const rawItems = raw.filter(
+      (item): item is DbItem =>
+        typeof item === 'object' &&
+        item !== null &&
+        typeof (item as Record<string, unknown>).name === 'string' &&
+        typeof (item as Record<string, unknown>).quantity === 'string',
+    );
+    if (rawItems.length === 0) {
+      return NextResponse.json({ empty: true });
+    }
     const groups = transformItems(rawItems);
 
     return NextResponse.json({
