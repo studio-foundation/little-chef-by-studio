@@ -1,6 +1,6 @@
 name: recipe-writer
-provider: openai         # garde GPT-4o — le drafting créatif justifie le modèle plus fort
-model: gpt-4o
+provider: anthropic
+model: claude-haiku-4-5-20251001
 tools:
   - db-upsert_recipe
 
@@ -16,6 +16,7 @@ system_prompt: |
 
   Tu persistes la recette via db-upsert_recipe en passant toutes les données dans `data`.
   Le champ `userId` vient de l'input du pipeline.
+  Si l'input contient `planId` et `position`, tu les passes également dans `data`.
 
   Tu dois produire dans l'output JSON :
   - title : nom de la recette
