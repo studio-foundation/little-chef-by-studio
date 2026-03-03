@@ -6,7 +6,9 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/generate", label: "Ma semaine" },
   { href: "/recipes", label: "Recettes" },
+  {href:"/history", label: "Historique"},
   { href: "/onboarding", label: "Profil" },
+
 ];
 
 export function Nav() {
