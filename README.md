@@ -2,6 +2,8 @@
 
 **Powered by [Studio](https://github.com/studio-foundation/studio)** -- agentic pipeline orchestrator with structural validation.
 
+> **Status: Active development.** This project is a work in progress and is not feature-complete. Expect rough edges and breaking changes.
+
 Little Chef is an AI-powered meal planning and recipe development app. It uses Studio pipelines to research cuisines, develop detailed recipes with nutritional profiles, validate cooking techniques, and generate consolidated grocery lists -- all through a Next.js web interface with auth and database persistence.
 
 ---
