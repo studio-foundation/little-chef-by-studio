@@ -1,6 +1,13 @@
 {
   "name": "little-chef-by-studio",
   "version": "0.1.0",
+  "description": "AI-powered meal planning and recipe generation app, powered by Studio agentic pipelines",
+  "author": "Ariane Guay",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studio-foundation/little-chef-by-studio.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -50,3 +50,5 @@ next-env.d.ts
 .studio/config.yaml
 .studio/runs/
 *.keymap.json
+*.output.json
+docs/plans/
