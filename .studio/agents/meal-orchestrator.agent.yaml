@@ -1,6 +1,6 @@
 name: meal-orchestrator
-provider: anthropic
-model: claude-sonnet-4-20250514
+provider: ollama
+model: qwen2.5
 tools:
   - studio_run-run_pipeline
 

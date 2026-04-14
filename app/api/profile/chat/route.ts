@@ -113,7 +113,7 @@ Important : suggestedChanges remplace ENTIÈREMENT le champ modifié, pas un pat
 
   try {
     const response = await anthropic.messages.create({
-      model: 'claude-haiku-4-5-20251001',
+      model: 'mistral',
       max_tokens: 512,
       system: systemPrompt,
       messages,

@@ -23,7 +23,14 @@ export async function GET(
     return new Response(await upstream.text(), { status: upstream.status });
   }
 
-  return new Response(upstream.body, {
+  if (!upstream.body) {
+    return new Response("No upstream body", { status: 502 });
+  }
+
+  const { readable, writable } = new TransformStream();
+  void upstream.body.pipeTo(writable);
+
+  return new Response(readable, {
     headers: {
       "Content-Type": "text/event-stream",
       "Cache-Control": "no-cache",

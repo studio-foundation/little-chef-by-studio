@@ -1,6 +1,6 @@
 name: grocery-list
-provider: anthropic
-model: claude-haiku-4-5-20251001
+provider: ollama
+model: qwen2.5
 tools: []
 
 system_prompt: |
