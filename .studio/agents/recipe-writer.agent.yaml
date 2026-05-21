@@ -1,6 +1,4 @@
 name: recipe-writer
-provider: ollama
-model: mistral
 tools:
   - db-upsert_recipe
 
