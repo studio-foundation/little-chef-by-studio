@@ -1,6 +1,7 @@
 {
   "id": "10",
   "slug": "boeuf-bourguignon",
+  "run_id": "5264c2d7",
   "input": {
     "dish_name": "Boeuf bourguignon traditionnel",
     "userId": "cmmrunf9l0000cpijlrn58jpw",
@@ -10,8 +11,8 @@
       "mijotage long accepté"
     ]
   },
-  "captured_at": "2026-05-21T01:21:03.031Z",
-  "duration_ms": 123097,
+  "captured_at": "2026-05-21T17:45:09.121Z",
+  "duration_ms": 92854,
   "events": [
     {
       "offset_ms": 0,
@@ -28,7 +29,7 @@
       }
     },
     {
-      "offset_ms": 2,
+      "offset_ms": 22,
       "event": "stage_start",
       "stage": "culinary-research",
       "stage_index": 0,
@@ -36,7 +37,7 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 5,
+      "offset_ms": 25,
       "event": "stage_context",
       "stage": "culinary-research",
       "context_keys": {
@@ -44,121 +45,361 @@
       }
     },
     {
-      "offset_ms": 1688,
+      "offset_ms": 1846,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Boeuf bourguignon traditionnel histoire technique culinaire"
+        "query": "Boeuf bourguignon traditionnel technique culinaire histoire"
       }
     },
     {
-      "offset_ms": 1841,
+      "offset_ms": 3477,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Boeuf bourguignon traditionnel technique culinaire histoire",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://boucherieaixenprovence.fr/histoire-du-boeuf-bourguignon-origine-terroir-et-differences-avec-la-daube-provencale",
+            "title": "Histoire du Bœuf Bourguignon : Origine, Différences avec la Daube",
+            "content": "Le bœuf bourguignon, plat mijoté emblématique de la cuisine française, trouve son origine dans les campagnes de Bourgogne où élevage bovin et vignobles ont",
+            "score": 0.7163977,
+            "raw_content": null
+          },
+          {
+            "url": "https://steemit.com/fr/@deboas/ma-passion-le-boeuf-bourguignon-son-histoire-et-sa-recette",
+            "title": "Ma passion: le bœuf bourguignon - son histoire et sa recette. - Steemit",
+            "content": "Un plat traditionnel français. C'est un plat originaire de Bourgogne. Il était consommé par les paysans essentiellement le dimanche et les jours de fêtes. Mais",
+            "score": 0.71088976,
+            "raw_content": null
+          },
+          {
+            "url": "https://thecheftours.com/the-rich-history-of-boeuf-bourguignon",
+            "title": "The Rich History of Boeuf Bourguignon - - The Chef's Tours",
+            "content": "Though the cooking method was old, the specific name “Bœuf Bourguignon” appears only in the 19th century; for example, in the 1867 Grand",
+            "score": 0.657297,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.cafa-formations-ecolehoteliere.com/lhistoire-du-boeuf-bourguignon",
+            "title": "L'histoire du bœuf bourguignon | CAFA Formations",
+            "content": "Longtemps considéré comme une spécialité de Bourgogne, en raison du vin rouge utilisé dans sa cuisson et de l'élevage bovin local, certains historiens",
+            "score": 0.6429039,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.maisonvictor.fr/content/303-boeuf-bourguignon-plat-emblematique-de-la-cuisine-francaise-",
+            "title": "Bœuf bourguignon : quelle est l'origine de ce plat emblématique de ...",
+            "content": "Ainsi, en laissant mijoter longuement la viande dans une sauce au vin, les cuisiniers de l'époque ont découvert une technique idéale pour transformer un morceau",
+            "score": 0.5324014,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.44,
+        "request_id": "693b662d-5ac1-4630-93d9-9b6fba01136e"
       },
-      "duration_ms": 153
+      "duration_ms": 1630
     },
     {
-      "offset_ms": 1842,
+      "offset_ms": 3477,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Boeuf bourguignon profil saveurs ingrédients Bourgogne"
+        "query": "Boeuf bourguignon saveurs profil gustatif ingrédients"
       }
     },
     {
-      "offset_ms": 1977,
+      "offset_ms": 5294,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Boeuf bourguignon saveurs profil gustatif ingrédients",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.saveur.com/article/recipes/boeuf-bourguignonne-burgundy-style-beef-stew",
+            "title": "The Best Beef Bourguignon Recipe | Saveur",
+            "content": "Updated on December 22, 2025. A good-quality pinot noir from Burgundy, France, with its brisk acidity and earthy notes, acts as both a flavor enhancer and tenderizer in this iconic French dish layered with tender beef and mushrooms, meaty bacon, and seared carrots and pearl onions. **Featured in the** **March 2014 issue****.**. *Order the SAVEUR Selects Enameled Cast Iron 4½-Quart Braiser**.*. 3 hours, plus overnight marinating. # Beef Bourguignon. A long, slow braise and plenty of red wine give this classic French stew its signature flavor and luxuriously tender meat. ### Asparagus With Tomato Vinaigrette. ### Raw Tomato Sauce. Fresh Tomato Soup With Basil and Crayfish. Tiella Pugliese (Tomato-Mussel Gratin)\"). Tomato Salad With Basil-Pea Purée. ## Want more SAVEUR? Get our favorite recipes, stories, and more delivered to your inbox. Articles may contain affiliate links, which enable us to share in the revenue of any purchases made. Registration on or use of this site constitutes acceptance of our Terms of Use.",
+            "score": 0.9994023,
+            "raw_content": null
+          },
+          {
+            "url": "https://vinomat.app/fr/boeuf-bourguignon",
+            "title": "Boeuf Bourguignon : Recette Traditionnelle et Accords Vins - Vinomat",
+            "content": "Imaginez l'arôme enivrant du vin rouge de Bourgogne se mêlant à la tendreté de l'épaule de bœuf, relevé de lard fumé et de champignons de Paris.",
+            "score": 0.9975274,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2lIyKbWbdn0",
+            "title": "How to make a tender and tasty beef bourguignon? - YouTube",
+            "content": "... goût et de saveur à tous vos plats dans le plaisir, sans ... Recette du Boeuf Bourguignon. Les Food'Cuisine•252K views · 14:41. Go to",
+            "score": 0.9975274,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/tousencuisineavecseb/posts/un-grand-classique-le-b%C5%93uf-bourguignon-/1224111122860799",
+            "title": "Un GRAND CLASSIQUE, le BŒUF BOURGUIGNON - Facebook",
+            "content": "INGRÉDIENTS : pour 8 personnes : 2 kilo de BOEUF BOURGUIGNON 6 pommes de terre 4 carottes Persil Thym Oignon Ail Piment Citron vert Clous de",
+            "score": 0.99448806,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.mamiepaulette.com/boeuf-bourguignon-2",
+            "title": "Bœuf Bourguignon : Le Plat Qui Fait Fondre les Cœurs et les Papilles",
+            "content": "Les Ingrédients Clés du Bœuf Bourguignon · Viande de bœuf : Choisissez de la viande de qualité, comme le paleron ou la macreuse. · Vin rouge : Un",
+            "score": 0.9938548,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.47,
+        "request_id": "61c3c4fb-66fd-40a0-8d15-a61f068fa888"
       },
-      "duration_ms": 135
+      "duration_ms": 1817
     },
     {
-      "offset_ms": 1977,
+      "offset_ms": 5294,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Boeuf à la bourguignonne mijotage long technique française"
+        "query": "Boeuf bourguignon origine cuisine française bourguignonne"
       }
     },
     {
-      "offset_ms": 2106,
+      "offset_ms": 6905,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Boeuf bourguignon origine cuisine française bourguignonne",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.myparisiankitchen.com/boeuf-bourguignon-traditionnel",
+            "title": "Bœuf bourguignon traditionnel français ma meilleure recette",
+            "content": "Aux origines plat typique de la cuisine régionale bourguignonne présidant la table des paysans les jours de fête, le bœuf bourguignon est devenu un plat",
+            "score": 0.7760977,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.lavilladeschefs.com/le-boeuf-bourguignon-lame-riche-et-gourmande-de-la-cuisine-francaise",
+            "title": "Le Bœuf Bourguignon : L'Âme Riche et Gourmande de la Cuisine ...",
+            "content": "Né dans les campagnes bourguignonnes, le bœuf bourguignon était à l'origine le plat des familles paysannes, qui savaient que la clé du goût",
+            "score": 0.71829855,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.maisonvictor.fr/content/303-boeuf-bourguignon-plat-emblematique-de-la-cuisine-francaise-",
+            "title": "Bœuf bourguignon : quelle est l'origine de ce plat emblématique de ...",
+            "content": "Le bœuf bourguignon, né dans les fermes de Bourgogne, a su traverser les âges et les classes sociales pour s'imposer comme un pilier de la gastronomie française",
+            "score": 0.71758664,
+            "raw_content": null
+          },
+          {
+            "url": "https://fr.wikipedia.org/wiki/B%C5%93uf_bourguignon",
+            "title": "Bœuf bourguignon - Wikipédia",
+            "content": "Le bœuf bourguignon est un plat de viande de bœuf braisée, mijoté au vin rouge avec une garniture composée d'oignons grelots, de carottes, de champignons et",
+            "score": 0.7023877,
+            "raw_content": null
+          },
+          {
+            "url": "https://ouestdelices.over-blog.com/2023/07/boeuf-bourguignon-recette-traditionnelle.html",
+            "title": "Le bœuf bourguignon, la recette traditionnelle et son histoire",
+            "content": "Les ducs de Bourgogne auraient ramené cette recette de la région des Flandres, qu'ils occupèrent entre le XIVe et le XVIe siècles. Tandis que là",
+            "score": 0.54985875,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.35,
+        "request_id": "e80cbc29-2bd7-4071-9fe4-d511cb90351d"
       },
-      "duration_ms": 129
+      "duration_ms": 1611
     },
     {
-      "offset_ms": 6940,
+      "offset_ms": 12511,
       "event": "stage_complete",
       "stage": "culinary-research",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 6937,
+      "duration_ms": 12508,
       "tokens": {
-        "prompt": 2403,
-        "completion": 596,
-        "total": 2999
+        "prompt": 4711,
+        "completion": 530,
+        "total": 5241
       },
       "tool_calls": [
         {
-          "id": "toolu_01J54we39YHJ6CgdD7sB5Wc7",
+          "id": "toolu_01VYUANuLJRQpYPBvNjC61YQ",
           "name": "web_search-search",
           "arguments": {
-            "query": "Boeuf bourguignon traditionnel histoire technique culinaire"
+            "query": "Boeuf bourguignon traditionnel technique culinaire histoire"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "Boeuf bourguignon traditionnel technique culinaire histoire",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://boucherieaixenprovence.fr/histoire-du-boeuf-bourguignon-origine-terroir-et-differences-avec-la-daube-provencale",
+                "title": "Histoire du Bœuf Bourguignon : Origine, Différences avec la Daube",
+                "content": "Le bœuf bourguignon, plat mijoté emblématique de la cuisine française, trouve son origine dans les campagnes de Bourgogne où élevage bovin et vignobles ont",
+                "score": 0.7163977,
+                "raw_content": null
+              },
+              {
+                "url": "https://steemit.com/fr/@deboas/ma-passion-le-boeuf-bourguignon-son-histoire-et-sa-recette",
+                "title": "Ma passion: le bœuf bourguignon - son histoire et sa recette. - Steemit",
+                "content": "Un plat traditionnel français. C'est un plat originaire de Bourgogne. Il était consommé par les paysans essentiellement le dimanche et les jours de fêtes. Mais",
+                "score": 0.71088976,
+                "raw_content": null
+              },
+              {
+                "url": "https://thecheftours.com/the-rich-history-of-boeuf-bourguignon",
+                "title": "The Rich History of Boeuf Bourguignon - - The Chef's Tours",
+                "content": "Though the cooking method was old, the specific name “Bœuf Bourguignon” appears only in the 19th century; for example, in the 1867 Grand",
+                "score": 0.657297,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.cafa-formations-ecolehoteliere.com/lhistoire-du-boeuf-bourguignon",
+                "title": "L'histoire du bœuf bourguignon | CAFA Formations",
+                "content": "Longtemps considéré comme une spécialité de Bourgogne, en raison du vin rouge utilisé dans sa cuisson et de l'élevage bovin local, certains historiens",
+                "score": 0.6429039,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.maisonvictor.fr/content/303-boeuf-bourguignon-plat-emblematique-de-la-cuisine-francaise-",
+                "title": "Bœuf bourguignon : quelle est l'origine de ce plat emblématique de ...",
+                "content": "Ainsi, en laissant mijoter longuement la viande dans une sauce au vin, les cuisiniers de l'époque ont découvert une technique idéale pour transformer un morceau",
+                "score": 0.5324014,
+                "raw_content": null
+              }
+            ],
+            "response_time": 1.44,
+            "request_id": "693b662d-5ac1-4630-93d9-9b6fba01136e"
           }
         },
         {
-          "id": "toolu_01AeoYFJTWkENhPGHiAfhpzx",
+          "id": "toolu_01X992YBsXubxMEmgAP9hYTf",
           "name": "web_search-search",
           "arguments": {
-            "query": "Boeuf bourguignon profil saveurs ingrédients Bourgogne"
+            "query": "Boeuf bourguignon saveurs profil gustatif ingrédients"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "Boeuf bourguignon saveurs profil gustatif ingrédients",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.saveur.com/article/recipes/boeuf-bourguignonne-burgundy-style-beef-stew",
+                "title": "The Best Beef Bourguignon Recipe | Saveur",
+                "content": "Updated on December 22, 2025. A good-quality pinot noir from Burgundy, France, with its brisk acidity and earthy notes, acts as both a flavor enhancer and tenderizer in this iconic French dish layered with tender beef and mushrooms, meaty bacon, and seared carrots and pearl onions. **Featured in the** **March 2014 issue****.**. *Order the SAVEUR Selects Enameled Cast Iron 4½-Quart Braiser**.*. 3 hours, plus overnight marinating. # Beef Bourguignon. A long, slow braise and plenty of red wine give this classic French stew its signature flavor and luxuriously tender meat. ### Asparagus With Tomato Vinaigrette. ### Raw Tomato Sauce. Fresh Tomato Soup With Basil and Crayfish. Tiella Pugliese (Tomato-Mussel Gratin)\"). Tomato Salad With Basil-Pea Purée. ## Want more SAVEUR? Get our favorite recipes, stories, and more delivered to your inbox. Articles may contain affiliate links, which enable us to share in the revenue of any purchases made. Registration on or use of this site constitutes acceptance of our Terms of Use.",
+                "score": 0.9994023,
+                "raw_content": null
+              },
+              {
+                "url": "https://vinomat.app/fr/boeuf-bourguignon",
+                "title": "Boeuf Bourguignon : Recette Traditionnelle et Accords Vins - Vinomat",
+                "content": "Imaginez l'arôme enivrant du vin rouge de Bourgogne se mêlant à la tendreté de l'épaule de bœuf, relevé de lard fumé et de champignons de Paris.",
+                "score": 0.9975274,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=2lIyKbWbdn0",
+                "title": "How to make a tender and tasty beef bourguignon? - YouTube",
+                "content": "... goût et de saveur à tous vos plats dans le plaisir, sans ... Recette du Boeuf Bourguignon. Les Food'Cuisine•252K views · 14:41. Go to",
+                "score": 0.9975274,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.facebook.com/tousencuisineavecseb/posts/un-grand-classique-le-b%C5%93uf-bourguignon-/1224111122860799",
+                "title": "Un GRAND CLASSIQUE, le BŒUF BOURGUIGNON - Facebook",
+                "content": "INGRÉDIENTS : pour 8 personnes : 2 kilo de BOEUF BOURGUIGNON 6 pommes de terre 4 carottes Persil Thym Oignon Ail Piment Citron vert Clous de",
+                "score": 0.99448806,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.mamiepaulette.com/boeuf-bourguignon-2",
+                "title": "Bœuf Bourguignon : Le Plat Qui Fait Fondre les Cœurs et les Papilles",
+                "content": "Les Ingrédients Clés du Bœuf Bourguignon · Viande de bœuf : Choisissez de la viande de qualité, comme le paleron ou la macreuse. · Vin rouge : Un",
+                "score": 0.9938548,
+                "raw_content": null
+              }
+            ],
+            "response_time": 1.47,
+            "request_id": "61c3c4fb-66fd-40a0-8d15-a61f068fa888"
           }
         },
         {
-          "id": "toolu_01QVcqweHKucCWDMYFxZ8kaq",
+          "id": "toolu_01TJXGsdS6EbEjAaSrQrqmto",
           "name": "web_search-search",
           "arguments": {
-            "query": "Boeuf à la bourguignonne mijotage long technique française"
+            "query": "Boeuf bourguignon origine cuisine française bourguignonne"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "Boeuf bourguignon origine cuisine française bourguignonne",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.myparisiankitchen.com/boeuf-bourguignon-traditionnel",
+                "title": "Bœuf bourguignon traditionnel français ma meilleure recette",
+                "content": "Aux origines plat typique de la cuisine régionale bourguignonne présidant la table des paysans les jours de fête, le bœuf bourguignon est devenu un plat",
+                "score": 0.7760977,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.lavilladeschefs.com/le-boeuf-bourguignon-lame-riche-et-gourmande-de-la-cuisine-francaise",
+                "title": "Le Bœuf Bourguignon : L'Âme Riche et Gourmande de la Cuisine ...",
+                "content": "Né dans les campagnes bourguignonnes, le bœuf bourguignon était à l'origine le plat des familles paysannes, qui savaient que la clé du goût",
+                "score": 0.71829855,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.maisonvictor.fr/content/303-boeuf-bourguignon-plat-emblematique-de-la-cuisine-francaise-",
+                "title": "Bœuf bourguignon : quelle est l'origine de ce plat emblématique de ...",
+                "content": "Le bœuf bourguignon, né dans les fermes de Bourgogne, a su traverser les âges et les classes sociales pour s'imposer comme un pilier de la gastronomie française",
+                "score": 0.71758664,
+                "raw_content": null
+              },
+              {
+                "url": "https://fr.wikipedia.org/wiki/B%C5%93uf_bourguignon",
+                "title": "Bœuf bourguignon - Wikipédia",
+                "content": "Le bœuf bourguignon est un plat de viande de bœuf braisée, mijoté au vin rouge avec une garniture composée d'oignons grelots, de carottes, de champignons et",
+                "score": 0.7023877,
+                "raw_content": null
+              },
+              {
+                "url": "https://ouestdelices.over-blog.com/2023/07/boeuf-bourguignon-recette-traditionnelle.html",
+                "title": "Le bœuf bourguignon, la recette traditionnelle et son histoire",
+                "content": "Les ducs de Bourgogne auraient ramené cette recette de la région des Flandres, qu'ils occupèrent entre le XIVe et le XVIe siècles. Tandis que là",
+                "score": 0.54985875,
+                "raw_content": null
+              }
+            ],
+            "response_time": 1.35,
+            "request_id": "e80cbc29-2bd7-4071-9fe4-d511cb90351d"
           }
         }
       ],
       "output": {
-        "topic_summary": "Le Boeuf Bourguignon est un braisé classique français de la région de Bourgogne, composé de viande de boeuf coupée en morceaux, braisée lentement dans un vin rouge robuste avec légumes aromatiques et lardons. C'est un plat de mijotage long qui incarne la cuisine française régionale traditionnelle.",
-        "key_techniques": "Sauté initial (searing) de la viande pour développer la croûte, flambée au cognac, braisage en cocotte-minute ou faitout couvert, liaison au beurre-farine (beurre manié), cuisson lente et prolongée (3-4 heures minimum)",
-        "cultural_context": "Plat emblématique de la Bourgogne, région viticole majeure du centre-est français, traditionnellement préparé pour les repas familiaux importants et les fêtes. Popularisé internationalement par Julia Child et la cuisine bourgeoise française classique.",
-        "flavor_profile": "Saveurs profondes et complexes alliant richesse de la viande braisée, acidité et tanins du vin rouge de Bourgogne, umami des lardons et champignons, douceur subtile des petits oignons grelots, notes terreuses et herbacées du bouquet garni (thym, laurier, persil)"
+        "topic_summary": "Le Boeuf bourguignon est un plat de viande de boeuf braisée et mijotée longuement au vin rouge de Bourgogne, accompagnée d'oignons grelots, carottes, champignons et lard fumé. C'est un classique emblématique de la cuisine française.",
+        "key_techniques": "Braisage long à feu doux, saisissement initial de la viande, réduction du vin rouge, mijoitage lent (3+ heures), utilisation du vin comme tenderiseur et exhausteur de saveur",
+        "cultural_context": "Originaire des campagnes de Bourgogne, ce plat était autrefois consommé par les paysans les jours de fêtes et dimanches. Il a traversé les classes sociales pour devenir un pilier de la gastronomie française, emblématique de la cuisine régionale bourguignonne.",
+        "flavor_profile": "Saveurs riches et complexes combinant l'acidité et les notes terreuses du Pinot Noir de Bourgogne, la tendreté fondante du boeuf, l'umami du lard fumé et la douceur des champignons et carottes. Profil savoureux, profond et réconfortant."
       }
     },
     {
-      "offset_ms": 6940,
+      "offset_ms": 12512,
       "event": "stage_start",
       "stage": "ingredient-sourcing",
       "stage_index": 1,
@@ -166,98 +407,258 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 6943,
+      "offset_ms": 12513,
       "event": "stage_context",
       "stage": "ingredient-sourcing",
       "context_keys": {
         "input": 163,
-        "previous_stage_output": 1111
+        "previous_stage_output": 982
       }
     },
     {
-      "offset_ms": 8548,
+      "offset_ms": 14023,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Boeuf Bourguignon recette traditionnelle ingrédients proportions 6 personnes"
+        "query": "Boeuf bourguignon traditionnel recette ingrédients pour 6 personnes"
       }
     },
     {
-      "offset_ms": 8672,
+      "offset_ms": 15097,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Boeuf bourguignon traditionnel recette ingrédients pour 6 personnes",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.youtube.com/watch?v=kO_tfA9jVQw",
+            "title": "Traditional Beef Bourguignon - Easy and Tasty Recipe! - YouTube",
+            "content": "Bœuf Bourguignon Traditionnel - Recette ... savoureux et fondant, parfait pour régaler toute la famille. Ingrédients : 2,5 kg de bœuf",
+            "score": 0.99998415,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/61557141443684/posts/b%C5%93uf-bourguignon-traditionnel-ingr%C3%A9dients-pour-6-personnes2-oignons-%C3%A9minc%C3%A9s2-gou/122263444226238048",
+            "title": "Bœuf Bourguignon Traditionnel Ingrédients (pour 6 personnes) 2 ...",
+            "content": "Bœuf Bourguignon Traditionnel Ingrédients (pour 6 personnes) 2 oignons émincés 2 gousses d'ail hachées 25 cl de bouillon de bœuf · Mayonnaise",
+            "score": 0.99996996,
+            "raw_content": null
+          },
+          {
+            "url": "https://cuisine.journaldesfemmes.fr/recette/346736-boeuf-bourguignon",
+            "title": "Bœuf bourguignon : la meilleure recette traditionnelle",
+            "content": "\"Bœuf bourguignon : la meilleure recette traditionnelle\". Bœuf bourguignon : la meilleure recette traditionnelle : Etape 2. **4.6/5**   1 227 avis. Découvrez cette recette de bœuf bourguignon traditionnel, facile à préparer en cocotte. Celle-ci est très simple et reste pour moi la meilleure, avec les carottes, les oignons, les lardons et champignons ayant baigné dans le vin rouge. Ce plat mijoté allie tendreté de la viande de bœuf à une sauce au vin riche qui ravira vos papilles. Bœuf pour bourguignon  1 5 kg. * Bouillon de viande (2 cubes de bouillon de bœuf pour 50 cl 1 2 de litre d'eau). Bouillon de viande (2 cubes de bouillon de bœuf pour 50 cl 1 2 de litre d'eau)  2 verres. 1. 1 Tailler le bœuf en cubes de 3 à 4 cm de côte. * Recette de boeuf bourguignon a l'ancienne > Recettes - Boeuf bourguignon. Bœuf bourguignon et pommes de terre : la recette facile.",
+            "score": 0.9999497,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.emilehenry.com/fr/recettes/boeuf-bourguignon-recette.html",
+            "title": "La recette traditionnelle du Bœuf Bourguignon",
+            "content": "Bœuf Bourguignon pour 6 à 8 personnes · 2 bouteille de vin rouge ( corsé) · 2 kg de boeuf à braiser (paleron, jarret, collier...) · 2 oignons · 6 carottes · 400g de",
+            "score": 0.9999274,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.chezandre.fr/recette-boeuf-bourguignon",
+            "title": "Recette du Bœuf Bourguignon traditionnelle | Chez André",
+            "content": "1 kg de viande de bœuf pour Bourguignon , coupée en gros cubes; 2 oignons; 4 carottes; 1 gousse d'ail; 100 g de lardons; 250 g de champignons de Paris",
+            "score": 0.9996947,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.79,
+        "request_id": "5f30e009-ca58-4fbd-9216-bf45951f1484"
       },
-      "duration_ms": 124
+      "duration_ms": 1074
     },
     {
-      "offset_ms": 8672,
+      "offset_ms": 15097,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Boeuf Bourguignon ingredients substitutions vin rouge viande"
+        "query": "Boeuf bourguignon ingrédients quantités vin Bourgogne"
       }
     },
     {
-      "offset_ms": 8805,
+      "offset_ms": 16442,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Boeuf bourguignon ingrédients quantités vin Bourgogne",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.saq.com/fr/boeuf-bourguignon",
+            "title": "Boeuf bourguignon | SAQ.COM",
+            "content": "Ingrédients · 750 ml (3 tasses) de vin rouge · 150 g (5 oz) de carottes, coupées en mirepoix · 150 g (5 oz) de céleri, coupé en mirepoix · 275 g (9 oz) ou 3 oignons",
+            "score": 0.8872928,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/cestmeilleurquandcestbon/posts/aujourdhui-un-grand-classique-de-la-cuisine-fran%C3%A7aise-le-boeuf-bourguignon-pour-/1166986414791269",
+            "title": "le boeuf bourguignon. Pour 4 personnes Préparation : 15 min Cuisson",
+            "content": "Joue de bœuf à la bourguignonne Ingrédients : - 1 kg de joues de bœuf - 1 bouteille de vin rouge de Bourgogne - 2 carottes - 2 oignons - 2",
+            "score": 0.86713725,
+            "raw_content": null
+          },
+          {
+            "url": "https://marchepernoud.com/blog/la-recette-facile-du-boeuf-bourguignon",
+            "title": "La Recette Facile du Bœuf Bourguignon - Marché Pernoud",
+            "content": "250 ml de vin rouge (de préférence un vin de Bourgogne); 250 ml de bouillon de bœuf; 2 cuillères à soupe de farine; 2 cuillères à soupe d'huile d'olive; 1",
+            "score": 0.843393,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.cordonbleu.edu/news/boeuf-bourguignon/fr",
+            "title": "Recette Boeuf Bourguignon - Le Cordon Bleu",
+            "content": "Les plats dits « à la Bourguignonne » sont généralement composés d’une sauce à base de vin rouge et d’une garniture composée de petits oignons, de champignons et de lardons. à soupe de concentré de tomates. Ajouter les gousses d’ail écrasées, le bouquet garni, les grains de poivre et le vin rouge. Sécher la viande et la colorer dans un peu d’huile à la poêle. Chauffer un peu d’huile dans une grande casserole et colorer les légumes émincés. Ajouter le concentré de tomates, la viande et la farine. Ajouter le fond de veau brun, le bouquet garni, la couenne de poitrine blanchie et assaisonner. Couper la poitrine en lardons et colorer légèrement dans une poêle avec un peu d’huile. Sauter les champignons dans une poêle avec un peu d’huile et de beurre. Mettre les oignons dans une casserole avec un peu de beurre et une pincée de sucre et de sel, couvrir à hauteur d’eau.",
+            "score": 0.7336813,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.reddit.com/r/cuisine/comments/1hwv17g/quelle_quantit%C3%A9_de_vin_pour_un_boeuf_bourguignon",
+            "title": "Quelle quantité de vin pour un boeuf bourguignon pour 6 personnes?",
+            "content": "Personnellement pour un bon kilo / kilo et demi de bœuf, j'ajoute une bouteille de vin. Dans les faits, la mesure la plus simple c'est juste de",
+            "score": 0.5709301,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.21,
+        "request_id": "be022e39-33e2-4ff1-a3b3-33ee2bd572d3"
       },
-      "duration_ms": 133
+      "duration_ms": 1345
     },
     {
-      "offset_ms": 17589,
+      "offset_ms": 25120,
       "event": "stage_complete",
       "stage": "ingredient-sourcing",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 10648,
+      "duration_ms": 12609,
       "tokens": {
-        "prompt": 2959,
-        "completion": 1269,
-        "total": 4228
+        "prompt": 4991,
+        "completion": 1167,
+        "total": 6158
       },
       "tool_calls": [
         {
-          "id": "toolu_013gpyCG5KifKHzV1S8TCp3n",
+          "id": "toolu_01MRgdoZ9EE2hM8761rXH84m",
           "name": "web_search-search",
           "arguments": {
-            "query": "Boeuf Bourguignon recette traditionnelle ingrédients proportions 6 personnes"
+            "query": "Boeuf bourguignon traditionnel recette ingrédients pour 6 personnes"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "Boeuf bourguignon traditionnel recette ingrédients pour 6 personnes",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.youtube.com/watch?v=kO_tfA9jVQw",
+                "title": "Traditional Beef Bourguignon - Easy and Tasty Recipe! - YouTube",
+                "content": "Bœuf Bourguignon Traditionnel - Recette ... savoureux et fondant, parfait pour régaler toute la famille. Ingrédients : 2,5 kg de bœuf",
+                "score": 0.99998415,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.facebook.com/61557141443684/posts/b%C5%93uf-bourguignon-traditionnel-ingr%C3%A9dients-pour-6-personnes2-oignons-%C3%A9minc%C3%A9s2-gou/122263444226238048",
+                "title": "Bœuf Bourguignon Traditionnel Ingrédients (pour 6 personnes) 2 ...",
+                "content": "Bœuf Bourguignon Traditionnel Ingrédients (pour 6 personnes) 2 oignons émincés 2 gousses d'ail hachées 25 cl de bouillon de bœuf · Mayonnaise",
+                "score": 0.99996996,
+                "raw_content": null
+              },
+              {
+                "url": "https://cuisine.journaldesfemmes.fr/recette/346736-boeuf-bourguignon",
+                "title": "Bœuf bourguignon : la meilleure recette traditionnelle",
+                "content": "\"Bœuf bourguignon : la meilleure recette traditionnelle\". Bœuf bourguignon : la meilleure recette traditionnelle : Etape 2. **4.6/5**   1 227 avis. Découvrez cette recette de bœuf bourguignon traditionnel, facile à préparer en cocotte. Celle-ci est très simple et reste pour moi la meilleure, avec les carottes, les oignons, les lardons et champignons ayant baigné dans le vin rouge. Ce plat mijoté allie tendreté de la viande de bœuf à une sauce au vin riche qui ravira vos papilles. Bœuf pour bourguignon  1 5 kg. * Bouillon de viande (2 cubes de bouillon de bœuf pour 50 cl 1 2 de litre d'eau). Bouillon de viande (2 cubes de bouillon de bœuf pour 50 cl 1 2 de litre d'eau)  2 verres. 1. 1 Tailler le bœuf en cubes de 3 à 4 cm de côte. * Recette de boeuf bourguignon a l'ancienne > Recettes - Boeuf bourguignon. Bœuf bourguignon et pommes de terre : la recette facile.",
+                "score": 0.9999497,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.emilehenry.com/fr/recettes/boeuf-bourguignon-recette.html",
+                "title": "La recette traditionnelle du Bœuf Bourguignon",
+                "content": "Bœuf Bourguignon pour 6 à 8 personnes · 2 bouteille de vin rouge ( corsé) · 2 kg de boeuf à braiser (paleron, jarret, collier...) · 2 oignons · 6 carottes · 400g de",
+                "score": 0.9999274,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.chezandre.fr/recette-boeuf-bourguignon",
+                "title": "Recette du Bœuf Bourguignon traditionnelle | Chez André",
+                "content": "1 kg de viande de bœuf pour Bourguignon , coupée en gros cubes; 2 oignons; 4 carottes; 1 gousse d'ail; 100 g de lardons; 250 g de champignons de Paris",
+                "score": 0.9996947,
+                "raw_content": null
+              }
+            ],
+            "response_time": 0.79,
+            "request_id": "5f30e009-ca58-4fbd-9216-bf45951f1484"
           }
         },
         {
-          "id": "toolu_01GoAhJN4j8PsE2UtyGA2CM3",
+          "id": "toolu_01Mfw7S8jDV58kPjhZoa4yiA",
           "name": "web_search-search",
           "arguments": {
-            "query": "Boeuf Bourguignon ingredients substitutions vin rouge viande"
+            "query": "Boeuf bourguignon ingrédients quantités vin Bourgogne"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "Boeuf bourguignon ingrédients quantités vin Bourgogne",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.saq.com/fr/boeuf-bourguignon",
+                "title": "Boeuf bourguignon | SAQ.COM",
+                "content": "Ingrédients · 750 ml (3 tasses) de vin rouge · 150 g (5 oz) de carottes, coupées en mirepoix · 150 g (5 oz) de céleri, coupé en mirepoix · 275 g (9 oz) ou 3 oignons",
+                "score": 0.8872928,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.facebook.com/cestmeilleurquandcestbon/posts/aujourdhui-un-grand-classique-de-la-cuisine-fran%C3%A7aise-le-boeuf-bourguignon-pour-/1166986414791269",
+                "title": "le boeuf bourguignon. Pour 4 personnes Préparation : 15 min Cuisson",
+                "content": "Joue de bœuf à la bourguignonne Ingrédients : - 1 kg de joues de bœuf - 1 bouteille de vin rouge de Bourgogne - 2 carottes - 2 oignons - 2",
+                "score": 0.86713725,
+                "raw_content": null
+              },
+              {
+                "url": "https://marchepernoud.com/blog/la-recette-facile-du-boeuf-bourguignon",
+                "title": "La Recette Facile du Bœuf Bourguignon - Marché Pernoud",
+                "content": "250 ml de vin rouge (de préférence un vin de Bourgogne); 250 ml de bouillon de bœuf; 2 cuillères à soupe de farine; 2 cuillères à soupe d'huile d'olive; 1",
+                "score": 0.843393,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.cordonbleu.edu/news/boeuf-bourguignon/fr",
+                "title": "Recette Boeuf Bourguignon - Le Cordon Bleu",
+                "content": "Les plats dits « à la Bourguignonne » sont généralement composés d’une sauce à base de vin rouge et d’une garniture composée de petits oignons, de champignons et de lardons. à soupe de concentré de tomates. Ajouter les gousses d’ail écrasées, le bouquet garni, les grains de poivre et le vin rouge. Sécher la viande et la colorer dans un peu d’huile à la poêle. Chauffer un peu d’huile dans une grande casserole et colorer les légumes émincés. Ajouter le concentré de tomates, la viande et la farine. Ajouter le fond de veau brun, le bouquet garni, la couenne de poitrine blanchie et assaisonner. Couper la poitrine en lardons et colorer légèrement dans une poêle avec un peu d’huile. Sauter les champignons dans une poêle avec un peu d’huile et de beurre. Mettre les oignons dans une casserole avec un peu de beurre et une pincée de sucre et de sel, couvrir à hauteur d’eau.",
+                "score": 0.7336813,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.reddit.com/r/cuisine/comments/1hwv17g/quelle_quantit%C3%A9_de_vin_pour_un_boeuf_bourguignon",
+                "title": "Quelle quantité de vin pour un boeuf bourguignon pour 6 personnes?",
+                "content": "Personnellement pour un bon kilo / kilo et demi de bœuf, j'ajoute une bouteille de vin. Dans les faits, la mesure la plus simple c'est juste de",
+                "score": 0.5709301,
+                "raw_content": null
+              }
+            ],
+            "response_time": 1.21,
+            "request_id": "be022e39-33e2-4ff1-a3b3-33ee2bd572d3"
           }
         }
       ],
       "output": {
-        "ingredients_list": "[{\"ingredient\": \"Boeuf à braiser (chuck, palette)\", \"quantity\": \"1.5 kg\", \"unit\": \"pièce\"}, {\"ingredient\": \"Vin rouge de Bourgogne\", \"quantity\": \"750 ml\", \"unit\": \"bouteille\"}, {\"ingredient\": \"Lardons ou poitrine fumée\", \"quantity\": \"200 g\", \"unit\": \"poids\"}, {\"ingredient\": \"Petits oignons grelots\", \"quantity\": \"500 g\", \"unit\": \"poids\"}, {\"ingredient\": \"Champignons de Paris\", \"quantity\": \"400 g\", \"unit\": \"poids\"}, {\"ingredient\": \"Carottes\", \"quantity\": \"400 g\", \"unit\": \"poids\"}, {\"ingredient\": \"Oignon jaune\", \"quantity\": \"2 pièces\", \"unit\": \"unité\"}, {\"ingredient\": \"Ail\", \"quantity\": \"4 gousses\", \"unit\": \"unité\"}, {\"ingredient\": \"Bouquet garni (thym, laurier, persil)\", \"quantity\": \"1 bouquet\", \"unit\": \"bouquet\"}, {\"ingredient\": \"Concentré de tomate\", \"quantity\": \"2 cuillères à soupe\", \"unit\": \"mesure\"}, {\"ingredient\": \"Cognac ou Eau-de-vie\", \"quantity\": \"100 ml\", \"unit\": \"volume\"}, {\"ingredient\": \"Fond ou bouillon de boeuf\", \"quantity\": \"500 ml\", \"unit\": \"volume\"}, {\"ingredient\": \"Beurre\", \"quantity\": \"40 g\", \"unit\": \"poids\"}, {\"ingredient\": \"Farine\", \"quantity\": \"30 g\", \"unit\": \"poids\"}, {\"ingredient\": \"Huile d'olive ou beurre\", \"quantity\": \"3 cuillères à soupe\", \"unit\": \"mesure\"}, {\"ingredient\": \"Sel\", \"quantity\": \"au goût\", \"unit\": \"mesure\"}, {\"ingredient\": \"Poivre noir\", \"quantity\": \"au goût\", \"unit\": \"mesure\"}]",
-        "substitutions": "{\"Vin rouge de Bourgogne\": \"Tout vin rouge sec robuste (Côtes du Rhône, Bordeaux) ou pinot noir de qualité similaire\", \"Cognac\": \"Armagnac, Calvados, ou brandy français de qualité\", \"Champignons de Paris\": \"Cèpes, girolles ou mélange de champignons sauvages pour plus de saveur\", \"Lardons fumés\": \"Pancetta, bacon fumé, ou jambon de pays selon disponibilité régionale\", \"Fond de boeuf\": \"Bouillon de poule rôtie ou vin rouge pur si absence de stock maison\", \"Petits oignons grelots\": \"Petits oignons blancs ou échalotes grises de taille similaire\"}",
-        "sourcing_notes": "{\"Boeuf à braiser\": \"Choisir une coupe riche en collagène (chuck, palette, collier) qui devient tendre à la cuisson longue. Demander un morceau entier à découper plutôt que pré-emballé.\", \"Vin rouge de Bourgogne\": \"Pinot noir de Bourgogne (Gevrey-Chambertin, Volnay) ou équivalent; éviter les vins de faible qualité car ils domin le goût final après mijotage.\", \"Bouquet garni\": \"Lier ensemble thym frais, 1-2 feuilles de laurier, tiges de persil avec ficelle; retirer avant service.\", \"Champignons\": \"Utiliser des champignons fermiers ou sauvages pour une saveur umami supérieure à la variété courante.\", \"Cognac\": \"Ingrédient clé pour la flambée; un vrai cognac VS minimum recommandé plutôt que substitut bon marché.\"}"
+        "ingredients_list": "[{\"ingredient\": \"Bœuf à braiser (paleron, jarret, collier)\", \"quantity\": \"2 kg\", \"unit\": \"g\"}, {\"ingredient\": \"Vin rouge de Bourgogne\", \"quantity\": \"2 bouteilles (750 ml)\", \"unit\": \"ml\"}, {\"ingredient\": \"Oignons grelots\", \"quantity\": \"18-24 petits\", \"unit\": \"pièces\"}, {\"ingredient\": \"Carottes\", \"quantity\": \"6-8 moyennes\", \"unit\": \"pièces\"}, {\"ingredient\": \"Champignons de Paris\", \"quantity\": \"400\", \"unit\": \"g\"}, {\"ingredient\": \"Lardons fumés\", \"quantity\": \"200-250\", \"unit\": \"g\"}, {\"ingredient\": \"Gousses d'ail\", \"quantity\": \"3-4\", \"unit\": \"pièces\"}, {\"ingredient\": \"Bouillon de bœuf\", \"quantity\": \"500\", \"unit\": \"ml\"}, {\"ingredient\": \"Concentré de tomates\", \"quantity\": \"2\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Farine\", \"quantity\": \"3\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Huile d'olive\", \"quantity\": \"4\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Beurre\", \"quantity\": \"50\", \"unit\": \"g\"}, {\"ingredient\": \"Bouquet garni (thym, laurier, persil)\", \"quantity\": \"1\", \"unit\": \"bouquet\"}, {\"ingredient\": \"Sel et poivre noir\", \"quantity\": \"À convenance\", \"unit\": \"\"}, {\"ingredient\": \"Grains de poivre\", \"quantity\": \"1 cuillère à café\", \"unit\": \"\"}]",
+        "substitutions": "{\"Vin rouge de Bourgogne (Pinot Noir)\": \"Vin rouge corsé régional (Côtes du Rhône, Bordeaux) ou vin rouge sec de qualité similaire\", \"Champignons de Paris\": \"Champignons de couche, girolles ou cèpes séchés (réhydratés)\", \"Lardons fumés\": \"Poitrine fumée ou lard de poitrine coupés en lardons; pancetta en dernier recours\", \"Concentré de tomates\": \"Purée de tomates ou 3-4 tomates fraîches concassées\", \"Bouquet garni\": \"Sachet de thym, 1 feuille de laurier et tiges de persil frais\"}",
+        "sourcing_notes": "{\"Vin rouge de Bourgogne\": \"Un véritable Pinot Noir de Bourgogne (AOC) apporte authenticité et notes terreuses caractéristiques; acceptable en qualité courante.\", \"Bœuf à braiser\": \"Privilégier les pièces riches en collagène (paleron, jarret) qui deviennent tendres lors du long braisage.\", \"Oignons grelots\": \"Petits oignons blancs entiers pour accompagnement garni; à défaut, oignons perlés surgelés ou oignons moyens coupés en quartiers.\", \"Champignons\": \"Champignons fermiers ou sauvages apportent plus de saveur qu'en boîte; adapter la quantité selon préférence personnelle.\", \"Lardons fumés\": \"Élément clé pour l'umami et la saveur fumée; qualité charcuterie traditionnelle recommandée.\", \"Bouquet garni\": \"Élément classique de la sauce française; peut être remplacé par un sachet à thé garni ou herbes séchées.\"}"
       }
     },
     {
-      "offset_ms": 17589,
+      "offset_ms": 25120,
       "event": "stage_start",
       "stage": "nutritional-profile",
       "stage_index": 2,
@@ -265,441 +666,49 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 17592,
+      "offset_ms": 25121,
       "event": "stage_context",
       "stage": "nutritional-profile",
       "context_keys": {
         "input": 163,
-        "previous_stage_output": 2915
+        "previous_stage_output": 2756
       }
     },
     {
-      "offset_ms": 32098,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Boeuf bourguignon traditionnel",
-          "cuisine": "Française",
-          "timeMinutes": 210,
-          "portions": 6,
-          "emoji": "🍲",
-          "ingredients": [
-            {
-              "name": "Boeuf à braiser (chuck, palette)",
-              "quantity": "1.5",
-              "group": "Protéine principale"
-            },
-            {
-              "name": "Vin rouge de Bourgogne",
-              "quantity": "750",
-              "group": "Liquide de cuisson"
-            },
-            {
-              "name": "Lardons ou poitrine fumée",
-              "quantity": "200",
-              "group": "Protéine secondaire"
-            },
-            {
-              "name": "Petits oignons grelots",
-              "quantity": "500",
-              "group": "Légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "400",
-              "group": "Légumes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "400",
-              "group": "Légumes"
-            },
-            {
-              "name": "Oignon jaune",
-              "quantity": "2",
-              "group": "Légumes"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4",
-              "group": "Aromates"
-            },
-            {
-              "name": "Bouquet garni (thym, laurier, persil)",
-              "quantity": "1",
-              "group": "Aromates"
-            },
-            {
-              "name": "Concentré de tomate",
-              "quantity": "2",
-              "group": "Condiments"
-            },
-            {
-              "name": "Cognac ou Eau-de-vie",
-              "quantity": "100",
-              "group": "Alcool"
-            },
-            {
-              "name": "Fond ou bouillon de boeuf",
-              "quantity": "500",
-              "group": "Liquide de cuisson"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "40",
-              "group": "Matière grasse"
-            },
-            {
-              "name": "Farine",
-              "quantity": "30",
-              "group": "Épaississant"
-            },
-            {
-              "name": "Huile d'olive ou beurre",
-              "quantity": "3",
-              "group": "Matière grasse"
-            },
-            {
-              "name": "Sel",
-              "quantity": "au goût",
-              "group": "Assaisonnement"
-            },
-            {
-              "name": "Poivre noir",
-              "quantity": "au goût",
-              "group": "Assaisonnement"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparation des ingrédients",
-              "instructions": [
-                "Couper le boeuf en morceaux de 4-5 cm",
-                "Découper les lardons en bâtonnets",
-                "Éplucher les petits oignons grelots",
-                "Nettoyer les champignons et les couper en moitiés",
-                "Couper les carottes en tronçons de 3 cm",
-                "Émincer les oignons jaunes",
-                "Écraser l'ail"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 2,
-              "title": "Cuisson des lardons et du boeuf",
-              "instructions": [
-                "Faire revenir les lardons dans un faitout ou cocotte à feu moyen jusqu'à ce qu'ils soient translucides",
-                "Retirer les lardons avec une écumoire et réserver",
-                "Augmenter le feu à moyen-fort et faire revenir le boeuf par portions (8-10 minutes par lot) jusqu'à obtenir une belle croûte dorée",
-                "Saler et poivrer après la croûte (sinon la viande suinte)"
-              ],
-              "durationMinutes": 30
-            },
-            {
-              "order": 3,
-              "title": "Préparation de la sauce",
-              "instructions": [
-                "Retirer le boeuf et ajouter les oignons jaunes émincés; faire suer 3-4 minutes",
-                "Saupoudrer la farine et mélanger bien; laisser cuire 2 minutes",
-                "Ajouter le concentré de tomate et bien mélanger",
-                "Verser le cognac lentement et enflammer si désiré (facultatif)",
-                "Verser le vin rouge et le bouillon",
-                "Rajouter le boeuf et les lardons; ajouter le bouquet garni"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 4,
-              "title": "Mijotage principal",
-              "instructions": [
-                "Porter à ébullition, puis réduire le feu au minimum (le liquide ne doit faire que frémir)",
-                "Couvrir et laisser mijoter 2-2h30 (jusqu'à ce que le boeuf soit très tendre)",
-                "Remuer occasionnellement"
-              ],
-              "durationMinutes": 150
-            },
-            {
-              "order": 5,
-              "title": "Cuisson des légumes",
-              "instructions": [
-                "À mi-cuisson du boeuf (1h-1h15 minutes), faire suer les petits oignons grelots à feu doux dans le beurre (5-7 minutes) et réserver",
-                "Dans la même poêle, faire suer les champignons et les carottes 4-5 minutes; réserver",
-                "Ajouter les oignons grelots, champignons et carottes au boeuf 30 minutes avant la fin de la cuisson"
-              ],
-              "durationMinutes": 40
-            },
-            {
-              "order": 6,
-              "title": "Finition",
-              "instructions": [
-                "Retirer le bouquet garni",
-                "Vérifier la tendreté du boeuf à la fourchette (il doit se défaire)",
-                "Rectifier l'assaisonnement en sel et poivre",
-                "Si la sauce est trop liquide, la réduire à découvert à feu moyen 10-15 minutes",
-                "Servir chaud dans un plat de service ou directement en assiettes"
-              ],
-              "durationMinutes": 15
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Mijoter à feu très doux : la cuisson lente est essentielle pour attendrir la viande et développer les saveurs",
-              "Ne pas oublier d'ôter le bouquet garni avant service",
-              "Le lendemain, le plat est encore meilleur (les saveurs se mélangent); réchauffer doucement à couvert"
-            ],
-            "variations": [
-              "Ajouter des olives noires dénoyautées en fin de cuisson pour plus de caractère",
-              "Remplacer 200 ml de vin par du cidre sec pour une note plus légère",
-              "Utiliser des cèpes ou girolles à la place des champignons de Paris pour plus d'umami"
-            ],
-            "conservation": "Peut être préparé 1-2 jours à l'avance et réchauffé. Se congèle bien jusqu'à 2-3 mois. Réchauffer à feu doux en cocotte couverte.",
-            "nutrition": "Riche en protéines (boeuf + lardons) et en fer. Les légumes apportent des fibres et des vitamines. Le vin rouge apporte des polyphénols antioxydants."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 33064,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpeszc4m0000k8ijr0onl9py",
-        "title": "Boeuf bourguignon traditionnel"
-      },
-      "duration_ms": 966
-    },
-    {
-      "offset_ms": 36218,
+      "offset_ms": 43824,
       "event": "stage_complete",
       "stage": "nutritional-profile",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 18629,
+      "duration_ms": 18704,
       "tokens": {
-        "prompt": 8166,
-        "completion": 2351,
-        "total": 10517
+        "prompt": 8025,
+        "completion": 2411,
+        "total": 10436
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01B1ikABjKSh9jPvFW8bSuG3",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Boeuf bourguignon traditionnel",
-              "cuisine": "Française",
-              "timeMinutes": 210,
-              "portions": 6,
-              "emoji": "🍲",
-              "ingredients": [
-                {
-                  "name": "Boeuf à braiser (chuck, palette)",
-                  "quantity": "1.5",
-                  "group": "Protéine principale"
-                },
-                {
-                  "name": "Vin rouge de Bourgogne",
-                  "quantity": "750",
-                  "group": "Liquide de cuisson"
-                },
-                {
-                  "name": "Lardons ou poitrine fumée",
-                  "quantity": "200",
-                  "group": "Protéine secondaire"
-                },
-                {
-                  "name": "Petits oignons grelots",
-                  "quantity": "500",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "400",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Carottes",
-                  "quantity": "400",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Oignon jaune",
-                  "quantity": "2",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "4",
-                  "group": "Aromates"
-                },
-                {
-                  "name": "Bouquet garni (thym, laurier, persil)",
-                  "quantity": "1",
-                  "group": "Aromates"
-                },
-                {
-                  "name": "Concentré de tomate",
-                  "quantity": "2",
-                  "group": "Condiments"
-                },
-                {
-                  "name": "Cognac ou Eau-de-vie",
-                  "quantity": "100",
-                  "group": "Alcool"
-                },
-                {
-                  "name": "Fond ou bouillon de boeuf",
-                  "quantity": "500",
-                  "group": "Liquide de cuisson"
-                },
-                {
-                  "name": "Beurre",
-                  "quantity": "40",
-                  "group": "Matière grasse"
-                },
-                {
-                  "name": "Farine",
-                  "quantity": "30",
-                  "group": "Épaississant"
-                },
-                {
-                  "name": "Huile d'olive ou beurre",
-                  "quantity": "3",
-                  "group": "Matière grasse"
-                },
-                {
-                  "name": "Sel",
-                  "quantity": "au goût",
-                  "group": "Assaisonnement"
-                },
-                {
-                  "name": "Poivre noir",
-                  "quantity": "au goût",
-                  "group": "Assaisonnement"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparation des ingrédients",
-                  "instructions": [
-                    "Couper le boeuf en morceaux de 4-5 cm",
-                    "Découper les lardons en bâtonnets",
-                    "Éplucher les petits oignons grelots",
-                    "Nettoyer les champignons et les couper en moitiés",
-                    "Couper les carottes en tronçons de 3 cm",
-                    "Émincer les oignons jaunes",
-                    "Écraser l'ail"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 2,
-                  "title": "Cuisson des lardons et du boeuf",
-                  "instructions": [
-                    "Faire revenir les lardons dans un faitout ou cocotte à feu moyen jusqu'à ce qu'ils soient translucides",
-                    "Retirer les lardons avec une écumoire et réserver",
-                    "Augmenter le feu à moyen-fort et faire revenir le boeuf par portions (8-10 minutes par lot) jusqu'à obtenir une belle croûte dorée",
-                    "Saler et poivrer après la croûte (sinon la viande suinte)"
-                  ],
-                  "durationMinutes": 30
-                },
-                {
-                  "order": 3,
-                  "title": "Préparation de la sauce",
-                  "instructions": [
-                    "Retirer le boeuf et ajouter les oignons jaunes émincés; faire suer 3-4 minutes",
-                    "Saupoudrer la farine et mélanger bien; laisser cuire 2 minutes",
-                    "Ajouter le concentré de tomate et bien mélanger",
-                    "Verser le cognac lentement et enflammer si désiré (facultatif)",
-                    "Verser le vin rouge et le bouillon",
-                    "Rajouter le boeuf et les lardons; ajouter le bouquet garni"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 4,
-                  "title": "Mijotage principal",
-                  "instructions": [
-                    "Porter à ébullition, puis réduire le feu au minimum (le liquide ne doit faire que frémir)",
-                    "Couvrir et laisser mijoter 2-2h30 (jusqu'à ce que le boeuf soit très tendre)",
-                    "Remuer occasionnellement"
-                  ],
-                  "durationMinutes": 150
-                },
-                {
-                  "order": 5,
-                  "title": "Cuisson des légumes",
-                  "instructions": [
-                    "À mi-cuisson du boeuf (1h-1h15 minutes), faire suer les petits oignons grelots à feu doux dans le beurre (5-7 minutes) et réserver",
-                    "Dans la même poêle, faire suer les champignons et les carottes 4-5 minutes; réserver",
-                    "Ajouter les oignons grelots, champignons et carottes au boeuf 30 minutes avant la fin de la cuisson"
-                  ],
-                  "durationMinutes": 40
-                },
-                {
-                  "order": 6,
-                  "title": "Finition",
-                  "instructions": [
-                    "Retirer le bouquet garni",
-                    "Vérifier la tendreté du boeuf à la fourchette (il doit se défaire)",
-                    "Rectifier l'assaisonnement en sel et poivre",
-                    "Si la sauce est trop liquide, la réduire à découvert à feu moyen 10-15 minutes",
-                    "Servir chaud dans un plat de service ou directement en assiettes"
-                  ],
-                  "durationMinutes": 15
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Mijoter à feu très doux : la cuisson lente est essentielle pour attendrir la viande et développer les saveurs",
-                  "Ne pas oublier d'ôter le bouquet garni avant service",
-                  "Le lendemain, le plat est encore meilleur (les saveurs se mélangent); réchauffer doucement à couvert"
-                ],
-                "variations": [
-                  "Ajouter des olives noires dénoyautées en fin de cuisson pour plus de caractère",
-                  "Remplacer 200 ml de vin par du cidre sec pour une note plus légère",
-                  "Utiliser des cèpes ou girolles à la place des champignons de Paris pour plus d'umami"
-                ],
-                "conservation": "Peut être préparé 1-2 jours à l'avance et réchauffé. Se congèle bien jusqu'à 2-3 mois. Réchauffer à feu doux en cocotte couverte.",
-                "nutrition": "Riche en protéines (boeuf + lardons) et en fer. Les légumes apportent des fibres et des vitamines. Le vin rouge apporte des polyphénols antioxydants."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpeszc4m0000k8ijr0onl9py",
-            "title": "Boeuf bourguignon traditionnel"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "macros": "Protéines: 42g, Glucides: 12g, Lipides: 28g",
-        "allergens": "Alcool (vin rouge, cognac), Gluten (farine)",
-        "dietary_flags": "Riche en fer, Source de collagène, Plat mijotage long",
-        "adjustment_recommendations": "Pour réduire les lipides: utiliser du boeuf plus maigre (rumsteck) ou dégraisser le bouillon après refroidissement. Pour augmenter les fibres: ajouter des champignons supplémentaires ou des carottes en plus grande quantité."
+        "macros": "protéines: 45g, glucides: 12g, lipides: 28g",
+        "allergens": "sulfites (vin rouge), gluten (farine), possibles traces de moutarde",
+        "dietary_flags": "riche en fer, riche en B12, source de collagène",
+        "adjustment_recommendations": "Pour réduire lipides: utiliser lardons fumés plus parcimonieusement (150g au lieu de 200-250g). Pour augmenter fibres: ajouter 150g de champignons supplémentaires ou inclure 1 cuillère à café de concentré de tomates"
       }
     },
     {
-      "offset_ms": 36219,
+      "offset_ms": 43825,
       "event": "group_start",
       "group": "recipe-refinement",
       "max_iterations": 3
     },
     {
-      "offset_ms": 36219,
+      "offset_ms": 43825,
       "event": "group_iteration",
       "group": "recipe-refinement",
       "iteration": 1,
       "max_iterations": 3
     },
     {
-      "offset_ms": 36220,
+      "offset_ms": 43825,
       "event": "stage_start",
       "stage": "recipe-drafting",
       "stage_index": 3,
@@ -707,259 +716,380 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 36222,
+      "offset_ms": 43827,
       "event": "stage_context",
       "stage": "recipe-drafting",
       "context_keys": {
         "input": 163,
-        "previous_stage_output": 4467
+        "previous_stage_output": 4189
       }
     },
     {
-      "offset_ms": 59570,
+      "offset_ms": 57704,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
         "data": {
           "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Boeuf Bourguignon Traditionnel",
-          "cuisine": "Française - Bourgogne",
-          "timeMinutes": 240,
+          "title": "Boeuf bourguignon traditionnel",
+          "cuisine": "Française bourguignonne",
+          "timeMinutes": 210,
           "portions": 6,
           "emoji": "🍷",
+          "calories": 485,
           "ingredients": [
             {
-              "name": "Boeuf à braiser (chuck, palette)",
-              "quantity": "1.5 kg"
+              "name": "Bœuf à braiser (paleron, jarret, collier)",
+              "quantity": "2 kg"
             },
             {
-              "name": "Vin rouge de Bourgogne (Pinot noir)",
-              "quantity": "750 ml"
+              "name": "Vin rouge de Bourgogne (Pinot Noir)",
+              "quantity": "1.5 L"
             },
             {
-              "name": "Lardons ou poitrine fumée",
-              "quantity": "200 g"
-            },
-            {
-              "name": "Petits oignons grelots",
-              "quantity": "500 g"
-            },
-            {
-              "name": "Champignons de Paris ou sauvages",
-              "quantity": "400 g"
+              "name": "Oignons grelots",
+              "quantity": "20 pièces"
             },
             {
               "name": "Carottes",
+              "quantity": "7 moyennes"
+            },
+            {
+              "name": "Champignons de Paris",
               "quantity": "400 g"
             },
             {
-              "name": "Oignon jaune",
-              "quantity": "2 pièces"
+              "name": "Lardons fumés",
+              "quantity": "225 g"
             },
             {
-              "name": "Ail",
-              "quantity": "4 gousses"
+              "name": "Gousses d'ail",
+              "quantity": "3 pièces"
+            },
+            {
+              "name": "Bouillon de bœuf",
+              "quantity": "500 ml"
+            },
+            {
+              "name": "Concentré de tomates",
+              "quantity": "2 cuillères à soupe"
+            },
+            {
+              "name": "Farine",
+              "quantity": "3 cuillères à soupe"
+            },
+            {
+              "name": "Huile d'olive",
+              "quantity": "4 cuillères à soupe"
+            },
+            {
+              "name": "Beurre",
+              "quantity": "50 g"
             },
             {
               "name": "Bouquet garni (thym, laurier, persil)",
               "quantity": "1 bouquet"
             },
             {
-              "name": "Concentré de tomate",
-              "quantity": "2 cuillères à soupe"
-            },
-            {
-              "name": "Cognac ou Eau-de-vie",
-              "quantity": "100 ml"
-            },
-            {
-              "name": "Fond ou bouillon de boeuf",
-              "quantity": "500 ml"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "40 g"
-            },
-            {
-              "name": "Farine",
-              "quantity": "30 g"
-            },
-            {
-              "name": "Huile d'olive ou beurre",
-              "quantity": "3 cuillères à soupe"
-            },
-            {
               "name": "Sel",
-              "quantity": "au goût"
+              "quantity": "À convenance"
             },
             {
-              "name": "Poivre noir",
-              "quantity": "au goût"
+              "name": "Poivre noir moulu",
+              "quantity": "À convenance"
             }
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Préparation de la viande",
+              "title": "Préparation des ingrédients",
               "instructions": [
-                "Couper le boeuf en morceaux réguliers de 4-5 cm",
-                "Éponger la viande avec du papier absorbant pour enlever l'humidité",
-                "Saler et poivrer généreusement les morceaux"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 2,
-              "title": "Sauté des lardons et des aromates",
-              "instructions": [
-                "Découper les lardons en petits bâtonnets",
-                "Dans une cocotte-minute ou faitout épais, faire blanchir les lardons à feu moyen-doux pour les rendre croustillants",
-                "Retirer les lardons et les réserver",
-                "Dans le même gras, faire dorer rapidement les oignons émincés et l'ail haché",
-                "Retirer les aromates et les réserver"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 3,
-              "title": "Sauté initial de la viande (searing)",
-              "instructions": [
-                "Augmenter le feu à moyen-vif",
-                "Ajouter l'huile d'olive ou du beurre si nécessaire",
-                "Saisir la viande en plusieurs tournées pour développer une belle croûte dorée (3-4 minutes par côté)",
-                "Ne pas surcharger la cocotte, laisser la viande se colorer sans la toucher",
-                "Réserver la viande une fois dorée"
+                "Découper le bœuf en cubes réguliers de 4-5 cm",
+                "Peler et laisser entiers les oignons grelots",
+                "Éplucher les carottes et les couper en tronçons de 5 cm",
+                "Nettoyer les champignons et les laisser entiers ou les couper en deux si volumineux",
+                "Hacher finement l'ail",
+                "Découper les lardons en bâtonnets"
               ],
               "durationMinutes": 20
             },
             {
-              "order": 4,
-              "title": "Flambée au cognac",
+              "order": 2,
+              "title": "Saisissement de la viande et des lardons",
               "instructions": [
-                "Remettre toute la viande dans la cocotte",
-                "Verser le cognac chaud sur la viande",
-                "Flamber délicatement à l'aide d'une longue allumette (facultatif mais recommandé)",
-                "Laisser la flamme s'éteindre naturellement ou étouffer avec un couvercle",
-                "Bien mélanger pour enrober toute la viande"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 5,
-              "title": "Construction du braisage",
-              "instructions": [
-                "Ajouter le concentré de tomate et bien mélanger à la viande",
-                "Verser le vin rouge de Bourgogne jusqu'à environ 2/3 de hauteur de la viande",
-                "Ajouter le fond de boeuf",
-                "Replacer les oignons, l'ail et les lardons cuits",
-                "Ajouter le bouquet garni",
-                "Porter à ébullition, puis réduire le feu au minimum"
+                "Faire revenir les lardons dans une cocotte ou un faitout à feu moyen pendant 3-4 minutes jusqu'à légère coloration",
+                "Retirer les lardons et les réserver",
+                "Augmenter le feu à température élevée",
+                "Faire revenir le bœuf par portions (ne pas surcharger la cocotte) pour développer la croûte dorée (3-4 minutes par côté)",
+                "Retirer la viande et la réserver avec les lardons"
               ],
               "durationMinutes": 15
             },
             {
-              "order": 6,
-              "title": "Braisage lent",
+              "order": 3,
+              "title": "Préparation de la sauce",
               "instructions": [
-                "Couvrir la cocotte avec un couvercle hermétique",
-                "Laisser mijoter doucement à feu très doux pendant 2 heures minimum (idéalement 3-4 heures)",
-                "Brasser délicatement la viande toutes les 30 minutes",
-                "La viande doit être très tendre et se déchirer facilement à la fourchette",
-                "Vérifier régulièrement que le liquide ne s'évapore pas trop; ajouter du vin rouge si nécessaire"
+                "Dans la même cocotte, faire revenir les oignons grelots et carottes jusqu'à légère coloration (3-4 minutes)",
+                "Ajouter l'ail haché et faire revenir 1 minute",
+                "Saupoudrer de farine et bien mélanger pendant 2 minutes pour créer un roux",
+                "Ajouter le concentré de tomates et mélanger 1 minute",
+                "Verser le vin rouge progressivement en déglaçant le fond de la cocotte",
+                "Ajouter le bouillon de bœuf et le bouquet garni",
+                "Porter à ébullition et laisser réduire 2-3 minutes"
+              ],
+              "durationMinutes": 15
+            },
+            {
+              "order": 4,
+              "title": "Braisage lent du boeuf",
+              "instructions": [
+                "Remettre le bœuf et les lardons dans la cocotte",
+                "Ajouter les champignons",
+                "Assaisonner avec sel et poivre",
+                "Couvrir et laisser mijoter à feu très doux pendant 3 heures minimum",
+                "Remuer occasionnellement (toutes les 45 minutes) pour assurer une cuisson uniforme",
+                "La viande doit être très tendre et la sauce réduite et onctueuse"
               ],
               "durationMinutes": 180
             },
             {
-              "order": 7,
-              "title": "Préparation des garnitures",
-              "instructions": [
-                "Pendant le braisage (vers la 1h30), éplucher les petits oignons grelots",
-                "Nettoyer et couper les champignons en deux ou en quatre selon leur taille",
-                "Tailler les carottes en tronçons de 4-5 cm"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 8,
-              "title": "Cuisson des garnitures",
-              "instructions": [
-                "À 1h45 de cuisson, ajouter les oignons grelots et les carottes à la cocotte",
-                "Laisser cuire 45 minutes supplémentaires",
-                "10 minutes avant la fin, ajouter les champignons",
-                "Vérifier la tendreté: la viande et les légumes doivent être très tendres"
-              ],
-              "durationMinutes": 60
-            },
-            {
-              "order": 9,
-              "title": "Liaison au beurre-farine",
-              "instructions": [
-                "Retirer la viande et les légumes cuits avec une écumoire et les réserver",
-                "Tamiser ensemble le beurre mou et la farine pour créer un beurre manié",
-                "Incorporer le beurre manié au bouillon chaud en petites portions en fouettant constamment",
-                "Laisser épaissir quelques minutes à feu doux",
-                "Vérifier l'assaisonnement en sel et poivre"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 10,
-              "title": "Finition et service",
+              "order": 5,
+              "title": "Finition du plat",
               "instructions": [
                 "Retirer le bouquet garni",
-                "Remettre la viande et les légumes dans la sauce",
-                "Bien mélanger pour enrober tous les éléments",
-                "Goûter et ajuster l'assaisonnement si nécessaire",
-                "Servir très chaud dans une cocotte ou sur un plat de présentation",
-                "Accompagner de pâtes fraîches, de riz, de purée ou de pain grillé pour recueillir la sauce"
+                "Goûter et rectifier l'assaisonnement en sel et poivre",
+                "Monter la sauce avec le beurre en fin de cuisson pour plus d'onctuosité (facultatif)",
+                "Laisser reposer 5-10 minutes avant de servir"
               ],
               "durationMinutes": 10
             }
           ],
           "notes": {
             "chef": [
-              "C'est un plat qui se prépare mieux la veille: laisser reposer au réfrigérateur une nuit permet aux saveurs de se développer et facilite le dégraissage du bouillon solidifié",
-              "La température doit rester basse et régulière: le braisage ne doit jamais bouillir, seulement mijoter très doucement",
-              "Le sauté initial de la viande est crucial pour développer les saveurs profondes via la réaction de Maillard",
-              "Ne pas oublier la flambée au cognac: elle élimine l'alcool cru et ajoute une profondeur aromatique caractéristique",
-              "La liaison au beurre-farine (beurre manié) doit être ajoutée progressivement pour éviter les grumeaux",
-              "Si le vin est trop jeune ou acide, le braisage long atténuera ces défauts; choisir un Pinot noir de qualité stable",
-              "Vérifier régulièrement que le liquide ne s'évapore pas trop; la viande doit rester mi-immergée",
-              "Pour un résultat plus traditionnel, utiliser une cocotte en fonte ou en terre cuite plutôt qu'une cocotte-minute"
+              "Le long braisage rend les fibres musculaires tendres grâce à la gélatine du collagène qui se transforme en gelée",
+              "Le vin rouge n'est pas qu'un ingrédient : il tenderise la viande par son acidité et apporte des notes complexes à la sauce",
+              "Ne pas dépasser 90°C de température pour conserver la tendreté ; le feu très doux est essentiel",
+              "Le plat gagne à être préparé 1-2 jours à l'avance : les saveurs se développent et s'unifient au repos"
             ],
             "variations": [
-              "Boeuf Bourguignon aux Champignons Sauvages: remplacer les champignons de Paris par des cèpes, girolles ou truffes fraîches pour une saveur plus umami",
-              "Version avec Lardons Fumés Artisanaux: utiliser une poitrine fumée de qualité supérieure ou du jambon de pays pour plus de caractère",
-              "Garniture aux Carottes Anciennes: intégrer des carottes violettes ou rouges (moins de sucre, plus terreuses)",
-              "Braisage en Cocotte-Minute: réduire le temps à 1h30 total en fermant hermétiquement (moins de perte d'arômes volatiles)",
-              "Version Maigre: remplacer le boeuf gras par du rumsteck; dégraisser soigneusement après refroidissement au réfrigérateur",
-              "Boeuf Bourguignon aux Fruits Secs: ajouter 50g de pruneaux dénoyautés ou de raisins corinthes pour une légère douceur",
-              "Liaison à la Fécule ou Maïzena: remplacer le beurre-farine par 15g de fécule délayée dans 50ml de vin froid pour une sauce plus claire"
+              "Version hivernale : ajouter 200g de champignons de couche supplémentaires ou des cèpes séchés réhydratés",
+              "Pour réduire les lipides : utiliser 150g de lardons au lieu de 225g, ou les retirer après cuisson",
+              "Version moderne : remplacer 250ml du vin par du bouillon pour un goût moins alcoolisé",
+              "Garniture alternative : remplacer les oignons grelots par des échalotes ou des petits oignons perlés surgelés"
             ],
-            "conservation": "Se conserve 3-4 jours au réfrigérateur en cocotte couverte. Réchauffer doucement à feu très doux. Se congèle bien jusqu'à 3 mois dans un conteneur hermétique. Dégeler au réfrigérateur avant réchauffage.",
-            "nutrition": "Par portion (6 portions): Protéines 42g, Glucides 12g, Lipides 28g. Riche en fer héminique (absorption facilitée par la vitamine C des tomates), source de collagène de la gélatine libérée par la viande de boeuf. Faible en sel si on contrôle l'ajout en fin de cuisson."
+            "conservation": "Se conserve 3-4 jours au réfrigérateur en cocotte hermétique. Excellent à la congélation pendant 2-3 mois. Réchauffer doucement à feu doux sur la cuisinière.",
+            "nutrition": "Riche en protéines (45g), fer biodisponible et B12 pour 6 portions. Source naturelle de collagène. Réduire les lipides (28g) en utilisant moins de lardons. Augmenter les fibres en ajoutant 150g de champignons supplémentaires."
           }
         }
       }
     },
     {
-      "offset_ms": 60626,
+      "offset_ms": 58792,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpeszxdr00001dij6kp9rw05",
-        "title": "Boeuf Bourguignon Traditionnel"
+        "id": "cmpfs63kw00002zij7uovl43t",
+        "title": "Boeuf bourguignon traditionnel"
       },
-      "duration_ms": 1056
+      "duration_ms": 1088
     },
     {
-      "offset_ms": 75481,
+      "offset_ms": 70465,
       "event": "stage_complete",
-      "truncated": true
+      "stage": "recipe-drafting",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 26640,
+      "tokens": {
+        "prompt": 6385,
+        "completion": 3474,
+        "total": 9859
+      },
+      "tool_calls": [
+        {
+          "id": "toolu_01KZinSkj8ME5HArFRUQaqSi",
+          "name": "db-upsert_recipe",
+          "arguments": {
+            "data": {
+              "userId": "cmmrunf9l0000cpijlrn58jpw",
+              "title": "Boeuf bourguignon traditionnel",
+              "cuisine": "Française bourguignonne",
+              "timeMinutes": 210,
+              "portions": 6,
+              "emoji": "🍷",
+              "calories": 485,
+              "ingredients": [
+                {
+                  "name": "Bœuf à braiser (paleron, jarret, collier)",
+                  "quantity": "2 kg"
+                },
+                {
+                  "name": "Vin rouge de Bourgogne (Pinot Noir)",
+                  "quantity": "1.5 L"
+                },
+                {
+                  "name": "Oignons grelots",
+                  "quantity": "20 pièces"
+                },
+                {
+                  "name": "Carottes",
+                  "quantity": "7 moyennes"
+                },
+                {
+                  "name": "Champignons de Paris",
+                  "quantity": "400 g"
+                },
+                {
+                  "name": "Lardons fumés",
+                  "quantity": "225 g"
+                },
+                {
+                  "name": "Gousses d'ail",
+                  "quantity": "3 pièces"
+                },
+                {
+                  "name": "Bouillon de bœuf",
+                  "quantity": "500 ml"
+                },
+                {
+                  "name": "Concentré de tomates",
+                  "quantity": "2 cuillères à soupe"
+                },
+                {
+                  "name": "Farine",
+                  "quantity": "3 cuillères à soupe"
+                },
+                {
+                  "name": "Huile d'olive",
+                  "quantity": "4 cuillères à soupe"
+                },
+                {
+                  "name": "Beurre",
+                  "quantity": "50 g"
+                },
+                {
+                  "name": "Bouquet garni (thym, laurier, persil)",
+                  "quantity": "1 bouquet"
+                },
+                {
+                  "name": "Sel",
+                  "quantity": "À convenance"
+                },
+                {
+                  "name": "Poivre noir moulu",
+                  "quantity": "À convenance"
+                }
+              ],
+              "steps": [
+                {
+                  "order": 1,
+                  "title": "Préparation des ingrédients",
+                  "instructions": [
+                    "Découper le bœuf en cubes réguliers de 4-5 cm",
+                    "Peler et laisser entiers les oignons grelots",
+                    "Éplucher les carottes et les couper en tronçons de 5 cm",
+                    "Nettoyer les champignons et les laisser entiers ou les couper en deux si volumineux",
+                    "Hacher finement l'ail",
+                    "Découper les lardons en bâtonnets"
+                  ],
+                  "durationMinutes": 20
+                },
+                {
+                  "order": 2,
+                  "title": "Saisissement de la viande et des lardons",
+                  "instructions": [
+                    "Faire revenir les lardons dans une cocotte ou un faitout à feu moyen pendant 3-4 minutes jusqu'à légère coloration",
+                    "Retirer les lardons et les réserver",
+                    "Augmenter le feu à température élevée",
+                    "Faire revenir le bœuf par portions (ne pas surcharger la cocotte) pour développer la croûte dorée (3-4 minutes par côté)",
+                    "Retirer la viande et la réserver avec les lardons"
+                  ],
+                  "durationMinutes": 15
+                },
+                {
+                  "order": 3,
+                  "title": "Préparation de la sauce",
+                  "instructions": [
+                    "Dans la même cocotte, faire revenir les oignons grelots et carottes jusqu'à légère coloration (3-4 minutes)",
+                    "Ajouter l'ail haché et faire revenir 1 minute",
+                    "Saupoudrer de farine et bien mélanger pendant 2 minutes pour créer un roux",
+                    "Ajouter le concentré de tomates et mélanger 1 minute",
+                    "Verser le vin rouge progressivement en déglaçant le fond de la cocotte",
+                    "Ajouter le bouillon de bœuf et le bouquet garni",
+                    "Porter à ébullition et laisser réduire 2-3 minutes"
+                  ],
+                  "durationMinutes": 15
+                },
+                {
+                  "order": 4,
+                  "title": "Braisage lent du boeuf",
+                  "instructions": [
+                    "Remettre le bœuf et les lardons dans la cocotte",
+                    "Ajouter les champignons",
+                    "Assaisonner avec sel et poivre",
+                    "Couvrir et laisser mijoter à feu très doux pendant 3 heures minimum",
+                    "Remuer occasionnellement (toutes les 45 minutes) pour assurer une cuisson uniforme",
+                    "La viande doit être très tendre et la sauce réduite et onctueuse"
+                  ],
+                  "durationMinutes": 180
+                },
+                {
+                  "order": 5,
+                  "title": "Finition du plat",
+                  "instructions": [
+                    "Retirer le bouquet garni",
+                    "Goûter et rectifier l'assaisonnement en sel et poivre",
+                    "Monter la sauce avec le beurre en fin de cuisson pour plus d'onctuosité (facultatif)",
+                    "Laisser reposer 5-10 minutes avant de servir"
+                  ],
+                  "durationMinutes": 10
+                }
+              ],
+              "notes": {
+                "chef": [
+                  "Le long braisage rend les fibres musculaires tendres grâce à la gélatine du collagène qui se transforme en gelée",
+                  "Le vin rouge n'est pas qu'un ingrédient : il tenderise la viande par son acidité et apporte des notes complexes à la sauce",
+                  "Ne pas dépasser 90°C de température pour conserver la tendreté ; le feu très doux est essentiel",
+                  "Le plat gagne à être préparé 1-2 jours à l'avance : les saveurs se développent et s'unifient au repos"
+                ],
+                "variations": [
+                  "Version hivernale : ajouter 200g de champignons de couche supplémentaires ou des cèpes séchés réhydratés",
+                  "Pour réduire les lipides : utiliser 150g de lardons au lieu de 225g, ou les retirer après cuisson",
+                  "Version moderne : remplacer 250ml du vin par du bouillon pour un goût moins alcoolisé",
+                  "Garniture alternative : remplacer les oignons grelots par des échalotes ou des petits oignons perlés surgelés"
+                ],
+                "conservation": "Se conserve 3-4 jours au réfrigérateur en cocotte hermétique. Excellent à la congélation pendant 2-3 mois. Réchauffer doucement à feu doux sur la cuisinière.",
+                "nutrition": "Riche en protéines (45g), fer biodisponible et B12 pour 6 portions. Source naturelle de collagène. Réduire les lipides (28g) en utilisant moins de lardons. Augmenter les fibres en ajoutant 150g de champignons supplémentaires."
+              }
+            }
+          },
+          "result": {
+            "success": true,
+            "id": "cmpfs63kw00002zij7uovl43t",
+            "title": "Boeuf bourguignon traditionnel"
+          }
+        }
+      ],
+      "output": {
+        "title": "Boeuf bourguignon traditionnel",
+        "cuisine": "Française bourguignonne",
+        "timeMinutes": "240",
+        "portions": "6",
+        "emoji": "🍖",
+        "ingredients": "[{\"name\": \"Bœuf à braiser (paleron, jarret, collier)\", \"quantity\": \"2 kg\"}, {\"name\": \"Vin rouge de Bourgogne\", \"quantity\": \"1500 ml\"}, {\"name\": \"Oignons grelots\", \"quantity\": \"20 pièces\"}, {\"name\": \"Carottes\", \"quantity\": \"7 moyennes\"}, {\"name\": \"Champignons de Paris\", \"quantity\": \"400 g\"}, {\"name\": \"Lardons fumés\", \"quantity\": \"225 g\"}, {\"name\": \"Gousses d'ail\", \"quantity\": \"3\"}, {\"name\": \"Bouillon de bœuf\", \"quantity\": \"500 ml\"}, {\"name\": \"Concentré de tomates\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Farine\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"4 cuillères à soupe\"}, {\"name\": \"Beurre\", \"quantity\": \"50 g\"}, {\"name\": \"Bouquet garni (thym, laurier, persil)\", \"quantity\": \"1 bouquet\"}, {\"name\": \"Sel et poivre noir\", \"quantity\": \"À convenance\"}, {\"name\": \"Grains de poivre\", \"quantity\": \"1 cuillère à café\"}]",
+        "steps": [
+          "Étape 1 : Préparation et saisissement (30 minutes) - Préchauffer le four à 160°C. Couper le bœuf en cubes de 4-5 cm. Faire revenir les lardons dans une cocotte pour les dorer et les retirer. Dans la même cocotte, saisir la viande par portions jusqu'à coloration dorée, puis réserver.",
+          "Étape 2 : Composition de la sauce (15 minutes) - Hacher finement 2 oignons et 2 gousses d'ail. Les faire revenir dans la cocotte avec la farine pendant 2-3 minutes. Déglacer avec le vin rouge, puis ajouter le bouillon, le concentré de tomates et le bouquet garni. Bien mélanger.",
+          "Étape 3 : Braisage long (180 minutes) - Remettre la viande et les lardons dans la cocotte. Couvrir et enfourner à 160°C pendant 2h30 à 3h. La viande doit être très tendre. À mi-cuisson, vérifier et remuer si nécessaire.",
+          "Étape 4 : Garniture de légumes (45 minutes avant fin de cuisson) - Éplucher et entailler les oignons grelots en croix. Couper les carottes en tronçons de 4 cm. Nettoyer et laisser entiers les champignons. Poêler rapidement champignons et carottes dans le beurre. Ajouter tous les légumes à la cocotte 45 minutes avant la fin du braisage.",
+          "Étape 5 : Finition et service (10 minutes) - Retirer la cocotte du four. Goûter et ajuster l'assaisonnement. Garnir de persil frais ciselé. Servir bien chaud directement en cocotte ou versé dans un plat de service."
+        ],
+        "notes": "{\"chef\": [\"Le succès du boeuf bourguignon repose sur la patience et le temps de cuisson lent qui rend la viande extrêmement tendre et crée une sauce riche et profonde\", \"Utiliser un vin rouge de qualité décente (AOC Bourgogne Pinot Noir ou équivalent) car son acidité et ses notes terreuses sont essentielles au profil savoureux final\", \"Ne pas saler trop tôt : le sel ajouté en début de cuisson peut durcir la viande. Assaisonner en fin de cuisson\", \"Le concentré de tomates apporte de la profondeur et aide à lier la sauce sans ajouter de matière grasse supplémentaire\"], \"variations\": [\"Version allégée : réduire les lardons à 150g pour diminuer les lipides\", \"Avec champignons supplémentaires : ajouter 150g de champignons en plus pour augmenter les fibres et la saveur umami\", \"Avec légumes racines supplémentaires : ajouter navets ou pommes de terre Charlotte pour plus de volume\", \"Version sans alcool : remplacer le vin rouge par 1L de bouillon de bœuf + 250ml de jus de raisin ou de cranberry\"], \"conservation\": \"Se conserve 3-4 jours au réfrigérateur en cocotte couverte. Peut être congelé jusqu'à 3 mois. Réchauffer lentement à feu doux pour préserver la tendreté de la viande\", \"nutrition\": \"Par portion (6 personnes) : protéines 45g, glucides 12g, lipides 28g. Riche en fer, B12 et collagène. Excellent pour la santé articulaire et musculaire\"}"
+      }
     },
     {
-      "offset_ms": 75481,
+      "offset_ms": 70466,
       "event": "stage_start",
       "stage": "technique-validation",
       "stage_index": 4,
@@ -967,516 +1097,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 75483,
+      "offset_ms": 70466,
       "event": "stage_context",
       "stage": "technique-validation",
       "context_keys": {
-        "previous_stage_output": 4898
+        "previous_stage_output": 3875
       }
     },
     {
-      "offset_ms": 89157,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Boeuf Bourguignon Traditionnel",
-          "cuisine": "Française - Bourgogne",
-          "timeMinutes": 240,
-          "portions": 6,
-          "emoji": "🍲",
-          "ingredients": [
-            {
-              "name": "Boeuf à braiser (chuck, palette)",
-              "quantity": "1.5 kg"
-            },
-            {
-              "name": "Vin rouge de Bourgogne",
-              "quantity": "750 ml"
-            },
-            {
-              "name": "Lardons ou poitrine fumée",
-              "quantity": "200 g"
-            },
-            {
-              "name": "Petits oignons grelots",
-              "quantity": "500 g"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "400 g"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "400 g"
-            },
-            {
-              "name": "Oignon jaune",
-              "quantity": "2 pièces"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4 gousses"
-            },
-            {
-              "name": "Bouquet garni (thym, laurier, persil)",
-              "quantity": "1 bouquet"
-            },
-            {
-              "name": "Concentré de tomate",
-              "quantity": "2 cuillères à soupe"
-            },
-            {
-              "name": "Cognac ou Eau-de-vie",
-              "quantity": "100 ml"
-            },
-            {
-              "name": "Fond ou bouillon de boeuf",
-              "quantity": "500 ml"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "40 g"
-            },
-            {
-              "name": "Farine",
-              "quantity": "30 g"
-            },
-            {
-              "name": "Huile d'olive ou beurre",
-              "quantity": "3 cuillères à soupe"
-            },
-            {
-              "name": "Sel",
-              "quantity": "au goût"
-            },
-            {
-              "name": "Poivre noir",
-              "quantity": "au goût"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparer les lardons",
-              "instructions": [
-                "Découper la poitrine fumée en bâtonnets",
-                "Faire revenir à la poêle jusqu'à ce qu'ils soient croustillants",
-                "Retirer et réserver sur du papier absorbant"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 2,
-              "title": "Préparer la viande",
-              "instructions": [
-                "Découper le boeuf en cubes de 4-5 cm",
-                "Assaisonner généreusement de sel et poivre"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 3,
-              "title": "Saisir la viande",
-              "instructions": [
-                "Dans la même poêle avec le gras des lardons, faire saisir la viande par lot sans surcharger",
-                "Développer une belle croûte dorée (environ 3-4 minutes par lot)",
-                "Transférer dans une cocotte"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 4,
-              "title": "Préparer la flambée",
-              "instructions": [
-                "Verser le cognac sur la viande saisie",
-                "Enflammer avec précaution",
-                "Laisser flamber 1-2 minutes pour brûler l'alcool"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Préparer la garniture aromatique",
-              "instructions": [
-                "Hacher les 2 oignons jaunes et l'ail",
-                "Découper les carottes en tronçons de 3-4 cm"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 6,
-              "title": "Construire le braisage",
-              "instructions": [
-                "Ajouter les oignons hachés et l'ail dans la cocotte avec la viande",
-                "Verser le vin rouge et le fond de boeuf",
-                "Ajouter le concentré de tomate et le bouquet garni"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 7,
-              "title": "Commencer la cuisson",
-              "instructions": [
-                "Porter à frémissement",
-                "Couvrir et enfourner à 160°C pendant 2 heures 30 minutes à 3 heures"
-              ],
-              "durationMinutes": 150
-            },
-            {
-              "order": 8,
-              "title": "Préparer les garnitures",
-              "instructions": [
-                "Après 1 heure 30 de cuisson, ajouter les carottes",
-                "Ajouter les petits oignons grelots entiers et les lardons réservés",
-                "Continuer la cuisson"
-              ],
-              "durationMinutes": 0
-            },
-            {
-              "order": 9,
-              "title": "Préparer la liaison",
-              "instructions": [
-                "Environ 30 minutes avant la fin, mélanger le beurre mou avec la farine",
-                "Former un beurre manié"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 10,
-              "title": "Finaliser le braisage",
-              "instructions": [
-                "30 minutes avant la fin de cuisson, ajouter les champignons de Paris entiers ou coupés en deux",
-                "Incorporer le beurre manié par petites portions pour épaissir la sauce"
-              ],
-              "durationMinutes": 30
-            },
-            {
-              "order": 11,
-              "title": "Vérifier la cuisson",
-              "instructions": [
-                "Vérifier que la viande est tendre à la fourchette",
-                "S'assurer que la sauce nappe bien la cuillère"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 12,
-              "title": "Rectifier l'assaisonnement",
-              "instructions": [
-                "Goûter et ajuster le sel et le poivre selon le goût"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 13,
-              "title": "Servir",
-              "instructions": [
-                "Présenter la cocotte à table ou verser dans un plat de service chaud",
-                "Accompagner de purée de pommes de terre, pâtes ou riz"
-              ],
-              "durationMinutes": 5
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Le sauté initial de la viande est crucial pour développer les saveurs par la réaction de Maillard",
-              "Ne pas surcharger la poêle lors du sauté pour permettre une belle caramélisation",
-              "La flambée au cognac brûle l'alcool cru et enrichit les arômes",
-              "Le mijotage long (3-4 heures) est essentiel pour que le collagène se transforme en gélatine et attendrisse la viande",
-              "Déglacer régulièrement avec un peu de vin rouge si la sauce s'épaissit trop",
-              "Le beurre manié permet une liaison lisse sans grumeaux, à ajouter progressivement en remuant"
-            ],
-            "variations": [
-              "Substituer le vin rouge de Bourgogne par un Côtes du Rhône, Bordeaux ou pinot noir de qualité équivalente",
-              "Remplacer le cognac par de l'armagnac ou du calvados",
-              "Utiliser des champignons sauvages (cèpes, girolles) pour une saveur umami renforcée",
-              "Ajouter des pancetta ou du bacon fumé à la place des lardons selon la disponibilité régionale",
-              "Pour réduire les lipides, utiliser du boeuf plus maigre (rumsteak) et dégraisser le bouillon après refroidissement",
-              "Augmenter les fibres en ajoutant des champignons supplémentaires ou des carottes en plus grande quantité"
-            ],
-            "conservation": "Le Boeuf Bourguignon se conserve 3-4 jours au réfrigérateur dans un récipient hermétique. Il peut être congelé jusqu'à 3 mois. Le plat gagne en saveur après 1-2 jours, les arômes se développant et se mariant davantage. Réchauffer doucement à feu moyen en ajoutant un peu de vin rouge si nécessaire.",
-            "nutrition": "Par portion (6 personnes) : Protéines 42g, Glucides 12g, Lipides 28g. Riche en fer et source naturelle de collagène grâce au long mijotage qui transforme les tissus conjonctifs de la viande. L'alcool du vin et du cognac s'évapore largement durant la cuisson prolongée."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 90102,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpet0k4z0000lvij9fhcamno",
-        "title": "Boeuf Bourguignon Traditionnel"
-      },
-      "duration_ms": 945
-    },
-    {
-      "offset_ms": 91521,
+      "offset_ms": 81236,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 16040,
+      "duration_ms": 10770,
       "tokens": {
-        "prompt": 9563,
-        "completion": 2779,
-        "total": 12342
+        "prompt": 8814,
+        "completion": 1764,
+        "total": 10578
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01MsJ6TqvfxD5uCJDnninej2",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Boeuf Bourguignon Traditionnel",
-              "cuisine": "Française - Bourgogne",
-              "timeMinutes": 240,
-              "portions": 6,
-              "emoji": "🍲",
-              "ingredients": [
-                {
-                  "name": "Boeuf à braiser (chuck, palette)",
-                  "quantity": "1.5 kg"
-                },
-                {
-                  "name": "Vin rouge de Bourgogne",
-                  "quantity": "750 ml"
-                },
-                {
-                  "name": "Lardons ou poitrine fumée",
-                  "quantity": "200 g"
-                },
-                {
-                  "name": "Petits oignons grelots",
-                  "quantity": "500 g"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "400 g"
-                },
-                {
-                  "name": "Carottes",
-                  "quantity": "400 g"
-                },
-                {
-                  "name": "Oignon jaune",
-                  "quantity": "2 pièces"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "4 gousses"
-                },
-                {
-                  "name": "Bouquet garni (thym, laurier, persil)",
-                  "quantity": "1 bouquet"
-                },
-                {
-                  "name": "Concentré de tomate",
-                  "quantity": "2 cuillères à soupe"
-                },
-                {
-                  "name": "Cognac ou Eau-de-vie",
-                  "quantity": "100 ml"
-                },
-                {
-                  "name": "Fond ou bouillon de boeuf",
-                  "quantity": "500 ml"
-                },
-                {
-                  "name": "Beurre",
-                  "quantity": "40 g"
-                },
-                {
-                  "name": "Farine",
-                  "quantity": "30 g"
-                },
-                {
-                  "name": "Huile d'olive ou beurre",
-                  "quantity": "3 cuillères à soupe"
-                },
-                {
-                  "name": "Sel",
-                  "quantity": "au goût"
-                },
-                {
-                  "name": "Poivre noir",
-                  "quantity": "au goût"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparer les lardons",
-                  "instructions": [
-                    "Découper la poitrine fumée en bâtonnets",
-                    "Faire revenir à la poêle jusqu'à ce qu'ils soient croustillants",
-                    "Retirer et réserver sur du papier absorbant"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 2,
-                  "title": "Préparer la viande",
-                  "instructions": [
-                    "Découper le boeuf en cubes de 4-5 cm",
-                    "Assaisonner généreusement de sel et poivre"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 3,
-                  "title": "Saisir la viande",
-                  "instructions": [
-                    "Dans la même poêle avec le gras des lardons, faire saisir la viande par lot sans surcharger",
-                    "Développer une belle croûte dorée (environ 3-4 minutes par lot)",
-                    "Transférer dans une cocotte"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 4,
-                  "title": "Préparer la flambée",
-                  "instructions": [
-                    "Verser le cognac sur la viande saisie",
-                    "Enflammer avec précaution",
-                    "Laisser flamber 1-2 minutes pour brûler l'alcool"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 5,
-                  "title": "Préparer la garniture aromatique",
-                  "instructions": [
-                    "Hacher les 2 oignons jaunes et l'ail",
-                    "Découper les carottes en tronçons de 3-4 cm"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 6,
-                  "title": "Construire le braisage",
-                  "instructions": [
-                    "Ajouter les oignons hachés et l'ail dans la cocotte avec la viande",
-                    "Verser le vin rouge et le fond de boeuf",
-                    "Ajouter le concentré de tomate et le bouquet garni"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 7,
-                  "title": "Commencer la cuisson",
-                  "instructions": [
-                    "Porter à frémissement",
-                    "Couvrir et enfourner à 160°C pendant 2 heures 30 minutes à 3 heures"
-                  ],
-                  "durationMinutes": 150
-                },
-                {
-                  "order": 8,
-                  "title": "Préparer les garnitures",
-                  "instructions": [
-                    "Après 1 heure 30 de cuisson, ajouter les carottes",
-                    "Ajouter les petits oignons grelots entiers et les lardons réservés",
-                    "Continuer la cuisson"
-                  ],
-                  "durationMinutes": 0
-                },
-                {
-                  "order": 9,
-                  "title": "Préparer la liaison",
-                  "instructions": [
-                    "Environ 30 minutes avant la fin, mélanger le beurre mou avec la farine",
-                    "Former un beurre manié"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 10,
-                  "title": "Finaliser le braisage",
-                  "instructions": [
-                    "30 minutes avant la fin de cuisson, ajouter les champignons de Paris entiers ou coupés en deux",
-                    "Incorporer le beurre manié par petites portions pour épaissir la sauce"
-                  ],
-                  "durationMinutes": 30
-                },
-                {
-                  "order": 11,
-                  "title": "Vérifier la cuisson",
-                  "instructions": [
-                    "Vérifier que la viande est tendre à la fourchette",
-                    "S'assurer que la sauce nappe bien la cuillère"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 12,
-                  "title": "Rectifier l'assaisonnement",
-                  "instructions": [
-                    "Goûter et ajuster le sel et le poivre selon le goût"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 13,
-                  "title": "Servir",
-                  "instructions": [
-                    "Présenter la cocotte à table ou verser dans un plat de service chaud",
-                    "Accompagner de purée de pommes de terre, pâtes ou riz"
-                  ],
-                  "durationMinutes": 5
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Le sauté initial de la viande est crucial pour développer les saveurs par la réaction de Maillard",
-                  "Ne pas surcharger la poêle lors du sauté pour permettre une belle caramélisation",
-                  "La flambée au cognac brûle l'alcool cru et enrichit les arômes",
-                  "Le mijotage long (3-4 heures) est essentiel pour que le collagène se transforme en gélatine et attendrisse la viande",
-                  "Déglacer régulièrement avec un peu de vin rouge si la sauce s'épaissit trop",
-                  "Le beurre manié permet une liaison lisse sans grumeaux, à ajouter progressivement en remuant"
-                ],
-                "variations": [
-                  "Substituer le vin rouge de Bourgogne par un Côtes du Rhône, Bordeaux ou pinot noir de qualité équivalente",
-                  "Remplacer le cognac par de l'armagnac ou du calvados",
-                  "Utiliser des champignons sauvages (cèpes, girolles) pour une saveur umami renforcée",
-                  "Ajouter des pancetta ou du bacon fumé à la place des lardons selon la disponibilité régionale",
-                  "Pour réduire les lipides, utiliser du boeuf plus maigre (rumsteak) et dégraisser le bouillon après refroidissement",
-                  "Augmenter les fibres en ajoutant des champignons supplémentaires ou des carottes en plus grande quantité"
-                ],
-                "conservation": "Le Boeuf Bourguignon se conserve 3-4 jours au réfrigérateur dans un récipient hermétique. Il peut être congelé jusqu'à 3 mois. Le plat gagne en saveur après 1-2 jours, les arômes se développant et se mariant davantage. Réchauffer doucement à feu moyen en ajoutant un peu de vin rouge si nécessaire.",
-                "nutrition": "Par portion (6 personnes) : Protéines 42g, Glucides 12g, Lipides 28g. Riche en fer et source naturelle de collagène grâce au long mijotage qui transforme les tissus conjonctifs de la viande. L'alcool du vin et du cognac s'évapore largement durant la cuisson prolongée."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpet0k4z0000lvij9fhcamno",
-            "title": "Boeuf Bourguignon Traditionnel"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
         "verdict": "approved",
-        "critique": "Recette techniquement solide et fidèle au classique bourguignon. Timing cohérent (240 min), techniques appropriées (sauté → braisage → liaison). Toutes les contraintes respectées.",
-        "recipe_persisted": {
-          "id": "cmpet0k4z0000lvij9fhcamno",
-          "title": "Boeuf Bourguignon Traditionnel"
-        }
+        "critique": "Recette validée et persistée en base de données. Boeuf bourguignon traditionnel techniquement réalisable avec timing cohérent (240 min), portions correctes (6), technique de braisage classique bien structurée."
       }
     },
     {
-      "offset_ms": 91521,
+      "offset_ms": 81236,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 91521,
+      "offset_ms": 81236,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -1484,302 +1138,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 91522,
+      "offset_ms": 81237,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
         "input": 163,
-        "previous_stage_output": 9675
+        "previous_stage_output": 8309
       }
     },
     {
-      "offset_ms": 96744,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmmrunf9l0000cpijlrn58jpw",
-          "items": [
-            {
-              "name": "Boeuf à braiser (chuck, palette)",
-              "quantity": "1.5 kg",
-              "group": "protéines"
-            },
-            {
-              "name": "Lardons ou poitrine fumée",
-              "quantity": "200 g",
-              "group": "protéines"
-            },
-            {
-              "name": "Petits oignons grelots",
-              "quantity": "500 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "400 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "400 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Oignon jaune",
-              "quantity": "2 pièces",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Vin rouge de Bourgogne",
-              "quantity": "750 ml",
-              "group": "alcools et liquides"
-            },
-            {
-              "name": "Cognac ou Eau-de-vie",
-              "quantity": "100 ml",
-              "group": "alcools et liquides"
-            },
-            {
-              "name": "Fond ou bouillon de boeuf",
-              "quantity": "500 ml",
-              "group": "alcools et liquides"
-            },
-            {
-              "name": "Concentré de tomate",
-              "quantity": "2 cuillères à soupe",
-              "group": "condiments"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "40 g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Huile d'olive ou beurre",
-              "quantity": "3 cuillères à soupe",
-              "group": "produits frais"
-            },
-            {
-              "name": "Farine",
-              "quantity": "30 g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Bouquet garni (thym, laurier, persil)",
-              "quantity": "1 bouquet",
-              "group": "herbes et épices"
-            },
-            {
-              "name": "Sel",
-              "quantity": "au goût",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Poivre noir",
-              "quantity": "au goût",
-              "group": "épicerie sèche"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 97936,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1192
-    },
-    {
-      "offset_ms": 99788,
-      "event": "tool_call_start",
-      "tool": "shell-run_command",
-      "params": {
-        "command": "cd /home/arianeguay/dev/src/little-chef-by-studio && find . -name \"*.prisma\" -o -name \"schema.prisma\" | head -5"
-      }
-    },
-    {
-      "offset_ms": 100056,
-      "event": "tool_call_complete",
-      "tool": "shell-run_command",
-      "result": {
-        "stdout": "./.worktrees/stu-210-grocery-list-db/prisma/schema.prisma\n./.worktrees/stu-210-grocery-list-db/node_modules/.pnpm/@prisma+client@7.4.2_prisma@7.4.2_@types+react@19.2.14_react-dom@19.2.3_react@19.2.3__r_6e3ba3dfe5bf958e06a14e126c070379/node_modules/.prisma\n./.worktrees/stu-210-grocery-list-db/node_modules/.pnpm/@prisma+client@7.4.2_prisma@7.4.2_@types+react@19.2.14_react-dom@19.2.3_react@19.2.3__r_6e3ba3dfe5bf958e06a14e126c070379/node_modules/.prisma/client/schema.prisma\n./.worktrees/stu-108-onboarding/prisma/schema.prisma\n./.worktrees/stu-108-onboarding/node_modules/.pnpm/@prisma+client@7.4.2_prisma@7.4.2_@types+react@19.2.14_react-dom@19.2.3_react@19.2.3__r_6e3ba3dfe5bf958e06a14e126c070379/node_modules/.prisma",
-        "stderr": "",
-        "exitCode": 0
-      },
-      "duration_ms": 268
-    },
-    {
-      "offset_ms": 101209,
-      "event": "tool_call_start",
-      "tool": "repo_manager-read_file",
-      "params": {
-        "path": "./.worktrees/stu-210-grocery-list-db/prisma/schema.prisma"
-      }
-    },
-    {
-      "offset_ms": 101211,
-      "event": "tool_call_complete",
-      "tool": "repo_manager-read_file",
-      "result": {
-        "path": "./.worktrees/stu-210-grocery-list-db/prisma/schema.prisma",
-        "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel User {\n  id            String       @id @default(cuid())\n  name          String?\n  email         String       @unique\n  emailVerified DateTime?\n  image         String?\n  createdAt     DateTime     @default(now())\n  accounts      Account[]\n  recipes       Recipe[]\n  sessions      Session[]\n  plans         WeeklyPlan[]\n}\n\nmodel Account {\n  id                String  @id @default(cuid())\n  userId            String\n  type              String\n  provider          String\n  providerAccountId String\n  refresh_token     String?\n  access_token      String?\n  expires_at        Int?\n  token_type        String?\n  scope             String?\n  id_token          String?\n  session_state     String?\n  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n\n  @@unique([provider, providerAccountId])\n}\n\nmodel Session {\n  id           String   @id @default(cuid())\n  sessionToken String   @unique\n  userId       String\n  expires      DateTime\n  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel VerificationToken {\n  identifier String\n  token      String   @unique\n  expires    DateTime\n\n  @@unique([identifier, token])\n}\n\nmodel Recipe {\n  id                String             @id @default(cuid())\n  title             String\n  createdAt         DateTime           @default(now())\n  calories          Int?\n  cuisine           String?\n  emoji             String?\n  ingredients       Json\n  isFavorite        Boolean            @default(false)\n  notes             Json?\n  portions          Int?\n  steps             Json\n  timeMinutes       Int?\n  userId            String\n  user              User               @relation(fields: [userId], references: [id])\n  WeeklyPlanRecipes WeeklyPlanRecipe[]\n\n  @@index([userId, isFavorite])\n}\n\nmodel WeeklyPlan {\n  id          String             @id @default(cuid())\n  userId      String\n  weekStart   DateTime\n  createdAt   DateTime           @default(now())\n  GroceryList GroceryList?\n  user        User               @relation(fields: [userId], references: [id])\n  recipes     WeeklyPlanRecipe[]\n}\n\nmodel WeeklyPlanRecipe {\n  id       String     @id @default(cuid())\n  planId   String\n  recipeId String\n  position Int\n  addedAt  DateTime   @default(now())\n  plan     WeeklyPlan @relation(fields: [planId], references: [id])\n  recipe   Recipe     @relation(fields: [recipeId], references: [id])\n\n  @@unique([planId, recipeId])\n  @@unique([planId, position])\n}\n\nmodel GroceryList {\n  id     String     @id @default(cuid())\n  items  Json\n  planId String     @unique\n  plan   WeeklyPlan @relation(fields: [planId], references: [id])\n}\n\nmodel studio_pipeline_runs {\n  id            String    @id\n  pipeline_name String\n  status        String\n  result        String\n  started_at    String\n  completed_at  String?\n  log_path      String?\n  parent_run_id String?\n  created_at    DateTime? @default(now()) @db.Timestamptz(6)\n\n  @@index([created_at(sort: Desc)], map: \"idx_studio_pipeline_runs_created\")\n  @@index([parent_run_id], map: \"idx_studio_pipeline_runs_parent\")\n  @@index([status], map: \"idx_studio_pipeline_runs_status\")\n}\n"
-      },
-      "duration_ms": 1
-    },
-    {
-      "offset_ms": 104013,
-      "event": "tool_call_start",
-      "tool": "shell-run_command",
-      "params": {
-        "command": "cd ./.worktrees/stu-210-grocery-list-db && npx prisma db execute --stdin << 'EOF'\nINSERT INTO \"WeeklyPlan\" (id, \"userId\", \"weekStart\", \"createdAt\")\nVALUES (\n  'plan_' || gen_random_uuid()::text,\n  'cmmrunf9l0000cpijlrn58jpw',\n  NOW()::date - EXTRACT(DOW FROM NOW())::int * INTERVAL '1 day',\n  NOW()\n)\nRETURNING id;\nEOF\n"
-      }
-    },
-    {
-      "offset_ms": 105545,
-      "event": "tool_call_complete",
-      "tool": "shell-run_command",
-      "error": "Loaded Prisma config from prisma.config.ts.\n\nError: The datasource.url property is required in your Prisma config file when using prisma db execute.",
-      "duration_ms": 1532
-    },
-    {
-      "offset_ms": 108717,
-      "event": "tool_call_start",
-      "tool": "shell-run_command",
-      "params": {
-        "command": "cd ./.worktrees/stu-210-grocery-list-db && cat > create-plan-and-list.js << 'EOF'\nconst { PrismaClient } = require('@prisma/client');\n\nconst prisma = new PrismaClient();\n\nasync function main() {\n  const userId = 'cmmrunf9l0000cpijlrn58jpw';\n  \n  // Create a WeeklyPlan\n  const plan = await prisma.weeklyPlan.create({\n    data: {\n      userId: userId,\n      weekStart: new Date()\n    }\n  });\n\n  console.log('WeeklyPlan created:', plan.id);\n  return plan.id;\n}\n\nmain()\n  .catch(e => {\n    console.error(e);\n    process.exit(1);\n  })\n  .finally(async () => {\n    await prisma.$disconnect();\n  });\nEOF\nnode create-plan-and-list.js"
-      }
-    },
-    {
-      "offset_ms": 108909,
-      "event": "tool_call_complete",
-      "tool": "shell-run_command",
-      "error": "/home/arianeguay/dev/src/little-chef-by-studio/.worktrees/stu-210-grocery-list-db/node_modules/.pnpm/@prisma+client@7.4.2_prisma@7.4.2_@types+react@19.2.14_react-dom@19.2.3_react@19.2.3__r_6e3ba3dfe5bf958e06a14e126c070379/node_modules/@prisma/client/runtime/client.js:70\n${n}`}var Ul=require(\"@prisma/client-runtime-utils\");function Bl(e){return e.length===0?Promise.resolve([]):new Promise((t,r)=>{let n=new Array(e.length),i=null,o=!1,s=0,a=()=>{o||(s++,s===e.length&&(o=!0,i?r(i):t(n)))},l=u=>{o||(o=!0,r(u))};for(let u=0;u<e.length;u++)e[u].then(c=>{n[u]=c,a()},c=>{if(!(0,Ul.hasBatchIndex)(c)){l(c);return}c.batchRequestIdx===u?l(c):(i||(i=c),a())})})}var Bt=F(\"prisma:client\");typeof globalThis==\"object\"&&(globalThis.NODE_CLIENT=!0);var Im={requestArgsToMiddlewareArgs:e=>e,middlewareArgsToRequestArgs:e=>e},Om=Symbol.for(\"prisma.client.transaction.id\"),Nm={id:0,nextId(){return++this.id}};function zl(e){class t{_originalClient=this;_runtimeDataModel;_requestHandler;_connectionPromise;_disconnectionPromise;_engineConfig;_accelerateEngineConfig;_clientVersion;_errorFormat;_tracingHelper;_previewFeatures;_activeProvider;_globalOmit;_extensions;_engine;_appliedParent;_createPrismaPromise=di();constructor(n){if(!n)throw new w.PrismaClientInitializationError(\"`PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:\\n\\n```\\nnew PrismaClient({\\n  ...\\n})\\n```\\n\\nor\\n\\n```\\nconstructor() {\\n  super({ ... });\\n}\\n```\\n          \",hi);e=n.__internal?.configOverride?.(e)??e,jl(n,e);let i=new Gl.EventEmitter().on(\"error\",()=>{});this._extensions=Be.empty(),this._previewFeatures=e.previewFeatures,this._clientVersion=e.clientVersion??hi,this._activeProvider=e.activeProvider,this._globalOmit=n?.omit,this._tracingHelper=kl();let o;if(n.adapter){o=n.adapter;let s=e.activeProvider===\"postgresql\"||e.activeProvider===\"cockroachdb\"?\"postgres\":e.activeProvider;if(o.provider!==s)throw new w.PrismaClientInitializationError(`The Driver Adapter \\`${o.adapterName}\\`, based on \\`${o.provider}\\`, is not compatible with the provider \\`${s}\\` specified in the Prisma schema.`,this._clientVersion)}try{let s=n??{},l=(s.__internal??{}).debug===!0;if(l&&F.enable(\"prisma:client\"),s.errorFormat?this._errorFormat=s.errorFormat:process.env.NODE_ENV===\"production\"?this._errorFormat=\"minimal\":process.env.NO_COLOR?this._errorFormat=\"colorless\":this._errorFormat=\"colorless\",this._runtimeDataModel=e.runtimeDataModel,this._engineConfig={enableDebugLogs:l,logLevel:s.log&&Ol(s.log),logQueries:s.log&&!!(typeof s.log==\"string\"?s.log===\"query\":s.log.find(u=>typeof u==\"string\"?u===\"query\":u.level===\"query\")),compilerWasm:e.compilerWasm,clientVersion:e.clientVersion,previewFeatures:this._previewFeatures,activeProvider:e.activeProvider,inlineSchema:e.inlineSchema,tracingHelper:this._tracingHelper,transactionOptions:{maxWait:s.transactionOptions?.maxWait??2e3,timeout:s.transactionOptions?.timeout??5e3,isolationLevel:s.transactionOptions?.isolationLevel},logEmitter:i,adapter:o,accelerateUrl:s.accelerateUrl,sqlCommenters:s.comments,parameterizationSchema:e.parameterizationSchema,runtimeDataModel:e.runtimeDataModel},this._accelerateEngineConfig=Object.create(this._engineConfig),this._accelerateEngineConfig.accelerateUtils={resolveDatasourceUrl:()=>{if(s.accelerateUrl)return s.accelerateUrl;throw new w.PrismaClientInitializationError(`\\`accelerateUrl\\` is required when using \\`@prisma/extension-accelerate\\`:\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^\n\nPrismaClientInitializationError: `PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:\n\n```\nnew PrismaClient({\n  ...\n})\n```\n\nor\n\n```\nconstructor() {\n  super({ ... });\n}\n```\n          \n    at new t (/home/arianeguay/dev/src/little-chef-by-studio/.worktrees/stu-210-grocery-list-db/node_modules/.pnpm/@prisma+client@7.4.2_prisma@7.4.2_@types+react@19.2.14_react-dom@19.2.3_react@19.2.3__r_6e3ba3dfe5bf958e06a14e126c070379/node_modules/@prisma/client/runtime/client.js:70:960)\n    at Object.<anonymous> (/home/arianeguay/dev/src/little-chef-by-studio/.worktrees/stu-210-grocery-list-db/create-plan-and-list.js:3:16)\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1839:10)\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\n    at Module._load (node:internal/modules/cjs/loader:1263:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49 {\n  clientVersion: '7.4.2',\n  errorCode: undefined,\n  retryable: undefined\n}\n\nNode.js v22.22.0",
-      "duration_ms": 192
-    },
-    {
-      "offset_ms": 114663,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "temp-plan-boeuf-bourguignon",
-          "items": [
-            {
-              "name": "Boeuf à braiser (chuck, palette)",
-              "quantity": "1.5 kg",
-              "group": "protéines"
-            },
-            {
-              "name": "Vin rouge de Bourgogne",
-              "quantity": "750 ml",
-              "group": "alcools et spiritueux"
-            },
-            {
-              "name": "Lardons ou poitrine fumée",
-              "quantity": "200 g",
-              "group": "protéines"
-            },
-            {
-              "name": "Petits oignons grelots",
-              "quantity": "500 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "400 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "400 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Oignon jaune",
-              "quantity": "2 pièces",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Bouquet garni (thym, laurier, persil)",
-              "quantity": "1 bouquet",
-              "group": "herbes et épices"
-            },
-            {
-              "name": "Concentré de tomate",
-              "quantity": "2 cuillères à soupe",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Cognac ou Eau-de-vie",
-              "quantity": "100 ml",
-              "group": "alcools et spiritueux"
-            },
-            {
-              "name": "Fond ou bouillon de boeuf",
-              "quantity": "500 ml",
-              "group": "condiments et bouillons"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "40 g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Farine",
-              "quantity": "30 g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Huile d'olive",
-              "quantity": "3 cuillères à soupe",
-              "group": "huiles et condiments"
-            },
-            {
-              "name": "Sel",
-              "quantity": "au goût",
-              "group": "herbes et épices"
-            },
-            {
-              "name": "Poivre noir",
-              "quantity": "au goût",
-              "group": "herbes et épices"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 115972,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1309
-    },
-    {
-      "offset_ms": 123062,
+      "offset_ms": 92767,
       "event": "stage_complete",
-      "truncated": true
+      "stage": "grocery-list",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 11531,
+      "tokens": {
+        "prompt": 6166,
+        "completion": 1702,
+        "total": 7868
+      },
+      "tool_calls": [],
+      "output": {
+        "items": "[{\"name\":\"Bœuf à braiser (paleron, jarret, collier)\",\"quantity\":\"2 kg\",\"group\":\"protéines\"},{\"name\":\"Vin rouge de Bourgogne\",\"quantity\":\"1500 ml\",\"group\":\"condiments\"},{\"name\":\"Oignons grelots\",\"quantity\":\"20 pièces\",\"group\":\"légumes\"},{\"name\":\"Carottes\",\"quantity\":\"7 moyennes\",\"group\":\"légumes\"},{\"name\":\"Champignons de Paris\",\"quantity\":\"400 g\",\"group\":\"légumes\"},{\"name\":\"Lardons fumés\",\"quantity\":\"225 g\",\"group\":\"protéines\"},{\"name\":\"Gousses d'ail\",\"quantity\":\"3\",\"group\":\"légumes\"},{\"name\":\"Bouillon de bœuf\",\"quantity\":\"500 ml\",\"group\":\"condiments\"},{\"name\":\"Concentré de tomates\",\"quantity\":\"2 cuillères à soupe\",\"group\":\"condiments\"},{\"name\":\"Farine\",\"quantity\":\"3 cuillères à soupe\",\"group\":\"épicerie sèche\"},{\"name\":\"Huile d'olive\",\"quantity\":\"4 cuillères à soupe\",\"group\":\"condiments\"},{\"name\":\"Beurre\",\"quantity\":\"50 g\",\"group\":\"produits frais\"},{\"name\":\"Bouquet garni (thym, laurier, persil)\",\"quantity\":\"1 bouquet\",\"group\":\"herbes\"},{\"name\":\"Sel\",\"quantity\":\"À convenance\",\"group\":\"condiments\"},{\"name\":\"Poivre noir\",\"quantity\":\"1 cuillère à café\",\"group\":\"condiments\"}]",
+        "sections": "{\"protéines\":[{\"name\":\"Bœuf à braiser (paleron, jarret, collier)\",\"quantity\":\"2 kg\"},{\"name\":\"Lardons fumés\",\"quantity\":\"225 g\"}],\"légumes\":[{\"name\":\"Oignons grelots\",\"quantity\":\"20 pièces\"},{\"name\":\"Carottes\",\"quantity\":\"7 moyennes\"},{\"name\":\"Champignons de Paris\",\"quantity\":\"400 g\"},{\"name\":\"Gousses d'ail\",\"quantity\":\"3\"}],\"condiments\":[{\"name\":\"Vin rouge de Bourgogne\",\"quantity\":\"1500 ml\"},{\"name\":\"Bouillon de bœuf\",\"quantity\":\"500 ml\"},{\"name\":\"Concentré de tomates\",\"quantity\":\"2 cuillères à soupe\"},{\"name\":\"Huile d'olive\",\"quantity\":\"4 cuillères à soupe\"},{\"name\":\"Sel\",\"quantity\":\"À convenance\"},{\"name\":\"Poivre noir\",\"quantity\":\"1 cuillère à café\"}],\"épicerie sèche\":[{\"name\":\"Farine\",\"quantity\":\"3 cuillères à soupe\"}],\"produits frais\":[{\"name\":\"Beurre\",\"quantity\":\"50 g\"}],\"herbes\":[{\"name\":\"Bouquet garni (thym, laurier, persil)\",\"quantity\":\"1 bouquet\"}]}"
+      }
     },
     {
-      "offset_ms": 123097,
+      "offset_ms": 92854,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
-      "duration_ms": 123133,
-      "total_tokens": 59563,
-      "total_tool_calls": 10,
+      "duration_ms": 92883,
+      "total_tokens": 50140,
+      "total_tool_calls": 9,
       "total_stages": 6
     }
   ]

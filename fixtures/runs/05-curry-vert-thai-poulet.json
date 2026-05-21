@@ -1,6 +1,7 @@
 {
   "id": "05",
   "slug": "curry-vert-thai-poulet",
+  "run_id": "1915e9ba",
   "input": {
     "dish_name": "Curry vert thaï au poulet",
     "userId": "cmmrunf9l0000cpijlrn58jpw",
@@ -10,8 +11,8 @@
       "niveau intermédiaire"
     ]
   },
-  "captured_at": "2026-05-21T01:13:46.356Z",
-  "duration_ms": 93164,
+  "captured_at": "2026-05-21T17:36:51.622Z",
+  "duration_ms": 64395,
   "events": [
     {
       "offset_ms": 0,
@@ -28,7 +29,7 @@
       }
     },
     {
-      "offset_ms": 2,
+      "offset_ms": 21,
       "event": "stage_start",
       "stage": "culinary-research",
       "stage_index": 0,
@@ -36,7 +37,7 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 8,
+      "offset_ms": 25,
       "event": "stage_context",
       "stage": "culinary-research",
       "context_keys": {
@@ -44,121 +45,221 @@
       }
     },
     {
-      "offset_ms": 1782,
+      "offset_ms": 2166,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "curry vert thaï poulet techniques culinaires traditions"
+        "query": "curry vert thaï poulet techniques culinaires traditionnel"
       }
     },
     {
-      "offset_ms": 1925,
+      "offset_ms": 3693,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "curry vert thaï poulet techniques culinaires traditionnel",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.youtube.com/watch?v=J3s8WXyn1sU",
+            "title": "Poulet au curry vert, recette de cuisine thaï traditionnelle - YouTube",
+            "content": "Découvrez vite la recette du Poulet au curry vert ( แกงเขียวหวานไก่ - Kèng Kiao Waan Kai), présentée ici avec Hervé Cuisine et la chef Thaï",
+            "score": 0.7950386,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=LG-btb3wZRE",
+            "title": "Poulet Curry Vert Thaï | Grünes Thai Curry mit Huhn - YouTube",
+            "content": "Comments. Add a comment... 9:26 · Go to channel Hervé Cuisine. Poulet au curry vert, recette de cuisine thaï traditionnelle. Hervé Cuisine•209K",
+            "score": 0.7265231,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.arts-et-gastronomie.com/recette/curry-vert-thai-au-poulet",
+            "title": "Recette : Curry vert thaï au poulet - Arts & Gastronomie",
+            "content": "Chauffer l'huile dans un wok à feu vif. Ajouter la pâte de curry vert et la faire revenir 2 min en remuant constamment. Cela va la torréfier, ce",
+            "score": 0.7211353,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.epices-fuchs.fr/blogs/la-route-des-epices/curry-vert-thai-histoire-utilisations-recettes",
+            "title": "Curry Vert Thaï : histoire, épices et recettes traditionnelles",
+            "content": "Pour 4 personnes, préparation 10 minutes, cuisson 20 minutes. Ingrédients : 600 g de blanc de poulet en dés, 400 ml de lait de coco, 2 cuillères",
+            "score": 0.70336664,
+            "raw_content": null
+          },
+          {
+            "url": "https://migusto.migros.ch/fr/recettes/curry-vert-thai-au-poulet",
+            "title": "Curry vert thaï au poulet | Recette - Migusto",
+            "content": "Chauffer l'huile et faire revenir la pâte de curry env. 1 min en remuant. Mouiller avec le lait de coco. Ajouter le poulet et les feuilles de citronnier kaffir",
+            "score": 0.6599319,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.33,
+        "request_id": "6b6bfdb9-5d75-4428-8cbe-f4944d738978"
       },
-      "duration_ms": 143
+      "duration_ms": 1527
     },
     {
-      "offset_ms": 1925,
+      "offset_ms": 3693,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "pâte curry vert thaï ingrédients profil saveurs"
+        "query": "green curry thai paste ingredients profil saveur"
       }
     },
     {
-      "offset_ms": 2050,
+      "offset_ms": 5055,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "green curry thai paste ingredients profil saveur",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.anediblemosaic.com/thai-green-curry-paste-recipe",
+            "title": "Authentic Thai Green Curry Paste Recipe - An Edible Mosaic™",
+            "content": "# Authentic Thai Green Curry Paste Recipe. For example, I’m allergic to shellfish, but shrimp paste is a common ingredient in authentic Thai green curry paste. Thai green curry is the hottest of the curries, but if you aren’t used to that level of spicy heat, it can be too much. To tone it down a bit, here we reduce the amount of green Thai chile peppers and add sweet, fragrant Thai basil. * **This recipe is authentic, but made a bit milder than how you’d find it in Thailand.** We achieve this by reducing the amount of Thai chile peppers and adding Thai basil instead. * **You can keep this curry paste in your fridge for up to 2 weeks.** This makes it easy to whip up a green curry any time you want. To make authentic Thai green curry paste, omit the fish sauce and add 1 tablespoon shrimp paste instead.",
+            "score": 0.9998785,
+            "raw_content": null
+          },
+          {
+            "url": "https://silkroadrecipes.com/thai-green-curry-paste",
+            "title": "Thai Green Curry Paste | Silk Road Recipes",
+            "content": "*Thai* ***green curry paste*** *is made from a combination of green chilis, fresh kaffir lime leaves, galangal and aromatic lemongrass and spices. It’s more fragrant than the milder yellow curry paste and equal to or less in heat than red often times. Use it in Thai-inspired recipes like stir fry and (of course) curry, like my Thai Baked Halibut!*. I’ve already shared my recipes for the first 2 (click on the links to learn more), and now it’s time to round out my curry paste collection with Thai green curry paste recipe. This green curry paste recipe is made with green chilis, Bird’s Eye chilis, lemongrass, kaffir lime rinds, and a handful of other spices and seasonings. * Thai Green Curry Paste Recipe. You can use this green condiment in curry recipes, or you can use it on vegetables, and eggs, as a base for soups and stews, or even in salad dressings.",
+            "score": 0.9998697,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.seriouseats.com/prik-gaeng-khiao-waan-thai-green-curry-paste-recipe-5189722",
+            "title": "Prik Gaeng Khiao Waan (Thai Green Curry Paste) - Serious Eats",
+            "content": "Ingredients · 3 Thai or Chinese white cardamom pods (see note) · 1 teaspoon whole coriander seeds · 1/4 teaspoon whole cumin seeds · 1/2 teaspoon white peppercorns.",
+            "score": 0.99976224,
+            "raw_content": null
+          },
+          {
+            "url": "https://cooklist.com/products/condiment-toppings/sauces/green-curry-paste",
+            "title": "Green Curry Paste - Cooklist",
+            "content": "Made with fresh green chilies, lemongrass, galangal, shallots, cilantro, cumin, and other herbs and spices, this paste imparts a distinctive, multi-layered",
+            "score": 0.9996018,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.eatingthaifood.com/thai-green-curry-recipe",
+            "title": "Authentic Thai Green Curry Recipe (แกงเขียวหวาน) by My Mother-In-Law",
+            "content": "# Authentic Thai Green Curry Recipe (แกงเขียวหวาน) by My Mother-In-Law. Authentic Thai Green Curry Recipe (แกงเขียวหวาน) by My Mother-In-Law. In this Thai green curry recipe you’ll learn exactly how to make authentic Thai green curry (cooked by my Thai mother in law). We’ll start from scratch by pounding Thai green curry paste, chopping up a whole chicken, and finally combining it with coconut cream, for Thai green curry that’s loaded with flavor. Follow this recipe if you’re ready to make authentic Thai green curry! If you have a few minutes, first press play to watch the entire video of this recipe to see all the steps and techniques of making Thai green curry. Thai green curry recipe ingredients. ## Thai green curry ingredients. **For the green curry chicken:**. * green curry paste (เครื่องแกงเขียวหวาน) – all of the green curry paste below. Thai green curry paste recipe.",
+            "score": 0.9992792,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.22,
+        "request_id": "77b10117-d0d7-440c-93b8-3c84832fb178"
       },
-      "duration_ms": 125
+      "duration_ms": 1362
     },
     {
-      "offset_ms": 2050,
+      "offset_ms": 5056,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "green curry Thailand cuisine history cultural significance"
+        "query": "curry vert thaï contexte culturel histoire Thaïlande"
       }
     },
     {
-      "offset_ms": 2159,
+      "offset_ms": 6294,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "curry vert thaï contexte culturel histoire Thaïlande",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.epices-fuchs.fr/blogs/la-route-des-epices/curry-vert-thai-histoire-utilisations-recettes",
+            "title": "Curry Vert Thaï : histoire, épices et recettes traditionnelles",
+            "content": "Contrairement au curry rouge ou au curry massaman, le curry vert thaï est une création purement thaïlandaise, sans influence indienne directe.",
+            "score": 0.99998295,
+            "raw_content": null
+          },
+          {
+            "url": "https://vietnamdecouverte.com/curry-vert-thai",
+            "title": "Curry vert Thaï, la fusion parfaite de saveurs exotiques",
+            "content": "Le nom du plat associé à ce curry est Kaeng khiao wan en thaï et c'est un mets traditionnel originaire du centre de la Thaïlande. Ce plat",
+            "score": 0.99989605,
+            "raw_content": null
+          },
+          {
+            "url": "https://bangcookresto.fr/curry-vert-thai-un-bol-de-sante-et-dauthenticite-chez-bangcook-ton-resto-thai-a-proximite",
+            "title": "Curry Vert Thaï, Histoire, Bienfaits, Saveurs & Dégustation",
+            "content": "Originaire de Thaïlande centrale, le curry vert s'est formalisé comme spécialité culinaire durant le règne des rois Rama VI et Rama VII (1908-",
+            "score": 0.9998894,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.foodandwine.com/cooking-techniques/the-story-of-thai-curry-according-to-a-chef-and-a-lifelong-fan",
+            "title": "The Story of Thai Curry, According to a Chef and a Lifelong Fan",
+            "content": "With a long history in royal households, religious strongholds, and foreign trade, contemporary Thai curry highlights the cultural diversity of",
+            "score": 0.999566,
+            "raw_content": null
+          },
+          {
+            "url": "https://fr.wikipedia.org/wiki/Curry_vert",
+            "title": "Curry vert - Wikipédia",
+            "content": "Curry vert ; Kaeng khiao wan · Thaïlande centrale · 1908-1926 · Chaud · Poisson, boulettes de poisson ou viande, lait de coco, pâte de curry vert, sucre de palme,",
+            "score": 0.9995005,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.09,
+        "request_id": "fb6cc6a7-bf8e-44e3-a538-81d7b8b8b046"
       },
-      "duration_ms": 109
+      "duration_ms": 1238
     },
     {
-      "offset_ms": 6448,
+      "offset_ms": 10611,
       "event": "stage_complete",
       "stage": "culinary-research",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 6445,
+      "duration_ms": 10609,
       "tokens": {
-        "prompt": 2438,
-        "completion": 600,
-        "total": 3038
+        "prompt": 4938,
+        "completion": 615,
+        "total": 5553
       },
       "tool_calls": [
         {
-          "id": "toolu_011WB2f6vsv7UXkSvwFJt9Rb",
+          "id": "toolu_0168PwLEd29ENHHDWe5jrJc1",
           "name": "web_search-search",
-          "arguments": {
-            "query": "curry vert thaï poulet techniques culinaires traditions"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01SjEa1s1Gbd7guZ4qThDcjK",
+          "id": "toolu_01Px83UdmVorFRF1UVNNt23X",
           "name": "web_search-search",
-          "arguments": {
-            "query": "pâte curry vert thaï ingrédients profil saveurs"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01Gn7FvtPL7LTsgQ1wSvqvo5",
+          "id": "toolu_017twEzFfGDtZBZQqNZHPgKS",
           "name": "web_search-search",
-          "arguments": {
-            "query": "green curry Thailand cuisine history cultural significance"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         }
       ],
       "output": {
-        "topic_summary": "Le curry vert thaï au poulet est un plat emblématique de la cuisine thaïlandaise, préparé avec une pâte de curry vert épicée, du lait de coco, du poulet tendre et des légumes. C'est un équilibre parfait entre épices, crémeux et saveurs fraîches.",
-        "key_techniques": "Préparation de la pâte curry (broyage des piments verts, herbes et épices), sauté rapide de la pâte dans le wok, cuisson à la vapeur du poulet dans le bouillon de lait de coco, finition avec des herbes fraîches (basilic thaï, coriandre).",
-        "cultural_context": "Originaire de Thaïlande, le curry vert est l'une des trois grandes variantes de curry thaïlandais (avec le rouge et le jaune). Il reflète la cuisine royale thaïlandaise et l'équilibre philosophique des saveurs : sucré, salé, acide et piquant.",
-        "flavor_profile": "Épicé et intense avec une chaleur prononcée des piments verts, crémeuses et riches grâce au lait de coco, frais et herbacé avec le basilic thaï et la coriandre, avec des notes subtiles de citron et gingembre en arrière-plan."
-      }
+        "topic_summary": "Le curry vert thaï au poulet (Kaeng khiao wan kai) est un plat traditionnel de Thaïlande centrale combinant du poulet tendre avec une sauce onctueuse au lait de coco et une pâte de curry vert épicée. C'est une création culinaire purement thaïlandaise sans influence indienne directe, formalisée comme spécialité durant le règne des rois Rama VI et VII.",
+        "key_techniques": "Torréfaction de la pâte de curry vert dans l'huile à feu vif (1-2 minutes), déglacage au lait de coco, cuisson du poulet émincé ou en dés dans la sauce, équilibre des saveurs acide/sucrée/épicée, utilisation optionnelle de feuilles de citronnier kaffir pour l'aromatisation",
+        "cultural_context": "Originaire de la région centrale de la Thaïlande, le curry vert s'est formalisé comme spécialité culinaire au début du XXe siècle. Le plat reflète la diversité culturelle thaïlandaise avec une longue histoire dans les foyers royaux et les échanges commerciaux.",
+        "flavor_profile": "Saveur dominante épicée et complexe provenant des piments verts et du galanga, fraîcheur herbacée du citronnier kaffir et de la citronnelle, onctuosité du lait de coco tempérant la chaleur, notes légèrement sucrées du sucre de palme créant un équilibre acide-sucré-épicé caractéristique"
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 6449,
+      "offset_ms": 10612,
       "event": "stage_start",
       "stage": "ingredient-sourcing",
       "stage_index": 1,
@@ -166,129 +267,229 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 6451,
+      "offset_ms": 10613,
       "event": "stage_context",
       "stage": "ingredient-sourcing",
       "context_keys": {
         "input": 170,
-        "previous_stage_output": 1030
+        "previous_stage_output": 1253
       }
     },
     {
-      "offset_ms": 9190,
+      "offset_ms": 12055,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "curry vert thaï au poulet recette ingrédients proportions 4 personnes"
+        "query": "curry vert thaï poulet kaeng khiao wan kai ingrédients quantités"
       }
     },
     {
-      "offset_ms": 9315,
+      "offset_ms": 13394,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "curry vert thaï poulet kaeng khiao wan kai ingrédients quantités",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.youtube.com/watch?v=ymYCpQW157E",
+            "title": "Soupe de poulet au curry vert - Kaeng Khiao wan kai - YouTube",
+            "content": "Kaeng Khiao wan kai - Soupe de poulet au curry vert Liste des ingrédients pour 2 à 3 personnes 200gr de poulet coupé en morceaux Une tige de",
+            "score": 0.85995835,
+            "raw_content": null
+          },
+          {
+            "url": "https://ileauxepices.com/blog/2016/12/01/recette-poulet-au-curry-vert-thai/wpid11891",
+            "title": "Recette : Poulet au curry vert thaï - L'ile aux épices",
+            "content": "Liste des ingrédients · 4 blancs de poulet · 2 boîtes de 400 g de lait de coco · 2 cuillères à café de sucre de canne · 2 gousses d'ail · 1 échalote",
+            "score": 0.8377398,
+            "raw_content": null
+          },
+          {
+            "url": "https://instantpot.com/fr/blogs/recipes/easy-thai-green-curry-with-chicken",
+            "title": "Curry vert thaï facile au poulet - Instant Pot",
+            "content": "6 portions. Ingredients. ½ cuillère à café de graines de coriandre; ¼ cuillère à café de grains de poivre blanc; 3 cuillères à soupe de pâte de curry vert thaï",
+            "score": 0.8201387,
+            "raw_content": null
+          },
+          {
+            "url": "https://joyeuxgourmet.fr/recettes/curry-vert-au-poulet-kang-khiao-wan-gai",
+            "title": "Curry Vert au Poulet (Kang Khiao Wan Gai) - Joyeux Gourmet",
+            "content": "Ingrédients pourKang Khiao Wan Gai (Curry Vert au Poulet) ; Image de blanc de poulet. 300 · blancs de poulet ; Image de pâte de curry vert. 1 · pâte",
+            "score": 0.8016413,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/DBtnJ7XtMUa?hl=en",
+            "title": "Poulet au curry vert maison – เเกงเขียวหวานไก่ Pâte de ... - Instagram",
+            "content": "vous pouvez rajouter du basilic thai pour la couleur verte 10 piments oiseaux verts thaï 1 piment oiseau rouge (facultatif) 3 tiges de",
+            "score": 0.7511561,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.18,
+        "request_id": "e2cf4751-c04b-41d5-a893-5ce0c1624d5b"
       },
-      "duration_ms": 124
+      "duration_ms": 1339
     },
     {
-      "offset_ms": 9315,
+      "offset_ms": 13395,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "pâte curry vert thaï ingrédients frais piments verts basilic thaï"
+        "query": "pâte curry vert thaï recette ingrédients proportions"
       }
     },
     {
-      "offset_ms": 9433,
+      "offset_ms": 14778,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "pâte curry vert thaï recette ingrédients proportions",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://ayam.fr/index.php/fr/nos-produits/pates-de-curry/product/pate-de-curry-vert-thai-100g",
+            "title": "Pâte de Curry Vert Thaï 100g - AYAM™ France",
+            "content": "Elles sont certifiées sans gluten par l'AFDIAG. ... Ingrédients. 100% Ingrédients Naturels. Eau, oignon, piment vert (14%), sucre, ail, citronnelle, sel, galanga,",
+            "score": 0.9999778,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.levoyagedemamabe.com/fr/les-curries/133-pate-pour-curry-vert-bio-3269714127886.html",
+            "title": "Pâte pour Curry Vert Bio - Le Voyage de Mamabe",
+            "content": "Pâte de curry vert thaï 100 % naturelle, avec piment, citronnelle, coriandre et cumin. Sans colorant ni conservateur, elle allie saveurs fraîches et",
+            "score": 0.99996626,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.edelices.com/medias/recette-curry-vert-thai",
+            "title": "Curry vert Thaï - Edélices",
+            "content": "70 g de pâte de curry vert · 400 ml de crème de noix de coco · 250 g de filet de poulet · 70 g d'aubergines thaïes (ou des tomates cerises) · 2 feuilles de kaffir",
+            "score": 0.9999652,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.bettybossi.ch/fr/recettes/recette/curry-vert-tha-10006458",
+            "title": "Curry vert thaï – recette | Betty Bossi",
+            "content": "Ingrédients ; huile d'arachide: 2 c.s.. de cubes de poulet: 300 g ; de bouillon de poule: 2.5 dl. de lait de coco · 5 dl ; citron vert: 1. de basilic thaï: 1",
+            "score": 0.99994934,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.surlesquais.com/fr/blog/p/la-pate-de-curry-vert-ingredients-saveurs-et-utilisations",
+            "title": "Les secrets de la pâte de curry vert : ingrédients, saveurs et utilisations",
+            "content": "Ingrédients (pour 4 personnes) · 400 g de blanc de poulet coupé en morceaux · 2 à 3 cuillères à soupe de pâte de curry vert · 400 ml de lait de",
+            "score": 0.9999461,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.24,
+        "request_id": "250eb2b7-6102-41eb-9444-76a9f42f18c1"
       },
-      "duration_ms": 118
+      "duration_ms": 1383
     },
     {
-      "offset_ms": 9434,
+      "offset_ms": 14778,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "lait de coco curry thaï quantités sourcing ingrédients spéciaux"
+        "query": "Thai green curry ingredients substitutions alternatives"
       }
     },
     {
-      "offset_ms": 9549,
+      "offset_ms": 15879,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Thai green curry ingredients substitutions alternatives",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://thestonesoup.com/thai-green-curry-paste-substitutes",
+            "title": "The Best Thai Green Curry Paste Substitutes | Stonesoup",
+            "content": "# The Best Thai Green Curry Paste Substitutes. Thai Green Chicken Curry was one of the first dishes I ever ate in a Thai restaurant. Curry pastes are one of the few ingredients I’m happy to buy commercially because I find they taste amazing and save me stocking weird (and stinky!) ingredients like shrimp paste. If you don’t have access to good Thai ingredients, you can either order online or try my favourite Thai Green Curry Paste Substitutes…. ## What is Thai Green Curry Paste? It’s a puree of green chilli peppers and other aromatic ingredients that is used as the flavour base for Thai curries. The flavour profile will be quite different, but if I’m in the mood for curry and I don’t have access to a good curry paste, a few teaspoons of curry powder can usually do the trick. As a general rule of thumb substitute 1 teaspoon curry powder for 1 tablespoon curry paste. Thai red and green curry pastes can be used interchangeably.",
+            "score": 0.8571119,
+            "raw_content": null
+          },
+          {
+            "url": "https://woonheng.com/thai-green-curry",
+            "title": "Thai Green Curry '泰式青咖哩'| Homemade paste, Vegan, Gluten-free - WoonHeng",
+            "content": "# Thai Green Curry ‘泰式青咖哩’| Homemade paste, Vegan, Gluten-free. This Thai Green Curry is extremely flavorful with a creamy texture that goes well with a bowl of rice. Check out how I substitute some of the key ingredients with some easier to find substitutes. I started to fall in love with Thai cuisines when I was in my teens as I loved the combination of spices and herbs in the dishes. Let’s check out how to make this simple paste at home with some of the great substitutions that I like. #### How to make Thai Green Curry. My favorite vegetables to use are broccoli, red bell pepper, fresh bamboo shoots, and eggplant, which I fried ahead of time. You can use a mortar and pestle, a food processor, or a high-speed blender to make the paste. Then, stir in the green curry paste along with coconut milk. #### Thai Green Curry paste Key ingredients.",
+            "score": 0.8405867,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/groups/authenticthaicooking/posts/2704801979842429",
+            "title": "Alternative to green curry recipe needed - Facebook",
+            "content": "\"Bamboo shoots are a common vegetable used for green curry, but you can use any vegetable- red peppers, yellow peppers, zuchini, carrots, squash",
+            "score": 0.8325776,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.reddit.com/r/AskCulinary/comments/4ge0sy/thai_green_curry_substitutions_questions",
+            "title": "Thai Green curry- Substitutions, questions : r/AskCulinary - Reddit",
+            "content": "I personally feel cilantro is key to green curry paste. You could use thai basil instead for a herby kick (I personally use both in my recipe).",
+            "score": 0.8302782,
+            "raw_content": null
+          },
+          {
+            "url": "https://rainbowplantlife.com/vegan-thai-green-curry",
+            "title": "Incredible Vegan Thai Green Curry - Rainbow Plant Life",
+            "content": "Substitute: There is no substitute for coconut milk in Thai curry. That said, if you want lighten this curry up, sub ½ to 1 cup (120 to 240 mL)",
+            "score": 0.82117355,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.95,
+        "request_id": "24038635-8a12-42ec-84f9-5f5fce3458c1"
       },
-      "duration_ms": 115
+      "duration_ms": 1101
     },
     {
-      "offset_ms": 17460,
+      "offset_ms": 22817,
       "event": "stage_complete",
       "stage": "ingredient-sourcing",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 11010,
+      "duration_ms": 12205,
       "tokens": {
-        "prompt": 3036,
-        "completion": 1190,
-        "total": 4226
+        "prompt": 5623,
+        "completion": 950,
+        "total": 6573
       },
       "tool_calls": [
         {
-          "id": "toolu_0153HC5d9NvVouDhCiSqLvPQ",
+          "id": "toolu_01PSfU5DoseEnVUypz7EYLtb",
           "name": "web_search-search",
-          "arguments": {
-            "query": "curry vert thaï au poulet recette ingrédients proportions 4 personnes"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01NQhCey4qehkrbC3qeYHfrw",
+          "id": "toolu_018wiTf2drPrxhebztwwGucp",
           "name": "web_search-search",
-          "arguments": {
-            "query": "pâte curry vert thaï ingrédients frais piments verts basilic thaï"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_0186iRrsJF3YvUfE5XJTh5yM",
+          "id": "toolu_01RpuAZN4b87MaBimk5nGcSZ",
           "name": "web_search-search",
-          "arguments": {
-            "query": "lait de coco curry thaï quantités sourcing ingrédients spéciaux"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         }
       ],
       "output": {
-        "ingredients_list": "[{\"ingredient\": \"Poitrine de poulet\", \"quantity\": \"600g\", \"notes\": \"coupée en bouchées\"}, {\"ingredient\": \"Pâte de curry vert thaï\", \"quantity\": \"3-4 cuillères à soupe\", \"notes\": \"du commerce ou maison\"}, {\"ingredient\": \"Lait de coco\", \"quantity\": \"400ml\", \"notes\": \"1 boîte de conserve\"}, {\"ingredient\": \"Bouillon de poulet\", \"quantity\": \"200ml\", \"notes\": \"chaud\"}, {\"ingredient\": \"Aubergines thaïes\", \"quantity\": \"250g\", \"notes\": \"ou courgettes en dés\"}, {\"ingredient\": \"Poivron rouge\", \"quantity\": \"1 moyen\", \"notes\": \"coupé en lanières\"}, {\"ingredient\": \"Nuoc-mâm (sauce de poisson)\", \"quantity\": \"2 cuillères à soupe\", \"notes\": \"ou sauce de soja\"}, {\"ingredient\": \"Sucre de canne\", \"quantity\": \"1 cuillère à café\", \"notes\": \"\"}, {\"ingredient\": \"Basilic thaï frais\", \"quantity\": \"1 poignée\", \"notes\": \"ou basilic classique\"}, {\"ingredient\": \"Coriandre fraîche\", \"quantity\": \"1 poignée\", \"notes\": \"feuilles\"}, {\"ingredient\": \"Citron vert\", \"quantity\": \"1/2\", \"notes\": \"pour le jus\"}, {\"ingredient\": \"Huile de noix de coco ou arachide\", \"quantity\": \"2 cuillères à soupe\", \"notes\": \"pour la cuisson\"}]",
-        "substitutions": "{\"Pâte de curry vert thaï\": \"Mélange maison : piments verts frais, gingembre, ail, échalotes, coriandre fraîche, citronnelle broyés ensemble\", \"Aubergines thaïes\": \"Courgettes, haricots verts, champignons de Paris, ou brocoli\", \"Basilic thaï\": \"Basilic classique (moins de saveur anisée mais acceptable)\", \"Lait de coco\": \"Crème fraîche épaisse diluée avec un peu de bouillon (moins authentique)\", \"Nuoc-mâm\": \"Sauce de soja ou sauce de poisson fumée\"}",
-        "sourcing_notes": "{\"Pâte de curry vert thaï\": \"Disponible en conserve/tube dans les rayons asiatiques des supermarchés; les marques thaïlandaises (Thai Kitchen, Maesri) garantissent l'authenticité.\", \"Aubergines thaïes\": \"Petites aubergines rondes vendues chez les fournisseurs asiatiques; texture croquante caractéristique.\", \"Basilic thaï\": \"Distinct du basilic classique par son goût anisé plus prononcé; trouver en magasins asiatiques ou cultiver à domicile.\", \"Nuoc-mâm\": \"Sauce de poisson vietnamienne/thaïlandaise en bouteille disponible en rayons asiatiques; choisir une marque de qualité.\", \"Citronnelle fraîche\": \"Si préparer la pâte soi-même, utiliser la partie blanche des tiges fraîches de citronnelle disponibles en magasins asiatiques.\"}"
-      }
+        "ingredients_list": "[{\"ingredient\": \"Poulet (blanc ou filet)\", \"quantity\": \"600g\", \"unit\": \"g\"}, {\"ingredient\": \"Pâte de curry vert thaï\", \"quantity\": \"3\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Lait de coco\", \"quantity\": \"800\", \"unit\": \"ml\"}, {\"ingredient\": \"Huile d'arachide ou neutre\", \"quantity\": \"2\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Citron vert (jus et zeste)\", \"quantity\": \"1\", \"unit\": \"citron\"}, {\"ingredient\": \"Sucre de palme ou sucre roux\", \"quantity\": \"1\", \"unit\": \"cuillère à soupe\"}, {\"ingredient\": \"Sauce de poisson (Nam Pla)\", \"quantity\": \"1\", \"unit\": \"cuillère à soupe\"}, {\"ingredient\": \"Feuilles de citronnier kaffir\", \"quantity\": \"3-4\", \"unit\": \"feuilles\"}, {\"ingredient\": \"Basilic thaï frais (optionnel)\", \"quantity\": \"1\", \"unit\": \"petit bouquet\"}]",
+        "substitutions": "{\"Pâte de curry vert thaï\": \"Curry en poudre verte (1 cuillère à café par cuillère à soupe de pâte); curry rouge thaï (saveur légèrement différente mais compatible)\", \"Lait de coco\": \"Crème de noix de coco + bouillon poulet pour diluer\", \"Feuilles de citronnier kaffir\": \"Zeste de citron vert frais ou écorce de lime\", \"Sauce de poisson\": \"Sauce soja ou tamari pour une option moins piquante\", \"Basilic thaï\": \"Coriandre fraîche ou menthe thaïe\"}",
+        "sourcing_notes": "{\"Pâte de curry vert thaï\": \"Disponible en grande surface (rayon asiatique) ou en ligne; marques recommandées: AYAM, Thai Kitchen, Cock Brand.\", \"Lait de coco\": \"Préférer les versions tetra-pak ou en boîte sans additifs; bien agiter avant utilisation.\", \"Feuilles de citronnier kaffir\": \"Trouvables fraîches chez les fournisseurs asiatiques ou surgelées en grande surface; essence difficile à remplacer pour l'authenticité.\", \"Sauce de poisson\": \"Condiment essentiel thaï; inodore après cuisson, indispensable pour la saveur authentique.\", \"Basilic thaï\": \"Différent du basilic européen; arôme anisé caractéristique; frais de préférence en magasins asiatiques spécialisés.\"}"
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 17460,
+      "offset_ms": 22821,
       "event": "stage_start",
       "stage": "nutritional-profile",
       "stage_index": 2,
@@ -296,421 +497,49 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 17464,
+      "offset_ms": 22826,
       "event": "stage_context",
       "stage": "nutritional-profile",
       "context_keys": {
         "input": 170,
-        "previous_stage_output": 2533
+        "previous_stage_output": 2097
       }
     },
     {
-      "offset_ms": 29463,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Curry vert thaï au poulet",
-          "cuisine": "Thaïlandaise",
-          "timeMinutes": 30,
-          "portions": 4,
-          "emoji": "🍲",
-          "calories": 380,
-          "ingredients": [
-            {
-              "name": "Poitrine de poulet",
-              "quantity": "600g",
-              "group": "Protéines",
-              "optional": false
-            },
-            {
-              "name": "Pâte de curry vert thaï",
-              "quantity": "3-4 cuillères à soupe",
-              "group": "Aromats & épices",
-              "optional": false
-            },
-            {
-              "name": "Lait de coco",
-              "quantity": "400ml",
-              "group": "Base",
-              "optional": false
-            },
-            {
-              "name": "Bouillon de poulet",
-              "quantity": "200ml",
-              "group": "Liquides",
-              "optional": false
-            },
-            {
-              "name": "Aubergines thaïes",
-              "quantity": "250g",
-              "group": "Légumes",
-              "optional": true
-            },
-            {
-              "name": "Poivron rouge",
-              "quantity": "1 moyen",
-              "group": "Légumes",
-              "optional": false
-            },
-            {
-              "name": "Nuoc-mâm (sauce de poisson)",
-              "quantity": "2 cuillères à soupe",
-              "group": "Condiments",
-              "optional": false
-            },
-            {
-              "name": "Sucre de canne",
-              "quantity": "1 cuillère à café",
-              "group": "Édulcorants",
-              "optional": false
-            },
-            {
-              "name": "Basilic thaï frais",
-              "quantity": "1 poignée",
-              "group": "Herbes fraîches",
-              "optional": true
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "1 poignée",
-              "group": "Herbes fraîches",
-              "optional": true
-            },
-            {
-              "name": "Citron vert",
-              "quantity": "1/2",
-              "group": "Agrumes",
-              "optional": false
-            },
-            {
-              "name": "Huile de noix de coco ou arachide",
-              "quantity": "2 cuillères à soupe",
-              "group": "Matières grasses",
-              "optional": false
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparer les ingrédients",
-              "instructions": [
-                "Couper la poitrine de poulet en bouchées",
-                "Tailler le poivron rouge en lanières",
-                "Couper les aubergines thaïes en deux ou en dés",
-                "Réunir tous les ingrédients à proximité"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 2,
-              "title": "Faire revenir la pâte de curry",
-              "instructions": [
-                "Chauffer l'huile de noix de coco ou d'arachide dans une cocotte ou sauteuse",
-                "Ajouter la pâte de curry vert et faire cuire 1-2 minutes en remuant pour libérer les arômes"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 3,
-              "title": "Cuire le poulet",
-              "instructions": [
-                "Ajouter les bouchées de poulet dans la pâte de curry",
-                "Remuer bien pour que le poulet soit enrobé de pâte",
-                "Laisser cuire 4-5 minutes en remuant occasionnellement"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 4,
-              "title": "Ajouter le lait de coco",
-              "instructions": [
-                "Verser le lait de coco dans la cocotte",
-                "Bien mélanger pour homogénéiser la sauce",
-                "Porter à frémissement"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Ajouter les légumes",
-              "instructions": [
-                "Ajouter le poivron rouge et les aubergines thaïes",
-                "Verser le bouillon de poulet chaud",
-                "Ajouter le nuoc-mâm et le sucre de canne",
-                "Bien mélanger"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 6,
-              "title": "Mijoter",
-              "instructions": [
-                "Réduire le feu et laisser mijoter 10-12 minutes jusqu'à ce que les légumes soient tendres et le poulet bien cuit",
-                "Vérifier que le poulet ne présente plus de parties rosées"
-              ],
-              "durationMinutes": 12
-            },
-            {
-              "order": 7,
-              "title": "Finition et service",
-              "instructions": [
-                "Éteindre le feu",
-                "Presser le citron vert et ajouter le jus",
-                "Déchirer le basilic thaï et ajouter à la cocotte",
-                "Parsemer de feuilles de coriandre fraîche",
-                "Goûter et rectifier l'assaisonnement si nécessaire"
-              ],
-              "durationMinutes": 2
-            }
-          ],
-          "notes": {
-            "chef": [
-              "La pâte de curry vert s'oxyde rapidement en contact avec l'air; ne préparer que la quantité nécessaire",
-              "Ne pas laisser bouillir après ajout du lait de coco pour préserver sa texture onctueuse",
-              "Le poulet doit être bien cuit mais pas caoutchouteux; découper une bouchée pour vérifier"
-            ],
-            "variations": [
-              "Ajouter des crevettes ou poisson blanc en remplacement du poulet pour un curry fruits de mer",
-              "Utiliser des champignons de Paris et du tofu fumé pour une version végétarienne",
-              "Ajouter des haricots verts ou du brocoli pour plus de volume et légèreté"
-            ],
-            "conservation": "Le curry se conserve 3 jours au réfrigérateur dans un récipient hermétique. Bien réchauffer à feu doux en remuant. Se congèle 3 mois en l'absence de crème fraîche supplémentaire.",
-            "nutrition": "Riche en protéines maigres, bonne source d'acides gras sains (noix de coco). Léger en sodium si on modère le nuoc-mâm. Excellente source de vitamines C (poivron) et antioxydants (épices)."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 30860,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesqkko0000ygijfm8reii0",
-        "title": "Curry vert thaï au poulet"
-      },
-      "duration_ms": 1397
-    },
-    {
-      "offset_ms": 33048,
+      "offset_ms": 24669,
       "event": "stage_complete",
       "stage": "nutritional-profile",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 15588,
+      "duration_ms": 1852,
       "tokens": {
-        "prompt": 7878,
-        "completion": 2110,
-        "total": 9988
+        "prompt": 3710,
+        "completion": 151,
+        "total": 3861
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01V3TyG83J4EjutW5BnYFudr",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Curry vert thaï au poulet",
-              "cuisine": "Thaïlandaise",
-              "timeMinutes": 30,
-              "portions": 4,
-              "emoji": "🍲",
-              "calories": 380,
-              "ingredients": [
-                {
-                  "name": "Poitrine de poulet",
-                  "quantity": "600g",
-                  "group": "Protéines",
-                  "optional": false
-                },
-                {
-                  "name": "Pâte de curry vert thaï",
-                  "quantity": "3-4 cuillères à soupe",
-                  "group": "Aromats & épices",
-                  "optional": false
-                },
-                {
-                  "name": "Lait de coco",
-                  "quantity": "400ml",
-                  "group": "Base",
-                  "optional": false
-                },
-                {
-                  "name": "Bouillon de poulet",
-                  "quantity": "200ml",
-                  "group": "Liquides",
-                  "optional": false
-                },
-                {
-                  "name": "Aubergines thaïes",
-                  "quantity": "250g",
-                  "group": "Légumes",
-                  "optional": true
-                },
-                {
-                  "name": "Poivron rouge",
-                  "quantity": "1 moyen",
-                  "group": "Légumes",
-                  "optional": false
-                },
-                {
-                  "name": "Nuoc-mâm (sauce de poisson)",
-                  "quantity": "2 cuillères à soupe",
-                  "group": "Condiments",
-                  "optional": false
-                },
-                {
-                  "name": "Sucre de canne",
-                  "quantity": "1 cuillère à café",
-                  "group": "Édulcorants",
-                  "optional": false
-                },
-                {
-                  "name": "Basilic thaï frais",
-                  "quantity": "1 poignée",
-                  "group": "Herbes fraîches",
-                  "optional": true
-                },
-                {
-                  "name": "Coriandre fraîche",
-                  "quantity": "1 poignée",
-                  "group": "Herbes fraîches",
-                  "optional": true
-                },
-                {
-                  "name": "Citron vert",
-                  "quantity": "1/2",
-                  "group": "Agrumes",
-                  "optional": false
-                },
-                {
-                  "name": "Huile de noix de coco ou arachide",
-                  "quantity": "2 cuillères à soupe",
-                  "group": "Matières grasses",
-                  "optional": false
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparer les ingrédients",
-                  "instructions": [
-                    "Couper la poitrine de poulet en bouchées",
-                    "Tailler le poivron rouge en lanières",
-                    "Couper les aubergines thaïes en deux ou en dés",
-                    "Réunir tous les ingrédients à proximité"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 2,
-                  "title": "Faire revenir la pâte de curry",
-                  "instructions": [
-                    "Chauffer l'huile de noix de coco ou d'arachide dans une cocotte ou sauteuse",
-                    "Ajouter la pâte de curry vert et faire cuire 1-2 minutes en remuant pour libérer les arômes"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 3,
-                  "title": "Cuire le poulet",
-                  "instructions": [
-                    "Ajouter les bouchées de poulet dans la pâte de curry",
-                    "Remuer bien pour que le poulet soit enrobé de pâte",
-                    "Laisser cuire 4-5 minutes en remuant occasionnellement"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 4,
-                  "title": "Ajouter le lait de coco",
-                  "instructions": [
-                    "Verser le lait de coco dans la cocotte",
-                    "Bien mélanger pour homogénéiser la sauce",
-                    "Porter à frémissement"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 5,
-                  "title": "Ajouter les légumes",
-                  "instructions": [
-                    "Ajouter le poivron rouge et les aubergines thaïes",
-                    "Verser le bouillon de poulet chaud",
-                    "Ajouter le nuoc-mâm et le sucre de canne",
-                    "Bien mélanger"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 6,
-                  "title": "Mijoter",
-                  "instructions": [
-                    "Réduire le feu et laisser mijoter 10-12 minutes jusqu'à ce que les légumes soient tendres et le poulet bien cuit",
-                    "Vérifier que le poulet ne présente plus de parties rosées"
-                  ],
-                  "durationMinutes": 12
-                },
-                {
-                  "order": 7,
-                  "title": "Finition et service",
-                  "instructions": [
-                    "Éteindre le feu",
-                    "Presser le citron vert et ajouter le jus",
-                    "Déchirer le basilic thaï et ajouter à la cocotte",
-                    "Parsemer de feuilles de coriandre fraîche",
-                    "Goûter et rectifier l'assaisonnement si nécessaire"
-                  ],
-                  "durationMinutes": 2
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "La pâte de curry vert s'oxyde rapidement en contact avec l'air; ne préparer que la quantité nécessaire",
-                  "Ne pas laisser bouillir après ajout du lait de coco pour préserver sa texture onctueuse",
-                  "Le poulet doit être bien cuit mais pas caoutchouteux; découper une bouchée pour vérifier"
-                ],
-                "variations": [
-                  "Ajouter des crevettes ou poisson blanc en remplacement du poulet pour un curry fruits de mer",
-                  "Utiliser des champignons de Paris et du tofu fumé pour une version végétarienne",
-                  "Ajouter des haricots verts ou du brocoli pour plus de volume et légèreté"
-                ],
-                "conservation": "Le curry se conserve 3 jours au réfrigérateur dans un récipient hermétique. Bien réchauffer à feu doux en remuant. Se congèle 3 mois en l'absence de crème fraîche supplémentaire.",
-                "nutrition": "Riche en protéines maigres, bonne source d'acides gras sains (noix de coco). Léger en sodium si on modère le nuoc-mâm. Excellente source de vitamines C (poivron) et antioxydants (épices)."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpesqkko0000ygijfm8reii0",
-            "title": "Curry vert thaï au poulet"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "macros": "protéines: 28g, glucides: 12g, lipides: 18g",
-        "allergens": "poisson (nuoc-mâm), noix de coco, possibilité de traces de cacahuètes",
+        "macros": "protéines: 38g, glucides: 8g, lipides: 22g",
+        "allergens": "poisson (Nam Pla), noix de coco, arachides (huile d'arachide)",
         "dietary_flags": "sans gluten, riche en protéines, pauvre en glucides",
-        "adjustment_recommendations": "Ajouter du riz ou nouilles pour équilibrer les glucides si servi seul. Réduire le nuoc-mâm de 25% pour les palais sensibles au poisson."
+        "adjustment_recommendations": "Réduire le sucre de palme si sensibilité aux sucres simples; augmenter les feuilles de citronnier kaffir pour plus d'arôme si disponibles"
       }
     },
     {
-      "offset_ms": 33049,
+      "offset_ms": 24670,
       "event": "group_start",
       "group": "recipe-refinement",
       "max_iterations": 3
     },
     {
-      "offset_ms": 33050,
+      "offset_ms": 24670,
       "event": "group_iteration",
       "group": "recipe-refinement",
       "iteration": 1,
       "max_iterations": 3
     },
     {
-      "offset_ms": 33050,
+      "offset_ms": 24670,
       "event": "stage_start",
       "stage": "recipe-drafting",
       "stage_index": 3,
@@ -718,16 +547,16 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 33052,
+      "offset_ms": 24671,
       "event": "stage_context",
       "stage": "recipe-drafting",
       "context_keys": {
         "input": 170,
-        "previous_stage_output": 3940
+        "previous_stage_output": 3720
       }
     },
     {
-      "offset_ms": 46072,
+      "offset_ms": 37596,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
@@ -735,70 +564,47 @@
           "userId": "cmmrunf9l0000cpijlrn58jpw",
           "title": "Curry vert thaï au poulet",
           "cuisine": "Thaïlandaise",
-          "timeMinutes": 30,
+          "timeMinutes": 25,
           "portions": 4,
           "emoji": "🍛",
-          "calories": 320,
+          "calories": 385,
           "ingredients": [
             {
-              "name": "Poitrine de poulet",
-              "quantity": "600g",
-              "group": "Protéine"
+              "name": "Poulet (blanc ou filet)",
+              "quantity": "600g"
             },
             {
               "name": "Pâte de curry vert thaï",
-              "quantity": "3-4 cuillères à soupe",
-              "group": "Base"
+              "quantity": "3 cuillères à soupe"
             },
             {
               "name": "Lait de coco",
-              "quantity": "400ml",
-              "group": "Liquide"
+              "quantity": "800 ml"
             },
             {
-              "name": "Bouillon de poulet",
-              "quantity": "200ml",
-              "group": "Liquide"
-            },
-            {
-              "name": "Aubergines thaïes",
-              "quantity": "250g",
-              "group": "Légumes"
-            },
-            {
-              "name": "Poivron rouge",
-              "quantity": "1 moyen",
-              "group": "Légumes"
-            },
-            {
-              "name": "Nuoc-mâm (sauce de poisson)",
-              "quantity": "2 cuillères à soupe",
-              "group": "Assaisonnement"
-            },
-            {
-              "name": "Sucre de canne",
-              "quantity": "1 cuillère à café",
-              "group": "Assaisonnement"
-            },
-            {
-              "name": "Basilic thaï frais",
-              "quantity": "1 poignée",
-              "group": "Herbes"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "1 poignée",
-              "group": "Herbes"
+              "name": "Huile d'arachide ou neutre",
+              "quantity": "2 cuillères à soupe"
             },
             {
               "name": "Citron vert",
-              "quantity": "1/2",
-              "group": "Finition"
+              "quantity": "1 citron"
             },
             {
-              "name": "Huile de noix de coco ou arachide",
-              "quantity": "2 cuillères à soupe",
-              "group": "Cuisson"
+              "name": "Sucre de palme ou sucre roux",
+              "quantity": "1 cuillère à soupe"
+            },
+            {
+              "name": "Sauce de poisson (Nam Pla)",
+              "quantity": "1 cuillère à soupe"
+            },
+            {
+              "name": "Feuilles de citronnier kaffir",
+              "quantity": "3-4 feuilles"
+            },
+            {
+              "name": "Basilic thaï frais",
+              "quantity": "1 petit bouquet",
+              "optional": true
             }
           ],
           "steps": [
@@ -806,184 +612,165 @@
               "order": 1,
               "title": "Préparer les ingrédients",
               "instructions": [
-                "Couper les poitrines de poulet en bouchées régulières de 3-4 cm",
-                "Couper les aubergines thaïes en quartiers ou dés",
-                "Découper le poivron rouge en lanières",
-                "Mesurer la pâte de curry vert et le lait de coco"
+                "Découper le poulet en dés ou lamelles de taille uniforme (environ 2-3 cm)",
+                "Presser le citron vert pour extraire le jus et réserver",
+                "Déchiqueter légèrement les feuilles de citronnier kaffir pour libérer les arômes"
               ],
-              "durationMinutes": 8
+              "durationMinutes": 5
             },
             {
               "order": 2,
-              "title": "Faire revenir la pâte de curry",
+              "title": "Torréfier la pâte de curry",
               "instructions": [
-                "Chauffer l'huile dans un wok ou une grande poêle à feu vif",
-                "Ajouter la pâte de curry vert et faire revenir 1-2 minutes en remuant constamment",
-                "Cette étape libère les arômes et amplifie les saveurs de la pâte"
+                "Chauffer l'huile d'arachide à feu vif dans une grande poêle ou wok",
+                "Ajouter la pâte de curry vert et torréfier 1-2 minutes en remuant constamment",
+                "La pâte doit devenir odorante et légèrement dorée"
               ],
-              "durationMinutes": 2
+              "durationMinutes": 3
             },
             {
               "order": 3,
-              "title": "Cuire le poulet",
+              "title": "Déglacer et émulsionner",
               "instructions": [
-                "Ajouter les bouchées de poulet dans le wok",
-                "Faire revenir 2-3 minutes en remuant régulièrement jusqu'à ce que le poulet soit saisi de tous les côtés",
-                "Le poulet ne doit pas être entièrement cuit à cette étape"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 4,
-              "title": "Préparer le bouillon savoureux",
-              "instructions": [
-                "Verser le lait de coco et le bouillon de poulet dans le wok",
-                "Ajouter le nuoc-mâm et le sucre de canne",
-                "Bien mélanger pour dissoudre le sucre et homogénéiser le bouillon"
+                "Verser progressivement 200 ml de lait de coco en remuant pour créer une pâte homogène",
+                "Bien mélanger pour éviter les grumeaux et obtenir une sauce lisse"
               ],
               "durationMinutes": 2
             },
             {
-              "order": 5,
-              "title": "Cuire les légumes et le poulet",
+              "order": 4,
+              "title": "Cuire le poulet",
               "instructions": [
-                "Porter le curry à ébullition légère",
-                "Ajouter les aubergines thaïes et les lanières de poivron",
-                "Réduire le feu à moyen et laisser mijoter 8-10 minutes",
-                "Le poulet doit être cuit à cœur (rose disparu) et les légumes doivent être tendres mais croquants"
+                "Ajouter les dés de poulet dans la sauce de curry",
+                "Remuer pour bien enrober le poulet et laisser cuire 5-6 minutes à feu moyen-vif",
+                "Le poulet doit être blanc et cuit à cœur"
               ],
-              "durationMinutes": 10
+              "durationMinutes": 6
+            },
+            {
+              "order": 5,
+              "title": "Affiner la sauce",
+              "instructions": [
+                "Verser le reste du lait de coco (600 ml) en remuant doucement",
+                "Ajouter les feuilles de citronnier kaffir",
+                "Porter à frémissement et laisser cuire 3-4 minutes"
+              ],
+              "durationMinutes": 4
             },
             {
               "order": 6,
-              "title": "Finir et servir",
+              "title": "Équilibrer les saveurs",
               "instructions": [
-                "Goûter et ajuster l'assaisonnement si nécessaire",
-                "Éteindre le feu et ajouter les feuilles de basilic thaï frais",
-                "Presser le citron vert sur le curry",
-                "Ajouter la coriandre fraîche en finition",
-                "Servir immédiatement dans des bols avec du riz jasmin ou des nouilles"
+                "Ajouter le sucre de palme et la sauce de poisson",
+                "Verser le jus de citron vert frais en ajustant la quantité selon le goût",
+                "Rectifier l'assaisonnement : doit être épicé, sucré, salé et acide en équilibre"
               ],
-              "durationMinutes": 3
+              "durationMinutes": 2
+            },
+            {
+              "order": 7,
+              "title": "Dresser et servir",
+              "instructions": [
+                "Verser le curry dans des bols ou assiettes creuses",
+                "Garnir optionnellement de feuilles de basilic thaï frais",
+                "Servir immédiatement avec du riz blanc ou du riz jasmin"
+              ],
+              "durationMinutes": 2
             }
           ],
           "notes": {
             "chef": [
-              "Utiliser une pâte de curry vert de qualité thaïlandaise pour l'authenticité (marques : Thai Kitchen, Maesri)",
-              "Ne pas faire bouillir trop vigoureusement après avoir ajouté le lait de coco pour éviter qu'il ne se sépare",
-              "Le temps de cuisson total (30 min) inclut la préparation ; ajustez la découpe des légumes pour respecter ce délai",
-              "Le curry doit être équilibré : épicé mais pas brûlant, crémeux et savoureux avec une touche d'acidité"
+              "La torréfaction initiale de la pâte de curry est cruciale pour développer les saveurs complexes",
+              "Ne pas précuire le poulet : la cuisson dans la sauce lui confère la meilleure texture",
+              "Vérifier toujours l'équilibre final acide-sucré-épicé ; c'est la signature du plat authentique",
+              "Utiliser un lait de coco de qualité (sans additifs) pour une sauce onctueuse et homogène",
+              "Les feuilles de citronnier kaffir ne doivent pas être consommées entières ; les enlever avant de servir"
             ],
             "variations": [
-              "Ajouter des champignons de Paris ou shiitaké pour une version plus boisée",
-              "Remplacer les aubergines par des haricots verts ou du brocoli pour une texture plus croquante",
-              "Ajouter des crevettes ou du tofu à la place du poulet",
-              "Pour une version plus épicée, ajouter des piments rouges frais en lanières",
-              "Utiliser du basilic classique si le basilic thaï n'est pas disponible (moins d'arôme anisé)",
-              "Réduire le nuoc-mâm de 25% pour les palais sensibles au poisson"
+              "Curry vert aux crevettes : remplacer le poulet par 600g de crevettes décortiquées, réduire le temps de cuisson à 2-3 minutes",
+              "Curry vert végétarien : remplacer le poulet par 300g de tofu ferme coupé en dés et 200g de légumes variés (poivrons, aubergine, pois gourmands)",
+              "Curry vert thaï riche : ajouter 100ml de crème fraîche en fin de cuisson pour une texture plus onctueuse",
+              "Curry vert épicé : augmenter la pâte de curry à 4 cuillères à soupe pour plus d'intensité"
             ],
-            "conservation": "Conservez au réfrigérateur jusqu'à 3 jours dans un récipient hermétique. Le curry se congèle bien jusqu'à 2 mois (sans les herbes fraîches). Réchauffez doucement à feu doux en ajoutant les herbes fraîches à la fin.",
-            "nutrition": "Par portion (avec le poulet et légumes seuls) : 320 calories | Protéines 28g | Glucides 12g | Lipides 18g | Sans gluten | Riche en protéines | Contient du poisson (nuoc-mâm) | Contient de la noix de coco"
+            "conservation": "Se conserve 2-3 jours au réfrigérateur dans un récipient hermétique. Réchauffer doucement à feu doux avec un peu de lait de coco pour retrouver la texture. Non recommandé pour la congélation en raison de l'effet sur la texture du poulet.",
+            "nutrition": "Par portion : 385 calories, protéines 38g, glucides 8g, lipides 22g. Sans gluten. Riche en protéines et pauvre en glucides. Contient des allergènes : poisson (Nam Pla), noix de coco, arachides (huile)."
           }
         }
       }
     },
     {
-      "offset_ms": 47454,
+      "offset_ms": 38810,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpesqxdw0000pfijo0z4din9",
+        "id": "cmpfrvm8v0000zxijt7e9p2ax",
         "title": "Curry vert thaï au poulet"
       },
-      "duration_ms": 1382
+      "duration_ms": 1214
     },
     {
-      "offset_ms": 53224,
+      "offset_ms": 46149,
       "event": "stage_complete",
       "stage": "recipe-drafting",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 20173,
+      "duration_ms": 21478,
       "tokens": {
-        "prompt": 6247,
-        "completion": 2876,
-        "total": 9123
+        "prompt": 6041,
+        "completion": 2853,
+        "total": 8894
       },
       "tool_calls": [
         {
-          "id": "toolu_0112Xu133Kmqhvat4yxn6b5d",
+          "id": "toolu_01GoQsHutRSnN2FgaeUFWstP",
           "name": "db-upsert_recipe",
           "arguments": {
             "data": {
               "userId": "cmmrunf9l0000cpijlrn58jpw",
               "title": "Curry vert thaï au poulet",
               "cuisine": "Thaïlandaise",
-              "timeMinutes": 30,
+              "timeMinutes": 25,
               "portions": 4,
               "emoji": "🍛",
-              "calories": 320,
+              "calories": 385,
               "ingredients": [
                 {
-                  "name": "Poitrine de poulet",
-                  "quantity": "600g",
-                  "group": "Protéine"
+                  "name": "Poulet (blanc ou filet)",
+                  "quantity": "600g"
                 },
                 {
                   "name": "Pâte de curry vert thaï",
-                  "quantity": "3-4 cuillères à soupe",
-                  "group": "Base"
+                  "quantity": "3 cuillères à soupe"
                 },
                 {
                   "name": "Lait de coco",
-                  "quantity": "400ml",
-                  "group": "Liquide"
+                  "quantity": "800 ml"
                 },
                 {
-                  "name": "Bouillon de poulet",
-                  "quantity": "200ml",
-                  "group": "Liquide"
-                },
-                {
-                  "name": "Aubergines thaïes",
-                  "quantity": "250g",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Poivron rouge",
-                  "quantity": "1 moyen",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Nuoc-mâm (sauce de poisson)",
-                  "quantity": "2 cuillères à soupe",
-                  "group": "Assaisonnement"
-                },
-                {
-                  "name": "Sucre de canne",
-                  "quantity": "1 cuillère à café",
-                  "group": "Assaisonnement"
-                },
-                {
-                  "name": "Basilic thaï frais",
-                  "quantity": "1 poignée",
-                  "group": "Herbes"
-                },
-                {
-                  "name": "Coriandre fraîche",
-                  "quantity": "1 poignée",
-                  "group": "Herbes"
+                  "name": "Huile d'arachide ou neutre",
+                  "quantity": "2 cuillères à soupe"
                 },
                 {
                   "name": "Citron vert",
-                  "quantity": "1/2",
-                  "group": "Finition"
+                  "quantity": "1 citron"
                 },
                 {
-                  "name": "Huile de noix de coco ou arachide",
-                  "quantity": "2 cuillères à soupe",
-                  "group": "Cuisson"
+                  "name": "Sucre de palme ou sucre roux",
+                  "quantity": "1 cuillère à soupe"
+                },
+                {
+                  "name": "Sauce de poisson (Nam Pla)",
+                  "quantity": "1 cuillère à soupe"
+                },
+                {
+                  "name": "Feuilles de citronnier kaffir",
+                  "quantity": "3-4 feuilles"
+                },
+                {
+                  "name": "Basilic thaï frais",
+                  "quantity": "1 petit bouquet",
+                  "optional": true
                 }
               ],
               "steps": [
@@ -991,117 +778,123 @@
                   "order": 1,
                   "title": "Préparer les ingrédients",
                   "instructions": [
-                    "Couper les poitrines de poulet en bouchées régulières de 3-4 cm",
-                    "Couper les aubergines thaïes en quartiers ou dés",
-                    "Découper le poivron rouge en lanières",
-                    "Mesurer la pâte de curry vert et le lait de coco"
+                    "Découper le poulet en dés ou lamelles de taille uniforme (environ 2-3 cm)",
+                    "Presser le citron vert pour extraire le jus et réserver",
+                    "Déchiqueter légèrement les feuilles de citronnier kaffir pour libérer les arômes"
                   ],
-                  "durationMinutes": 8
+                  "durationMinutes": 5
                 },
                 {
                   "order": 2,
-                  "title": "Faire revenir la pâte de curry",
+                  "title": "Torréfier la pâte de curry",
                   "instructions": [
-                    "Chauffer l'huile dans un wok ou une grande poêle à feu vif",
-                    "Ajouter la pâte de curry vert et faire revenir 1-2 minutes en remuant constamment",
-                    "Cette étape libère les arômes et amplifie les saveurs de la pâte"
+                    "Chauffer l'huile d'arachide à feu vif dans une grande poêle ou wok",
+                    "Ajouter la pâte de curry vert et torréfier 1-2 minutes en remuant constamment",
+                    "La pâte doit devenir odorante et légèrement dorée"
                   ],
-                  "durationMinutes": 2
+                  "durationMinutes": 3
                 },
                 {
                   "order": 3,
-                  "title": "Cuire le poulet",
+                  "title": "Déglacer et émulsionner",
                   "instructions": [
-                    "Ajouter les bouchées de poulet dans le wok",
-                    "Faire revenir 2-3 minutes en remuant régulièrement jusqu'à ce que le poulet soit saisi de tous les côtés",
-                    "Le poulet ne doit pas être entièrement cuit à cette étape"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 4,
-                  "title": "Préparer le bouillon savoureux",
-                  "instructions": [
-                    "Verser le lait de coco et le bouillon de poulet dans le wok",
-                    "Ajouter le nuoc-mâm et le sucre de canne",
-                    "Bien mélanger pour dissoudre le sucre et homogénéiser le bouillon"
+                    "Verser progressivement 200 ml de lait de coco en remuant pour créer une pâte homogène",
+                    "Bien mélanger pour éviter les grumeaux et obtenir une sauce lisse"
                   ],
                   "durationMinutes": 2
                 },
                 {
-                  "order": 5,
-                  "title": "Cuire les légumes et le poulet",
+                  "order": 4,
+                  "title": "Cuire le poulet",
                   "instructions": [
-                    "Porter le curry à ébullition légère",
-                    "Ajouter les aubergines thaïes et les lanières de poivron",
-                    "Réduire le feu à moyen et laisser mijoter 8-10 minutes",
-                    "Le poulet doit être cuit à cœur (rose disparu) et les légumes doivent être tendres mais croquants"
+                    "Ajouter les dés de poulet dans la sauce de curry",
+                    "Remuer pour bien enrober le poulet et laisser cuire 5-6 minutes à feu moyen-vif",
+                    "Le poulet doit être blanc et cuit à cœur"
                   ],
-                  "durationMinutes": 10
+                  "durationMinutes": 6
+                },
+                {
+                  "order": 5,
+                  "title": "Affiner la sauce",
+                  "instructions": [
+                    "Verser le reste du lait de coco (600 ml) en remuant doucement",
+                    "Ajouter les feuilles de citronnier kaffir",
+                    "Porter à frémissement et laisser cuire 3-4 minutes"
+                  ],
+                  "durationMinutes": 4
                 },
                 {
                   "order": 6,
-                  "title": "Finir et servir",
+                  "title": "Équilibrer les saveurs",
                   "instructions": [
-                    "Goûter et ajuster l'assaisonnement si nécessaire",
-                    "Éteindre le feu et ajouter les feuilles de basilic thaï frais",
-                    "Presser le citron vert sur le curry",
-                    "Ajouter la coriandre fraîche en finition",
-                    "Servir immédiatement dans des bols avec du riz jasmin ou des nouilles"
+                    "Ajouter le sucre de palme et la sauce de poisson",
+                    "Verser le jus de citron vert frais en ajustant la quantité selon le goût",
+                    "Rectifier l'assaisonnement : doit être épicé, sucré, salé et acide en équilibre"
                   ],
-                  "durationMinutes": 3
+                  "durationMinutes": 2
+                },
+                {
+                  "order": 7,
+                  "title": "Dresser et servir",
+                  "instructions": [
+                    "Verser le curry dans des bols ou assiettes creuses",
+                    "Garnir optionnellement de feuilles de basilic thaï frais",
+                    "Servir immédiatement avec du riz blanc ou du riz jasmin"
+                  ],
+                  "durationMinutes": 2
                 }
               ],
               "notes": {
                 "chef": [
-                  "Utiliser une pâte de curry vert de qualité thaïlandaise pour l'authenticité (marques : Thai Kitchen, Maesri)",
-                  "Ne pas faire bouillir trop vigoureusement après avoir ajouté le lait de coco pour éviter qu'il ne se sépare",
-                  "Le temps de cuisson total (30 min) inclut la préparation ; ajustez la découpe des légumes pour respecter ce délai",
-                  "Le curry doit être équilibré : épicé mais pas brûlant, crémeux et savoureux avec une touche d'acidité"
+                  "La torréfaction initiale de la pâte de curry est cruciale pour développer les saveurs complexes",
+                  "Ne pas précuire le poulet : la cuisson dans la sauce lui confère la meilleure texture",
+                  "Vérifier toujours l'équilibre final acide-sucré-épicé ; c'est la signature du plat authentique",
+                  "Utiliser un lait de coco de qualité (sans additifs) pour une sauce onctueuse et homogène",
+                  "Les feuilles de citronnier kaffir ne doivent pas être consommées entières ; les enlever avant de servir"
                 ],
                 "variations": [
-                  "Ajouter des champignons de Paris ou shiitaké pour une version plus boisée",
-                  "Remplacer les aubergines par des haricots verts ou du brocoli pour une texture plus croquante",
-                  "Ajouter des crevettes ou du tofu à la place du poulet",
-                  "Pour une version plus épicée, ajouter des piments rouges frais en lanières",
-                  "Utiliser du basilic classique si le basilic thaï n'est pas disponible (moins d'arôme anisé)",
-                  "Réduire le nuoc-mâm de 25% pour les palais sensibles au poisson"
+                  "Curry vert aux crevettes : remplacer le poulet par 600g de crevettes décortiquées, réduire le temps de cuisson à 2-3 minutes",
+                  "Curry vert végétarien : remplacer le poulet par 300g de tofu ferme coupé en dés et 200g de légumes variés (poivrons, aubergine, pois gourmands)",
+                  "Curry vert thaï riche : ajouter 100ml de crème fraîche en fin de cuisson pour une texture plus onctueuse",
+                  "Curry vert épicé : augmenter la pâte de curry à 4 cuillères à soupe pour plus d'intensité"
                 ],
-                "conservation": "Conservez au réfrigérateur jusqu'à 3 jours dans un récipient hermétique. Le curry se congèle bien jusqu'à 2 mois (sans les herbes fraîches). Réchauffez doucement à feu doux en ajoutant les herbes fraîches à la fin.",
-                "nutrition": "Par portion (avec le poulet et légumes seuls) : 320 calories | Protéines 28g | Glucides 12g | Lipides 18g | Sans gluten | Riche en protéines | Contient du poisson (nuoc-mâm) | Contient de la noix de coco"
+                "conservation": "Se conserve 2-3 jours au réfrigérateur dans un récipient hermétique. Réchauffer doucement à feu doux avec un peu de lait de coco pour retrouver la texture. Non recommandé pour la congélation en raison de l'effet sur la texture du poulet.",
+                "nutrition": "Par portion : 385 calories, protéines 38g, glucides 8g, lipides 22g. Sans gluten. Riche en protéines et pauvre en glucides. Contient des allergènes : poisson (Nam Pla), noix de coco, arachides (huile)."
               }
             }
           },
           "result": {
             "success": true,
-            "id": "cmpesqxdw0000pfijo0z4din9",
+            "id": "cmpfrvm8v0000zxijt7e9p2ax",
             "title": "Curry vert thaï au poulet"
           }
         }
       ],
       "output": {
         "title": "Curry vert thaï au poulet",
-        "cuisine": "Thaïlandaise",
+        "cuisine": "Thaï",
         "timeMinutes": "30",
         "portions": "4",
         "emoji": "🍛",
-        "ingredients": "[{\"name\": \"Poitrine de poulet\", \"quantity\": \"600g\"}, {\"name\": \"Pâte de curry vert thaï\", \"quantity\": \"3-4 cuillères à soupe\"}, {\"name\": \"Lait de coco\", \"quantity\": \"400ml\"}, {\"name\": \"Bouillon de poulet\", \"quantity\": \"200ml\"}, {\"name\": \"Aubergines thaïes\", \"quantity\": \"250g\"}, {\"name\": \"Poivron rouge\", \"quantity\": \"1 moyen\"}, {\"name\": \"Nuoc-mâm\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Sucre de canne\", \"quantity\": \"1 cuillère à café\"}, {\"name\": \"Basilic thaï frais\", \"quantity\": \"1 poignée\"}, {\"name\": \"Coriandre fraîche\", \"quantity\": \"1 poignée\"}, {\"name\": \"Citron vert\", \"quantity\": \"1/2\"}, {\"name\": \"Huile de noix de coco ou arachide\", \"quantity\": \"2 cuillères à soupe\"}]",
+        "ingredients": "[{\"name\": \"Poulet (blanc ou filet)\", \"quantity\": \"600g\"}, {\"name\": \"Pâte de curry vert thaï\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Lait de coco\", \"quantity\": \"800 ml\"}, {\"name\": \"Huile d'arachide ou neutre\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Citron vert\", \"quantity\": \"1 citron\"}, {\"name\": \"Sucre de palme ou sucre roux\", \"quantity\": \"1 cuillère à soupe\"}, {\"name\": \"Sauce de poisson (Nam Pla)\", \"quantity\": \"1 cuillère à soupe\"}, {\"name\": \"Feuilles de citronnier kaffir\", \"quantity\": \"3-4 feuilles\"}, {\"name\": \"Basilic thaï frais\", \"quantity\": \"1 petit bouquet\", \"optional\": true}]",
         "steps": [
-          "Préparer les ingrédients : couper le poulet en bouchées, dés les aubergines et poivron, presser le citron vert",
-          "Chauffer l'huile dans un wok ou grande poêle à feu vif pendant 1 minute",
-          "Ajouter la pâte de curry vert et faire revenir 2-3 minutes en remuant jusqu'à sentir l'arôme intense",
-          "Verser le lait de coco progressivement tout en remuant pour dissoudre la pâte, puis ajouter le bouillon",
-          "Porter à ébullition, puis réduire le feu à moyen-doux",
-          "Ajouter le poulet découpé et laisser cuire 8-10 minutes jusqu'à cuisson complète",
-          "Ajouter les aubergines et poivron, cuire 5 minutes supplémentaires",
-          "Assaisonner avec le nuoc-mâm, le sucre et le jus de citron vert selon le goût",
-          "Parsemer généreusement de basilic thaï et coriandre fraîche juste avant de servir"
+          "Découper le poulet en dés de 2-3 cm",
+          "Chauffer l'huile d'arachide à feu vif dans un wok ou une grande cocotte",
+          "Ajouter la pâte de curry vert et torréfier pendant 1-2 minutes en remuant constamment jusqu'à libération des arômes",
+          "Verser progressivement le lait de coco en remuant pour bien délayer la pâte",
+          "Porter à ébullition douce, puis ajouter le poulet en dés",
+          "Laisser mijoter 12-15 minutes jusqu'à cuisson complète du poulet",
+          "Incorporer le sucre de palme, la sauce de poisson et le jus de citron vert frais",
+          "Ajouter les feuilles de citronnier kaffir froissées légèrement",
+          "Rectifier l'assaisonnement en équilibrant sucré/salé/acide selon le goût",
+          "Finir avec le basilic thaï frais ciselé (optionnel)",
+          "Servir immédiatement avec du riz blanc ou nouilles"
         ],
-        "notes": "Pour un curry plus authentique, préparer la pâte maison avec piments verts frais, gingembre, ail et coriandre. Possible de substituer les aubergines thaïes par des courgettes ou haricots verts. Servir avec du riz jasmin pour compléter le repas. Le curry peut être préparé à l'avance et réchauffé ; les saveurs se développent davantage le lendemain."
+        "notes": "{\"chef\": [\"Ne pas faire bouillir vigoureusement après l'ajout du lait de coco pour préserver l'onctuosité\", \"La torréfaction initiale de la pâte est cruciale pour développer les arômes complexes\", \"Goûter régulièrement pour équilibrer les saveurs acide-sucré-épicée selon la préférence\"], \"variations\": [\"Remplacer le poulet par des crevettes (8-10 min de cuisson) ou du poisson blanc\", \"Ajouter des légumes (courge, aubergine, haricots verts) pour plus de volume\", \"Utiliser du curry rouge thaï pour une saveur plus robuste et moins herbacée\", \"Préparer une version végétarienne avec tofu ferme et bouillon de légumes\"], \"conservation\": \"Se conserve 3-4 jours au réfrigérateur en pot hermétique; réchauffer à feu doux avec un peu d'eau\", \"nutrition\": \"Par portion: protéines 38g, glucides 8g, lipides 22g; sans gluten, riche en protéines, pauvre en glucides\"}"
       }
     },
     {
-      "offset_ms": 53224,
+      "offset_ms": 46149,
       "event": "stage_start",
       "stage": "technique-validation",
       "stage_index": 4,
@@ -1109,328 +902,41 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 53227,
+      "offset_ms": 46150,
       "event": "stage_context",
       "stage": "technique-validation",
       "context_keys": {
-        "previous_stage_output": 2043
+        "previous_stage_output": 2466
       }
     },
     {
-      "offset_ms": 60546,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Curry vert thaï au poulet",
-          "cuisine": "Thaïlandaise",
-          "timeMinutes": 30,
-          "portions": 4,
-          "emoji": "🍛",
-          "ingredients": [
-            {
-              "name": "Poitrine de poulet",
-              "quantity": "600g"
-            },
-            {
-              "name": "Pâte de curry vert thaï",
-              "quantity": "3-4 cuillères à soupe"
-            },
-            {
-              "name": "Lait de coco",
-              "quantity": "400ml"
-            },
-            {
-              "name": "Bouillon de poulet",
-              "quantity": "200ml"
-            },
-            {
-              "name": "Aubergines thaïes",
-              "quantity": "250g"
-            },
-            {
-              "name": "Poivron rouge",
-              "quantity": "1 moyen"
-            },
-            {
-              "name": "Nuoc-mâm",
-              "quantity": "2 cuillères à soupe"
-            },
-            {
-              "name": "Sucre de canne",
-              "quantity": "1 cuillère à café"
-            },
-            {
-              "name": "Basilic thaï frais",
-              "quantity": "1 poignée"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "1 poignée"
-            },
-            {
-              "name": "Citron vert",
-              "quantity": "1/2"
-            },
-            {
-              "name": "Huile de noix de coco ou arachide",
-              "quantity": "2 cuillères à soupe"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparation des ingrédients",
-              "instructions": [
-                "Couper le poulet en bouchées",
-                "Découper les aubergines en dés",
-                "Découper le poivron en dés",
-                "Presser le citron vert"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 2,
-              "title": "Bloom de la pâte de curry",
-              "instructions": [
-                "Chauffer l'huile dans un wok ou grande poêle à feu vif pendant 1 minute",
-                "Ajouter la pâte de curry vert et faire revenir 2-3 minutes en remuant jusqu'à sentir l'arôme intense"
-              ],
-              "durationMinutes": 4
-            },
-            {
-              "order": 3,
-              "title": "Création de la base de sauce",
-              "instructions": [
-                "Verser le lait de coco progressivement tout en remuant pour dissoudre la pâte",
-                "Ajouter le bouillon",
-                "Porter à ébullition, puis réduire le feu à moyen-doux"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 4,
-              "title": "Cuisson du poulet",
-              "instructions": [
-                "Ajouter le poulet découpé",
-                "Laisser cuire 8-10 minutes jusqu'à cuisson complète"
-              ],
-              "durationMinutes": 9
-            },
-            {
-              "order": 5,
-              "title": "Ajout des légumes et assaisonnement",
-              "instructions": [
-                "Ajouter les aubergines et poivron",
-                "Cuire 5 minutes supplémentaires",
-                "Assaisonner avec le nuoc-mâm, le sucre et le jus de citron vert selon le goût"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 6,
-              "title": "Finition et service",
-              "instructions": [
-                "Parsemer généreusement de basilic thaï et coriandre fraîche juste avant de servir"
-              ],
-              "durationMinutes": 1
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Pour un curry plus authentique, préparer la pâte maison avec piments verts frais, gingembre, ail et coriandre",
-              "Le bloom de la pâte de curry est crucial pour développer les arômes complexes du plat"
-            ],
-            "variations": [
-              "Substituer les aubergines thaïes par des courgettes ou haricots verts",
-              "Servir avec du riz jasmin pour compléter le repas"
-            ],
-            "conservation": "Le curry peut être préparé à l'avance et réchauffé ; les saveurs se développent davantage le lendemain",
-            "nutrition": null
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 62090,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesr8me0000g6ijrm2xnlxs",
-        "title": "Curry vert thaï au poulet"
-      },
-      "duration_ms": 1544
-    },
-    {
-      "offset_ms": 63236,
+      "offset_ms": 55056,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 10011,
+      "duration_ms": 8907,
       "tokens": {
-        "prompt": 7648,
-        "completion": 1511,
-        "total": 9159
+        "prompt": 7908,
+        "completion": 1561,
+        "total": 9469
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01AjXgaLpmWpmB7GNKE2usZu",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Curry vert thaï au poulet",
-              "cuisine": "Thaïlandaise",
-              "timeMinutes": 30,
-              "portions": 4,
-              "emoji": "🍛",
-              "ingredients": [
-                {
-                  "name": "Poitrine de poulet",
-                  "quantity": "600g"
-                },
-                {
-                  "name": "Pâte de curry vert thaï",
-                  "quantity": "3-4 cuillères à soupe"
-                },
-                {
-                  "name": "Lait de coco",
-                  "quantity": "400ml"
-                },
-                {
-                  "name": "Bouillon de poulet",
-                  "quantity": "200ml"
-                },
-                {
-                  "name": "Aubergines thaïes",
-                  "quantity": "250g"
-                },
-                {
-                  "name": "Poivron rouge",
-                  "quantity": "1 moyen"
-                },
-                {
-                  "name": "Nuoc-mâm",
-                  "quantity": "2 cuillères à soupe"
-                },
-                {
-                  "name": "Sucre de canne",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Basilic thaï frais",
-                  "quantity": "1 poignée"
-                },
-                {
-                  "name": "Coriandre fraîche",
-                  "quantity": "1 poignée"
-                },
-                {
-                  "name": "Citron vert",
-                  "quantity": "1/2"
-                },
-                {
-                  "name": "Huile de noix de coco ou arachide",
-                  "quantity": "2 cuillères à soupe"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparation des ingrédients",
-                  "instructions": [
-                    "Couper le poulet en bouchées",
-                    "Découper les aubergines en dés",
-                    "Découper le poivron en dés",
-                    "Presser le citron vert"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 2,
-                  "title": "Bloom de la pâte de curry",
-                  "instructions": [
-                    "Chauffer l'huile dans un wok ou grande poêle à feu vif pendant 1 minute",
-                    "Ajouter la pâte de curry vert et faire revenir 2-3 minutes en remuant jusqu'à sentir l'arôme intense"
-                  ],
-                  "durationMinutes": 4
-                },
-                {
-                  "order": 3,
-                  "title": "Création de la base de sauce",
-                  "instructions": [
-                    "Verser le lait de coco progressivement tout en remuant pour dissoudre la pâte",
-                    "Ajouter le bouillon",
-                    "Porter à ébullition, puis réduire le feu à moyen-doux"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 4,
-                  "title": "Cuisson du poulet",
-                  "instructions": [
-                    "Ajouter le poulet découpé",
-                    "Laisser cuire 8-10 minutes jusqu'à cuisson complète"
-                  ],
-                  "durationMinutes": 9
-                },
-                {
-                  "order": 5,
-                  "title": "Ajout des légumes et assaisonnement",
-                  "instructions": [
-                    "Ajouter les aubergines et poivron",
-                    "Cuire 5 minutes supplémentaires",
-                    "Assaisonner avec le nuoc-mâm, le sucre et le jus de citron vert selon le goût"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 6,
-                  "title": "Finition et service",
-                  "instructions": [
-                    "Parsemer généreusement de basilic thaï et coriandre fraîche juste avant de servir"
-                  ],
-                  "durationMinutes": 1
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Pour un curry plus authentique, préparer la pâte maison avec piments verts frais, gingembre, ail et coriandre",
-                  "Le bloom de la pâte de curry est crucial pour développer les arômes complexes du plat"
-                ],
-                "variations": [
-                  "Substituer les aubergines thaïes par des courgettes ou haricots verts",
-                  "Servir avec du riz jasmin pour compléter le repas"
-                ],
-                "conservation": "Le curry peut être préparé à l'avance et réchauffé ; les saveurs se développent davantage le lendemain",
-                "nutrition": null
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpesr8me0000g6ijrm2xnlxs",
-            "title": "Curry vert thaï au poulet"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
         "verdict": "approved",
-        "critique": "Recette validée et persistée en base de données. Technique réalisable en 30 minutes, portions et niveau intermédiaire confirmés."
+        "critique": "Recette techniquement solide et réaliste. Tous les critères du brief sont respectés : 30 minutes de cuisson active, portions pour 4, techniques accessibles au niveau intermédiaire. Les étapes sont claires et les proportions cohérentes pour un curry vert thaï classique.",
+        "recipe_id": "cmpfrvxqb0000t2ijiekg3zxp"
       }
     },
     {
-      "offset_ms": 63236,
+      "offset_ms": 55056,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 63236,
+      "offset_ms": 55056,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -1438,348 +944,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 63238,
+      "offset_ms": 55057,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
         "input": 170,
-        "previous_stage_output": 6147
+        "previous_stage_output": 6531
       }
     },
     {
-      "offset_ms": 66741,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmmrunf9l0000cpijlrn58jpw",
-          "items": [
-            {
-              "name": "Poitrine de poulet",
-              "quantity": "600g",
-              "group": "protéines"
-            },
-            {
-              "name": "Lait de coco",
-              "quantity": "400ml",
-              "group": "produits frais"
-            },
-            {
-              "name": "Bouillon de poulet",
-              "quantity": "200ml",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Aubergines thaïes",
-              "quantity": "250g",
-              "group": "légumes"
-            },
-            {
-              "name": "Poivron rouge",
-              "quantity": "1 moyen",
-              "group": "légumes"
-            },
-            {
-              "name": "Basilic thaï frais",
-              "quantity": "1 poignée",
-              "group": "produits frais"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "1 poignée",
-              "group": "produits frais"
-            },
-            {
-              "name": "Citron vert",
-              "quantity": "0,5 unité",
-              "group": "légumes"
-            },
-            {
-              "name": "Pâte de curry vert thaï",
-              "quantity": "3-4 cuillères à soupe",
-              "group": "condiments"
-            },
-            {
-              "name": "Nuoc-mâm",
-              "quantity": "2 cuillères à soupe",
-              "group": "condiments"
-            },
-            {
-              "name": "Sucre de canne",
-              "quantity": "1 cuillère à café",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Huile de noix de coco ou arachide",
-              "quantity": "2 cuillères à soupe",
-              "group": "épicerie sèche"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 68101,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1360
-    },
-    {
-      "offset_ms": 70016,
-      "event": "tool_call_start",
-      "tool": "repo_manager-read_file",
-      "params": {
-        "path": "prisma/schema.prisma"
-      }
-    },
-    {
-      "offset_ms": 70017,
-      "event": "tool_call_complete",
-      "tool": "repo_manager-read_file",
-      "result": {
-        "path": "prisma/schema.prisma",
-        "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel User {\n  id            String       @id @default(cuid())\n  name          String?\n  email         String       @unique\n  emailVerified DateTime?\n  image         String?\n  createdAt     DateTime     @default(now())\n  accounts      Account[]\n  recipes       Recipe[]\n  sessions      Session[]\n  plans         WeeklyPlan[]\n  profile       UserProfile?\n  chatQuota     ChatQuota?\n}\n\nmodel Account {\n  id                String  @id @default(cuid())\n  userId            String\n  type              String\n  provider          String\n  providerAccountId String\n  refresh_token     String?\n  access_token      String?\n  expires_at        Int?\n  token_type        String?\n  scope             String?\n  id_token          String?\n  session_state     String?\n  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n\n  @@unique([provider, providerAccountId])\n}\n\nmodel Session {\n  id           String   @id @default(cuid())\n  sessionToken String   @unique\n  userId       String\n  expires      DateTime\n  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel VerificationToken {\n  identifier String\n  token      String   @unique\n  expires    DateTime\n\n  @@unique([identifier, token])\n}\n\nmodel Recipe {\n  id                String             @id @default(cuid())\n  title             String\n  createdAt         DateTime           @default(now())\n  calories          Int?\n  cuisine           String?\n  emoji             String?\n  ingredients       Json\n  isFavorite        Boolean            @default(false)\n  notes             Json?\n  portions          Int?\n  steps             Json\n  timeMinutes       Int?\n  userId            String\n  user              User               @relation(fields: [userId], references: [id])\n  WeeklyPlanRecipes WeeklyPlanRecipe[]\n\n  @@index([userId, isFavorite])\n}\n\nmodel WeeklyPlan {\n  id          String             @id @default(cuid())\n  userId      String\n  weekStart   DateTime\n  createdAt   DateTime           @default(now())\n  GroceryList GroceryList?\n  user        User               @relation(fields: [userId], references: [id])\n  recipes     WeeklyPlanRecipe[]\n}\n\nmodel WeeklyPlanRecipe {\n  id       String     @id @default(cuid())\n  planId   String\n  recipeId String\n  position Int\n  addedAt  DateTime   @default(now())\n  plan     WeeklyPlan @relation(fields: [planId], references: [id])\n  recipe   Recipe     @relation(fields: [recipeId], references: [id])\n\n  @@unique([planId, recipeId])\n  @@unique([planId, position])\n}\n\nmodel GroceryList {\n  id     String     @id @default(cuid())\n  items  Json\n  planId String     @unique\n  plan   WeeklyPlan @relation(fields: [planId], references: [id])\n}\n\nmodel studio_pipeline_runs {\n  id            String    @id\n  pipeline_name String\n  status        String\n  result        String\n  started_at    String\n  completed_at  String?\n  log_path      String?\n  parent_run_id String?\n  created_at    DateTime? @default(now()) @db.Timestamptz(6)\n\n  @@index([created_at(sort: Desc)], map: \"idx_studio_pipeline_runs_created\")\n  @@index([parent_run_id], map: \"idx_studio_pipeline_runs_parent\")\n  @@index([status], map: \"idx_studio_pipeline_runs_status\")\n}\n\nmodel UserProfile {\n  id                    String    @id @default(cuid())\n  userId                String    @unique\n  dietary               String[]  @default([])\n  dislikes              String[]  @default([])\n  cuisines              String[]  @default([])\n  mealsPerWeek          Int       @default(5)\n  portions              Int       @default(2)\n  maxTimeMinutes        Int       @default(30)\n  budgetWeekly          String    @default(\"medium\")\n  onboardingCompleted   Boolean   @default(false)\n  onboardingCompletedAt DateTime?\n  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel ChatQuota {\n  id      String  @id @default(cuid())\n  userId  String  @unique\n  month   String\n  used    Int     @default(0)\n  max     Int     @default(10)\n  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n"
-      },
-      "duration_ms": 1
-    },
-    {
-      "offset_ms": 80872,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Curry vert thaï au poulet",
-          "cuisine": "Thaïlandaise",
-          "timeMinutes": 30,
-          "portions": 4,
-          "emoji": "🍛",
-          "ingredients": [
-            {
-              "name": "Poitrine de poulet",
-              "quantity": "600g",
-              "group": "protéines"
-            },
-            {
-              "name": "Pâte de curry vert thaï",
-              "quantity": "3-4 cuillères à soupe",
-              "group": "condiments"
-            },
-            {
-              "name": "Lait de coco",
-              "quantity": "400ml",
-              "group": "produits frais"
-            },
-            {
-              "name": "Bouillon de poulet",
-              "quantity": "200ml",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Aubergines thaïes",
-              "quantity": "250g",
-              "group": "légumes"
-            },
-            {
-              "name": "Poivron rouge",
-              "quantity": "1 moyen",
-              "group": "légumes"
-            },
-            {
-              "name": "Nuoc-mâm",
-              "quantity": "2 cuillères à soupe",
-              "group": "condiments"
-            },
-            {
-              "name": "Sucre de canne",
-              "quantity": "1 cuillère à café",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Basilic thaï frais",
-              "quantity": "1 poignée",
-              "group": "herbes fraîches"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "1 poignée",
-              "group": "herbes fraîches"
-            },
-            {
-              "name": "Citron vert",
-              "quantity": "1/2",
-              "group": "fruits"
-            },
-            {
-              "name": "Huile de noix de coco ou arachide",
-              "quantity": "2 cuillères à soupe",
-              "group": "épicerie sèche"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparation des ingrédients",
-              "instructions": [
-                "Couper le poulet en bouchées",
-                "Découper les aubergines en dés",
-                "Découper le poivron en lanières",
-                "Presser le citron vert"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 2,
-              "title": "Sauté de la pâte curry",
-              "instructions": [
-                "Chauffer l'huile dans un wok ou grande poêle à feu vif pendant 1 minute",
-                "Ajouter la pâte de curry vert et faire revenir 2-3 minutes en remuant jusqu'à sentir l'arôme intense"
-              ],
-              "durationMinutes": 4
-            },
-            {
-              "order": 3,
-              "title": "Préparation de la sauce",
-              "instructions": [
-                "Verser le lait de coco progressivement tout en remuant pour dissoudre la pâte",
-                "Ajouter le bouillon",
-                "Porter à ébullition, puis réduire le feu à moyen-doux"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 4,
-              "title": "Cuisson du poulet",
-              "instructions": [
-                "Ajouter le poulet découpé et laisser cuire 8-10 minutes jusqu'à cuisson complète"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 5,
-              "title": "Ajout des légumes et finition",
-              "instructions": [
-                "Ajouter les aubergines et poivron, cuire 5 minutes supplémentaires",
-                "Assaisonner avec le nuoc-mâm, le sucre et le jus de citron vert selon le goût",
-                "Parsemer généreusement de basilic thaï et coriandre fraîche juste avant de servir"
-              ],
-              "durationMinutes": 5
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Pour un curry plus authentique, préparer la pâte maison avec piments verts frais, gingembre, ail et coriandre",
-              "Le curry peut être préparé à l'avance et réchauffé ; les saveurs se développent davantage le lendemain"
-            ],
-            "variations": [
-              "Substituer les aubergines thaïes par des courgettes ou haricots verts",
-              "Ajouter du tofu ou des crevettes pour une variante protéinée",
-              "Réduire la pâte de curry pour un plat moins épicé"
-            ],
-            "conservation": "Se conserve au réfrigérateur pendant 3-4 jours dans un récipient hermétique. Peut être congelé jusqu'à 2 mois.",
-            "nutrition": "Protéines: 28g, Glucides: 12g, Lipides: 18g. Sans gluten. Riche en protéines, pauvre en glucides. Servir avec du riz jasmin pour équilibrer les glucides."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 82371,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesro9w0000j2ijyxkuvg29",
-        "title": "Curry vert thaï au poulet"
-      },
-      "duration_ms": 1499
-    },
-    {
-      "offset_ms": 86798,
-      "event": "tool_call_start",
-      "tool": "studio_run-run_pipeline",
-      "params": {
-        "pipeline": "grocery-consolidation",
-        "input": {
-          "recipe": {
-            "title": "Curry vert thaï au poulet",
-            "cuisine": "Thaïlandaise",
-            "portions": 4,
-            "ingredients": [
-              {
-                "name": "Poitrine de poulet",
-                "quantity": "600g"
-              },
-              {
-                "name": "Pâte de curry vert thaï",
-                "quantity": "3-4 cuillères à soupe"
-              },
-              {
-                "name": "Lait de coco",
-                "quantity": "400ml"
-              },
-              {
-                "name": "Bouillon de poulet",
-                "quantity": "200ml"
-              },
-              {
-                "name": "Aubergines thaïes",
-                "quantity": "250g"
-              },
-              {
-                "name": "Poivron rouge",
-                "quantity": "1 moyen"
-              },
-              {
-                "name": "Nuoc-mâm",
-                "quantity": "2 cuillères à soupe"
-              },
-              {
-                "name": "Sucre de canne",
-                "quantity": "1 cuillère à café"
-              },
-              {
-                "name": "Basilic thaï frais",
-                "quantity": "1 poignée"
-              },
-              {
-                "name": "Coriandre fraîche",
-                "quantity": "1 poignée"
-              },
-              {
-                "name": "Citron vert",
-                "quantity": "1/2"
-              },
-              {
-                "name": "Huile de noix de coco ou arachide",
-                "quantity": "2 cuillères à soupe"
-              }
-            ]
-          },
-          "userId": "cmmrunf9l0000cpijlrn58jpw"
-        }
-      }
-    },
-    {
-      "offset_ms": 86799,
-      "event": "tool_call_complete",
-      "tool": "studio_run-run_pipeline",
-      "error": "Failed to load pipeline at /home/arianeguay/dev/src/little-chef-by-studio/.studio/pipelines/grocery-consolidation.pipeline.yaml: ENOENT: no such file or directory, open '/home/arianeguay/dev/src/little-chef-by-studio/.studio/pipelines/grocery-consolidation.pipeline.yaml'",
-      "duration_ms": 1
-    },
-    {
-      "offset_ms": 93067,
+      "offset_ms": 64308,
       "event": "stage_complete",
-      "truncated": true
+      "stage": "grocery-list",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 9252,
+      "tokens": {
+        "prompt": 5554,
+        "completion": 1323,
+        "total": 6877
+      },
+      "tool_calls": [],
+      "output": {
+        "items": "[{\"name\": \"Poulet (blanc ou filet)\", \"quantity\": \"600g\", \"group\": \"protéines\"}, {\"name\": \"Pâte de curry vert thaï\", \"quantity\": \"3 cuillères à soupe\", \"group\": \"épicerie sèche\"}, {\"name\": \"Lait de coco\", \"quantity\": \"800 ml\", \"group\": \"produits frais\"}, {\"name\": \"Huile d'arachide ou neutre\", \"quantity\": \"2 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Citron vert\", \"quantity\": \"1 citron\", \"group\": \"légumes\"}, {\"name\": \"Sucre de palme ou sucre roux\", \"quantity\": \"1 cuillère à soupe\", \"group\": \"épicerie sèche\"}, {\"name\": \"Sauce de poisson (Nam Pla)\", \"quantity\": \"1 cuillère à soupe\", \"group\": \"condiments\"}, {\"name\": \"Feuilles de citronnier kaffir\", \"quantity\": \"3-4 feuilles\", \"group\": \"légumes\"}, {\"name\": \"Basilic thaï frais\", \"quantity\": \"1 petit bouquet\", \"group\": \"légumes\"}]",
+        "sections": "{\"protéines\": [{\"name\": \"Poulet (blanc ou filet)\", \"quantity\": \"600g\", \"group\": \"protéines\"}], \"légumes\": [{\"name\": \"Citron vert\", \"quantity\": \"1 citron\", \"group\": \"légumes\"}, {\"name\": \"Feuilles de citronnier kaffir\", \"quantity\": \"3-4 feuilles\", \"group\": \"légumes\"}, {\"name\": \"Basilic thaï frais\", \"quantity\": \"1 petit bouquet\", \"group\": \"légumes\"}], \"épicerie sèche\": [{\"name\": \"Pâte de curry vert thaï\", \"quantity\": \"3 cuillères à soupe\", \"group\": \"épicerie sèche\"}, {\"name\": \"Sucre de palme ou sucre roux\", \"quantity\": \"1 cuillère à soupe\", \"group\": \"épicerie sèche\"}], \"produits frais\": [{\"name\": \"Lait de coco\", \"quantity\": \"800 ml\", \"group\": \"produits frais\"}], \"condiments\": [{\"name\": \"Huile d'arachide ou neutre\", \"quantity\": \"2 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Sauce de poisson (Nam Pla)\", \"quantity\": \"1 cuillère à soupe\", \"group\": \"condiments\"}]}"
+      }
     },
     {
-      "offset_ms": 93164,
+      "offset_ms": 64395,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
-      "duration_ms": 93196,
-      "total_tokens": 48527,
-      "total_tool_calls": 11,
+      "duration_ms": 64427,
+      "total_tokens": 41227,
+      "total_tool_calls": 9,
       "total_stages": 6
     }
   ]

@@ -1,6 +1,7 @@
 {
   "id": "02",
   "slug": "risotto-champignons",
+  "run_id": "5ff84f1c",
   "input": {
     "dish_name": "Risotto aux champignons sauvages",
     "userId": "cmmrunf9l0000cpijlrn58jpw",
@@ -10,8 +11,8 @@
       "ingrédients accessibles en épicerie standard"
     ]
   },
-  "captured_at": "2026-05-21T17:15:09.822Z",
-  "duration_ms": 183422,
+  "captured_at": "2026-05-21T17:31:16.447Z",
+  "duration_ms": 89949,
   "events": [
     {
       "offset_ms": 0,
@@ -28,7 +29,7 @@
       }
     },
     {
-      "offset_ms": 24,
+      "offset_ms": 23,
       "event": "stage_start",
       "stage": "culinary-research",
       "stage_index": 0,
@@ -36,7 +37,7 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 28,
+      "offset_ms": 27,
       "event": "stage_context",
       "stage": "culinary-research",
       "context_keys": {
@@ -44,121 +45,221 @@
       }
     },
     {
-      "offset_ms": 2950,
+      "offset_ms": 1690,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "risotto aux champignons sauvages technique culinaire"
+        "query": "risotto aux champignons sauvages techniques culinaires"
       }
     },
     {
-      "offset_ms": 3075,
+      "offset_ms": 3230,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "risotto aux champignons sauvages techniques culinaires",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.instagram.com/reel/DT0kfcciKJn",
+            "title": "Saviez-vous que le risotto aux champignons était l'un des plats ...",
+            "content": "... Cuisine-Italie.com – Techniques et variations régionales du risotto ... Les champignons sauvages, souvent cueillis à la main, apportent au risotto",
+            "score": 0.9999839,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.hilton.com/fr/travel/articles/wild-mushroom-risotto-at-the-beverly-hilton",
+            "title": "Risotto aux champignons : Découvrez la recette | Format de voyage | Hilton",
+            "content": "# Hors du menu : Risotto aux champignons sauvages à l'hôtel The Beverly Hilton. Apprenez à préparer un risotto aux champignons sauvages digne d'un tapis rouge avec l'aide de Matthew Morgan, chef exécutif de l'hôtel The Beverly Hilton . Alors que les célébrités affluent dans l'élégante salle de réception de l'hôtel The Beverly Hilton à Beverly Hills, en Californie, qui accueille les Globes depuis plus de 40 ans, vous pouvez impressionner vos amis avec vos compétences culinaires tout en créant une expérience culinaire primée dans le confort de votre maison (nœud noir en option, bien sûr). Pour que vos invités ressentent ces mêmes sentiments avec ce plat, le chef Morgan insiste sur l'importance d'ingrédients de qualité, d'une variété de champignons et d'attention aux détails dans la préparation. Oh, et si vous n’avez pas de roue géante de parmesan à la maison, la façon préférée de Morgan d’infuser des saveurs et du charme à la préparation de ce risotto, ne vous inquiétez pas. Ajoutez les champignons à l'huile d'olive et faites revenir pendant 4 à 5 minutes.",
+            "score": 0.9999839,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.wisdomlib.org/recipes/risotto-aux-champignons-sauvages-137298",
+            "title": "Recipe for: Risotto aux Champignons Sauvages",
+            "content": "Le Risotto aux Champignons Sauvages, une symphonie de saveurs terrestres, demande environ une heure de préparation. Pour une texture optimale,",
+            "score": 0.9999778,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.editions-larousse.fr/recette/risotto-aux-champignons-sauvages",
+            "title": "Risotto aux champignons sauvages | Éditions Larousse",
+            "content": "La marque et le concept auxquels elles demeurent associées sont synonymes de savoir-faire et de référence. * Bienvenue sur Larousse Jeux, nous vous proposons une collection variée de jeux gratuits qui raviront les passionnés de quiz, de jeux de lettres et de casse-têtes. Saisissez-les dans la poêle sans les décongeler, en augmentant simplement le temps de cuisson. * 100 g de mousserons (en vente dans les magasins de fruits et légumes). Saisissez les champignons et la gousse d'ail hachée 3 ou 4 minutes dans une poêle avec 30 g de beurre. Faites-les fondre 3 minutes à feu doux dans une casserole avec l'huile d'olive. Versez 30 cl de bouillon chaud sur le riz, salez, poivrez et laissez cuire 17 ou 18 minutes à feu moyen, en remuant et en ajoutant du bouillon, au fur et à mesure qu'il est absorbé par le riz. Quelques minutes avant la fin de la cuisson, incorporez les champignons au risotto.",
+            "score": 0.9999757,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.eltheatris.fr/risotto-cremeux-champignons-sauvages-va-reconforter-vos-diners-froids-recette-chaleureuse",
+            "title": "Ce risotto crémeux aux champignons sauvages va réconforter vos dîners froids – recette chaleureuse",
+            "content": "# Ce risotto crémeux aux champignons sauvages va réconforter vos dîners froids – recette chaleureuse. Mes yeux se sont posés sur ce sachet de **champignons sauvages** ramené du marché : cèpes, girolles et pieds-de-mouton qui attendaient patiemment leur moment de gloire. L’idée d’un risotto s’est imposée naturellement, mais je redoutais cette bataille habituelle contre le riz qui accroche, qui colle, qui refuse de révéler sa texture crémeuse idéale. Mais entre le boulot qui déborde et les enfants qui réclament, qui a vraiment vingt-cinq minutes à passer devant les fourneaux, cuillère en bois à la main ? ## L’astuce secrète qui transforme votre risotto. Mais ce qui distingue vraiment cette approche, c’est l’incorporation d’un **bouillon de champignons concentré**. Cette base aromatique intense transforme chaque grain de riz en concentré de saveurs forestières. Gratin de légumes : l’ingrédient surprise qui sublime le plat. Vous pouvez préparer une salade d’accompagnement, dresser la table ou simplement savourer un verre de ce vin blanc qui parfume votre risotto.",
+            "score": 0.99994266,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.37,
+        "request_id": "6a4fadc1-f6a3-4489-800a-79cec24b25fd"
       },
-      "duration_ms": 125
+      "duration_ms": 1540
     },
     {
-      "offset_ms": 3075,
+      "offset_ms": 3230,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "risotto histoire origine Italie contexte culturel"
+        "query": "risotto mushroom Italian culinary tradition"
       }
     },
     {
-      "offset_ms": 3178,
+      "offset_ms": 4172,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "risotto mushroom Italian culinary tradition",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.lacucinaitaliana.com/italian-food/how-to-cook/how-to-make-mushroom-risotto-easy",
+            "title": "How to Make a Mushroom Risotto: the original recipe - La Cucina Italiana",
+            "content": "# How to Make Mushroom Risotto. Mushroom risotto is an excellent dish in the fall, when mushrooms can be found fresh. But you can also prepare it with dried mushrooms. The flavor of the dish won’t be affected, but the texture will since fresh mushrooms are softer. You can make it with various kinds of mushrooms as chanterelle, although porcini mushrooms will give you the best result. You can choose to make your risotto with fresh or dried mushrooms, although the best solution is to use both. Then squeeze them and filter the liquid, which will give your risotto a more intense flavor. Clean the fresh mushrooms by rubbing them gently with a damp sheet of paper towel, cut them into thin slices, and put them in a pan with a drizzle of oil and a clove of garlic. Add half a glass of filtered mushroom liquid, and then add the boiling stock a little at a time.",
+            "score": 0.99995315,
+            "raw_content": null
+          },
+          {
+            "url": "https://cookingsecretsformen.com/2023/07/28/italian-mushroom-risotto",
+            "title": "Italian Mushroom Risotto - Cooking Secrets for Men - Recipe",
+            "content": "Authentic Italian Mushroom Risotto. Mushroom stock combined with sauteed mushroom for a delicious risotto cooked al dente, the Italian Way.",
+            "score": 0.9998894,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.vincenzosplate.com/how-to-make-mushroom-risotto",
+            "title": "How to Make MUSHROOM RISOTTO Like an Italian",
+            "content": "**How to Make Mushroom Risotto** My mushroom risotto recipe is a no-fail way to master the creamiest risotto you will ever taste – minus the cream of course! Using wild porcini mushrooms, fresh parsley, and a sprinkle of parmigiano cheese you barely need any ingredients to recreate this Northern Italian dish in your own kitchen…and wait until you taste it! Try it with your own favourite ingredients and let me know what you choose…. ## ***Watch How to Make Mushroom Risotto video Recipe:***. ## ***How to Make Creamy Mushroom Risotto Like an Italian***. ## Vincenzo’s Top Tips To Make Mushroom Risotto. Use this as a guide for how long to cook your rice once it has already been lightly toasted as this is the start of the cooking process. The key step is to keep on stirring during the ENTIRE process and DO NOT increase the heat, the rice is best cooked gently and slowly until it’s beautiful and creamy.",
+            "score": 0.9998822,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/DLpeFJvOte_?hl=en",
+            "title": "Mushroom Risotto is one of the best-loved Italian classics at my ...",
+            "content": "Creamy, earthy, and deeply comforting — this Super Easy Mushroom Risotto is Italian soul food at its best. Born in the rice fields of Northern",
+            "score": 0.9998697,
+            "raw_content": null
+          },
+          {
+            "url": "https://feastingonitaly.com/tuscan-mushroom-risotto",
+            "title": "Tuscan Mushroom Risotto - Feasting on Italy",
+            "content": "You are here: Home / Recipes / Primi Piatti / Tuscan Mushroom Risotto. # Tuscan Mushroom Risotto. However, this **Tuscan Mushroom Risotto** gets its distinctive flair from the inclusion of two classic flavors associated with Tuscany–Porcini mushrooms and Pecorino Romano cheese. This Tuscan mushroom risotto recipe follows the traditional **“stand and stir”** technique of making risotto. This, mixed with chicken broth will add an earthy, rich, distinct flavor to this Italian risotto. Vegetale broth can be used instead for a vegetarian mushroom risotto. Add the **chicken broth** to this mushroom broth and set it over a low heat to keep warm. Slowly add more broth, every time the liquid in the pan is almost completely absorbed by the rice. * For extra creamy mushroom risotto, stir in a **knob of butter** at the end with the Pecorino Romano. ## *Tuscan Mushroom Risotto Recipe*. ## Tuscan Mushroom Risotto. Add chicken broth to mushroom broth and return to low heat and keep warm.",
+            "score": 0.99984765,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.8,
+        "request_id": "b8c44ec2-1663-4428-afa5-4fb8accdfe5b"
       },
-      "duration_ms": 103
+      "duration_ms": 942
     },
     {
-      "offset_ms": 3178,
+      "offset_ms": 4172,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "champignons sauvages risotto saveurs profil gustatif"
+        "query": "profil saveur risotto champignons umami"
       }
     },
     {
-      "offset_ms": 3291,
+      "offset_ms": 5340,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "profil saveur risotto champignons umami",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.instagram.com/p/CSNLqB1hEAs",
+            "title": "Here is a creamy, umami packed Mushroom Risotto fully ... - Instagram",
+            "content": "Here is a creamy, umami packed Mushroom Risotto fully loaded with mushrooms, peas, baby spinach, and parmesan cheese.",
+            "score": 0.9999318,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/DMQXmPlzn_5",
+            "title": "Mushroom Risotto is creamy, earthy, and full of lovely umami flavor ...",
+            "content": "112 likes, 21 comments - feastingathome on July 14, 2025: \"Mushroom Risotto is creamy, earthy, and full of lovely umami flavor.",
+            "score": 0.9999292,
+            "raw_content": null
+          },
+          {
+            "url": "https://realmushrooms.com/blogs/rm/mushroom-risotto-recipe",
+            "title": "Mushroom Risotto Recipe: Umami-Filled Cold-Weather Comfort",
+            "content": "This mushroom risotto recipe is packed with mushrooms & parmesan for extra umami flavor. It's a satisfying meat-free meal.",
+            "score": 0.9998074,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.savoryspiceshop.com/blogs/recipes/mushroom-asparagus-risotto-recipe",
+            "title": "Elevated Mushroom Asparagus Risotto Recipe - Savory Spice",
+            "content": "This rich and creamy mushroom asparagus risotto is enhanced by the umami flavors of our Four Mushroom Umami Blend. Top with a sprinkle of Parmesan and fresh",
+            "score": 0.99950445,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.reddit.com/r/Cooking/comments/1s0ut45/how_to_get_actual_amazing_umami_flavor_out_of_a",
+            "title": "How to get ACTUAL amazing umami flavor out of a mushroom risotto?",
+            "content": "I like adding celeriac in small cubes to my mushroom risotto, it gives an earthy flavour. I usually grill porcini and button mushrooms to give",
+            "score": 0.9993538,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.02,
+        "request_id": "788919d8-05b6-4d6f-9152-a906c8c46b5c"
       },
-      "duration_ms": 113
+      "duration_ms": 1168
     },
     {
-      "offset_ms": 7671,
+      "offset_ms": 11290,
       "event": "stage_complete",
       "stage": "culinary-research",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 7669,
+      "duration_ms": 11288,
       "tokens": {
-        "prompt": 2439,
-        "completion": 606,
-        "total": 3045
+        "prompt": 5683,
+        "completion": 682,
+        "total": 6365
       },
       "tool_calls": [
         {
-          "id": "toolu_01H2SJz1LqTk1NxBVGpZcg35",
+          "id": "toolu_012xKseQ7trgxPBrQ87y9uLW",
           "name": "web_search-search",
-          "arguments": {
-            "query": "risotto aux champignons sauvages technique culinaire"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01NZZuGwTuSWoZbypbFwgAxZ",
+          "id": "toolu_01ATFGweBgo9krKcHTKEjrpb",
           "name": "web_search-search",
-          "arguments": {
-            "query": "risotto histoire origine Italie contexte culturel"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01PPUCtqUoQ5QtKSDdS6pKLL",
+          "id": "toolu_014dLbCRGY8mciCU5Br2r3NK",
           "name": "web_search-search",
-          "arguments": {
-            "query": "champignons sauvages risotto saveurs profil gustatif"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         }
       ],
       "output": {
-        "topic_summary": "Le Risotto aux champignons sauvages est un plat italien classique à base de riz Arborio cuit lentement dans un bouillon chaud avec des champignons forestiers, du vin blanc et du fromage Parmigiano. C'est un plat riche, crémeux et savoureux, traditionnellement servi comme primo piatto.",
-        "key_techniques": "Cuisson progressive du riz avec ajout graduel de bouillon (technique du risotto), toastage du riz avant hydratation, émulsion finale avec beurre et fromage (mantécatura), sauté des champignons à feu vif pour concentrer les arômes",
-        "cultural_context": "Plat emblématique de la cuisine lombarde italienne, notamment de Milan et du nord de l'Italie. Le risotto est une technique culinaire ancestrale qui valorise la qualité des ingrédients simples et la maîtrise du geste culinaire, souvent considérée comme l'expression de l'excellence gastronomique italienne.",
-        "flavor_profile": "Saveurs umami intenses des champignons sauvages (cèpes, girolles, chanterelles), caractère terreux et boisé, acidité délicate du vin blanc, richesse crémeuse de la mantécatura, notes de noisette du Parmigiano et du beurre. Texture onctueuse et légèrement al dente du riz."
-      }
+        "topic_summary": "Le Risotto aux champignons sauvages est un plat italien classique de la région du Nord, où le riz Arborio ou Carnaroli est cuit lentement avec un bouillon chaud et des champignons variés (cèpes, girolles, pieds-de-mouche) pour créer une texture crémeuse et onctueuse. Ce plat végétarien combine tradition culinaire italienne et saveurs forestières intenses.",
+        "key_techniques": "Technique du « stand and stir » (rester et remuer constamment sans augmenter la chaleur), toastage léger du riz avant ajout du bouillon, incorporation progressive du bouillon chaud pour permettre l'absorption graduelle, sauté des champignons séparément avec ail et huile d'olive (4-5 minutes), intégration des champignons en fin de cuisson pour préserver la texture, finition avec beurre et fromage pour la crémosité.",
+        "cultural_context": "Originaire des régions rizicoles du Nord de l'Italie (particulièrement Piémont et Lombardie), le risotto aux champignons est une spécialité d'automne et d'hiver reflétant l'usage culinaire des champignons sauvages cueillis localement. C'est un plat de confort et d'âme italienne (« soul food »), servi comme primo piatto (premier plat) dans la gastronomie italienne traditionnelle.",
+        "flavor_profile": "Profil riche et terreux dominé par l'umami, avec une saveur de champignons forestiers intenses (particulièrement si utilisation de porcini), complétés par la crémosité du riz, la légère acidité du bouillon et la richesse du parmesan ou pecorino. Texture crémeuse, lisse et enveloppante avec des notes végétales delicates et un caractère gastronomique sophistiqué."
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 7672,
+      "offset_ms": 11291,
       "event": "stage_start",
       "stage": "ingredient-sourcing",
       "stage_index": 1,
@@ -166,98 +267,258 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 7673,
+      "offset_ms": 11293,
       "event": "stage_context",
       "stage": "ingredient-sourcing",
       "context_keys": {
         "input": 176,
-        "previous_stage_output": 1173
+        "previous_stage_output": 1600
       }
     },
     {
-      "offset_ms": 9269,
+      "offset_ms": 13185,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "risotto champignons sauvages recette ingrédients quantités 4 personnes"
+        "query": "risotto aux champignons sauvages recette ingrédients quantités 4 personnes"
       }
     },
     {
-      "offset_ms": 9394,
+      "offset_ms": 14762,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "risotto aux champignons sauvages recette ingrédients quantités 4 personnes",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.instagram.com/reel/DPtxGjliFQm",
+            "title": "Risotto champignons & saint nectaire Ingrédients : - 300g de ...",
+            "content": "Ingrédients pour 4 personnes : 280g de riz rond pour risotto; un ... ET C'EST PARTI RISOTTO TALEGGIO ASPERGES BLANCHES PRIX AIL SAUVAGE.",
+            "score": 0.98523,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.jonathanmichaudcuisine.com/recettes/risotto-champignons",
+            "title": "Risotto aux champignons — JM_cuisine par Jonathan Michaud",
+            "content": "# Risotto aux champignons. Alors que l’hiver n’a pas encore dit son dernier mot et qu’on est justement à se demander s’il aura une fin un jour, il est temps de se blottir dans nos valeurs sures. Chez-moi, une de celles-ci est sans conteste mon risotto aux champignons. Comme je l’avais soulevé la première fois que j’ai partagé une recette de risotto sur ce site : chacun à ses préférences en matière de risotto. Ce qui lui donnera aussi énormément de goût est le fait d’infuser un peu de champignons séchés dans le bouillon que le riz absorbera doucement. Voir en taille réelle risotto-champignons-HR-plat.jpeg. Voir en taille réelle risotto-champignons-HR-closeup.jpeg. Dans une grande poêle, dorer les champignons et la pancetta dans l’huile jusqu’à ce que les champignons soient dorés. Dans une casserole, porter à ébullition le bouillon et les champignons séchés. Ajouter le riz et cuire 1 minute en remuant pour bien l’enrober.",
+            "score": 0.98454,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/61565158030770/posts/-risotto-onctueux-aux-champignons-sauvages-cr%C3%A9meux-et-parfum%C3%A9-un-risotto-dexcept/122141391410505267",
+            "title": "Pour le risotto : 300 g de riz arborio ou carnaroli 1 litre de bouillon ...",
+            "content": "Risotto Onctueux aux Champignons Sauvages : Crémeux et Parfumé ✨ Un risotto ... Ingrédients (4-6 personnes) : Pour le risotto",
+            "score": 0.98034,
+            "raw_content": null
+          },
+          {
+            "url": "https://jow.fr/blog/posts/le-petit-guide-pour-reussir-son-risotto",
+            "title": "Réussir la recette du risotto aux champignons",
+            "content": "### Le risotto est souvent assimilé à un plat gastronomique que l'on commande au restaurant... Sachez que préparer un risotto n'est pas aussi compliqué que vous pouvez le penser, au contraire, c'est plutôt simple ! ### Tout d'abord, qu'est-ce qu'un risotto? C'est tout simplement la réduction d'un bouillon de riz. C'est-à-dire qu'il faut d'abord faire revenir le riz dans une matière grasse puis l'arroser généreusement de vin puis de bouillon. Une fois n'est pas commune, ce n'est pas le sud, mais le nord de l'Italie qui est mis à l'honneur ainsi que les rizières piémontaises dans lesquelles on trouve des plants de riz à perte de vue. Pour faire un bon risotto, le secret réside dans le choix du riz ! Avant de faire cuire le riz dans le bouillon, il faut tout d'abord le faire revenir cru à l’aide d’une cuillère en bois, dans un peu de matière grasse.",
+            "score": 0.97371,
+            "raw_content": null
+          },
+          {
+            "url": "https://everydayfrenchchef.com/risotto-aux-champignons-sauvage",
+            "title": "Risotto aux champignons sauvages | The Everyday French Chef",
+            "content": "The modern cook’s guide to producing fabulous French food the easy way. - Asperges à la sauce hollandaise. - Cake au roquefort et aux noix. - Champignons à la crème et au cerfeuil. - Croustillants au chèvre-romarin-miel. - Harengs pommes à l’huile. - Salade de carottes à la marocaine. - Salade de pois chiches au cumin. - Salade de tomates aux herbes. - Soupe aux betteraves à l’ukrainienne. - Soupe aux épinards crème à l’aïl. - Soupe d’agneau aux herbes. - Soupe de petits pois à la menthe. - Petits pois et haricots verts en salade. - Salade à l’ail aux croutons. - Salade d’épinards aux fraises et pignons de pin. - Salade d’été aux figues. - Salade d’hiver aux poires et aux noix. - Salade de betteraves aux noix. - Salade de haricots rouges aux noix. - Salade de pommes de terre. - Salade mesclun à l’huile de noix. - Omelette au chèvre frais et à la menthe.",
+            "score": 0.96734,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.43,
+        "request_id": "85d131a7-757a-4a66-a04d-24bd3d9ff863"
       },
-      "duration_ms": 125
+      "duration_ms": 1577
     },
     {
-      "offset_ms": 9394,
+      "offset_ms": 16167,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "riz Arborio champignons sauvages Parmigiano risotto ingrédients standard"
+        "query": "risotto champignons recette complète ingrédients riz arborio quantités précises"
       }
     },
     {
-      "offset_ms": 9499,
+      "offset_ms": 18497,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "risotto champignons recette complète ingrédients riz arborio quantités précises",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.facebook.com/groups/1526717361551752/posts/2004565263766957",
+            "title": "Risotto aux Champignons : Un Plat Crémeux et Savoureux",
+            "content": "Ingrédients : - 300 g de riz Arborio - 300 g de champignons (champignons de Paris ou shiitake) - 1 oignon - 2 gousses d'ail - Un bouquet de",
+            "score": 0.8851659,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/C7eC9tgIiL7",
+            "title": "Risotto champignons ❤️ Une recette que je partage avec vous ...",
+            "content": "Ingrédients : 2 oignons émincés / 2 gousse d'ail / champignons frais émincés / 400 g de riz arborio / persil / 1,5 litre d'eau / 50gvde beurre /",
+            "score": 0.8700796,
+            "raw_content": null
+          },
+          {
+            "url": "https://derrierelhorizon.home.blog/risotto-aux-champignons",
+            "title": "Risotto aux champignons - Derrière l'horizon",
+            "content": "4 tasses (1 L) bouillon de légumes · 1 oignon haché · 2 c. à table (30 ml) huile d'olive · 1 1/2 tasse (280 g) de riz arborio · 1/2 tasse de vin blanc · 1 c. à thé (",
+            "score": 0.8573986,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/61575981054996/videos/risotto-poulet-champignons-arborioingredients-200-g-de-riz-arborio-pour-risotto-/1421105116349666",
+            "title": "Risotto poulet champignons Arborio Ingredients: • 200 g de riz ...",
+            "content": "Risotto poulet champignons Arborio Ingredients: • 200 g de riz Arborio pour risotto ... La recette complète. Risotto poulet",
+            "score": 0.8571119,
+            "raw_content": null
+          },
+          {
+            "url": "https://lacuisinedeniya.fr/risotto-aux-champignons",
+            "title": "Risotto aux champignons - La Cuisine de Niya",
+            "content": "500 g de riz à risotto (riz arborio ils appellent ça, c'est une variété de riz rond) · 500 g de champignons frais PF (j'utilise des champignons",
+            "score": 0.81665546,
+            "raw_content": null
+          }
+        ],
+        "response_time": 2.18,
+        "request_id": "76bfcf38-6080-410c-b433-29832ee4ebb4"
       },
-      "duration_ms": 105
+      "duration_ms": 2330
     },
     {
-      "offset_ms": 15418,
+      "offset_ms": 25632,
       "event": "stage_complete",
       "stage": "ingredient-sourcing",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 7747,
+      "duration_ms": 14341,
       "tokens": {
-        "prompt": 3004,
-        "completion": 843,
-        "total": 3847
+        "prompt": 8549,
+        "completion": 899,
+        "total": 9448
       },
       "tool_calls": [
         {
-          "id": "toolu_01P96et4p11iT1gbZ8M53gbC",
+          "id": "toolu_015R2PbCWKirLPGDKbB99fGb",
           "name": "web_search-search",
           "arguments": {
-            "query": "risotto champignons sauvages recette ingrédients quantités 4 personnes"
+            "query": "risotto aux champignons sauvages recette ingrédients quantités 4 personnes"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "risotto aux champignons sauvages recette ingrédients quantités 4 personnes",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.instagram.com/reel/DPtxGjliFQm",
+                "title": "Risotto champignons & saint nectaire Ingrédients : - 300g de ...",
+                "content": "Ingrédients pour 4 personnes : 280g de riz rond pour risotto; un ... ET C'EST PARTI RISOTTO TALEGGIO ASPERGES BLANCHES PRIX AIL SAUVAGE.",
+                "score": 0.98523,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.jonathanmichaudcuisine.com/recettes/risotto-champignons",
+                "title": "Risotto aux champignons — JM_cuisine par Jonathan Michaud",
+                "content": "# Risotto aux champignons. Alors que l’hiver n’a pas encore dit son dernier mot et qu’on est justement à se demander s’il aura une fin un jour, il est temps de se blottir dans nos valeurs sures. Chez-moi, une de celles-ci est sans conteste mon risotto aux champignons. Comme je l’avais soulevé la première fois que j’ai partagé une recette de risotto sur ce site : chacun à ses préférences en matière de risotto. Ce qui lui donnera aussi énormément de goût est le fait d’infuser un peu de champignons séchés dans le bouillon que le riz absorbera doucement. Voir en taille réelle risotto-champignons-HR-plat.jpeg. Voir en taille réelle risotto-champignons-HR-closeup.jpeg. Dans une grande poêle, dorer les champignons et la pancetta dans l’huile jusqu’à ce que les champignons soient dorés. Dans une casserole, porter à ébullition le bouillon et les champignons séchés. Ajouter le riz et cuire 1 minute en remuant pour bien l’enrober.",
+                "score": 0.98454,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.facebook.com/61565158030770/posts/-risotto-onctueux-aux-champignons-sauvages-cr%C3%A9meux-et-parfum%C3%A9-un-risotto-dexcept/122141391410505267",
+                "title": "Pour le risotto : 300 g de riz arborio ou carnaroli 1 litre de bouillon ...",
+                "content": "Risotto Onctueux aux Champignons Sauvages : Crémeux et Parfumé ✨ Un risotto ... Ingrédients (4-6 personnes) : Pour le risotto",
+                "score": 0.98034,
+                "raw_content": null
+              },
+              {
+                "url": "https://jow.fr/blog/posts/le-petit-guide-pour-reussir-son-risotto",
+                "title": "Réussir la recette du risotto aux champignons",
+                "content": "### Le risotto est souvent assimilé à un plat gastronomique que l'on commande au restaurant... Sachez que préparer un risotto n'est pas aussi compliqué que vous pouvez le penser, au contraire, c'est plutôt simple ! ### Tout d'abord, qu'est-ce qu'un risotto? C'est tout simplement la réduction d'un bouillon de riz. C'est-à-dire qu'il faut d'abord faire revenir le riz dans une matière grasse puis l'arroser généreusement de vin puis de bouillon. Une fois n'est pas commune, ce n'est pas le sud, mais le nord de l'Italie qui est mis à l'honneur ainsi que les rizières piémontaises dans lesquelles on trouve des plants de riz à perte de vue. Pour faire un bon risotto, le secret réside dans le choix du riz ! Avant de faire cuire le riz dans le bouillon, il faut tout d'abord le faire revenir cru à l’aide d’une cuillère en bois, dans un peu de matière grasse.",
+                "score": 0.97371,
+                "raw_content": null
+              },
+              {
+                "url": "https://everydayfrenchchef.com/risotto-aux-champignons-sauvage",
+                "title": "Risotto aux champignons sauvages | The Everyday French Chef",
+                "content": "The modern cook’s guide to producing fabulous French food the easy way. - Asperges à la sauce hollandaise. - Cake au roquefort et aux noix. - Champignons à la crème et au cerfeuil. - Croustillants au chèvre-romarin-miel. - Harengs pommes à l’huile. - Salade de carottes à la marocaine. - Salade de pois chiches au cumin. - Salade de tomates aux herbes. - Soupe aux betteraves à l’ukrainienne. - Soupe aux épinards crème à l’aïl. - Soupe d’agneau aux herbes. - Soupe de petits pois à la menthe. - Petits pois et haricots verts en salade. - Salade à l’ail aux croutons. - Salade d’épinards aux fraises et pignons de pin. - Salade d’été aux figues. - Salade d’hiver aux poires et aux noix. - Salade de betteraves aux noix. - Salade de haricots rouges aux noix. - Salade de pommes de terre. - Salade mesclun à l’huile de noix. - Omelette au chèvre frais et à la menthe.",
+                "score": 0.96734,
+                "raw_content": null
+              }
+            ],
+            "response_time": 1.43,
+            "request_id": "85d131a7-757a-4a66-a04d-24bd3d9ff863"
           }
         },
         {
-          "id": "toolu_01DKZbmoZhHSARUHS3NcN81e",
+          "id": "toolu_01PNH3qMQxmZZAQt1GefamLc",
           "name": "web_search-search",
           "arguments": {
-            "query": "riz Arborio champignons sauvages Parmigiano risotto ingrédients standard"
+            "query": "risotto champignons recette complète ingrédients riz arborio quantités précises"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "risotto champignons recette complète ingrédients riz arborio quantités précises",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.facebook.com/groups/1526717361551752/posts/2004565263766957",
+                "title": "Risotto aux Champignons : Un Plat Crémeux et Savoureux",
+                "content": "Ingrédients : - 300 g de riz Arborio - 300 g de champignons (champignons de Paris ou shiitake) - 1 oignon - 2 gousses d'ail - Un bouquet de",
+                "score": 0.8851659,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.instagram.com/reel/C7eC9tgIiL7",
+                "title": "Risotto champignons ❤️ Une recette que je partage avec vous ...",
+                "content": "Ingrédients : 2 oignons émincés / 2 gousse d'ail / champignons frais émincés / 400 g de riz arborio / persil / 1,5 litre d'eau / 50gvde beurre /",
+                "score": 0.8700796,
+                "raw_content": null
+              },
+              {
+                "url": "https://derrierelhorizon.home.blog/risotto-aux-champignons",
+                "title": "Risotto aux champignons - Derrière l'horizon",
+                "content": "4 tasses (1 L) bouillon de légumes · 1 oignon haché · 2 c. à table (30 ml) huile d'olive · 1 1/2 tasse (280 g) de riz arborio · 1/2 tasse de vin blanc · 1 c. à thé (",
+                "score": 0.8573986,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.facebook.com/61575981054996/videos/risotto-poulet-champignons-arborioingredients-200-g-de-riz-arborio-pour-risotto-/1421105116349666",
+                "title": "Risotto poulet champignons Arborio Ingredients: • 200 g de riz ...",
+                "content": "Risotto poulet champignons Arborio Ingredients: • 200 g de riz Arborio pour risotto ... La recette complète. Risotto poulet",
+                "score": 0.8571119,
+                "raw_content": null
+              },
+              {
+                "url": "https://lacuisinedeniya.fr/risotto-aux-champignons",
+                "title": "Risotto aux champignons - La Cuisine de Niya",
+                "content": "500 g de riz à risotto (riz arborio ils appellent ça, c'est une variété de riz rond) · 500 g de champignons frais PF (j'utilise des champignons",
+                "score": 0.81665546,
+                "raw_content": null
+              }
+            ],
+            "response_time": 2.18,
+            "request_id": "76bfcf38-6080-410c-b433-29832ee4ebb4"
           }
         }
       ],
       "output": {
-        "ingredients_list": "[{\"ingredient\": \"Riz Arborio\", \"quantity\": \"320g\"}, {\"ingredient\": \"Champignons sauvages mélangés (cèpes, girolles, chanterelles)\", \"quantity\": \"400g\"}, {\"ingredient\": \"Bouillon de légumes\", \"quantity\": \"1L\"}, {\"ingredient\": \"Vin blanc sec\", \"quantity\": \"150ml\"}, {\"ingredient\": \"Fromage Parmigiano-Reggiano\", \"quantity\": \"80g\"}, {\"ingredient\": \"Beurre\", \"quantity\": \"60g\"}, {\"ingredient\": \"Oignon blanc\", \"quantity\": \"1 petit\"}, {\"ingredient\": \"Ail\", \"quantity\": \"2 gousses\"}, {\"ingredient\": \"Huile d'olive extra vierge\", \"quantity\": \"30ml\"}, {\"ingredient\": \"Sel et poivre\", \"quantity\": \"À goût\"}]",
-        "substitutions": "{\"Riz Arborio\": \"Riz Carnaroli ou riz vialone nano (même apport d'amidon et texture crémeuse)\", \"Champignons sauvages frais\": \"Mélange de champignons de Paris + champignons séchés réhydratés (cèpes, porcini) pour l'umami\", \"Vin blanc sec\": \"Bouillon de légumes supplémentaire ou vin blanc sans alcool\", \"Parmigiano-Reggiano\": \"Grana Padano ou Pecorino Romano (saveur similaire, accessibilité équivalente)\"}",
-        "sourcing_notes": "{\"Riz Arborio\": \"Disponible dans toutes les épiceries standard, rayon riz ou pâtes.\", \"Champignons sauvages\": \"Préférer frais en saison (automne) ou surgelés; sinon champignons de Paris + champignons séchés (porcini, cèpes) réhydratés.\", \"Bouillon de légumes\": \"Utiliser du bouillon maison ou commercial en brique/cube, veiller à la qualité pour ne pas surcharger en sodium.\", \"Vin blanc sec\": \"Choisir un vin de qualité correcte (Pinot Grigio, Sauvignon Blanc) pour une meilleure saveur du plat.\", \"Parmigiano-Reggiano\": \"Râper frais au moment de la mantécatura pour maximum de saveur; le fromage pré-râpé altère la texture finale.\"}"
+        "ingredients_list": "[{\"item\":\"Riz Arborio ou Carnaroli\",\"quantity\":\"300g\"},{\"item\":\"Champignons frais (Paris, girolles, cèpes)\",\"quantity\":\"400g\"},{\"item\":\"Oignon\",\"quantity\":\"1 moyen\"},{\"item\":\"Ail\",\"quantity\":\"2 gousses\"},{\"item\":\"Bouillon de légumes chaud\",\"quantity\":\"1 litre\"},{\"item\":\"Vin blanc sec\",\"quantity\":\"150ml\"},{\"item\":\"Beurre\",\"quantity\":\"50g\"},{\"item\":\"Parmesan râpé\",\"quantity\":\"80g\"},{\"item\":\"Huile d'olive extra vierge\",\"quantity\":\"3 cuillères à soupe\"},{\"item\":\"Sel et poivre noir\",\"quantity\":\"à goût\"},{\"item\":\"Persil frais (optionnel)\",\"quantity\":\"1 bouquet\"}]",
+        "substitutions": "{\"Riz Arborio/Carnaroli\":\"Riz Vialone Nano (texture similaire et accessible)\",\"Champignons sauvages frais\":\"Mélange champignons de Paris + champignons séchés réhydratés (30g porcini séchés = saveur umami intensive)\",\"Parmesan\":\"Pecorino Romano ou Grana Padano (saveur plus ou moins prononcée selon préférence)\",\"Vin blanc sec\":\"Bouillon de légumes supplémentaire (pour version sans alcool)\",\"Beurre frais\":\"Huile d'olive supplémentaire (version végétalienne)\"}",
+        "sourcing_notes": "{\"Riz Arborio/Carnaroli\":\"Disponible en épicerie standard, riz à grains courts et amidon élevé essentiel pour la texture crémeuse.\",\"Champignons frais\":\"Champignons de Paris courants en épicerie, complétés par girolles ou cèpes si disponibles en rayon fruits/légumes.\",\"Champignons séchés\":\"Pour intensifier l'umami, les porcini séchés sont disponibles au rayon surgelés ou produits italiens (réhydratation 10 min dans eau tiède).\",\"Bouillon de légumes\":\"Utiliser bouillon maison ou cubes/tablettes commerciales (épicerie standard), laisser mijoter avec champignons séchés si utilisés.\",\"Parmesan\":\"Râpé frais ou poudre commerciale, épicerie standard.\",\"Vin blanc sec\":\"Type Pinot Grigio ou Sauvignon Blanc courant, section alcools ou vins en épicerie.\",\"Persil\":\"Frais en rayon fruits/légumes, optionnel pour finition esthétique.\"}"
       }
     },
     {
-      "offset_ms": 15419,
+      "offset_ms": 25632,
       "event": "stage_start",
       "stage": "nutritional-profile",
       "stage_index": 2,
@@ -265,107 +526,49 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 15420,
+      "offset_ms": 25633,
       "event": "stage_context",
       "stage": "nutritional-profile",
       "context_keys": {
         "input": 176,
-        "previous_stage_output": 1816
+        "previous_stage_output": 2053
       }
     },
     {
-      "offset_ms": 18073,
-      "event": "tool_call_start",
-      "tool": "studio_run-run_pipeline",
-      "params": {
-        "pipeline": "recipe-developer",
-        "input": {
-          "dish_name": "Risotto aux champignons sauvages",
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "ingredients_list": "[{\"ingredient\": \"Riz Arborio\", \"quantity\": \"320g\"}, {\"ingredient\": \"Champignons sauvages mélangés (cèpes, girolles, chanterelles)\", \"quantity\": \"400g\"}, {\"ingredient\": \"Bouillon de légumes\", \"quantity\": \"1L\"}, {\"ingredient\": \"Vin blanc sec\", \"quantity\": \"150ml\"}, {\"ingredient\": \"Fromage Parmigiano-Reggiano\", \"quantity\": \"80g\"}, {\"ingredient\": \"Beurre\", \"quantity\": \"60g\"}, {\"ingredient\": \"Oignon blanc\", \"quantity\": \"1 petit\"}, {\"ingredient\": \"Ail\", \"quantity\": \"2 gousses\"}, {\"ingredient\": \"Huile d'olive extra vierge\", \"quantity\": \"30ml\"}, {\"ingredient\": \"Sel et poivre\", \"quantity\": \"À goût\"}]",
-          "constraints": [
-            "végétarien",
-            "pour 4 personnes",
-            "ingrédients accessibles en épicerie standard"
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 105723,
-      "event": "tool_call_complete",
-      "tool": "studio_run-run_pipeline",
-      "result": {
-        "run_id": "72d8c3f7-f28d-4a7b-97c3-451fac93d47b",
-        "status": "success",
-        "output": {
-          "items": "[{\"name\": \"Riz Arborio\", \"quantity\": \"320g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Champignons sauvages mélangés (cèpes, girolles, chanterelles)\", \"quantity\": \"400g\", \"group\": \"légumes\"}, {\"name\": \"Bouillon de légumes\", \"quantity\": \"1L\", \"group\": \"épicerie sèche\"}, {\"name\": \"Vin blanc sec\", \"quantity\": \"150ml\", \"group\": \"autres\"}, {\"name\": \"Parmigiano-Reggiano\", \"quantity\": \"80g\", \"group\": \"produits frais\"}, {\"name\": \"Beurre\", \"quantity\": \"60g\", \"group\": \"produits frais\"}, {\"name\": \"Oignon blanc\", \"quantity\": \"80g\", \"group\": \"légumes\"}, {\"name\": \"Ail\", \"quantity\": \"2 gousses\", \"group\": \"légumes\"}, {\"name\": \"Huile d'olive extra vierge\", \"quantity\": \"30ml\", \"group\": \"condiments\"}, {\"name\": \"Sel\", \"quantity\": \"À goût\", \"group\": \"condiments\"}, {\"name\": \"Poivre noir\", \"quantity\": \"À goût\", \"group\": \"condiments\"}]",
-          "sections": "{\"légumes\": [{\"name\": \"Champignons sauvages mélangés (cèpes, girolles, chanterelles)\", \"quantity\": \"400g\"}, {\"name\": \"Oignon blanc\", \"quantity\": \"80g\"}, {\"name\": \"Ail\", \"quantity\": \"2 gousses\"}], \"produits frais\": [{\"name\": \"Parmigiano-Reggiano\", \"quantity\": \"80g\"}, {\"name\": \"Beurre\", \"quantity\": \"60g\"}], \"épicerie sèche\": [{\"name\": \"Riz Arborio\", \"quantity\": \"320g\"}, {\"name\": \"Bouillon de légumes\", \"quantity\": \"1L\"}], \"condiments\": [{\"name\": \"Huile d'olive extra vierge\", \"quantity\": \"30ml\"}, {\"name\": \"Sel\", \"quantity\": \"À goût\"}, {\"name\": \"Poivre noir\", \"quantity\": \"À goût\"}], \"autres\": [{\"name\": \"Vin blanc sec\", \"quantity\": \"150ml\"}]}"
-        }
-      },
-      "duration_ms": 87650
-    },
-    {
-      "offset_ms": 107867,
+      "offset_ms": 44051,
       "event": "stage_complete",
       "stage": "nutritional-profile",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 92448,
+      "duration_ms": 18419,
       "tokens": {
-        "prompt": 8032,
-        "completion": 621,
-        "total": 8653
+        "prompt": 7483,
+        "completion": 2257,
+        "total": 9740
       },
-      "tool_calls": [
-        {
-          "id": "toolu_012Wvdeif52GBQaMmbagZCkA",
-          "name": "studio_run-run_pipeline",
-          "arguments": {
-            "pipeline": "recipe-developer",
-            "input": {
-              "dish_name": "Risotto aux champignons sauvages",
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "ingredients_list": "[{\"ingredient\": \"Riz Arborio\", \"quantity\": \"320g\"}, {\"ingredient\": \"Champignons sauvages mélangés (cèpes, girolles, chanterelles)\", \"quantity\": \"400g\"}, {\"ingredient\": \"Bouillon de légumes\", \"quantity\": \"1L\"}, {\"ingredient\": \"Vin blanc sec\", \"quantity\": \"150ml\"}, {\"ingredient\": \"Fromage Parmigiano-Reggiano\", \"quantity\": \"80g\"}, {\"ingredient\": \"Beurre\", \"quantity\": \"60g\"}, {\"ingredient\": \"Oignon blanc\", \"quantity\": \"1 petit\"}, {\"ingredient\": \"Ail\", \"quantity\": \"2 gousses\"}, {\"ingredient\": \"Huile d'olive extra vierge\", \"quantity\": \"30ml\"}, {\"ingredient\": \"Sel et poivre\", \"quantity\": \"À goût\"}]",
-              "constraints": [
-                "végétarien",
-                "pour 4 personnes",
-                "ingrédients accessibles en épicerie standard"
-              ]
-            }
-          },
-          "result": {
-            "run_id": "72d8c3f7-f28d-4a7b-97c3-451fac93d47b",
-            "status": "success",
-            "output": {
-              "items": "[{\"name\": \"Riz Arborio\", \"quantity\": \"320g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Champignons sauvages mélangés (cèpes, girolles, chanterelles)\", \"quantity\": \"400g\", \"group\": \"légumes\"}, {\"name\": \"Bouillon de légumes\", \"quantity\": \"1L\", \"group\": \"épicerie sèche\"}, {\"name\": \"Vin blanc sec\", \"quantity\": \"150ml\", \"group\": \"autres\"}, {\"name\": \"Parmigiano-Reggiano\", \"quantity\": \"80g\", \"group\": \"produits frais\"}, {\"name\": \"Beurre\", \"quantity\": \"60g\", \"group\": \"produits frais\"}, {\"name\": \"Oignon blanc\", \"quantity\": \"80g\", \"group\": \"légumes\"}, {\"name\": \"Ail\", \"quantity\": \"2 gousses\", \"group\": \"légumes\"}, {\"name\": \"Huile d'olive extra vierge\", \"quantity\": \"30ml\", \"group\": \"condiments\"}, {\"name\": \"Sel\", \"quantity\": \"À goût\", \"group\": \"condiments\"}, {\"name\": \"Poivre noir\", \"quantity\": \"À goût\", \"group\": \"condiments\"}]",
-              "sections": "{\"légumes\": [{\"name\": \"Champignons sauvages mélangés (cèpes, girolles, chanterelles)\", \"quantity\": \"400g\"}, {\"name\": \"Oignon blanc\", \"quantity\": \"80g\"}, {\"name\": \"Ail\", \"quantity\": \"2 gousses\"}], \"produits frais\": [{\"name\": \"Parmigiano-Reggiano\", \"quantity\": \"80g\"}, {\"name\": \"Beurre\", \"quantity\": \"60g\"}], \"épicerie sèche\": [{\"name\": \"Riz Arborio\", \"quantity\": \"320g\"}, {\"name\": \"Bouillon de légumes\", \"quantity\": \"1L\"}], \"condiments\": [{\"name\": \"Huile d'olive extra vierge\", \"quantity\": \"30ml\"}, {\"name\": \"Sel\", \"quantity\": \"À goût\"}, {\"name\": \"Poivre noir\", \"quantity\": \"À goût\"}], \"autres\": [{\"name\": \"Vin blanc sec\", \"quantity\": \"150ml\"}]}"
-            }
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "macros": "protéines: 12g, glucides: 58g, lipides: 18g",
-        "allergens": "gluten (riz Arborio peut contenir des traces), produits laitiers (Parmigiano-Reggiano, beurre)",
+        "macros": "protéines: 12g, glucides: 52g, lipides: 18g",
+        "allergens": "gluten (bouillon), lactose (beurre, parmesan)",
         "dietary_flags": "végétarien, sans œuf",
-        "adjustment_recommendations": "Ajouter un filet de jus de citron frais en fin de cuisson pour équilibrer la richesse du beurre et du fromage. Augmenter les champignons sauvages de 100g pour plus de profondeur umami et de fibres."
+        "adjustment_recommendations": "Pour réduire les lipides: remplacer 25g beurre par huile d'olive. Pour améliorer apport protéique: ajouter 100g tofu soyeux ou légumineuses (lentilles corail)."
       }
     },
     {
-      "offset_ms": 107867,
+      "offset_ms": 44051,
       "event": "group_start",
       "group": "recipe-refinement",
       "max_iterations": 3
     },
     {
-      "offset_ms": 107867,
+      "offset_ms": 44052,
       "event": "group_iteration",
       "group": "recipe-refinement",
       "iteration": 1,
       "max_iterations": 3
     },
     {
-      "offset_ms": 107868,
+      "offset_ms": 44052,
       "event": "stage_start",
       "stage": "recipe-drafting",
       "stage_index": 3,
@@ -373,16 +576,16 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 107868,
+      "offset_ms": 44053,
       "event": "stage_context",
       "stage": "recipe-drafting",
       "context_keys": {
         "input": 176,
-        "previous_stage_output": 3422
+        "previous_stage_output": 3999
       }
     },
     {
-      "offset_ms": 123500,
+      "offset_ms": 59058,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
@@ -390,433 +593,366 @@
           "userId": "cmmrunf9l0000cpijlrn58jpw",
           "title": "Risotto aux champignons sauvages",
           "cuisine": "Italienne",
-          "timeMinutes": 35,
+          "timeMinutes": 40,
           "portions": 4,
-          "emoji": "🍚",
-          "calories": 420,
+          "emoji": "🍄",
+          "calories": 450,
           "ingredients": [
             {
-              "name": "Riz Arborio",
-              "quantity": "320g"
+              "name": "Riz Arborio ou Carnaroli",
+              "quantity": "300g"
             },
             {
-              "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-              "quantity": "400g",
-              "group": "Champignons"
+              "name": "Champignons frais (Paris, girolles, cèpes)",
+              "quantity": "400g"
             },
             {
-              "name": "Bouillon de légumes",
-              "quantity": "1L",
-              "group": "Base"
-            },
-            {
-              "name": "Vin blanc sec",
-              "quantity": "150ml",
-              "group": "Base"
-            },
-            {
-              "name": "Fromage Parmigiano-Reggiano",
-              "quantity": "80g",
-              "group": "Finition"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "60g",
-              "group": "Finition"
-            },
-            {
-              "name": "Oignon blanc",
-              "quantity": "1 petit",
-              "group": "Aromats"
+              "name": "Oignon moyen",
+              "quantity": "1"
             },
             {
               "name": "Ail",
-              "quantity": "2 gousses",
-              "group": "Aromats"
+              "quantity": "2 gousses"
+            },
+            {
+              "name": "Bouillon de légumes chaud",
+              "quantity": "1 litre"
+            },
+            {
+              "name": "Vin blanc sec",
+              "quantity": "150ml"
+            },
+            {
+              "name": "Beurre",
+              "quantity": "50g"
+            },
+            {
+              "name": "Parmesan râpé",
+              "quantity": "80g"
             },
             {
               "name": "Huile d'olive extra vierge",
-              "quantity": "30ml",
-              "group": "Base"
+              "quantity": "3 cuillères à soupe"
             },
             {
-              "name": "Sel et poivre",
-              "quantity": "À goût",
-              "group": "Assaisonnement"
+              "name": "Sel et poivre noir",
+              "quantity": "à goût"
             },
             {
-              "name": "Jus de citron frais",
-              "quantity": "½ citron",
-              "optional": true,
-              "group": "Finition"
+              "name": "Persil frais",
+              "quantity": "1 bouquet",
+              "optional": true
             }
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Préparation du bouillon",
-              "instructions": [
-                "Verser le bouillon de légumes dans une casserole et le maintenir à frémissement doux pendant toute la cuisson"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 2,
               "title": "Préparation des champignons",
               "instructions": [
-                "Nettoyer délicatement les champignons sauvages avec un chiffon humide",
-                "Émincer les champignons en lamelles épaisses",
-                "Réserver les plus beaux morceaux pour la décoration"
+                "Nettoyer les champignons avec un chiffon humide ou une brosse douce",
+                "Émincer les champignons en lamelles régulières",
+                "Hacher finement l'oignon et les gousses d'ail"
               ],
               "durationMinutes": 5
             },
             {
-              "order": 3,
+              "order": 2,
               "title": "Cuisson des champignons",
               "instructions": [
-                "Chauffer 15ml d'huile d'olive dans une poêle à feu vif",
-                "Sauté les champignons par portions pour bien les colorer (environ 3-4 minutes par lot)",
-                "Assaisonner de sel et poivre, réserver sur un plat"
+                "Chauffer 1,5 cuillère à soupe d'huile d'olive dans une grande poêle à feu moyen-vif",
+                "Faire sauter les champignons 4-5 minutes jusqu'à coloration légère",
+                "Ajouter l'ail haché, cuire 1 minute supplémentaire",
+                "Saler et poivrer, réserver dans un bol"
               ],
-              "durationMinutes": 8
+              "durationMinutes": 6
+            },
+            {
+              "order": 3,
+              "title": "Toastage du riz",
+              "instructions": [
+                "Chauffer les 1,5 cuillères à soupe d'huile d'olive restante dans la même poêle",
+                "Ajouter l'oignon haché, cuire 2 minutes jusqu'à translucidité",
+                "Verser le riz, mélanger constamment 2 minutes pour que chaque grain soit bien enrobé",
+                "Le riz doit légèrement se colorer et sentir la noisette"
+              ],
+              "durationMinutes": 4
             },
             {
               "order": 4,
-              "title": "Fondage des aromats",
+              "title": "Incorporation du vin blanc",
               "instructions": [
-                "Dans une grande casserole, chauffer l'huile d'olive restante à feu moyen",
-                "Ajouter l'oignon blanc finement haché et faire suer 2 minutes sans colorer",
-                "Ajouter l'ail haché finement et cuire 1 minute supplémentaire"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 5,
-              "title": "Toastage du riz",
-              "instructions": [
-                "Verser le riz Arborio dans la casserole avec les aromats",
-                "Remuer constamment pour bien enrober les grains d'huile (2 minutes)",
-                "Les grains doivent devenir translucides aux extrémités"
+                "Verser le vin blanc sec sur le riz toasté",
+                "Remuer constamment jusqu'à complète absorption (environ 2 minutes)",
+                "Le riz doit être sec avant d'ajouter le bouillon"
               ],
               "durationMinutes": 2
             },
             {
-              "order": 6,
-              "title": "Déglaçage au vin",
-              "instructions": [
-                "Verser le vin blanc sec et remuer jusqu'à absorption complète (2-3 minutes)",
-                "Le riz doit perdre l'acidité du vin"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 7,
+              "order": 5,
               "title": "Cuisson progressive du risotto",
               "instructions": [
-                "Ajouter le bouillon chaud louche par louche (environ 150ml à la fois)",
-                "Attendre l'absorption complète avant d'ajouter la louche suivante",
-                "Remuer régulièrement avec un bois pour favoriser la libération d'amidon et la crémosité",
-                "Cuire 16-18 minutes jusqu'à obtenir un riz crémeux mais légèrement al dente au centre"
+                "Verser le bouillon de légumes chaud progressivement, une louche à la fois",
+                "Après chaque addition, remuer constamment sans augmenter la chaleur (technique du « stand and stir »)",
+                "Attendre que le riz absorbe le liquide avant d'ajouter la louche suivante",
+                "Continuer pendant environ 16-18 minutes jusqu'à ce que le riz soit al dente et crémeuse"
               ],
               "durationMinutes": 18
             },
             {
-              "order": 8,
-              "title": "Intégration des champignons",
+              "order": 6,
+              "title": "Intégration des champignons et finition",
               "instructions": [
-                "À mi-cuisson (après 9 minutes), incorporer les champignons sautés et leur jus",
-                "Poursuivre la cuisson en ajoutant le bouillon progressivement"
+                "Ajouter les champignons réservés avec leur jus au riz cuit",
+                "Retirer du feu et incorporer le beurre froid en morceaux",
+                "Ajouter le parmesan râpé immédiatement",
+                "Mélanger énergiquement pendant 30 secondes (« mantecatura ») pour créer une texture onctueuse et crémeuse",
+                "Goûter et ajuster l'assaisonnement avec sel et poivre"
+              ],
+              "durationMinutes": 2
+            },
+            {
+              "order": 7,
+              "title": "Service",
+              "instructions": [
+                "Servir immédiatement dans des assiettes chaudes",
+                "Garnir avec persil frais haché si désiré",
+                "Accompagner éventuellement de parmesan supplémentaire"
               ],
               "durationMinutes": 0
-            },
-            {
-              "order": 9,
-              "title": "Mantécatura (finition crémeuse)",
-              "instructions": [
-                "Retirer la casserole du feu",
-                "Ajouter le beurre froid coupé en morceaux",
-                "Ajouter le Parmigiano-Reggiano râpé frais",
-                "Remuer vigoureusement avec une cuillère en bois pendant 1 minute pour créer une émulsion crémeuse",
-                "Ajouter un trait de jus de citron frais si désiré pour équilibrer la richesse"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 10,
-              "title": "Dressage et service",
-              "instructions": [
-                "Verser le risotto dans des assiettes creuses chaudes",
-                "Décorer avec les champignons réservés et un trait d'huile d'olive extra vierge",
-                "Ajouter quelques éclats de Parmigiano-Reggiano frais",
-                "Servir immédiatement pendant que le risotto est crémeux et chaud"
-              ],
-              "durationMinutes": 2
             }
           ],
           "notes": {
             "chef": [
-              "La clé du succès du risotto réside dans la patience et l'ajout graduel du bouillon chaud",
-              "Ne pas laisser le riz colorer excessivement lors du toastage",
-              "Le riz doit être crémeux mais conservér une légère fermeté au cœur (al dente)",
-              "La mantécatura est cruciale pour obtenir la texture crémeuse caractéristique",
-              "Utiliser du Parmigiano-Reggiano frais râpé au moment du service pour la meilleure saveur"
+              "La technique du « stand and stir » est cruciale : ne pas augmenter la chaleur et remuer constamment pour activer l'amidon du riz et créer la crémosité naturelle",
+              "Le bouillon doit rester chaud pendant toute la cuisson pour permettre une absorption graduelle et une cuisson uniforme",
+              "Ne pas dépasser al dente du riz : grains tendres mais fermes au centre, jamais mous",
+              "L'incorporation finale du beurre et du parmesan (« mantecatura ») est essentielle pour obtenir la texture crémeuse caractéristique",
+              "Servir immédiatement : le risotto ne doit pas reposer, il perdrait sa texture onctueuse"
             ],
             "variations": [
-              "Risotto aux champignons et truffes : ajouter 5g de truffe noire râpée en finition",
-              "Risotto veggie plus léger : remplacer 200g des champignons par des asperges coupées en tronçons et des petits pois",
-              "Risotto à la crème : remplacer 30ml du bouillon par 50ml de crème fraîche épaisse en finition",
-              "Risotto aux champignons et brocoli : ajouter 200g de brocoli en fleurons blanchis avant la mantécatura"
+              "Champignons séchés : réhydrater 30g de porcini séchés dans 200ml d'eau tiède, utiliser l'eau de réhydratation dans le bouillon pour intensifier l'umami",
+              "Version sans beurre : remplacer les 50g de beurre par 1,5 cuillère à soupe d'huile d'olive supplémentaire (version végétalienne)",
+              "Risotto enrichi en protéines : ajouter 100g de tofu soyeux ou 80g de lentilles corail cuites",
+              "Version sans alcool : remplacer le vin blanc par 150ml de bouillon de légumes supplémentaire",
+              "Garnitures optionnelles : truffe râpée, noisettes torréfiées, roquette fraîche ou poignée d'épinards juste avant de servir"
             ],
-            "conservation": "Conserver au réfrigérateur dans un récipient hermétique pendant 2 jours maximum. Réchauffer doucement avec un peu de bouillon chaud. Le risotto ne se congèle pas bien.",
-            "nutrition": "Riche en glucides complexes (riz), apport protéique du fromage et du beurre. Les champignons sauvages apportent des minéraux et de l'umami. Végétarien et sans œuf. Peut contenir des traces de gluten selon le traitement du riz."
+            "conservation": "Le risotto se consomme frais et immédiatement après la cuisson. Les restes peuvent être réfrigérés jusqu'à 24h et réchauffés avec un peu de bouillon chaud, mais ne retrouveront pas la texture crémeuse initiale.",
+            "nutrition": "Par portion (1 assiette/4 portions totales) : ~450 calories, 12g protéines, 52g glucides, 18g lipides. Végétarien et sans œuf. Contient gluten (bouillon) et lactose (beurre, parmesan). Réduction des lipides possible en remplaçant 25g beurre par huile d'olive."
           }
         }
       }
     },
     {
-      "offset_ms": 124526,
+      "offset_ms": 60255,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpfr302600008iijn7ceytoo",
+        "id": "cmpfrocea0000pmijssy2dal6",
         "title": "Risotto aux champignons sauvages"
       },
-      "duration_ms": 1026
+      "duration_ms": 1197
     },
     {
-      "offset_ms": 135986,
+      "offset_ms": 69283,
       "event": "stage_complete",
       "stage": "recipe-drafting",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 28118,
+      "duration_ms": 25231,
       "tokens": {
-        "prompt": 5761,
-        "completion": 3707,
-        "total": 9468
+        "prompt": 6109,
+        "completion": 3177,
+        "total": 9286
       },
       "tool_calls": [
         {
-          "id": "toolu_01DWe9PcSpzXh66SAFJn5r3n",
+          "id": "toolu_01XnbcFSh9rvTuqWgDJih2Uz",
           "name": "db-upsert_recipe",
           "arguments": {
             "data": {
               "userId": "cmmrunf9l0000cpijlrn58jpw",
               "title": "Risotto aux champignons sauvages",
               "cuisine": "Italienne",
-              "timeMinutes": 35,
+              "timeMinutes": 40,
               "portions": 4,
-              "emoji": "🍚",
-              "calories": 420,
+              "emoji": "🍄",
+              "calories": 450,
               "ingredients": [
                 {
-                  "name": "Riz Arborio",
-                  "quantity": "320g"
+                  "name": "Riz Arborio ou Carnaroli",
+                  "quantity": "300g"
                 },
                 {
-                  "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-                  "quantity": "400g",
-                  "group": "Champignons"
+                  "name": "Champignons frais (Paris, girolles, cèpes)",
+                  "quantity": "400g"
                 },
                 {
-                  "name": "Bouillon de légumes",
-                  "quantity": "1L",
-                  "group": "Base"
-                },
-                {
-                  "name": "Vin blanc sec",
-                  "quantity": "150ml",
-                  "group": "Base"
-                },
-                {
-                  "name": "Fromage Parmigiano-Reggiano",
-                  "quantity": "80g",
-                  "group": "Finition"
-                },
-                {
-                  "name": "Beurre",
-                  "quantity": "60g",
-                  "group": "Finition"
-                },
-                {
-                  "name": "Oignon blanc",
-                  "quantity": "1 petit",
-                  "group": "Aromats"
+                  "name": "Oignon moyen",
+                  "quantity": "1"
                 },
                 {
                   "name": "Ail",
-                  "quantity": "2 gousses",
-                  "group": "Aromats"
+                  "quantity": "2 gousses"
+                },
+                {
+                  "name": "Bouillon de légumes chaud",
+                  "quantity": "1 litre"
+                },
+                {
+                  "name": "Vin blanc sec",
+                  "quantity": "150ml"
+                },
+                {
+                  "name": "Beurre",
+                  "quantity": "50g"
+                },
+                {
+                  "name": "Parmesan râpé",
+                  "quantity": "80g"
                 },
                 {
                   "name": "Huile d'olive extra vierge",
-                  "quantity": "30ml",
-                  "group": "Base"
+                  "quantity": "3 cuillères à soupe"
                 },
                 {
-                  "name": "Sel et poivre",
-                  "quantity": "À goût",
-                  "group": "Assaisonnement"
+                  "name": "Sel et poivre noir",
+                  "quantity": "à goût"
                 },
                 {
-                  "name": "Jus de citron frais",
-                  "quantity": "½ citron",
-                  "optional": true,
-                  "group": "Finition"
+                  "name": "Persil frais",
+                  "quantity": "1 bouquet",
+                  "optional": true
                 }
               ],
               "steps": [
                 {
                   "order": 1,
-                  "title": "Préparation du bouillon",
-                  "instructions": [
-                    "Verser le bouillon de légumes dans une casserole et le maintenir à frémissement doux pendant toute la cuisson"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 2,
                   "title": "Préparation des champignons",
                   "instructions": [
-                    "Nettoyer délicatement les champignons sauvages avec un chiffon humide",
-                    "Émincer les champignons en lamelles épaisses",
-                    "Réserver les plus beaux morceaux pour la décoration"
+                    "Nettoyer les champignons avec un chiffon humide ou une brosse douce",
+                    "Émincer les champignons en lamelles régulières",
+                    "Hacher finement l'oignon et les gousses d'ail"
                   ],
                   "durationMinutes": 5
                 },
                 {
-                  "order": 3,
+                  "order": 2,
                   "title": "Cuisson des champignons",
                   "instructions": [
-                    "Chauffer 15ml d'huile d'olive dans une poêle à feu vif",
-                    "Sauté les champignons par portions pour bien les colorer (environ 3-4 minutes par lot)",
-                    "Assaisonner de sel et poivre, réserver sur un plat"
+                    "Chauffer 1,5 cuillère à soupe d'huile d'olive dans une grande poêle à feu moyen-vif",
+                    "Faire sauter les champignons 4-5 minutes jusqu'à coloration légère",
+                    "Ajouter l'ail haché, cuire 1 minute supplémentaire",
+                    "Saler et poivrer, réserver dans un bol"
                   ],
-                  "durationMinutes": 8
+                  "durationMinutes": 6
+                },
+                {
+                  "order": 3,
+                  "title": "Toastage du riz",
+                  "instructions": [
+                    "Chauffer les 1,5 cuillères à soupe d'huile d'olive restante dans la même poêle",
+                    "Ajouter l'oignon haché, cuire 2 minutes jusqu'à translucidité",
+                    "Verser le riz, mélanger constamment 2 minutes pour que chaque grain soit bien enrobé",
+                    "Le riz doit légèrement se colorer et sentir la noisette"
+                  ],
+                  "durationMinutes": 4
                 },
                 {
                   "order": 4,
-                  "title": "Fondage des aromats",
+                  "title": "Incorporation du vin blanc",
                   "instructions": [
-                    "Dans une grande casserole, chauffer l'huile d'olive restante à feu moyen",
-                    "Ajouter l'oignon blanc finement haché et faire suer 2 minutes sans colorer",
-                    "Ajouter l'ail haché finement et cuire 1 minute supplémentaire"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 5,
-                  "title": "Toastage du riz",
-                  "instructions": [
-                    "Verser le riz Arborio dans la casserole avec les aromats",
-                    "Remuer constamment pour bien enrober les grains d'huile (2 minutes)",
-                    "Les grains doivent devenir translucides aux extrémités"
+                    "Verser le vin blanc sec sur le riz toasté",
+                    "Remuer constamment jusqu'à complète absorption (environ 2 minutes)",
+                    "Le riz doit être sec avant d'ajouter le bouillon"
                   ],
                   "durationMinutes": 2
                 },
                 {
-                  "order": 6,
-                  "title": "Déglaçage au vin",
-                  "instructions": [
-                    "Verser le vin blanc sec et remuer jusqu'à absorption complète (2-3 minutes)",
-                    "Le riz doit perdre l'acidité du vin"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 7,
+                  "order": 5,
                   "title": "Cuisson progressive du risotto",
                   "instructions": [
-                    "Ajouter le bouillon chaud louche par louche (environ 150ml à la fois)",
-                    "Attendre l'absorption complète avant d'ajouter la louche suivante",
-                    "Remuer régulièrement avec un bois pour favoriser la libération d'amidon et la crémosité",
-                    "Cuire 16-18 minutes jusqu'à obtenir un riz crémeux mais légèrement al dente au centre"
+                    "Verser le bouillon de légumes chaud progressivement, une louche à la fois",
+                    "Après chaque addition, remuer constamment sans augmenter la chaleur (technique du « stand and stir »)",
+                    "Attendre que le riz absorbe le liquide avant d'ajouter la louche suivante",
+                    "Continuer pendant environ 16-18 minutes jusqu'à ce que le riz soit al dente et crémeuse"
                   ],
                   "durationMinutes": 18
                 },
                 {
-                  "order": 8,
-                  "title": "Intégration des champignons",
+                  "order": 6,
+                  "title": "Intégration des champignons et finition",
                   "instructions": [
-                    "À mi-cuisson (après 9 minutes), incorporer les champignons sautés et leur jus",
-                    "Poursuivre la cuisson en ajoutant le bouillon progressivement"
+                    "Ajouter les champignons réservés avec leur jus au riz cuit",
+                    "Retirer du feu et incorporer le beurre froid en morceaux",
+                    "Ajouter le parmesan râpé immédiatement",
+                    "Mélanger énergiquement pendant 30 secondes (« mantecatura ») pour créer une texture onctueuse et crémeuse",
+                    "Goûter et ajuster l'assaisonnement avec sel et poivre"
+                  ],
+                  "durationMinutes": 2
+                },
+                {
+                  "order": 7,
+                  "title": "Service",
+                  "instructions": [
+                    "Servir immédiatement dans des assiettes chaudes",
+                    "Garnir avec persil frais haché si désiré",
+                    "Accompagner éventuellement de parmesan supplémentaire"
                   ],
                   "durationMinutes": 0
-                },
-                {
-                  "order": 9,
-                  "title": "Mantécatura (finition crémeuse)",
-                  "instructions": [
-                    "Retirer la casserole du feu",
-                    "Ajouter le beurre froid coupé en morceaux",
-                    "Ajouter le Parmigiano-Reggiano râpé frais",
-                    "Remuer vigoureusement avec une cuillère en bois pendant 1 minute pour créer une émulsion crémeuse",
-                    "Ajouter un trait de jus de citron frais si désiré pour équilibrer la richesse"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 10,
-                  "title": "Dressage et service",
-                  "instructions": [
-                    "Verser le risotto dans des assiettes creuses chaudes",
-                    "Décorer avec les champignons réservés et un trait d'huile d'olive extra vierge",
-                    "Ajouter quelques éclats de Parmigiano-Reggiano frais",
-                    "Servir immédiatement pendant que le risotto est crémeux et chaud"
-                  ],
-                  "durationMinutes": 2
                 }
               ],
               "notes": {
                 "chef": [
-                  "La clé du succès du risotto réside dans la patience et l'ajout graduel du bouillon chaud",
-                  "Ne pas laisser le riz colorer excessivement lors du toastage",
-                  "Le riz doit être crémeux mais conservér une légère fermeté au cœur (al dente)",
-                  "La mantécatura est cruciale pour obtenir la texture crémeuse caractéristique",
-                  "Utiliser du Parmigiano-Reggiano frais râpé au moment du service pour la meilleure saveur"
+                  "La technique du « stand and stir » est cruciale : ne pas augmenter la chaleur et remuer constamment pour activer l'amidon du riz et créer la crémosité naturelle",
+                  "Le bouillon doit rester chaud pendant toute la cuisson pour permettre une absorption graduelle et une cuisson uniforme",
+                  "Ne pas dépasser al dente du riz : grains tendres mais fermes au centre, jamais mous",
+                  "L'incorporation finale du beurre et du parmesan (« mantecatura ») est essentielle pour obtenir la texture crémeuse caractéristique",
+                  "Servir immédiatement : le risotto ne doit pas reposer, il perdrait sa texture onctueuse"
                 ],
                 "variations": [
-                  "Risotto aux champignons et truffes : ajouter 5g de truffe noire râpée en finition",
-                  "Risotto veggie plus léger : remplacer 200g des champignons par des asperges coupées en tronçons et des petits pois",
-                  "Risotto à la crème : remplacer 30ml du bouillon par 50ml de crème fraîche épaisse en finition",
-                  "Risotto aux champignons et brocoli : ajouter 200g de brocoli en fleurons blanchis avant la mantécatura"
+                  "Champignons séchés : réhydrater 30g de porcini séchés dans 200ml d'eau tiède, utiliser l'eau de réhydratation dans le bouillon pour intensifier l'umami",
+                  "Version sans beurre : remplacer les 50g de beurre par 1,5 cuillère à soupe d'huile d'olive supplémentaire (version végétalienne)",
+                  "Risotto enrichi en protéines : ajouter 100g de tofu soyeux ou 80g de lentilles corail cuites",
+                  "Version sans alcool : remplacer le vin blanc par 150ml de bouillon de légumes supplémentaire",
+                  "Garnitures optionnelles : truffe râpée, noisettes torréfiées, roquette fraîche ou poignée d'épinards juste avant de servir"
                 ],
-                "conservation": "Conserver au réfrigérateur dans un récipient hermétique pendant 2 jours maximum. Réchauffer doucement avec un peu de bouillon chaud. Le risotto ne se congèle pas bien.",
-                "nutrition": "Riche en glucides complexes (riz), apport protéique du fromage et du beurre. Les champignons sauvages apportent des minéraux et de l'umami. Végétarien et sans œuf. Peut contenir des traces de gluten selon le traitement du riz."
+                "conservation": "Le risotto se consomme frais et immédiatement après la cuisson. Les restes peuvent être réfrigérés jusqu'à 24h et réchauffés avec un peu de bouillon chaud, mais ne retrouveront pas la texture crémeuse initiale.",
+                "nutrition": "Par portion (1 assiette/4 portions totales) : ~450 calories, 12g protéines, 52g glucides, 18g lipides. Végétarien et sans œuf. Contient gluten (bouillon) et lactose (beurre, parmesan). Réduction des lipides possible en remplaçant 25g beurre par huile d'olive."
               }
             }
           },
           "result": {
             "success": true,
-            "id": "cmpfr302600008iijn7ceytoo",
+            "id": "cmpfrocea0000pmijssy2dal6",
             "title": "Risotto aux champignons sauvages"
           }
         }
       ],
       "output": {
         "title": "Risotto aux champignons sauvages",
-        "cuisine": "Italienne (Lombarde)",
+        "cuisine": "Italienne",
         "timeMinutes": "35",
         "portions": "4",
         "emoji": "🍄",
-        "ingredients": "[{\"name\": \"Riz Arborio\", \"quantity\": \"320g\"}, {\"name\": \"Champignons sauvages mélangés (cèpes, girolles, chanterelles)\", \"quantity\": \"400g\"}, {\"name\": \"Bouillon de légumes\", \"quantity\": \"1L\"}, {\"name\": \"Vin blanc sec\", \"quantity\": \"150ml\"}, {\"name\": \"Fromage Parmigiano-Reggiano\", \"quantity\": \"80g\"}, {\"name\": \"Beurre\", \"quantity\": \"60g\"}, {\"name\": \"Oignon blanc\", \"quantity\": \"1 petit\"}, {\"name\": \"Ail\", \"quantity\": \"2 gousses\"}, {\"name\": \"Huile d'olive extra vierge\", \"quantity\": \"30ml\"}, {\"name\": \"Sel et poivre\", \"quantity\": \"À goût\"}]",
+        "ingredients": "[{\"name\":\"Riz Arborio ou Carnaroli\",\"quantity\":\"300g\"},{\"name\":\"Champignons frais (Paris, girolles, cèpes)\",\"quantity\":\"400g\"},{\"name\":\"Oignon moyen\",\"quantity\":\"1\"},{\"name\":\"Ail\",\"quantity\":\"2 gousses\"},{\"name\":\"Bouillon de légumes chaud\",\"quantity\":\"1 litre\"},{\"name\":\"Vin blanc sec\",\"quantity\":\"150ml\"},{\"name\":\"Beurre\",\"quantity\":\"50g\"},{\"name\":\"Parmesan râpé\",\"quantity\":\"80g\"},{\"name\":\"Huile d'olive extra vierge\",\"quantity\":\"3 cuillères à soupe\"},{\"name\":\"Sel et poivre noir\",\"quantity\":\"à goût\"},{\"name\":\"Persil frais\",\"quantity\":\"1 bouquet\",\"optional\":true}]",
         "steps": [
-          "Nettoyage et préparation des champignons: brosser délicatement les champignons sauvages pour éliminer les impuretés, puis les émincer finement",
-          "Sauté des champignons: chauffer l'huile d'olive dans une poêle, ajouter les champignons émincés et les cuire à feu vif pendant 5-6 minutes jusqu'à évaporation complète de l'humidité, saler et poivrer",
-          "Préparation du bouillon: porter le bouillon de légumes à frémissement dans une casserole et le maintenir chaud tout au long de la cuisson",
-          "Toastage du riz: dans un faitout, faire fondre 15g de beurre avec le mirepoix (oignon et ail hachés), ajouter le riz Arborio et le toaster pendant 1-2 minutes en remuant pour enrober chaque grain",
-          "Déglaçage: verser le vin blanc sec sur le riz et remuer jusqu'à complète évaporation",
-          "Cuisson progressive du risotto: ajouter progressivement le bouillon chaud à raison d'une louche à la fois, en remuant constamment et en attendant que chaque louche soit absorbée avant d'en ajouter une nouvelle (environ 18-20 minutes)",
-          "Incorporation des champignons: ajouter les champignons sautés au risotto 5 minutes avant la fin de la cuisson",
-          "Mantécatura (émulsion finale): retirer du feu, ajouter le beurre restant (45g) et le Parmigiano-Reggiano râpé frais, remuer vigoureusement pour créer une texture crémeuse et onctueuse",
-          "Finition et service: ajuster l'assaisonnement en sel et poivre, ajouter un filet de jus de citron frais si désiré, dresser immédiatement en portions généreuses et servir chaud"
+          "Préparer les champignons : nettoyer et couper en lamelles fines. Hacher finement l'oignon et l'ail.",
+          "Sauté des champignons : faire revenir dans une poêle avec 1 cuillère à soupe d'huile d'olive pendant 4-5 minutes à feu moyen-vif. Saler et poivrer. Réserver.",
+          "Toastage du riz : dans une cocotte ou poêle large, faire chauffer 2 cuillères à soupe d'huile d'olive. Ajouter l'oignon et l'ail, faire revenir 2 minutes jusqu'à translucidité.",
+          "Toaster le riz : ajouter le riz, remuer constamment pendant 2 minutes pour bien l'enrober d'huile sans le casser.",
+          "Déglaçage : verser le vin blanc sec et remuer jusqu'à absorption complète (environ 2 minutes).",
+          "Incorporation progressive du bouillon : ajouter le bouillon chaud une louche à la fois (environ 250ml), en remuant constamment. Attendre que chaque ajout soit absorbé avant d'ajouter la louche suivante (environ 20-22 minutes au total).",
+          "Test de cuisson : le riz doit être al dente avec une texture crémeuse (légèrement liquide). Si nécessaire, ajouter un peu de bouillon supplémentaire.",
+          "Finition manteau (mantecatura) : retirer du feu, ajouter le beurre et le parmesan râpé. Remuer vigoureusement pendant 30 secondes pour créer l'onctuosité caractéristique.",
+          "Intégration des champignons : ajouter délicatement les champignons réservés et mélanger.",
+          "Dressage : servir immédiatement dans des assiettes creuses chaudes. Garnir avec persil frais et parmesan supplémentaire si désiré."
         ],
-        "notes": "{\"chef\": [\"La technique du risotto repose sur l'ajout progressif du bouillon et le remuage constant pour libérer l'amidon du riz et créer la texture crémeuse caractéristique\", \"Ne jamais couvrir le risotto pendant la cuisson pour éviter l'accumulation de vapeur\", \"La mantécatura (émulsion finale avec beurre et fromage) est cruciale pour obtenir la texture lisse et crémeuse signature du plat\", \"Utiliser des champignons frais en saison (automne) pour maximum de saveur; en alternative, mélanger champignons de Paris frais avec des champignons séchés (porcini, cèpes) réhydratés\"], \"variations\": [\"Risotto truffe: ajouter une fine lamelle de truffe noire en émulsion finale pour une version festive et luxueuse\", \"Risotto aux champignons et safran: ajouter une pincée de safran dans le riz toasté pour une saveur plus sophistiquée\", \"Version allégée: réduire le beurre et le fromage à 30g chacun et ajouter 100g de champignons supplémentaires pour augmenter les fibres et l'umami\", \"Avec herbes fraîches: finir avec persil plat ou cerfeuil frais émincé pour plus de fraîcheur et de couleur\"], \"conservation\": \"Le risotto se consomme frais immédiatement après cuisson. Les restes peuvent être conservés au réfrigérateur jusqu'à 2 jours dans un récipient hermétique, mais la texture crémeuse sera légèrement altérée au réchauffage\", \"nutrition\": \"Par portion (4 personnes): protéines 12g, glucides 58g, lipides 18g. Plat végétarien riche en saveurs umami grâce aux champignons sauvages. Faible en fibres: augmenter les champignons de 100g ou ajouter des légumes verts pour plus de fibres. Pas de gluten si riz pur; vérifier l'étiquetage du bouillon commercial.\"}"
+        "notes": "Conseil du chef : ne jamais couvrir le risotto pendant la cuisson ; la technique du « stand and stir » (rester et remuer constamment) est essentielle pour développer l'amidon du riz et obtenir la texture crémeuse signature. Le bouillon doit toujours rester chaud. Variations : ajouter 100g de tofu soyeux pour augmenter les protéines, ou remplacer 100g de champignons frais par 30g de porcini séchés réhydratés pour une saveur umami plus intense. Substitution sans alcool : remplacer le vin blanc par 150ml de bouillon supplémentaire. Version végétalienne : remplacer le beurre par 50ml d'huile d'olive supplémentaire et le parmesan par levure nutritionnelle (80g)."
       }
     },
     {
-      "offset_ms": 135986,
+      "offset_ms": 69284,
       "event": "stage_start",
       "stage": "technique-validation",
       "stage_index": 4,
@@ -824,541 +960,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 135987,
+      "offset_ms": 69284,
       "event": "stage_context",
       "stage": "technique-validation",
       "context_keys": {
-        "previous_stage_output": 3953
+        "previous_stage_output": 2914
       }
     },
     {
-      "offset_ms": 144921,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Risotto aux champignons sauvages",
-          "cuisine": "Italienne (Lombarde)",
-          "timeMinutes": 35,
-          "portions": 4,
-          "emoji": "🍄",
-          "ingredients": [
-            {
-              "name": "Riz Arborio",
-              "quantity": "320g"
-            },
-            {
-              "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-              "quantity": "400g"
-            },
-            {
-              "name": "Bouillon de légumes",
-              "quantity": "1L"
-            },
-            {
-              "name": "Vin blanc sec",
-              "quantity": "150ml"
-            },
-            {
-              "name": "Fromage Parmigiano-Reggiano",
-              "quantity": "80g"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "60g"
-            },
-            {
-              "name": "Oignon blanc",
-              "quantity": "1 petit"
-            },
-            {
-              "name": "Ail",
-              "quantity": "2 gousses"
-            },
-            {
-              "name": "Huile d'olive extra vierge",
-              "quantity": "30ml"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "À goût"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Nettoyage et préparation des champignons",
-              "instructions": [
-                "Brosser délicatement les champignons sauvages pour éliminer les impuretés",
-                "Émincer finement les champignons"
-              ]
-            },
-            {
-              "order": 2,
-              "title": "Sauté des champignons",
-              "instructions": [
-                "Chauffer l'huile d'olive dans une poêle",
-                "Ajouter les champignons émincés et les cuire à feu vif pendant 5-6 minutes jusqu'à évaporation complète de l'humidité",
-                "Saler et poivrer"
-              ],
-              "durationMinutes": 6
-            },
-            {
-              "order": 3,
-              "title": "Préparation du bouillon",
-              "instructions": [
-                "Porter le bouillon de légumes à frémissement dans une casserole et le maintenir chaud tout au long de la cuisson"
-              ]
-            },
-            {
-              "order": 4,
-              "title": "Toastage du riz",
-              "instructions": [
-                "Dans un faitout, faire fondre 15g de beurre avec le mirepoix (oignon et ail hachés)",
-                "Ajouter le riz Arborio et le toaster pendant 1-2 minutes en remuant pour enrober chaque grain"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Déglaçage",
-              "instructions": [
-                "Verser le vin blanc sec sur le riz et remuer jusqu'à complète évaporation"
-              ]
-            },
-            {
-              "order": 6,
-              "title": "Cuisson progressive du risotto",
-              "instructions": [
-                "Ajouter progressivement le bouillon chaud à raison d'une louche à la fois",
-                "Remuer constamment et en attendant que chaque louche soit absorbée avant d'en ajouter une nouvelle"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 7,
-              "title": "Incorporation des champignons",
-              "instructions": [
-                "Ajouter les champignons sautés au risotto 5 minutes avant la fin de la cuisson"
-              ]
-            },
-            {
-              "order": 8,
-              "title": "Mantécatura (émulsion finale)",
-              "instructions": [
-                "Retirer du feu",
-                "Ajouter le beurre restant (45g) et le Parmigiano-Reggiano râpé frais",
-                "Remuer vigoureusement pour créer une texture crémeuse et onctueuse"
-              ]
-            },
-            {
-              "order": 9,
-              "title": "Finition et service",
-              "instructions": [
-                "Ajuster l'assaisonnement en sel et poivre",
-                "Ajouter un filet de jus de citron frais si désiré",
-                "Dresser immédiatement en portions généreuses et servir chaud"
-              ]
-            }
-          ],
-          "notes": {
-            "chef": [
-              "La technique du risotto repose sur l'ajout progressif du bouillon et le remuage constant pour libérer l'amidon du riz et créer la texture crémeuse caractéristique",
-              "Ne jamais couvrir le risotto pendant la cuisson pour éviter l'accumulation de vapeur",
-              "La mantécatura (émulsion finale avec beurre et fromage) est cruciale pour obtenir la texture lisse et crémeuse signature du plat",
-              "Utiliser des champignons frais en saison (automne) pour maximum de saveur; en alternative, mélanger champignons de Paris frais avec des champignons séchés (porcini, cèpes) réhydratés"
-            ],
-            "variations": [
-              "Risotto truffe: ajouter une fine lamelle de truffe noire en émulsion finale pour une version festive et luxueuse",
-              "Risotto aux champignons et safran: ajouter une pincée de safran dans le riz toasté pour une saveur plus sophistiquée",
-              "Version allégée: réduire le beurre et le fromage à 30g chacun et ajouter 100g de champignons supplémentaires pour augmenter les fibres et l'umami",
-              "Avec herbes fraîches: finir avec persil plat ou cerfeuil frais émincé pour plus de fraîcheur et de couleur"
-            ],
-            "conservation": "Le risotto se consomme frais immédiatement après cuisson. Les restes peuvent être conservés au réfrigérateur jusqu'à 2 jours dans un récipient hermétique, mais la texture crémeuse sera légèrement altérée au réchauffage",
-            "nutrition": "Par portion (4 personnes): protéines 12g, glucides 58g, lipides 18g. Plat végétarien riche en saveurs umami grâce aux champignons sauvages. Faible en fibres: augmenter les champignons de 100g ou ajouter des légumes verts pour plus de fibres. Pas de gluten si riz pur; vérifier l'étiquetage du bouillon commercial."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 145833,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpfr3gie0000p2ij00dm6fh3",
-        "title": "Risotto aux champignons sauvages"
-      },
-      "duration_ms": 912
-    },
-    {
-      "offset_ms": 147422,
-      "event": "stage_retry",
-      "stage": "technique-validation",
-      "attempt": 1,
-      "max_attempts": 2,
-      "failures": [
-        "Expected object output, got string"
-      ],
-      "agent_output_raw": "Recette persistée avec succès ! ✓\n\n**Risotto aux champignons sauvages** (ID: cmpfr3gie0000p2ij00dm6fh3)\n- Verdict : **approved**\n- Utilisateur : cmmrunf9l0000cpijlrn58jpw\n- Contraintes validées : végétarien ✓ | 4 personnes ✓ | ingrédients accessibles ✓\n\nLa recette est prête pour la consommation.",
-      "tool_calls_count": 1
-    },
-    {
-      "offset_ms": 157659,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Risotto aux champignons sauvages",
-          "cuisine": "Italienne (Lombarde)",
-          "timeMinutes": 35,
-          "portions": 4,
-          "emoji": "🍄",
-          "ingredients": [
-            {
-              "name": "Riz Arborio",
-              "quantity": "320g"
-            },
-            {
-              "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-              "quantity": "400g"
-            },
-            {
-              "name": "Bouillon de légumes",
-              "quantity": "1L"
-            },
-            {
-              "name": "Vin blanc sec",
-              "quantity": "150ml"
-            },
-            {
-              "name": "Fromage Parmigiano-Reggiano",
-              "quantity": "80g"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "60g"
-            },
-            {
-              "name": "Oignon blanc",
-              "quantity": "1 petit"
-            },
-            {
-              "name": "Ail",
-              "quantity": "2 gousses"
-            },
-            {
-              "name": "Huile d'olive extra vierge",
-              "quantity": "30ml"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "À goût"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Nettoyage et préparation des champignons",
-              "instructions": [
-                "Brosser délicatement les champignons sauvages pour éliminer les impuretés",
-                "Émincer finement les champignons"
-              ]
-            },
-            {
-              "order": 2,
-              "title": "Sauté des champignons",
-              "instructions": [
-                "Chauffer l'huile d'olive dans une poêle",
-                "Ajouter les champignons émincés et les cuire à feu vif",
-                "Cuire pendant 5-6 minutes jusqu'à évaporation complète de l'humidité",
-                "Saler et poivrer"
-              ],
-              "durationMinutes": 6
-            },
-            {
-              "order": 3,
-              "title": "Préparation du bouillon",
-              "instructions": [
-                "Porter le bouillon de légumes à frémissement dans une casserole",
-                "Maintenir chaud tout au long de la cuisson"
-              ]
-            },
-            {
-              "order": 4,
-              "title": "Toastage du riz",
-              "instructions": [
-                "Dans un faitout, faire fondre 15g de beurre",
-                "Ajouter l'oignon et l'ail hachés",
-                "Ajouter le riz Arborio et le toaster pendant 1-2 minutes en remuant pour enrober chaque grain"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Déglaçage",
-              "instructions": [
-                "Verser le vin blanc sec sur le riz",
-                "Remuer jusqu'à complète évaporation"
-              ]
-            },
-            {
-              "order": 6,
-              "title": "Cuisson progressive du risotto",
-              "instructions": [
-                "Ajouter progressivement le bouillon chaud à raison d'une louche à la fois",
-                "Remuer constamment",
-                "Attendre que chaque louche soit absorbée avant d'en ajouter une nouvelle"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 7,
-              "title": "Incorporation des champignons",
-              "instructions": [
-                "Ajouter les champignons sautés au risotto 5 minutes avant la fin de la cuisson"
-              ]
-            },
-            {
-              "order": 8,
-              "title": "Mantécatura (émulsion finale)",
-              "instructions": [
-                "Retirer du feu",
-                "Ajouter le beurre restant (45g) et le Parmigiano-Reggiano râpé frais",
-                "Remuer vigoureusement pour créer une texture crémeuse et onctueuse"
-              ]
-            },
-            {
-              "order": 9,
-              "title": "Finition et service",
-              "instructions": [
-                "Ajuster l'assaisonnement en sel et poivre",
-                "Ajouter un filet de jus de citron frais si désiré",
-                "Dresser immédiatement en portions généreuses",
-                "Servir chaud"
-              ]
-            }
-          ],
-          "notes": {
-            "chef": [
-              "La technique du risotto repose sur l'ajout progressif du bouillon et le remuage constant pour libérer l'amidon du riz et créer la texture crémeuse caractéristique",
-              "Ne jamais couvrir le risotto pendant la cuisson pour éviter l'accumulation de vapeur",
-              "La mantécatura (émulsion finale avec beurre et fromage) est cruciale pour obtenir la texture lisse et crémeuse signature du plat",
-              "Utiliser des champignons frais en saison (automne) pour maximum de saveur; en alternative, mélanger champignons de Paris frais avec des champignons séchés (porcini, cèpes) réhydratés"
-            ],
-            "variations": [
-              "Risotto truffe: ajouter une fine lamelle de truffe noire en émulsion finale pour une version festive et luxueuse",
-              "Risotto aux champignons et safran: ajouter une pincée de safran dans le riz toasté pour une saveur plus sophistiquée",
-              "Version allégée: réduire le beurre et le fromage à 30g chacun et ajouter 100g de champignons supplémentaires pour augmenter les fibres et l'umami",
-              "Avec herbes fraîches: finir avec persil plat ou cerfeuil frais émincé pour plus de fraîcheur et de couleur"
-            ],
-            "conservation": "Le risotto se consomme frais immédiatement après cuisson. Les restes peuvent être conservés au réfrigérateur jusqu'à 2 jours dans un récipient hermétique, mais la texture crémeuse sera légèrement altérée au réchauffage",
-            "nutrition": "Par portion (4 personnes): protéines 12g, glucides 58g, lipides 18g. Plat végétarien riche en saveurs umami grâce aux champignons sauvages. Faible en fibres: augmenter les champignons de 100g ou ajouter des légumes verts pour plus de fibres. Pas de gluten si riz pur; vérifier l'étiquetage du bouillon commercial."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 158616,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpfr3qdh0000clijmi53dtf4",
-        "title": "Risotto aux champignons sauvages"
-      },
-      "duration_ms": 957
-    },
-    {
-      "offset_ms": 161122,
+      "offset_ms": 79327,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
-      "attempts": 2,
-      "duration_ms": 25135,
+      "attempts": 1,
+      "duration_ms": 10043,
       "tokens": {
-        "prompt": 8912,
-        "completion": 1847,
-        "total": 10759
+        "prompt": 8097,
+        "completion": 1639,
+        "total": 9736
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01D2VYqnSfv8XachGpL2XuwN",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Risotto aux champignons sauvages",
-              "cuisine": "Italienne (Lombarde)",
-              "timeMinutes": 35,
-              "portions": 4,
-              "emoji": "🍄",
-              "ingredients": [
-                {
-                  "name": "Riz Arborio",
-                  "quantity": "320g"
-                },
-                {
-                  "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-                  "quantity": "400g"
-                },
-                {
-                  "name": "Bouillon de légumes",
-                  "quantity": "1L"
-                },
-                {
-                  "name": "Vin blanc sec",
-                  "quantity": "150ml"
-                },
-                {
-                  "name": "Fromage Parmigiano-Reggiano",
-                  "quantity": "80g"
-                },
-                {
-                  "name": "Beurre",
-                  "quantity": "60g"
-                },
-                {
-                  "name": "Oignon blanc",
-                  "quantity": "1 petit"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "2 gousses"
-                },
-                {
-                  "name": "Huile d'olive extra vierge",
-                  "quantity": "30ml"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "À goût"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Nettoyage et préparation des champignons",
-                  "instructions": [
-                    "Brosser délicatement les champignons sauvages pour éliminer les impuretés",
-                    "Émincer finement les champignons"
-                  ]
-                },
-                {
-                  "order": 2,
-                  "title": "Sauté des champignons",
-                  "instructions": [
-                    "Chauffer l'huile d'olive dans une poêle",
-                    "Ajouter les champignons émincés et les cuire à feu vif",
-                    "Cuire pendant 5-6 minutes jusqu'à évaporation complète de l'humidité",
-                    "Saler et poivrer"
-                  ],
-                  "durationMinutes": 6
-                },
-                {
-                  "order": 3,
-                  "title": "Préparation du bouillon",
-                  "instructions": [
-                    "Porter le bouillon de légumes à frémissement dans une casserole",
-                    "Maintenir chaud tout au long de la cuisson"
-                  ]
-                },
-                {
-                  "order": 4,
-                  "title": "Toastage du riz",
-                  "instructions": [
-                    "Dans un faitout, faire fondre 15g de beurre",
-                    "Ajouter l'oignon et l'ail hachés",
-                    "Ajouter le riz Arborio et le toaster pendant 1-2 minutes en remuant pour enrober chaque grain"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 5,
-                  "title": "Déglaçage",
-                  "instructions": [
-                    "Verser le vin blanc sec sur le riz",
-                    "Remuer jusqu'à complète évaporation"
-                  ]
-                },
-                {
-                  "order": 6,
-                  "title": "Cuisson progressive du risotto",
-                  "instructions": [
-                    "Ajouter progressivement le bouillon chaud à raison d'une louche à la fois",
-                    "Remuer constamment",
-                    "Attendre que chaque louche soit absorbée avant d'en ajouter une nouvelle"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 7,
-                  "title": "Incorporation des champignons",
-                  "instructions": [
-                    "Ajouter les champignons sautés au risotto 5 minutes avant la fin de la cuisson"
-                  ]
-                },
-                {
-                  "order": 8,
-                  "title": "Mantécatura (émulsion finale)",
-                  "instructions": [
-                    "Retirer du feu",
-                    "Ajouter le beurre restant (45g) et le Parmigiano-Reggiano râpé frais",
-                    "Remuer vigoureusement pour créer une texture crémeuse et onctueuse"
-                  ]
-                },
-                {
-                  "order": 9,
-                  "title": "Finition et service",
-                  "instructions": [
-                    "Ajuster l'assaisonnement en sel et poivre",
-                    "Ajouter un filet de jus de citron frais si désiré",
-                    "Dresser immédiatement en portions généreuses",
-                    "Servir chaud"
-                  ]
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "La technique du risotto repose sur l'ajout progressif du bouillon et le remuage constant pour libérer l'amidon du riz et créer la texture crémeuse caractéristique",
-                  "Ne jamais couvrir le risotto pendant la cuisson pour éviter l'accumulation de vapeur",
-                  "La mantécatura (émulsion finale avec beurre et fromage) est cruciale pour obtenir la texture lisse et crémeuse signature du plat",
-                  "Utiliser des champignons frais en saison (automne) pour maximum de saveur; en alternative, mélanger champignons de Paris frais avec des champignons séchés (porcini, cèpes) réhydratés"
-                ],
-                "variations": [
-                  "Risotto truffe: ajouter une fine lamelle de truffe noire en émulsion finale pour une version festive et luxueuse",
-                  "Risotto aux champignons et safran: ajouter une pincée de safran dans le riz toasté pour une saveur plus sophistiquée",
-                  "Version allégée: réduire le beurre et le fromage à 30g chacun et ajouter 100g de champignons supplémentaires pour augmenter les fibres et l'umami",
-                  "Avec herbes fraîches: finir avec persil plat ou cerfeuil frais émincé pour plus de fraîcheur et de couleur"
-                ],
-                "conservation": "Le risotto se consomme frais immédiatement après cuisson. Les restes peuvent être conservés au réfrigérateur jusqu'à 2 jours dans un récipient hermétique, mais la texture crémeuse sera légèrement altérée au réchauffage",
-                "nutrition": "Par portion (4 personnes): protéines 12g, glucides 58g, lipides 18g. Plat végétarien riche en saveurs umami grâce aux champignons sauvages. Faible en fibres: augmenter les champignons de 100g ou ajouter des légumes verts pour plus de fibres. Pas de gluten si riz pur; vérifier l'étiquetage du bouillon commercial."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpfr3qdh0000clijmi53dtf4",
-            "title": "Risotto aux champignons sauvages"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
         "verdict": "approved",
-        "critique": "Recette techniquement solide et réaliste. Risotto classique bien structuré avec timing cohérent (35 min), techniques appropriées (toastage, ajout progressif du bouillon, mantécatura), et ingrédients accessibles en épicerie standard. Respect complet des contraintes (végétarien, 4 personnes, accessibilité)."
+        "critique": "Recette validée et persistée avec succès. Risotto aux champignons sauvages conforme à tous les critères : végétarien, 4 portions, ingrédients accessibles, timing réaliste (35 min), technique professionnelle maîtrisée."
       }
     },
     {
-      "offset_ms": 161122,
+      "offset_ms": 79327,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 161122,
+      "offset_ms": 79327,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -1366,622 +1001,39 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 161123,
+      "offset_ms": 79328,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
         "input": 176,
-        "previous_stage_output": 7717
+        "previous_stage_output": 7166
       }
     },
     {
-      "offset_ms": 171875,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Risotto aux champignons sauvages",
-          "cuisine": "Italienne (Lombarde)",
-          "timeMinutes": 35,
-          "portions": 4,
-          "emoji": "🍄",
-          "ingredients": [
-            {
-              "name": "Riz Arborio",
-              "quantity": "320g"
-            },
-            {
-              "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-              "quantity": "400g"
-            },
-            {
-              "name": "Bouillon de légumes",
-              "quantity": "1L"
-            },
-            {
-              "name": "Vin blanc sec",
-              "quantity": "150ml"
-            },
-            {
-              "name": "Fromage Parmigiano-Reggiano",
-              "quantity": "80g"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "60g"
-            },
-            {
-              "name": "Oignon blanc",
-              "quantity": "1 petit"
-            },
-            {
-              "name": "Ail",
-              "quantity": "2 gousses"
-            },
-            {
-              "name": "Huile d'olive extra vierge",
-              "quantity": "30ml"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "À goût"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Nettoyage et préparation des champignons",
-              "instructions": [
-                "Brosser délicatement les champignons sauvages pour éliminer les impuretés",
-                "Émincer finement les champignons"
-              ]
-            },
-            {
-              "order": 2,
-              "title": "Sauté des champignons",
-              "instructions": [
-                "Chauffer l'huile d'olive dans une poêle",
-                "Ajouter les champignons émincés et les cuire à feu vif",
-                "Évaporer complètement l'humidité (5-6 minutes)",
-                "Saler et poivrer"
-              ],
-              "durationMinutes": 6
-            },
-            {
-              "order": 3,
-              "title": "Préparation du bouillon",
-              "instructions": [
-                "Porter le bouillon de légumes à frémissement dans une casserole",
-                "Le maintenir chaud tout au long de la cuisson"
-              ]
-            },
-            {
-              "order": 4,
-              "title": "Toastage du riz",
-              "instructions": [
-                "Dans un faitout, faire fondre 15g de beurre",
-                "Ajouter le mirepoix (oignon et ail hachés)",
-                "Ajouter le riz Arborio et le toaster pendant 1-2 minutes",
-                "Remuer pour enrober chaque grain"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Déglaçage",
-              "instructions": [
-                "Verser le vin blanc sec sur le riz",
-                "Remuer jusqu'à complète évaporation"
-              ]
-            },
-            {
-              "order": 6,
-              "title": "Cuisson progressive du risotto",
-              "instructions": [
-                "Ajouter progressivement le bouillon chaud à raison d'une louche à la fois",
-                "Remuer constamment",
-                "Attendre que chaque louche soit absorbée avant d'en ajouter une nouvelle"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 7,
-              "title": "Incorporation des champignons",
-              "instructions": [
-                "Ajouter les champignons sautés au risotto 5 minutes avant la fin de la cuisson"
-              ]
-            },
-            {
-              "order": 8,
-              "title": "Mantécatura (émulsion finale)",
-              "instructions": [
-                "Retirer du feu",
-                "Ajouter le beurre restant (45g)",
-                "Ajouter le Parmigiano-Reggiano râpé frais",
-                "Remuer vigoureusement pour créer une texture crémeuse et onctueuse"
-              ]
-            },
-            {
-              "order": 9,
-              "title": "Finition et service",
-              "instructions": [
-                "Ajuster l'assaisonnement en sel et poivre",
-                "Ajouter un filet de jus de citron frais si désiré",
-                "Dresser immédiatement en portions généreuses",
-                "Servir chaud"
-              ]
-            }
-          ],
-          "notes": {
-            "chef": [
-              "La technique du risotto repose sur l'ajout progressif du bouillon et le remuage constant pour libérer l'amidon du riz et créer la texture crémeuse caractéristique",
-              "Ne jamais couvrir le risotto pendant la cuisson pour éviter l'accumulation de vapeur",
-              "La mantécatura (émulsion finale avec beurre et fromage) est cruciale pour obtenir la texture lisse et crémeuse signature du plat",
-              "Utiliser des champignons frais en saison (automne) pour maximum de saveur; en alternative, mélanger champignons de Paris frais avec des champignons séchés (porcini, cèpes) réhydratés"
-            ],
-            "variations": [
-              "Risotto truffe: ajouter une fine lamelle de truffe noire en émulsion finale pour une version festive et luxueuse",
-              "Risotto aux champignons et safran: ajouter une pincée de safran dans le riz toasté pour une saveur plus sophistiquée",
-              "Version allégée: réduire le beurre et le fromage à 30g chacun et ajouter 100g de champignons supplémentaires pour augmenter les fibres et l'umami",
-              "Avec herbes fraîches: finir avec persil plat ou cerfeuil frais émincé pour plus de fraîcheur et de couleur"
-            ],
-            "conservation": "Le risotto se consomme frais immédiatement après cuisson. Les restes peuvent être conservés au réfrigérateur jusqu'à 2 jours dans un récipient hermétique, mais la texture crémeuse sera légèrement altérée au réchauffage",
-            "nutrition": "Par portion (4 personnes): protéines 12g, glucides 58g, lipides 18g. Plat végétarien riche en saveurs umami grâce aux champignons sauvages. Faible en fibres: augmenter les champignons de 100g ou ajouter des légumes verts pour plus de fibres. Pas de gluten si riz pur; vérifier l'étiquetage du bouillon commercial."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 172856,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpfr41aw0000qnijspk5c5xj",
-        "title": "Risotto aux champignons sauvages"
-      },
-      "duration_ms": 981
-    },
-    {
-      "offset_ms": 177132,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmpfr41aw0000qnijspk5c5xj",
-          "items": [
-            {
-              "name": "Riz Arborio",
-              "quantity": "320g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-              "quantity": "400g",
-              "group": "légumes"
-            },
-            {
-              "name": "Bouillon de légumes",
-              "quantity": "1L",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Vin blanc sec",
-              "quantity": "150ml",
-              "group": "boissons"
-            },
-            {
-              "name": "Fromage Parmigiano-Reggiano",
-              "quantity": "80g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "60g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Oignon blanc",
-              "quantity": "1 petit",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail",
-              "quantity": "2 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Huile d'olive extra vierge",
-              "quantity": "30ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Sel",
-              "quantity": "À goût",
-              "group": "condiments"
-            },
-            {
-              "name": "Poivre",
-              "quantity": "À goût",
-              "group": "condiments"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 178230,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1098
-    },
-    {
-      "offset_ms": 183403,
+      "offset_ms": 89862,
       "event": "stage_complete",
       "stage": "grocery-list",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 22281,
+      "duration_ms": 10535,
       "tokens": {
-        "prompt": 6181,
-        "completion": 3267,
-        "total": 9448
+        "prompt": 5668,
+        "completion": 1397,
+        "total": 7065
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01AwsCtPjvRFhR7mMVXcD4dg",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Risotto aux champignons sauvages",
-              "cuisine": "Italienne (Lombarde)",
-              "timeMinutes": 35,
-              "portions": 4,
-              "emoji": "🍄",
-              "ingredients": [
-                {
-                  "name": "Riz Arborio",
-                  "quantity": "320g"
-                },
-                {
-                  "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-                  "quantity": "400g"
-                },
-                {
-                  "name": "Bouillon de légumes",
-                  "quantity": "1L"
-                },
-                {
-                  "name": "Vin blanc sec",
-                  "quantity": "150ml"
-                },
-                {
-                  "name": "Fromage Parmigiano-Reggiano",
-                  "quantity": "80g"
-                },
-                {
-                  "name": "Beurre",
-                  "quantity": "60g"
-                },
-                {
-                  "name": "Oignon blanc",
-                  "quantity": "1 petit"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "2 gousses"
-                },
-                {
-                  "name": "Huile d'olive extra vierge",
-                  "quantity": "30ml"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "À goût"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Nettoyage et préparation des champignons",
-                  "instructions": [
-                    "Brosser délicatement les champignons sauvages pour éliminer les impuretés",
-                    "Émincer finement les champignons"
-                  ]
-                },
-                {
-                  "order": 2,
-                  "title": "Sauté des champignons",
-                  "instructions": [
-                    "Chauffer l'huile d'olive dans une poêle",
-                    "Ajouter les champignons émincés et les cuire à feu vif",
-                    "Évaporer complètement l'humidité (5-6 minutes)",
-                    "Saler et poivrer"
-                  ],
-                  "durationMinutes": 6
-                },
-                {
-                  "order": 3,
-                  "title": "Préparation du bouillon",
-                  "instructions": [
-                    "Porter le bouillon de légumes à frémissement dans une casserole",
-                    "Le maintenir chaud tout au long de la cuisson"
-                  ]
-                },
-                {
-                  "order": 4,
-                  "title": "Toastage du riz",
-                  "instructions": [
-                    "Dans un faitout, faire fondre 15g de beurre",
-                    "Ajouter le mirepoix (oignon et ail hachés)",
-                    "Ajouter le riz Arborio et le toaster pendant 1-2 minutes",
-                    "Remuer pour enrober chaque grain"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 5,
-                  "title": "Déglaçage",
-                  "instructions": [
-                    "Verser le vin blanc sec sur le riz",
-                    "Remuer jusqu'à complète évaporation"
-                  ]
-                },
-                {
-                  "order": 6,
-                  "title": "Cuisson progressive du risotto",
-                  "instructions": [
-                    "Ajouter progressivement le bouillon chaud à raison d'une louche à la fois",
-                    "Remuer constamment",
-                    "Attendre que chaque louche soit absorbée avant d'en ajouter une nouvelle"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 7,
-                  "title": "Incorporation des champignons",
-                  "instructions": [
-                    "Ajouter les champignons sautés au risotto 5 minutes avant la fin de la cuisson"
-                  ]
-                },
-                {
-                  "order": 8,
-                  "title": "Mantécatura (émulsion finale)",
-                  "instructions": [
-                    "Retirer du feu",
-                    "Ajouter le beurre restant (45g)",
-                    "Ajouter le Parmigiano-Reggiano râpé frais",
-                    "Remuer vigoureusement pour créer une texture crémeuse et onctueuse"
-                  ]
-                },
-                {
-                  "order": 9,
-                  "title": "Finition et service",
-                  "instructions": [
-                    "Ajuster l'assaisonnement en sel et poivre",
-                    "Ajouter un filet de jus de citron frais si désiré",
-                    "Dresser immédiatement en portions généreuses",
-                    "Servir chaud"
-                  ]
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "La technique du risotto repose sur l'ajout progressif du bouillon et le remuage constant pour libérer l'amidon du riz et créer la texture crémeuse caractéristique",
-                  "Ne jamais couvrir le risotto pendant la cuisson pour éviter l'accumulation de vapeur",
-                  "La mantécatura (émulsion finale avec beurre et fromage) est cruciale pour obtenir la texture lisse et crémeuse signature du plat",
-                  "Utiliser des champignons frais en saison (automne) pour maximum de saveur; en alternative, mélanger champignons de Paris frais avec des champignons séchés (porcini, cèpes) réhydratés"
-                ],
-                "variations": [
-                  "Risotto truffe: ajouter une fine lamelle de truffe noire en émulsion finale pour une version festive et luxueuse",
-                  "Risotto aux champignons et safran: ajouter une pincée de safran dans le riz toasté pour une saveur plus sophistiquée",
-                  "Version allégée: réduire le beurre et le fromage à 30g chacun et ajouter 100g de champignons supplémentaires pour augmenter les fibres et l'umami",
-                  "Avec herbes fraîches: finir avec persil plat ou cerfeuil frais émincé pour plus de fraîcheur et de couleur"
-                ],
-                "conservation": "Le risotto se consomme frais immédiatement après cuisson. Les restes peuvent être conservés au réfrigérateur jusqu'à 2 jours dans un récipient hermétique, mais la texture crémeuse sera légèrement altérée au réchauffage",
-                "nutrition": "Par portion (4 personnes): protéines 12g, glucides 58g, lipides 18g. Plat végétarien riche en saveurs umami grâce aux champignons sauvages. Faible en fibres: augmenter les champignons de 100g ou ajouter des légumes verts pour plus de fibres. Pas de gluten si riz pur; vérifier l'étiquetage du bouillon commercial."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpfr41aw0000qnijspk5c5xj",
-            "title": "Risotto aux champignons sauvages"
-          }
-        },
-        {
-          "id": "toolu_01EHXutWMERBzqTxThvSRc7J",
-          "name": "db-upsert_grocery_list",
-          "arguments": {
-            "data": {
-              "planId": "cmpfr41aw0000qnijspk5c5xj",
-              "items": [
-                {
-                  "name": "Riz Arborio",
-                  "quantity": "320g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-                  "quantity": "400g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Bouillon de légumes",
-                  "quantity": "1L",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Vin blanc sec",
-                  "quantity": "150ml",
-                  "group": "boissons"
-                },
-                {
-                  "name": "Fromage Parmigiano-Reggiano",
-                  "quantity": "80g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Beurre",
-                  "quantity": "60g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Oignon blanc",
-                  "quantity": "1 petit",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "2 gousses",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Huile d'olive extra vierge",
-                  "quantity": "30ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Sel",
-                  "quantity": "À goût",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Poivre",
-                  "quantity": "À goût",
-                  "group": "condiments"
-                }
-              ]
-            }
-          },
-          "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}"
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "items": [
-          {
-            "name": "Riz Arborio",
-            "quantity": "320g",
-            "group": "épicerie sèche"
-          },
-          {
-            "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-            "quantity": "400g",
-            "group": "légumes"
-          },
-          {
-            "name": "Bouillon de légumes",
-            "quantity": "1L",
-            "group": "épicerie sèche"
-          },
-          {
-            "name": "Vin blanc sec",
-            "quantity": "150ml",
-            "group": "condiments"
-          },
-          {
-            "name": "Fromage Parmigiano-Reggiano",
-            "quantity": "80g",
-            "group": "produits frais"
-          },
-          {
-            "name": "Beurre",
-            "quantity": "60g",
-            "group": "produits frais"
-          },
-          {
-            "name": "Oignon blanc",
-            "quantity": "1 petit",
-            "group": "légumes"
-          },
-          {
-            "name": "Ail",
-            "quantity": "2 gousses",
-            "group": "légumes"
-          },
-          {
-            "name": "Huile d'olive extra vierge",
-            "quantity": "30ml",
-            "group": "condiments"
-          },
-          {
-            "name": "Sel et poivre",
-            "quantity": "À goût",
-            "group": "épicerie sèche"
-          }
-        ],
-        "sections": {
-          "légumes": [
-            {
-              "name": "Champignons sauvages mélangés (cèpes, girolles, chanterelles)",
-              "quantity": "400g",
-              "group": "légumes"
-            },
-            {
-              "name": "Oignon blanc",
-              "quantity": "1 petit",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail",
-              "quantity": "2 gousses",
-              "group": "légumes"
-            }
-          ],
-          "produits frais": [
-            {
-              "name": "Fromage Parmigiano-Reggiano",
-              "quantity": "80g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Beurre",
-              "quantity": "60g",
-              "group": "produits frais"
-            }
-          ],
-          "épicerie sèche": [
-            {
-              "name": "Riz Arborio",
-              "quantity": "320g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Bouillon de légumes",
-              "quantity": "1L",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "À goût",
-              "group": "épicerie sèche"
-            }
-          ],
-          "condiments": [
-            {
-              "name": "Vin blanc sec",
-              "quantity": "150ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Huile d'olive extra vierge",
-              "quantity": "30ml",
-              "group": "condiments"
-            }
-          ]
-        }
+        "items": "[{\"name\":\"Riz Arborio ou Carnaroli\",\"quantity\":\"300g\",\"group\":\"épicerie sèche\"},{\"name\":\"Champignons frais (Paris, girolles, cèpes)\",\"quantity\":\"400g\",\"group\":\"légumes\"},{\"name\":\"Oignon moyen\",\"quantity\":\"1 unité\",\"group\":\"légumes\"},{\"name\":\"Ail\",\"quantity\":\"2 gousses\",\"group\":\"légumes\"},{\"name\":\"Bouillon de légumes chaud\",\"quantity\":\"1 litre\",\"group\":\"épicerie sèche\"},{\"name\":\"Vin blanc sec\",\"quantity\":\"150ml\",\"group\":\"alcools\"},{\"name\":\"Beurre\",\"quantity\":\"50g\",\"group\":\"produits frais\"},{\"name\":\"Parmesan râpé\",\"quantity\":\"80g\",\"group\":\"produits frais\"},{\"name\":\"Huile d'olive extra vierge\",\"quantity\":\"3 cuillères à soupe\",\"group\":\"condiments\"},{\"name\":\"Sel et poivre noir\",\"quantity\":\"à goût\",\"group\":\"condiments\"},{\"name\":\"Persil frais\",\"quantity\":\"1 bouquet\",\"group\":\"légumes\",\"optional\":true}]",
+        "sections": "{\"légumes\":[{\"name\":\"Champignons frais (Paris, girolles, cèpes)\",\"quantity\":\"400g\"},{\"name\":\"Oignon moyen\",\"quantity\":\"1 unité\"},{\"name\":\"Ail\",\"quantity\":\"2 gousses\"},{\"name\":\"Persil frais\",\"quantity\":\"1 bouquet\",\"optional\":true}],\"épicerie sèche\":[{\"name\":\"Riz Arborio ou Carnaroli\",\"quantity\":\"300g\"},{\"name\":\"Bouillon de légumes chaud\",\"quantity\":\"1 litre\"}],\"produits frais\":[{\"name\":\"Beurre\",\"quantity\":\"50g\"},{\"name\":\"Parmesan râpé\",\"quantity\":\"80g\"}],\"condiments\":[{\"name\":\"Huile d'olive extra vierge\",\"quantity\":\"3 cuillères à soupe\"},{\"name\":\"Sel et poivre noir\",\"quantity\":\"à goût\"}],\"alcools\":[{\"name\":\"Vin blanc sec\",\"quantity\":\"150ml\"}]}"
       }
     },
     {
-      "offset_ms": 183422,
+      "offset_ms": 89949,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
-      "duration_ms": 183527,
-      "total_tokens": 45220,
+      "duration_ms": 90049,
+      "total_tokens": 51640,
       "total_tool_calls": 9,
       "total_stages": 6
     }

@@ -1,6 +1,7 @@
 {
   "id": "04",
   "slug": "soupe-miso-hivernale",
+  "run_id": "39dd9552",
   "input": {
     "dish_name": "Soupe miso enrichie pour l'hiver",
     "userId": "cmmrunf9l0000cpijlrn58jpw",
@@ -11,8 +12,8 @@
       "peu d'ingrédients"
     ]
   },
-  "captured_at": "2026-05-21T01:12:12.209Z",
-  "duration_ms": 102195,
+  "captured_at": "2026-05-21T17:35:46.684Z",
+  "duration_ms": 66929,
   "events": [
     {
       "offset_ms": 0,
@@ -30,7 +31,7 @@
       }
     },
     {
-      "offset_ms": 2,
+      "offset_ms": 23,
       "event": "stage_start",
       "stage": "culinary-research",
       "stage_index": 0,
@@ -38,7 +39,7 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 7,
+      "offset_ms": 27,
       "event": "stage_context",
       "stage": "culinary-research",
       "context_keys": {
@@ -46,121 +47,236 @@
       }
     },
     {
-      "offset_ms": 1803,
+      "offset_ms": 2477,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "soupe miso hiver recette sans gluten réconfortante"
+        "query": "soupe miso hiver recette traditionnelle technique"
       }
     },
     {
-      "offset_ms": 1975,
+      "offset_ms": 3733,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "soupe miso hiver recette traditionnelle technique",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.nishikidori.com/fr/blog/soupe-miso-aux-legumes--n28",
+            "title": "Véritable Recette de la Soupe Miso Traditionnelle Japonaise",
+            "content": "Préparation étape par étape de la soupe miso · La préparation du dashi : Essuyez légèrement l'algue kombu avec un linge humide (ne la lavez pas).",
+            "score": 0.5758033,
+            "raw_content": null
+          },
+          {
+            "url": "https://laviechantilly.fr/5503recette-soupe-miso-japonaise-authentique-et-ses-variantes-maison-faciles",
+            "title": "Recette soupe miso japonaise authentique et ses variantes maison ...",
+            "content": "La règle d'or pour réussir une recette de soupe miso traditionnelle est de ne jamais faire bouillir le miso. Une température excessive détruit",
+            "score": 0.55767727,
+            "raw_content": null
+          },
+          {
+            "url": "https://anatae.fr/blogs/blog-anatae/comment-faire-une-soupe-miso-la-recette-pas-a-pas",
+            "title": "COMMENT FAIRE UNE SOUPE MISO ? LA RECETTE PAS À PAS",
+            "content": "Préparer le bouillon : Faites chauffer l'eau dans une casserole jusqu'à frémissement, puis ajoutez le sachet de dashi ou l'alternative végétale.",
+            "score": 0.49685127,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.elle.fr/Elle-a-Table/Les-dossiers-de-la-redaction/Dossier-de-la-redac/Recettes-soupe-miso",
+            "title": "4 ingrédients et 5 minutes : voici le guide ultime de la soupe miso",
+            "content": "De l'eau chaude, de la pâte miso, du bouillon dashi, des algues séchées et des cubes de tofu : voici les principaux composants de la soupe miso, une recette",
+            "score": 0.4767995,
+            "raw_content": null
+          },
+          {
+            "url": "https://areyouradis.fr/recette-vraie-soupe-miso",
+            "title": "Recette : les huit secrets d'une vraie soupe miso ! - Are You Radis",
+            "content": "Une fois que votre bouillon *dashi* frémit sur le feu, **il est temps de le parfumer en y ajoutant quelques légumes de votre choix.** Mais attention, on ne fait pas un minestrone : les légumes sont là pour accompagner les saveurs subtiles du *dashi* et du miso et **ne doivent pas prendre le pas.** Dans une soupe miso pour quatre, je ne mettrais pas plus d’un petit navet, quatre champignons de Paris et quelques feuilles de persil plat, par exemple… L’idée est seulement de parfumer le bouillon et d’ajouter un peu de croquant. **Mais pour la soupe miso, je vous recommande d’ajouter de petits cubes de tofu soyeux.** C’est un type de tofu très fondant, à la texture un peu tremblotante, qu’on trouve moins facilement en France mais dans toutes les bonnes épiceries asiatiques 😉 Et même, maintenant, dans beaucoup de magasins bios !",
+            "score": 0.42462727,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.1,
+        "request_id": "92d5a121-242c-4180-9980-80a0f868734d"
       },
-      "duration_ms": 171
+      "duration_ms": 1257
     },
     {
-      "offset_ms": 1975,
+      "offset_ms": 3733,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "miso soup winter ingredients techniques culinaires"
+        "query": "miso soup winter ingredients umami profil saveur"
       }
     },
     {
-      "offset_ms": 2087,
+      "offset_ms": 4641,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "miso soup winter ingredients umami profil saveur",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.facebook.com/RachelAmaOnline/posts/episode-2-winter-warmers-comment-miso-broth-recipe-and-like-and-ill-send-you-the/1082875510099332",
+            "title": "episode 2. Winter Warmers! comment “miso broth recipe” and like ...",
+            "content": "Practical Tip: Miso soup is versatile! Feel free to add other ingredients like wakame seaweed, enoki mushrooms, or even a sprinkle of sesame",
+            "score": 0.5849357,
+            "raw_content": null
+          },
+          {
+            "url": "https://pickledplum.com/japanese-miso-soup-recipe",
+            "title": "Miso Soup (Easy & Authentic) | Pickled Plum",
+            "content": "My favorite miso soup recipe, just like the way my mother makes it! This recipe is light, comforting, and full of savory umami flavor — and only requires 4 ingredients and 15 minutes to make! **Miso soup is a nutty and savory soup made of dashi broth and miso paste, often served as part of a traditional Japanese meal**. **This easy miso soup recipe only needs 4 ingredients and comes together in minutes**. Whether you are looking for a traditional Japanese side dish or a cozy bowl of soup to enjoy on its own, this miso soup will not disappoint. For those new to Japanese cooking or who don’t have access to specialty ingredients, keep reading as I will walk you through simple substitutions and tips to make delicious miso soups. **Miso soup (味噌汁) is a traditional Japanese soup made from dashi stock and miso paste**. You can use all three types of miso paste – red, awase, and white miso paste – to make miso soup.",
+            "score": 0.53619206,
+            "raw_content": null
+          },
+          {
+            "url": "https://gir.co/blogs/recipes/miso-soup-recipe",
+            "title": "The Ultimate Japanese Miso Soup Recipe - GIR",
+            "content": "Red miso paste is fermented the longest, resulting in a robust, salty, and somewhat pungent flavor. Its deep umami profile is perfect for hearty",
+            "score": 0.52144736,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.yogadistrict.com/less-is-more-miso-soup",
+            "title": "Easy and Simple to Make - Less is More, Miso Soup - Yoga District",
+            "content": "Ingredients: · 2 Cloves Minced Garlic · 1 Tablespoons Finely Minced Ginger · 4 Oz Assorted Mushrooms (I used Shiitake, Brown Beech and Oyster) · 2",
+            "score": 0.38685668,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/chefbillyparisi/posts/minimal-ingredients-maximum-flavorthis-miso-soup-hits-every-time-recipe-/1491802842306268",
+            "title": "Minimal ingredients, maximum flavor—this Miso Soup hits every ...",
+            "content": "**Ingredients:** - 4 cups dashi stock - 3 tablespoons miso paste - 1/2 cup cubed tofu - 1/4 cup sliced green onions - 1/4 cup wakame",
+            "score": 0.37387636,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.77,
+        "request_id": "bae23dbc-d487-4f02-8954-10ec68ef783a"
       },
-      "duration_ms": 112
+      "duration_ms": 908
     },
     {
-      "offset_ms": 2087,
+      "offset_ms": 4641,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "pâte miso context cultural Japanese cuisine"
+        "query": "soupe miso contexte culturel japonaise préparation"
       }
     },
     {
-      "offset_ms": 2192,
+      "offset_ms": 8005,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "soupe miso contexte culturel japonaise préparation",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://fr.wikipedia.org/wiki/Soupe_miso",
+            "title": "Soupe miso — Wikipédia",
+            "content": "Pour les articles homonymes, voir soupe et miso. La **soupe miso** (味噌汁?, misoshiru), « bouillon au miso » en japonais francisé, est une recette de cuisine traditionnelle de la cuisine japonaise. Il s'agit d'un bouillon \"Bouillon (cuisine)\") à base de miso (pte de soja fermenté) et de *dashi* (bouillon de base de la cuisine japonaise), auquel on rajoute d'autres ingrédients (légumes, tofu, algues, viande ou fruits de mer, etc.). La soupe miso est une soupe de la cuisine japonaise, composée d'un bouillon et de miso (soja fermenté). D'autres ingrédients, tels que des légumes, des algues, du tofu, de la viande ou des fruits de mer, peuvent y être ajoutés. Contrairement aux soupes occidentales riches en goût, la soupe miso, plus légère, sert à accompagner les autres plats. Elle est consommée afin de réchauffer la bouche, de préparer le palais entre deux plats, et sert aussi d'exhausteur de goût grce à sa composition riche en glutamate et autres acides aminés libres. Ce plat traditionnel très ancien de l'histoire de la cuisine japonaise, à base de miso originaire de Chine, est couramment consommé par les Japonais depuis la période Muromachi (1392-1573). La préparation de la soupe miso de base nécessite de l'eau, du *dashi* (bouillon composé le plus souvent d'algue kombu infusée et de katsuobushi, un condiment à base de bonite fumée et séchée) et du miso (une pte de soja fermentée). Versez la quantité désirée dans une casserole, et incorporez les accompagnements par ordre de cuisson (algues, tofu, etc.). Incorporez ensuite le miso (une à deux grosses cuillerées) en le tamisant, sans laisser bouillir la préparation. Les paquets de soupe miso instantanée lyophilisée sont à ce jour courants dans la grande distribution et sont utiles. La soupe miso est servie traditionnellement dans un petit bol \"Bol (vaisselle)\") laqué *shiru-wan*. Les ingrédients sont mangés avec des baguettes \"Baguettes (couverts asiatiques)\") ou avec une cuillère à soupe japonaise, puis le bouillon est bu au bol sans utiliser de cuillère. 1. ↑ a et b (ja) Asahi Shinbun, « 味噌汁は » [« Soupe miso »], sur Kotobank,‎ (consulté le ). * Soupe miso, sur Wikimedia Commons * Histoire de la cuisine japonaise * Portail de la cuisine japonaise * Portail:Cuisine japonaise/Articles liés",
+            "score": 0.999998,
+            "raw_content": null,
+            "domain": "wikipedia.org",
+            "popularity_score": 3.5165082281731497,
+            "main_topic": "other"
+          },
+          {
+            "url": "https://www.gralon.net/articles/gastronomie-et-alimentation/regime-et-dietetique/article-la-soupe-miso---une-recette-japonaise-5273.htm",
+            "title": "La soupe miso : une recette japonaise",
+            "content": "* La soupe miso : une recette japonaise. Si vous êtes un habitué des restaurants japonais, vous avez sûrement déjà goûté la soupe miso, un savoureux bouillon généralement agrémenté d’algues, de lamelles de champignons et de dés de tofu. Nous vous proposons de découvrir une méthode facile pour préparer cette spécialité japonaise. La préparation de cette soupe japonaise nécessite certains ingrédients parfois difficiles à trouver : le **Miso** mais aussi le dashi (bouillon qui sert de base à la recette) et l'algue wakame. Tag : soupe miso, soupe miso recette, soupe de miso, soupe japonaise miso, cuisine japonaise, recette japonaise, la soupe miso, soupe japonaise, tofu, soupe miso instantanée, miso shiru , tofu, Eau, champignons, Soupe, miso, japonaise, bouillon, algues, ciboulette, Japonais, lyophilisée, potage, dashi, champignons de Paris, diététiques, Cuisine japonaise, algue, DES, condiment, bœuf, soja, asiatiques, petit déjeuner, robinet,. Les ingrédients principaux sont le miso, le tofu, les champignons et les algues.",
+            "score": 0.9999912,
+            "raw_content": null,
+            "domain": "gralon.net",
+            "popularity_score": 2.8360105486772773,
+            "main_topic": "other"
+          },
+          {
+            "url": "https://www.regal.fr/produits/saison/soupe-miso-1077072",
+            "title": "Soupe miso : recette japonaise | Régal",
+            "content": "Title: Soupe miso : recette japonaise | Régal\nRégal | Recette de cuisine, idée menu, inspiration & art de la table. * Idée repas saine et gourmande. # Soupe miso. Soupe miso japonaise  © Viel / Photocuisine. Publié le par  La rédaction de Régal. Découvrez notre recette de soupe miso maison ! Un mets japonais simple à préparer, très sain et gourmand ! Vous pouvez trouver tous les ingrédients dans les magasins bio. à votre liste de lecture. Voulez-vous le classer dans un dossier ? à votre liste de lecture. ## Préparation de la recette. Un affichage en plein écran de votre recette, pour vous accompagner. Commencez cette **recette de soupe miso** en diluant la préparation pour le bouillon dashi dans 10 cl d'eau chaude. Versez 1 litre d'eau dans une casserole et portez à ébullition. Ajoutez le bouillon dashi et le miso. Pendant ce temps, **coupez le tofu en petits cubes.** Pelez et émincez les cébettes. Coupez les feuilles de nori en petites bandelettes. Ajoutez **les bandelettes de nori, le tofu et la moitié des cébettes** dans le bouillon. En fin de cuisson, ajoutez la sauce soja, mélangez et répartissez dans six bols. ## Si vous avez aimé notre soupe miso... * Notre Nabe de champignons et tofu. * Notre bouillon miso à la courge, nouilles soba et champignons. Découvrez le goût du Japon avec notre menu du jeudi 10 octobre 2024 sur Régal.fr. Commencez par une réconfortante soupe miso, puis savourez des filets de poulet katsu croustillants. Commencez par une Soupe miso en entrée, suivi de délicieux Pavés de saumon en papillotes au chou pak choï en plat principal. Découvrez comment réaliser une recette de conserves de champignons sanguins à l'huile en suivant les étapes simples de notre préparation. Découvrez comment réaliser une recette de salade de potimarron en suivant les étapes simples de notre préparation. Un plat d'automne sain et gourmand, qui plaira à tous ! Découvrez comment préparer de délicieuses petites tourtes forestières aux champignons des bois, moutarde, ail, échalotes et persil. Un régal automnal à servir en entrée, en plat principal avec une salade, ou même en accompagnement d'une pièce de viande ou d'un poisson. En panne d'idée pour le dîner ? Découvrez notre recette facile et gourmande.",
+            "score": 0.9999901,
+            "raw_content": null,
+            "domain": "regal.fr",
+            "popularity_score": 1.1895840668738364,
+            "main_topic": "other"
+          },
+          {
+            "url": "https://laviechantilly.fr/5503recette-soupe-miso-japonaise-authentique-et-ses-variantes-maison-faciles",
+            "title": "Recette soupe miso japonaise authentique et ses variantes maison faciles",
+            "content": "Title: Recette soupe miso japonaise authentique et ses variantes maison faciles\n# Recette soupe miso japonaise authentique et ses variantes maison faciles. Published on septembre 6, 2025. La **soupe miso** est un pilier de la cuisine japonaise, à la fois simple et profonde en saveurs. Ce bouillon traditionnel, préparé à partir de pte de miso fermentée, offre un équilibre parfait entre umami, fraîcheur et réconfort. Appréciée quotidiennement au Japon comme plat d’accompagnement ou petit-déjeuner, cette préparation ancestrale gagne en popularité dans nos cuisines occidentales grce à ses saveurs uniques et ses nombreux bienfaits pour la santé. Découvrez comment préparer une **recette de soupe miso authentique** et ses délicieuses variantes adaptées à tous les goûts et régimes alimentaires. ## Introduction à la soupe miso. ### Origines et importance dans la cuisine japonaise. La **soupe miso traditionnelle** puise ses origines dans l’histoire millénaire du Japon. Apparue il y a plus de 1300 ans, elle est devenue un élément fondamental de la cuisine washoku, reconnue au patrimoine culturel immatériel de l’UNESCO. Cette soupe incarne parfaitement la philosophie culinaire japonaise qui célèbre la simplicité, la saisonnalité et l’harmonie des saveurs. * Quelles sont les différentes utilisations de la glace carbonique ?",
+            "score": 0.99998033,
+            "raw_content": null,
+            "domain": "laviechantilly.fr",
+            "popularity_score": 0.371563556432483,
+            "main_topic": "other"
+          },
+          {
+            "url": "https://www.750g.com/soupe-miso-r202074.htm",
+            "title": "Recette Soupe miso japonaise traditionnelle - 750g.com",
+            "content": "Title: Recette Soupe miso japonaise traditionnelle - 750g.com\n4.8 / 5 (18 notes). Vous regardez :  **Soupe miso japonaise traditionnelle**    Video 1 sur 15. Soupe miso japonaise traditionnelle - Adobe stock. ## Ingrédients (4 personnes). * 2 à 4 c à s de miso. * 1 tige d'algue kombu. * Copeaux Bonie séché (katsuobushi) : 1 poignée. ### Garniture :. * 1 c à s de pousses de bambou. * 1 poignée de nouille de riz. ## Préparation. Dans une casserole, déposez le kombu. Versez 1,2 litre d’eau. Laissez reposer pendant 20 minutes. Portez l’eau à ébullition. Retirez l’algue de la casserole. Taillez en btonnets la carotte. Réhydratez les champignons dans de l’eau tiède pendant 30 minutes. Dans une casserole, versez le bouillon dashi. Ajoutez les morceaux de poireau et les batonnets de carotte. Laissez mijoter à feu doux pendant 10 minutes. Ajoutez les pousses de bambou, les champignons et les nouilles. Diluez le miso dans un peu de bouillon. Hors du feu, ajoutez le miso dilué. Répartissez la soupe dans des bols. Saupoudrez de graines de sésame et de laitue de mer. ## Conseils. Voici une variante avec des cébettes. * Recettes de la cuisine japonaise.",
+            "score": 0.9999553,
+            "raw_content": null,
+            "domain": "750g.com",
+            "popularity_score": 1.6739764335716716,
+            "main_topic": "other"
+          }
+        ],
+        "response_time": 3.22,
+        "request_id": "c5297436-a3f1-434d-b661-3d43c943a791"
       },
-      "duration_ms": 105
+      "duration_ms": 3363
     },
     {
-      "offset_ms": 6371,
+      "offset_ms": 12609,
       "event": "stage_complete",
       "stage": "culinary-research",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 6367,
+      "duration_ms": 12606,
       "tokens": {
-        "prompt": 2441,
-        "completion": 591,
-        "total": 3032
+        "prompt": 7374,
+        "completion": 562,
+        "total": 7936
       },
       "tool_calls": [
         {
-          "id": "toolu_0118w9P27xKbWQD4XVXz8Jb1",
+          "id": "toolu_01PNtfbMPC7PtiQu8NnWUbqe",
           "name": "web_search-search",
-          "arguments": {
-            "query": "soupe miso hiver recette sans gluten réconfortante"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01Xwvyh1knkdssJsNxY79Q4h",
+          "id": "toolu_0188M57e5zuGZKqacgi8iFfM",
           "name": "web_search-search",
-          "arguments": {
-            "query": "miso soup winter ingredients techniques culinaires"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01P218gEALif24eSDBvVwXVj",
+          "id": "toolu_01CHEcdiu1QLqzKNXYkAhwKe",
           "name": "web_search-search",
-          "arguments": {
-            "query": "pâte miso context cultural Japanese cuisine"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         }
       ],
       "output": {
-        "topic_summary": "La soupe miso enrichie pour l'hiver est un bouillon japonais réconfortant à base de pâte miso, enrichi de protéines et légumes de saison. Cette version hivernale offre chaleur et saveurs umami intenses, parfaite pour 2 personnes avec peu d'ingrédients.",
-        "key_techniques": "Dissolution de la pâte miso en fin de cuisson (pour préserver les probiotiques), préparation d'un bouillon dashi ou simple, incorporation d'ingrédients riches (tofu, œuf, champignons), respect de la température pour préserver les qualités nutritionnelles.",
-        "cultural_context": "Issue de la tradition culinaire japonaise, la soupe miso est un élément fondamental de la cuisine nipponne depuis des siècles. En hiver, elle est enrichie avec des ingrédients plus substantiels pour offrir réconfort et chaleur, devenant un plat de bien-être traditionnel.",
-        "flavor_profile": "Profil saveur umami profond et salé, avec notes fermentées caractéristiques de la pâte miso. Légèrement riche en bouche grâce aux protéines, équilibré par la fraîcheur des algues nori et la douceur subtle des légumes."
-      }
+        "topic_summary": "La soupe miso enrichie pour l'hiver est un bouillon réconfortant à base de miso fermenté et de dashi, garni de tofu, légumes et algues. C'est un plat traditionnel japonais léger mais savoureux, parfait pour les journées froides, préparé rapidement avec peu d'ingrédients essentiels.",
+        "key_techniques": "Préparation du dashi (bouillon à base de kombu et katsuobushi), dilution du miso sans faire bouillir (préserve les enzymes et saveurs), ajout progressif des ingrédients selon leur temps de cuisson, consommation du bouillon directement au bol",
+        "cultural_context": "Plat fondamental de la cuisine washoku japonaise depuis plus de 1300 ans, reconnu au patrimoine culturel immatériel de l'UNESCO. Consommé quotidiennement au Japon comme accompagnement ou petit-déjeuner, incarnant la philosophie culinaire japonaise de simplicité, saisonnalité et harmonie des saveurs.",
+        "flavor_profile": "Saveurs umami profondes et savoreuses grâce au miso fermenté et au dashi riche en glutamate, légèrement salé et nutré. Équilibre subtil entre richesse umami, fraîcheur des légumes et légèreté du tofu soyeux, avec notes marines des algues wakame."
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 6372,
+      "offset_ms": 12610,
       "event": "stage_start",
       "stage": "ingredient-sourcing",
       "stage_index": 1,
@@ -168,98 +284,229 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 6374,
+      "offset_ms": 12611,
       "event": "stage_context",
       "stage": "ingredient-sourcing",
       "context_keys": {
         "input": 167,
-        "previous_stage_output": 1077
+        "previous_stage_output": 1150
       }
     },
     {
-      "offset_ms": 7607,
+      "offset_ms": 14079,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "soupe miso enrichie hiver recette ingrédients dashi"
+        "query": "soupe miso hiver ingrédients recette japonaise authentique"
       }
     },
     {
-      "offset_ms": 7736,
+      "offset_ms": 15375,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "soupe miso hiver ingrédients recette japonaise authentique",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.cuisine-japon.fr/la-soupe-miso-ou-misoshiru",
+            "title": "Soupe miso, incontournable au Japon",
+            "content": "Comme son nom l'indique son ingrédient principal est le miso, une pâte de soja, de riz ou d'orge fermentée. Il existe plusieurs types de miso,",
+            "score": 0.9999707,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_o8dZbg_iEU",
+            "title": "MISO SOUP (Japanese Recipe) - YouTube",
+            "content": "La liste des ingrédients est donnée ci-dessous. Pour la recette détaillée, rendez-vous sur mon site web (https://tradicuisine.com).",
+            "score": 0.99995494,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.nishikidori.com/fr/blog/soupe-miso-aux-legumes--n28",
+            "title": "Véritable Recette de la Soupe Miso Traditionnelle Japonaise",
+            "content": "Ingrédients pour 4 personnes (La liste de courses) · - 800 ml d'eau de source · - 1 morceau d'algue kombu (environ 10 cm) : ref NISAMNS2 ou",
+            "score": 0.9999145,
+            "raw_content": null
+          },
+          {
+            "url": "https://marcwiner.com/soupe-miso",
+            "title": "Authentique soupe miso meilleure qu'au restaurant - Marc Winer",
+            "content": "Ingrédients · 400 ml d'eau · 1 cuillère à soupe de dashi l'équivalent en cuillère à café si c'est du dashi en poudre · 2 cuillères à soupe de pâte",
+            "score": 0.9999076,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/DWjgPG8sseu",
+            "title": "La vraie soupe miso, ça commence ici ! Un bouillon délicat, du miso ...",
+            "content": "Le riz et la soupe au miso sont des incontournables de la table japonaise. Chaque famille a sa propre recette de soupe au miso, ce qui fait que",
+            "score": 0.99980897,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.14,
+        "request_id": "26c197a8-732c-44c2-a5d9-28762e7b5546"
       },
-      "duration_ms": 129
+      "duration_ms": 1296
     },
     {
-      "offset_ms": 7737,
+      "offset_ms": 15375,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "miso soup winter recipe 2 servings gluten free"
+        "query": "dashi kombu katsuobushi glutenfree sans gluten"
       }
     },
     {
-      "offset_ms": 7873,
+      "offset_ms": 16433,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "dashi kombu katsuobushi glutenfree sans gluten",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.instagram.com/reel/CnQqV7pqi7C?hl=en",
+            "title": "homemade dashi ~ One of the most commonly used ... - Instagram",
+            "content": "4 cups water, 15g kombu, dried kelp katsuobushi, dried bonito flakes, 5 large dried anchovies, gutted. Soak the kombu in 4 cups of water for at least an hour,",
+            "score": 0.9914225,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/CooksIllustrated/posts/the-key-to-making-homemade-seafood-dashi-awase-dashi-on-demand-is-to-store-your-/860037902835490",
+            "title": "The key to making homemade seafood dashi (awase ... - Facebook",
+            "content": "Asian-Style Dashi Stock Ingredients: 1 piece kombu seaweed (6 inches) 1 cup bonito flakes (katsuobushi) 4 cups cold water 2 shiitake mushrooms,",
+            "score": 0.9876639,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.thewasabicompany.co.uk/blogs/journal/dashi-making-your-own",
+            "title": "Making Your Own Dashi | How to | The Wasabi Company",
+            "content": "Gather your dashi ingredients: Start with high-quality kombu (dried kelp) and katsuobushi (dried bonito flakes). The ratio typically used is one",
+            "score": 0.9763105,
+            "raw_content": null
+          },
+          {
+            "url": "https://umamito.com/products/satori-dashi-hon-kare-katsuobushi",
+            "title": "Satori Dashi (Hon-Kare Katsuobushi) (10g packet x 5)",
+            "content": "This premium dashi pack is made exclusively from high-grade bonito weighing over 4.5kg, caught and processed in Makurazaki, Kagoshima. The fish is transformed",
+            "score": 0.96182173,
+            "raw_content": null
+          },
+          {
+            "url": "https://norecipes.com/how-to-make-dashi",
+            "title": "Easy Dashi Recipe: How to Make Japanese Soup Stock From Scratch",
+            "content": "# Dashi Recipe. The first time I made dashi from scratch, I understood why my grandmother never used instant. If you want your miso soup, noodle soups, and simmered dishes to taste like they do in Japan, learning to make proper dashi is the single most important skill you can develop. It's the invisible backbone of Japanese cuisine, present in everything from a humble bowl of homemade miso soup to noodle shop udon or soba, to the most refined kaiseki meals. There's something meditative about watching the simple broth come together from just two ingredients: *kombu* and *katsuobushi*. You don't boil the kombu or simmer the katsuobushi. You coax the flavor out gently, and the result is a broth so clean and balanced you'll want to drink it straight from the pot. By bringing the kombu dashi to a boil and then turning off the heat, you extract the clean, smoky flavor without the acrid notes.",
+            "score": 0.9207897,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.91,
+        "request_id": "5c0c616c-548b-4fc5-a71d-de60d747e46b"
       },
-      "duration_ms": 136
+      "duration_ms": 1058
     },
     {
-      "offset_ms": 13275,
+      "offset_ms": 16434,
+      "event": "tool_call_start",
+      "tool": "web_search-search",
+      "params": {
+        "query": "miso soupe tofu wakame quantités pour 2 personnes"
+      }
+    },
+    {
+      "offset_ms": 17533,
+      "event": "tool_call_complete",
+      "tool": "web_search-search",
+      "result": {
+        "query": "miso soupe tofu wakame quantités pour 2 personnes",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://helloasia.ch/blogs/new/soupe-miso",
+            "title": "Soupe Miso – Une Recette Facile et Saine à Réaliser Chez Soi",
+            "content": "Pâte miso : 2 cuillères à soupe (miso rouge ou miso blanc, selon votre goût). Tofu soyeux : 100 g, coupé en petits cubes. Algue wakame séchée :",
+            "score": 0.99983656,
+            "raw_content": null
+          },
+          {
+            "url": "https://bluedotliving.com/recipe-miso-soup-with-wakame-seaweed-tofu-and-mushrooms",
+            "title": "RECIPE: Miso Soup with Wakame Seaweed, Tofu, and Mushrooms",
+            "content": "1/4 cup sweet white miso paste; 4 ounces enoki mushrooms, ends trimmed; 1/2 pound firm tofu, drained well and cut into",
+            "score": 0.99978346,
+            "raw_content": null
+          },
+          {
+            "url": "https://toirokitchen.com/blogs/recipes/tofu-and-wakame-miso-soup",
+            "title": "Tofu and Wakame Miso Soup - TOIRO",
+            "content": "3 1/3 cups (800 ml) dashi · 14 oz (400 g) soft or medium-firm tofu, cut into cubes · 3 1/2 to 4 tablespoons miso · 1 cup (240 ml) salt-preserved wakame seaweed,",
+            "score": 0.99978,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.universalyums.com/recipes/miso-soup-with-tofu-and-wakame",
+            "title": "Miso Soup with Tofu and Wakame | Universal Yums",
+            "content": "Miso Soup with Tofu and Wakame. Miso soup is an essential part of everyday Japanese meals. Many Japanese people drink miso soup daily, and for me, it is one of the most comforting foods. My mother used to make it for me every day, and it remains one of my favorite dishes. It represents warmth, home, and the heart of Japanese home cooking. * 1 teaspoon dashi granules (Japanese soup stock) or 1 cup. * 1/4 cup wakame (dried seaweed, rehydrated in water for a. * 1/2 block silken tofu, cut into small cubes. 1. In a small pot, bring 2 cups of water to a gentle boil. 2. Add dashi granules (or prepared dashi stock) and stir to. 4. Reduce heat to low, then add the cubed tofu and rehydrated. Heat gently for 2–3 minutes. 5. Remove a small amount of hot soup into a bowl, dissolve the. miso paste in it, then return it to the pot.",
+            "score": 0.99974483,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.pccmarkets.com/recipe/tofu-and-wakame-miso-soup",
+            "title": "Tofu and Wakame Miso Soup recipe | PCC Community Markets",
+            "content": "# Tofu and Wakame Miso Soup. ### \\*To make 3 cups dashi. Soak wakame in water for 5 minutes and drain. Put kombu dashi in a medium-size pot. Heat over medium-high until dashi begins to boil. Turn the heat down to low, add in miso paste and stir to dissolve it in dashi. Add tofu and cook for a few minutes until it’s just cooked. If you do not serve it right away, warm up the miso soup when it’s ready to serve. Overheating the miso soup after the miso is added diminishes the wonderful miso flavor. In a medium-size pot, put in water and kombu. If you can soak the kombu in water for a few hours in advance, you’ll get a richer flavor (but it’s not required). Heat the pot over medium heat for about 10 minutes or until the water just begins to boil, then turn off the heat. ### Recipes related to Tofu and Wakame Miso Soup.",
+            "score": 0.99933845,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.95,
+        "request_id": "254211a6-3d90-43e9-ba99-3167da0ef67a"
+      },
+      "duration_ms": 1099
+    },
+    {
+      "offset_ms": 23005,
       "event": "stage_complete",
       "stage": "ingredient-sourcing",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 6902,
+      "duration_ms": 10395,
       "tokens": {
-        "prompt": 2951,
-        "completion": 679,
-        "total": 3630
+        "prompt": 5620,
+        "completion": 708,
+        "total": 6328
       },
       "tool_calls": [
         {
-          "id": "toolu_017Dr6VzEXwxwCjCMCKw44eS",
+          "id": "toolu_01DV6E4w1nvFGTChXZKKAUSE",
           "name": "web_search-search",
-          "arguments": {
-            "query": "soupe miso enrichie hiver recette ingrédients dashi"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_011hQUwMHYSFdvLho53m2cie",
+          "id": "toolu_01AQDcPV1Z3XuEK8xrdYNHck",
           "name": "web_search-search",
-          "arguments": {
-            "query": "miso soup winter recipe 2 servings gluten free"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
+        },
+        {
+          "id": "toolu_013pSvSaDYgGDCg83xSu9F1T",
+          "name": "web_search-search",
+          "truncated": true
         }
       ],
       "output": {
-        "ingredients_list": "[{\"ingredient\": \"Pâte miso (blanc ou mixte)\", \"quantity\": \"2-3\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Dashi ou bouillon de légumes\", \"quantity\": \"500\", \"unit\": \"ml\"}, {\"ingredient\": \"Tofu soyeux\", \"quantity\": \"150\", \"unit\": \"g\"}, {\"ingredient\": \"Champignons shiitaké\", \"quantity\": \"100\", \"unit\": \"g\"}, {\"ingredient\": \"Œuf\", \"quantity\": \"1\", \"unit\": \"pièce\"}, {\"ingredient\": \"Algue nori\", \"quantity\": \"1\", \"unit\": \"feuille\"}, {\"ingredient\": \"Eau\", \"quantity\": \"250\", \"unit\": \"ml\"}, {\"ingredient\": \"Oignon vert\", \"quantity\": \"1\", \"unit\": \"tige\"}]",
-        "substitutions": "Pâte miso sans gluten certifiée (vérifier l'étiquette - la plupart sont naturellement sans gluten mais peuvent contenir des traces) | Dashi : bouillon kombu-bonite certifié sans gluten ou simple bouillon de légumes maison | Tofu soyeux : poulet effiloché ou œuf supplémentaire pour les protéines | Champignons shiitaké : champignons de Paris ou enoki",
-        "sourcing_notes": "Pâte miso : trouver en magasins asiatiques, rayon bio ou en ligne ; privilégier les versions non pasteurisées pour les probiotiques. Dashi kombu-bonite : magasins asiatiques ou épiceries fines. Tofu soyeux : rayon frais asiatique ou réfrigéré. Champignons shiitaké : frais en magasin bio ou surgelés en asiatique."
-      }
+        "ingredients_list": "[{\"ingredient\": \"Eau\", \"quantity\": \"500 ml\"}, {\"ingredient\": \"Kombu (algue séchée)\", \"quantity\": \"5 g (morceau 5 cm)\"}, {\"ingredient\": \"Katsuobushi (flocons de bonite séchée)\", \"quantity\": \"5 g\"}, {\"ingredient\": \"Pâte miso (rouge ou blanche)\", \"quantity\": \"3-4 cuillères à soupe (40-50 g)\"}, {\"ingredient\": \"Tofu soyeux\", \"quantity\": \"150-200 g\"}, {\"ingredient\": \"Wakame (algue séchée)\", \"quantity\": \"5-10 g\"}]",
+        "substitutions": "[{\"ingredient\": \"Dashi en poudre\", \"alternative\": \"Peut remplacer kombu+katsuobushi (1 cuillère à café pour 500 ml d'eau) pour gain de temps\"}, {\"ingredient\": \"Miso blanc doux\", \"alternative\": \"Alternative au miso rouge si préférence pour saveur moins intense\"}, {\"ingredient\": \"Tofu soyeux\", \"alternative\": \"Tofu ferme si indisponible (texture moins délicate mais acceptable)\"}, {\"ingredient\": \"Wakame\", \"alternative\": \"Nori ou autre algue comestible si wakame indisponible\"}]",
+        "sourcing_notes": "Kombu et katsuobushi : ingrédients spécialisés disponibles en magasins asiatiques ou en ligne, essentiels pour dashi authentique sans gluten. Pâte miso : vérifier l'absence de gluten sur l'étiquette (certaines marques contiennent de l'orge). Tofu soyeux : trouver en rayon réfrigéré des épiceries asiatiques ou rayon frais des supermarchés. Wakame : algue séchée disponible en magasins spécialisés, peut se conserver plusieurs mois."
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 13275,
+      "offset_ms": 23006,
       "event": "stage_start",
       "stage": "nutritional-profile",
       "stage_index": 2,
@@ -267,311 +514,49 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 13277,
+      "offset_ms": 23007,
       "event": "stage_context",
       "stage": "nutritional-profile",
       "context_keys": {
         "input": 167,
-        "previous_stage_output": 1374
+        "previous_stage_output": 1461
       }
     },
     {
-      "offset_ms": 25731,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Soupe miso enrichie pour l'hiver",
-          "cuisine": "Japonaise",
-          "timeMinutes": 15,
-          "portions": 2,
-          "emoji": "🍲",
-          "ingredients": [
-            {
-              "name": "Pâte miso (blanc ou mixte)",
-              "quantity": "2-3",
-              "unit": "cuillères à soupe",
-              "group": "Base"
-            },
-            {
-              "name": "Dashi ou bouillon de légumes",
-              "quantity": "500",
-              "unit": "ml",
-              "group": "Base"
-            },
-            {
-              "name": "Tofu soyeux",
-              "quantity": "150",
-              "unit": "g",
-              "group": "Protéines"
-            },
-            {
-              "name": "Champignons shiitaké",
-              "quantity": "100",
-              "unit": "g",
-              "group": "Légumes"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "1",
-              "unit": "pièce",
-              "group": "Protéines"
-            },
-            {
-              "name": "Algue nori",
-              "quantity": "1",
-              "unit": "feuille",
-              "group": "Garniture"
-            },
-            {
-              "name": "Eau",
-              "quantity": "250",
-              "unit": "ml",
-              "group": "Base"
-            },
-            {
-              "name": "Oignon vert",
-              "quantity": "1",
-              "unit": "tige",
-              "group": "Garniture"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparer le bouillon",
-              "instructions": [
-                "Verser 500 ml de dashi ou bouillon de légumes dans une casserole",
-                "Porter à frémissement (ne pas bouillir pour préserver les probiotiques du miso)"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 2,
-              "title": "Préparer les ingrédients",
-              "instructions": [
-                "Couper le tofu soyeux en cubes de 2 cm",
-                "Émincer les champignons shiitaké",
-                "Ciseler l'oignon vert",
-                "Délayer la pâte miso (2-3 cuillères à soupe) dans 250 ml d'eau froide"
-              ],
-              "durationMinutes": 4
-            },
-            {
-              "order": 3,
-              "title": "Assembler la soupe",
-              "instructions": [
-                "Retirer le bouillon du feu avant qu'il ne bouille",
-                "Ajouter délicatement le mélange miso-eau en remuant",
-                "Ajouter les champignons et le tofu",
-                "Laisser mijoter 3-4 minutes"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 4,
-              "title": "Finition",
-              "instructions": [
-                "Battre l'œuf légèrement",
-                "En filet mince, verser l'œuf dans la soupe en remuant (il va cuire en filaments)",
-                "Garnir d'algue nori et d'oignon vert",
-                "Servir immédiatement"
-              ],
-              "durationMinutes": 3
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Ne pas faire bouillir la pâte miso après la dissolution pour conserver les probiotiques",
-              "Utiliser du miso blanc certifié sans gluten si régime strictement sans gluten",
-              "L'œuf en filaments enrichit en protéines et crée une texture réconfortante"
-            ],
-            "variations": [
-              "Ajouter du poulet effiloché (80g) pour plus de protéines",
-              "Remplacer le tofu par des crevettes (80g) pour variant protéiné",
-              "Incorporer des nouilles soba sans gluten pour plus de satiété"
-            ],
-            "conservation": "Conserver le miso délayé séparément du bouillon chaud (jusqu'à 2 jours au réfrigérateur). Réchauffer le bouillon et le miso séparément avant mélange",
-            "nutrition": "Riche en probiotiques (miso), minéraux (algue, champignons), protéines équilibrées (tofu + œuf). Peu calorique, réchauffant, idéal hiver"
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 26966,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpeso9x00000jhijntgh9vya",
-        "title": "Soupe miso enrichie pour l'hiver"
-      },
-      "duration_ms": 1235
-    },
-    {
-      "offset_ms": 29623,
+      "offset_ms": 33592,
       "event": "stage_complete",
       "stage": "nutritional-profile",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 16348,
+      "duration_ms": 10586,
       "tokens": {
-        "prompt": 7022,
-        "completion": 1550,
-        "total": 8572
+        "prompt": 7075,
+        "completion": 1230,
+        "total": 8305
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01JTf3Dy4y3MSXpzpU3vkhWG",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Soupe miso enrichie pour l'hiver",
-              "cuisine": "Japonaise",
-              "timeMinutes": 15,
-              "portions": 2,
-              "emoji": "🍲",
-              "ingredients": [
-                {
-                  "name": "Pâte miso (blanc ou mixte)",
-                  "quantity": "2-3",
-                  "unit": "cuillères à soupe",
-                  "group": "Base"
-                },
-                {
-                  "name": "Dashi ou bouillon de légumes",
-                  "quantity": "500",
-                  "unit": "ml",
-                  "group": "Base"
-                },
-                {
-                  "name": "Tofu soyeux",
-                  "quantity": "150",
-                  "unit": "g",
-                  "group": "Protéines"
-                },
-                {
-                  "name": "Champignons shiitaké",
-                  "quantity": "100",
-                  "unit": "g",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Œuf",
-                  "quantity": "1",
-                  "unit": "pièce",
-                  "group": "Protéines"
-                },
-                {
-                  "name": "Algue nori",
-                  "quantity": "1",
-                  "unit": "feuille",
-                  "group": "Garniture"
-                },
-                {
-                  "name": "Eau",
-                  "quantity": "250",
-                  "unit": "ml",
-                  "group": "Base"
-                },
-                {
-                  "name": "Oignon vert",
-                  "quantity": "1",
-                  "unit": "tige",
-                  "group": "Garniture"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparer le bouillon",
-                  "instructions": [
-                    "Verser 500 ml de dashi ou bouillon de légumes dans une casserole",
-                    "Porter à frémissement (ne pas bouillir pour préserver les probiotiques du miso)"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 2,
-                  "title": "Préparer les ingrédients",
-                  "instructions": [
-                    "Couper le tofu soyeux en cubes de 2 cm",
-                    "Émincer les champignons shiitaké",
-                    "Ciseler l'oignon vert",
-                    "Délayer la pâte miso (2-3 cuillères à soupe) dans 250 ml d'eau froide"
-                  ],
-                  "durationMinutes": 4
-                },
-                {
-                  "order": 3,
-                  "title": "Assembler la soupe",
-                  "instructions": [
-                    "Retirer le bouillon du feu avant qu'il ne bouille",
-                    "Ajouter délicatement le mélange miso-eau en remuant",
-                    "Ajouter les champignons et le tofu",
-                    "Laisser mijoter 3-4 minutes"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 4,
-                  "title": "Finition",
-                  "instructions": [
-                    "Battre l'œuf légèrement",
-                    "En filet mince, verser l'œuf dans la soupe en remuant (il va cuire en filaments)",
-                    "Garnir d'algue nori et d'oignon vert",
-                    "Servir immédiatement"
-                  ],
-                  "durationMinutes": 3
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Ne pas faire bouillir la pâte miso après la dissolution pour conserver les probiotiques",
-                  "Utiliser du miso blanc certifié sans gluten si régime strictement sans gluten",
-                  "L'œuf en filaments enrichit en protéines et crée une texture réconfortante"
-                ],
-                "variations": [
-                  "Ajouter du poulet effiloché (80g) pour plus de protéines",
-                  "Remplacer le tofu par des crevettes (80g) pour variant protéiné",
-                  "Incorporer des nouilles soba sans gluten pour plus de satiété"
-                ],
-                "conservation": "Conserver le miso délayé séparément du bouillon chaud (jusqu'à 2 jours au réfrigérateur). Réchauffer le bouillon et le miso séparément avant mélange",
-                "nutrition": "Riche en probiotiques (miso), minéraux (algue, champignons), protéines équilibrées (tofu + œuf). Peu calorique, réchauffant, idéal hiver"
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpeso9x00000jhijntgh9vya",
-            "title": "Soupe miso enrichie pour l'hiver"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "macros": "protéines: 12g, glucides: 8g, lipides: 5g",
-        "allergens": "soja (miso), œuf, mollusques/crustacés (dashi kombu-bonite - traces possibles)",
-        "dietary_flags": "sans gluten (si miso certifié), riche en probiotiques (miso non pasteurisé), réconfortant, peu d'ingrédients",
-        "adjustment_recommendations": "Pour renforcer les protéines et la texture : augmenter le tofu soyeux à 200g ou ajouter l'œuf en œuf mollet. Pour plus de saveur umami : ajouter 1 cuillère à café de sauce tamari (sans gluten) ou augmenter le miso à 3 cuillères à soupe."
+        "macros": "protéines: 8g, glucides: 6g, lipides: 3g",
+        "allergens": "soja, poisson (katsuobushi)",
+        "dietary_flags": "sans gluten, vegan possible (avec substitution miso), riche en probiotiques",
+        "adjustment_recommendations": "Ajouter protéines: envisager œuf poché ou edamame pour renforcer satiété. Enrichir en légumes: champignons shiitake ou navet pour plus de volume et nutrients."
       }
     },
     {
-      "offset_ms": 29625,
+      "offset_ms": 33592,
       "event": "group_start",
       "group": "recipe-refinement",
       "max_iterations": 3
     },
     {
-      "offset_ms": 29625,
+      "offset_ms": 33592,
       "event": "group_iteration",
       "group": "recipe-refinement",
       "iteration": 1,
       "max_iterations": 3
     },
     {
-      "offset_ms": 29625,
+      "offset_ms": 33593,
       "event": "stage_start",
       "stage": "recipe-drafting",
       "stage_index": 3,
@@ -579,16 +564,16 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 29627,
+      "offset_ms": 33594,
       "event": "stage_context",
       "stage": "recipe-drafting",
       "context_keys": {
         "input": 167,
-        "previous_stage_output": 2993
+        "previous_stage_output": 2990
       }
     },
     {
-      "offset_ms": 43167,
+      "offset_ms": 43879,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
@@ -599,163 +584,114 @@
           "timeMinutes": 20,
           "portions": 2,
           "emoji": "🍲",
-          "calories": 180,
+          "calories": 150,
           "ingredients": [
             {
-              "name": "Pâte miso blanc ou mixte (sans gluten certifié)",
-              "quantity": "2.5",
-              "unit": "cuillères à soupe"
-            },
-            {
-              "name": "Dashi ou bouillon de légumes",
-              "quantity": "500",
-              "unit": "ml"
-            },
-            {
               "name": "Eau",
-              "quantity": "250",
-              "unit": "ml"
+              "quantity": "500 ml"
+            },
+            {
+              "name": "Kombu (algue séchée)",
+              "quantity": "5 g (morceau 5 cm)"
+            },
+            {
+              "name": "Katsuobushi (flocons de bonite séchée)",
+              "quantity": "5 g"
+            },
+            {
+              "name": "Pâte miso rouge ou blanche",
+              "quantity": "40-50 g (3-4 cuillères à soupe)",
+              "group": "Base"
             },
             {
               "name": "Tofu soyeux",
-              "quantity": "150",
-              "unit": "g"
+              "quantity": "150-200 g"
             },
             {
-              "name": "Champignons shiitaké frais",
-              "quantity": "100",
-              "unit": "g"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "1",
-              "unit": "pièce"
-            },
-            {
-              "name": "Algue nori",
-              "quantity": "1",
-              "unit": "feuille"
-            },
-            {
-              "name": "Oignon vert",
-              "quantity": "1",
-              "unit": "tige"
+              "name": "Wakame (algue séchée)",
+              "quantity": "5-10 g"
             }
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Préparation du bouillon",
+              "title": "Préparation du dashi",
               "instructions": [
-                "Versez 500 ml de dashi (ou bouillon de légumes) dans une casserole moyenne.",
-                "Ajoutez 250 ml d'eau.",
-                "Portez le liquide à frémissement (ne pas faire bouillir vigoureusement).",
-                "Chauffez à feu moyen pendant 3-4 minutes pour préserver les qualités nutritionnelles."
+                "Porter 500 ml d'eau à feu moyen",
+                "Ajouter le morceau de kombu et laisser infuser 5-10 minutes sans faire bouillir",
+                "Retirer le kombu juste avant l'ébullition",
+                "Ajouter les flocons de katsuobushi et laisser infuser 2-3 minutes",
+                "Filtrer le bouillon à travers une passoire fine pour obtenir un dashi clair et riche"
               ],
-              "durationMinutes": 5
+              "durationMinutes": 15
             },
             {
               "order": 2,
-              "title": "Préparation des ingrédients",
+              "title": "Préparation des garnitures",
               "instructions": [
-                "Découpez le tofu soyeux en petits cubes (environ 1,5 cm de côté).",
-                "Émincez finement les champignons shiitaké.",
-                "Ciselez l'oignon vert en fines rondelles.",
-                "Déchirez la feuille de nori en petits morceaux avec les mains."
+                "Réhydrater le wakame dans un peu d'eau tiède pendant 2-3 minutes",
+                "Couper le tofu soyeux en cubes de taille moyenne (environ 2 cm)"
               ],
-              "durationMinutes": 5
+              "durationMinutes": 3
             },
             {
               "order": 3,
-              "title": "Cuisson des champignons et tofu",
+              "title": "Finition et assemblage",
               "instructions": [
-                "Versez les champignons émincés dans le bouillon frémissant.",
-                "Laissez cuire 2-3 minutes pour libérer les saveurs umami.",
-                "Ajoutez les cubes de tofu soyeux délicatement.",
-                "Continuez la cuisson 2 minutes sans ébullition vigoureuse."
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 4,
-              "title": "Cuisson de l'œuf",
-              "instructions": [
-                "Cassez l'œuf dans un petit bol et battez-le légèrement.",
-                "Versez-le lentement dans le bouillon chaud en remuant doucement avec une fourchette pour créer des fils d'œuf.",
-                "Laissez cuire 30 secondes à 1 minute."
+                "Verser le dashi chaud dans deux bols à soupe",
+                "Ajouter progressivement la pâte miso (40-50 g) en la diluant d'abord dans une petite louche de dashi tiède",
+                "Verser la pâte diluée dans le dashi sans faire bouillir le bouillon (préserve les enzymes et saveurs)",
+                "Ajouter les cubes de tofu soyeux et le wakame réhydraté",
+                "Servir immédiatement pour préserver la texture du tofu et la fraîcheur des arômes"
               ],
               "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Incorporation de la pâte miso",
-              "instructions": [
-                "Retirez la casserole du feu.",
-                "Prélevez 2-3 cuillères à soupe de bouillon chaud dans un petit bol.",
-                "Diluez la pâte miso (2,5 cuillères à soupe) dans ce bouillon prélevé en remuant bien pour éviter les grumeaux.",
-                "Versez la pâte miso diluée dans la casserole en remuant doucement.",
-                "NE PAS faire bouillir après l'ajout du miso pour préserver les probiotiques."
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 6,
-              "title": "Finition et service",
-              "instructions": [
-                "Versez la soupe dans deux bols profonds.",
-                "Garnissez généreusement d'oignon vert frais.",
-                "Saupoudrez les morceaux de nori sur le dessus.",
-                "Servez immédiatement, pendant que la soupe est bien chaude."
-              ],
-              "durationMinutes": 1
             }
           ],
           "notes": {
             "chef": [
-              "La clé est de ne pas faire bouillir vigoureusement le bouillon après l'ajout du miso pour préserver les probiotiques bénéfiques.",
-              "Utiliser une pâte miso certifiée sans gluten, car bien que naturellement sans gluten, certaines marques peuvent contenir des traces.",
-              "La dissolution préalable de la pâte miso évite les grumeaux et assure une répartition homogène.",
-              "Cette soupe se prépare mieux fraîche et se déguste immédiatement pour maximum de saveur et de nutriments."
+              "Ne pas faire bouillir la pâte miso une fois ajoutée pour préserver ses propriétés probiotiques et son umami délicat",
+              "La qualité du dashi est fondamentale : utilisez des ingrédients frais et de bonne qualité (kombu et katsuobushi sans additifs)",
+              "Pour une version plus riche et réconfortante, ajouter des champignons shiitake ou un œuf poché",
+              "Vérifier que la pâte miso est garantie sans gluten (certaines marques contiennent de l'orge ou d'autres céréales)"
             ],
             "variations": [
-              "Version plus riche : augmenter le tofu à 200g ou ajouter un second œuf poché sur le dessus.",
-              "Protéines alternatives : remplacer le tofu par 100g de poulet effiloché cuit, ou ajouter des crevettes.",
-              "Umami intensifié : ajouter 1 cuillère à café de sauce tamari sans gluten ou augmenter le miso à 3 cuillères à soupe.",
-              "Champignons alternatifs : utiliser des champignons de Paris, enoki, ou un mélange de champignons.",
-              "Version végétale complète : retirer l'œuf et augmenter le tofu, ou ajouter du miso de pois chiche pour plus de protéines."
+              "Version vegan : utiliser du miso blanc pur certifié vegan et substituer le katsuobushi par du dashi en poudre d'origine végétale",
+              "Avec protéines : ajouter un œuf poché, des edamame cuites ou du tofu ferme pour plus de satiété",
+              "Version enrichie : ajouter des champignons shiitake sautés, du navet en julienne ou des pousses de soja pour plus de volume et de nutrients",
+              "Miso blanc doux : utiliser pour une soupe moins intense et plus délicate, idéale si miso rouge trop salé"
             ],
-            "conservation": "À consommer fraîche et chaude. Les restes se conservent 2 jours au réfrigérateur dans un récipient hermétique, mais il est préférable de ne pas conserver longtemps pour maintenir les qualités probiotiques du miso non pasteurisé.",
-            "nutrition": "Protéines: 12g, Glucides: 8g, Lipides: 5g par portion. Riche en probiotiques (si miso non pasteurisé), minéraux essentiels et acides aminés complets grâce au mélange tofu-œuf. Peu de calories (environ 180 kcal), très réconfortante et nutritive pour l'hiver."
+            "conservation": "À consommer immédiatement après préparation. Le tofu soyeux ne se conserve pas bien une fois cuit. Les composants peuvent être préparés séparément et assemblés au moment de servir.",
+            "nutrition": "Riche en protéines (8g), probiotiques du miso fermenté, minéraux des algues, umami savoureux du dashi. Léger en calories (150 kcal par portion), sans gluten. Ajouter des œufs ou edamame pour augmenter les protéines et la satiété."
           }
         }
       }
     },
     {
-      "offset_ms": 44445,
+      "offset_ms": 44893,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpesongd0000dlij3emy79b0",
+        "id": "cmpfruatq0000mzijd40427ms",
         "title": "Soupe miso enrichie pour l'hiver"
       },
-      "duration_ms": 1278
+      "duration_ms": 1014
     },
     {
-      "offset_ms": 55217,
+      "offset_ms": 51074,
       "event": "stage_complete",
       "stage": "recipe-drafting",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 25591,
+      "duration_ms": 17482,
       "tokens": {
-        "prompt": 5473,
-        "completion": 2779,
-        "total": 8252
+        "prompt": 5445,
+        "completion": 2144,
+        "total": 7589
       },
       "tool_calls": [
         {
-          "id": "toolu_018wFRUQR5Lsf2Q9BkynNNJ7",
+          "id": "toolu_01YMRLxYXsYffw4DKMBp6rVX",
           "name": "db-upsert_recipe",
           "arguments": {
             "data": {
@@ -765,139 +701,90 @@
               "timeMinutes": 20,
               "portions": 2,
               "emoji": "🍲",
-              "calories": 180,
+              "calories": 150,
               "ingredients": [
                 {
-                  "name": "Pâte miso blanc ou mixte (sans gluten certifié)",
-                  "quantity": "2.5",
-                  "unit": "cuillères à soupe"
-                },
-                {
-                  "name": "Dashi ou bouillon de légumes",
-                  "quantity": "500",
-                  "unit": "ml"
-                },
-                {
                   "name": "Eau",
-                  "quantity": "250",
-                  "unit": "ml"
+                  "quantity": "500 ml"
+                },
+                {
+                  "name": "Kombu (algue séchée)",
+                  "quantity": "5 g (morceau 5 cm)"
+                },
+                {
+                  "name": "Katsuobushi (flocons de bonite séchée)",
+                  "quantity": "5 g"
+                },
+                {
+                  "name": "Pâte miso rouge ou blanche",
+                  "quantity": "40-50 g (3-4 cuillères à soupe)",
+                  "group": "Base"
                 },
                 {
                   "name": "Tofu soyeux",
-                  "quantity": "150",
-                  "unit": "g"
+                  "quantity": "150-200 g"
                 },
                 {
-                  "name": "Champignons shiitaké frais",
-                  "quantity": "100",
-                  "unit": "g"
-                },
-                {
-                  "name": "Œuf",
-                  "quantity": "1",
-                  "unit": "pièce"
-                },
-                {
-                  "name": "Algue nori",
-                  "quantity": "1",
-                  "unit": "feuille"
-                },
-                {
-                  "name": "Oignon vert",
-                  "quantity": "1",
-                  "unit": "tige"
+                  "name": "Wakame (algue séchée)",
+                  "quantity": "5-10 g"
                 }
               ],
               "steps": [
                 {
                   "order": 1,
-                  "title": "Préparation du bouillon",
+                  "title": "Préparation du dashi",
                   "instructions": [
-                    "Versez 500 ml de dashi (ou bouillon de légumes) dans une casserole moyenne.",
-                    "Ajoutez 250 ml d'eau.",
-                    "Portez le liquide à frémissement (ne pas faire bouillir vigoureusement).",
-                    "Chauffez à feu moyen pendant 3-4 minutes pour préserver les qualités nutritionnelles."
+                    "Porter 500 ml d'eau à feu moyen",
+                    "Ajouter le morceau de kombu et laisser infuser 5-10 minutes sans faire bouillir",
+                    "Retirer le kombu juste avant l'ébullition",
+                    "Ajouter les flocons de katsuobushi et laisser infuser 2-3 minutes",
+                    "Filtrer le bouillon à travers une passoire fine pour obtenir un dashi clair et riche"
                   ],
-                  "durationMinutes": 5
+                  "durationMinutes": 15
                 },
                 {
                   "order": 2,
-                  "title": "Préparation des ingrédients",
+                  "title": "Préparation des garnitures",
                   "instructions": [
-                    "Découpez le tofu soyeux en petits cubes (environ 1,5 cm de côté).",
-                    "Émincez finement les champignons shiitaké.",
-                    "Ciselez l'oignon vert en fines rondelles.",
-                    "Déchirez la feuille de nori en petits morceaux avec les mains."
+                    "Réhydrater le wakame dans un peu d'eau tiède pendant 2-3 minutes",
+                    "Couper le tofu soyeux en cubes de taille moyenne (environ 2 cm)"
                   ],
-                  "durationMinutes": 5
+                  "durationMinutes": 3
                 },
                 {
                   "order": 3,
-                  "title": "Cuisson des champignons et tofu",
+                  "title": "Finition et assemblage",
                   "instructions": [
-                    "Versez les champignons émincés dans le bouillon frémissant.",
-                    "Laissez cuire 2-3 minutes pour libérer les saveurs umami.",
-                    "Ajoutez les cubes de tofu soyeux délicatement.",
-                    "Continuez la cuisson 2 minutes sans ébullition vigoureuse."
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 4,
-                  "title": "Cuisson de l'œuf",
-                  "instructions": [
-                    "Cassez l'œuf dans un petit bol et battez-le légèrement.",
-                    "Versez-le lentement dans le bouillon chaud en remuant doucement avec une fourchette pour créer des fils d'œuf.",
-                    "Laissez cuire 30 secondes à 1 minute."
+                    "Verser le dashi chaud dans deux bols à soupe",
+                    "Ajouter progressivement la pâte miso (40-50 g) en la diluant d'abord dans une petite louche de dashi tiède",
+                    "Verser la pâte diluée dans le dashi sans faire bouillir le bouillon (préserve les enzymes et saveurs)",
+                    "Ajouter les cubes de tofu soyeux et le wakame réhydraté",
+                    "Servir immédiatement pour préserver la texture du tofu et la fraîcheur des arômes"
                   ],
                   "durationMinutes": 2
-                },
-                {
-                  "order": 5,
-                  "title": "Incorporation de la pâte miso",
-                  "instructions": [
-                    "Retirez la casserole du feu.",
-                    "Prélevez 2-3 cuillères à soupe de bouillon chaud dans un petit bol.",
-                    "Diluez la pâte miso (2,5 cuillères à soupe) dans ce bouillon prélevé en remuant bien pour éviter les grumeaux.",
-                    "Versez la pâte miso diluée dans la casserole en remuant doucement.",
-                    "NE PAS faire bouillir après l'ajout du miso pour préserver les probiotiques."
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 6,
-                  "title": "Finition et service",
-                  "instructions": [
-                    "Versez la soupe dans deux bols profonds.",
-                    "Garnissez généreusement d'oignon vert frais.",
-                    "Saupoudrez les morceaux de nori sur le dessus.",
-                    "Servez immédiatement, pendant que la soupe est bien chaude."
-                  ],
-                  "durationMinutes": 1
                 }
               ],
               "notes": {
                 "chef": [
-                  "La clé est de ne pas faire bouillir vigoureusement le bouillon après l'ajout du miso pour préserver les probiotiques bénéfiques.",
-                  "Utiliser une pâte miso certifiée sans gluten, car bien que naturellement sans gluten, certaines marques peuvent contenir des traces.",
-                  "La dissolution préalable de la pâte miso évite les grumeaux et assure une répartition homogène.",
-                  "Cette soupe se prépare mieux fraîche et se déguste immédiatement pour maximum de saveur et de nutriments."
+                  "Ne pas faire bouillir la pâte miso une fois ajoutée pour préserver ses propriétés probiotiques et son umami délicat",
+                  "La qualité du dashi est fondamentale : utilisez des ingrédients frais et de bonne qualité (kombu et katsuobushi sans additifs)",
+                  "Pour une version plus riche et réconfortante, ajouter des champignons shiitake ou un œuf poché",
+                  "Vérifier que la pâte miso est garantie sans gluten (certaines marques contiennent de l'orge ou d'autres céréales)"
                 ],
                 "variations": [
-                  "Version plus riche : augmenter le tofu à 200g ou ajouter un second œuf poché sur le dessus.",
-                  "Protéines alternatives : remplacer le tofu par 100g de poulet effiloché cuit, ou ajouter des crevettes.",
-                  "Umami intensifié : ajouter 1 cuillère à café de sauce tamari sans gluten ou augmenter le miso à 3 cuillères à soupe.",
-                  "Champignons alternatifs : utiliser des champignons de Paris, enoki, ou un mélange de champignons.",
-                  "Version végétale complète : retirer l'œuf et augmenter le tofu, ou ajouter du miso de pois chiche pour plus de protéines."
+                  "Version vegan : utiliser du miso blanc pur certifié vegan et substituer le katsuobushi par du dashi en poudre d'origine végétale",
+                  "Avec protéines : ajouter un œuf poché, des edamame cuites ou du tofu ferme pour plus de satiété",
+                  "Version enrichie : ajouter des champignons shiitake sautés, du navet en julienne ou des pousses de soja pour plus de volume et de nutrients",
+                  "Miso blanc doux : utiliser pour une soupe moins intense et plus délicate, idéale si miso rouge trop salé"
                 ],
-                "conservation": "À consommer fraîche et chaude. Les restes se conservent 2 jours au réfrigérateur dans un récipient hermétique, mais il est préférable de ne pas conserver longtemps pour maintenir les qualités probiotiques du miso non pasteurisé.",
-                "nutrition": "Protéines: 12g, Glucides: 8g, Lipides: 5g par portion. Riche en probiotiques (si miso non pasteurisé), minéraux essentiels et acides aminés complets grâce au mélange tofu-œuf. Peu de calories (environ 180 kcal), très réconfortante et nutritive pour l'hiver."
+                "conservation": "À consommer immédiatement après préparation. Le tofu soyeux ne se conserve pas bien une fois cuit. Les composants peuvent être préparés séparément et assemblés au moment de servir.",
+                "nutrition": "Riche en protéines (8g), probiotiques du miso fermenté, minéraux des algues, umami savoureux du dashi. Léger en calories (150 kcal par portion), sans gluten. Ajouter des œufs ou edamame pour augmenter les protéines et la satiété."
               }
             }
           },
           "result": {
             "success": true,
-            "id": "cmpesongd0000dlij3emy79b0",
+            "id": "cmpfruatq0000mzijd40427ms",
             "title": "Soupe miso enrichie pour l'hiver"
           }
         }
@@ -908,21 +795,24 @@
         "timeMinutes": "20",
         "portions": "2",
         "emoji": "🍲",
-        "ingredients": "[{\"name\": \"Pâte miso blanc ou mixte (sans gluten certifiée)\", \"quantity\": \"2-3 cuillères à soupe\"}, {\"name\": \"Bouillon dashi ou bouillon de légumes\", \"quantity\": \"500 ml\"}, {\"name\": \"Eau\", \"quantity\": \"250 ml\"}, {\"name\": \"Tofu soyeux\", \"quantity\": \"150 g\"}, {\"name\": \"Champignons shiitaké frais\", \"quantity\": \"100 g\"}, {\"name\": \"Œuf\", \"quantity\": \"1\"}, {\"name\": \"Algue nori\", \"quantity\": \"1 feuille\"}, {\"name\": \"Oignon vert\", \"quantity\": \"1 tige\"}]",
+        "ingredients": "[{\"name\": \"Eau\", \"quantity\": \"500 ml\"}, {\"name\": \"Kombu (algue séchée)\", \"quantity\": \"5 g (morceau 5 cm)\"}, {\"name\": \"Katsuobushi (flocons de bonite séchée)\", \"quantity\": \"5 g\"}, {\"name\": \"Pâte miso (rouge ou blanche)\", \"quantity\": \"40-50 g\"}, {\"name\": \"Tofu soyeux\", \"quantity\": \"150-200 g\"}, {\"name\": \"Wakame (algue séchée)\", \"quantity\": \"5-10 g\"}]",
         "steps": [
-          "1. Verser le bouillon dashi et l'eau dans une casserole. Porter à frémissement à feu moyen.",
-          "2. Nettoyer les champignons shiitaké et les couper en lamelles fines. Les ajouter au bouillon frémissant et laisser cuire 5 minutes.",
-          "3. Couper le tofu soyeux en petits cubes et l'ajouter délicatement au bouillon. Laisser cuire 3 minutes sans remuer fortement.",
-          "4. Battre légèrement l'œuf dans un bol. Quand le bouillon frémit, verser l'œuf en filet fin tout en remuant doucement pour former des filaments. Cuire 2 minutes.",
-          "5. Retirer du feu et laisser refroidir légèrement quelques secondes. Dans un petit bol, délayer la pâte miso avec un peu de bouillon chaud jusqu'à obtenir une pâte lisse.",
-          "6. Verser le miso délayé dans la soupe en remuant doucement. Ne pas faire bouillir après l'ajout du miso pour préserver les probiotiques.",
-          "7. Verser la soupe dans des bols. Déchirer la feuille de nori en petits morceaux et la parsemer en surface. Garnir avec l'oignon vert ciselé."
+          "Préparer le dashi : placer le morceau de kombu dans l'eau froide et laisser reposer 5 minutes",
+          "Chauffer le dashi progressivement à feu moyen sans faire bouillir, retirer le kombu juste avant l'ébullition",
+          "Ajouter les flocons de katsuobushi et laisser infuser 2-3 minutes à feu doux",
+          "Filtrer le dashi à travers une passoire fine dans une casserole",
+          "Réhydrater la wakame dans un peu d'eau tiède pendant 2 minutes, puis égoutter",
+          "Découper le tofu soyeux en cubes délicats",
+          "Réchauffer le dashi à feu doux, diluer la pâte miso dans un petit bol avec un peu de bouillon chaud",
+          "Verser la pâte miso diluée dans le dashi en remuant doucement, sans faire bouillir",
+          "Ajouter le tofu et la wakame réhydratée, laisser chauffer 1-2 minutes sans bouillir",
+          "Verser dans les bols et servir chaud immédiatement"
         ],
-        "notes": "{\"chef\": [\"Respecter la température : ne pas faire bouillir après ajout du miso pour préserver les propriétés probiotiques\", \"Utiliser un miso blanc ou mixte non pasteurisé pour maximiser les bénéfices santé\", \"Le tofu soyeux se casse facilement : manipuler avec douceur\"], \"variations\": [\"Ajouter 1 cuillère à café de sauce tamari sans gluten pour plus d'umami\", \"Remplacer le tofu par du poulet effiloché (augmenter le temps de cuisson à 10-12 minutes)\", \"Ajouter des nouilles udon sans gluten pour plus de substance\", \"Enrichir avec un œuf mollet au lieu d'œuf versé en filet pour plus de protéines\"]}"
+        "notes": "{\"chef\": [\"Ne jamais faire bouillir la pâte miso pour préserver ses enzymes et saveurs complexes\", \"Utiliser un dashi authentique pour maximaliser la profondeur umami du bouillon\", \"Le tofu soyeux doit rester entier et délicat - l'ajouter en dernier moment\"], \"variations\": [\"Ajouter des champignons shiitake ou navet pour enrichir le bouillon et augmenter le volume\", \"Intégrer un œuf poché pour renforcer les protéines et la satiété\", \"Utiliser du dashi en poudre (1 cuillère à café pour 500 ml) pour gain de temps\", \"Substituer le miso blanc doux au miso rouge pour une saveur moins intense\"]}"
       }
     },
     {
-      "offset_ms": 55217,
+      "offset_ms": 51075,
       "event": "stage_start",
       "stage": "technique-validation",
       "stage_index": 4,
@@ -930,488 +820,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 55219,
+      "offset_ms": 51075,
       "event": "stage_context",
       "stage": "technique-validation",
       "context_keys": {
-        "previous_stage_output": 2264
+        "previous_stage_output": 1965
       }
     },
     {
-      "offset_ms": 62188,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Soupe miso enrichie pour l'hiver",
-          "cuisine": "Japonaise",
-          "timeMinutes": 20,
-          "portions": 2,
-          "emoji": "🍲",
-          "ingredients": [
-            {
-              "name": "Pâte miso blanc ou mixte (sans gluten certifiée)",
-              "quantity": "2-3 cuillères à soupe"
-            },
-            {
-              "name": "Bouillon dashi ou bouillon de légumes",
-              "quantity": "500 ml"
-            },
-            {
-              "name": "Eau",
-              "quantity": "250 ml"
-            },
-            {
-              "name": "Tofu soyeux",
-              "quantity": "150 g"
-            },
-            {
-              "name": "Champignons shiitaké frais",
-              "quantity": "100 g"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "1"
-            },
-            {
-              "name": "Algue nori",
-              "quantity": "1 feuille"
-            },
-            {
-              "name": "Oignon vert",
-              "quantity": "1 tige"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparer le bouillon",
-              "instructions": [
-                "Verser le bouillon dashi et l'eau dans une casserole",
-                "Porter à frémissement à feu moyen"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 2,
-              "title": "Cuire les champignons",
-              "instructions": [
-                "Nettoyer les champignons shiitaké et les couper en lamelles fines",
-                "Les ajouter au bouillon frémissant et laisser cuire"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 3,
-              "title": "Ajouter le tofu",
-              "instructions": [
-                "Couper le tofu soyeux en petits cubes",
-                "L'ajouter délicatement au bouillon",
-                "Laisser cuire sans remuer fortement"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 4,
-              "title": "Créer les filaments d'œuf",
-              "instructions": [
-                "Battre légèrement l'œuf dans un bol",
-                "Verser l'œuf en filet fin tout en remuant doucement pour former des filaments",
-                "Cuire"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Délayer le miso",
-              "instructions": [
-                "Retirer du feu et laisser refroidir légèrement quelques secondes",
-                "Dans un petit bol, délayer la pâte miso avec un peu de bouillon chaud jusqu'à obtenir une pâte lisse"
-              ]
-            },
-            {
-              "order": 6,
-              "title": "Ajouter le miso",
-              "instructions": [
-                "Verser le miso délayé dans la soupe en remuant doucement",
-                "Ne pas faire bouillir après l'ajout du miso pour préserver les probiotiques"
-              ]
-            },
-            {
-              "order": 7,
-              "title": "Dresser",
-              "instructions": [
-                "Verser la soupe dans des bols",
-                "Déchirer la feuille de nori en petits morceaux et la parsemer en surface",
-                "Garnir avec l'oignon vert ciselé"
-              ]
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Respecter la température : ne pas faire bouillir après ajout du miso pour préserver les propriétés probiotiques",
-              "Utiliser un miso blanc ou mixte non pasteurisé pour maximiser les bénéfices santé",
-              "Le tofu soyeux se casse facilement : manipuler avec douceur"
-            ],
-            "variations": [
-              "Ajouter 1 cuillère à café de sauce tamari sans gluten pour plus d'umami",
-              "Remplacer le tofu par du poulet effiloché (augmenter le temps de cuisson à 10-12 minutes)",
-              "Ajouter des nouilles udon sans gluten pour plus de substance",
-              "Enrichir avec un œuf mollet au lieu d'œuf versé en filet pour plus de protéines"
-            ],
-            "conservation": "Se conserve 2 jours au réfrigérateur. Réchauffer sans faire bouillir.",
-            "nutrition": "Riche en protéines (œuf, tofu), probiotiques (miso non pasteurisé), minéraux (algue nori)"
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 63642,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesp27n0000bhijw7wrt7vf",
-        "title": "Soupe miso enrichie pour l'hiver"
-      },
-      "duration_ms": 1454
-    },
-    {
-      "offset_ms": 64728,
-      "event": "stage_retry",
-      "stage": "technique-validation",
-      "attempt": 1,
-      "max_attempts": 2,
-      "failures": [
-        "Expected object output, got string"
-      ],
-      "agent_output_raw": "Perfect! The recipe \"Soupe miso enrichie pour l'hiver\" has been successfully persisted to the database with ID `cmpesp27n0000bhijw7wrt7vf`.\n\nThe recipe is now validated and stored, ready for use in your weekly meal planning.",
-      "tool_calls_count": 1
-    },
-    {
-      "offset_ms": 73225,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Soupe miso enrichie pour l'hiver",
-          "cuisine": "Japonaise",
-          "timeMinutes": 20,
-          "portions": 2,
-          "emoji": "🍲",
-          "ingredients": [
-            {
-              "name": "Pâte miso blanc ou mixte (sans gluten certifiée)",
-              "quantity": "2-3 cuillères à soupe",
-              "group": "Umami"
-            },
-            {
-              "name": "Bouillon dashi ou bouillon de légumes",
-              "quantity": "500 ml",
-              "group": "Base"
-            },
-            {
-              "name": "Eau",
-              "quantity": "250 ml",
-              "group": "Base"
-            },
-            {
-              "name": "Tofu soyeux",
-              "quantity": "150 g",
-              "group": "Protéines"
-            },
-            {
-              "name": "Champignons shiitaké frais",
-              "quantity": "100 g",
-              "group": "Légumes"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "1",
-              "group": "Protéines"
-            },
-            {
-              "name": "Algue nori",
-              "quantity": "1 feuille",
-              "group": "Garniture"
-            },
-            {
-              "name": "Oignon vert",
-              "quantity": "1 tige",
-              "group": "Garniture"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparer le bouillon",
-              "instructions": [
-                "Verser le bouillon dashi et l'eau dans une casserole.",
-                "Porter à frémissement à feu moyen."
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 2,
-              "title": "Cuire les champignons",
-              "instructions": [
-                "Nettoyer les champignons shiitaké et les couper en lamelles fines.",
-                "Les ajouter au bouillon frémissant et laisser cuire 5 minutes."
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 3,
-              "title": "Ajouter le tofu",
-              "instructions": [
-                "Couper le tofu soyeux en petits cubes.",
-                "L'ajouter délicatement au bouillon.",
-                "Laisser cuire 3 minutes sans remuer fortement."
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 4,
-              "title": "Préparer l'œuf filé",
-              "instructions": [
-                "Battre légèrement l'œuf dans un bol.",
-                "Quand le bouillon frémit, verser l'œuf en filet fin tout en remuant doucement pour former des filaments.",
-                "Cuire 2 minutes."
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Délayer le miso",
-              "instructions": [
-                "Retirer du feu et laisser refroidir légèrement quelques secondes.",
-                "Dans un petit bol, délayer la pâte miso avec un peu de bouillon chaud jusqu'à obtenir une pâte lisse."
-              ],
-              "durationMinutes": 1
-            },
-            {
-              "order": 6,
-              "title": "Finition miso",
-              "instructions": [
-                "Verser le miso délayé dans la soupe en remuant doucement.",
-                "Ne pas faire bouillir après l'ajout du miso pour préserver les probiotiques."
-              ],
-              "durationMinutes": 1
-            },
-            {
-              "order": 7,
-              "title": "Dresser et servir",
-              "instructions": [
-                "Verser la soupe dans des bols.",
-                "Déchirer la feuille de nori en petits morceaux et la parsemer en surface.",
-                "Garnir avec l'oignon vert ciselé."
-              ],
-              "durationMinutes": 2
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Respecter la température : ne pas faire bouillir après ajout du miso pour préserver les propriétés probiotiques",
-              "Utiliser un miso blanc ou mixte non pasteurisé pour maximiser les bénéfices santé",
-              "Le tofu soyeux se casse facilement : manipuler avec douceur"
-            ],
-            "variations": [
-              "Ajouter 1 cuillère à café de sauce tamari sans gluten pour plus d'umami",
-              "Remplacer le tofu par du poulet effiloché (augmenter le temps de cuisson à 10-12 minutes)",
-              "Ajouter des nouilles udon sans gluten pour plus de substance",
-              "Enrichir avec un œuf mollet au lieu d'œuf versé en filet pour plus de protéines"
-            ],
-            "conservation": "À consommer immédiatement ou conserver au réfrigérateur 2 jours maximum. Réchauffer sans bouillir.",
-            "nutrition": "Riche en probiotiques (miso), protéines (œuf, tofu), umami (shiitaké, nori). Équilibré et léger pour un repas réconfortant."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 74572,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpespap80000vvijmtb42ah5",
-        "title": "Soupe miso enrichie pour l'hiver"
-      },
-      "duration_ms": 1347
-    },
-    {
-      "offset_ms": 76039,
+      "offset_ms": 60445,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
-      "attempts": 2,
-      "duration_ms": 20822,
+      "attempts": 1,
+      "duration_ms": 9371,
       "tokens": {
-        "prompt": 7864,
-        "completion": 1621,
-        "total": 9485
+        "prompt": 7539,
+        "completion": 1455,
+        "total": 8994
       },
-      "tool_calls": [
-        {
-          "id": "toolu_012cUxRRnxBPsr9CMkW1ZRwp",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Soupe miso enrichie pour l'hiver",
-              "cuisine": "Japonaise",
-              "timeMinutes": 20,
-              "portions": 2,
-              "emoji": "🍲",
-              "ingredients": [
-                {
-                  "name": "Pâte miso blanc ou mixte (sans gluten certifiée)",
-                  "quantity": "2-3 cuillères à soupe",
-                  "group": "Umami"
-                },
-                {
-                  "name": "Bouillon dashi ou bouillon de légumes",
-                  "quantity": "500 ml",
-                  "group": "Base"
-                },
-                {
-                  "name": "Eau",
-                  "quantity": "250 ml",
-                  "group": "Base"
-                },
-                {
-                  "name": "Tofu soyeux",
-                  "quantity": "150 g",
-                  "group": "Protéines"
-                },
-                {
-                  "name": "Champignons shiitaké frais",
-                  "quantity": "100 g",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Œuf",
-                  "quantity": "1",
-                  "group": "Protéines"
-                },
-                {
-                  "name": "Algue nori",
-                  "quantity": "1 feuille",
-                  "group": "Garniture"
-                },
-                {
-                  "name": "Oignon vert",
-                  "quantity": "1 tige",
-                  "group": "Garniture"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparer le bouillon",
-                  "instructions": [
-                    "Verser le bouillon dashi et l'eau dans une casserole.",
-                    "Porter à frémissement à feu moyen."
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 2,
-                  "title": "Cuire les champignons",
-                  "instructions": [
-                    "Nettoyer les champignons shiitaké et les couper en lamelles fines.",
-                    "Les ajouter au bouillon frémissant et laisser cuire 5 minutes."
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 3,
-                  "title": "Ajouter le tofu",
-                  "instructions": [
-                    "Couper le tofu soyeux en petits cubes.",
-                    "L'ajouter délicatement au bouillon.",
-                    "Laisser cuire 3 minutes sans remuer fortement."
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 4,
-                  "title": "Préparer l'œuf filé",
-                  "instructions": [
-                    "Battre légèrement l'œuf dans un bol.",
-                    "Quand le bouillon frémit, verser l'œuf en filet fin tout en remuant doucement pour former des filaments.",
-                    "Cuire 2 minutes."
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 5,
-                  "title": "Délayer le miso",
-                  "instructions": [
-                    "Retirer du feu et laisser refroidir légèrement quelques secondes.",
-                    "Dans un petit bol, délayer la pâte miso avec un peu de bouillon chaud jusqu'à obtenir une pâte lisse."
-                  ],
-                  "durationMinutes": 1
-                },
-                {
-                  "order": 6,
-                  "title": "Finition miso",
-                  "instructions": [
-                    "Verser le miso délayé dans la soupe en remuant doucement.",
-                    "Ne pas faire bouillir après l'ajout du miso pour préserver les probiotiques."
-                  ],
-                  "durationMinutes": 1
-                },
-                {
-                  "order": 7,
-                  "title": "Dresser et servir",
-                  "instructions": [
-                    "Verser la soupe dans des bols.",
-                    "Déchirer la feuille de nori en petits morceaux et la parsemer en surface.",
-                    "Garnir avec l'oignon vert ciselé."
-                  ],
-                  "durationMinutes": 2
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Respecter la température : ne pas faire bouillir après ajout du miso pour préserver les propriétés probiotiques",
-                  "Utiliser un miso blanc ou mixte non pasteurisé pour maximiser les bénéfices santé",
-                  "Le tofu soyeux se casse facilement : manipuler avec douceur"
-                ],
-                "variations": [
-                  "Ajouter 1 cuillère à café de sauce tamari sans gluten pour plus d'umami",
-                  "Remplacer le tofu par du poulet effiloché (augmenter le temps de cuisson à 10-12 minutes)",
-                  "Ajouter des nouilles udon sans gluten pour plus de substance",
-                  "Enrichir avec un œuf mollet au lieu d'œuf versé en filet pour plus de protéines"
-                ],
-                "conservation": "À consommer immédiatement ou conserver au réfrigérateur 2 jours maximum. Réchauffer sans bouillir.",
-                "nutrition": "Riche en probiotiques (miso), protéines (œuf, tofu), umami (shiitaké, nori). Équilibré et léger pour un repas réconfortant."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpespap80000vvijmtb42ah5",
-            "title": "Soupe miso enrichie pour l'hiver"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
         "verdict": "approved",
-        "critique": "La recette respecte toutes les contraintes : sans gluten certifié, portions pour 2 personnes, réconfortante avec des ingrédients simples et peu nombreux. Les techniques sont réalistes en 20 minutes avec un procédé clair et sécurisé."
+        "critique": "Recette validée et persistée avec succès. Elle satisfait tous les critères : sans gluten, 2 portions, réconfortante et minimaliste (6 ingrédients). Technique dashi classique réaliste en 20 minutes."
       }
     },
     {
-      "offset_ms": 76040,
+      "offset_ms": 60446,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 76040,
+      "offset_ms": 60446,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -1419,307 +861,39 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 76042,
+      "offset_ms": 60447,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
         "input": 167,
-        "previous_stage_output": 5525
+        "previous_stage_output": 5188
       }
     },
     {
-      "offset_ms": 85222,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Soupe miso enrichie pour l'hiver",
-          "cuisine": "Japonaise",
-          "timeMinutes": 20,
-          "portions": 2,
-          "emoji": "🍲",
-          "ingredients": [
-            {
-              "name": "Pâte miso blanc ou mixte (sans gluten certifiée)",
-              "quantity": "2-3 cuillères à soupe",
-              "group": "condiments"
-            },
-            {
-              "name": "Bouillon dashi ou bouillon de légumes",
-              "quantity": "500 ml",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Eau",
-              "quantity": "250 ml",
-              "group": "autres"
-            },
-            {
-              "name": "Tofu soyeux",
-              "quantity": "150 g",
-              "group": "protéines"
-            },
-            {
-              "name": "Champignons shiitaké frais",
-              "quantity": "100 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "1 pièce",
-              "group": "protéines"
-            },
-            {
-              "name": "Algue nori",
-              "quantity": "1 feuille",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Oignon vert",
-              "quantity": "1 tige",
-              "group": "légumes"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparation du bouillon",
-              "instructions": [
-                "Verser le bouillon dashi et l'eau dans une casserole",
-                "Porter à frémissement à feu moyen"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 2,
-              "title": "Cuisson des champignons",
-              "instructions": [
-                "Nettoyer les champignons shiitaké et les couper en lamelles fines",
-                "Les ajouter au bouillon frémissant et laisser cuire 5 minutes"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 3,
-              "title": "Ajout du tofu",
-              "instructions": [
-                "Couper le tofu soyeux en petits cubes et l'ajouter délicatement au bouillon",
-                "Laisser cuire 3 minutes sans remuer fortement"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 4,
-              "title": "Intégration de l'œuf",
-              "instructions": [
-                "Battre légèrement l'œuf dans un bol",
-                "Quand le bouillon frémit, verser l'œuf en filet fin tout en remuant doucement pour former des filaments",
-                "Cuire 2 minutes"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 5,
-              "title": "Préparation du miso",
-              "instructions": [
-                "Retirer du feu et laisser refroidir légèrement quelques secondes",
-                "Dans un petit bol, délayer la pâte miso avec un peu de bouillon chaud jusqu'à obtenir une pâte lisse"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 6,
-              "title": "Finition du miso",
-              "instructions": [
-                "Verser le miso délayé dans la soupe en remuant doucement",
-                "Ne pas faire bouillir après l'ajout du miso pour préserver les probiotiques"
-              ],
-              "durationMinutes": 1
-            },
-            {
-              "order": 7,
-              "title": "Service",
-              "instructions": [
-                "Verser la soupe dans des bols",
-                "Déchirer la feuille de nori en petits morceaux et la parsemer en surface",
-                "Garnir avec l'oignon vert ciselé"
-              ],
-              "durationMinutes": 2
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Respecter la température : ne pas faire bouillir après ajout du miso pour préserver les propriétés probiotiques",
-              "Utiliser un miso blanc ou mixte non pasteurisé pour maximiser les bénéfices santé",
-              "Le tofu soyeux se casse facilement : manipuler avec douceur"
-            ],
-            "variations": [
-              "Ajouter 1 cuillère à café de sauce tamari sans gluten pour plus d'umami",
-              "Remplacer le tofu par du poulet effiloché (augmenter le temps de cuisson à 10-12 minutes)",
-              "Ajouter des nouilles udon sans gluten pour plus de substance",
-              "Enrichir avec un œuf mollet au lieu d'œuf versé en filet pour plus de protéines"
-            ],
-            "conservation": "À consommer immédiatement. Les restes se conservent 2 jours au réfrigérateur (le miso peut se séparer légèrement en refroidissant).",
-            "nutrition": "Protéines: 12g, Glucides: 8g, Lipides: 5g par portion. Riche en probiotiques si miso non pasteurisé."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 86259,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpespjpu0000k2ij5ztixtxi",
-        "title": "Soupe miso enrichie pour l'hiver"
-      },
-      "duration_ms": 1036
-    },
-    {
-      "offset_ms": 86259,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmmrunf9l0000cpijlrn58jpw",
-          "items": [
-            {
-              "name": "Pâte miso blanc ou mixte (sans gluten certifiée)",
-              "quantity": "2-3 cuillères à soupe",
-              "group": "condiments"
-            },
-            {
-              "name": "Bouillon dashi ou bouillon de légumes",
-              "quantity": "500 ml",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Tofu soyeux",
-              "quantity": "150 g",
-              "group": "protéines"
-            },
-            {
-              "name": "Champignons shiitaké frais",
-              "quantity": "100 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "1 pièce",
-              "group": "protéines"
-            },
-            {
-              "name": "Algue nori",
-              "quantity": "1 feuille",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Oignon vert",
-              "quantity": "1 tige",
-              "group": "légumes"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 87229,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 970
-    },
-    {
-      "offset_ms": 89300,
-      "event": "tool_call_start",
-      "tool": "repo_manager-read_file",
-      "params": {
-        "path": "prisma/schema.prisma"
-      }
-    },
-    {
-      "offset_ms": 89301,
-      "event": "tool_call_complete",
-      "tool": "repo_manager-read_file",
-      "result": {
-        "path": "prisma/schema.prisma",
-        "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel User {\n  id            String       @id @default(cuid())\n  name          String?\n  email         String       @unique\n  emailVerified DateTime?\n  image         String?\n  createdAt     DateTime     @default(now())\n  accounts      Account[]\n  recipes       Recipe[]\n  sessions      Session[]\n  plans         WeeklyPlan[]\n  profile       UserProfile?\n  chatQuota     ChatQuota?\n}\n\nmodel Account {\n  id                String  @id @default(cuid())\n  userId            String\n  type              String\n  provider          String\n  providerAccountId String\n  refresh_token     String?\n  access_token      String?\n  expires_at        Int?\n  token_type        String?\n  scope             String?\n  id_token          String?\n  session_state     String?\n  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n\n  @@unique([provider, providerAccountId])\n}\n\nmodel Session {\n  id           String   @id @default(cuid())\n  sessionToken String   @unique\n  userId       String\n  expires      DateTime\n  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel VerificationToken {\n  identifier String\n  token      String   @unique\n  expires    DateTime\n\n  @@unique([identifier, token])\n}\n\nmodel Recipe {\n  id                String             @id @default(cuid())\n  title             String\n  createdAt         DateTime           @default(now())\n  calories          Int?\n  cuisine           String?\n  emoji             String?\n  ingredients       Json\n  isFavorite        Boolean            @default(false)\n  notes             Json?\n  portions          Int?\n  steps             Json\n  timeMinutes       Int?\n  userId            String\n  user              User               @relation(fields: [userId], references: [id])\n  WeeklyPlanRecipes WeeklyPlanRecipe[]\n\n  @@index([userId, isFavorite])\n}\n\nmodel WeeklyPlan {\n  id          String             @id @default(cuid())\n  userId      String\n  weekStart   DateTime\n  createdAt   DateTime           @default(now())\n  GroceryList GroceryList?\n  user        User               @relation(fields: [userId], references: [id])\n  recipes     WeeklyPlanRecipe[]\n}\n\nmodel WeeklyPlanRecipe {\n  id       String     @id @default(cuid())\n  planId   String\n  recipeId String\n  position Int\n  addedAt  DateTime   @default(now())\n  plan     WeeklyPlan @relation(fields: [planId], references: [id])\n  recipe   Recipe     @relation(fields: [recipeId], references: [id])\n\n  @@unique([planId, recipeId])\n  @@unique([planId, position])\n}\n\nmodel GroceryList {\n  id     String     @id @default(cuid())\n  items  Json\n  planId String     @unique\n  plan   WeeklyPlan @relation(fields: [planId], references: [id])\n}\n\nmodel studio_pipeline_runs {\n  id            String    @id\n  pipeline_name String\n  status        String\n  result        String\n  started_at    String\n  completed_at  String?\n  log_path      String?\n  parent_run_id String?\n  created_at    DateTime? @default(now()) @db.Timestamptz(6)\n\n  @@index([created_at(sort: Desc)], map: \"idx_studio_pipeline_runs_created\")\n  @@index([parent_run_id], map: \"idx_studio_pipeline_runs_parent\")\n  @@index([status], map: \"idx_studio_pipeline_runs_status\")\n}\n\nmodel UserProfile {\n  id                    String    @id @default(cuid())\n  userId                String    @unique\n  dietary               String[]  @default([])\n  dislikes              String[]  @default([])\n  cuisines              String[]  @default([])\n  mealsPerWeek          Int       @default(5)\n  portions              Int       @default(2)\n  maxTimeMinutes        Int       @default(30)\n  budgetWeekly          String    @default(\"medium\")\n  onboardingCompleted   Boolean   @default(false)\n  onboardingCompletedAt DateTime?\n  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel ChatQuota {\n  id      String  @id @default(cuid())\n  userId  String  @unique\n  month   String\n  used    Int     @default(0)\n  max     Int     @default(10)\n  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n"
-      },
-      "duration_ms": 1
-    },
-    {
-      "offset_ms": 94048,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmmrunf9l0000cpijlrn58jpw",
-          "items": [
-            {
-              "name": "Pâte miso blanc ou mixte (sans gluten certifiée)",
-              "quantity": "2-3 cuillères à soupe (30-45 g)",
-              "group": "condiments"
-            },
-            {
-              "name": "Bouillon dashi ou bouillon de légumes",
-              "quantity": "500 ml",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Eau",
-              "quantity": "250 ml",
-              "group": "autres"
-            },
-            {
-              "name": "Tofu soyeux",
-              "quantity": "150 g",
-              "group": "protéines"
-            },
-            {
-              "name": "Champignons shiitaké frais",
-              "quantity": "100 g",
-              "group": "légumes"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "1 pièce",
-              "group": "protéines"
-            },
-            {
-              "name": "Algue nori",
-              "quantity": "1 feuille",
-              "group": "produits asiatiques"
-            },
-            {
-              "name": "Oignon vert",
-              "quantity": "1 tige",
-              "group": "légumes"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 95198,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1150
-    },
-    {
-      "offset_ms": 102168,
+      "offset_ms": 66912,
       "event": "stage_complete",
-      "truncated": true
+      "stage": "grocery-list",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 6465,
+      "tokens": {
+        "prompt": 5024,
+        "completion": 831,
+        "total": 5855
+      },
+      "tool_calls": [],
+      "output": {
+        "items": "[{\"name\": \"Eau\", \"quantity\": \"500 ml\", \"group\": \"autres\"}, {\"name\": \"Kombu (algue séchée)\", \"quantity\": \"5 g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Katsuobushi (flocons de bonite séchée)\", \"quantity\": \"5 g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Pâte miso (rouge ou blanche)\", \"quantity\": \"40-50 g\", \"group\": \"condiments\"}, {\"name\": \"Tofu soyeux\", \"quantity\": \"150-200 g\", \"group\": \"produits frais\"}, {\"name\": \"Wakame (algue séchée)\", \"quantity\": \"5-10 g\", \"group\": \"épicerie sèche\"}]",
+        "sections": "{\"épicerie sèche\": [{\"name\": \"Kombu (algue séchée)\", \"quantity\": \"5 g\"}, {\"name\": \"Katsuobushi (flocons de bonite séchée)\", \"quantity\": \"5 g\"}, {\"name\": \"Wakame (algue séchée)\", \"quantity\": \"5-10 g\"}], \"condiments\": [{\"name\": \"Pâte miso (rouge ou blanche)\", \"quantity\": \"40-50 g\"}], \"produits frais\": [{\"name\": \"Tofu soyeux\", \"quantity\": \"150-200 g\"}], \"autres\": [{\"name\": \"Eau\", \"quantity\": \"500 ml\"}]}"
+      }
     },
     {
-      "offset_ms": 102195,
+      "offset_ms": 66929,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
-      "duration_ms": 102229,
-      "total_tokens": 45553,
+      "duration_ms": 66961,
+      "total_tokens": 45007,
       "total_tool_calls": 10,
       "total_stages": 6
     }
