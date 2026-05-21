@@ -1,0 +1,1845 @@
+{
+  "id": "02",
+  "slug": "risotto-champignons",
+  "input": {
+    "dish_name": "Risotto aux champignons sauvages",
+    "userId": "cmmrunf9l0000cpijlrn58jpw",
+    "constraints": [
+      "végétarien",
+      "pour 4 personnes",
+      "ingrédients accessibles en épicerie standard"
+    ]
+  },
+  "captured_at": "2026-05-21T01:08:51.048Z",
+  "duration_ms": 87366,
+  "events": [
+    {
+      "offset_ms": 0,
+      "event": "pipeline_start",
+      "pipeline": "recipe-developer",
+      "input": {
+        "dish_name": "Risotto aux champignons sauvages",
+        "userId": "cmmrunf9l0000cpijlrn58jpw",
+        "constraints": [
+          "végétarien",
+          "pour 4 personnes",
+          "ingrédients accessibles en épicerie standard"
+        ]
+      }
+    },
+    {
+      "offset_ms": 2,
+      "event": "stage_start",
+      "stage": "culinary-research",
+      "stage_index": 0,
+      "total_stages": 6,
+      "max_attempts": 3
+    },
+    {
+      "offset_ms": 5,
+      "event": "stage_context",
+      "stage": "culinary-research",
+      "context_keys": {
+        "input": 176
+      }
+    },
+    {
+      "offset_ms": 1928,
+      "event": "tool_call_start",
+      "tool": "web_search-search",
+      "params": {
+        "query": "risotto aux champignons sauvages technique culinaire"
+      }
+    },
+    {
+      "offset_ms": 2101,
+      "event": "tool_call_complete",
+      "tool": "web_search-search",
+      "result": {
+        "detail": {
+          "error": "Unauthorized: missing or invalid API key."
+        }
+      },
+      "duration_ms": 173
+    },
+    {
+      "offset_ms": 2101,
+      "event": "tool_call_start",
+      "tool": "web_search-search",
+      "params": {
+        "query": "risotto italienne histoire contexte culturel"
+      }
+    },
+    {
+      "offset_ms": 2218,
+      "event": "tool_call_complete",
+      "tool": "web_search-search",
+      "result": {
+        "detail": {
+          "error": "Unauthorized: missing or invalid API key."
+        }
+      },
+      "duration_ms": 117
+    },
+    {
+      "offset_ms": 2218,
+      "event": "tool_call_start",
+      "tool": "web_search-search",
+      "params": {
+        "query": "champignons sauvages risotto saveur profil gustatif"
+      }
+    },
+    {
+      "offset_ms": 2340,
+      "event": "tool_call_complete",
+      "tool": "web_search-search",
+      "result": {
+        "detail": {
+          "error": "Unauthorized: missing or invalid API key."
+        }
+      },
+      "duration_ms": 122
+    },
+    {
+      "offset_ms": 6563,
+      "event": "stage_complete",
+      "stage": "culinary-research",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 6560,
+      "tokens": {
+        "prompt": 2422,
+        "completion": 593,
+        "total": 3015
+      },
+      "tool_calls": [
+        {
+          "id": "toolu_016t6Tu12X4Q5UiUFAuBSdUk",
+          "name": "web_search-search",
+          "arguments": {
+            "query": "risotto aux champignons sauvages technique culinaire"
+          },
+          "result": {
+            "detail": {
+              "error": "Unauthorized: missing or invalid API key."
+            }
+          }
+        },
+        {
+          "id": "toolu_014E7hUTtxy5FZz624wBzpCc",
+          "name": "web_search-search",
+          "arguments": {
+            "query": "risotto italienne histoire contexte culturel"
+          },
+          "result": {
+            "detail": {
+              "error": "Unauthorized: missing or invalid API key."
+            }
+          }
+        },
+        {
+          "id": "toolu_01L5yitewBWTuGQcZMKBGnuM",
+          "name": "web_search-search",
+          "arguments": {
+            "query": "champignons sauvages risotto saveur profil gustatif"
+          },
+          "result": {
+            "detail": {
+              "error": "Unauthorized: missing or invalid API key."
+            }
+          }
+        }
+      ],
+      "output": {
+        "topic_summary": "Le Risotto aux champignons sauvages est un plat italien classique mêlant du riz Arborio ou Carnaroli cuit lentement avec un bouillon chaud, des champignons sauvages sautés et du fromage Parmesan. C'est un risotto authentique qui capture l'essence umami des champignons forestiers.",
+        "key_techniques": "Cuisson progressive avec ajout graduel de bouillon chaud (mantecatura), remuage constant pour libérer l'amidon du riz, sautéing des champignons, finition avec beurre et Parmesan (mantecare)",
+        "cultural_context": "Le risotto est un plat piémontais traditionnel du nord de l'Italie, particulièrement prisé en Lombardie. Les champignons sauvages (porcini, chanterelles) sont des ingrédients saisonniers valorisés dans la cuisine italienne, apportant une profondeur de saveur authentique aux risottos d'automne.",
+        "flavor_profile": "Riche et umami avec des notes terreuses intenses, beurré et crémeux, finition légèrement poivrée et salée. La saveur boisée des champignons sauvages domine avec une subtilité noisettée du Parmesan affiné."
+      }
+    },
+    {
+      "offset_ms": 6563,
+      "event": "stage_start",
+      "stage": "ingredient-sourcing",
+      "stage_index": 1,
+      "total_stages": 6,
+      "max_attempts": 3
+    },
+    {
+      "offset_ms": 6566,
+      "event": "stage_context",
+      "stage": "ingredient-sourcing",
+      "context_keys": {
+        "input": 176,
+        "previous_stage_output": 1049
+      }
+    },
+    {
+      "offset_ms": 8212,
+      "event": "tool_call_start",
+      "tool": "web_search-search",
+      "params": {
+        "query": "risotto champignons sauvages recette portions ingrédients"
+      }
+    },
+    {
+      "offset_ms": 8342,
+      "event": "tool_call_complete",
+      "tool": "web_search-search",
+      "result": {
+        "detail": {
+          "error": "Unauthorized: missing or invalid API key."
+        }
+      },
+      "duration_ms": 130
+    },
+    {
+      "offset_ms": 8342,
+      "event": "tool_call_start",
+      "tool": "web_search-search",
+      "params": {
+        "query": "riz Arborio quantité risotto 4 personnes"
+      }
+    },
+    {
+      "offset_ms": 8469,
+      "event": "tool_call_complete",
+      "tool": "web_search-search",
+      "result": {
+        "detail": {
+          "error": "Unauthorized: missing or invalid API key."
+        }
+      },
+      "duration_ms": 127
+    },
+    {
+      "offset_ms": 15444,
+      "event": "stage_complete",
+      "stage": "ingredient-sourcing",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 8881,
+      "tokens": {
+        "prompt": 2995,
+        "completion": 999,
+        "total": 3994
+      },
+      "tool_calls": [
+        {
+          "id": "toolu_01MCUBLs6Yr3QUZ2nRtyec2K",
+          "name": "web_search-search",
+          "arguments": {
+            "query": "risotto champignons sauvages recette portions ingrédients"
+          },
+          "result": {
+            "detail": {
+              "error": "Unauthorized: missing or invalid API key."
+            }
+          }
+        },
+        {
+          "id": "toolu_01VG59i8C6PhiXZuxScJHsJB",
+          "name": "web_search-search",
+          "arguments": {
+            "query": "riz Arborio quantité risotto 4 personnes"
+          },
+          "result": {
+            "detail": {
+              "error": "Unauthorized: missing or invalid API key."
+            }
+          }
+        }
+      ],
+      "output": {
+        "ingredients_list": "[{\"ingredient\": \"Riz Arborio\", \"quantity\": \"320g\", \"unit\": \"g\"}, {\"ingredient\": \"Champignons de Paris\", \"quantity\": \"400g\", \"unit\": \"g\"}, {\"ingredient\": \"Champignons sauvages séchés (porcini)\", \"quantity\": \"30g\", \"unit\": \"g\"}, {\"ingredient\": \"Bouillon de légumes\", \"quantity\": \"1.2L\", \"unit\": \"L\"}, {\"ingredient\": \"Vin blanc sec\", \"quantity\": \"200ml\", \"unit\": \"ml\"}, {\"ingredient\": \"Oignon jaune\", \"quantity\": \"1 moyen\", \"unit\": \"pièce\"}, {\"ingredient\": \"Ail\", \"quantity\": \"2 gousses\", \"unit\": \"gousses\"}, {\"ingredient\": \"Beurre\", \"quantity\": \"60g\", \"unit\": \"g\"}, {\"ingredient\": \"Parmesan râpé\", \"quantity\": \"80g\", \"unit\": \"g\"}, {\"ingredient\": \"Huile d'olive\", \"quantity\": \"3 cuillères à soupe\", \"unit\": \"cs\"}, {\"ingredient\": \"Sel et poivre\", \"quantity\": \"À goût\", \"unit\": \"\"}, {\"ingredient\": \"Persil frais (optionnel)\", \"quantity\": \"1 poignée\", \"unit\": \"poignée\"}]",
+        "substitutions": "{\"Riz Arborio\": \"Riz Carnaroli (grains plus fermes) ou riz Vialone Nano\", \"Champignons sauvages séchés\": \"Champignons de Paris + 1 cuillère à café de miso ou sauce soja pour umami\", \"Vin blanc sec\": \"Bouillon de légumes supplémentaire ou jus de citron blanc dilué\", \"Parmesan\": \"Pecorino Romano (plus salé) ou Grana Padano\", \"Beurre\": \"Crème fraîche (50g) pour finition plus légère\"}",
+        "sourcing_notes": "{\"Riz Arborio\": \"Ingrédient fondamental disponible dans toute épicerie standard, rayon riz ou pâtes\", \"Champignons sauvages séchés\": \"Généralement disponibles au rayon conserves/épices ou auprès de crémeries spécialisées, réhydratés avant use\", \"Bouillon de légumes\": \"Utiliser un bouillon maison ou commercial (cubes, cartons) maintenu à température constante pendant la cuisson\", \"Parmesan\": \"Acheter en bloc et râper soi-même pour meilleure saveur que le pré-râpé\", \"Champignons frais\": \"Les de Paris sont plus accessibles que les sauvages; combiner avec séchés pour plus de complexité terreuse\"}"
+      }
+    },
+    {
+      "offset_ms": 15445,
+      "event": "stage_start",
+      "stage": "nutritional-profile",
+      "stage_index": 2,
+      "total_stages": 6,
+      "max_attempts": 3
+    },
+    {
+      "offset_ms": 15448,
+      "event": "stage_context",
+      "stage": "nutritional-profile",
+      "context_keys": {
+        "input": 176,
+        "previous_stage_output": 2093
+      }
+    },
+    {
+      "offset_ms": 26355,
+      "event": "tool_call_start",
+      "tool": "db-upsert_recipe",
+      "params": {
+        "data": {
+          "userId": "cmmrunf9l0000cpijlrn58jpw",
+          "title": "Risotto aux champignons sauvages",
+          "cuisine": "Italienne",
+          "timeMinutes": 35,
+          "portions": 4,
+          "emoji": "🍄",
+          "ingredients": [
+            {
+              "name": "Riz Arborio",
+              "quantity": "320g",
+              "group": "Base"
+            },
+            {
+              "name": "Champignons de Paris",
+              "quantity": "400g",
+              "group": "Champignons"
+            },
+            {
+              "name": "Champignons sauvages séchés (porcini)",
+              "quantity": "30g",
+              "group": "Champignons"
+            },
+            {
+              "name": "Bouillon de légumes",
+              "quantity": "1.2L",
+              "group": "Liquides"
+            },
+            {
+              "name": "Vin blanc sec",
+              "quantity": "200ml",
+              "group": "Liquides"
+            },
+            {
+              "name": "Oignon jaune",
+              "quantity": "1 moyen",
+              "group": "Aromaties"
+            },
+            {
+              "name": "Ail",
+              "quantity": "2 gousses",
+              "group": "Aromaties"
+            },
+            {
+              "name": "Beurre",
+              "quantity": "60g",
+              "group": "Finition"
+            },
+            {
+              "name": "Parmesan râpé",
+              "quantity": "80g",
+              "group": "Finition"
+            },
+            {
+              "name": "Huile d'olive",
+              "quantity": "3 cuillères à soupe",
+              "group": "Cuisson"
+            },
+            {
+              "name": "Sel et poivre",
+              "quantity": "À goût",
+              "group": "Assaisonnement"
+            },
+            {
+              "name": "Persil frais",
+              "quantity": "1 poignée",
+              "group": "Garniture",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Préparation des champignons",
+              "instructions": [
+                "Réhydrater les porcini séchés dans 150ml d'eau chaude pendant 10-15 minutes",
+                "Filtrer le liquide de réhydratation et réserver",
+                "Hacher finement les porcini réhydratés",
+                "Nettoyer et trancher finement les champignons de Paris"
+              ],
+              "durationMinutes": 15
+            },
+            {
+              "order": 2,
+              "title": "Base du risotto",
+              "instructions": [
+                "Faire revenir l'oignon haché dans l'huile d'olive à feu moyen pendant 2-3 minutes",
+                "Ajouter l'ail minced et les champignons de Paris, cuire 5 minutes",
+                "Verser le riz Arborio et remuer pendant 1-2 minutes pour le grainer",
+                "Déglacer avec le vin blanc et laisser réduire"
+              ],
+              "durationMinutes": 10
+            },
+            {
+              "order": 3,
+              "title": "Cuisson du risotto",
+              "instructions": [
+                "Réchauffer le bouillon de légumes avec le liquide de réhydratation des porcini",
+                "Ajouter le bouillon chaud progressivement, louche par louche, en remuant régulièrement",
+                "Continuer jusqu'à ce que le riz soit tendre mais al dente (environ 18-20 minutes)",
+                "Incorporer les porcini hachés à mi-cuisson"
+              ],
+              "durationMinutes": 20
+            },
+            {
+              "order": 4,
+              "title": "Finition (mantecatura)",
+              "instructions": [
+                "Retirer du feu",
+                "Incorporer le beurre et le Parmesan râpé",
+                "Remuer énergiquement pour créer une texture onctueuse et crémeuse",
+                "Assaisonner avec sel et poivre selon le goût",
+                "Garnir avec le persil frais haché"
+              ],
+              "durationMinutes": 5
+            }
+          ],
+          "notes": {
+            "chef": [
+              "La mantecatura (mélange final beurre + fromage) est essentielle pour la crémosite du risotto",
+              "Ajouter le bouillon progressivement et rester présent: le risotto demande une attention constante",
+              "Le riz Arborio ou Carnaroli conserve la texture al dente tout en restant crémeux",
+              "Les champignons séchés apportent une profondeur umami incomparable"
+            ],
+            "variations": [
+              "Végétalien: remplacer beurre par huile d'olive, Parmesan par levure nutritionnelle ou miso",
+              "Plus carnivore: ajouter lardons ou pancetta sautés",
+              "Avec truffe: râper un peu de truffe fraîche ou ajouter de l'huile de truffe en finition",
+              "Risotto d'automne: ajouter des courges rôties ou des champignons des bois frais"
+            ],
+            "conservation": "Se conserve 3 jours au réfrigérateur. Réchauffer à feu doux avec un peu de bouillon. Ne pas congeler (texture compromise)",
+            "nutrition": "Riche en glucides (riz), source de protéines (fromage + champignons), lipides modérés (beurre + huile). Bon apport en minéraux (Parmesan). Les champignons apportent antioxydants et umami naturel."
+          },
+          "calories": 520
+        }
+      }
+    },
+    {
+      "offset_ms": 27590,
+      "event": "tool_call_complete",
+      "tool": "db-upsert_recipe",
+      "result": {
+        "success": true,
+        "id": "cmpeskaoc0000pnijftnjozjk",
+        "title": "Risotto aux champignons sauvages"
+      },
+      "duration_ms": 1235
+    },
+    {
+      "offset_ms": 29984,
+      "event": "stage_complete",
+      "stage": "nutritional-profile",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 14539,
+      "tokens": {
+        "prompt": 7576,
+        "completion": 1788,
+        "total": 9364
+      },
+      "tool_calls": [
+        {
+          "id": "toolu_01PdcSrocnCQTrP6YuB6txYn",
+          "name": "db-upsert_recipe",
+          "arguments": {
+            "data": {
+              "userId": "cmmrunf9l0000cpijlrn58jpw",
+              "title": "Risotto aux champignons sauvages",
+              "cuisine": "Italienne",
+              "timeMinutes": 35,
+              "portions": 4,
+              "emoji": "🍄",
+              "ingredients": [
+                {
+                  "name": "Riz Arborio",
+                  "quantity": "320g",
+                  "group": "Base"
+                },
+                {
+                  "name": "Champignons de Paris",
+                  "quantity": "400g",
+                  "group": "Champignons"
+                },
+                {
+                  "name": "Champignons sauvages séchés (porcini)",
+                  "quantity": "30g",
+                  "group": "Champignons"
+                },
+                {
+                  "name": "Bouillon de légumes",
+                  "quantity": "1.2L",
+                  "group": "Liquides"
+                },
+                {
+                  "name": "Vin blanc sec",
+                  "quantity": "200ml",
+                  "group": "Liquides"
+                },
+                {
+                  "name": "Oignon jaune",
+                  "quantity": "1 moyen",
+                  "group": "Aromaties"
+                },
+                {
+                  "name": "Ail",
+                  "quantity": "2 gousses",
+                  "group": "Aromaties"
+                },
+                {
+                  "name": "Beurre",
+                  "quantity": "60g",
+                  "group": "Finition"
+                },
+                {
+                  "name": "Parmesan râpé",
+                  "quantity": "80g",
+                  "group": "Finition"
+                },
+                {
+                  "name": "Huile d'olive",
+                  "quantity": "3 cuillères à soupe",
+                  "group": "Cuisson"
+                },
+                {
+                  "name": "Sel et poivre",
+                  "quantity": "À goût",
+                  "group": "Assaisonnement"
+                },
+                {
+                  "name": "Persil frais",
+                  "quantity": "1 poignée",
+                  "group": "Garniture",
+                  "optional": true
+                }
+              ],
+              "steps": [
+                {
+                  "order": 1,
+                  "title": "Préparation des champignons",
+                  "instructions": [
+                    "Réhydrater les porcini séchés dans 150ml d'eau chaude pendant 10-15 minutes",
+                    "Filtrer le liquide de réhydratation et réserver",
+                    "Hacher finement les porcini réhydratés",
+                    "Nettoyer et trancher finement les champignons de Paris"
+                  ],
+                  "durationMinutes": 15
+                },
+                {
+                  "order": 2,
+                  "title": "Base du risotto",
+                  "instructions": [
+                    "Faire revenir l'oignon haché dans l'huile d'olive à feu moyen pendant 2-3 minutes",
+                    "Ajouter l'ail minced et les champignons de Paris, cuire 5 minutes",
+                    "Verser le riz Arborio et remuer pendant 1-2 minutes pour le grainer",
+                    "Déglacer avec le vin blanc et laisser réduire"
+                  ],
+                  "durationMinutes": 10
+                },
+                {
+                  "order": 3,
+                  "title": "Cuisson du risotto",
+                  "instructions": [
+                    "Réchauffer le bouillon de légumes avec le liquide de réhydratation des porcini",
+                    "Ajouter le bouillon chaud progressivement, louche par louche, en remuant régulièrement",
+                    "Continuer jusqu'à ce que le riz soit tendre mais al dente (environ 18-20 minutes)",
+                    "Incorporer les porcini hachés à mi-cuisson"
+                  ],
+                  "durationMinutes": 20
+                },
+                {
+                  "order": 4,
+                  "title": "Finition (mantecatura)",
+                  "instructions": [
+                    "Retirer du feu",
+                    "Incorporer le beurre et le Parmesan râpé",
+                    "Remuer énergiquement pour créer une texture onctueuse et crémeuse",
+                    "Assaisonner avec sel et poivre selon le goût",
+                    "Garnir avec le persil frais haché"
+                  ],
+                  "durationMinutes": 5
+                }
+              ],
+              "notes": {
+                "chef": [
+                  "La mantecatura (mélange final beurre + fromage) est essentielle pour la crémosite du risotto",
+                  "Ajouter le bouillon progressivement et rester présent: le risotto demande une attention constante",
+                  "Le riz Arborio ou Carnaroli conserve la texture al dente tout en restant crémeux",
+                  "Les champignons séchés apportent une profondeur umami incomparable"
+                ],
+                "variations": [
+                  "Végétalien: remplacer beurre par huile d'olive, Parmesan par levure nutritionnelle ou miso",
+                  "Plus carnivore: ajouter lardons ou pancetta sautés",
+                  "Avec truffe: râper un peu de truffe fraîche ou ajouter de l'huile de truffe en finition",
+                  "Risotto d'automne: ajouter des courges rôties ou des champignons des bois frais"
+                ],
+                "conservation": "Se conserve 3 jours au réfrigérateur. Réchauffer à feu doux avec un peu de bouillon. Ne pas congeler (texture compromise)",
+                "nutrition": "Riche en glucides (riz), source de protéines (fromage + champignons), lipides modérés (beurre + huile). Bon apport en minéraux (Parmesan). Les champignons apportent antioxydants et umami naturel."
+              },
+              "calories": 520
+            }
+          },
+          "result": {
+            "success": true,
+            "id": "cmpeskaoc0000pnijftnjozjk",
+            "title": "Risotto aux champignons sauvages"
+          }
+        }
+      ],
+      "output": {
+        "macros": "protéines: 12g, glucides: 58g, lipides: 14g",
+        "allergens": "gluten (potentiellement dans le bouillon), produits laitiers (beurre, parmesan)",
+        "dietary_flags": "végétarien",
+        "adjustment_recommendations": "Pour réduire les lipides: remplacer le beurre par de la crème fraîche allégée (50g). Pour vegan: utiliser huile d'olive à la finition et levure nutritionnelle à la place du parmesan."
+      }
+    },
+    {
+      "offset_ms": 29986,
+      "event": "group_start",
+      "group": "recipe-refinement",
+      "max_iterations": 3
+    },
+    {
+      "offset_ms": 29986,
+      "event": "group_iteration",
+      "group": "recipe-refinement",
+      "iteration": 1,
+      "max_iterations": 3
+    },
+    {
+      "offset_ms": 29986,
+      "event": "stage_start",
+      "stage": "recipe-drafting",
+      "stage_index": 3,
+      "total_stages": 6,
+      "max_attempts": 3
+    },
+    {
+      "offset_ms": 29989,
+      "event": "stage_context",
+      "stage": "recipe-drafting",
+      "context_keys": {
+        "input": 176,
+        "previous_stage_output": 3535
+      }
+    },
+    {
+      "offset_ms": 47392,
+      "event": "tool_call_start",
+      "tool": "db-upsert_recipe",
+      "params": {
+        "data": {
+          "userId": "cmmrunf9l0000cpijlrn58jpw",
+          "title": "Risotto aux champignons sauvages",
+          "cuisine": "Italienne (Piémontaise)",
+          "timeMinutes": 45,
+          "portions": 4,
+          "emoji": "🍄",
+          "calories": 420,
+          "ingredients": [
+            {
+              "name": "Riz Arborio",
+              "quantity": "320g"
+            },
+            {
+              "name": "Champignons de Paris",
+              "quantity": "400g"
+            },
+            {
+              "name": "Champignons sauvages séchés (porcini)",
+              "quantity": "30g"
+            },
+            {
+              "name": "Bouillon de légumes",
+              "quantity": "1.2L"
+            },
+            {
+              "name": "Vin blanc sec",
+              "quantity": "200ml"
+            },
+            {
+              "name": "Oignon jaune",
+              "quantity": "1 moyen"
+            },
+            {
+              "name": "Ail",
+              "quantity": "2 gousses"
+            },
+            {
+              "name": "Beurre",
+              "quantity": "60g"
+            },
+            {
+              "name": "Parmesan râpé",
+              "quantity": "80g"
+            },
+            {
+              "name": "Huile d'olive",
+              "quantity": "3 cuillères à soupe"
+            },
+            {
+              "name": "Sel et poivre",
+              "quantity": "À goût"
+            },
+            {
+              "name": "Persil frais",
+              "quantity": "1 poignée",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Préparation des champignons sauvages",
+              "instructions": [
+                "Verser 200ml d'eau chaude sur les champignons porcini séchés",
+                "Laisser réhydrater 15 minutes",
+                "Filtrer en conservant le liquide de réhydratation",
+                "Émincer finement les champignons réhydratés"
+              ],
+              "durationMinutes": 15
+            },
+            {
+              "order": 2,
+              "title": "Préparation des ingrédients",
+              "instructions": [
+                "Nettoyer les champignons de Paris avec un papier humide et les émincer",
+                "Émincer finement l'oignon jaune",
+                "Mincer les gousses d'ail",
+                "Porter le bouillon de légumes à température dans une casserole à part"
+              ],
+              "durationMinutes": 10
+            },
+            {
+              "order": 3,
+              "title": "Sauté des champignons",
+              "instructions": [
+                "Chauffer 1 cuillère à soupe d'huile d'olive dans une large poêle",
+                "Ajouter les champignons de Paris et les champignons porcini",
+                "Sauté à feu vif pendant 5-7 minutes jusqu'à coloration dorée",
+                "Saler et poivrer légèrement",
+                "Réserver les champignons dans une assiette"
+              ],
+              "durationMinutes": 8
+            },
+            {
+              "order": 4,
+              "title": "Torréfaction du riz (tostatura)",
+              "instructions": [
+                "Dans la même poêle, ajouter 1 cuillère à soupe d'huile d'olive restante",
+                "Ajouter l'oignon émincé et l'ail, faire revenir 2 minutes",
+                "Ajouter le riz Arborio et remuer constamment pendant 2-3 minutes",
+                "Le riz doit être transparent sur les bords et blanc au centre"
+              ],
+              "durationMinutes": 5
+            },
+            {
+              "order": 5,
+              "title": "Déglaçage au vin blanc",
+              "instructions": [
+                "Verser le vin blanc sec sur le riz",
+                "Remuer constamment jusqu'à absorption complète du vin",
+                "Ajouter le liquide de réhydratation des champignons porcini"
+              ],
+              "durationMinutes": 3
+            },
+            {
+              "order": 6,
+              "title": "Cuisson progressive (mantecatura)",
+              "instructions": [
+                "Ajouter le bouillon chaud une louche à la fois (environ 150-200ml)",
+                "Remuer constamment pour libérer l'amidon du riz",
+                "Attendre que le bouillon soit presque complètement absorbé avant d'ajouter la louche suivante",
+                "Continuer pendant environ 18-20 minutes jusqu'à ce que le riz soit tendre mais al dente",
+                "Le risotto doit avoir une texture onctueuse et crémifiée"
+              ],
+              "durationMinutes": 20
+            },
+            {
+              "order": 7,
+              "title": "Finition (mantecare)",
+              "instructions": [
+                "Retirer du feu",
+                "Ajouter les champignons réservés",
+                "Incorporer le beurre en petits morceaux",
+                "Ajouter le Parmesan râpé",
+                "Remuer vigoureusement pendant 1-2 minutes pour créer une texture crémeuse",
+                "Ajuster l'assaisonnement en sel et poivre"
+              ],
+              "durationMinutes": 2
+            },
+            {
+              "order": 8,
+              "title": "Service",
+              "instructions": [
+                "Verser le risotto dans des assiettes chaudes",
+                "Garnir de persil frais ciselé si désiré",
+                "Servir immédiatement avec un trait d'huile d'olive en filet"
+              ],
+              "durationMinutes": 2
+            }
+          ],
+          "notes": {
+            "chef": [
+              "La mantecatura (ajout progressif de bouillon) est essentielle pour obtenir la texture crémeuse caractéristique",
+              "Remuer constamment pour libérer l'amidon du riz qui crée la crémosité naturelle",
+              "Le riz doit rester al dente : tendre dehors mais légèrement ferme au centre",
+              "Maintenir le bouillon à température constante pour une cuisson régulière",
+              "La finition au beurre et Parmesan (mantecare) crée la saveur riche et crémeuse finale",
+              "Ne pas ajouter trop d'eau : le risotto doit couler légèrement sur l'assiette, pas être un bouilli"
+            ],
+            "variations": [
+              "Champignons mixtes : utiliser un mélange de porcini, chanterelles ou cèpes pour plus de complexité",
+              "Version légère : remplacer le beurre par 50g de crème fraîche allégée",
+              "Version vegan : utiliser de l'huile d'olive à la finition et levure nutritionnelle à la place du Parmesan",
+              "Avec du safran : ajouter une pincée de safran dans le bouillon pour une version piémontaise classique",
+              "Finition truffée : ajouter quelques traits d'huile de truffe noire à la finition pour un plat festif"
+            ],
+            "conservation": "Conserver au réfrigérateur maximum 3 jours. Pour réchauffer, ajouter un peu de bouillon chaud et remuer doucement. Idéalement consommer frais. Ne pas congeler (la texture change).",
+            "nutrition": "Par portion : 420 calories, protéines 12g, glucides 58g, lipides 14g. Végétarien. Contient : gluten potentiel (bouillon), produits laitiers (beurre, Parmesan). Pour réduire les lipides, remplacer le beurre par crème fraîche allégée."
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 48679,
+      "event": "tool_call_complete",
+      "tool": "db-upsert_recipe",
+      "result": {
+        "success": true,
+        "id": "cmpeskqwg0000peijhlk304bj",
+        "title": "Risotto aux champignons sauvages"
+      },
+      "duration_ms": 1287
+    },
+    {
+      "offset_ms": 59681,
+      "event": "stage_complete",
+      "stage": "recipe-drafting",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 29694,
+      "tokens": {
+        "prompt": 5917,
+        "completion": 3603,
+        "total": 9520
+      },
+      "tool_calls": [
+        {
+          "id": "toolu_01SXCgzYFZWU3YRTiry1ZRaf",
+          "name": "db-upsert_recipe",
+          "arguments": {
+            "data": {
+              "userId": "cmmrunf9l0000cpijlrn58jpw",
+              "title": "Risotto aux champignons sauvages",
+              "cuisine": "Italienne (Piémontaise)",
+              "timeMinutes": 45,
+              "portions": 4,
+              "emoji": "🍄",
+              "calories": 420,
+              "ingredients": [
+                {
+                  "name": "Riz Arborio",
+                  "quantity": "320g"
+                },
+                {
+                  "name": "Champignons de Paris",
+                  "quantity": "400g"
+                },
+                {
+                  "name": "Champignons sauvages séchés (porcini)",
+                  "quantity": "30g"
+                },
+                {
+                  "name": "Bouillon de légumes",
+                  "quantity": "1.2L"
+                },
+                {
+                  "name": "Vin blanc sec",
+                  "quantity": "200ml"
+                },
+                {
+                  "name": "Oignon jaune",
+                  "quantity": "1 moyen"
+                },
+                {
+                  "name": "Ail",
+                  "quantity": "2 gousses"
+                },
+                {
+                  "name": "Beurre",
+                  "quantity": "60g"
+                },
+                {
+                  "name": "Parmesan râpé",
+                  "quantity": "80g"
+                },
+                {
+                  "name": "Huile d'olive",
+                  "quantity": "3 cuillères à soupe"
+                },
+                {
+                  "name": "Sel et poivre",
+                  "quantity": "À goût"
+                },
+                {
+                  "name": "Persil frais",
+                  "quantity": "1 poignée",
+                  "optional": true
+                }
+              ],
+              "steps": [
+                {
+                  "order": 1,
+                  "title": "Préparation des champignons sauvages",
+                  "instructions": [
+                    "Verser 200ml d'eau chaude sur les champignons porcini séchés",
+                    "Laisser réhydrater 15 minutes",
+                    "Filtrer en conservant le liquide de réhydratation",
+                    "Émincer finement les champignons réhydratés"
+                  ],
+                  "durationMinutes": 15
+                },
+                {
+                  "order": 2,
+                  "title": "Préparation des ingrédients",
+                  "instructions": [
+                    "Nettoyer les champignons de Paris avec un papier humide et les émincer",
+                    "Émincer finement l'oignon jaune",
+                    "Mincer les gousses d'ail",
+                    "Porter le bouillon de légumes à température dans une casserole à part"
+                  ],
+                  "durationMinutes": 10
+                },
+                {
+                  "order": 3,
+                  "title": "Sauté des champignons",
+                  "instructions": [
+                    "Chauffer 1 cuillère à soupe d'huile d'olive dans une large poêle",
+                    "Ajouter les champignons de Paris et les champignons porcini",
+                    "Sauté à feu vif pendant 5-7 minutes jusqu'à coloration dorée",
+                    "Saler et poivrer légèrement",
+                    "Réserver les champignons dans une assiette"
+                  ],
+                  "durationMinutes": 8
+                },
+                {
+                  "order": 4,
+                  "title": "Torréfaction du riz (tostatura)",
+                  "instructions": [
+                    "Dans la même poêle, ajouter 1 cuillère à soupe d'huile d'olive restante",
+                    "Ajouter l'oignon émincé et l'ail, faire revenir 2 minutes",
+                    "Ajouter le riz Arborio et remuer constamment pendant 2-3 minutes",
+                    "Le riz doit être transparent sur les bords et blanc au centre"
+                  ],
+                  "durationMinutes": 5
+                },
+                {
+                  "order": 5,
+                  "title": "Déglaçage au vin blanc",
+                  "instructions": [
+                    "Verser le vin blanc sec sur le riz",
+                    "Remuer constamment jusqu'à absorption complète du vin",
+                    "Ajouter le liquide de réhydratation des champignons porcini"
+                  ],
+                  "durationMinutes": 3
+                },
+                {
+                  "order": 6,
+                  "title": "Cuisson progressive (mantecatura)",
+                  "instructions": [
+                    "Ajouter le bouillon chaud une louche à la fois (environ 150-200ml)",
+                    "Remuer constamment pour libérer l'amidon du riz",
+                    "Attendre que le bouillon soit presque complètement absorbé avant d'ajouter la louche suivante",
+                    "Continuer pendant environ 18-20 minutes jusqu'à ce que le riz soit tendre mais al dente",
+                    "Le risotto doit avoir une texture onctueuse et crémifiée"
+                  ],
+                  "durationMinutes": 20
+                },
+                {
+                  "order": 7,
+                  "title": "Finition (mantecare)",
+                  "instructions": [
+                    "Retirer du feu",
+                    "Ajouter les champignons réservés",
+                    "Incorporer le beurre en petits morceaux",
+                    "Ajouter le Parmesan râpé",
+                    "Remuer vigoureusement pendant 1-2 minutes pour créer une texture crémeuse",
+                    "Ajuster l'assaisonnement en sel et poivre"
+                  ],
+                  "durationMinutes": 2
+                },
+                {
+                  "order": 8,
+                  "title": "Service",
+                  "instructions": [
+                    "Verser le risotto dans des assiettes chaudes",
+                    "Garnir de persil frais ciselé si désiré",
+                    "Servir immédiatement avec un trait d'huile d'olive en filet"
+                  ],
+                  "durationMinutes": 2
+                }
+              ],
+              "notes": {
+                "chef": [
+                  "La mantecatura (ajout progressif de bouillon) est essentielle pour obtenir la texture crémeuse caractéristique",
+                  "Remuer constamment pour libérer l'amidon du riz qui crée la crémosité naturelle",
+                  "Le riz doit rester al dente : tendre dehors mais légèrement ferme au centre",
+                  "Maintenir le bouillon à température constante pour une cuisson régulière",
+                  "La finition au beurre et Parmesan (mantecare) crée la saveur riche et crémeuse finale",
+                  "Ne pas ajouter trop d'eau : le risotto doit couler légèrement sur l'assiette, pas être un bouilli"
+                ],
+                "variations": [
+                  "Champignons mixtes : utiliser un mélange de porcini, chanterelles ou cèpes pour plus de complexité",
+                  "Version légère : remplacer le beurre par 50g de crème fraîche allégée",
+                  "Version vegan : utiliser de l'huile d'olive à la finition et levure nutritionnelle à la place du Parmesan",
+                  "Avec du safran : ajouter une pincée de safran dans le bouillon pour une version piémontaise classique",
+                  "Finition truffée : ajouter quelques traits d'huile de truffe noire à la finition pour un plat festif"
+                ],
+                "conservation": "Conserver au réfrigérateur maximum 3 jours. Pour réchauffer, ajouter un peu de bouillon chaud et remuer doucement. Idéalement consommer frais. Ne pas congeler (la texture change).",
+                "nutrition": "Par portion : 420 calories, protéines 12g, glucides 58g, lipides 14g. Végétarien. Contient : gluten potentiel (bouillon), produits laitiers (beurre, Parmesan). Pour réduire les lipides, remplacer le beurre par crème fraîche allégée."
+              }
+            }
+          },
+          "result": {
+            "success": true,
+            "id": "cmpeskqwg0000peijhlk304bj",
+            "title": "Risotto aux champignons sauvages"
+          }
+        }
+      ],
+      "output": {
+        "title": "Risotto aux champignons sauvages",
+        "cuisine": "Italienne (Piémontaise)",
+        "timeMinutes": "45",
+        "portions": "4",
+        "emoji": "🍄",
+        "ingredients": "[{\"name\": \"Riz Arborio\", \"quantity\": \"320g\"}, {\"name\": \"Champignons de Paris\", \"quantity\": \"400g\"}, {\"name\": \"Champignons sauvages séchés (porcini)\", \"quantity\": \"30g\"}, {\"name\": \"Bouillon de légumes\", \"quantity\": \"1.2L\"}, {\"name\": \"Vin blanc sec\", \"quantity\": \"200ml\"}, {\"name\": \"Oignon jaune\", \"quantity\": \"1 moyen\"}, {\"name\": \"Ail\", \"quantity\": \"2 gousses\"}, {\"name\": \"Beurre\", \"quantity\": \"60g\"}, {\"name\": \"Parmesan râpé\", \"quantity\": \"80g\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Sel et poivre\", \"quantity\": \"À goût\"}, {\"name\": \"Persil frais\", \"quantity\": \"1 poignée\", \"optional\": true}]",
+        "steps": [
+          "Réhydrater les champignons séchés (porcini) dans 200ml d'eau chaude pendant 15 minutes. Filtrer et conserver le liquide de trempage. Hacher les champignons réhydratés.",
+          "Nettoyer et trancher les champignons de Paris en fines lamelles.",
+          "Faire chauffer le bouillon de légumes dans une casserole et maintenir à frémissement constant.",
+          "Hacher finement l'oignon jaune et l'ail. Chauffer 1 cuillère à soupe d'huile d'olive dans une poêle et sauté les champignons de Paris jusqu'à cuisson complète (environ 10 minutes). Saler, poivrer et réserver.",
+          "Dans une grande casserole, chauffer 2 cuillères à soupe d'huile d'olive. Ajouter l'oignon haché et cuire 2 minutes sans colorer. Ajouter l'ail et cuire 1 minute.",
+          "Verser le riz Arborio dans la casserole et remuer constamment pendant 2 minutes pour enrober les grains d'huile (toastage).",
+          "Déglacer avec le vin blanc sec et remuer jusqu'à absorption complète.",
+          "Ajouter graduellement le bouillon chaud (1 louche à la fois), en attendant l'absorption avant chaque ajout. Remuer régulièrement pendant 18-20 minutes jusqu'à cuisson al dente du riz.",
+          "Incorporer les champignons de Paris cuits, les champignons séchés réhydratés et leur liquide de trempage (filtré) au cours des 5 dernières minutes de cuisson.",
+          "Hors du feu, ajouter le beurre froid et le Parmesan râpé. Remuer vigoureusement pour créer une texture crémeuse (mantecatura). Ajuster l'assaisonnement.",
+          "Servir immédiatement dans des assiettes creuses chaudes. Décorer avec du persil frais haché et un trait de Parmesan supplémentaire."
+        ],
+        "notes": "{\"chef\": [\"La clé du succès réside dans l'ajout progressif du bouillon: chaque louche doit être absorbée avant la suivante\", \"Remuer régulièrement pour libérer l'amidon du riz et créer la texture crémeuse caractéristique\", \"Maintenir le bouillon à frémissement constant pour une cuisson uniforme\", \"La mantecatura finale (beurre + Parmesan) doit être vigoureuse pour obtenir la texture optimale\", \"Utiliser du Parmesan frais râpé plutôt que pré-râpé pour meilleure saveur\"], \"variations\": [\"Variante vegan: remplacer le beurre par 2 cuillères à soupe d'huile d'olive et le Parmesan par 80g de levure nutritionnelle\", \"Variante allégée: utiliser 50g de crème fraîche allégée à la place du beurre pour réduire les lipides\", \"Ajouter des truffes noires râpées finement pour une version premium\", \"Intégrer 100g de roquette frais à la dernière minute pour plus de fraîcheur\", \"Remplacer le Riz Arborio par du Carnaroli pour des grains plus fermes\"], \"conservation\": \"Le risotto se déguste immédiatement après la cuisson. Les restes peuvent se conserver 2 jours au réfrigérateur dans un contenant hermétique. Pour réchauffer, ajouter du bouillon chaud et remuer doucement à feu doux.\", \"nutrition\": \"Par portion (4 personnes): protéines 12g, glucides 58g, lipides 14g. Végétarien. Potentiellement sans gluten si utilisation d'un bouillon sans gluten. Riche en umami grâce aux champignons sauvages.\"}"
+      }
+    },
+    {
+      "offset_ms": 59681,
+      "event": "stage_start",
+      "stage": "technique-validation",
+      "stage_index": 4,
+      "total_stages": 6,
+      "max_attempts": 2
+    },
+    {
+      "offset_ms": 59682,
+      "event": "stage_context",
+      "stage": "technique-validation",
+      "context_keys": {
+        "previous_stage_output": 3858
+      }
+    },
+    {
+      "offset_ms": 70848,
+      "event": "tool_call_start",
+      "tool": "db-upsert_recipe",
+      "params": {
+        "data": {
+          "userId": "cmmrunf9l0000cpijlrn58jpw",
+          "title": "Risotto aux champignons sauvages",
+          "cuisine": "Italienne (Piémontaise)",
+          "timeMinutes": 45,
+          "portions": 4,
+          "emoji": "🍄",
+          "ingredients": [
+            {
+              "name": "Riz Arborio",
+              "quantity": "320g"
+            },
+            {
+              "name": "Champignons de Paris",
+              "quantity": "400g"
+            },
+            {
+              "name": "Champignons sauvages séchés (porcini)",
+              "quantity": "30g"
+            },
+            {
+              "name": "Bouillon de légumes",
+              "quantity": "1.2L"
+            },
+            {
+              "name": "Vin blanc sec",
+              "quantity": "200ml"
+            },
+            {
+              "name": "Oignon jaune",
+              "quantity": "1 moyen"
+            },
+            {
+              "name": "Ail",
+              "quantity": "2 gousses"
+            },
+            {
+              "name": "Beurre",
+              "quantity": "60g"
+            },
+            {
+              "name": "Parmesan râpé",
+              "quantity": "80g"
+            },
+            {
+              "name": "Huile d'olive",
+              "quantity": "3 cuillères à soupe"
+            },
+            {
+              "name": "Sel et poivre",
+              "quantity": "À goût"
+            },
+            {
+              "name": "Persil frais",
+              "quantity": "1 poignée",
+              "optional": true
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Réhydrater les champignons séchés",
+              "instructions": [
+                "Réhydrater les champignons séchés (porcini) dans 200ml d'eau chaude pendant 15 minutes",
+                "Filtrer et conserver le liquide de trempage",
+                "Hacher les champignons réhydratés"
+              ],
+              "durationMinutes": 15
+            },
+            {
+              "order": 2,
+              "title": "Préparer les champignons frais",
+              "instructions": [
+                "Nettoyer et trancher les champignons de Paris en fines lamelles"
+              ],
+              "durationMinutes": 5
+            },
+            {
+              "order": 3,
+              "title": "Chauffer le bouillon",
+              "instructions": [
+                "Faire chauffer le bouillon de légumes dans une casserole et maintenir à frémissement constant"
+              ],
+              "durationMinutes": 5
+            },
+            {
+              "order": 4,
+              "title": "Cuire les champignons de Paris",
+              "instructions": [
+                "Hacher finement l'oignon jaune et l'ail",
+                "Chauffer 1 cuillère à soupe d'huile d'olive dans une poêle",
+                "Sauté les champignons de Paris jusqu'à cuisson complète",
+                "Saler, poivrer et réserver"
+              ],
+              "durationMinutes": 10
+            },
+            {
+              "order": 5,
+              "title": "Aromatiquer le riz",
+              "instructions": [
+                "Dans une grande casserole, chauffer 2 cuillères à soupe d'huile d'olive",
+                "Ajouter l'oignon haché et cuire 2 minutes sans colorer",
+                "Ajouter l'ail et cuire 1 minute"
+              ],
+              "durationMinutes": 3
+            },
+            {
+              "order": 6,
+              "title": "Toaster le riz",
+              "instructions": [
+                "Verser le riz Arborio dans la casserole",
+                "Remuer constamment pendant 2 minutes pour enrober les grains d'huile (toastage)"
+              ],
+              "durationMinutes": 2
+            },
+            {
+              "order": 7,
+              "title": "Déglacer au vin blanc",
+              "instructions": [
+                "Déglacer avec le vin blanc sec",
+                "Remuer jusqu'à absorption complète"
+              ],
+              "durationMinutes": 2
+            },
+            {
+              "order": 8,
+              "title": "Cuire le risotto",
+              "instructions": [
+                "Ajouter graduellement le bouillon chaud (1 louche à la fois)",
+                "Attendre l'absorption avant chaque ajout",
+                "Remuer régulièrement pendant 18-20 minutes jusqu'à cuisson al dente du riz"
+              ],
+              "durationMinutes": 20
+            },
+            {
+              "order": 9,
+              "title": "Incorporer les champignons",
+              "instructions": [
+                "Incorporer les champignons de Paris cuits",
+                "Ajouter les champignons séchés réhydratés et leur liquide de trempage (filtré)",
+                "Faire pendant les 5 dernières minutes de cuisson"
+              ],
+              "durationMinutes": 5
+            },
+            {
+              "order": 10,
+              "title": "Mantecatura (finition crémeuse)",
+              "instructions": [
+                "Hors du feu, ajouter le beurre froid et le Parmesan râpé",
+                "Remuer vigoureusement pour créer une texture crémeuse",
+                "Ajuster l'assaisonnement"
+              ],
+              "durationMinutes": 2
+            },
+            {
+              "order": 11,
+              "title": "Servir",
+              "instructions": [
+                "Servir immédiatement dans des assiettes creuses chaudes",
+                "Décorer avec du persil frais haché et un trait de Parmesan supplémentaire"
+              ],
+              "durationMinutes": 1
+            }
+          ],
+          "notes": {
+            "chef": [
+              "La clé du succès réside dans l'ajout progressif du bouillon: chaque louche doit être absorbée avant la suivante",
+              "Remuer régulièrement pour libérer l'amidon du riz et créer la texture crémeuse caractéristique",
+              "Maintenir le bouillon à frémissement constant pour une cuisson uniforme",
+              "La mantecatura finale (beurre + Parmesan) doit être vigoureuse pour obtenir la texture optimale",
+              "Utiliser du Parmesan frais râpé plutôt que pré-râpé pour meilleure saveur"
+            ],
+            "variations": [
+              "Variante vegan: remplacer le beurre par 2 cuillères à soupe d'huile d'olive et le Parmesan par 80g de levure nutritionnelle",
+              "Variante allégée: utiliser 50g de crème fraîche allégée à la place du beurre pour réduire les lipides",
+              "Ajouter des truffes noires râpées finement pour une version premium",
+              "Intégrer 100g de roquette frais à la dernière minute pour plus de fraîcheur",
+              "Remplacer le Riz Arborio par du Carnaroli pour des grains plus fermes"
+            ],
+            "conservation": "Le risotto se déguste immédiatement après la cuisson. Les restes peuvent se conserver 2 jours au réfrigérateur dans un contenant hermétique. Pour réchauffer, ajouter du bouillon chaud et remuer doucement à feu doux.",
+            "nutrition": "Par portion (4 personnes): protéines 12g, glucides 58g, lipides 14g. Végétarien. Potentiellement sans gluten si utilisation d'un bouillon sans gluten. Riche en umami grâce aux champignons sauvages."
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 72140,
+      "event": "tool_call_complete",
+      "tool": "db-upsert_recipe",
+      "result": {
+        "success": true,
+        "id": "cmpesl91j0000xzijvy3clrn8",
+        "title": "Risotto aux champignons sauvages"
+      },
+      "duration_ms": 1292
+    },
+    {
+      "offset_ms": 73585,
+      "event": "stage_complete",
+      "stage": "technique-validation",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 13904,
+      "tokens": {
+        "prompt": 8826,
+        "completion": 2258,
+        "total": 11084
+      },
+      "tool_calls": [
+        {
+          "id": "toolu_013zq1Y6v97fAbrAv61g31aj",
+          "name": "db-upsert_recipe",
+          "arguments": {
+            "data": {
+              "userId": "cmmrunf9l0000cpijlrn58jpw",
+              "title": "Risotto aux champignons sauvages",
+              "cuisine": "Italienne (Piémontaise)",
+              "timeMinutes": 45,
+              "portions": 4,
+              "emoji": "🍄",
+              "ingredients": [
+                {
+                  "name": "Riz Arborio",
+                  "quantity": "320g"
+                },
+                {
+                  "name": "Champignons de Paris",
+                  "quantity": "400g"
+                },
+                {
+                  "name": "Champignons sauvages séchés (porcini)",
+                  "quantity": "30g"
+                },
+                {
+                  "name": "Bouillon de légumes",
+                  "quantity": "1.2L"
+                },
+                {
+                  "name": "Vin blanc sec",
+                  "quantity": "200ml"
+                },
+                {
+                  "name": "Oignon jaune",
+                  "quantity": "1 moyen"
+                },
+                {
+                  "name": "Ail",
+                  "quantity": "2 gousses"
+                },
+                {
+                  "name": "Beurre",
+                  "quantity": "60g"
+                },
+                {
+                  "name": "Parmesan râpé",
+                  "quantity": "80g"
+                },
+                {
+                  "name": "Huile d'olive",
+                  "quantity": "3 cuillères à soupe"
+                },
+                {
+                  "name": "Sel et poivre",
+                  "quantity": "À goût"
+                },
+                {
+                  "name": "Persil frais",
+                  "quantity": "1 poignée",
+                  "optional": true
+                }
+              ],
+              "steps": [
+                {
+                  "order": 1,
+                  "title": "Réhydrater les champignons séchés",
+                  "instructions": [
+                    "Réhydrater les champignons séchés (porcini) dans 200ml d'eau chaude pendant 15 minutes",
+                    "Filtrer et conserver le liquide de trempage",
+                    "Hacher les champignons réhydratés"
+                  ],
+                  "durationMinutes": 15
+                },
+                {
+                  "order": 2,
+                  "title": "Préparer les champignons frais",
+                  "instructions": [
+                    "Nettoyer et trancher les champignons de Paris en fines lamelles"
+                  ],
+                  "durationMinutes": 5
+                },
+                {
+                  "order": 3,
+                  "title": "Chauffer le bouillon",
+                  "instructions": [
+                    "Faire chauffer le bouillon de légumes dans une casserole et maintenir à frémissement constant"
+                  ],
+                  "durationMinutes": 5
+                },
+                {
+                  "order": 4,
+                  "title": "Cuire les champignons de Paris",
+                  "instructions": [
+                    "Hacher finement l'oignon jaune et l'ail",
+                    "Chauffer 1 cuillère à soupe d'huile d'olive dans une poêle",
+                    "Sauté les champignons de Paris jusqu'à cuisson complète",
+                    "Saler, poivrer et réserver"
+                  ],
+                  "durationMinutes": 10
+                },
+                {
+                  "order": 5,
+                  "title": "Aromatiquer le riz",
+                  "instructions": [
+                    "Dans une grande casserole, chauffer 2 cuillères à soupe d'huile d'olive",
+                    "Ajouter l'oignon haché et cuire 2 minutes sans colorer",
+                    "Ajouter l'ail et cuire 1 minute"
+                  ],
+                  "durationMinutes": 3
+                },
+                {
+                  "order": 6,
+                  "title": "Toaster le riz",
+                  "instructions": [
+                    "Verser le riz Arborio dans la casserole",
+                    "Remuer constamment pendant 2 minutes pour enrober les grains d'huile (toastage)"
+                  ],
+                  "durationMinutes": 2
+                },
+                {
+                  "order": 7,
+                  "title": "Déglacer au vin blanc",
+                  "instructions": [
+                    "Déglacer avec le vin blanc sec",
+                    "Remuer jusqu'à absorption complète"
+                  ],
+                  "durationMinutes": 2
+                },
+                {
+                  "order": 8,
+                  "title": "Cuire le risotto",
+                  "instructions": [
+                    "Ajouter graduellement le bouillon chaud (1 louche à la fois)",
+                    "Attendre l'absorption avant chaque ajout",
+                    "Remuer régulièrement pendant 18-20 minutes jusqu'à cuisson al dente du riz"
+                  ],
+                  "durationMinutes": 20
+                },
+                {
+                  "order": 9,
+                  "title": "Incorporer les champignons",
+                  "instructions": [
+                    "Incorporer les champignons de Paris cuits",
+                    "Ajouter les champignons séchés réhydratés et leur liquide de trempage (filtré)",
+                    "Faire pendant les 5 dernières minutes de cuisson"
+                  ],
+                  "durationMinutes": 5
+                },
+                {
+                  "order": 10,
+                  "title": "Mantecatura (finition crémeuse)",
+                  "instructions": [
+                    "Hors du feu, ajouter le beurre froid et le Parmesan râpé",
+                    "Remuer vigoureusement pour créer une texture crémeuse",
+                    "Ajuster l'assaisonnement"
+                  ],
+                  "durationMinutes": 2
+                },
+                {
+                  "order": 11,
+                  "title": "Servir",
+                  "instructions": [
+                    "Servir immédiatement dans des assiettes creuses chaudes",
+                    "Décorer avec du persil frais haché et un trait de Parmesan supplémentaire"
+                  ],
+                  "durationMinutes": 1
+                }
+              ],
+              "notes": {
+                "chef": [
+                  "La clé du succès réside dans l'ajout progressif du bouillon: chaque louche doit être absorbée avant la suivante",
+                  "Remuer régulièrement pour libérer l'amidon du riz et créer la texture crémeuse caractéristique",
+                  "Maintenir le bouillon à frémissement constant pour une cuisson uniforme",
+                  "La mantecatura finale (beurre + Parmesan) doit être vigoureuse pour obtenir la texture optimale",
+                  "Utiliser du Parmesan frais râpé plutôt que pré-râpé pour meilleure saveur"
+                ],
+                "variations": [
+                  "Variante vegan: remplacer le beurre par 2 cuillères à soupe d'huile d'olive et le Parmesan par 80g de levure nutritionnelle",
+                  "Variante allégée: utiliser 50g de crème fraîche allégée à la place du beurre pour réduire les lipides",
+                  "Ajouter des truffes noires râpées finement pour une version premium",
+                  "Intégrer 100g de roquette frais à la dernière minute pour plus de fraîcheur",
+                  "Remplacer le Riz Arborio par du Carnaroli pour des grains plus fermes"
+                ],
+                "conservation": "Le risotto se déguste immédiatement après la cuisson. Les restes peuvent se conserver 2 jours au réfrigérateur dans un contenant hermétique. Pour réchauffer, ajouter du bouillon chaud et remuer doucement à feu doux.",
+                "nutrition": "Par portion (4 personnes): protéines 12g, glucides 58g, lipides 14g. Végétarien. Potentiellement sans gluten si utilisation d'un bouillon sans gluten. Riche en umami grâce aux champignons sauvages."
+              }
+            }
+          },
+          "result": {
+            "success": true,
+            "id": "cmpesl91j0000xzijvy3clrn8",
+            "title": "Risotto aux champignons sauvages"
+          }
+        }
+      ],
+      "output": {
+        "verdict": "approved",
+        "critique": "Recette techniquement solide et réalisable. Risotto classique piémontais bien structuré avec timing cohérent (45 min) et techniques appropriées. Les contraintes sont respectées : végétarien confirmé, portions pour 4, ingrédients standards (Arborio, champignons de Paris, porcini séchés, bouillon, vin blanc, beurre, Parmesan).",
+        "persistence": {
+          "status": "success",
+          "recipe_id": "cmpesl91j0000xzijvy3clrn8",
+          "title": "Risotto aux champignons sauvages"
+        }
+      }
+    },
+    {
+      "offset_ms": 73586,
+      "event": "group_complete",
+      "group": "recipe-refinement",
+      "iterations": 1,
+      "status": "success"
+    },
+    {
+      "offset_ms": 73586,
+      "event": "stage_start",
+      "stage": "grocery-list",
+      "stage_index": 5,
+      "total_stages": 6,
+      "max_attempts": 2
+    },
+    {
+      "offset_ms": 73587,
+      "event": "stage_context",
+      "stage": "grocery-list",
+      "context_keys": {
+        "input": 176,
+        "previous_stage_output": 7873
+      }
+    },
+    {
+      "offset_ms": 77778,
+      "event": "tool_call_start",
+      "tool": "db-upsert_grocery_list",
+      "params": {
+        "data": {
+          "planId": "cmmrunf9l0000cpijlrn58jpw",
+          "items": [
+            {
+              "name": "Riz Arborio",
+              "quantity": "320g",
+              "group": "épicerie sèche"
+            },
+            {
+              "name": "Champignons de Paris",
+              "quantity": "400g",
+              "group": "légumes"
+            },
+            {
+              "name": "Champignons sauvages séchés (porcini)",
+              "quantity": "30g",
+              "group": "épicerie sèche"
+            },
+            {
+              "name": "Bouillon de légumes",
+              "quantity": "1.2L",
+              "group": "épicerie sèche"
+            },
+            {
+              "name": "Vin blanc sec",
+              "quantity": "200ml",
+              "group": "alcools"
+            },
+            {
+              "name": "Oignon jaune",
+              "quantity": "1 moyen",
+              "group": "légumes"
+            },
+            {
+              "name": "Ail",
+              "quantity": "2 gousses",
+              "group": "légumes"
+            },
+            {
+              "name": "Beurre",
+              "quantity": "60g",
+              "group": "produits frais"
+            },
+            {
+              "name": "Parmesan râpé",
+              "quantity": "80g",
+              "group": "produits frais"
+            },
+            {
+              "name": "Huile d'olive",
+              "quantity": "3 cuillères à soupe",
+              "group": "condiments"
+            },
+            {
+              "name": "Sel et poivre",
+              "quantity": "À goût",
+              "group": "condiments"
+            },
+            {
+              "name": "Persil frais",
+              "quantity": "1 poignée",
+              "group": "légumes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset_ms": 78855,
+      "event": "tool_call_complete",
+      "tool": "db-upsert_grocery_list",
+      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
+      "duration_ms": 1077
+    },
+    {
+      "offset_ms": 80165,
+      "event": "tool_call_start",
+      "tool": "repo_manager-read_file",
+      "params": {
+        "path": "prisma/schema.prisma"
+      }
+    },
+    {
+      "offset_ms": 80166,
+      "event": "tool_call_complete",
+      "tool": "repo_manager-read_file",
+      "result": {
+        "path": "prisma/schema.prisma",
+        "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel User {\n  id            String       @id @default(cuid())\n  name          String?\n  email         String       @unique\n  emailVerified DateTime?\n  image         String?\n  createdAt     DateTime     @default(now())\n  accounts      Account[]\n  recipes       Recipe[]\n  sessions      Session[]\n  plans         WeeklyPlan[]\n  profile       UserProfile?\n  chatQuota     ChatQuota?\n}\n\nmodel Account {\n  id                String  @id @default(cuid())\n  userId            String\n  type              String\n  provider          String\n  providerAccountId String\n  refresh_token     String?\n  access_token      String?\n  expires_at        Int?\n  token_type        String?\n  scope             String?\n  id_token          String?\n  session_state     String?\n  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n\n  @@unique([provider, providerAccountId])\n}\n\nmodel Session {\n  id           String   @id @default(cuid())\n  sessionToken String   @unique\n  userId       String\n  expires      DateTime\n  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel VerificationToken {\n  identifier String\n  token      String   @unique\n  expires    DateTime\n\n  @@unique([identifier, token])\n}\n\nmodel Recipe {\n  id                String             @id @default(cuid())\n  title             String\n  createdAt         DateTime           @default(now())\n  calories          Int?\n  cuisine           String?\n  emoji             String?\n  ingredients       Json\n  isFavorite        Boolean            @default(false)\n  notes             Json?\n  portions          Int?\n  steps             Json\n  timeMinutes       Int?\n  userId            String\n  user              User               @relation(fields: [userId], references: [id])\n  WeeklyPlanRecipes WeeklyPlanRecipe[]\n\n  @@index([userId, isFavorite])\n}\n\nmodel WeeklyPlan {\n  id          String             @id @default(cuid())\n  userId      String\n  weekStart   DateTime\n  createdAt   DateTime           @default(now())\n  GroceryList GroceryList?\n  user        User               @relation(fields: [userId], references: [id])\n  recipes     WeeklyPlanRecipe[]\n}\n\nmodel WeeklyPlanRecipe {\n  id       String     @id @default(cuid())\n  planId   String\n  recipeId String\n  position Int\n  addedAt  DateTime   @default(now())\n  plan     WeeklyPlan @relation(fields: [planId], references: [id])\n  recipe   Recipe     @relation(fields: [recipeId], references: [id])\n\n  @@unique([planId, recipeId])\n  @@unique([planId, position])\n}\n\nmodel GroceryList {\n  id     String     @id @default(cuid())\n  items  Json\n  planId String     @unique\n  plan   WeeklyPlan @relation(fields: [planId], references: [id])\n}\n\nmodel studio_pipeline_runs {\n  id            String    @id\n  pipeline_name String\n  status        String\n  result        String\n  started_at    String\n  completed_at  String?\n  log_path      String?\n  parent_run_id String?\n  created_at    DateTime? @default(now()) @db.Timestamptz(6)\n\n  @@index([created_at(sort: Desc)], map: \"idx_studio_pipeline_runs_created\")\n  @@index([parent_run_id], map: \"idx_studio_pipeline_runs_parent\")\n  @@index([status], map: \"idx_studio_pipeline_runs_status\")\n}\n\nmodel UserProfile {\n  id                    String    @id @default(cuid())\n  userId                String    @unique\n  dietary               String[]  @default([])\n  dislikes              String[]  @default([])\n  cuisines              String[]  @default([])\n  mealsPerWeek          Int       @default(5)\n  portions              Int       @default(2)\n  maxTimeMinutes        Int       @default(30)\n  budgetWeekly          String    @default(\"medium\")\n  onboardingCompleted   Boolean   @default(false)\n  onboardingCompletedAt DateTime?\n  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel ChatQuota {\n  id      String  @id @default(cuid())\n  userId  String  @unique\n  month   String\n  used    Int     @default(0)\n  max     Int     @default(10)\n  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n"
+      },
+      "duration_ms": 1
+    },
+    {
+      "offset_ms": 87266,
+      "event": "stage_complete",
+      "stage": "grocery-list",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 13680,
+      "tokens": {
+        "prompt": 7749,
+        "completion": 1944,
+        "total": 9693
+      },
+      "tool_calls": [
+        {
+          "id": "toolu_01XW2F5eRgzfHJaz5cG9et2X",
+          "name": "db-upsert_grocery_list",
+          "arguments": {
+            "data": {
+              "planId": "cmmrunf9l0000cpijlrn58jpw",
+              "items": [
+                {
+                  "name": "Riz Arborio",
+                  "quantity": "320g",
+                  "group": "épicerie sèche"
+                },
+                {
+                  "name": "Champignons de Paris",
+                  "quantity": "400g",
+                  "group": "légumes"
+                },
+                {
+                  "name": "Champignons sauvages séchés (porcini)",
+                  "quantity": "30g",
+                  "group": "épicerie sèche"
+                },
+                {
+                  "name": "Bouillon de légumes",
+                  "quantity": "1.2L",
+                  "group": "épicerie sèche"
+                },
+                {
+                  "name": "Vin blanc sec",
+                  "quantity": "200ml",
+                  "group": "alcools"
+                },
+                {
+                  "name": "Oignon jaune",
+                  "quantity": "1 moyen",
+                  "group": "légumes"
+                },
+                {
+                  "name": "Ail",
+                  "quantity": "2 gousses",
+                  "group": "légumes"
+                },
+                {
+                  "name": "Beurre",
+                  "quantity": "60g",
+                  "group": "produits frais"
+                },
+                {
+                  "name": "Parmesan râpé",
+                  "quantity": "80g",
+                  "group": "produits frais"
+                },
+                {
+                  "name": "Huile d'olive",
+                  "quantity": "3 cuillères à soupe",
+                  "group": "condiments"
+                },
+                {
+                  "name": "Sel et poivre",
+                  "quantity": "À goût",
+                  "group": "condiments"
+                },
+                {
+                  "name": "Persil frais",
+                  "quantity": "1 poignée",
+                  "group": "légumes"
+                }
+              ]
+            }
+          },
+          "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}"
+        },
+        {
+          "id": "toolu_01CkWv71JNLjYcUemF8EiKDw",
+          "name": "repo_manager-read_file",
+          "arguments": {
+            "path": "prisma/schema.prisma"
+          },
+          "result": {
+            "path": "prisma/schema.prisma",
+            "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel User {\n  id            String       @id @default(cuid())\n  name          String?\n  email         String       @unique\n  emailVerified DateTime?\n  image         String?\n  createdAt     DateTime     @default(now())\n  accounts      Account[]\n  recipes       Recipe[]\n  sessions      Session[]\n  plans         WeeklyPlan[]\n  profile       UserProfile?\n  chatQuota     ChatQuota?\n}\n\nmodel Account {\n  id                String  @id @default(cuid())\n  userId            String\n  type              String\n  provider          String\n  providerAccountId String\n  refresh_token     String?\n  access_token      String?\n  expires_at        Int?\n  token_type        String?\n  scope             String?\n  id_token          String?\n  session_state     String?\n  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n\n  @@unique([provider, providerAccountId])\n}\n\nmodel Session {\n  id           String   @id @default(cuid())\n  sessionToken String   @unique\n  userId       String\n  expires      DateTime\n  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel VerificationToken {\n  identifier String\n  token      String   @unique\n  expires    DateTime\n\n  @@unique([identifier, token])\n}\n\nmodel Recipe {\n  id                String             @id @default(cuid())\n  title             String\n  createdAt         DateTime           @default(now())\n  calories          Int?\n  cuisine           String?\n  emoji             String?\n  ingredients       Json\n  isFavorite        Boolean            @default(false)\n  notes             Json?\n  portions          Int?\n  steps             Json\n  timeMinutes       Int?\n  userId            String\n  user              User               @relation(fields: [userId], references: [id])\n  WeeklyPlanRecipes WeeklyPlanRecipe[]\n\n  @@index([userId, isFavorite])\n}\n\nmodel WeeklyPlan {\n  id          String             @id @default(cuid())\n  userId      String\n  weekStart   DateTime\n  createdAt   DateTime           @default(now())\n  GroceryList GroceryList?\n  user        User               @relation(fields: [userId], references: [id])\n  recipes     WeeklyPlanRecipe[]\n}\n\nmodel WeeklyPlanRecipe {\n  id       String     @id @default(cuid())\n  planId   String\n  recipeId String\n  position Int\n  addedAt  DateTime   @default(now())\n  plan     WeeklyPlan @relation(fields: [planId], references: [id])\n  recipe   Recipe     @relation(fields: [recipeId], references: [id])\n\n  @@unique([planId, recipeId])\n  @@unique([planId, position])\n}\n\nmodel GroceryList {\n  id     String     @id @default(cuid())\n  items  Json\n  planId String     @unique\n  plan   WeeklyPlan @relation(fields: [planId], references: [id])\n}\n\nmodel studio_pipeline_runs {\n  id            String    @id\n  pipeline_name String\n  status        String\n  result        String\n  started_at    String\n  completed_at  String?\n  log_path      String?\n  parent_run_id String?\n  created_at    DateTime? @default(now()) @db.Timestamptz(6)\n\n  @@index([created_at(sort: Desc)], map: \"idx_studio_pipeline_runs_created\")\n  @@index([parent_run_id], map: \"idx_studio_pipeline_runs_parent\")\n  @@index([status], map: \"idx_studio_pipeline_runs_status\")\n}\n\nmodel UserProfile {\n  id                    String    @id @default(cuid())\n  userId                String    @unique\n  dietary               String[]  @default([])\n  dislikes              String[]  @default([])\n  cuisines              String[]  @default([])\n  mealsPerWeek          Int       @default(5)\n  portions              Int       @default(2)\n  maxTimeMinutes        Int       @default(30)\n  budgetWeekly          String    @default(\"medium\")\n  onboardingCompleted   Boolean   @default(false)\n  onboardingCompletedAt DateTime?\n  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel ChatQuota {\n  id      String  @id @default(cuid())\n  userId  String  @unique\n  month   String\n  used    Int     @default(0)\n  max     Int     @default(10)\n  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n"
+          }
+        }
+      ],
+      "output": {
+        "items": [
+          {
+            "name": "Riz Arborio",
+            "quantity": "320g",
+            "group": "épicerie sèche"
+          },
+          {
+            "name": "Champignons de Paris",
+            "quantity": "400g",
+            "group": "légumes"
+          },
+          {
+            "name": "Champignons sauvages séchés (porcini)",
+            "quantity": "30g",
+            "group": "épicerie sèche"
+          },
+          {
+            "name": "Bouillon de légumes",
+            "quantity": "1.2L",
+            "group": "épicerie sèche"
+          },
+          {
+            "name": "Vin blanc sec",
+            "quantity": "200ml",
+            "group": "condiments"
+          },
+          {
+            "name": "Oignon jaune",
+            "quantity": "1 moyen",
+            "group": "légumes"
+          },
+          {
+            "name": "Ail",
+            "quantity": "2 gousses",
+            "group": "légumes"
+          },
+          {
+            "name": "Beurre",
+            "quantity": "60g",
+            "group": "produits frais"
+          },
+          {
+            "name": "Parmesan râpé",
+            "quantity": "80g",
+            "group": "produits frais"
+          },
+          {
+            "name": "Huile d'olive",
+            "quantity": "3 cuillères à soupe (45ml)",
+            "group": "condiments"
+          },
+          {
+            "name": "Sel",
+            "quantity": "À goût",
+            "group": "condiments"
+          },
+          {
+            "name": "Poivre",
+            "quantity": "À goût",
+            "group": "condiments"
+          },
+          {
+            "name": "Persil frais",
+            "quantity": "1 poignée",
+            "group": "produits frais",
+            "optional": true
+          }
+        ],
+        "sections": {
+          "légumes": [
+            {
+              "name": "Champignons de Paris",
+              "quantity": "400g",
+              "group": "légumes"
+            },
+            {
+              "name": "Oignon jaune",
+              "quantity": "1 moyen",
+              "group": "légumes"
+            },
+            {
+              "name": "Ail",
+              "quantity": "2 gousses",
+              "group": "légumes"
+            }
+          ],
+          "épicerie sèche": [
+            {
+              "name": "Riz Arborio",
+              "quantity": "320g",
+              "group": "épicerie sèche"
+            },
+            {
+              "name": "Champignons sauvages séchés (porcini)",
+              "quantity": "30g",
+              "group": "épicerie sèche"
+            },
+            {
+              "name": "Bouillon de légumes",
+              "quantity": "1.2L",
+              "group": "épicerie sèche"
+            }
+          ],
+          "produits frais": [
+            {
+              "name": "Beurre",
+              "quantity": "60g",
+              "group": "produits frais"
+            },
+            {
+              "name": "Parmesan râpé",
+              "quantity": "80g",
+              "group": "produits frais"
+            },
+            {
+              "name": "Persil frais",
+              "quantity": "1 poignée",
+              "group": "produits frais",
+              "optional": true
+            }
+          ],
+          "condiments": [
+            {
+              "name": "Vin blanc sec",
+              "quantity": "200ml",
+              "group": "condiments"
+            },
+            {
+              "name": "Huile d'olive",
+              "quantity": "3 cuillères à soupe (45ml)",
+              "group": "condiments"
+            },
+            {
+              "name": "Sel",
+              "quantity": "À goût",
+              "group": "condiments"
+            },
+            {
+              "name": "Poivre",
+              "quantity": "À goût",
+              "group": "condiments"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset_ms": 87366,
+      "event": "pipeline_complete",
+      "pipeline_name": "recipe-developer",
+      "status": "success",
+      "duration_ms": 87398,
+      "total_tokens": 46670,
+      "total_tool_calls": 9,
+      "total_stages": 6
+    }
+  ]
+}
