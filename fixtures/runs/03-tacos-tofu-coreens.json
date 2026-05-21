@@ -10,8 +10,8 @@
       "épicé niveau moyen"
     ]
   },
-  "captured_at": "2026-05-21T01:10:29.417Z",
-  "duration_ms": 97781,
+  "captured_at": "2026-05-21T17:16:42.059Z",
+  "duration_ms": 91684,
   "events": [
     {
       "offset_ms": 0,
@@ -28,7 +28,7 @@
       }
     },
     {
-      "offset_ms": 1,
+      "offset_ms": 26,
       "event": "stage_start",
       "stage": "culinary-research",
       "stage_index": 0,
@@ -36,7 +36,7 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 4,
+      "offset_ms": 30,
       "event": "stage_context",
       "stage": "culinary-research",
       "context_keys": {
@@ -44,15 +44,15 @@
       }
     },
     {
-      "offset_ms": 1854,
+      "offset_ms": 1935,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "tacos tofu coréen recette technique"
+        "query": "tacos tofu coréen recette techniques culinaires"
       }
     },
     {
-      "offset_ms": 2032,
+      "offset_ms": 2076,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
@@ -60,18 +60,18 @@
           "error": "Unauthorized: missing or invalid API key."
         }
       },
-      "duration_ms": 177
+      "duration_ms": 140
     },
     {
-      "offset_ms": 2032,
+      "offset_ms": 2076,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Korean tofu tacos spiced vegan"
+        "query": "korean tofu taco flavors spices vegan"
       }
     },
     {
-      "offset_ms": 2152,
+      "offset_ms": 2186,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
@@ -79,18 +79,18 @@
           "error": "Unauthorized: missing or invalid API key."
         }
       },
-      "duration_ms": 120
+      "duration_ms": 110
     },
     {
-      "offset_ms": 2152,
+      "offset_ms": 2186,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "gochujang tofu fusion coréenne saveurs épicées"
+        "query": "tofu coréen marinade gochugaru saveurs authentiques"
       }
     },
     {
-      "offset_ms": 2275,
+      "offset_ms": 2305,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
@@ -98,26 +98,26 @@
           "error": "Unauthorized: missing or invalid API key."
         }
       },
-      "duration_ms": 123
+      "duration_ms": 119
     },
     {
-      "offset_ms": 6789,
+      "offset_ms": 7013,
       "event": "stage_complete",
       "stage": "culinary-research",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 6785,
+      "duration_ms": 7010,
       "tokens": {
-        "prompt": 2405,
-        "completion": 571,
-        "total": 2976
+        "prompt": 2407,
+        "completion": 543,
+        "total": 2950
       },
       "tool_calls": [
         {
-          "id": "toolu_01RPhhxBPWfP89JNEhD3Upip",
+          "id": "toolu_01LFe3dGaJrosTBMd3qCJsrn",
           "name": "web_search-search",
           "arguments": {
-            "query": "tacos tofu coréen recette technique"
+            "query": "tacos tofu coréen recette techniques culinaires"
           },
           "result": {
             "detail": {
@@ -126,10 +126,10 @@
           }
         },
         {
-          "id": "toolu_01Qn5xnuGS66aqe5TaYkAFGg",
+          "id": "toolu_01GyU76n8vrL5HEb11dRhGmZ",
           "name": "web_search-search",
           "arguments": {
-            "query": "Korean tofu tacos spiced vegan"
+            "query": "korean tofu taco flavors spices vegan"
           },
           "result": {
             "detail": {
@@ -138,10 +138,10 @@
           }
         },
         {
-          "id": "toolu_01S1PEBiF2ErsqZchmAUmvsE",
+          "id": "toolu_01VmJQZfQsGA9MXy21BRTLpy",
           "name": "web_search-search",
           "arguments": {
-            "query": "gochujang tofu fusion coréenne saveurs épicées"
+            "query": "tofu coréen marinade gochugaru saveurs authentiques"
           },
           "result": {
             "detail": {
@@ -151,14 +151,14 @@
         }
       ],
       "output": {
-        "topic_summary": "Les tacos au tofu coréens fusionnent la cuisine coréenne épicée avec le format mexicain des tacos. Ce plat végétalien combine du tofu mariné et grillé dans une sauce gochujang épicée, servi dans des tortillas avec des garnitures fraîches et croquantes.",
-        "key_techniques": "Marinade au gochujang et sauce soja, grillage ou poêlage du tofu pour développer la croûte, assemblage de tacos avec garnitures crues (chou, carottes, oignons verts), gestion de l'équilibre épicé-sucré-umami",
-        "cultural_context": "Ce plat hybride est une créations contemporaine qui fusionne la popularité mondiale des tacos avec l'attrait culinaire de la cuisine coréenne. Il reflète la tendance des cuisines fusionnées et de l'adaptation des techniques coréennes (fermentation, épices, sautage) aux formats occidentaux.",
-        "flavor_profile": "Profil dominant d'épices modérées avec notes umami profondes du gochujang et de la sauce soja. Contraste de textures entre le tofu tendre et les garnitures croquantes, finition fraîche avec succulence légère des oignons verts et acidité légère du vinaigre de riz."
+        "topic_summary": "Les tacos au tofu coréens sont une fusion culinaire moderne combinant la structure mexicaine de la tortilla avec les saveurs coréennes épicées et umami. Le tofu mariné dans des épices coréennes remplace la protéine traditionnelle, créant un plat végétalien authentiquement savoureux.",
+        "key_techniques": "Pressage du tofu, marinades épicées (gochugaru, gochujang, sauce soja), poêlage/sauté à température élevée, assemblage en tortilla, garniture fraîche croquante",
+        "cultural_context": "Ce plat représente la fusion créative contemporaine entre la cuisine mexicaine et coréenne, popularisée par les food trucks urbains et restaurants fusion en Asie et Amérique du Nord. Il incarne la tendance culinaire moderne adaptant les cuisines traditionnelles à des formats végétaliens.",
+        "flavor_profile": "Profil épicé-umami dominant avec chaleur piquante du gochugaru, salinité de la sauce soja fermentée, sucrosité légère, acidité du vinaigre, avec contraste de fraîcheur herbacée et croquant des garnitures végétales."
       }
     },
     {
-      "offset_ms": 6789,
+      "offset_ms": 7014,
       "event": "stage_start",
       "stage": "ingredient-sourcing",
       "stage_index": 1,
@@ -166,24 +166,24 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 6792,
+      "offset_ms": 7015,
       "event": "stage_context",
       "stage": "ingredient-sourcing",
       "context_keys": {
         "input": 150,
-        "previous_stage_output": 1094
+        "previous_stage_output": 1026
       }
     },
     {
-      "offset_ms": 8599,
+      "offset_ms": 8337,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "tacos tofu coréen gochujang recette ingrédients"
+        "query": "tacos tofu coréen recette ingrédients gochugaru gochujang"
       }
     },
     {
-      "offset_ms": 8719,
+      "offset_ms": 8448,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
@@ -191,18 +191,18 @@
           "error": "Unauthorized: missing or invalid API key."
         }
       },
-      "duration_ms": 120
+      "duration_ms": 111
     },
     {
-      "offset_ms": 8720,
+      "offset_ms": 8448,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "marinade tofu gochujang sauce soja quantités"
+        "query": "korean tofu tacos vegan ingredients portions"
       }
     },
     {
-      "offset_ms": 8842,
+      "offset_ms": 8557,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
@@ -210,45 +210,26 @@
           "error": "Unauthorized: missing or invalid API key."
         }
       },
-      "duration_ms": 122
+      "duration_ms": 109
     },
     {
-      "offset_ms": 8842,
-      "event": "tool_call_start",
-      "tool": "web_search-search",
-      "params": {
-        "query": "garnitures tacos coréens chou carottes oignons verts"
-      }
-    },
-    {
-      "offset_ms": 8963,
-      "event": "tool_call_complete",
-      "tool": "web_search-search",
-      "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
-      },
-      "duration_ms": 121
-    },
-    {
-      "offset_ms": 17816,
+      "offset_ms": 17928,
       "event": "stage_complete",
       "stage": "ingredient-sourcing",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 11026,
+      "duration_ms": 10913,
       "tokens": {
-        "prompt": 3031,
-        "completion": 1222,
-        "total": 4253
+        "prompt": 2884,
+        "completion": 1198,
+        "total": 4082
       },
       "tool_calls": [
         {
-          "id": "toolu_01Uf1GHzqAeNy2aDadCDTXNk",
+          "id": "toolu_01KzLX7fc7dJCVqcJGzM2bem",
           "name": "web_search-search",
           "arguments": {
-            "query": "tacos tofu coréen gochujang recette ingrédients"
+            "query": "tacos tofu coréen recette ingrédients gochugaru gochujang"
           },
           "result": {
             "detail": {
@@ -257,22 +238,10 @@
           }
         },
         {
-          "id": "toolu_01NWgQBuWMuupGQC6ye2Mhf2",
+          "id": "toolu_01BNZLqx6wWoEXShYxGeHntN",
           "name": "web_search-search",
           "arguments": {
-            "query": "marinade tofu gochujang sauce soja quantités"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
-        },
-        {
-          "id": "toolu_01CUnG5o7Bo3tx4hMjmViUL5",
-          "name": "web_search-search",
-          "arguments": {
-            "query": "garnitures tacos coréens chou carottes oignons verts"
+            "query": "korean tofu tacos vegan ingredients portions"
           },
           "result": {
             "detail": {
@@ -282,13 +251,13 @@
         }
       ],
       "output": {
-        "ingredients_list": "[{\"ingredient\": \"Tofu ferme\", \"quantité\": \"800g\"}, {\"ingredient\": \"Gochujang\", \"quantité\": \"100g\"}, {\"ingredient\": \"Sauce soja\", \"quantité\": \"60ml\"}, {\"ingredient\": \"Vinaigre de riz\", \"quantité\": \"30ml\"}, {\"ingredient\": \"Miel ou sirop d'agave\", \"quantité\": \"20ml\"}, {\"ingredient\": \"Ail frais\", \"quantité\": \"4 gousses\"}, {\"ingredient\": \"Gingembre frais\", \"quantité\": \"15g\"}, {\"ingredient\": \"Sésame blanc\", \"quantité\": \"25g\"}, {\"ingredient\": \"Huile de sésame\", \"quantité\": \"15ml\"}, {\"ingredient\": \"Huile végétale\", \"quantité\": \"30ml\"}, {\"ingredient\": \"Tortillas de maïs ou blé\", \"quantité\": \"12-15 unités\"}, {\"ingredient\": \"Chou blanc ou nappa\", \"quantité\": \"300g\"}, {\"ingredient\": \"Carottes\", \"quantité\": \"200g\"}, {\"ingredient\": \"Oignons verts\", \"quantité\": \"150g\"}, {\"ingredient\": \"Radis daikon\", \"quantité\": \"150g\"}, {\"ingredient\": \"Cacahuètes grillées\", \"quantité\": \"50g\"}, {\"ingredient\": \"Coriandre fraîche\", \"quantité\": \"30g\"}]",
-        "substitutions": "{\"Gochujang\": \"Pâte sriracha mélangée à du miso rouge (ratio 3:1) ou harissa pour un profil épicé alternatif\", \"Miel ou sirop d'agave\": \"Sirop d'érable, sucre de coco dissous ou sirop simple pour ajuster l'équilibre sucré-salé\", \"Tortillas de maïs\": \"Tortillas de blé complet, galettes de riz ou pains plats sans levain si allergies\", \"Radis daikon\": \"Navets blancs ou radis roses pour la croquance\", \"Cacahuètes\": \"Noix de cajou grillées ou graines de tournesol pour la texture croquante\"}",
-        "sourcing_notes": "{\"Gochujang\": \"Ingrédient clé coréen disponible en épiceries asiatiques, en ligne ou dans les rayons condiments spécialisés; chercher la version sans gluten si nécessaire.\", \"Tofu ferme\": \"Choisir une variété nature, non pré-marinée; privilégier les versions biologiques ou locales pour meilleure saveur.\", \"Sauce soja\": \"Préférer la sauce soja tamari sans gluten si contraintes diététiques; les versions coréennes (ganjang) offrent une saveur légèrement différente.\", \"Vinaigre de riz\": \"Disponible en épiceries asiatiques; le vinaigre blanc peut remplacer en dernier recours avec ajustement d'acidité.\", \"Huile de sésame\": \"Essence concentrée; acheter en petite quantité car forte saveur et rancissement rapide.\", \"Chou nappa\": \"Plus tendre que le chou blanc classique, traditionnel en cuisine coréenne; disponible en marchés asiatiques et magasins bio.\", \"Oignons verts\": \"Préférer les bottes fraîches avec parties blanches intactes pour la garniture croquante.\"}"
+        "ingredients_list": "[{\"ingredient\": \"Tofu ferme\", \"quantity\": \"800g\", \"unit\": \"g\"}, {\"ingredient\": \"Tortillas de maïs\", \"quantity\": \"12\", \"unit\": \"pièces\"}, {\"ingredient\": \"Gochugaru (piment coréen en poudre)\", \"quantity\": \"3\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Gochujang (pâte piment coréenne)\", \"quantity\": \"4\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Sauce soja\", \"quantity\": \"4\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Vinaigre de riz\", \"quantity\": \"2\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Huile de sésame\", \"quantity\": \"2\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Ail (gousses)\", \"quantity\": \"4\", \"unit\": \"gousses\"}, {\"ingredient\": \"Gingembre frais\", \"quantity\": \"2\", \"unit\": \"cm de racine\"}, {\"ingredient\": \"Oignon vert\", \"quantity\": \"2\", \"unit\": \"bottes\"}, {\"ingredient\": \"Chou napa (chou coréen)\", \"quantity\": \"300g\", \"unit\": \"g\"}, {\"ingredient\": \"Carottes\", \"quantity\": \"2\", \"unit\": \"moyennes\"}, {\"ingredient\": \"Concombre\", \"quantity\": \"1\", \"unit\": \"moyen\"}, {\"ingredient\": \"Graines de sésame\", \"quantity\": \"3\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Sucre ou miel (optionnel)\", \"quantity\": \"1\", \"unit\": \"cuillère à café\"}, {\"ingredient\": \"Huile neutre (tournesol/cacahuète)\", \"quantity\": \"3\", \"unit\": \"cuillères à soupe\"}]",
+        "substitutions": "{\"Gochugaru\": \"Piment d'Espelette (moins authentique mais similaire en chaleur) ou mélange paprika + cayenne (3:1)\", \"Gochujang\": \"Miso rouge + sambal oelek (1:1) pour approximer la fermentation umami\", \"Sauce soja\": \"Tamari (sans gluten et toujours végan) ou sauce soja classique\", \"Vinaigre de riz\": \"Vinaigre blanc dilué légèrement ou vinaigre de cidre\", \"Chou napa\": \"Chou ordinaire ou chou frisé finement ciselé\", \"Graines de sésame\": \"Graines de lin moulues (moins authentique mais apporte légère noisette)\"}",
+        "sourcing_notes": "{\"Gochugaru et Gochujang\": \"Ingrédients clés coréens; trouver en épicerie asiatique spécialisée ou en ligne, essentiels pour l'authenticité\", \"Tofu ferme\": \"Choisir tofu pressé ou extra-ferme pour meilleure texture sautée; les marques asiatiques offrent meilleure texture\", \"Vinaigre de riz\": \"Élément basique en cuisine asiatique; présent en supermarché rayon asiatique\", \"Huile de sésame\": \"Utiliser variété grillée torréfiée (plus foncée) pour saveur umami prononcée\", \"Chou napa\": \"Légume coréen signature; retrouvé en marché asiatique ou supermarché sections produits asiatiques\", \"Graines de sésame\": \"Préférer graines blanches ou mélange blanc-noir pour présentation et goût équilibré\"}"
       }
     },
     {
-      "offset_ms": 17816,
+      "offset_ms": 17928,
       "event": "stage_start",
       "stage": "nutritional-profile",
       "stage_index": 2,
@@ -296,112 +265,107 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 17818,
+      "offset_ms": 17929,
       "event": "stage_context",
       "stage": "nutritional-profile",
       "context_keys": {
         "input": 150,
-        "previous_stage_output": 2633
+        "previous_stage_output": 2769
       }
     },
     {
-      "offset_ms": 29919,
+      "offset_ms": 27841,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
         "data": {
           "userId": "cmmrunf9l0000cpijlrn58jpw",
           "title": "Tacos au tofu coréens",
-          "cuisine": "Fusion coréano-mexicaine",
-          "timeMinutes": 35,
+          "cuisine": "Fusion (Coréen-Mexicain)",
+          "timeMinutes": 45,
           "portions": 6,
           "emoji": "🌮",
-          "calories": 385,
           "ingredients": [
             {
               "name": "Tofu ferme",
-              "quantity": "800g",
+              "quantity": "800",
               "group": "Protéines"
             },
             {
+              "name": "Tortillas de maïs",
+              "quantity": "12",
+              "group": "Base"
+            },
+            {
+              "name": "Gochugaru",
+              "quantity": "3",
+              "group": "Épices & condiments"
+            },
+            {
               "name": "Gochujang",
-              "quantity": "100g",
-              "group": "Sauces & Condiments"
+              "quantity": "4",
+              "group": "Épices & condiments"
             },
             {
               "name": "Sauce soja",
-              "quantity": "60ml",
-              "group": "Sauces & Condiments"
+              "quantity": "4",
+              "group": "Épices & condiments"
             },
             {
               "name": "Vinaigre de riz",
-              "quantity": "30ml",
-              "group": "Sauces & Condiments"
+              "quantity": "2",
+              "group": "Épices & condiments"
             },
             {
-              "name": "Miel ou sirop d'agave",
-              "quantity": "20ml",
-              "group": "Édulcorants"
+              "name": "Huile de sésame",
+              "quantity": "2",
+              "group": "Huiles"
             },
             {
-              "name": "Ail frais",
-              "quantity": "4 gousses",
+              "name": "Huile neutre",
+              "quantity": "3",
+              "group": "Huiles"
+            },
+            {
+              "name": "Ail",
+              "quantity": "4",
               "group": "Aromates"
             },
             {
               "name": "Gingembre frais",
-              "quantity": "15g",
+              "quantity": "2",
               "group": "Aromates"
             },
             {
-              "name": "Sésame blanc",
-              "quantity": "25g",
-              "group": "Graines & Noix"
+              "name": "Oignon vert",
+              "quantity": "2",
+              "group": "Légumes"
             },
             {
-              "name": "Huile de sésame",
-              "quantity": "15ml",
-              "group": "Huiles"
-            },
-            {
-              "name": "Huile végétale",
-              "quantity": "30ml",
-              "group": "Huiles"
-            },
-            {
-              "name": "Tortillas de maïs ou blé",
-              "quantity": "12-15 unités",
-              "group": "Féculents"
-            },
-            {
-              "name": "Chou blanc ou nappa",
-              "quantity": "300g",
+              "name": "Chou napa",
+              "quantity": "300",
               "group": "Légumes"
             },
             {
               "name": "Carottes",
-              "quantity": "200g",
+              "quantity": "2",
               "group": "Légumes"
             },
             {
-              "name": "Oignons verts",
-              "quantity": "150g",
+              "name": "Concombre",
+              "quantity": "1",
               "group": "Légumes"
             },
             {
-              "name": "Radis daikon",
-              "quantity": "150g",
-              "group": "Légumes"
+              "name": "Graines de sésame",
+              "quantity": "3",
+              "group": "Garnitures"
             },
             {
-              "name": "Cacahuètes grillées",
-              "quantity": "50g",
-              "group": "Graines & Noix"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "30g",
-              "group": "Herbes"
+              "name": "Sucre ou miel",
+              "quantity": "1",
+              "group": "Épices & condiments",
+              "optional": true
             }
           ],
           "steps": [
@@ -409,195 +373,184 @@
               "order": 1,
               "title": "Préparation du tofu",
               "instructions": [
-                "Égoutter le tofu ferme et presser légèrement entre deux torchons",
-                "Couper en cubes de 2cm environ"
+                "Égoutter et éponger le tofu ferme pour éliminer l'humidité",
+                "Couper en cubes ou bâtonnets réguliers",
+                "Mélanger le gochugaru avec le gochujang, la sauce soja et le vinaigre de riz",
+                "Mariner le tofu 15 minutes dans ce mélange"
               ],
-              "durationMinutes": 5
+              "durationMinutes": 20
             },
             {
               "order": 2,
-              "title": "Préparation de la marinade",
+              "title": "Préparation des légumes",
               "instructions": [
-                "Mélanger gochujang, sauce soja, vinaigre de riz et miel/sirop d'agave",
-                "Émincer finement ail et gingembre, ajouter à la marinade",
-                "Bien mélanger jusqu'à homogénéité"
+                "Émincer le chou napa finement",
+                "Julienne les carottes",
+                "Couper le concombre en bâtonnets ou demi-lunes",
+                "Ciselé l'oignon vert en rondelles",
+                "Mincer l'ail et le gingembre"
               ],
-              "durationMinutes": 5
+              "durationMinutes": 10
             },
             {
               "order": 3,
               "title": "Cuisson du tofu",
               "instructions": [
-                "Chauffer huile végétale + huile de sésame dans une poêle/wok à feu moyen-vif",
-                "Ajouter les cubes de tofu, les laisser dorer 3-4 minutes par côté",
-                "Verser la marinade sur le tofu, bien enrober",
-                "Cuire 5-7 minutes en mélangeant régulièrement jusqu'à caramélisation légère"
+                "Chauffer l'huile neutre à feu vif dans un wok ou grande poêle",
+                "Faire sauter le tofu mariné 8-10 minutes jusqu'à coloration dorée sur les bords",
+                "Ajouter ail et gingembre 1 minute avant la fin",
+                "Ajouter l'huile de sésame et mélanger"
               ],
-              "durationMinutes": 15
+              "durationMinutes": 12
             },
             {
               "order": 4,
-              "title": "Préparation des garnitures",
+              "title": "Assemblage des tacos",
               "instructions": [
-                "Émincer finement le chou blanc/nappa",
-                "Émincer les carottes en julienne",
-                "Couper les oignons verts en tronçons de 3cm",
-                "Couper le daikon en bâtonnets fins",
-                "Ciselér la coriandre fraîche"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 5,
-              "title": "Montage des tacos",
-              "instructions": [
-                "Réchauffer légèrement les tortillas",
-                "Remplir chaque tortilla de chou + carottes",
-                "Ajouter environ 2-3 cuillères à soupe de tofu mariné",
-                "Garnir avec oignons verts, daikon, coriandre",
-                "Parsemer de sésame blanc et cacahuètes grillées"
+                "Réchauffer les tortillas de maïs",
+                "Garnir chaque tortilla de tofu cuit",
+                "Ajouter le chou napa, les carottes, le concombre et l'oignon vert",
+                "Saupoudrer de graines de sésame",
+                "Servir immédiatement avec condiments additionnels si souhaité"
               ],
               "durationMinutes": 5
             }
           ],
+          "calories": 285,
           "notes": {
             "chef": [
-              "Pour un résultat plus croustillant, laisser le tofu mariner 2-3 heures avant cuisson",
-              "L'épice peut être modulée en ajustant la quantité de gochujang",
-              "Les tortillas peuvent être grillées légèrement sur la poêle pour plus de saveur"
+              "Mariner le tofu au minimum 15 min pour développer la saveur coréenne",
+              "Ne pas surcharger les tortillas pour faciliter la consommation",
+              "Réserver le tofu au chaud pendant l'assemblage final"
             ],
             "variations": [
-              "Ajouter de l'avocat frais pour plus de richesse (non-vegan si mayonnaise)",
-              "Remplacer cacahuètes par graines de tournesol ou noix de cajou pour allergies",
-              "Ajouter des champignons marinés pour plus de texture"
+              "Ajouter du kimchi fermenté pour plus d'authenticité et de probiotiques",
+              "Utiliser du tempeh à la place du tofu pour texture plus ferme",
+              "Ajouter des cacahuètes rôties pour du croustillant supplémentaire",
+              "Inclure du chou-fleur rôti pour plus de volume"
             ],
-            "conservation": "Le tofu mariné se conserve 3 jours au réfrigérateur. Les garnitures crues (chou, carottes) jusqu'à 2 jours en bac hermétique.",
-            "nutrition": "Riche en protéines (13g/portion), fibres (8g), pauvre en saturés. Source de probiotiques (fermentation gochujang) et minéraux (sésame, daikon). Adaptable sans gluten avec tortillas GF."
+            "conservation": "Les tacos se conservent au réfrigérateur 2 jours (tofu et légumes séparés). Réchauffer le tofu à la poêle avant consommation.",
+            "nutrition": "Riche en protéines (tofu), vitamines K et C (légumes), minéraux. Équilibre lipides/glucides/protéines optimisé pour repas complet veggie."
           }
         }
       }
     },
     {
-      "offset_ms": 31150,
+      "offset_ms": 28940,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpesm9a20000lhij16aode4z",
+        "id": "cmpfr4w9b0000e4ijq0s3hdrm",
         "title": "Tacos au tofu coréens"
       },
-      "duration_ms": 1231
+      "duration_ms": 1098
     },
     {
-      "offset_ms": 33354,
+      "offset_ms": 30870,
       "event": "stage_complete",
       "stage": "nutritional-profile",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 15538,
+      "duration_ms": 12942,
       "tokens": {
-        "prompt": 7896,
-        "completion": 1999,
-        "total": 9895
+        "prompt": 8054,
+        "completion": 1621,
+        "total": 9675
       },
       "tool_calls": [
         {
-          "id": "toolu_018t1e2VvL67Y2U2Qf5UgCVv",
+          "id": "toolu_01SGwnpyLMd1dhoYkam1o4GF",
           "name": "db-upsert_recipe",
           "arguments": {
             "data": {
               "userId": "cmmrunf9l0000cpijlrn58jpw",
               "title": "Tacos au tofu coréens",
-              "cuisine": "Fusion coréano-mexicaine",
-              "timeMinutes": 35,
+              "cuisine": "Fusion (Coréen-Mexicain)",
+              "timeMinutes": 45,
               "portions": 6,
               "emoji": "🌮",
-              "calories": 385,
               "ingredients": [
                 {
                   "name": "Tofu ferme",
-                  "quantity": "800g",
+                  "quantity": "800",
                   "group": "Protéines"
                 },
                 {
+                  "name": "Tortillas de maïs",
+                  "quantity": "12",
+                  "group": "Base"
+                },
+                {
+                  "name": "Gochugaru",
+                  "quantity": "3",
+                  "group": "Épices & condiments"
+                },
+                {
                   "name": "Gochujang",
-                  "quantity": "100g",
-                  "group": "Sauces & Condiments"
+                  "quantity": "4",
+                  "group": "Épices & condiments"
                 },
                 {
                   "name": "Sauce soja",
-                  "quantity": "60ml",
-                  "group": "Sauces & Condiments"
+                  "quantity": "4",
+                  "group": "Épices & condiments"
                 },
                 {
                   "name": "Vinaigre de riz",
-                  "quantity": "30ml",
-                  "group": "Sauces & Condiments"
+                  "quantity": "2",
+                  "group": "Épices & condiments"
                 },
                 {
-                  "name": "Miel ou sirop d'agave",
-                  "quantity": "20ml",
-                  "group": "Édulcorants"
+                  "name": "Huile de sésame",
+                  "quantity": "2",
+                  "group": "Huiles"
                 },
                 {
-                  "name": "Ail frais",
-                  "quantity": "4 gousses",
+                  "name": "Huile neutre",
+                  "quantity": "3",
+                  "group": "Huiles"
+                },
+                {
+                  "name": "Ail",
+                  "quantity": "4",
                   "group": "Aromates"
                 },
                 {
                   "name": "Gingembre frais",
-                  "quantity": "15g",
+                  "quantity": "2",
                   "group": "Aromates"
                 },
                 {
-                  "name": "Sésame blanc",
-                  "quantity": "25g",
-                  "group": "Graines & Noix"
+                  "name": "Oignon vert",
+                  "quantity": "2",
+                  "group": "Légumes"
                 },
                 {
-                  "name": "Huile de sésame",
-                  "quantity": "15ml",
-                  "group": "Huiles"
-                },
-                {
-                  "name": "Huile végétale",
-                  "quantity": "30ml",
-                  "group": "Huiles"
-                },
-                {
-                  "name": "Tortillas de maïs ou blé",
-                  "quantity": "12-15 unités",
-                  "group": "Féculents"
-                },
-                {
-                  "name": "Chou blanc ou nappa",
-                  "quantity": "300g",
+                  "name": "Chou napa",
+                  "quantity": "300",
                   "group": "Légumes"
                 },
                 {
                   "name": "Carottes",
-                  "quantity": "200g",
+                  "quantity": "2",
                   "group": "Légumes"
                 },
                 {
-                  "name": "Oignons verts",
-                  "quantity": "150g",
+                  "name": "Concombre",
+                  "quantity": "1",
                   "group": "Légumes"
                 },
                 {
-                  "name": "Radis daikon",
-                  "quantity": "150g",
-                  "group": "Légumes"
+                  "name": "Graines de sésame",
+                  "quantity": "3",
+                  "group": "Garnitures"
                 },
                 {
-                  "name": "Cacahuètes grillées",
-                  "quantity": "50g",
-                  "group": "Graines & Noix"
-                },
-                {
-                  "name": "Coriandre fraîche",
-                  "quantity": "30g",
-                  "group": "Herbes"
+                  "name": "Sucre ou miel",
+                  "quantity": "1",
+                  "group": "Épices & condiments",
+                  "optional": true
                 }
               ],
               "steps": [
@@ -605,102 +558,96 @@
                   "order": 1,
                   "title": "Préparation du tofu",
                   "instructions": [
-                    "Égoutter le tofu ferme et presser légèrement entre deux torchons",
-                    "Couper en cubes de 2cm environ"
+                    "Égoutter et éponger le tofu ferme pour éliminer l'humidité",
+                    "Couper en cubes ou bâtonnets réguliers",
+                    "Mélanger le gochugaru avec le gochujang, la sauce soja et le vinaigre de riz",
+                    "Mariner le tofu 15 minutes dans ce mélange"
                   ],
-                  "durationMinutes": 5
+                  "durationMinutes": 20
                 },
                 {
                   "order": 2,
-                  "title": "Préparation de la marinade",
+                  "title": "Préparation des légumes",
                   "instructions": [
-                    "Mélanger gochujang, sauce soja, vinaigre de riz et miel/sirop d'agave",
-                    "Émincer finement ail et gingembre, ajouter à la marinade",
-                    "Bien mélanger jusqu'à homogénéité"
+                    "Émincer le chou napa finement",
+                    "Julienne les carottes",
+                    "Couper le concombre en bâtonnets ou demi-lunes",
+                    "Ciselé l'oignon vert en rondelles",
+                    "Mincer l'ail et le gingembre"
                   ],
-                  "durationMinutes": 5
+                  "durationMinutes": 10
                 },
                 {
                   "order": 3,
                   "title": "Cuisson du tofu",
                   "instructions": [
-                    "Chauffer huile végétale + huile de sésame dans une poêle/wok à feu moyen-vif",
-                    "Ajouter les cubes de tofu, les laisser dorer 3-4 minutes par côté",
-                    "Verser la marinade sur le tofu, bien enrober",
-                    "Cuire 5-7 minutes en mélangeant régulièrement jusqu'à caramélisation légère"
+                    "Chauffer l'huile neutre à feu vif dans un wok ou grande poêle",
+                    "Faire sauter le tofu mariné 8-10 minutes jusqu'à coloration dorée sur les bords",
+                    "Ajouter ail et gingembre 1 minute avant la fin",
+                    "Ajouter l'huile de sésame et mélanger"
                   ],
-                  "durationMinutes": 15
+                  "durationMinutes": 12
                 },
                 {
                   "order": 4,
-                  "title": "Préparation des garnitures",
+                  "title": "Assemblage des tacos",
                   "instructions": [
-                    "Émincer finement le chou blanc/nappa",
-                    "Émincer les carottes en julienne",
-                    "Couper les oignons verts en tronçons de 3cm",
-                    "Couper le daikon en bâtonnets fins",
-                    "Ciselér la coriandre fraîche"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 5,
-                  "title": "Montage des tacos",
-                  "instructions": [
-                    "Réchauffer légèrement les tortillas",
-                    "Remplir chaque tortilla de chou + carottes",
-                    "Ajouter environ 2-3 cuillères à soupe de tofu mariné",
-                    "Garnir avec oignons verts, daikon, coriandre",
-                    "Parsemer de sésame blanc et cacahuètes grillées"
+                    "Réchauffer les tortillas de maïs",
+                    "Garnir chaque tortilla de tofu cuit",
+                    "Ajouter le chou napa, les carottes, le concombre et l'oignon vert",
+                    "Saupoudrer de graines de sésame",
+                    "Servir immédiatement avec condiments additionnels si souhaité"
                   ],
                   "durationMinutes": 5
                 }
               ],
+              "calories": 285,
               "notes": {
                 "chef": [
-                  "Pour un résultat plus croustillant, laisser le tofu mariner 2-3 heures avant cuisson",
-                  "L'épice peut être modulée en ajustant la quantité de gochujang",
-                  "Les tortillas peuvent être grillées légèrement sur la poêle pour plus de saveur"
+                  "Mariner le tofu au minimum 15 min pour développer la saveur coréenne",
+                  "Ne pas surcharger les tortillas pour faciliter la consommation",
+                  "Réserver le tofu au chaud pendant l'assemblage final"
                 ],
                 "variations": [
-                  "Ajouter de l'avocat frais pour plus de richesse (non-vegan si mayonnaise)",
-                  "Remplacer cacahuètes par graines de tournesol ou noix de cajou pour allergies",
-                  "Ajouter des champignons marinés pour plus de texture"
+                  "Ajouter du kimchi fermenté pour plus d'authenticité et de probiotiques",
+                  "Utiliser du tempeh à la place du tofu pour texture plus ferme",
+                  "Ajouter des cacahuètes rôties pour du croustillant supplémentaire",
+                  "Inclure du chou-fleur rôti pour plus de volume"
                 ],
-                "conservation": "Le tofu mariné se conserve 3 jours au réfrigérateur. Les garnitures crues (chou, carottes) jusqu'à 2 jours en bac hermétique.",
-                "nutrition": "Riche en protéines (13g/portion), fibres (8g), pauvre en saturés. Source de probiotiques (fermentation gochujang) et minéraux (sésame, daikon). Adaptable sans gluten avec tortillas GF."
+                "conservation": "Les tacos se conservent au réfrigérateur 2 jours (tofu et légumes séparés). Réchauffer le tofu à la poêle avant consommation.",
+                "nutrition": "Riche en protéines (tofu), vitamines K et C (légumes), minéraux. Équilibre lipides/glucides/protéines optimisé pour repas complet veggie."
               }
             }
           },
           "result": {
             "success": true,
-            "id": "cmpesm9a20000lhij16aode4z",
+            "id": "cmpfr4w9b0000e4ijq0s3hdrm",
             "title": "Tacos au tofu coréens"
           }
         }
       ],
       "output": {
-        "macros": "protéines: 18g, glucides: 32g, lipides: 12g",
-        "allergens": "sésame, soja, gluten (si tortillas de blé), arachides",
+        "macros": "protéines: 12g, glucides: 28g, lipides: 8g",
+        "allergens": "sésame, soja",
         "dietary_flags": "vegan, sans produits animaux",
-        "adjustment_recommendations": "Réduire le gochujang de 20% si épicé trop intense pour palais moyen. Augmenter le vinaigre de riz de 10ml pour plus de fraîcheur et acidité si saveur trop riche."
+        "adjustment_recommendations": "Ajouter des légumes croquants supplémentaires (carottes râpées, concombre) pour augmenter la teneur en fibres et réduire légèrement l'huile de sésame si sensibilité digestive au gingembre frais."
       }
     },
     {
-      "offset_ms": 33355,
+      "offset_ms": 30871,
       "event": "group_start",
       "group": "recipe-refinement",
       "max_iterations": 3
     },
     {
-      "offset_ms": 33356,
+      "offset_ms": 30871,
       "event": "group_iteration",
       "group": "recipe-refinement",
       "iteration": 1,
       "max_iterations": 3
     },
     {
-      "offset_ms": 33356,
+      "offset_ms": 30872,
       "event": "stage_start",
       "stage": "recipe-drafting",
       "stage_index": 3,
@@ -708,475 +655,16 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 33358,
+      "offset_ms": 30873,
       "event": "stage_context",
       "stage": "recipe-drafting",
       "context_keys": {
         "input": 150,
-        "previous_stage_output": 4091
+        "previous_stage_output": 4150
       }
     },
     {
-      "offset_ms": 53382,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Tacos au tofu coréens",
-          "cuisine": "Fusion coréo-mexicaine",
-          "timeMinutes": 35,
-          "portions": 6,
-          "emoji": "🌮",
-          "calories": 285,
-          "ingredients": [
-            {
-              "name": "Tofu ferme",
-              "quantity": "800g",
-              "group": "Base protéinée"
-            },
-            {
-              "name": "Gochujang",
-              "quantity": "80g",
-              "group": "Marinade",
-              "notes": "Réduit de 20% pour épicé moyen"
-            },
-            {
-              "name": "Sauce soja",
-              "quantity": "60ml",
-              "group": "Marinade"
-            },
-            {
-              "name": "Vinaigre de riz",
-              "quantity": "40ml",
-              "group": "Marinade",
-              "notes": "Augmenté de 10ml pour plus de fraîcheur"
-            },
-            {
-              "name": "Miel ou sirop d'agave",
-              "quantity": "20ml",
-              "group": "Marinade"
-            },
-            {
-              "name": "Ail frais",
-              "quantity": "4 gousses",
-              "group": "Aromantes"
-            },
-            {
-              "name": "Gingembre frais",
-              "quantity": "15g",
-              "group": "Aromantes"
-            },
-            {
-              "name": "Huile de sésame",
-              "quantity": "15ml",
-              "group": "Huiles et finitions"
-            },
-            {
-              "name": "Huile végétale",
-              "quantity": "30ml",
-              "group": "Huiles et finitions"
-            },
-            {
-              "name": "Sésame blanc",
-              "quantity": "25g",
-              "group": "Huiles et finitions"
-            },
-            {
-              "name": "Tortillas de maïs",
-              "quantity": "15 unités",
-              "group": "Enveloppes"
-            },
-            {
-              "name": "Chou nappa",
-              "quantity": "300g",
-              "group": "Garnitures croquantes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "200g",
-              "group": "Garnitures croquantes"
-            },
-            {
-              "name": "Oignons verts",
-              "quantity": "150g",
-              "group": "Garnitures fraîches"
-            },
-            {
-              "name": "Radis daikon",
-              "quantity": "150g",
-              "group": "Garnitures croquantes"
-            },
-            {
-              "name": "Cacahuètes grillées",
-              "quantity": "50g",
-              "group": "Garnitures croquantes"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "30g",
-              "group": "Garnitures fraîches"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparation du tofu",
-              "instructions": [
-                "Égoutter le tofu ferme et le placer entre deux assiettes avec un poids dessus pendant 15 minutes",
-                "Découper le tofu en blocs de 2cm d'épaisseur, puis en bâtonnets de 1cm x 1cm x 8cm"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 2,
-              "title": "Préparation de la marinade gochujang",
-              "instructions": [
-                "Mincer finement l'ail et le gingembre frais",
-                "Dans un bol, mélanger le gochujang, sauce soja, vinaigre de riz, miel et huile de sésame",
-                "Ajouter l'ail et le gingembre minces, bien fouetter jusqu'à homogénéité lisse",
-                "La sauce doit avoir une consistance épaisse mais versable, avec équilibre épicé-sucré-umami"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 3,
-              "title": "Marinade du tofu",
-              "instructions": [
-                "Verser la moitié de la marinade gochujang dans un récipient peu profond",
-                "Placer délicatement les bâtonnets de tofu, puis couvrir avec le reste de la marinade",
-                "Laisser reposer au minimum 10 minutes (préparation peut être avancée jusqu'à 2 heures à l'avance)"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 4,
-              "title": "Préparation des garnitures crues",
-              "instructions": [
-                "Émincer finement le chou nappa en lamelles croustillantes",
-                "Râper les carottes en julienne fine",
-                "Émincer les oignons verts dans le sens de la longueur (parties blanches et vertes séparées)",
-                "Râper le radis daikon en bâtonnets fins ou julienne",
-                "Réserver les cacahuètes grillées entières ou légèrement concassées",
-                "Hacher grossièrement la coriandre fraîche",
-                "Disposer chaque élément dans des bols séparés pour l'assemblage"
-              ],
-              "durationMinutes": 8
-            },
-            {
-              "order": 5,
-              "title": "Cuisson du tofu",
-              "instructions": [
-                "Chauffer l'huile végétale dans une grande poêle ou wok à feu vif jusqu'à frémissement léger",
-                "Retirer le tofu de la marinade avec une écumoire (laisser égoutter l'excédent de sauce)",
-                "Cuire le tofu en deux lots pour ne pas surcharger la poêle",
-                "Faire griller 3-4 minutes de chaque côté jusqu'à développer une croûte dorée croustillante",
-                "Le tofu doit rester tendre à l'intérieur avec contraste de texture",
-                "Réserver le tofu grillé sur papier absorbant"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 6,
-              "title": "Assemblage final",
-              "instructions": [
-                "Faire légèrement réchauffer les tortillas de maïs (30 secondes par côté à la poêle ou au-dessus d'une flamme)",
-                "Disposer une tortilla dans l'assiette",
-                "Créer une base avec le chou nappa et une couche de carottes pour la croquance",
-                "Placer 2-3 bâtonnets de tofu grillé au centre",
-                "Ajouter oignons verts, radis daikon et cacahuètes grillées",
-                "Finir avec coriandre fraîche et un trait de sauce gochujang restante si désiré",
-                "Répéter pour les 5 autres tortillas"
-              ],
-              "durationMinutes": 5
-            }
-          ],
-          "notes": {
-            "chef": [
-              "L'équilibre épicé a été ajusté à -20% de gochujang pour respecter le niveau 'moyen' demandé tout en conservant l'authenticité.",
-              "Presser le tofu avant marinading élimine l'humidité excédentaire et permet une meilleure absorption de la marinade et une croûte plus croustillante.",
-              "La croûte du tofu grillé au contraste de tendreté intérieure est essentielle à l'expérience texturale du plat.",
-              "Préparer les garnitures en avance permet un assemblage rapide et chaque élément croustillant reste croquant jusqu'à la dégustation.",
-              "Les tortillas tièdes évitent de refroidir le tofu grillé mais restent malléables pour l'assemblage."
-            ],
-            "variations": [
-              "Pour plus d'épicé : ajouter 20g supplémentaires de gochujang ou 1 cuillère à café de sriracha fraîche en finition",
-              "Protéines alternatives : tempé mariné utilisant le même process (temps de cuisson identique) ou seitan découpé en bâtonnets",
-              "Garnissage riche : ajouter du avocat tranché, du concombre ou du mango fraîche pour effet sucré-frais",
-              "Sauce alternatives : remplacer gochujang par harissa (3:1 ratio avec miso rouge) ou sriracha maison",
-              "Version grillée : cuire le tofu à la plancha ou sur grille de barbecue pour saveur fumée supplémentaire",
-              "Tortillas alternatives : pains naan sans produits animaux, galettes de riz ou enveloppes de laitue pour version low-carb"
-            ],
-            "conservation": "Le tofu mariné peut être préparé jusqu'à 2 jours à l'avance en réfrigérateur. Les garnitures préparées se conservent 24 heures sous film plastique. Assembler au moment de servir pour préserver la croquance des garnitures.",
-            "nutrition": "Par portion (6 personnes): 285 calories, protéines 18g, glucides 32g, lipides 12g. Riche en protéines végétales et minéraux (sésame, soja). Excellente source de fibres via les garnitures crues. Adapté régimes végétaliens et sans gluten (vérifier tortillas)."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 54691,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesmrg60000piijo9wh1kj5",
-        "title": "Tacos au tofu coréens"
-      },
-      "duration_ms": 1308
-    },
-    {
-      "offset_ms": 65533,
-      "event": "stage_complete",
-      "stage": "recipe-drafting",
-      "status": "success",
-      "attempts": 1,
-      "duration_ms": 32177,
-      "tokens": {
-        "prompt": 6257,
-        "completion": 4036,
-        "total": 10293
-      },
-      "tool_calls": [
-        {
-          "id": "toolu_01WpqJvm2kypBZzykmwZNEXV",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Tacos au tofu coréens",
-              "cuisine": "Fusion coréo-mexicaine",
-              "timeMinutes": 35,
-              "portions": 6,
-              "emoji": "🌮",
-              "calories": 285,
-              "ingredients": [
-                {
-                  "name": "Tofu ferme",
-                  "quantity": "800g",
-                  "group": "Base protéinée"
-                },
-                {
-                  "name": "Gochujang",
-                  "quantity": "80g",
-                  "group": "Marinade",
-                  "notes": "Réduit de 20% pour épicé moyen"
-                },
-                {
-                  "name": "Sauce soja",
-                  "quantity": "60ml",
-                  "group": "Marinade"
-                },
-                {
-                  "name": "Vinaigre de riz",
-                  "quantity": "40ml",
-                  "group": "Marinade",
-                  "notes": "Augmenté de 10ml pour plus de fraîcheur"
-                },
-                {
-                  "name": "Miel ou sirop d'agave",
-                  "quantity": "20ml",
-                  "group": "Marinade"
-                },
-                {
-                  "name": "Ail frais",
-                  "quantity": "4 gousses",
-                  "group": "Aromantes"
-                },
-                {
-                  "name": "Gingembre frais",
-                  "quantity": "15g",
-                  "group": "Aromantes"
-                },
-                {
-                  "name": "Huile de sésame",
-                  "quantity": "15ml",
-                  "group": "Huiles et finitions"
-                },
-                {
-                  "name": "Huile végétale",
-                  "quantity": "30ml",
-                  "group": "Huiles et finitions"
-                },
-                {
-                  "name": "Sésame blanc",
-                  "quantity": "25g",
-                  "group": "Huiles et finitions"
-                },
-                {
-                  "name": "Tortillas de maïs",
-                  "quantity": "15 unités",
-                  "group": "Enveloppes"
-                },
-                {
-                  "name": "Chou nappa",
-                  "quantity": "300g",
-                  "group": "Garnitures croquantes"
-                },
-                {
-                  "name": "Carottes",
-                  "quantity": "200g",
-                  "group": "Garnitures croquantes"
-                },
-                {
-                  "name": "Oignons verts",
-                  "quantity": "150g",
-                  "group": "Garnitures fraîches"
-                },
-                {
-                  "name": "Radis daikon",
-                  "quantity": "150g",
-                  "group": "Garnitures croquantes"
-                },
-                {
-                  "name": "Cacahuètes grillées",
-                  "quantity": "50g",
-                  "group": "Garnitures croquantes"
-                },
-                {
-                  "name": "Coriandre fraîche",
-                  "quantity": "30g",
-                  "group": "Garnitures fraîches"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparation du tofu",
-                  "instructions": [
-                    "Égoutter le tofu ferme et le placer entre deux assiettes avec un poids dessus pendant 15 minutes",
-                    "Découper le tofu en blocs de 2cm d'épaisseur, puis en bâtonnets de 1cm x 1cm x 8cm"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 2,
-                  "title": "Préparation de la marinade gochujang",
-                  "instructions": [
-                    "Mincer finement l'ail et le gingembre frais",
-                    "Dans un bol, mélanger le gochujang, sauce soja, vinaigre de riz, miel et huile de sésame",
-                    "Ajouter l'ail et le gingembre minces, bien fouetter jusqu'à homogénéité lisse",
-                    "La sauce doit avoir une consistance épaisse mais versable, avec équilibre épicé-sucré-umami"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 3,
-                  "title": "Marinade du tofu",
-                  "instructions": [
-                    "Verser la moitié de la marinade gochujang dans un récipient peu profond",
-                    "Placer délicatement les bâtonnets de tofu, puis couvrir avec le reste de la marinade",
-                    "Laisser reposer au minimum 10 minutes (préparation peut être avancée jusqu'à 2 heures à l'avance)"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 4,
-                  "title": "Préparation des garnitures crues",
-                  "instructions": [
-                    "Émincer finement le chou nappa en lamelles croustillantes",
-                    "Râper les carottes en julienne fine",
-                    "Émincer les oignons verts dans le sens de la longueur (parties blanches et vertes séparées)",
-                    "Râper le radis daikon en bâtonnets fins ou julienne",
-                    "Réserver les cacahuètes grillées entières ou légèrement concassées",
-                    "Hacher grossièrement la coriandre fraîche",
-                    "Disposer chaque élément dans des bols séparés pour l'assemblage"
-                  ],
-                  "durationMinutes": 8
-                },
-                {
-                  "order": 5,
-                  "title": "Cuisson du tofu",
-                  "instructions": [
-                    "Chauffer l'huile végétale dans une grande poêle ou wok à feu vif jusqu'à frémissement léger",
-                    "Retirer le tofu de la marinade avec une écumoire (laisser égoutter l'excédent de sauce)",
-                    "Cuire le tofu en deux lots pour ne pas surcharger la poêle",
-                    "Faire griller 3-4 minutes de chaque côté jusqu'à développer une croûte dorée croustillante",
-                    "Le tofu doit rester tendre à l'intérieur avec contraste de texture",
-                    "Réserver le tofu grillé sur papier absorbant"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 6,
-                  "title": "Assemblage final",
-                  "instructions": [
-                    "Faire légèrement réchauffer les tortillas de maïs (30 secondes par côté à la poêle ou au-dessus d'une flamme)",
-                    "Disposer une tortilla dans l'assiette",
-                    "Créer une base avec le chou nappa et une couche de carottes pour la croquance",
-                    "Placer 2-3 bâtonnets de tofu grillé au centre",
-                    "Ajouter oignons verts, radis daikon et cacahuètes grillées",
-                    "Finir avec coriandre fraîche et un trait de sauce gochujang restante si désiré",
-                    "Répéter pour les 5 autres tortillas"
-                  ],
-                  "durationMinutes": 5
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "L'équilibre épicé a été ajusté à -20% de gochujang pour respecter le niveau 'moyen' demandé tout en conservant l'authenticité.",
-                  "Presser le tofu avant marinading élimine l'humidité excédentaire et permet une meilleure absorption de la marinade et une croûte plus croustillante.",
-                  "La croûte du tofu grillé au contraste de tendreté intérieure est essentielle à l'expérience texturale du plat.",
-                  "Préparer les garnitures en avance permet un assemblage rapide et chaque élément croustillant reste croquant jusqu'à la dégustation.",
-                  "Les tortillas tièdes évitent de refroidir le tofu grillé mais restent malléables pour l'assemblage."
-                ],
-                "variations": [
-                  "Pour plus d'épicé : ajouter 20g supplémentaires de gochujang ou 1 cuillère à café de sriracha fraîche en finition",
-                  "Protéines alternatives : tempé mariné utilisant le même process (temps de cuisson identique) ou seitan découpé en bâtonnets",
-                  "Garnissage riche : ajouter du avocat tranché, du concombre ou du mango fraîche pour effet sucré-frais",
-                  "Sauce alternatives : remplacer gochujang par harissa (3:1 ratio avec miso rouge) ou sriracha maison",
-                  "Version grillée : cuire le tofu à la plancha ou sur grille de barbecue pour saveur fumée supplémentaire",
-                  "Tortillas alternatives : pains naan sans produits animaux, galettes de riz ou enveloppes de laitue pour version low-carb"
-                ],
-                "conservation": "Le tofu mariné peut être préparé jusqu'à 2 jours à l'avance en réfrigérateur. Les garnitures préparées se conservent 24 heures sous film plastique. Assembler au moment de servir pour préserver la croquance des garnitures.",
-                "nutrition": "Par portion (6 personnes): 285 calories, protéines 18g, glucides 32g, lipides 12g. Riche en protéines végétales et minéraux (sésame, soja). Excellente source de fibres via les garnitures crues. Adapté régimes végétaliens et sans gluten (vérifier tortillas)."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpesmrg60000piijo9wh1kj5",
-            "title": "Tacos au tofu coréens"
-          }
-        }
-      ],
-      "output": {
-        "title": "Tacos au tofu coréens",
-        "cuisine": "Fusion coréano-mexicaine",
-        "timeMinutes": "45",
-        "portions": "6",
-        "emoji": "🌮",
-        "ingredients": "[{\"name\": \"Tofu ferme\", \"quantity\": \"800g\"}, {\"name\": \"Gochujang\", \"quantity\": \"80g\"}, {\"name\": \"Sauce soja\", \"quantity\": \"60ml\"}, {\"name\": \"Vinaigre de riz\", \"quantity\": \"40ml\"}, {\"name\": \"Miel ou sirop d'agave\", \"quantity\": \"20ml\"}, {\"name\": \"Ail frais\", \"quantity\": \"4 gousses\"}, {\"name\": \"Gingembre frais\", \"quantity\": \"15g\"}, {\"name\": \"Sésame blanc\", \"quantity\": \"25g\"}, {\"name\": \"Huile de sésame\", \"quantity\": \"15ml\"}, {\"name\": \"Huile végétale\", \"quantity\": \"30ml\"}, {\"name\": \"Tortillas de maïs\", \"quantity\": \"15 unités\"}, {\"name\": \"Chou blanc ou nappa\", \"quantity\": \"300g\"}, {\"name\": \"Carottes\", \"quantity\": \"200g\"}, {\"name\": \"Oignons verts\", \"quantity\": \"150g\"}, {\"name\": \"Radis daikon\", \"quantity\": \"150g\"}, {\"name\": \"Cacahuètes grillées\", \"quantity\": \"50g\"}, {\"name\": \"Coriandre fraîche\", \"quantity\": \"30g\"}]",
-        "steps": [
-          "Préparer le tofu : égoutter et presser le tofu ferme pour éliminer l'excédent d'humidité. Couper en cubes de 2cm environ.",
-          "Préparer la marinade : mincer l'ail et le gingembre. Mélanger le gochujang, la sauce soja, le vinaigre de riz, le miel et l'huile de sésame dans un bol.",
-          "Mariner le tofu : ajouter les cubes de tofu à la marinade et laisser reposer 20 minutes au minimum.",
-          "Cuire le tofu : chauffer l'huile végétale dans une poêle à feu moyen-élevé. Cuire le tofu mariné 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée.",
-          "Préparer les garnitures : émincer finement le chou, râper les carottes, couper les oignons verts en tronçons de 5cm, trancher le radis daikon en bâtonnets. Placer dans des bols séparés.",
-          "Réchauffer les tortillas : passer chaque tortilla rapidement sur une flamme ou dans une poêle sèche pour les assouplir.",
-          "Assembler les tacos : disposer une tortilla, ajouter une cuillerée de tofu grillé, garnir avec chou, carottes, radis et oignons verts. Parsemer de cacahuètes et coriandre fraîche.",
-          "Servir immédiatement et présenter les garnitures restantes à table pour que chacun compose son taco selon ses préférences."
-        ],
-        "notes": "{\"chef\": [\"Bien presser le tofu avant la marinade pour une meilleure absorption des saveurs\", \"Ne pas surcharger les tortillas : un équilibre entre sauce et garnitures croque est clé\", \"Cuire le tofu par petites quantités si nécessaire pour développer une croûte dorée uniforme\", \"Adapter le niveau d'épice en réduisant le gochujang de 20% si sensibilité au piment\"], \"variations\": [\"Remplacer le gochujang par de la pâte sriracha mélangée à du miso rouge (ratio 3:1) pour un profil épicé alternatif\", \"Utiliser des tortillas de blé complet ou des galettes de riz pour varier les bases\", \"Ajouter des germes de soja frais ou du champignon noir réhydraté pour plus de texture\", \"Préparer une mayo gochujang en mélangeant gochujang et mayo végétale pour plus de liant et crémeté\"], \"conservation\": \"Le tofu mariné et cuit se conserve 3 jours au réfrigérateur en récipient hermétique. Préparer les garnitures à l'avance mais les tenir séparées pour préserver la croquance. Les tortillas se gardent à température ambiante 2-3 jours ou se congèlent jusqu'à 2 mois.\", \"nutrition\": \"Par portion (2-3 tacos) : protéines 18g, glucides 32g, lipides 12g. Vegan, sans produits animaux. Allergènes : sésame, soja, arachides. Riche en fer du tofu et minéraux du chou fermenté coréen.\"}"
-      }
-    },
-    {
-      "offset_ms": 65533,
-      "event": "stage_start",
-      "stage": "technique-validation",
-      "stage_index": 4,
-      "total_stages": 6,
-      "max_attempts": 2
-    },
-    {
-      "offset_ms": 65534,
-      "event": "stage_context",
-      "stage": "technique-validation",
-      "context_keys": {
-        "previous_stage_output": 3578
-      }
-    },
-    {
-      "offset_ms": 75779,
+      "offset_ms": 44401,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
@@ -1184,6 +672,448 @@
           "userId": "cmmrunf9l0000cpijlrn58jpw",
           "title": "Tacos au tofu coréens",
           "cuisine": "Fusion coréano-mexicaine",
+          "timeMinutes": 40,
+          "portions": 6,
+          "emoji": "🌮",
+          "calories": 285,
+          "ingredients": [
+            {
+              "name": "Tofu ferme",
+              "quantity": "800g"
+            },
+            {
+              "name": "Tortillas de maïs",
+              "quantity": "12 pièces"
+            },
+            {
+              "name": "Gochugaru (piment coréen en poudre)",
+              "quantity": "3 cuillères à soupe"
+            },
+            {
+              "name": "Gochujang (pâte piment coréenne)",
+              "quantity": "4 cuillères à soupe"
+            },
+            {
+              "name": "Sauce soja",
+              "quantity": "4 cuillères à soupe"
+            },
+            {
+              "name": "Vinaigre de riz",
+              "quantity": "2 cuillères à soupe"
+            },
+            {
+              "name": "Huile de sésame",
+              "quantity": "2 cuillères à soupe"
+            },
+            {
+              "name": "Ail",
+              "quantity": "4 gousses"
+            },
+            {
+              "name": "Gingembre frais",
+              "quantity": "2 cm de racine"
+            },
+            {
+              "name": "Oignon vert",
+              "quantity": "2 bottes"
+            },
+            {
+              "name": "Chou napa",
+              "quantity": "300g"
+            },
+            {
+              "name": "Carottes",
+              "quantity": "2 moyennes"
+            },
+            {
+              "name": "Concombre",
+              "quantity": "1 moyen"
+            },
+            {
+              "name": "Graines de sésame",
+              "quantity": "3 cuillères à soupe"
+            },
+            {
+              "name": "Sucre ou miel",
+              "quantity": "1 cuillère à café",
+              "optional": true
+            },
+            {
+              "name": "Huile neutre (tournesol/cacahuète)",
+              "quantity": "3 cuillères à soupe"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Préparation du tofu",
+              "instructions": [
+                "Presser le tofu ferme pour retirer l'excès d'eau en le plaçant entre deux assiettes avec un poids",
+                "Laisser reposer 15 à 20 minutes",
+                "Découper le tofu pressé en cubes ou bâtonnets de 2 cm"
+              ],
+              "durationMinutes": 20
+            },
+            {
+              "order": 2,
+              "title": "Préparation de la marinade",
+              "instructions": [
+                "Mélanger dans un bol : gochugaru, gochujang, sauce soja, vinaigre de riz, huile de sésame",
+                "Hacher finement l'ail et le gingembre, incorporer à la marinade",
+                "Ajouter le sucre ou miel pour équilibrer la chaleur épicée"
+              ],
+              "durationMinutes": 5
+            },
+            {
+              "order": 3,
+              "title": "Cuisson du tofu",
+              "instructions": [
+                "Chauffer l'huile neutre dans une grande poêle ou wok à feu moyen-élevé",
+                "Faire sauter les cubes de tofu pendant 5 minutes jusqu'à légère coloration",
+                "Verser la marinade sur le tofu, bien mélanger",
+                "Continuer la cuisson 5 à 7 minutes en remuant régulièrement jusqu'à ce que le tofu soit doré et la marinade adhère bien"
+              ],
+              "durationMinutes": 12
+            },
+            {
+              "order": 4,
+              "title": "Préparation des garnitures",
+              "instructions": [
+                "Émincer finement le chou napa en lanières",
+                "Râper les carottes",
+                "Découper le concombre en bâtonnets fins",
+                "Émincer les oignons verts",
+                "Mélanger légèrement les légumes crus pour les rendre croquants"
+              ],
+              "durationMinutes": 8
+            },
+            {
+              "order": 5,
+              "title": "Assemblage et service",
+              "instructions": [
+                "Réchauffer légèrement les tortillas de maïs à la poêle ou sur un gril 30 secondes de chaque côté",
+                "Disposer les tortillas sur un plateau de service",
+                "Répartir le tofu mariné au centre de chaque tortilla",
+                "Ajouter une généreuse portion de garnitures (chou, carottes, concombre, oignons verts)",
+                "Parsemer de graines de sésame",
+                "Servir immédiatement avec les tortillas maintenues chaudes"
+              ],
+              "durationMinutes": 5
+            }
+          ],
+          "notes": {
+            "chef": [
+              "Le pressage du tofu est crucial pour obtenir une texture croustillante à la cuisson. Ne l'omettre pas.",
+              "Utiliser un tofu extra-ferme de marque asiatique pour la meilleure texture. Les marques nationales sont souvent trop humides.",
+              "La marinade peut être préparée à l'avance et le tofu mariné jusqu'à 2 heures sans problème.",
+              "Adapter le niveau d'épice en réduisant le gochugaru à 2 cuillères à soupe si sensibilité aux épices, tout en conservant l'authenticité.",
+              "Pour six personnes, vous aurez besoin de 2 tortillas par personne. Prévoir d'en avoir quelques supplémentaires au cas où.",
+              "Les graines de sésame grillées offrent une meilleure saveur que les graines crues."
+            ],
+            "variations": [
+              "Ajouter du kimchi émincé pour une saveur fermentée plus prononcée.",
+              "Inclure des cacahuètes concassées pour plus de texture et de saveur protéinée.",
+              "Incorporer de la sauce mayo végane ou de la crème d'avocat pour créer une base riche.",
+              "Ajouter des tranches d'ananas pour une touche sucrée et tropicale contrastant avec l'épice.",
+              "Pour augmenter la chaleur : ajouter du sambal oelek ou des flocons de piment séché en garniture."
+            ],
+            "conservation": "Les composants se conservent séparément. Le tofu mariné se garde 2 jours au réfrigérateur dans un récipient hermétique. Les légumes crus se conservent 3 jours. Assembler juste avant de servir pour préserver le croustillant des tortillas.",
+            "nutrition": "Protéines: 12g, Glucides: 28g, Lipides: 8g par taco. Vegan, sans produits animaux. Riche en fibres grâce aux légumes croquants. Recommandation: ajouter des légumes supplémentaires (carottes râpées, concombre) pour augmenter la teneur en fibres et réduire légèrement l'huile de sésame si sensibilité digestive au gingembre frais."
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 45711,
+      "event": "tool_call_complete",
+      "tool": "db-upsert_recipe",
+      "result": {
+        "success": true,
+        "id": "cmpfr597d000082ijppuia6kk",
+        "title": "Tacos au tofu coréens"
+      },
+      "duration_ms": 1310
+    },
+    {
+      "offset_ms": 56941,
+      "event": "stage_complete",
+      "stage": "recipe-drafting",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 26069,
+      "tokens": {
+        "prompt": 6329,
+        "completion": 3674,
+        "total": 10003
+      },
+      "tool_calls": [
+        {
+          "id": "toolu_01GYuH6o22CLe8g61gN2jr8h",
+          "name": "db-upsert_recipe",
+          "arguments": {
+            "data": {
+              "userId": "cmmrunf9l0000cpijlrn58jpw",
+              "title": "Tacos au tofu coréens",
+              "cuisine": "Fusion coréano-mexicaine",
+              "timeMinutes": 40,
+              "portions": 6,
+              "emoji": "🌮",
+              "calories": 285,
+              "ingredients": [
+                {
+                  "name": "Tofu ferme",
+                  "quantity": "800g"
+                },
+                {
+                  "name": "Tortillas de maïs",
+                  "quantity": "12 pièces"
+                },
+                {
+                  "name": "Gochugaru (piment coréen en poudre)",
+                  "quantity": "3 cuillères à soupe"
+                },
+                {
+                  "name": "Gochujang (pâte piment coréenne)",
+                  "quantity": "4 cuillères à soupe"
+                },
+                {
+                  "name": "Sauce soja",
+                  "quantity": "4 cuillères à soupe"
+                },
+                {
+                  "name": "Vinaigre de riz",
+                  "quantity": "2 cuillères à soupe"
+                },
+                {
+                  "name": "Huile de sésame",
+                  "quantity": "2 cuillères à soupe"
+                },
+                {
+                  "name": "Ail",
+                  "quantity": "4 gousses"
+                },
+                {
+                  "name": "Gingembre frais",
+                  "quantity": "2 cm de racine"
+                },
+                {
+                  "name": "Oignon vert",
+                  "quantity": "2 bottes"
+                },
+                {
+                  "name": "Chou napa",
+                  "quantity": "300g"
+                },
+                {
+                  "name": "Carottes",
+                  "quantity": "2 moyennes"
+                },
+                {
+                  "name": "Concombre",
+                  "quantity": "1 moyen"
+                },
+                {
+                  "name": "Graines de sésame",
+                  "quantity": "3 cuillères à soupe"
+                },
+                {
+                  "name": "Sucre ou miel",
+                  "quantity": "1 cuillère à café",
+                  "optional": true
+                },
+                {
+                  "name": "Huile neutre (tournesol/cacahuète)",
+                  "quantity": "3 cuillères à soupe"
+                }
+              ],
+              "steps": [
+                {
+                  "order": 1,
+                  "title": "Préparation du tofu",
+                  "instructions": [
+                    "Presser le tofu ferme pour retirer l'excès d'eau en le plaçant entre deux assiettes avec un poids",
+                    "Laisser reposer 15 à 20 minutes",
+                    "Découper le tofu pressé en cubes ou bâtonnets de 2 cm"
+                  ],
+                  "durationMinutes": 20
+                },
+                {
+                  "order": 2,
+                  "title": "Préparation de la marinade",
+                  "instructions": [
+                    "Mélanger dans un bol : gochugaru, gochujang, sauce soja, vinaigre de riz, huile de sésame",
+                    "Hacher finement l'ail et le gingembre, incorporer à la marinade",
+                    "Ajouter le sucre ou miel pour équilibrer la chaleur épicée"
+                  ],
+                  "durationMinutes": 5
+                },
+                {
+                  "order": 3,
+                  "title": "Cuisson du tofu",
+                  "instructions": [
+                    "Chauffer l'huile neutre dans une grande poêle ou wok à feu moyen-élevé",
+                    "Faire sauter les cubes de tofu pendant 5 minutes jusqu'à légère coloration",
+                    "Verser la marinade sur le tofu, bien mélanger",
+                    "Continuer la cuisson 5 à 7 minutes en remuant régulièrement jusqu'à ce que le tofu soit doré et la marinade adhère bien"
+                  ],
+                  "durationMinutes": 12
+                },
+                {
+                  "order": 4,
+                  "title": "Préparation des garnitures",
+                  "instructions": [
+                    "Émincer finement le chou napa en lanières",
+                    "Râper les carottes",
+                    "Découper le concombre en bâtonnets fins",
+                    "Émincer les oignons verts",
+                    "Mélanger légèrement les légumes crus pour les rendre croquants"
+                  ],
+                  "durationMinutes": 8
+                },
+                {
+                  "order": 5,
+                  "title": "Assemblage et service",
+                  "instructions": [
+                    "Réchauffer légèrement les tortillas de maïs à la poêle ou sur un gril 30 secondes de chaque côté",
+                    "Disposer les tortillas sur un plateau de service",
+                    "Répartir le tofu mariné au centre de chaque tortilla",
+                    "Ajouter une généreuse portion de garnitures (chou, carottes, concombre, oignons verts)",
+                    "Parsemer de graines de sésame",
+                    "Servir immédiatement avec les tortillas maintenues chaudes"
+                  ],
+                  "durationMinutes": 5
+                }
+              ],
+              "notes": {
+                "chef": [
+                  "Le pressage du tofu est crucial pour obtenir une texture croustillante à la cuisson. Ne l'omettre pas.",
+                  "Utiliser un tofu extra-ferme de marque asiatique pour la meilleure texture. Les marques nationales sont souvent trop humides.",
+                  "La marinade peut être préparée à l'avance et le tofu mariné jusqu'à 2 heures sans problème.",
+                  "Adapter le niveau d'épice en réduisant le gochugaru à 2 cuillères à soupe si sensibilité aux épices, tout en conservant l'authenticité.",
+                  "Pour six personnes, vous aurez besoin de 2 tortillas par personne. Prévoir d'en avoir quelques supplémentaires au cas où.",
+                  "Les graines de sésame grillées offrent une meilleure saveur que les graines crues."
+                ],
+                "variations": [
+                  "Ajouter du kimchi émincé pour une saveur fermentée plus prononcée.",
+                  "Inclure des cacahuètes concassées pour plus de texture et de saveur protéinée.",
+                  "Incorporer de la sauce mayo végane ou de la crème d'avocat pour créer une base riche.",
+                  "Ajouter des tranches d'ananas pour une touche sucrée et tropicale contrastant avec l'épice.",
+                  "Pour augmenter la chaleur : ajouter du sambal oelek ou des flocons de piment séché en garniture."
+                ],
+                "conservation": "Les composants se conservent séparément. Le tofu mariné se garde 2 jours au réfrigérateur dans un récipient hermétique. Les légumes crus se conservent 3 jours. Assembler juste avant de servir pour préserver le croustillant des tortillas.",
+                "nutrition": "Protéines: 12g, Glucides: 28g, Lipides: 8g par taco. Vegan, sans produits animaux. Riche en fibres grâce aux légumes croquants. Recommandation: ajouter des légumes supplémentaires (carottes râpées, concombre) pour augmenter la teneur en fibres et réduire légèrement l'huile de sésame si sensibilité digestive au gingembre frais."
+              }
+            }
+          },
+          "result": {
+            "success": true,
+            "id": "cmpfr597d000082ijppuia6kk",
+            "title": "Tacos au tofu coréens"
+          }
+        }
+      ],
+      "output": {
+        "title": "Tacos au tofu coréens",
+        "cuisine": "Fusion coréo-mexicaine",
+        "timeMinutes": "45",
+        "portions": "6",
+        "emoji": "🌮",
+        "ingredients": "[{\"name\": \"Tofu ferme\", \"quantity\": \"800g\"}, {\"name\": \"Tortillas de maïs\", \"quantity\": \"12 pièces\"}, {\"name\": \"Gochugaru (piment coréen en poudre)\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Gochujang (pâte piment coréenne)\", \"quantity\": \"4 cuillères à soupe\"}, {\"name\": \"Sauce soja\", \"quantity\": \"4 cuillères à soupe\"}, {\"name\": \"Vinaigre de riz\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Huile de sésame grillée\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\"}, {\"name\": \"Gingembre frais\", \"quantity\": \"2 cm\"}, {\"name\": \"Oignon vert\", \"quantity\": \"2 bottes\"}, {\"name\": \"Chou napa\", \"quantity\": \"300g\"}, {\"name\": \"Carottes\", \"quantity\": \"2 moyennes\"}, {\"name\": \"Concombre\", \"quantity\": \"1 moyen\"}, {\"name\": \"Graines de sésame\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Huile neutre\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Sucre ou miel (optionnel)\", \"quantity\": \"1 cuillère à café\"}]",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Préparation du tofu",
+            "instructions": [
+              "Égoutter le tofu ferme et le presser entre deux serviettes pour éliminer l'excédent d'humidité",
+              "Couper le tofu en cubes de 2 cm environ"
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Préparation de la marinade",
+            "instructions": [
+              "Mincer finement l'ail et le gingembre",
+              "Dans un bol, mélanger le gochujang, la sauce soja, le vinaigre de riz, l'huile de sésame et le sucre optionnel",
+              "Ajouter l'ail et le gingembre à la marinade"
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Marinade du tofu",
+            "instructions": [
+              "Verser la marinade sur les cubes de tofu",
+              "Laisser reposer 15 minutes pour que les saveurs se développent"
+            ]
+          },
+          {
+            "order": 4,
+            "title": "Cuisson du tofu",
+            "instructions": [
+              "Chauffer 3 cuillères à soupe d'huile neutre dans une poêle à feu vif",
+              "Verser le tofu avec sa marinade dans la poêle",
+              "Cuire 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée et croustillante",
+              "Saupoudrer du gochugaru en cours de cuisson pour la saveur épicée"
+            ]
+          },
+          {
+            "order": 5,
+            "title": "Préparation des garnitures",
+            "instructions": [
+              "Émincer finement le chou napa",
+              "Râper les carottes",
+              "Couper le concombre en bâtonnets",
+              "Ciseler les oignons verts",
+              "Disposer chaque garniture dans un bol séparé"
+            ]
+          },
+          {
+            "order": 6,
+            "title": "Réchauffage des tortillas",
+            "instructions": [
+              "Chauffer les tortillas quelques secondes de chaque côté dans une poêle sèche ou au-dessus d'une flamme",
+              "Garder au chaud enveloppées dans un linge"
+            ]
+          },
+          {
+            "order": 7,
+            "title": "Assemblage des tacos",
+            "instructions": [
+              "Placer une tortilla chaude dans l'assiette",
+              "Garnir d'une portion de tofu sauté",
+              "Ajouter le chou napa, les carottes râpées, le concombre et l'oignon vert",
+              "Saupoudrer généreusement de graines de sésame",
+              "Servir immédiatement"
+            ]
+          }
+        ],
+        "notes": "{\"chef\": [\"Le pressage du tofu est essentiel pour obtenir une texture croustillante à la cuisson\", \"La température vive est cruciale pour caraméliser le tofu et développer les saveurs umami\", \"Ne pas surcharger les tortillas pour faciliter la consommation\", \"Préparer les garnitures à l'avance mais les garder séparées jusqu'au service pour éviter la détrempure\"], \"variations\": [\"Ajouter du kimchi pour intensifier la saveur coréenne\", \"Remplacer le gochugaru par du Piment d'Espelette ou un mélange paprika-cayenne pour adapter le niveau d'épicé\", \"Ajouter une sauce à base de mayo végan et sriracha\", \"Inclure des germes de soja sautés pour plus de texture croquante\"], \"conservation\": \"Le tofu cuit se conserve 3 jours au réfrigérateur dans un contenant hermétique. Réchauffer à la poêle avant de servir. Les garnitures se préparent la veille et se gardent au frais\", \"nutrition\": \"Par portion (2 tacos): protéines 12g, glucides 28g, lipides 8g. Riche en minéraux (sésame), probiotiques (fermentation du gochujang). Vegan et sans produits animaux.\"}"
+      }
+    },
+    {
+      "offset_ms": 56941,
+      "event": "stage_start",
+      "stage": "technique-validation",
+      "stage_index": 4,
+      "total_stages": 6,
+      "max_attempts": 2
+    },
+    {
+      "offset_ms": 56942,
+      "event": "stage_context",
+      "stage": "technique-validation",
+      "context_keys": {
+        "previous_stage_output": 3995
+      }
+    },
+    {
+      "offset_ms": 66940,
+      "event": "tool_call_start",
+      "tool": "db-upsert_recipe",
+      "params": {
+        "data": {
+          "userId": "cmmrunf9l0000cpijlrn58jpw",
+          "title": "Tacos au tofu coréens",
+          "cuisine": "Fusion coréo-mexicaine",
           "timeMinutes": 45,
           "portions": 6,
           "emoji": "🌮",
@@ -1193,199 +1123,188 @@
               "quantity": "800g"
             },
             {
-              "name": "Gochujang",
-              "quantity": "80g"
+              "name": "Tortillas de maïs",
+              "quantity": "12 pièces"
+            },
+            {
+              "name": "Gochugaru (piment coréen en poudre)",
+              "quantity": "3 cuillères à soupe"
+            },
+            {
+              "name": "Gochujang (pâte piment coréenne)",
+              "quantity": "4 cuillères à soupe"
             },
             {
               "name": "Sauce soja",
-              "quantity": "60ml"
+              "quantity": "4 cuillères à soupe"
             },
             {
               "name": "Vinaigre de riz",
-              "quantity": "40ml"
+              "quantity": "2 cuillères à soupe"
             },
             {
-              "name": "Miel ou sirop d'agave",
-              "quantity": "20ml"
+              "name": "Huile de sésame grillée",
+              "quantity": "2 cuillères à soupe"
             },
             {
-              "name": "Ail frais",
+              "name": "Ail",
               "quantity": "4 gousses"
             },
             {
               "name": "Gingembre frais",
-              "quantity": "15g"
+              "quantity": "2 cm"
             },
             {
-              "name": "Sésame blanc",
-              "quantity": "25g"
+              "name": "Oignon vert",
+              "quantity": "2 bottes"
             },
             {
-              "name": "Huile de sésame",
-              "quantity": "15ml"
-            },
-            {
-              "name": "Huile végétale",
-              "quantity": "30ml"
-            },
-            {
-              "name": "Tortillas de maïs",
-              "quantity": "15 unités"
-            },
-            {
-              "name": "Chou blanc ou nappa",
+              "name": "Chou napa",
               "quantity": "300g"
             },
             {
               "name": "Carottes",
-              "quantity": "200g"
+              "quantity": "2 moyennes"
             },
             {
-              "name": "Oignons verts",
-              "quantity": "150g"
+              "name": "Concombre",
+              "quantity": "1 moyen"
             },
             {
-              "name": "Radis daikon",
-              "quantity": "150g"
+              "name": "Graines de sésame",
+              "quantity": "3 cuillères à soupe"
             },
             {
-              "name": "Cacahuètes grillées",
-              "quantity": "50g"
+              "name": "Huile neutre",
+              "quantity": "3 cuillères à soupe"
             },
             {
-              "name": "Coriandre fraîche",
-              "quantity": "30g"
+              "name": "Sucre ou miel",
+              "quantity": "1 cuillère à café",
+              "optional": true
             }
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Préparer le tofu",
+              "title": "Préparation du tofu",
               "instructions": [
-                "Égoutter et presser le tofu ferme pour éliminer l'excédent d'humidité",
-                "Couper en cubes de 2cm environ"
-              ],
-              "durationMinutes": 5
+                "Égoutter le tofu ferme et le presser entre deux serviettes pour éliminer l'excédent d'humidité",
+                "Couper le tofu en cubes de 2 cm environ"
+              ]
             },
             {
               "order": 2,
-              "title": "Préparer la marinade",
+              "title": "Préparation de la marinade",
               "instructions": [
-                "Mincer l'ail et le gingembre",
-                "Mélanger le gochujang, la sauce soja, le vinaigre de riz, le miel et l'huile de sésame dans un bol"
-              ],
-              "durationMinutes": 3
+                "Mincer finement l'ail et le gingembre",
+                "Dans un bol, mélanger le gochujang, la sauce soja, le vinaigre de riz, l'huile de sésame et le sucre optionnel",
+                "Ajouter l'ail et le gingembre à la marinade"
+              ]
             },
             {
               "order": 3,
-              "title": "Mariner le tofu",
+              "title": "Marinade du tofu",
               "instructions": [
-                "Ajouter les cubes de tofu à la marinade",
-                "Laisser reposer 20 minutes au minimum"
+                "Verser la marinade sur les cubes de tofu",
+                "Laisser reposer 15 minutes pour que les saveurs se développent"
               ],
-              "durationMinutes": 20
+              "durationMinutes": 15
             },
             {
               "order": 4,
-              "title": "Cuire le tofu",
+              "title": "Cuisson du tofu",
               "instructions": [
-                "Chauffer l'huile végétale dans une poêle à feu moyen-élevé",
-                "Cuire le tofu mariné 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée"
+                "Chauffer 3 cuillères à soupe d'huile neutre dans une poêle à feu vif",
+                "Verser le tofu avec sa marinade dans la poêle",
+                "Cuire 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée et croustillante",
+                "Saupoudrer du gochugaru en cours de cuisson pour la saveur épicée"
               ],
               "durationMinutes": 12
             },
             {
               "order": 5,
-              "title": "Préparer les garnitures",
+              "title": "Préparation des garnitures",
               "instructions": [
-                "Émincer finement le chou",
+                "Émincer finement le chou napa",
                 "Râper les carottes",
-                "Couper les oignons verts en tronçons de 5cm",
-                "Trancher le radis daikon en bâtonnets",
-                "Placer dans des bols séparés"
-              ],
-              "durationMinutes": 10
+                "Couper le concombre en bâtonnets",
+                "Ciseler les oignons verts",
+                "Disposer chaque garniture dans un bol séparé"
+              ]
             },
             {
               "order": 6,
-              "title": "Réchauffer les tortillas",
+              "title": "Réchauffage des tortillas",
               "instructions": [
-                "Passer chaque tortilla rapidement sur une flamme ou dans une poêle sèche pour les assouplir"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 7,
-              "title": "Assembler les tacos",
-              "instructions": [
-                "Disposer une tortilla",
-                "Ajouter une cuillerée de tofu grillé",
-                "Garnir avec chou, carottes, radis et oignons verts",
-                "Parsemer de cacahuètes et coriandre fraîche"
+                "Chauffer les tortillas quelques secondes de chaque côté dans une poêle sèche ou au-dessus d'une flamme",
+                "Garder au chaud enveloppées dans un linge"
               ],
               "durationMinutes": 5
             },
             {
-              "order": 8,
-              "title": "Servir",
+              "order": 7,
+              "title": "Assemblage des tacos",
               "instructions": [
-                "Servir immédiatement",
-                "Présenter les garnitures restantes à table pour que chacun compose son taco selon ses préférences"
-              ],
-              "durationMinutes": 0
+                "Placer une tortilla chaude dans l'assiette",
+                "Garnir d'une portion de tofu sauté",
+                "Ajouter le chou napa, les carottes râpées, le concombre et l'oignon vert",
+                "Saupoudrer généreusement de graines de sésame",
+                "Servir immédiatement"
+              ]
             }
           ],
           "notes": {
             "chef": [
-              "Bien presser le tofu avant la marinade pour une meilleure absorption des saveurs",
-              "Ne pas surcharger les tortillas : un équilibre entre sauce et garnitures croque est clé",
-              "Cuire le tofu par petites quantités si nécessaire pour développer une croûte dorée uniforme",
-              "Adapter le niveau d'épice en réduisant le gochujang de 20% si sensibilité au piment"
+              "Le pressage du tofu est essentiel pour obtenir une texture croustillante à la cuisson",
+              "La température vive est cruciale pour caraméliser le tofu et développer les saveurs umami",
+              "Ne pas surcharger les tortillas pour faciliter la consommation",
+              "Préparer les garnitures à l'avance mais les garder séparées jusqu'au service pour éviter la détrempure"
             ],
             "variations": [
-              "Remplacer le gochujang par de la pâte sriracha mélangée à du miso rouge (ratio 3:1) pour un profil épicé alternatif",
-              "Utiliser des tortillas de blé complet ou des galettes de riz pour varier les bases",
-              "Ajouter des germes de soja frais ou du champignon noir réhydraté pour plus de texture",
-              "Préparer une mayo gochujang en mélangeant gochujang et mayo végétale pour plus de liant et crémeté"
+              "Ajouter du kimchi pour intensifier la saveur coréenne",
+              "Remplacer le gochugaru par du Piment d'Espelette ou un mélange paprika-cayenne pour adapter le niveau d'épicé",
+              "Ajouter une sauce à base de mayo végan et sriracha",
+              "Inclure des germes de soja sautés pour plus de texture croquante"
             ],
-            "conservation": "Le tofu mariné et cuit se conserve 3 jours au réfrigérateur en récipient hermétique. Préparer les garnitures à l'avance mais les tenir séparées pour préserver la croquance. Les tortillas se gardent à température ambiante 2-3 jours ou se congèlent jusqu'à 2 mois.",
-            "nutrition": "Par portion (2-3 tacos) : protéines 18g, glucides 32g, lipides 12g. Vegan, sans produits animaux. Allergènes : sésame, soja, arachides. Riche en fer du tofu et minéraux du chou fermenté coréen."
+            "conservation": "Le tofu cuit se conserve 3 jours au réfrigérateur dans un contenant hermétique. Réchauffer à la poêle avant de servir. Les garnitures se préparent la veille et se gardent au frais",
+            "nutrition": "Par portion (2 tacos): protéines 12g, glucides 28g, lipides 8g. Riche en minéraux (sésame), probiotiques (fermentation du gochujang). Vegan et sans produits animaux."
           }
         }
       }
     },
     {
-      "offset_ms": 76826,
+      "offset_ms": 67933,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpesn8gy0000wvijkzrcdwyf",
+        "id": "cmpfr5qcm0000ubij4w08psew",
         "title": "Tacos au tofu coréens"
       },
-      "duration_ms": 1047
+      "duration_ms": 993
     },
     {
-      "offset_ms": 78241,
+      "offset_ms": 69134,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 12707,
+      "duration_ms": 12193,
       "tokens": {
-        "prompt": 8723,
-        "completion": 1977,
-        "total": 10700
+        "prompt": 9312,
+        "completion": 1983,
+        "total": 11295
       },
       "tool_calls": [
         {
-          "id": "toolu_01XB5hW21r5GTdmjFfDDZmaU",
+          "id": "toolu_01Esbb1gNeayPc4AoYyr7ePT",
           "name": "db-upsert_recipe",
           "arguments": {
             "data": {
               "userId": "cmmrunf9l0000cpijlrn58jpw",
               "title": "Tacos au tofu coréens",
-              "cuisine": "Fusion coréano-mexicaine",
+              "cuisine": "Fusion coréo-mexicaine",
               "timeMinutes": 45,
               "portions": 6,
               "emoji": "🌮",
@@ -1395,188 +1314,177 @@
                   "quantity": "800g"
                 },
                 {
-                  "name": "Gochujang",
-                  "quantity": "80g"
+                  "name": "Tortillas de maïs",
+                  "quantity": "12 pièces"
+                },
+                {
+                  "name": "Gochugaru (piment coréen en poudre)",
+                  "quantity": "3 cuillères à soupe"
+                },
+                {
+                  "name": "Gochujang (pâte piment coréenne)",
+                  "quantity": "4 cuillères à soupe"
                 },
                 {
                   "name": "Sauce soja",
-                  "quantity": "60ml"
+                  "quantity": "4 cuillères à soupe"
                 },
                 {
                   "name": "Vinaigre de riz",
-                  "quantity": "40ml"
+                  "quantity": "2 cuillères à soupe"
                 },
                 {
-                  "name": "Miel ou sirop d'agave",
-                  "quantity": "20ml"
+                  "name": "Huile de sésame grillée",
+                  "quantity": "2 cuillères à soupe"
                 },
                 {
-                  "name": "Ail frais",
+                  "name": "Ail",
                   "quantity": "4 gousses"
                 },
                 {
                   "name": "Gingembre frais",
-                  "quantity": "15g"
+                  "quantity": "2 cm"
                 },
                 {
-                  "name": "Sésame blanc",
-                  "quantity": "25g"
+                  "name": "Oignon vert",
+                  "quantity": "2 bottes"
                 },
                 {
-                  "name": "Huile de sésame",
-                  "quantity": "15ml"
-                },
-                {
-                  "name": "Huile végétale",
-                  "quantity": "30ml"
-                },
-                {
-                  "name": "Tortillas de maïs",
-                  "quantity": "15 unités"
-                },
-                {
-                  "name": "Chou blanc ou nappa",
+                  "name": "Chou napa",
                   "quantity": "300g"
                 },
                 {
                   "name": "Carottes",
-                  "quantity": "200g"
+                  "quantity": "2 moyennes"
                 },
                 {
-                  "name": "Oignons verts",
-                  "quantity": "150g"
+                  "name": "Concombre",
+                  "quantity": "1 moyen"
                 },
                 {
-                  "name": "Radis daikon",
-                  "quantity": "150g"
+                  "name": "Graines de sésame",
+                  "quantity": "3 cuillères à soupe"
                 },
                 {
-                  "name": "Cacahuètes grillées",
-                  "quantity": "50g"
+                  "name": "Huile neutre",
+                  "quantity": "3 cuillères à soupe"
                 },
                 {
-                  "name": "Coriandre fraîche",
-                  "quantity": "30g"
+                  "name": "Sucre ou miel",
+                  "quantity": "1 cuillère à café",
+                  "optional": true
                 }
               ],
               "steps": [
                 {
                   "order": 1,
-                  "title": "Préparer le tofu",
+                  "title": "Préparation du tofu",
                   "instructions": [
-                    "Égoutter et presser le tofu ferme pour éliminer l'excédent d'humidité",
-                    "Couper en cubes de 2cm environ"
-                  ],
-                  "durationMinutes": 5
+                    "Égoutter le tofu ferme et le presser entre deux serviettes pour éliminer l'excédent d'humidité",
+                    "Couper le tofu en cubes de 2 cm environ"
+                  ]
                 },
                 {
                   "order": 2,
-                  "title": "Préparer la marinade",
+                  "title": "Préparation de la marinade",
                   "instructions": [
-                    "Mincer l'ail et le gingembre",
-                    "Mélanger le gochujang, la sauce soja, le vinaigre de riz, le miel et l'huile de sésame dans un bol"
-                  ],
-                  "durationMinutes": 3
+                    "Mincer finement l'ail et le gingembre",
+                    "Dans un bol, mélanger le gochujang, la sauce soja, le vinaigre de riz, l'huile de sésame et le sucre optionnel",
+                    "Ajouter l'ail et le gingembre à la marinade"
+                  ]
                 },
                 {
                   "order": 3,
-                  "title": "Mariner le tofu",
+                  "title": "Marinade du tofu",
                   "instructions": [
-                    "Ajouter les cubes de tofu à la marinade",
-                    "Laisser reposer 20 minutes au minimum"
+                    "Verser la marinade sur les cubes de tofu",
+                    "Laisser reposer 15 minutes pour que les saveurs se développent"
                   ],
-                  "durationMinutes": 20
+                  "durationMinutes": 15
                 },
                 {
                   "order": 4,
-                  "title": "Cuire le tofu",
+                  "title": "Cuisson du tofu",
                   "instructions": [
-                    "Chauffer l'huile végétale dans une poêle à feu moyen-élevé",
-                    "Cuire le tofu mariné 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée"
+                    "Chauffer 3 cuillères à soupe d'huile neutre dans une poêle à feu vif",
+                    "Verser le tofu avec sa marinade dans la poêle",
+                    "Cuire 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée et croustillante",
+                    "Saupoudrer du gochugaru en cours de cuisson pour la saveur épicée"
                   ],
                   "durationMinutes": 12
                 },
                 {
                   "order": 5,
-                  "title": "Préparer les garnitures",
+                  "title": "Préparation des garnitures",
                   "instructions": [
-                    "Émincer finement le chou",
+                    "Émincer finement le chou napa",
                     "Râper les carottes",
-                    "Couper les oignons verts en tronçons de 5cm",
-                    "Trancher le radis daikon en bâtonnets",
-                    "Placer dans des bols séparés"
-                  ],
-                  "durationMinutes": 10
+                    "Couper le concombre en bâtonnets",
+                    "Ciseler les oignons verts",
+                    "Disposer chaque garniture dans un bol séparé"
+                  ]
                 },
                 {
                   "order": 6,
-                  "title": "Réchauffer les tortillas",
+                  "title": "Réchauffage des tortillas",
                   "instructions": [
-                    "Passer chaque tortilla rapidement sur une flamme ou dans une poêle sèche pour les assouplir"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 7,
-                  "title": "Assembler les tacos",
-                  "instructions": [
-                    "Disposer une tortilla",
-                    "Ajouter une cuillerée de tofu grillé",
-                    "Garnir avec chou, carottes, radis et oignons verts",
-                    "Parsemer de cacahuètes et coriandre fraîche"
+                    "Chauffer les tortillas quelques secondes de chaque côté dans une poêle sèche ou au-dessus d'une flamme",
+                    "Garder au chaud enveloppées dans un linge"
                   ],
                   "durationMinutes": 5
                 },
                 {
-                  "order": 8,
-                  "title": "Servir",
+                  "order": 7,
+                  "title": "Assemblage des tacos",
                   "instructions": [
-                    "Servir immédiatement",
-                    "Présenter les garnitures restantes à table pour que chacun compose son taco selon ses préférences"
-                  ],
-                  "durationMinutes": 0
+                    "Placer une tortilla chaude dans l'assiette",
+                    "Garnir d'une portion de tofu sauté",
+                    "Ajouter le chou napa, les carottes râpées, le concombre et l'oignon vert",
+                    "Saupoudrer généreusement de graines de sésame",
+                    "Servir immédiatement"
+                  ]
                 }
               ],
               "notes": {
                 "chef": [
-                  "Bien presser le tofu avant la marinade pour une meilleure absorption des saveurs",
-                  "Ne pas surcharger les tortillas : un équilibre entre sauce et garnitures croque est clé",
-                  "Cuire le tofu par petites quantités si nécessaire pour développer une croûte dorée uniforme",
-                  "Adapter le niveau d'épice en réduisant le gochujang de 20% si sensibilité au piment"
+                  "Le pressage du tofu est essentiel pour obtenir une texture croustillante à la cuisson",
+                  "La température vive est cruciale pour caraméliser le tofu et développer les saveurs umami",
+                  "Ne pas surcharger les tortillas pour faciliter la consommation",
+                  "Préparer les garnitures à l'avance mais les garder séparées jusqu'au service pour éviter la détrempure"
                 ],
                 "variations": [
-                  "Remplacer le gochujang par de la pâte sriracha mélangée à du miso rouge (ratio 3:1) pour un profil épicé alternatif",
-                  "Utiliser des tortillas de blé complet ou des galettes de riz pour varier les bases",
-                  "Ajouter des germes de soja frais ou du champignon noir réhydraté pour plus de texture",
-                  "Préparer une mayo gochujang en mélangeant gochujang et mayo végétale pour plus de liant et crémeté"
+                  "Ajouter du kimchi pour intensifier la saveur coréenne",
+                  "Remplacer le gochugaru par du Piment d'Espelette ou un mélange paprika-cayenne pour adapter le niveau d'épicé",
+                  "Ajouter une sauce à base de mayo végan et sriracha",
+                  "Inclure des germes de soja sautés pour plus de texture croquante"
                 ],
-                "conservation": "Le tofu mariné et cuit se conserve 3 jours au réfrigérateur en récipient hermétique. Préparer les garnitures à l'avance mais les tenir séparées pour préserver la croquance. Les tortillas se gardent à température ambiante 2-3 jours ou se congèlent jusqu'à 2 mois.",
-                "nutrition": "Par portion (2-3 tacos) : protéines 18g, glucides 32g, lipides 12g. Vegan, sans produits animaux. Allergènes : sésame, soja, arachides. Riche en fer du tofu et minéraux du chou fermenté coréen."
+                "conservation": "Le tofu cuit se conserve 3 jours au réfrigérateur dans un contenant hermétique. Réchauffer à la poêle avant de servir. Les garnitures se préparent la veille et se gardent au frais",
+                "nutrition": "Par portion (2 tacos): protéines 12g, glucides 28g, lipides 8g. Riche en minéraux (sésame), probiotiques (fermentation du gochujang). Vegan et sans produits animaux."
               }
             }
           },
           "result": {
             "success": true,
-            "id": "cmpesn8gy0000wvijkzrcdwyf",
+            "id": "cmpfr5qcm0000ubij4w08psew",
             "title": "Tacos au tofu coréens"
           }
         }
       ],
       "output": {
         "verdict": "approved",
-        "critique": "Recette techniquement solide et cohérente avec le brief. Tous les points de contrainte sont respectés : composition 100% vegan, portions pour 6, épice maîtrisée (gochujang 80g est dosé raisonnablement). Temps réaliste (45 min) avec parallélisation possible des étapes de préparation.",
-        "recipe_id": "cmpesn8gy0000wvijkzrcdwyf"
+        "critique": "Recette techniquement solide et réalisable en 45 minutes. Tous les contraintes respectées : vegan confirmé, portions pour 6, épice bien calibrée (gochugaru + gochujang modéré). Processus cuisson logique avec marinade courte (15 min) compatible avec le timing.",
+        "recipe_id": "cmpfr5qcm0000ubij4w08psew"
       }
     },
     {
-      "offset_ms": 78241,
+      "offset_ms": 69134,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 78241,
+      "offset_ms": 69135,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -1584,23 +1492,23 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 78242,
+      "offset_ms": 69136,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
         "input": 150,
-        "previous_stage_output": 8028
+        "previous_stage_output": 8480
       }
     },
     {
-      "offset_ms": 88796,
+      "offset_ms": 78152,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
         "data": {
           "userId": "cmmrunf9l0000cpijlrn58jpw",
           "title": "Tacos au tofu coréens",
-          "cuisine": "Fusion coréano-mexicaine",
+          "cuisine": "Fusion coréo-mexicaine",
           "timeMinutes": 45,
           "portions": 6,
           "emoji": "🌮",
@@ -1610,173 +1518,166 @@
               "quantity": "800g"
             },
             {
-              "name": "Gochujang",
-              "quantity": "80g"
+              "name": "Tortillas de maïs",
+              "quantity": "12 pièces"
+            },
+            {
+              "name": "Gochugaru (piment coréen en poudre)",
+              "quantity": "3 cuillères à soupe"
+            },
+            {
+              "name": "Gochujang (pâte piment coréenne)",
+              "quantity": "4 cuillères à soupe"
             },
             {
               "name": "Sauce soja",
-              "quantity": "60ml"
+              "quantity": "4 cuillères à soupe"
             },
             {
               "name": "Vinaigre de riz",
-              "quantity": "40ml"
+              "quantity": "2 cuillères à soupe"
             },
             {
-              "name": "Miel ou sirop d'agave",
-              "quantity": "20ml"
+              "name": "Huile de sésame grillée",
+              "quantity": "2 cuillères à soupe"
             },
             {
-              "name": "Ail frais",
+              "name": "Ail",
               "quantity": "4 gousses"
             },
             {
               "name": "Gingembre frais",
-              "quantity": "15g"
+              "quantity": "2 cm"
             },
             {
-              "name": "Sésame blanc",
-              "quantity": "25g"
+              "name": "Oignon vert",
+              "quantity": "2 bottes"
             },
             {
-              "name": "Huile de sésame",
-              "quantity": "15ml"
-            },
-            {
-              "name": "Huile végétale",
-              "quantity": "30ml"
-            },
-            {
-              "name": "Tortillas de maïs",
-              "quantity": "15 unités"
-            },
-            {
-              "name": "Chou blanc ou nappa",
+              "name": "Chou napa",
               "quantity": "300g"
             },
             {
               "name": "Carottes",
-              "quantity": "200g"
+              "quantity": "2 moyennes"
             },
             {
-              "name": "Oignons verts",
-              "quantity": "150g"
+              "name": "Concombre",
+              "quantity": "1 moyen"
             },
             {
-              "name": "Radis daikon",
-              "quantity": "150g"
+              "name": "Graines de sésame",
+              "quantity": "3 cuillères à soupe"
             },
             {
-              "name": "Cacahuètes grillées",
-              "quantity": "50g"
+              "name": "Huile neutre",
+              "quantity": "3 cuillères à soupe"
             },
             {
-              "name": "Coriandre fraîche",
-              "quantity": "30g"
+              "name": "Sucre ou miel (optionnel)",
+              "quantity": "1 cuillère à café"
             }
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Préparer le tofu",
+              "title": "Préparation du tofu",
               "instructions": [
-                "Égoutter et presser le tofu ferme pour éliminer l'excédent d'humidité",
-                "Couper en cubes de 2cm environ"
+                "Égoutter le tofu ferme et le presser entre deux serviettes pour éliminer l'excédent d'humidité",
+                "Couper le tofu en cubes de 2 cm environ"
               ]
             },
             {
               "order": 2,
-              "title": "Préparer la marinade",
+              "title": "Préparation de la marinade",
               "instructions": [
-                "Mincer l'ail et le gingembre",
-                "Mélanger le gochujang, la sauce soja, le vinaigre de riz, le miel et l'huile de sésame dans un bol"
+                "Mincer finement l'ail et le gingembre",
+                "Dans un bol, mélanger le gochujang, la sauce soja, le vinaigre de riz, l'huile de sésame et le sucre optionnel",
+                "Ajouter l'ail et le gingembre à la marinade"
               ]
             },
             {
               "order": 3,
-              "title": "Mariner le tofu",
+              "title": "Marinade du tofu",
               "instructions": [
-                "Ajouter les cubes de tofu à la marinade",
-                "Laisser reposer 20 minutes au minimum"
-              ],
-              "durationMinutes": 20
+                "Verser la marinade sur les cubes de tofu",
+                "Laisser reposer 15 minutes pour que les saveurs se développent"
+              ]
             },
             {
               "order": 4,
-              "title": "Cuire le tofu",
+              "title": "Cuisson du tofu",
               "instructions": [
-                "Chauffer l'huile végétale dans une poêle à feu moyen-élevé",
-                "Cuire le tofu mariné 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée"
-              ],
-              "durationMinutes": 12
+                "Chauffer 3 cuillères à soupe d'huile neutre dans une poêle à feu vif",
+                "Verser le tofu avec sa marinade dans la poêle",
+                "Cuire 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée et croustillante",
+                "Saupoudrer du gochugaru en cours de cuisson pour la saveur épicée"
+              ]
             },
             {
               "order": 5,
-              "title": "Préparer les garnitures",
+              "title": "Préparation des garnitures",
               "instructions": [
-                "Émincer finement le chou",
+                "Émincer finement le chou napa",
                 "Râper les carottes",
-                "Couper les oignons verts en tronçons de 5cm",
-                "Trancher le radis daikon en bâtonnets",
-                "Placer dans des bols séparés"
+                "Couper le concombre en bâtonnets",
+                "Ciseler les oignons verts",
+                "Disposer chaque garniture dans un bol séparé"
               ]
             },
             {
               "order": 6,
-              "title": "Réchauffer les tortillas",
+              "title": "Réchauffage des tortillas",
               "instructions": [
-                "Passer chaque tortilla rapidement sur une flamme ou dans une poêle sèche pour les assouplir"
+                "Chauffer les tortillas quelques secondes de chaque côté dans une poêle sèche ou au-dessus d'une flamme",
+                "Garder au chaud enveloppées dans un linge"
               ]
             },
             {
               "order": 7,
-              "title": "Assembler les tacos",
+              "title": "Assemblage des tacos",
               "instructions": [
-                "Disposer une tortilla",
-                "Ajouter une cuillerée de tofu grillé",
-                "Garnir avec chou, carottes, radis et oignons verts",
-                "Parsemer de cacahuètes et coriandre fraîche"
-              ]
-            },
-            {
-              "order": 8,
-              "title": "Servir",
-              "instructions": [
-                "Servir immédiatement et présenter les garnitures restantes à table pour que chacun compose son taco selon ses préférences"
+                "Placer une tortilla chaude dans l'assiette",
+                "Garnir d'une portion de tofu sauté",
+                "Ajouter le chou napa, les carottes râpées, le concombre et l'oignon vert",
+                "Saupoudrer généreusement de graines de sésame",
+                "Servir immédiatement"
               ]
             }
           ],
           "notes": {
             "chef": [
-              "Bien presser le tofu avant la marinade pour une meilleure absorption des saveurs",
-              "Ne pas surcharger les tortillas : un équilibre entre sauce et garnitures croquantes est clé",
-              "Cuire le tofu par petites quantités si nécessaire pour développer une croûte dorée uniforme",
-              "Adapter le niveau d'épice en réduisant le gochujang de 20% si sensibilité au piment"
+              "Le pressage du tofu est essentiel pour obtenir une texture croustillante à la cuisson",
+              "La température vive est cruciale pour caraméliser le tofu et développer les saveurs umami",
+              "Ne pas surcharger les tortillas pour faciliter la consommation",
+              "Préparer les garnitures à l'avance mais les garder séparées jusqu'au service pour éviter la détrempure"
             ],
             "variations": [
-              "Remplacer le gochujang par de la pâte sriracha mélangée à du miso rouge (ratio 3:1) pour un profil épicé alternatif",
-              "Utiliser des tortillas de blé complet ou des galettes de riz pour varier les bases",
-              "Ajouter des germes de soja frais ou du champignon noir réhydraté pour plus de texture",
-              "Préparer une mayo gochujang en mélangeant gochujang et mayo végétale pour plus de liant et crémeté"
+              "Ajouter du kimchi pour intensifier la saveur coréenne",
+              "Remplacer le gochugaru par du Piment d'Espelette ou un mélange paprika-cayenne pour adapter le niveau d'épicé",
+              "Ajouter une sauce à base de mayo végan et sriracha",
+              "Inclure des germes de soja sautés pour plus de texture croquante"
             ],
-            "conservation": "Le tofu mariné et cuit se conserve 3 jours au réfrigérateur en récipient hermétique. Préparer les garnitures à l'avance mais les tenir séparées pour préserver la croquance. Les tortillas se gardent à température ambiante 2-3 jours ou se congèlent jusqu'à 2 mois.",
-            "nutrition": "Par portion (2-3 tacos) : protéines 18g, glucides 32g, lipides 12g. Vegan, sans produits animaux. Allergènes : sésame, soja, arachides. Riche en fer du tofu et minéraux du chou."
-          }
+            "conservation": "Le tofu cuit se conserve 3 jours au réfrigérateur dans un contenant hermétique. Réchauffer à la poêle avant de servir. Les garnitures se préparent la veille et se gardent au frais",
+            "nutrition": "Par portion (2 tacos): protéines 12g, glucides 28g, lipides 8g. Riche en minéraux (sésame), probiotiques (fermentation du gochujang). Vegan et sans produits animaux."
+          },
+          "calories": 280
         }
       }
     },
     {
-      "offset_ms": 90064,
+      "offset_ms": 79183,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpesniop0000meijsgrsmm7r",
+        "id": "cmpfr5z1c0000gcijjh0xz76u",
         "title": "Tacos au tofu coréens"
       },
-      "duration_ms": 1268
+      "duration_ms": 1031
     },
     {
-      "offset_ms": 90064,
+      "offset_ms": 83729,
       "event": "tool_call_start",
       "tool": "db-upsert_grocery_list",
       "params": {
@@ -1789,117 +1690,112 @@
               "group": "protéines"
             },
             {
-              "name": "Chou blanc ou nappa",
+              "name": "Tortillas de maïs",
+              "quantity": "12 pièces",
+              "group": "produits frais"
+            },
+            {
+              "name": "Chou napa",
               "quantity": "300g",
               "group": "légumes"
             },
             {
               "name": "Carottes",
-              "quantity": "200g",
+              "quantity": "2 moyennes",
               "group": "légumes"
             },
             {
-              "name": "Radis daikon",
-              "quantity": "150g",
+              "name": "Concombre",
+              "quantity": "1 moyen",
               "group": "légumes"
             },
             {
-              "name": "Oignons verts",
-              "quantity": "150g",
+              "name": "Oignon vert",
+              "quantity": "2 bottes",
               "group": "légumes"
             },
             {
-              "name": "Ail frais",
+              "name": "Ail",
               "quantity": "4 gousses",
               "group": "légumes"
             },
             {
               "name": "Gingembre frais",
-              "quantity": "15g",
+              "quantity": "2 cm",
               "group": "légumes"
             },
             {
-              "name": "Coriandre fraîche",
-              "quantity": "30g",
-              "group": "produits frais"
+              "name": "Gochugaru (piment coréen en poudre)",
+              "quantity": "3 cuillères à soupe",
+              "group": "épicerie sèche"
             },
             {
-              "name": "Gochujang",
-              "quantity": "80g",
+              "name": "Gochujang (pâte piment coréenne)",
+              "quantity": "4 cuillères à soupe",
               "group": "condiments"
             },
             {
               "name": "Sauce soja",
-              "quantity": "60ml",
+              "quantity": "4 cuillères à soupe",
               "group": "condiments"
             },
             {
               "name": "Vinaigre de riz",
-              "quantity": "40ml",
+              "quantity": "2 cuillères à soupe",
               "group": "condiments"
             },
             {
-              "name": "Miel ou sirop d'agave",
-              "quantity": "20ml",
-              "group": "condiments"
+              "name": "Huile de sésame grillée",
+              "quantity": "2 cuillères à soupe",
+              "group": "huiles et assaisonnements"
             },
             {
-              "name": "Huile de sésame",
-              "quantity": "15ml",
-              "group": "condiments"
+              "name": "Huile neutre (tournesol/cacahuète)",
+              "quantity": "3 cuillères à soupe",
+              "group": "huiles et assaisonnements"
             },
             {
-              "name": "Huile végétale",
-              "quantity": "30ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Sésame blanc",
-              "quantity": "25g",
+              "name": "Graines de sésame",
+              "quantity": "3 cuillères à soupe",
               "group": "épicerie sèche"
             },
             {
-              "name": "Cacahuètes grillées",
-              "quantity": "50g",
+              "name": "Sucre ou miel (optionnel)",
+              "quantity": "1 cuillère à café",
               "group": "épicerie sèche"
-            },
-            {
-              "name": "Tortillas de maïs",
-              "quantity": "15 unités",
-              "group": "produits frais"
             }
           ]
         }
       }
     },
     {
-      "offset_ms": 91080,
+      "offset_ms": 84668,
       "event": "tool_call_complete",
       "tool": "db-upsert_grocery_list",
       "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1016
+      "duration_ms": 939
     },
     {
-      "offset_ms": 97688,
+      "offset_ms": 91670,
       "event": "stage_complete",
       "stage": "grocery-list",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 19447,
+      "duration_ms": 22535,
       "tokens": {
-        "prompt": 6229,
-        "completion": 3295,
-        "total": 9524
+        "prompt": 6731,
+        "completion": 3615,
+        "total": 10346
       },
       "tool_calls": [
         {
-          "id": "toolu_01KmvQWwbvu2M47k6pQ9P1KQ",
+          "id": "toolu_014gu7WiHrs6UTVZKY1YQkAx",
           "name": "db-upsert_recipe",
           "arguments": {
             "data": {
               "userId": "cmmrunf9l0000cpijlrn58jpw",
               "title": "Tacos au tofu coréens",
-              "cuisine": "Fusion coréano-mexicaine",
+              "cuisine": "Fusion coréo-mexicaine",
               "timeMinutes": 45,
               "portions": 6,
               "emoji": "🌮",
@@ -1909,167 +1805,160 @@
                   "quantity": "800g"
                 },
                 {
-                  "name": "Gochujang",
-                  "quantity": "80g"
+                  "name": "Tortillas de maïs",
+                  "quantity": "12 pièces"
+                },
+                {
+                  "name": "Gochugaru (piment coréen en poudre)",
+                  "quantity": "3 cuillères à soupe"
+                },
+                {
+                  "name": "Gochujang (pâte piment coréenne)",
+                  "quantity": "4 cuillères à soupe"
                 },
                 {
                   "name": "Sauce soja",
-                  "quantity": "60ml"
+                  "quantity": "4 cuillères à soupe"
                 },
                 {
                   "name": "Vinaigre de riz",
-                  "quantity": "40ml"
+                  "quantity": "2 cuillères à soupe"
                 },
                 {
-                  "name": "Miel ou sirop d'agave",
-                  "quantity": "20ml"
+                  "name": "Huile de sésame grillée",
+                  "quantity": "2 cuillères à soupe"
                 },
                 {
-                  "name": "Ail frais",
+                  "name": "Ail",
                   "quantity": "4 gousses"
                 },
                 {
                   "name": "Gingembre frais",
-                  "quantity": "15g"
+                  "quantity": "2 cm"
                 },
                 {
-                  "name": "Sésame blanc",
-                  "quantity": "25g"
+                  "name": "Oignon vert",
+                  "quantity": "2 bottes"
                 },
                 {
-                  "name": "Huile de sésame",
-                  "quantity": "15ml"
-                },
-                {
-                  "name": "Huile végétale",
-                  "quantity": "30ml"
-                },
-                {
-                  "name": "Tortillas de maïs",
-                  "quantity": "15 unités"
-                },
-                {
-                  "name": "Chou blanc ou nappa",
+                  "name": "Chou napa",
                   "quantity": "300g"
                 },
                 {
                   "name": "Carottes",
-                  "quantity": "200g"
+                  "quantity": "2 moyennes"
                 },
                 {
-                  "name": "Oignons verts",
-                  "quantity": "150g"
+                  "name": "Concombre",
+                  "quantity": "1 moyen"
                 },
                 {
-                  "name": "Radis daikon",
-                  "quantity": "150g"
+                  "name": "Graines de sésame",
+                  "quantity": "3 cuillères à soupe"
                 },
                 {
-                  "name": "Cacahuètes grillées",
-                  "quantity": "50g"
+                  "name": "Huile neutre",
+                  "quantity": "3 cuillères à soupe"
                 },
                 {
-                  "name": "Coriandre fraîche",
-                  "quantity": "30g"
+                  "name": "Sucre ou miel (optionnel)",
+                  "quantity": "1 cuillère à café"
                 }
               ],
               "steps": [
                 {
                   "order": 1,
-                  "title": "Préparer le tofu",
+                  "title": "Préparation du tofu",
                   "instructions": [
-                    "Égoutter et presser le tofu ferme pour éliminer l'excédent d'humidité",
-                    "Couper en cubes de 2cm environ"
+                    "Égoutter le tofu ferme et le presser entre deux serviettes pour éliminer l'excédent d'humidité",
+                    "Couper le tofu en cubes de 2 cm environ"
                   ]
                 },
                 {
                   "order": 2,
-                  "title": "Préparer la marinade",
+                  "title": "Préparation de la marinade",
                   "instructions": [
-                    "Mincer l'ail et le gingembre",
-                    "Mélanger le gochujang, la sauce soja, le vinaigre de riz, le miel et l'huile de sésame dans un bol"
+                    "Mincer finement l'ail et le gingembre",
+                    "Dans un bol, mélanger le gochujang, la sauce soja, le vinaigre de riz, l'huile de sésame et le sucre optionnel",
+                    "Ajouter l'ail et le gingembre à la marinade"
                   ]
                 },
                 {
                   "order": 3,
-                  "title": "Mariner le tofu",
+                  "title": "Marinade du tofu",
                   "instructions": [
-                    "Ajouter les cubes de tofu à la marinade",
-                    "Laisser reposer 20 minutes au minimum"
-                  ],
-                  "durationMinutes": 20
+                    "Verser la marinade sur les cubes de tofu",
+                    "Laisser reposer 15 minutes pour que les saveurs se développent"
+                  ]
                 },
                 {
                   "order": 4,
-                  "title": "Cuire le tofu",
+                  "title": "Cuisson du tofu",
                   "instructions": [
-                    "Chauffer l'huile végétale dans une poêle à feu moyen-élevé",
-                    "Cuire le tofu mariné 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée"
-                  ],
-                  "durationMinutes": 12
+                    "Chauffer 3 cuillères à soupe d'huile neutre dans une poêle à feu vif",
+                    "Verser le tofu avec sa marinade dans la poêle",
+                    "Cuire 10-12 minutes en remuant régulièrement jusqu'à obtenir une croûte dorée et croustillante",
+                    "Saupoudrer du gochugaru en cours de cuisson pour la saveur épicée"
+                  ]
                 },
                 {
                   "order": 5,
-                  "title": "Préparer les garnitures",
+                  "title": "Préparation des garnitures",
                   "instructions": [
-                    "Émincer finement le chou",
+                    "Émincer finement le chou napa",
                     "Râper les carottes",
-                    "Couper les oignons verts en tronçons de 5cm",
-                    "Trancher le radis daikon en bâtonnets",
-                    "Placer dans des bols séparés"
+                    "Couper le concombre en bâtonnets",
+                    "Ciseler les oignons verts",
+                    "Disposer chaque garniture dans un bol séparé"
                   ]
                 },
                 {
                   "order": 6,
-                  "title": "Réchauffer les tortillas",
+                  "title": "Réchauffage des tortillas",
                   "instructions": [
-                    "Passer chaque tortilla rapidement sur une flamme ou dans une poêle sèche pour les assouplir"
+                    "Chauffer les tortillas quelques secondes de chaque côté dans une poêle sèche ou au-dessus d'une flamme",
+                    "Garder au chaud enveloppées dans un linge"
                   ]
                 },
                 {
                   "order": 7,
-                  "title": "Assembler les tacos",
+                  "title": "Assemblage des tacos",
                   "instructions": [
-                    "Disposer une tortilla",
-                    "Ajouter une cuillerée de tofu grillé",
-                    "Garnir avec chou, carottes, radis et oignons verts",
-                    "Parsemer de cacahuètes et coriandre fraîche"
-                  ]
-                },
-                {
-                  "order": 8,
-                  "title": "Servir",
-                  "instructions": [
-                    "Servir immédiatement et présenter les garnitures restantes à table pour que chacun compose son taco selon ses préférences"
+                    "Placer une tortilla chaude dans l'assiette",
+                    "Garnir d'une portion de tofu sauté",
+                    "Ajouter le chou napa, les carottes râpées, le concombre et l'oignon vert",
+                    "Saupoudrer généreusement de graines de sésame",
+                    "Servir immédiatement"
                   ]
                 }
               ],
               "notes": {
                 "chef": [
-                  "Bien presser le tofu avant la marinade pour une meilleure absorption des saveurs",
-                  "Ne pas surcharger les tortillas : un équilibre entre sauce et garnitures croquantes est clé",
-                  "Cuire le tofu par petites quantités si nécessaire pour développer une croûte dorée uniforme",
-                  "Adapter le niveau d'épice en réduisant le gochujang de 20% si sensibilité au piment"
+                  "Le pressage du tofu est essentiel pour obtenir une texture croustillante à la cuisson",
+                  "La température vive est cruciale pour caraméliser le tofu et développer les saveurs umami",
+                  "Ne pas surcharger les tortillas pour faciliter la consommation",
+                  "Préparer les garnitures à l'avance mais les garder séparées jusqu'au service pour éviter la détrempure"
                 ],
                 "variations": [
-                  "Remplacer le gochujang par de la pâte sriracha mélangée à du miso rouge (ratio 3:1) pour un profil épicé alternatif",
-                  "Utiliser des tortillas de blé complet ou des galettes de riz pour varier les bases",
-                  "Ajouter des germes de soja frais ou du champignon noir réhydraté pour plus de texture",
-                  "Préparer une mayo gochujang en mélangeant gochujang et mayo végétale pour plus de liant et crémeté"
+                  "Ajouter du kimchi pour intensifier la saveur coréenne",
+                  "Remplacer le gochugaru par du Piment d'Espelette ou un mélange paprika-cayenne pour adapter le niveau d'épicé",
+                  "Ajouter une sauce à base de mayo végan et sriracha",
+                  "Inclure des germes de soja sautés pour plus de texture croquante"
                 ],
-                "conservation": "Le tofu mariné et cuit se conserve 3 jours au réfrigérateur en récipient hermétique. Préparer les garnitures à l'avance mais les tenir séparées pour préserver la croquance. Les tortillas se gardent à température ambiante 2-3 jours ou se congèlent jusqu'à 2 mois.",
-                "nutrition": "Par portion (2-3 tacos) : protéines 18g, glucides 32g, lipides 12g. Vegan, sans produits animaux. Allergènes : sésame, soja, arachides. Riche en fer du tofu et minéraux du chou."
-              }
+                "conservation": "Le tofu cuit se conserve 3 jours au réfrigérateur dans un contenant hermétique. Réchauffer à la poêle avant de servir. Les garnitures se préparent la veille et se gardent au frais",
+                "nutrition": "Par portion (2 tacos): protéines 12g, glucides 28g, lipides 8g. Riche en minéraux (sésame), probiotiques (fermentation du gochujang). Vegan et sans produits animaux."
+              },
+              "calories": 280
             }
           },
           "result": {
             "success": true,
-            "id": "cmpesniop0000meijsgrsmm7r",
+            "id": "cmpfr5z1c0000gcijjh0xz76u",
             "title": "Tacos au tofu coréens"
           }
         },
         {
-          "id": "toolu_018peqzVDENBdfkCsvgRdJm8",
+          "id": "toolu_01Frhs2KPjT2x4qqza3FFEW4",
           "name": "db-upsert_grocery_list",
           "arguments": {
             "data": {
@@ -2081,84 +1970,79 @@
                   "group": "protéines"
                 },
                 {
-                  "name": "Chou blanc ou nappa",
+                  "name": "Tortillas de maïs",
+                  "quantity": "12 pièces",
+                  "group": "produits frais"
+                },
+                {
+                  "name": "Chou napa",
                   "quantity": "300g",
                   "group": "légumes"
                 },
                 {
                   "name": "Carottes",
-                  "quantity": "200g",
+                  "quantity": "2 moyennes",
                   "group": "légumes"
                 },
                 {
-                  "name": "Radis daikon",
-                  "quantity": "150g",
+                  "name": "Concombre",
+                  "quantity": "1 moyen",
                   "group": "légumes"
                 },
                 {
-                  "name": "Oignons verts",
-                  "quantity": "150g",
+                  "name": "Oignon vert",
+                  "quantity": "2 bottes",
                   "group": "légumes"
                 },
                 {
-                  "name": "Ail frais",
+                  "name": "Ail",
                   "quantity": "4 gousses",
                   "group": "légumes"
                 },
                 {
                   "name": "Gingembre frais",
-                  "quantity": "15g",
+                  "quantity": "2 cm",
                   "group": "légumes"
                 },
                 {
-                  "name": "Coriandre fraîche",
-                  "quantity": "30g",
-                  "group": "produits frais"
+                  "name": "Gochugaru (piment coréen en poudre)",
+                  "quantity": "3 cuillères à soupe",
+                  "group": "épicerie sèche"
                 },
                 {
-                  "name": "Gochujang",
-                  "quantity": "80g",
+                  "name": "Gochujang (pâte piment coréenne)",
+                  "quantity": "4 cuillères à soupe",
                   "group": "condiments"
                 },
                 {
                   "name": "Sauce soja",
-                  "quantity": "60ml",
+                  "quantity": "4 cuillères à soupe",
                   "group": "condiments"
                 },
                 {
                   "name": "Vinaigre de riz",
-                  "quantity": "40ml",
+                  "quantity": "2 cuillères à soupe",
                   "group": "condiments"
                 },
                 {
-                  "name": "Miel ou sirop d'agave",
-                  "quantity": "20ml",
-                  "group": "condiments"
+                  "name": "Huile de sésame grillée",
+                  "quantity": "2 cuillères à soupe",
+                  "group": "huiles et assaisonnements"
                 },
                 {
-                  "name": "Huile de sésame",
-                  "quantity": "15ml",
-                  "group": "condiments"
+                  "name": "Huile neutre (tournesol/cacahuète)",
+                  "quantity": "3 cuillères à soupe",
+                  "group": "huiles et assaisonnements"
                 },
                 {
-                  "name": "Huile végétale",
-                  "quantity": "30ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Sésame blanc",
-                  "quantity": "25g",
+                  "name": "Graines de sésame",
+                  "quantity": "3 cuillères à soupe",
                   "group": "épicerie sèche"
                 },
                 {
-                  "name": "Cacahuètes grillées",
-                  "quantity": "50g",
+                  "name": "Sucre ou miel (optionnel)",
+                  "quantity": "1 cuillère à café",
                   "group": "épicerie sèche"
-                },
-                {
-                  "name": "Tortillas de maïs",
-                  "quantity": "15 unités",
-                  "group": "produits frais"
                 }
               ]
             }
@@ -2167,183 +2051,18 @@
         }
       ],
       "output": {
-        "items": [
-          {
-            "name": "Tofu ferme",
-            "quantity": "800g",
-            "group": "protéines"
-          },
-          {
-            "name": "Gochujang",
-            "quantity": "80g",
-            "group": "condiments"
-          },
-          {
-            "name": "Sauce soja",
-            "quantity": "60ml",
-            "group": "condiments"
-          },
-          {
-            "name": "Vinaigre de riz",
-            "quantity": "40ml",
-            "group": "condiments"
-          },
-          {
-            "name": "Miel ou sirop d'agave",
-            "quantity": "20ml",
-            "group": "épicerie sèche"
-          },
-          {
-            "name": "Ail frais",
-            "quantity": "4 gousses",
-            "group": "légumes"
-          },
-          {
-            "name": "Gingembre frais",
-            "quantity": "15g",
-            "group": "légumes"
-          },
-          {
-            "name": "Sésame blanc",
-            "quantity": "25g",
-            "group": "épicerie sèche"
-          },
-          {
-            "name": "Huile de sésame",
-            "quantity": "15ml",
-            "group": "condiments"
-          },
-          {
-            "name": "Huile végétale",
-            "quantity": "30ml",
-            "group": "condiments"
-          },
-          {
-            "name": "Tortillas de maïs",
-            "quantity": "15 unités",
-            "group": "produits frais"
-          },
-          {
-            "name": "Chou blanc ou nappa",
-            "quantity": "300g",
-            "group": "légumes"
-          },
-          {
-            "name": "Carottes",
-            "quantity": "200g",
-            "group": "légumes"
-          },
-          {
-            "name": "Oignons verts",
-            "quantity": "150g",
-            "group": "légumes"
-          },
-          {
-            "name": "Radis daikon",
-            "quantity": "150g",
-            "group": "légumes"
-          },
-          {
-            "name": "Cacahuètes grillées",
-            "quantity": "50g",
-            "group": "épicerie sèche"
-          },
-          {
-            "name": "Coriandre fraîche",
-            "quantity": "30g",
-            "group": "produits frais"
-          }
-        ],
-        "sections": {
-          "légumes": [
-            {
-              "name": "Ail frais",
-              "quantity": "4 gousses"
-            },
-            {
-              "name": "Gingembre frais",
-              "quantity": "15g"
-            },
-            {
-              "name": "Chou blanc ou nappa",
-              "quantity": "300g"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "200g"
-            },
-            {
-              "name": "Oignons verts",
-              "quantity": "150g"
-            },
-            {
-              "name": "Radis daikon",
-              "quantity": "150g"
-            }
-          ],
-          "protéines": [
-            {
-              "name": "Tofu ferme",
-              "quantity": "800g"
-            }
-          ],
-          "épicerie sèche": [
-            {
-              "name": "Miel ou sirop d'agave",
-              "quantity": "20ml"
-            },
-            {
-              "name": "Sésame blanc",
-              "quantity": "25g"
-            },
-            {
-              "name": "Cacahuètes grillées",
-              "quantity": "50g"
-            }
-          ],
-          "produits frais": [
-            {
-              "name": "Tortillas de maïs",
-              "quantity": "15 unités"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "30g"
-            }
-          ],
-          "condiments": [
-            {
-              "name": "Gochujang",
-              "quantity": "80g"
-            },
-            {
-              "name": "Sauce soja",
-              "quantity": "60ml"
-            },
-            {
-              "name": "Vinaigre de riz",
-              "quantity": "40ml"
-            },
-            {
-              "name": "Huile de sésame",
-              "quantity": "15ml"
-            },
-            {
-              "name": "Huile végétale",
-              "quantity": "30ml"
-            }
-          ]
-        }
+        "items": "[{\"name\": \"Tofu ferme\", \"quantity\": \"800g\", \"group\": \"protéines\"}, {\"name\": \"Tortillas de maïs\", \"quantity\": \"12 pièces\", \"group\": \"épicerie sèche\"}, {\"name\": \"Gochugaru (piment coréen en poudre)\", \"quantity\": \"3 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Gochujang (pâte piment coréenne)\", \"quantity\": \"4 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Sauce soja\", \"quantity\": \"4 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Vinaigre de riz\", \"quantity\": \"2 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Huile de sésame grillée\", \"quantity\": \"2 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Huile neutre (tournesol/cacahuète)\", \"quantity\": \"3 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\", \"group\": \"légumes\"}, {\"name\": \"Gingembre frais\", \"quantity\": \"2 cm\", \"group\": \"légumes\"}, {\"name\": \"Oignon vert\", \"quantity\": \"2 bottes\", \"group\": \"légumes\"}, {\"name\": \"Chou napa\", \"quantity\": \"300g\", \"group\": \"légumes\"}, {\"name\": \"Carottes\", \"quantity\": \"2 moyennes\", \"group\": \"légumes\"}, {\"name\": \"Concombre\", \"quantity\": \"1 moyen\", \"group\": \"légumes\"}, {\"name\": \"Graines de sésame\", \"quantity\": \"3 cuillères à soupe\", \"group\": \"épicerie sèche\"}, {\"name\": \"Sucre ou miel (optionnel)\", \"quantity\": \"1 cuillère à café\", \"group\": \"épicerie sèche\"}]",
+        "sections": "{\"légumes\": [{\"name\": \"Ail\", \"quantity\": \"4 gousses\"}, {\"name\": \"Gingembre frais\", \"quantity\": \"2 cm\"}, {\"name\": \"Oignon vert\", \"quantity\": \"2 bottes\"}, {\"name\": \"Chou napa\", \"quantity\": \"300g\"}, {\"name\": \"Carottes\", \"quantity\": \"2 moyennes\"}, {\"name\": \"Concombre\", \"quantity\": \"1 moyen\"}], \"protéines\": [{\"name\": \"Tofu ferme\", \"quantity\": \"800g\"}], \"épicerie sèche\": [{\"name\": \"Tortillas de maïs\", \"quantity\": \"12 pièces\"}, {\"name\": \"Graines de sésame\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Sucre ou miel (optionnel)\", \"quantity\": \"1 cuillère à café\"}], \"condiments\": [{\"name\": \"Gochugaru (piment coréen en poudre)\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Gochujang (pâte piment coréenne)\", \"quantity\": \"4 cuillères à soupe\"}, {\"name\": \"Sauce soja\", \"quantity\": \"4 cuillères à soupe\"}, {\"name\": \"Vinaigre de riz\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Huile de sésame grillée\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Huile neutre (tournesol/cacahuète)\", \"quantity\": \"3 cuillères à soupe\"}]}"
       }
     },
     {
-      "offset_ms": 97781,
+      "offset_ms": 91684,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
-      "duration_ms": 97817,
-      "total_tokens": 47641,
-      "total_tool_calls": 10,
+      "duration_ms": 91718,
+      "total_tokens": 48351,
+      "total_tool_calls": 9,
       "total_stages": 6
     }
   ]
