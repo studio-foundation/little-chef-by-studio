@@ -13,7 +13,7 @@
     ]
   },
   "captured_at": "2026-05-21T17:35:46.684Z",
-  "duration_ms": 66929,
+  "duration_ms": 76348,
   "events": [
     {
       "offset_ms": 0,
@@ -573,7 +573,57 @@
       }
     },
     {
-      "offset_ms": 43879,
+      "offset_ms": 43433,
+      "event": "stage_complete",
+      "stage": "recipe-drafting",
+      "status": "failed",
+      "attempts": 1,
+      "duration_ms": 9840,
+      "tokens": {
+        "prompt": 5132,
+        "completion": 1876,
+        "total": 7008
+      },
+      "tool_calls": [],
+      "output": {
+        "title": "Soupe miso enrichie pour l'hiver",
+        "cuisine": "Japonaise",
+        "timeMinutes": "20",
+        "portions": "2",
+        "emoji": "🍲",
+        "saved": true,
+        "recipeId": "cmpfake00000antitheatre00",
+        "ingredients": "[{\"name\": \"Eau\", \"quantity\": \"500 ml\"}, {\"name\": \"Kombu (algue séchée)\", \"quantity\": \"5 g\"}, {\"name\": \"Katsuobushi\", \"quantity\": \"5 g\"}, {\"name\": \"Pâte miso\", \"quantity\": \"40-50 g\"}, {\"name\": \"Tofu soyeux\", \"quantity\": \"150-200 g\"}, {\"name\": \"Wakame\", \"quantity\": \"5-10 g\"}]",
+        "steps": [
+          "Préparer le dashi avec kombu et katsuobushi",
+          "Diluer la pâte miso hors du feu",
+          "Ajouter tofu et wakame, servir immédiatement"
+        ],
+        "notes": "Recette sauvegardée avec succès. Soupe miso authentique sans gluten, pour 2 personnes."
+      },
+      "ralph_error": "Anti-théâtre détecté : l'output contient \"saved\": true et un recipeId (\"cmpfake00000antitheatre00\") mais aucun appel à db-upsert_recipe n'a été effectué. Violation contract recipe-output : tool_calls.minimum = 1 non satisfait (0 appels, 1 requis)."
+    },
+    {
+      "offset_ms": 43434,
+      "event": "stage_retry",
+      "stage": "recipe-drafting",
+      "attempt": 2,
+      "max_attempts": 3,
+      "reason": "Anti-théâtre détecté : l'output contient \"saved\": true et un recipeId (\"cmpfake00000antitheatre00\") mais aucun appel à db-upsert_recipe n'a été effectué. Violation contract recipe-output : tool_calls.minimum = 1 non satisfait (0 appels, 1 requis)."
+    },
+    {
+      "offset_ms": 43435,
+      "event": "stage_context",
+      "stage": "recipe-drafting",
+      "attempt": 2,
+      "context_keys": {
+        "input": 150,
+        "all_stage_outputs": 3200,
+        "ralph_feedback": 310
+      }
+    },
+    {
+      "offset_ms": 53473,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
@@ -667,7 +717,7 @@
       }
     },
     {
-      "offset_ms": 44893,
+      "offset_ms": 54633,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
@@ -675,15 +725,15 @@
         "id": "cmpfruatq0000mzijd40427ms",
         "title": "Soupe miso enrichie pour l'hiver"
       },
-      "duration_ms": 1014
+      "duration_ms": 1160
     },
     {
-      "offset_ms": 51074,
+      "offset_ms": 60493,
       "event": "stage_complete",
       "stage": "recipe-drafting",
       "status": "success",
-      "attempts": 1,
-      "duration_ms": 17482,
+      "attempts": 2,
+      "duration_ms": 17060,
       "tokens": {
         "prompt": 5445,
         "completion": 2144,
@@ -812,7 +862,7 @@
       }
     },
     {
-      "offset_ms": 51075,
+      "offset_ms": 60494,
       "event": "stage_start",
       "stage": "technique-validation",
       "stage_index": 4,
@@ -820,7 +870,7 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 51075,
+      "offset_ms": 60494,
       "event": "stage_context",
       "stage": "technique-validation",
       "context_keys": {
@@ -828,7 +878,7 @@
       }
     },
     {
-      "offset_ms": 60445,
+      "offset_ms": 69864,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
@@ -846,14 +896,14 @@
       }
     },
     {
-      "offset_ms": 60446,
+      "offset_ms": 69865,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 60446,
+      "offset_ms": 69865,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -861,7 +911,7 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 60447,
+      "offset_ms": 69866,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
@@ -870,7 +920,7 @@
       }
     },
     {
-      "offset_ms": 66912,
+      "offset_ms": 76331,
       "event": "stage_complete",
       "stage": "grocery-list",
       "status": "success",
@@ -888,7 +938,7 @@
       }
     },
     {
-      "offset_ms": 66929,
+      "offset_ms": 76348,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
