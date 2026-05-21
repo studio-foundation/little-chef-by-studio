@@ -38,6 +38,11 @@ async function main() {
     process.exit(1)
   }
 
+  if (!data.planId) {
+    console.log(JSON.stringify({ success: true, skipped: true, reason: 'no planId provided' }))
+    return
+  }
+
   const groceryList = await prisma.groceryList.upsert({
     where: { planId: data.planId as string },
     update: { items: data.items as object },
