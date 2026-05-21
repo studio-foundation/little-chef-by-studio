@@ -82,6 +82,11 @@ async function main() {
       create: { planId: data.planId as string, items: data.items as object },
     })
     console.log(JSON.stringify({ success: true, id: groceryList.id, planId: groceryList.planId }))
+  } catch {
+    // planId not found in DB (e.g. demo run) — fall back to markdown file
+    const items = (data.items as GroceryItem[]) ?? []
+    const path = writeDemoMarkdown(items)
+    console.log(JSON.stringify({ success: true, demo: true, path, itemCount: items.length }))
   } finally {
     await prisma.$disconnect()
   }
