@@ -1,10 +1,13 @@
 import { spawn } from 'child_process'
 import { writeFileSync, mkdirSync, readdirSync, statSync, readFileSync, existsSync } from 'fs'
-import { resolve, join } from 'path'
+import { resolve, join, dirname } from 'path'
 import { tmpdir } from 'os'
+import { fileURLToPath } from 'url'
 import { EXAMPLES, type RecipeExample } from '../lib/examples'
 
-const PROJECT_ROOT = resolve(import.meta.dirname, '..')
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+const PROJECT_ROOT = resolve(__dirname, '..')
 const STUDIO_RUNS_DIR = join(PROJECT_ROOT, '.studio', 'runs')
 const FIXTURES_DIR = join(PROJECT_ROOT, 'fixtures', 'runs')
 const MAX_EVENT_BYTES = 10_000
