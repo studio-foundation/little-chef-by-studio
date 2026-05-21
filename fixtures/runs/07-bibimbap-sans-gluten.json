@@ -1,6 +1,7 @@
 {
   "id": "07",
   "slug": "bibimbap-sans-gluten",
+  "run_id": "27948f74",
   "input": {
     "dish_name": "Bibimbap",
     "userId": "cmmrunf9l0000cpijlrn58jpw",
@@ -10,8 +11,8 @@
       "budget raisonnable"
     ]
   },
-  "captured_at": "2026-05-21T01:16:44.217Z",
-  "duration_ms": 86877,
+  "captured_at": "2026-05-21T17:40:06.749Z",
+  "duration_ms": 94969,
   "events": [
     {
       "offset_ms": 0,
@@ -28,7 +29,7 @@
       }
     },
     {
-      "offset_ms": 2,
+      "offset_ms": 22,
       "event": "stage_start",
       "stage": "culinary-research",
       "stage_index": 0,
@@ -36,7 +37,7 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 5,
+      "offset_ms": 27,
       "event": "stage_context",
       "stage": "culinary-research",
       "context_keys": {
@@ -44,121 +45,221 @@
       }
     },
     {
-      "offset_ms": 1955,
+      "offset_ms": 6607,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Bibimbap plat coréen technique préparation"
+        "query": "Bibimbap Korean dish origin technique traditional preparation"
       }
     },
     {
-      "offset_ms": 2130,
+      "offset_ms": 8031,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Bibimbap Korean dish origin technique traditional preparation",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.finedininglovers.com/explore/articles/korean-bibimbap-original-recipe-and-history",
+            "title": "Korean Bibimbap: Original Recipe and History - Fine Dining Lovers",
+            "content": "The mellifluously-named ***bibimbap*, the quintessential Korean meal-in-a-bowl**, is a good candidate for the title of most fun dish to order in world cuisine. The name of **Korean Bibimbap means “mixed rice,”** which is a pretty good description. A bowl is loaded with rice at the bottom and topped with a selection of goodies that are laid out to look like a jewels floating on the white rice bed. It’s nice (and unusual) to have a dish for which the final, necessary step before it’s ready for consumption is undertaken by the consumer—it’s up to you to finish the dish’s preparation, which offers a ritual that heightens anticipation of enjoying the meal. Namul is essential a catch-all term for vegetables prepared as a side dish (called a banchan), but which in the case of bibimbap, take center stage, the primary ingredient, aside from rice, in the rice bowl, with meat as more of a grace note than the main event.",
+            "score": 0.6152965,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S2352618115000268",
+            "title": "Historical and biological aspects of bibimbap, a Korean ethnic food",
+            "content": "This article will discuss the origin of bibimbap on the basis of the structure of the Korean traditional meal table. Furthermore, it will analyze its",
+            "score": 0.5786631,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.quora.com/What-is-the-main-ingredient-in-the-traditional-Korean-dish-bibimbap-and-how-is-it-typically-presented",
+            "title": "What is the main ingredient in the traditional Korean dish bibimbap ...",
+            "content": "Bibimbap is a rice bowl covered with beef, blanched, sauteed or pickled vegetables and often a fried or raw egg yolk. Beef can be replaced by fish or fish eggs.",
+            "score": 0.5683445,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.foodandwine.com/cooking-techniques/the-origins-of-bibimbap",
+            "title": "The Origins of Bibimbap - Food & Wine",
+            "content": "Another is that bibimbap came about after ancestral ceremonies, where many various dishes would have been prepared and offered to pay respect to",
+            "score": 0.53342235,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/groups/2299949053552813/posts/2905775372970175",
+            "title": "Korean bibimbap, a harmony of ingredients - Facebook",
+            "content": "It came from early rural Koreans taking leftover vegetables, sometimes having meat, with rice and mixing them in a bowl. This was cheap and did",
+            "score": 0.50915486,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.13,
+        "request_id": "8a820520-ea85-4bf3-8691-67bba0a3ac8a"
       },
-      "duration_ms": 175
+      "duration_ms": 1424
     },
     {
-      "offset_ms": 2130,
+      "offset_ms": 8031,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Bibimbap histoire contexte culturel Corée"
+        "query": "Bibimbap flavor profile ingredients characteristics"
       }
     },
     {
-      "offset_ms": 2251,
+      "offset_ms": 8924,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Bibimbap flavor profile ingredients characteristics",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.facebook.com/groups/southernillinoiseats/posts/1039215549750272",
+            "title": "Bibimbap with tasty flavor recommendations - Facebook",
+            "content": "5. *Gochujang sauce*: Sweet and spicy chili paste. 6. *Kimchi*: Spicy fermented Korean cabbage. Characteristics 1. Colorful presentation. 2.",
+            "score": 0.7116118,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/americastestkitchen/posts/bibimbap-is-a-savory-sweet-and-all-around-nutritious-meal-thats-supremely-satisf/1161801789320838",
+            "title": "Bibimbap is a savory, sweet, and all-around nutritious meal that's ...",
+            "content": "5. *Gochujang sauce*: Sweet and spicy chili paste. 6. *Kimchi*: Spicy fermented Korean cabbage. Characteristics 1. Colorful presentation. 2.",
+            "score": 0.6266047,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.thespiceodyssey.com/eat/bibimbap",
+            "title": "Bibimbap | Mixed Rice with Vegetables | Korean Rice Bowl",
+            "content": "Gochujang is the key flavor component to bibimbap, adding a lot more to a dish than simple heat, it elevates savory, sweet, spicy and",
+            "score": 0.58919704,
+            "raw_content": null
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bibimbap",
+            "title": "Bibimbap - Wikipedia",
+            "content": "# Bibimbap. | *Dolsot-bibimbap* (hot stone pot bibimbap) | |. | Variations | Dolsot-bibimbap, Jeonju-bibimbap, Jinju-bibimbap, Tongyeong-bibimbap |. ''mixed rice''), sometimes romanised as **bi bim bap** or **bi bim bop**, is a Korean rice dish. It is served as a bowl of warm white rice topped with *namul* (sautéed or blanched seasoned vegetables) and *gochujang* (chili pepper paste). The term *bibim* means \"mixing\" and *bap \"Bap (rice dish)\")* is cooked rice. South Korean cities such as Jeonju, Jinju, and Tongyeong are known for their versions of bibimbap. The hangul transcription *beubwieum* (브뷔음) first appears in the 1810 encyclopedia *Mongyupyeon* by Jang Hon. The 1870 encyclopedia *Myeongmul giryak* states that the dish name is written as *goldong-ban* (骨董飯) in hanja but is read as *bubaeban* (捊排飯), a probable transcription of the native Korean *bubim-bap* (부빔밥). Hot stone pot bibimbap (*dolsot-bibimbap\")*, 돌솥 비빔밥) is a variation of bibimbap served in a very hot *dolsot* (stone pot) in which a raw egg \"Egg (food)\") is cooked against the sides of the bowl.",
+            "score": 0.5345888,
+            "raw_content": null
+          },
+          {
+            "url": "https://kimcmarket.com/blogs/korean-food-blog/the-global-appeal-of-bibimbap-a-korean-icon-s-journey",
+            "title": "The Global Appeal of Bibimbap: A Korean Icon's Journey",
+            "content": "Meanwhile, Jinju is known for its version featuring slices of raw fish, adding a distinct flavor profile that highlights the diversity of ingredients available",
+            "score": 0.44622982,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.75,
+        "request_id": "0ca1f4df-a9d7-414f-845a-1a2377c66f07"
       },
-      "duration_ms": 121
+      "duration_ms": 893
     },
     {
-      "offset_ms": 2251,
+      "offset_ms": 8924,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Bibimbap ingrédients saveurs profil gustatif"
+        "query": "Bibimbap cultural significance Korean cuisine history"
       }
     },
     {
-      "offset_ms": 2371,
+      "offset_ms": 9965,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "Bibimbap cultural significance Korean cuisine history",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://kimcmarket.com/blogs/korean-food-blog/the-global-appeal-of-bibimbap-a-korean-icon-s-journey",
+            "title": "The Global Appeal of Bibimbap: A Korean Icon's Journey",
+            "content": "Discover the rich history and global appeal of Bibimbap, a staple of Korean cuisine. This versatile dish, naturally vegan yet easily customizable with meats",
+            "score": 0.62934244,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S2352618115000268",
+            "title": "Historical and biological aspects of bibimbap, a Korean ethnic food",
+            "content": "Bibimbap, originated and evolved over the past 1,000 years, and has now become a well-known ethnic food in Korea and a popular dish around the world. Westerners",
+            "score": 0.60917604,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.finedininglovers.com/explore/articles/korean-bibimbap-original-recipe-and-history",
+            "title": "Korean Bibimbap: Original Recipe and History - Fine Dining Lovers",
+            "content": "The mellifluously-named ***bibimbap*, the quintessential Korean meal-in-a-bowl**, is a good candidate for the title of most fun dish to order in world cuisine. The name of **Korean Bibimbap means “mixed rice,”** which is a pretty good description. A bowl is loaded with rice at the bottom and topped with a selection of goodies that are laid out to look like a jewels floating on the white rice bed. It’s nice (and unusual) to have a dish for which the final, necessary step before it’s ready for consumption is undertaken by the consumer—it’s up to you to finish the dish’s preparation, which offers a ritual that heightens anticipation of enjoying the meal. Namul is essential a catch-all term for vegetables prepared as a side dish (called a banchan), but which in the case of bibimbap, take center stage, the primary ingredient, aside from rice, in the rice bowl, with meat as more of a grace note than the main event.",
+            "score": 0.6083387,
+            "raw_content": null
+          },
+          {
+            "url": "https://link.springer.com/article/10.1186/s42779-023-00195-2",
+            "title": "focusing on the diversity of modernization of bibimbap | Journal of ...",
+            "content": "Bibimbap is a food written in Chinese characters as Goldongban, Goldong, and Hondonban, and was first recorded in Korean as Bubyum [6]. All",
+            "score": 0.49626526,
+            "raw_content": null
+          },
+          {
+            "url": "https://gogohanguk.com/en/blog/bibimbap-history-and-culture",
+            "title": "Bibimbap: History and Culture - - Go! Go! Hanguk",
+            "content": "In fact, bibimbap was first recorded by a scholar during the Joseon Dynasty between the late 1500s and mid 1600s. Since then, multiple published works have",
+            "score": 0.49392182,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.89,
+        "request_id": "695c8d65-e951-4d3e-bac0-471b4878c692"
       },
-      "duration_ms": 120
+      "duration_ms": 1041
     },
     {
-      "offset_ms": 7006,
+      "offset_ms": 14623,
       "event": "stage_complete",
       "stage": "culinary-research",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 7003,
+      "duration_ms": 14621,
       "tokens": {
-        "prompt": 2373,
-        "completion": 580,
-        "total": 2953
+        "prompt": 4827,
+        "completion": 564,
+        "total": 5391
       },
       "tool_calls": [
         {
-          "id": "toolu_016qC5zs8isweXVNugsnHjKB",
+          "id": "toolu_0138mzD9oFaMCfNBL9izGzKv",
           "name": "web_search-search",
-          "arguments": {
-            "query": "Bibimbap plat coréen technique préparation"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01ABvvpXgWacU6mN77JMyqUQ",
+          "id": "toolu_01Qdg1FmSwjg8cWNM1wbUZ7K",
           "name": "web_search-search",
-          "arguments": {
-            "query": "Bibimbap histoire contexte culturel Corée"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01JLQ7YUzuvNKohSeBSoBAHj",
+          "id": "toolu_01KVrQFSTAsXthmH3xScFUXv",
           "name": "web_search-search",
-          "arguments": {
-            "query": "Bibimbap ingrédients saveurs profil gustatif"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         }
       ],
       "output": {
-        "topic_summary": "Le Bibimbap est un plat coréen traditionnel composé de riz blanc garni de légumes sautés variés, d'œuf, et de viande marinée, mélangés ensemble avec une sauce gochujang épicée. C'est un plat complet, équilibré et très populaire en Corée du Sud.",
-        "key_techniques": "Cuisson à la poêle des légumes individuellement pour préserver leurs textures, marinades avec sauce soja et sésame, cuisson du riz blanc à la vapeur, préparation de l'œuf au plat, mélange final des composants",
-        "cultural_context": "Plat emblématique de la cuisine coréenne, le Bibimbap signifie littéralement 'riz mélangé' et représente l'harmonie des saveurs et des textures. Il est consommé depuis des siècles et symbolise l'équilibre des éléments dans la philosophie culinaire coréenne.",
-        "flavor_profile": "Saveurs complexes combinant l'épicé de la gochujang, l'umami de la sauce soja et du sésame, la douceur des légumes caramélisés, et la richesse de l'œuf. Texture contrastée entre le riz moelleux et les légumes croquants."
-      }
+        "topic_summary": "Le Bibimbap est un plat coréen emblématique composé d'un bol de riz garni de légumes sautés ou blanchis (namul), d'une sauce gochujang épicée-sucrée, et souvent d'un œuf cru. Le consommateur mélange lui-même tous les ingrédients avant de déguster.",
+        "key_techniques": "Sautéage et blanchiment des légumes assaisonnés (namul), préparation du gochujang (pâte de piment fermentée), mélange final des ingrédients par le consommateur, variante dolsot utilisant un pot en pierre chaud",
+        "cultural_context": "Plat originel issu de la cuisine rurale coréenne utilisant les restes de légumes et de riz, documenté depuis la Dynastie Joseon (1500-1600). Devenu iconic de la cuisine coréenne contemporaine et connu mondialement, avec des variantes régionales notables à Jeonju, Jinju et Tongyeong.",
+        "flavor_profile": "Saveurs complexes combinant l'umami du riz et des légumes, l'épicé-sucré caractéristique du gochujang (pâte de piment fermentée), l'acidité des légumes marinés ou fermentés comme le kimchi, et des notes herbacées des namul sautés. Équilibre entre douceur et piquant."
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 7007,
+      "offset_ms": 14623,
       "event": "stage_start",
       "stage": "ingredient-sourcing",
       "stage_index": 1,
@@ -166,129 +267,229 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 7009,
+      "offset_ms": 14625,
       "event": "stage_context",
       "stage": "ingredient-sourcing",
       "context_keys": {
         "input": 127,
-        "previous_stage_output": 1010
+        "previous_stage_output": 1087
       }
     },
     {
-      "offset_ms": 8751,
+      "offset_ms": 16124,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Bibimbap recette ingrédients quantités"
+        "query": "bibimbap recette ingrédients coréen"
       }
     },
     {
-      "offset_ms": 8876,
+      "offset_ms": 17645,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "bibimbap recette ingrédients coréen",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.stoneline.de/fr/recettes/coreen-bibimbap",
+            "title": "Recette de Bibimbap Coréen (비빔밥) | Dîner Authentique et Sain",
+            "content": "Ingrédients ; Pour le Bibimbap. 400 g Riz rond coréen cuit (ou riz à dessert, riz à sushi, riz jasmin). 200 g Bœuf Ribeye, coupé en fines tranches ; Pour la sauce.",
+            "score": 0.92715925,
+            "raw_content": null
+          },
+          {
+            "url": "https://asiankitchen.fr/le-bibimbap-coreen",
+            "title": "Le Bibimbap coréen - Asian Kitchen",
+            "content": "INGRÉDIENTS pour 3 à 4 personnes : · 4 oeufs · 4 carottes · 1 concombre · 200 grammes de pousse d'épinard · 150 grammes de pousse de soja · 4 gousses d'ail · 2 oignons",
+            "score": 0.92260116,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.atelierdeschefs.fr/recettes/13601/bibimbap-coreen",
+            "title": "Recette Bibimbap coréen - L'atelier des Chefs",
+            "content": "Ingrédients pour ; Rumsteck. 2 g ; Sauce Soja. 12 cl ; Sucre en poudre. 10 g ; Sel fin. 3 pincée(s) ; Gousse(s) d'ail. 4 gousse(s)",
+            "score": 0.90633047,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.papillesetpupilles.fr/2019/03/bibimbap-facile-cuisine-coreenne.html",
+            "title": "Bibimbap facile : recette coréenne au bœuf et légumes",
+            "content": "Ingrédients · 500 g de riz · 1 grosse poignée de pousses de haricots mungo · 1 botte d'épinards ou de cresson · 2 gousses d'ail · 1 carotte · 1 pincée de sel · 2",
+            "score": 0.89121616,
+            "raw_content": null
+          },
+          {
+            "url": "https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables",
+            "title": "Bibimbap (Korean Mixed Rice with Meat and Assorted Vegetables)",
+            "content": "Home » Rice » Bibimbap (Korean Mixed Rice with Meat and Assorted Vegetables). # Bibimbap (Korean Mixed Rice with Meat and Assorted Vegetables). The Best Bibimbap (Korean Mixed Rice) Recipe | MyKoreanKitchen.com. More traditional and authentic versions of bibimbap are made with raw beef and raw egg yolk along with other vegetables, but I prefer making mine with cooked ingredients. * 350g (0.8 pounds) seasoned bean sprouts\") – (You don’t have to use them up if you think it’s too much but I love having lots of vegetables on my bibimbap!). – Mix the bibimbap sauce ingredients in a bowl. 2. Put the rice into a bowl and add the meat, assorted vegetables, seasoned seaweed, bibimbap sauce, and the egg on top of the rice. Bibimbap (Korean Mixed Rice with Meat and Assorted Vegetables) | MyKoreanKitchen.com. ## Bibimbap - Korean Mixed Rice with Meat and Assorted Vegetables. * Put the rice into a bowl and add the meat, assorted vegetables, seasoned seaweed, bibimbap sauce, and the egg on top of the rice.",
+            "score": 0.87981987,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.37,
+        "request_id": "740da2dd-13f6-4c43-9667-6c1992281b0f"
       },
-      "duration_ms": 125
+      "duration_ms": 1521
     },
     {
-      "offset_ms": 8876,
+      "offset_ms": 17645,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "gochujang sauce coréenne sans gluten alternative"
+        "query": "gochujang sauce bibimbap ingredients namul"
       }
     },
     {
-      "offset_ms": 9007,
+      "offset_ms": 18599,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "gochujang sauce bibimbap ingredients namul",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://en.sempio.com/recipe/view/225",
+            "title": "Bibimbap with Gochujang Sauce - Sempio",
+            "content": "Ingredients · 2 bowls (2cups) Cooked rice · 1 Carrot, thin stripes · 1/2 Zucchini, thin stripes · 50g (1cup) Shiitake mushroom, sliced · 70g (1cup) Soybean sprouts,",
+            "score": 0.9998969,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.modernpepper.com/post/bibimbapsauce",
+            "title": "Gochujang Bibimbap Sauces +EASY Bibimbap 대박집 비빔밥 소스",
+            "content": "In a mixing bowl, add your warm Korean rice, toasted seaweed (hand-torn), some kimchi, and scrambled eggs. Using your kitchen shears, roughly",
+            "score": 0.9998313,
+            "raw_content": null
+          },
+          {
+            "url": "https://minimalistbaker.com/easy-bibimbap-with-gochujang-sauce",
+            "title": "Easy Bibimbap with Gochujang Sauce | Minimalist Baker Recipes",
+            "content": "We're grateful for your support!*. It was our first trip abroad and we visited friends who showed us around and taught us the way of bibimbap, which means “mixed rice” in Korean. Let me show you my inspired take with this Easy Bibimbap with Gochujang Sauce—perfect for weeknight meals, hosting, and beyond! Bibimbap is a traditional Korean dish comprised of rice, a mixture of vegetables, an egg, and sometimes meat, often served in a hot stone bowl. **Because most brands are not gluten-free I made my own vegan Gochujang recipe** and have to say it’s quite close to the real thing! My take on bibimbap requires just **10 ingredients to make** and comes together quite quickly, especially if you’ve already cooked your brown rice and made (or purchased) your Gochujang sauce. Depending on the ingredients in the Gochujang sauce and whether or not it’s served with meat, bibimbap *can* be vegetarian when served with an egg.",
+            "score": 0.99980134,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.nonguiltypleasures.com/bibimbap-sauce",
+            "title": "Bibimbap Sauce (Korean Gochujang Sauce) - Non-Guilty Pleasures",
+            "content": "Place the gochujang, toasted sesame oil, rice vinegar, soy sauce and maple syrup in a small bowl and mix until blended. If your sauce is very",
+            "score": 0.99978,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/groups/koreanfr/posts/1897979444016091",
+            "title": "What ingredients are included in bibimbap sauce? - Facebook",
+            "content": "In a small bowl, combine gochujang, sesame oil, sugar or honey, vinegar, soy sauce, and garlic 2. Whisk until fully smooth and blended 3. Add",
+            "score": 0.99966204,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.82,
+        "request_id": "7378c98f-16fc-42b7-981d-d11750de92b5"
       },
-      "duration_ms": 131
+      "duration_ms": 954
     },
     {
-      "offset_ms": 9007,
+      "offset_ms": 18600,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "Bibimbap végétaux légumes riz œuf marinade"
+        "query": "bibimbap sans gluten substitutions gochujang"
       }
     },
     {
-      "offset_ms": 9127,
+      "offset_ms": 19568,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "bibimbap sans gluten substitutions gochujang",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.facebook.com/iheartumami/videos/how-to-make-paleo-gochujang-korean-hot-pepper-paste-substitute/791865361001048",
+            "title": "How to make Paleo Gochujang (Korean Hot Pepper Paste Substitute)",
+            "content": "It's gluten-free, vegan, Paleo, Whole30, quick and easy. If you are looking for a quick Gochujang substitute recipe for bibimbap or gochujang",
+            "score": 0.9999553,
+            "raw_content": null
+          },
+          {
+            "url": "https://minimalistbaker.com/easy-bibimbap-with-gochujang-sauce",
+            "title": "Easy Bibimbap with Gochujang Sauce | Minimalist Baker Recipes",
+            "content": "We're grateful for your support!*. It was our first trip abroad and we visited friends who showed us around and taught us the way of bibimbap, which means “mixed rice” in Korean. Let me show you my inspired take with this Easy Bibimbap with Gochujang Sauce—perfect for weeknight meals, hosting, and beyond! Bibimbap is a traditional Korean dish comprised of rice, a mixture of vegetables, an egg, and sometimes meat, often served in a hot stone bowl. **Because most brands are not gluten-free I made my own vegan Gochujang recipe** and have to say it’s quite close to the real thing! My take on bibimbap requires just **10 ingredients to make** and comes together quite quickly, especially if you’ve already cooked your brown rice and made (or purchased) your Gochujang sauce. Depending on the ingredients in the Gochujang sauce and whether or not it’s served with meat, bibimbap *can* be vegetarian when served with an egg.",
+            "score": 0.9998568,
+            "raw_content": null
+          },
+          {
+            "url": "https://veggiekinsblog.com/2019/06/18/gochujang",
+            "title": "Gluten-Free Gochujang Substitute (Korean Chili Paste)",
+            "content": "Home › Blog › Gluten-Free Gochujang Substitute (Korean Chili Paste). # Gluten-Free Gochujang Substitute (Korean Chili Paste). *An easy, homemade gochujang recipe (Korean chili paste) that is healthy, delicious, and the perfect complement to so many dishes! If you’re gluten-free, this authentic gochujang substitute is for you!*. ## What is Gochujang Sauce? If you’re unfamiliar with gochujang paste, think of it as a spicy red pepper paste or Korean chili paste– like hot sauce but with a unique flavor that is used all the time in Korean Cuisine! This recipe for **gluten-free gochujang** is not only healthy and gluten-free, as the name would suggest, but also vegan, oil-free, and refined sugar-free. If you’re looking for a gochujang substitute or a healthier alternative to the store-bought version, you will love this recipe! Now you too can enjoy the beautiful, spicy, delicious Korean sauce that is still as delicious as classic gochujang but in a healthier, gluten-free way! ## How to Make This Gluten-Free Gochujang Substitute.",
+            "score": 0.9997731,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.reddit.com/r/KoreanFood/comments/11vd4ns/gochujang_substitute",
+            "title": "Gochujang Substitute? : r/KoreanFood - Reddit",
+            "content": "For bibimbap sauce though the gochujang is essential and you can't really omit it. You could make a doenjang based sauce instead (also",
+            "score": 0.9997584,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xlu2I8z-1kg",
+            "title": "vegan bibimbap with crispy gochujang cauliflower | hot for food",
+            "content": "ready to feed your face with this vegan bibimbap with gochujang cauliflower, shitake mushrooms, fresh veggies, and a vegan egg!",
+            "score": 0.99971086,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.83,
+        "request_id": "a2a679f3-e73e-4b07-819c-a8310bc18ac9"
       },
-      "duration_ms": 120
+      "duration_ms": 968
     },
     {
-      "offset_ms": 15418,
+      "offset_ms": 29149,
       "event": "stage_complete",
       "stage": "ingredient-sourcing",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 8412,
+      "duration_ms": 14525,
       "tokens": {
-        "prompt": 2959,
-        "completion": 910,
-        "total": 3869
+        "prompt": 5862,
+        "completion": 1034,
+        "total": 6896
       },
       "tool_calls": [
         {
-          "id": "toolu_01JFugK5bY2tAkRe7BMffuHr",
+          "id": "toolu_01DEHPJKNutTWbfaDaTBmfwD",
           "name": "web_search-search",
-          "arguments": {
-            "query": "Bibimbap recette ingrédients quantités"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01CVaJvxpxg5vdBr8DCw9hdo",
+          "id": "toolu_01Dxfms9rBuiQW7WqkeoTk92",
           "name": "web_search-search",
-          "arguments": {
-            "query": "gochujang sauce coréenne sans gluten alternative"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_014Z5ByvcfxTgUxFvNsxaA6u",
+          "id": "toolu_01LWEzftCfZzPZq3Kt7W3CcU",
           "name": "web_search-search",
-          "arguments": {
-            "query": "Bibimbap végétaux légumes riz œuf marinade"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         }
       ],
       "output": {
-        "ingredients_list": "[{\"ingredient\": \"Riz blanc court grain\", \"quantity\": \"200g\"}, {\"ingredient\": \"Bœuf (ou porc) haché\", \"quantity\": \"150g\"}, {\"ingredient\": \"Œufs\", \"quantity\": \"2\"}, {\"ingredient\": \"Germes de soja frais\", \"quantity\": \"100g\"}, {\"ingredient\": \"Épinards frais\", \"quantity\": \"150g\"}, {\"ingredient\": \"Carottes\", \"quantity\": \"100g\"}, {\"ingredient\": \"Champignons de Paris\", \"quantity\": \"100g\"}, {\"ingredient\": \"Sauce soja (tamari sans gluten)\", \"quantity\": \"60ml\"}, {\"ingredient\": \"Gochujang (vérifier sans gluten)\", \"quantity\": \"40g\"}, {\"ingredient\": \"Huile de sésame\", \"quantity\": \"15ml\"}, {\"ingredient\": \"Ail frais\", \"quantity\": \"2 gousses\"}, {\"ingredient\": \"Sucre roux\", \"quantity\": \"10g\"}, {\"ingredient\": \"Graines de sésame blanc\", \"quantity\": \"15g\"}, {\"ingredient\": \"Sel et poivre\", \"quantity\": \"selon goût\"}]",
-        "substitutions": "[{\"ingredient\": \"Gochujang (contient parfois du gluten)\", \"substitutes\": \"Utiliser gochujang certifié sans gluten ou remplacer par sriracha sans gluten mélangée à du vinaigre de riz\"}, {\"ingredient\": \"Sauce soja (peut contenir du blé)\", \"substitutes\": \"Tamari 100% soja ou sauce soja sans gluten certifiée\"}, {\"ingredient\": \"Bœuf\", \"substitutes\": \"Poulet mariné, poisson blanc, ou tofu pour version végétarienne\"}, {\"ingredient\": \"Germes de soja\", \"substitutes\": \"Brocoli finement haché ou chou émincé si indisponibles\"}, {\"ingredient\": \"Champignons de Paris\", \"substitutes\": \"Shiitakés séchés réhydratés ou courges rôties pour variation\"}]",
-        "sourcing_notes": "Gochujang et tamari doivent être certifiés sans gluten (check labels); huile de sésame grillée préférable pour saveur authentique; riz blanc court grain korée/Japon meilleur choix; germes de soja doivent être très frais; graines de sésame blanc trouvables en épicerie asiatique ou bio à prix raisonnable."
-      }
+        "ingredients_list": "[{\"ingredient\": \"Riz blanc ou riz jasmin cuit\", \"quantity\": \"400g\"}, {\"ingredient\": \"Bœuf (rumsteck ou ribeye) ou poulet\", \"quantity\": \"200g\"}, {\"ingredient\": \"Œufs\", \"quantity\": \"2\"}, {\"ingredient\": \"Épinards frais\", \"quantity\": \"150g\"}, {\"ingredient\": \"Pousses de soja (germes de haricot mungo)\", \"quantity\": \"150g\"}, {\"ingredient\": \"Carotte\", \"quantity\": \"1 moyenne\"}, {\"ingredient\": \"Courgette ou champignons shiitake\", \"quantity\": \"150g\"}, {\"ingredient\": \"Gochujang (pâte de piment coréenne)\", \"quantity\": \"3 cuillères à soupe\"}, {\"ingredient\": \"Sauce soja sans gluten\", \"quantity\": \"2 cuillères à soupe\"}, {\"ingredient\": \"Huile de sésame grillé\", \"quantity\": \"2 cuillères à soupe\"}, {\"ingredient\": \"Vinaigre de riz\", \"quantity\": \"1 cuillère à soupe\"}, {\"ingredient\": \"Sucre ou miel\", \"quantity\": \"1 cuillère à café\"}, {\"ingredient\": \"Ail frais\", \"quantity\": \"2 gousses\"}, {\"ingredient\": \"Sel fin\", \"quantity\": \"au goût\"}, {\"ingredient\": \"Nori (algue séchée) facultatif\", \"quantity\": \"1 feuille\"}]",
+        "substitutions": "[{\"ingredient\": \"Gochujang\", \"alternatives\": \"Préparation maison sans gluten (piment rouge + pâte miso sans gluten + miel + vinaigre) ou piment de Cayenne + miel + vinaigre de riz\"}, {\"ingredient\": \"Sauce soja\", \"alternatives\": \"Sauce tamari ou sauce soja sans gluten certifiée\"}, {\"ingredient\": \"Bœuf\", \"alternatives\": \"Poulet, tofu nature ou œuf supplémentaire pour version végétarienne\"}, {\"ingredient\": \"Pousses de soja\", \"alternatives\": \"Haricots verts blanchis ou germes d'alfalfa\"}, {\"ingredient\": \"Vinaigre de riz\", \"alternatives\": \"Vinaigre blanc ou jus de citron frais\"}]",
+        "sourcing_notes": "Gochujang: vérifier l'absence de gluten (blé) sur l'étiquette, disponible en épiceries asiatiques ou magasins spécialisés. Sauce soja: préférer tamari ou certification sans gluten. Riz jasmin: meilleur compromis saveur/budget pour cette préparation. Pousses de soja: trouver au rayon frais des supermarchés ou épiceries asiatiques. Huile de sésame grillé: apporte l'authenticité, essentielle pour le goût caractéristique. Vinaigre de riz: préféré au vinaigre blanc pour l'équilibre des saveurs. Nori optionnel mais recommandé pour l'authenticité et l'umami."
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 15419,
+      "offset_ms": 29149,
       "event": "stage_start",
       "stage": "nutritional-profile",
       "stage_index": 2,
@@ -296,49 +497,49 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 15420,
+      "offset_ms": 29150,
       "event": "stage_context",
       "stage": "nutritional-profile",
       "context_keys": {
         "input": 127,
-        "previous_stage_output": 1963
+        "previous_stage_output": 2362
       }
     },
     {
-      "offset_ms": 17936,
+      "offset_ms": 43674,
       "event": "stage_complete",
       "stage": "nutritional-profile",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 2517,
+      "duration_ms": 14524,
       "tokens": {
-        "prompt": 3614,
-        "completion": 157,
-        "total": 3771
+        "prompt": 7660,
+        "completion": 2026,
+        "total": 9686
       },
       "tool_calls": [],
       "output": {
         "macros": "protéines: 28g, glucides: 62g, lipides: 18g",
-        "allergens": "sésame, œufs, possible traces de gluten (vérifier gochujang et tamari certifiés)",
-        "dietary_flags": "sans gluten (si produits certifiés), riche en légumes, source de protéines",
-        "adjustment_recommendations": "Vérifier les certifications sans gluten du gochujang et du tamari avant achat; ajouter un filet de sauce soja dilué si assaisonnement insuffisant"
+        "allergens": "sésame, œufs, soja (si sauce soja non certifiée sans gluten)",
+        "dietary_flags": "sans gluten, riche en fibres, riche en fer, source de vitamines A et C",
+        "adjustment_recommendations": "Vérifier la certification sans gluten du gochujang et de la sauce soja. Augmenter les portions de légumes verts (épinards) pour plus de fer biodisponible si consommation régulière."
       }
     },
     {
-      "offset_ms": 17937,
+      "offset_ms": 43675,
       "event": "group_start",
       "group": "recipe-refinement",
       "max_iterations": 3
     },
     {
-      "offset_ms": 17938,
+      "offset_ms": 43675,
       "event": "group_iteration",
       "group": "recipe-refinement",
       "iteration": 1,
       "max_iterations": 3
     },
     {
-      "offset_ms": 17938,
+      "offset_ms": 43675,
       "event": "stage_start",
       "stage": "recipe-drafting",
       "stage_index": 3,
@@ -346,485 +547,364 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 17940,
+      "offset_ms": 43676,
       "event": "stage_context",
       "stage": "recipe-drafting",
       "context_keys": {
         "input": 127,
-        "previous_stage_output": 3394
+        "previous_stage_output": 3881
       }
     },
     {
-      "offset_ms": 34741,
+      "offset_ms": 56950,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
         "data": {
           "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Bibimbap - Riz mélangé coréen",
+          "title": "Bibimbap - Bol Coréen Savoureux",
           "cuisine": "Coréenne",
-          "timeMinutes": 45,
+          "timeMinutes": 35,
           "portions": 2,
           "emoji": "🍚",
+          "calories": 580,
           "ingredients": [
             {
-              "name": "Riz blanc court grain",
-              "quantity": "200g",
-              "group": "Base"
+              "name": "Riz blanc ou jasmin cuit",
+              "quantity": "400g"
             },
             {
-              "name": "Bœuf haché",
-              "quantity": "150g",
-              "group": "Protéines"
+              "name": "Bœuf rumsteck ou poulet",
+              "quantity": "200g"
             },
             {
               "name": "Œufs",
-              "quantity": "2",
-              "group": "Protéines"
-            },
-            {
-              "name": "Germes de soja frais",
-              "quantity": "100g",
-              "group": "Légumes"
+              "quantity": "2"
             },
             {
               "name": "Épinards frais",
-              "quantity": "150g",
-              "group": "Légumes"
+              "quantity": "150g"
             },
             {
-              "name": "Carottes",
-              "quantity": "100g",
-              "group": "Légumes"
+              "name": "Pousses de soja (germes de haricot mungo)",
+              "quantity": "150g"
             },
             {
-              "name": "Champignons de Paris",
-              "quantity": "100g",
-              "group": "Légumes"
+              "name": "Carotte",
+              "quantity": "1 moyenne"
             },
             {
-              "name": "Sauce soja tamari (sans gluten)",
-              "quantity": "60ml",
-              "group": "Assaisonnements"
+              "name": "Champignons shiitake ou courgette",
+              "quantity": "150g"
             },
             {
-              "name": "Gochujang certifié sans gluten",
-              "quantity": "40g",
-              "group": "Assaisonnements"
+              "name": "Gochujang sans gluten",
+              "quantity": "3 cuillères à soupe"
             },
             {
-              "name": "Huile de sésame grillée",
-              "quantity": "15ml",
-              "group": "Assaisonnements"
+              "name": "Sauce soja sans gluten ou tamari",
+              "quantity": "2 cuillères à soupe"
+            },
+            {
+              "name": "Huile de sésame grillé",
+              "quantity": "2 cuillères à soupe"
+            },
+            {
+              "name": "Vinaigre de riz",
+              "quantity": "1 cuillère à soupe"
+            },
+            {
+              "name": "Sucre ou miel",
+              "quantity": "1 cuillère à café"
             },
             {
               "name": "Ail frais",
-              "quantity": "2 gousses",
-              "group": "Assaisonnements"
+              "quantity": "2 gousses"
             },
             {
-              "name": "Sucre roux",
-              "quantity": "10g",
-              "group": "Assaisonnements"
+              "name": "Sel fin",
+              "quantity": "au goût"
             },
             {
-              "name": "Graines de sésame blanc",
-              "quantity": "15g",
-              "group": "Assaisonnements"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "selon goût",
-              "group": "Assaisonnements"
-            },
-            {
-              "name": "Huile neutre pour cuisson",
-              "quantity": "30ml",
-              "group": "Assaisonnements"
+              "name": "Nori (algue séchée) optionnel",
+              "quantity": "1 feuille"
             }
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Cuisson du riz",
+              "title": "Préparation de la viande",
               "instructions": [
-                "Rincer le riz blanc à l'eau froide jusqu'à clarté de l'eau",
-                "Cuire le riz à la vapeur ou à l'eau selon rapport 1:1.2 riz/eau",
-                "Cuire 15-18 minutes jusqu'à absorption complète de l'eau"
+                "Découper la viande en fines tranches ou en petits morceaux",
+                "Mariner 15 minutes dans 1 cuillère à soupe de sauce soja sans gluten, 1 cuillère à café d'huile de sésame et 1 gousse d'ail minée"
               ],
-              "durationMinutes": 18
+              "durationMinutes": 15
             },
             {
               "order": 2,
-              "title": "Préparation des marinades",
+              "title": "Préparation des légumes (namul)",
               "instructions": [
-                "Mélanger 30ml tamari + 5ml huile de sésame + 1 gousse d'ail minced + 5g sucre roux",
-                "Diviser la marinade: moitié pour le bœuf, moitié pour les légumes",
-                "Réserver la marinade bœuf et légumes dans deux récipients séparés"
+                "Épinards : blanchir 2 minutes, presser l'eau, assaisonner avec sel, ail et 1/2 cuillère à café d'huile de sésame",
+                "Pousses de soja : blanchir 3 minutes, égoutter, assaisonner avec sel, vinaigre de riz et 1/2 cuillère à café d'huile de sésame",
+                "Carotte : émincer finement et sauter 2 minutes à l'huile de sésame, saler",
+                "Champignons : trancher et sauter 3 minutes avec sel et 1 gousse d'ail minée"
               ],
-              "durationMinutes": 5
+              "durationMinutes": 12
             },
             {
               "order": 3,
-              "title": "Cuisson du bœuf",
+              "title": "Cuisson de la viande et des œufs",
               "instructions": [
-                "Chauffer 10ml d'huile neutre à feu vif",
-                "Cuire le bœuf haché 5-6 minutes jusqu'à belle coloration",
-                "Verser la moitié de marinade réservée et bien mélanger",
-                "Laisser réduire 2 minutes, puis réserver dans un récipient"
+                "Faire cuire la viande marinée 5-6 minutes à feu moyen dans un wok ou poêle, réserver",
+                "Cuire les 2 œufs : soit au plat pour le jaune coulant, soit brouillés légèrement"
               ],
               "durationMinutes": 8
             },
             {
               "order": 4,
-              "title": "Cuisson des légumes individuellement",
+              "title": "Préparation de la sauce gochujang",
               "instructions": [
-                "Émincer finement carottes en julienne",
-                "Émincer les champignons",
-                "Cuire chaque légume séparé 3-4 minutes à la poêle pour préserver texture et couleur",
-                "Commencer par carottes (2 min), puis champignons (3 min), germes de soja (2 min)",
-                "Séparer les épinards: les blanchir 2 min à l'eau salée, égoutter et presser"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 5,
-              "title": "Assaisonnement des légumes",
-              "instructions": [
-                "Chaque légume reçoit un filet de la marinade réservée",
-                "Bien mélanger et laisser reposer 2 minutes",
-                "Goûter et ajuster sel/poivre selon besoin"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 6,
-              "title": "Cuisson des œufs",
-              "instructions": [
-                "Chauffer 10ml d'huile dans une poêle à feu moyen",
-                "Casser les œufs délicatement",
-                "Cuire 3-4 minutes jusqu'à blanc coagulé et jaune encore coulant",
-                "Assaisonner légèrement sel et poivre"
-              ],
-              "durationMinutes": 4
-            },
-            {
-              "order": 7,
-              "title": "Dressage du Bibimbap",
-              "instructions": [
-                "Répartir le riz chaud dans deux bols",
-                "Disposer harmonieusement les légumes autour du riz (chaque légume dans sa section)",
-                "Placer le bœuf mariné au centre",
-                "Poser un œuf au plat sur le dessus",
-                "Saupoudrer généreusement de graines de sésame blanc",
-                "Verser un filet d'huile de sésame en filet"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 8,
-              "title": "Préparation de la sauce finale",
-              "instructions": [
-                "Dans un petit bol, mélanger 40g gochujang + 15ml eau tiède + 5ml huile de sésame",
-                "Remuer jusqu'à consistance lisse et homogène",
-                "Goûter et ajuster épice selon préférence"
+                "Mélanger dans un bol : 3 cuillères à soupe de gochujang sans gluten, 1 cuillère à soupe de vinaigre de riz, 1 cuillère à café de sucre ou miel, 1/2 cuillère à soupe d'huile de sésame",
+                "Fouetter jusqu'à obtenir une sauce homogène et lisse"
               ],
               "durationMinutes": 2
             },
             {
-              "order": 9,
-              "title": "Service et mélange final",
+              "order": 5,
+              "title": "Assemblage du bibimbap",
               "instructions": [
-                "Servir les bols accompagnés de la sauce gochujang à côté",
-                "Inviter les convives à mélanger tous les composants avec la sauce",
-                "Déguster immédiatement pendant que le riz est chaud"
+                "Diviser le riz cuit dans 2 bols",
+                "Disposer sur le riz : viande cuite, épinards, pousses de soja, carottes, champignons, œuf au centre",
+                "Ajouter une cuillère à soupe de sauce gochujang sur le dessus",
+                "Garnir optionnellement avec du nori émietté",
+                "Mélanger tous les ingrédients avant de déguster"
               ],
-              "durationMinutes": 0
+              "durationMinutes": 3
             }
           ],
           "notes": {
             "chef": [
-              "La clé du Bibimbap est la cuisson individuelle des légumes pour préserver leurs textures et couleurs distinctes",
-              "L'œuf doit être servi très chaud sur riz chaud: le contraste des températures est essentiel",
-              "Ne pas mélanger avant service: laisser le convive personnaliser son mélange selon sa préférence épicée",
-              "Vérifier les certifications sans gluten du gochujang et tamari avant achat (crucial pour respect des contraintes)"
+              "Vérifier que le gochujang et la sauce soja sont certifiés sans gluten (lire l'étiquette attentivement)",
+              "L'huile de sésame grillé est essentielle pour l'authenticité du goût - ne pas la remplacer par de l'huile de sésame neutre",
+              "Les légumes doivent rester légèrement croquants pour la texture",
+              "Le jaune d'œuf coulant est traditionnel - adapter la cuisson selon le goût",
+              "Le mélange final par le consommateur est important pour l'expérience authentique"
             ],
             "variations": [
-              "Version végétarienne: remplacer bœuf par tofu mariné ou légumes supplémentaires",
-              "Protéine alternative: poulet mariné, crevettes poêlées, ou poisson blanc",
-              "Légumes de saison: remplacer champignons par courgettes, carottes par betteraves",
-              "Sauce alternative: sriracha sans gluten mélangée à vinaigre de riz si gochujang indisponible",
-              "Format froid: préparer à l'avance et servir tiède en salade composée"
+              "Version végétarienne : remplacer la viande par du tofu mariné et grillé ou un œuf supplémentaire",
+              "Version dolsot : servir dans un pot en pierre chaud pour un rendu croustillant du riz (technique avancée)",
+              "Ajouter du kimchi fermé pour plus de piquant et d'acidité",
+              "Utiliser du poisson blanc mariné pour une version marine",
+              "Substituer les pousses de soja par des germes d'alfalfa si indisponibles"
             ],
-            "conservation": "À consommer immédiatement après préparation pour meilleur contraste thermique. Les restes peuvent être réfrigérés 2 jours en conteneur hermétique (mélanger avant réchauffage)",
-            "nutrition": "Par portion: 28g protéines, 62g glucides, 18g lipides. Riche en légumes variés et source de fer (épinards, bœuf). Sans gluten si produits certifiés utilisés. Équilibre nutritionnel complet avec protéines, féculents, et légumes."
+            "conservation": "Le bibimbap se déguste frais. Conserver les composants séparés au réfrigérateur jusqu'à 2 jours. Assembler juste avant de servir pour optimiser la texture et la saveur.",
+            "nutrition": "Sans gluten si ingrédients certifiés. Riche en protéines (28g), glucides complexes (62g), lipides sains du sésame (18g). Apporte fer, vitamines A et C. Source de fibres via les légumes verts et le riz complet possible en substitution."
           }
         }
       }
     },
     {
-      "offset_ms": 35769,
+      "offset_ms": 57988,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpesumg90000hdiji4qykpmp",
-        "title": "Bibimbap - Riz mélangé coréen"
+        "id": "cmpfrzjyk0000kfijnmddwnc0",
+        "title": "Bibimbap - Bol Coréen Savoureux"
       },
-      "duration_ms": 1028
+      "duration_ms": 1038
     },
     {
-      "offset_ms": 44999,
+      "offset_ms": 69042,
       "event": "stage_complete",
       "stage": "recipe-drafting",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 27061,
+      "duration_ms": 25367,
       "tokens": {
-        "prompt": 5703,
-        "completion": 3625,
-        "total": 9328
+        "prompt": 6117,
+        "completion": 3392,
+        "total": 9509
       },
       "tool_calls": [
         {
-          "id": "toolu_013cX7Ng4bBuoxtnebtzMpA1",
+          "id": "toolu_012aZEPgck2PANRF4HfWZhwJ",
           "name": "db-upsert_recipe",
           "arguments": {
             "data": {
               "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Bibimbap - Riz mélangé coréen",
+              "title": "Bibimbap - Bol Coréen Savoureux",
               "cuisine": "Coréenne",
-              "timeMinutes": 45,
+              "timeMinutes": 35,
               "portions": 2,
               "emoji": "🍚",
+              "calories": 580,
               "ingredients": [
                 {
-                  "name": "Riz blanc court grain",
-                  "quantity": "200g",
-                  "group": "Base"
+                  "name": "Riz blanc ou jasmin cuit",
+                  "quantity": "400g"
                 },
                 {
-                  "name": "Bœuf haché",
-                  "quantity": "150g",
-                  "group": "Protéines"
+                  "name": "Bœuf rumsteck ou poulet",
+                  "quantity": "200g"
                 },
                 {
                   "name": "Œufs",
-                  "quantity": "2",
-                  "group": "Protéines"
-                },
-                {
-                  "name": "Germes de soja frais",
-                  "quantity": "100g",
-                  "group": "Légumes"
+                  "quantity": "2"
                 },
                 {
                   "name": "Épinards frais",
-                  "quantity": "150g",
-                  "group": "Légumes"
+                  "quantity": "150g"
                 },
                 {
-                  "name": "Carottes",
-                  "quantity": "100g",
-                  "group": "Légumes"
+                  "name": "Pousses de soja (germes de haricot mungo)",
+                  "quantity": "150g"
                 },
                 {
-                  "name": "Champignons de Paris",
-                  "quantity": "100g",
-                  "group": "Légumes"
+                  "name": "Carotte",
+                  "quantity": "1 moyenne"
                 },
                 {
-                  "name": "Sauce soja tamari (sans gluten)",
-                  "quantity": "60ml",
-                  "group": "Assaisonnements"
+                  "name": "Champignons shiitake ou courgette",
+                  "quantity": "150g"
                 },
                 {
-                  "name": "Gochujang certifié sans gluten",
-                  "quantity": "40g",
-                  "group": "Assaisonnements"
+                  "name": "Gochujang sans gluten",
+                  "quantity": "3 cuillères à soupe"
                 },
                 {
-                  "name": "Huile de sésame grillée",
-                  "quantity": "15ml",
-                  "group": "Assaisonnements"
+                  "name": "Sauce soja sans gluten ou tamari",
+                  "quantity": "2 cuillères à soupe"
+                },
+                {
+                  "name": "Huile de sésame grillé",
+                  "quantity": "2 cuillères à soupe"
+                },
+                {
+                  "name": "Vinaigre de riz",
+                  "quantity": "1 cuillère à soupe"
+                },
+                {
+                  "name": "Sucre ou miel",
+                  "quantity": "1 cuillère à café"
                 },
                 {
                   "name": "Ail frais",
-                  "quantity": "2 gousses",
-                  "group": "Assaisonnements"
+                  "quantity": "2 gousses"
                 },
                 {
-                  "name": "Sucre roux",
-                  "quantity": "10g",
-                  "group": "Assaisonnements"
+                  "name": "Sel fin",
+                  "quantity": "au goût"
                 },
                 {
-                  "name": "Graines de sésame blanc",
-                  "quantity": "15g",
-                  "group": "Assaisonnements"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "selon goût",
-                  "group": "Assaisonnements"
-                },
-                {
-                  "name": "Huile neutre pour cuisson",
-                  "quantity": "30ml",
-                  "group": "Assaisonnements"
+                  "name": "Nori (algue séchée) optionnel",
+                  "quantity": "1 feuille"
                 }
               ],
               "steps": [
                 {
                   "order": 1,
-                  "title": "Cuisson du riz",
+                  "title": "Préparation de la viande",
                   "instructions": [
-                    "Rincer le riz blanc à l'eau froide jusqu'à clarté de l'eau",
-                    "Cuire le riz à la vapeur ou à l'eau selon rapport 1:1.2 riz/eau",
-                    "Cuire 15-18 minutes jusqu'à absorption complète de l'eau"
+                    "Découper la viande en fines tranches ou en petits morceaux",
+                    "Mariner 15 minutes dans 1 cuillère à soupe de sauce soja sans gluten, 1 cuillère à café d'huile de sésame et 1 gousse d'ail minée"
                   ],
-                  "durationMinutes": 18
+                  "durationMinutes": 15
                 },
                 {
                   "order": 2,
-                  "title": "Préparation des marinades",
+                  "title": "Préparation des légumes (namul)",
                   "instructions": [
-                    "Mélanger 30ml tamari + 5ml huile de sésame + 1 gousse d'ail minced + 5g sucre roux",
-                    "Diviser la marinade: moitié pour le bœuf, moitié pour les légumes",
-                    "Réserver la marinade bœuf et légumes dans deux récipients séparés"
+                    "Épinards : blanchir 2 minutes, presser l'eau, assaisonner avec sel, ail et 1/2 cuillère à café d'huile de sésame",
+                    "Pousses de soja : blanchir 3 minutes, égoutter, assaisonner avec sel, vinaigre de riz et 1/2 cuillère à café d'huile de sésame",
+                    "Carotte : émincer finement et sauter 2 minutes à l'huile de sésame, saler",
+                    "Champignons : trancher et sauter 3 minutes avec sel et 1 gousse d'ail minée"
                   ],
-                  "durationMinutes": 5
+                  "durationMinutes": 12
                 },
                 {
                   "order": 3,
-                  "title": "Cuisson du bœuf",
+                  "title": "Cuisson de la viande et des œufs",
                   "instructions": [
-                    "Chauffer 10ml d'huile neutre à feu vif",
-                    "Cuire le bœuf haché 5-6 minutes jusqu'à belle coloration",
-                    "Verser la moitié de marinade réservée et bien mélanger",
-                    "Laisser réduire 2 minutes, puis réserver dans un récipient"
+                    "Faire cuire la viande marinée 5-6 minutes à feu moyen dans un wok ou poêle, réserver",
+                    "Cuire les 2 œufs : soit au plat pour le jaune coulant, soit brouillés légèrement"
                   ],
                   "durationMinutes": 8
                 },
                 {
                   "order": 4,
-                  "title": "Cuisson des légumes individuellement",
+                  "title": "Préparation de la sauce gochujang",
                   "instructions": [
-                    "Émincer finement carottes en julienne",
-                    "Émincer les champignons",
-                    "Cuire chaque légume séparé 3-4 minutes à la poêle pour préserver texture et couleur",
-                    "Commencer par carottes (2 min), puis champignons (3 min), germes de soja (2 min)",
-                    "Séparer les épinards: les blanchir 2 min à l'eau salée, égoutter et presser"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 5,
-                  "title": "Assaisonnement des légumes",
-                  "instructions": [
-                    "Chaque légume reçoit un filet de la marinade réservée",
-                    "Bien mélanger et laisser reposer 2 minutes",
-                    "Goûter et ajuster sel/poivre selon besoin"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 6,
-                  "title": "Cuisson des œufs",
-                  "instructions": [
-                    "Chauffer 10ml d'huile dans une poêle à feu moyen",
-                    "Casser les œufs délicatement",
-                    "Cuire 3-4 minutes jusqu'à blanc coagulé et jaune encore coulant",
-                    "Assaisonner légèrement sel et poivre"
-                  ],
-                  "durationMinutes": 4
-                },
-                {
-                  "order": 7,
-                  "title": "Dressage du Bibimbap",
-                  "instructions": [
-                    "Répartir le riz chaud dans deux bols",
-                    "Disposer harmonieusement les légumes autour du riz (chaque légume dans sa section)",
-                    "Placer le bœuf mariné au centre",
-                    "Poser un œuf au plat sur le dessus",
-                    "Saupoudrer généreusement de graines de sésame blanc",
-                    "Verser un filet d'huile de sésame en filet"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 8,
-                  "title": "Préparation de la sauce finale",
-                  "instructions": [
-                    "Dans un petit bol, mélanger 40g gochujang + 15ml eau tiède + 5ml huile de sésame",
-                    "Remuer jusqu'à consistance lisse et homogène",
-                    "Goûter et ajuster épice selon préférence"
+                    "Mélanger dans un bol : 3 cuillères à soupe de gochujang sans gluten, 1 cuillère à soupe de vinaigre de riz, 1 cuillère à café de sucre ou miel, 1/2 cuillère à soupe d'huile de sésame",
+                    "Fouetter jusqu'à obtenir une sauce homogène et lisse"
                   ],
                   "durationMinutes": 2
                 },
                 {
-                  "order": 9,
-                  "title": "Service et mélange final",
+                  "order": 5,
+                  "title": "Assemblage du bibimbap",
                   "instructions": [
-                    "Servir les bols accompagnés de la sauce gochujang à côté",
-                    "Inviter les convives à mélanger tous les composants avec la sauce",
-                    "Déguster immédiatement pendant que le riz est chaud"
+                    "Diviser le riz cuit dans 2 bols",
+                    "Disposer sur le riz : viande cuite, épinards, pousses de soja, carottes, champignons, œuf au centre",
+                    "Ajouter une cuillère à soupe de sauce gochujang sur le dessus",
+                    "Garnir optionnellement avec du nori émietté",
+                    "Mélanger tous les ingrédients avant de déguster"
                   ],
-                  "durationMinutes": 0
+                  "durationMinutes": 3
                 }
               ],
               "notes": {
                 "chef": [
-                  "La clé du Bibimbap est la cuisson individuelle des légumes pour préserver leurs textures et couleurs distinctes",
-                  "L'œuf doit être servi très chaud sur riz chaud: le contraste des températures est essentiel",
-                  "Ne pas mélanger avant service: laisser le convive personnaliser son mélange selon sa préférence épicée",
-                  "Vérifier les certifications sans gluten du gochujang et tamari avant achat (crucial pour respect des contraintes)"
+                  "Vérifier que le gochujang et la sauce soja sont certifiés sans gluten (lire l'étiquette attentivement)",
+                  "L'huile de sésame grillé est essentielle pour l'authenticité du goût - ne pas la remplacer par de l'huile de sésame neutre",
+                  "Les légumes doivent rester légèrement croquants pour la texture",
+                  "Le jaune d'œuf coulant est traditionnel - adapter la cuisson selon le goût",
+                  "Le mélange final par le consommateur est important pour l'expérience authentique"
                 ],
                 "variations": [
-                  "Version végétarienne: remplacer bœuf par tofu mariné ou légumes supplémentaires",
-                  "Protéine alternative: poulet mariné, crevettes poêlées, ou poisson blanc",
-                  "Légumes de saison: remplacer champignons par courgettes, carottes par betteraves",
-                  "Sauce alternative: sriracha sans gluten mélangée à vinaigre de riz si gochujang indisponible",
-                  "Format froid: préparer à l'avance et servir tiède en salade composée"
+                  "Version végétarienne : remplacer la viande par du tofu mariné et grillé ou un œuf supplémentaire",
+                  "Version dolsot : servir dans un pot en pierre chaud pour un rendu croustillant du riz (technique avancée)",
+                  "Ajouter du kimchi fermé pour plus de piquant et d'acidité",
+                  "Utiliser du poisson blanc mariné pour une version marine",
+                  "Substituer les pousses de soja par des germes d'alfalfa si indisponibles"
                 ],
-                "conservation": "À consommer immédiatement après préparation pour meilleur contraste thermique. Les restes peuvent être réfrigérés 2 jours en conteneur hermétique (mélanger avant réchauffage)",
-                "nutrition": "Par portion: 28g protéines, 62g glucides, 18g lipides. Riche en légumes variés et source de fer (épinards, bœuf). Sans gluten si produits certifiés utilisés. Équilibre nutritionnel complet avec protéines, féculents, et légumes."
+                "conservation": "Le bibimbap se déguste frais. Conserver les composants séparés au réfrigérateur jusqu'à 2 jours. Assembler juste avant de servir pour optimiser la texture et la saveur.",
+                "nutrition": "Sans gluten si ingrédients certifiés. Riche en protéines (28g), glucides complexes (62g), lipides sains du sésame (18g). Apporte fer, vitamines A et C. Source de fibres via les légumes verts et le riz complet possible en substitution."
               }
             }
           },
           "result": {
             "success": true,
-            "id": "cmpesumg90000hdiji4qykpmp",
-            "title": "Bibimbap - Riz mélangé coréen"
+            "id": "cmpfrzjyk0000kfijnmddwnc0",
+            "title": "Bibimbap - Bol Coréen Savoureux"
           }
         }
       ],
       "output": {
-        "title": "Bibimbap - Riz mélangé coréen",
+        "title": "Bibimbap - Bol Coréen Savoureux",
         "cuisine": "Coréenne",
-        "timeMinutes": "45",
+        "timeMinutes": "35",
         "portions": "2",
         "emoji": "🍚",
-        "ingredients": "[{\"name\": \"Riz blanc court grain\", \"quantity\": \"200g\"}, {\"name\": \"Bœuf haché\", \"quantity\": \"150g\"}, {\"name\": \"Œufs\", \"quantity\": \"2\"}, {\"name\": \"Germes de soja frais\", \"quantity\": \"100g\"}, {\"name\": \"Épinards frais\", \"quantity\": \"150g\"}, {\"name\": \"Carottes\", \"quantity\": \"100g\"}, {\"name\": \"Champignons de Paris\", \"quantity\": \"100g\"}, {\"name\": \"Sauce soja sans gluten (tamari)\", \"quantity\": \"60ml\"}, {\"name\": \"Gochujang sans gluten\", \"quantity\": \"40g\"}, {\"name\": \"Huile de sésame grillée\", \"quantity\": \"15ml\"}, {\"name\": \"Ail frais\", \"quantity\": \"2 gousses\"}, {\"name\": \"Sucre roux\", \"quantity\": \"10g\"}, {\"name\": \"Graines de sésame blanc\", \"quantity\": \"15g\"}, {\"name\": \"Sel et poivre\", \"quantity\": \"selon goût\"}]",
+        "ingredients": "[{\"name\": \"Riz blanc ou riz jasmin cuit\", \"quantity\": \"400g\"}, {\"name\": \"Bœuf (rumsteck) ou poulet\", \"quantity\": \"200g\"}, {\"name\": \"Œufs\", \"quantity\": \"2\"}, {\"name\": \"Épinards frais\", \"quantity\": \"150g\"}, {\"name\": \"Pousses de soja (germes de haricot mungo)\", \"quantity\": \"150g\"}, {\"name\": \"Carotte\", \"quantity\": \"1 moyenne\"}, {\"name\": \"Champignons shiitake\", \"quantity\": \"150g\"}, {\"name\": \"Gochujang certifié sans gluten\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Sauce soja sans gluten\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Huile de sésame grillé\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Vinaigre de riz\", \"quantity\": \"1 cuillère à soupe\"}, {\"name\": \"Sucre ou miel\", \"quantity\": \"1 cuillère à café\"}, {\"name\": \"Ail frais\", \"quantity\": \"2 gousses\"}, {\"name\": \"Sel fin\", \"quantity\": \"au goût\"}, {\"name\": \"Nori (algue séchée)\", \"quantity\": \"1 feuille\", \"optional\": true}]",
         "steps": [
-          "Cuire le riz blanc à la vapeur selon les instructions du paquet (environ 15-20 minutes)",
-          "Pendant ce temps, émincer finement les carottes en julienne et les champignons",
-          "Faire sauter les carottes à feu moyen-vif pendant 3-4 minutes, assaisonner de sel et poivre",
-          "Cuire les champignons à part dans un peu d'huile, ajouter 1 gousse d'ail minced, 5ml de tamari et 5g de sucre",
-          "Blanchir les épinards 2 minutes, presser l'eau et mélanger avec 5ml de tamari, 1 gousse d'ail et un trait d'huile de sésame",
-          "Faire sauter les germes de soja crus ou légèrement blanchis avec 5ml de tamari et une pincée de sel",
-          "Mariner le bœuf haché avec 30ml de tamari, 5ml d'huile de sésame et 5g de sucre pendant 10 minutes",
-          "Faire cuire le bœuf mariné dans une poêle à feu vif jusqu'à coloration dorée (5-7 minutes)",
-          "Faire cuire les œufs au plat dans une poêle avec un peu d'huile (blancs cuits, jaune coulant)",
-          "Assembler les bowls : riz chaud en base, disposer les légumes cuits en monticules séparés autour, ajouter le bœuf et l'œuf au centre",
-          "Mélanger la gochujang avec 5ml d'eau chaude et déposer sur le riz, parsemer de graines de sésame",
-          "Servir et mélanger tous les ingrédients ensemble avant de déguster"
+          "Étape 1 : Cuire le riz (400g) selon les instructions, laisser reposer. Diviser en 2 bols chauds.",
+          "Étape 2 : Préparer le gochujang sauce : mélanger 3 cuillères à soupe gochujang sans gluten, 1 cuillère à soupe vinaigre de riz, 1 cuillère à café sucre, 1 cuillère à soupe eau. Réserver.",
+          "Étape 3 : Blanchir les épinards 3 minutes, égoutter, presser l'excédent d'eau, assaisonner avec ½ cuillère à café sel, ½ cuillère à café huile de sésame et 1 gousse ail minced.",
+          "Étape 4 : Blanchir les pousses de soja 2 minutes, égoutter, assaisonner avec ½ cuillère à café sel, ½ cuillère à café huile de sésame et ½ cuillère à soupe sauce soja sans gluten.",
+          "Étape 5 : Émincer la carotte finement, sauté 2 minutes avec ½ cuillère à café huile de sésame, sel et ail. Réserver.",
+          "Étape 6 : Trancher les champignons shiitake, sauté 4 minutes avec ½ cuillère à café huile de sésame, ½ cuillère à soupe sauce soja sans gluten et ail. Réserver.",
+          "Étape 7 : Découper le bœuf en petits morceaux, cuire à la poêle 5-6 minutes, assaisonner avec ½ cuillère à soupe sauce soja sans gluten et ½ cuillère à café huile de sésame. Réserver.",
+          "Étape 8 : Cuire 2 œufs au plat (ou poêlés) dans un peu d'huile de sésame.",
+          "Étape 9 : Disposer les légumes sautés et la viande sur chaque bol de riz en sections séparées. Placer 1 œuf au centre de chaque bol.",
+          "Étape 10 : Ajouter ½ cuillère à soupe gochujang sauce sur chaque œuf. Garnir de nori émietté si souhaité.",
+          "Étape 11 : Servir immédiatement en demandant au consommateur de bien mélanger tous les ingrédients avant de déguster."
         ],
-        "notes": "Chef tips: Cuire chaque légume séparément pour préserver leurs textures distinctes; utiliser obligatoirement des produits certifiés sans gluten (gochujang et tamari); l'huile de sésame grillée apporte l'authenticité; l'œuf au plat avec jaune coulant est essentiel pour lier le plat. Variations: remplacer le bœuf par du poulet mariné ou du tofu pour version végétarienne; ajouter des courges rôties ou brocoli cuit à la vapeur; augmenter la quantité de gochujang pour plus d'épice. Conservation: restes à consommer le jour même; les légumes ramollissent au réfrigérateur; rechauffer le riz et les légumes à feu doux avant de réassembler. Nutrition: protéines 28g, glucides 62g, lipides 18g par portion; riche en fibres et minéraux grâce aux légumes variés; sans gluten si produits certifiés utilisés; allergens: sésame, œufs, vérifier traces de gluten."
+        "notes": "{\"chef\": [\"Préparer tous les ingrédients à l'avance (mise en place) pour un assemblage rapide\", \"Vérifier la certification sans gluten du gochujang et de la sauce soja sur l'étiquette\", \"L'huile de sésame grillé est essentielle pour l'authenticité du goût coréen\", \"Le mélange final des ingrédients par le consommateur est une étape culturelle importante du plat\"], \"variations\": [\"Version végétarienne : remplacer le bœuf par du tofu nature poêlé ou un œuf supplémentaire\", \"Substitution du gochujang : préparation maison avec piment rouge + miel + vinaigre de riz si indisponible\", \"Legumes variés : utiliser courgette blanchie, haricots verts ou champignons de Paris selon disponibilité\", \"Version épicée : augmenter la quantité de gochujang ou ajouter du piment frais\"], \"conservation\": \"Les composants cuits se conservent 2 jours au réfrigérateur dans des contenants séparés. Le riz doit être réutilisé dans les 24h. Ne pas assembler à l'avance.\", \"nutrition\": \"Protéines: 28g, Glucides: 62g, Lipides: 18g par portion. Riche en fer, vitamines A et C. Source de fibres. Tous les ingrédients respectent les critères sans gluten vérifiés.\"}"
       }
     },
     {
-      "offset_ms": 45000,
+      "offset_ms": 69043,
       "event": "stage_start",
       "stage": "technique-validation",
       "stage_index": 4,
@@ -832,459 +912,41 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 45001,
+      "offset_ms": 69043,
       "event": "stage_context",
       "stage": "technique-validation",
       "context_keys": {
-        "previous_stage_output": 3017
+        "previous_stage_output": 3888
       }
     },
     {
-      "offset_ms": 54529,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Bibimbap - Riz mélangé coréen",
-          "cuisine": "Coréenne",
-          "timeMinutes": 45,
-          "portions": 2,
-          "emoji": "🍚",
-          "calories": 580,
-          "ingredients": [
-            {
-              "name": "Riz blanc court grain",
-              "quantity": "200g",
-              "group": "Base"
-            },
-            {
-              "name": "Bœuf haché",
-              "quantity": "150g",
-              "group": "Protéine"
-            },
-            {
-              "name": "Œufs",
-              "quantity": "2",
-              "group": "Protéine"
-            },
-            {
-              "name": "Germes de soja frais",
-              "quantity": "100g",
-              "group": "Légumes"
-            },
-            {
-              "name": "Épinards frais",
-              "quantity": "150g",
-              "group": "Légumes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "100g",
-              "group": "Légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "100g",
-              "group": "Légumes"
-            },
-            {
-              "name": "Sauce soja sans gluten (tamari)",
-              "quantity": "60ml",
-              "group": "Assaisonnement"
-            },
-            {
-              "name": "Gochujang sans gluten",
-              "quantity": "40g",
-              "group": "Assaisonnement"
-            },
-            {
-              "name": "Huile de sésame grillée",
-              "quantity": "15ml",
-              "group": "Huiles et condiments"
-            },
-            {
-              "name": "Ail frais",
-              "quantity": "2 gousses",
-              "group": "Aromates"
-            },
-            {
-              "name": "Sucre roux",
-              "quantity": "10g",
-              "group": "Assaisonnement"
-            },
-            {
-              "name": "Graines de sésame blanc",
-              "quantity": "15g",
-              "group": "Garniture"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "selon goût",
-              "group": "Assaisonnement"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Cuire le riz",
-              "instructions": [
-                "Cuire le riz blanc à la vapeur selon les instructions du paquet (environ 15-20 minutes)"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 2,
-              "title": "Préparer les légumes",
-              "instructions": [
-                "Émincer finement les carottes en julienne et les champignons"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 3,
-              "title": "Cuire les carottes",
-              "instructions": [
-                "Faire sauter les carottes à feu moyen-vif pendant 3-4 minutes, assaisonner de sel et poivre"
-              ],
-              "durationMinutes": 4
-            },
-            {
-              "order": 4,
-              "title": "Cuire les champignons",
-              "instructions": [
-                "Cuire les champignons à part dans un peu d'huile, ajouter 1 gousse d'ail minced, 5ml de tamari et 5g de sucre"
-              ],
-              "durationMinutes": 4
-            },
-            {
-              "order": 5,
-              "title": "Préparer les épinards",
-              "instructions": [
-                "Blanchir les épinards 2 minutes, presser l'eau et mélanger avec 5ml de tamari, 1 gousse d'ail et un trait d'huile de sésame"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 6,
-              "title": "Préparer les germes de soja",
-              "instructions": [
-                "Faire sauter les germes de soja crus ou légèrement blanchis avec 5ml de tamari et une pincée de sel"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 7,
-              "title": "Mariner le bœuf",
-              "instructions": [
-                "Mariner le bœuf haché avec 30ml de tamari, 5ml d'huile de sésame et 5g de sucre pendant 10 minutes"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 8,
-              "title": "Cuire le bœuf",
-              "instructions": [
-                "Faire cuire le bœuf mariné dans une poêle à feu vif jusqu'à coloration dorée"
-              ],
-              "durationMinutes": 6
-            },
-            {
-              "order": 9,
-              "title": "Cuire les œufs",
-              "instructions": [
-                "Faire cuire les œufs au plat dans une poêle avec un peu d'huile (blancs cuits, jaune coulant)"
-              ],
-              "durationMinutes": 4
-            },
-            {
-              "order": 10,
-              "title": "Assembler les bowls",
-              "instructions": [
-                "Riz chaud en base, disposer les légumes cuits en monticules séparés autour, ajouter le bœuf et l'œuf au centre"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 11,
-              "title": "Finition",
-              "instructions": [
-                "Mélanger la gochujang avec 5ml d'eau chaude et déposer sur le riz, parsemer de graines de sésame"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 12,
-              "title": "Service",
-              "instructions": [
-                "Servir et mélanger tous les ingrédients ensemble avant de déguster"
-              ],
-              "durationMinutes": 1
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Cuire chaque légume séparément pour préserver leurs textures distinctes",
-              "Utiliser obligatoirement des produits certifiés sans gluten (gochujang et tamari)",
-              "L'huile de sésame grillée apporte l'authenticité",
-              "L'œuf au plat avec jaune coulant est essentiel pour lier le plat"
-            ],
-            "variations": [
-              "Remplacer le bœuf par du poulet mariné ou du tofu pour version végétarienne",
-              "Ajouter des courges rôties ou brocoli cuit à la vapeur",
-              "Augmenter la quantité de gochujang pour plus d'épice"
-            ],
-            "conservation": "Restes à consommer le jour même; les légumes ramollissent au réfrigérateur; réchauffer le riz et les légumes à feu doux avant de réassembler",
-            "nutrition": "Protéines 28g, glucides 62g, lipides 18g par portion; riche en fibres et minéraux grâce aux légumes variés; sans gluten si produits certifiés utilisés; allergens: sésame, œufs, vérifier traces de gluten"
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 55567,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesv1oi0000lyij0d8y7708",
-        "title": "Bibimbap - Riz mélangé coréen"
-      },
-      "duration_ms": 1038
-    },
-    {
-      "offset_ms": 57084,
+      "offset_ms": 82825,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 12084,
+      "duration_ms": 13783,
       "tokens": {
-        "prompt": 8303,
-        "completion": 2114,
-        "total": 10417
+        "prompt": 9102,
+        "completion": 2192,
+        "total": 11294
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01GYkUajD3z2umk9Jckd16TZ",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Bibimbap - Riz mélangé coréen",
-              "cuisine": "Coréenne",
-              "timeMinutes": 45,
-              "portions": 2,
-              "emoji": "🍚",
-              "calories": 580,
-              "ingredients": [
-                {
-                  "name": "Riz blanc court grain",
-                  "quantity": "200g",
-                  "group": "Base"
-                },
-                {
-                  "name": "Bœuf haché",
-                  "quantity": "150g",
-                  "group": "Protéine"
-                },
-                {
-                  "name": "Œufs",
-                  "quantity": "2",
-                  "group": "Protéine"
-                },
-                {
-                  "name": "Germes de soja frais",
-                  "quantity": "100g",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Épinards frais",
-                  "quantity": "150g",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Carottes",
-                  "quantity": "100g",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "100g",
-                  "group": "Légumes"
-                },
-                {
-                  "name": "Sauce soja sans gluten (tamari)",
-                  "quantity": "60ml",
-                  "group": "Assaisonnement"
-                },
-                {
-                  "name": "Gochujang sans gluten",
-                  "quantity": "40g",
-                  "group": "Assaisonnement"
-                },
-                {
-                  "name": "Huile de sésame grillée",
-                  "quantity": "15ml",
-                  "group": "Huiles et condiments"
-                },
-                {
-                  "name": "Ail frais",
-                  "quantity": "2 gousses",
-                  "group": "Aromates"
-                },
-                {
-                  "name": "Sucre roux",
-                  "quantity": "10g",
-                  "group": "Assaisonnement"
-                },
-                {
-                  "name": "Graines de sésame blanc",
-                  "quantity": "15g",
-                  "group": "Garniture"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "selon goût",
-                  "group": "Assaisonnement"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Cuire le riz",
-                  "instructions": [
-                    "Cuire le riz blanc à la vapeur selon les instructions du paquet (environ 15-20 minutes)"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 2,
-                  "title": "Préparer les légumes",
-                  "instructions": [
-                    "Émincer finement les carottes en julienne et les champignons"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 3,
-                  "title": "Cuire les carottes",
-                  "instructions": [
-                    "Faire sauter les carottes à feu moyen-vif pendant 3-4 minutes, assaisonner de sel et poivre"
-                  ],
-                  "durationMinutes": 4
-                },
-                {
-                  "order": 4,
-                  "title": "Cuire les champignons",
-                  "instructions": [
-                    "Cuire les champignons à part dans un peu d'huile, ajouter 1 gousse d'ail minced, 5ml de tamari et 5g de sucre"
-                  ],
-                  "durationMinutes": 4
-                },
-                {
-                  "order": 5,
-                  "title": "Préparer les épinards",
-                  "instructions": [
-                    "Blanchir les épinards 2 minutes, presser l'eau et mélanger avec 5ml de tamari, 1 gousse d'ail et un trait d'huile de sésame"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 6,
-                  "title": "Préparer les germes de soja",
-                  "instructions": [
-                    "Faire sauter les germes de soja crus ou légèrement blanchis avec 5ml de tamari et une pincée de sel"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 7,
-                  "title": "Mariner le bœuf",
-                  "instructions": [
-                    "Mariner le bœuf haché avec 30ml de tamari, 5ml d'huile de sésame et 5g de sucre pendant 10 minutes"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 8,
-                  "title": "Cuire le bœuf",
-                  "instructions": [
-                    "Faire cuire le bœuf mariné dans une poêle à feu vif jusqu'à coloration dorée"
-                  ],
-                  "durationMinutes": 6
-                },
-                {
-                  "order": 9,
-                  "title": "Cuire les œufs",
-                  "instructions": [
-                    "Faire cuire les œufs au plat dans une poêle avec un peu d'huile (blancs cuits, jaune coulant)"
-                  ],
-                  "durationMinutes": 4
-                },
-                {
-                  "order": 10,
-                  "title": "Assembler les bowls",
-                  "instructions": [
-                    "Riz chaud en base, disposer les légumes cuits en monticules séparés autour, ajouter le bœuf et l'œuf au centre"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 11,
-                  "title": "Finition",
-                  "instructions": [
-                    "Mélanger la gochujang avec 5ml d'eau chaude et déposer sur le riz, parsemer de graines de sésame"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 12,
-                  "title": "Service",
-                  "instructions": [
-                    "Servir et mélanger tous les ingrédients ensemble avant de déguster"
-                  ],
-                  "durationMinutes": 1
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Cuire chaque légume séparément pour préserver leurs textures distinctes",
-                  "Utiliser obligatoirement des produits certifiés sans gluten (gochujang et tamari)",
-                  "L'huile de sésame grillée apporte l'authenticité",
-                  "L'œuf au plat avec jaune coulant est essentiel pour lier le plat"
-                ],
-                "variations": [
-                  "Remplacer le bœuf par du poulet mariné ou du tofu pour version végétarienne",
-                  "Ajouter des courges rôties ou brocoli cuit à la vapeur",
-                  "Augmenter la quantité de gochujang pour plus d'épice"
-                ],
-                "conservation": "Restes à consommer le jour même; les légumes ramollissent au réfrigérateur; réchauffer le riz et les légumes à feu doux avant de réassembler",
-                "nutrition": "Protéines 28g, glucides 62g, lipides 18g par portion; riche en fibres et minéraux grâce aux légumes variés; sans gluten si produits certifiés utilisés; allergens: sésame, œufs, vérifier traces de gluten"
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpesv1oi0000lyij0d8y7708",
-            "title": "Bibimbap - Riz mélangé coréen"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
         "verdict": "approved",
-        "critique": "Recette techniquement cohérente et réalisable en 45 minutes. Tous les ingrédients sont facilement accessibles, les techniques standard (cuisson vapeur, sauté, assemblage) sont bien maîtrisables. Contraintes respectées : produits sans gluten explicitement utilisés (tamari, gochujang), portion pour 2, budget raisonnable avec ingrédients courants.",
-        "recipe_id": "cmpesv1oi0000lyij0d8y7708"
+        "critique": "Recette validée et persistée avec succès. Bibimbap techniquement réalisable en 35 minutes pour 2 personnes avec tous les ingrédients certifiés sans gluten et budget maîtrisé.",
+        "issues": []
       }
     },
     {
-      "offset_ms": 57085,
+      "offset_ms": 82825,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 57085,
+      "offset_ms": 82826,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -1292,924 +954,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 57086,
+      "offset_ms": 82826,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
         "input": 127,
-        "previous_stage_output": 6833
+        "previous_stage_output": 7991
       }
     },
     {
-      "offset_ms": 69170,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Bibimbap - Riz mélangé coréen",
-          "cuisine": "Coréenne",
-          "timeMinutes": 45,
-          "portions": 2,
-          "emoji": "🍚",
-          "ingredients": [
-            {
-              "name": "Riz blanc court grain",
-              "quantity": "200g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Bœuf haché",
-              "quantity": "150g",
-              "group": "protéines"
-            },
-            {
-              "name": "Œufs",
-              "quantity": "2",
-              "group": "produits frais"
-            },
-            {
-              "name": "Germes de soja frais",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Épinards frais",
-              "quantity": "150g",
-              "group": "légumes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Sauce soja sans gluten (tamari)",
-              "quantity": "60ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Gochujang sans gluten",
-              "quantity": "40g",
-              "group": "condiments"
-            },
-            {
-              "name": "Huile de sésame grillée",
-              "quantity": "15ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Ail frais",
-              "quantity": "2 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Sucre roux",
-              "quantity": "10g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Graines de sésame blanc",
-              "quantity": "15g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "selon goût",
-              "group": "condiments"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Cuire le riz",
-              "instructions": [
-                "Cuire le riz blanc à la vapeur selon les instructions du paquet (environ 15-20 minutes)"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 2,
-              "title": "Préparer les légumes",
-              "instructions": [
-                "Émincer finement les carottes en julienne et les champignons"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 3,
-              "title": "Cuire les carottes",
-              "instructions": [
-                "Faire sauter les carottes à feu moyen-vif pendant 3-4 minutes, assaisonner de sel et poivre"
-              ],
-              "durationMinutes": 4
-            },
-            {
-              "order": 4,
-              "title": "Cuire les champignons",
-              "instructions": [
-                "Cuire les champignons à part dans un peu d'huile, ajouter 1 gousse d'ail minced, 5ml de tamari et 5g de sucre"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 5,
-              "title": "Préparer les épinards",
-              "instructions": [
-                "Blanchir les épinards 2 minutes, presser l'eau et mélanger avec 5ml de tamari, 1 gousse d'ail et un trait d'huile de sésame"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 6,
-              "title": "Préparer les germes de soja",
-              "instructions": [
-                "Faire sauter les germes de soja crus ou légèrement blanchis avec 5ml de tamari et une pincée de sel"
-              ],
-              "durationMinutes": 2
-            },
-            {
-              "order": 7,
-              "title": "Mariner et cuire le bœuf",
-              "instructions": [
-                "Mariner le bœuf haché avec 30ml de tamari, 5ml d'huile de sésame et 5g de sucre pendant 10 minutes",
-                "Faire cuire le bœuf mariné dans une poêle à feu vif jusqu'à coloration dorée (5-7 minutes)"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 8,
-              "title": "Cuire les œufs",
-              "instructions": [
-                "Faire cuire les œufs au plat dans une poêle avec un peu d'huile (blancs cuits, jaune coulant)"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 9,
-              "title": "Assembler les bowls",
-              "instructions": [
-                "Assembler les bowls : riz chaud en base, disposer les légumes cuits en monticules séparés autour, ajouter le bœuf et l'œuf au centre",
-                "Mélanger la gochujang avec 5ml d'eau chaude et déposer sur le riz, parsemer de graines de sésame"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 10,
-              "title": "Servir",
-              "instructions": [
-                "Servir et mélanger tous les ingrédients ensemble avant de déguster"
-              ],
-              "durationMinutes": 0
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Cuire chaque légume séparément pour préserver leurs textures distinctes",
-              "Utiliser obligatoirement des produits certifiés sans gluten (gochujang et tamari)",
-              "L'huile de sésame grillée apporte l'authenticité",
-              "L'œuf au plat avec jaune coulant est essentiel pour lier le plat"
-            ],
-            "variations": [
-              "Remplacer le bœuf par du poulet mariné ou du tofu pour version végétarienne",
-              "Ajouter des courges rôties ou brocoli cuit à la vapeur",
-              "Augmenter la quantité de gochujang pour plus d'épice"
-            ],
-            "conservation": "Restes à consommer le jour même; les légumes ramollissent au réfrigérateur; rechauffer le riz et les légumes à feu doux avant de réassembler",
-            "nutrition": "Protéines 28g, glucides 62g, lipides 18g par portion; riche en fibres et minéraux grâce aux légumes variés; sans gluten si produits certifiés utilisés; allergens: sésame, œufs, vérifier traces de gluten"
-          },
-          "calories": 580
-        }
-      }
-    },
-    {
-      "offset_ms": 70402,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesvd6j0000cvij44y3bat6",
-        "title": "Bibimbap - Riz mélangé coréen"
-      },
-      "duration_ms": 1232
-    },
-    {
-      "offset_ms": 70402,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmmrunf9l0000cpijlrn58jpw",
-          "items": [
-            {
-              "name": "Riz blanc court grain",
-              "quantity": "200g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Sucre roux",
-              "quantity": "10g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Graines de sésame blanc",
-              "quantity": "15g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Bœuf haché",
-              "quantity": "150g",
-              "group": "protéines"
-            },
-            {
-              "name": "Œufs",
-              "quantity": "2 unités",
-              "group": "produits frais"
-            },
-            {
-              "name": "Germes de soja frais",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Épinards frais",
-              "quantity": "150g",
-              "group": "légumes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail frais",
-              "quantity": "2 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Sauce soja sans gluten (tamari)",
-              "quantity": "60ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Gochujang sans gluten",
-              "quantity": "40g",
-              "group": "condiments"
-            },
-            {
-              "name": "Huile de sésame grillée",
-              "quantity": "15ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "selon goût",
-              "group": "condiments"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 71334,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 932
-    },
-    {
-      "offset_ms": 76334,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmmrunf9l0000cpijlrn58jpw",
-          "items": [
-            {
-              "name": "Riz blanc court grain",
-              "quantity": "200g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Bœuf haché",
-              "quantity": "150g",
-              "group": "protéines"
-            },
-            {
-              "name": "Œufs",
-              "quantity": "2",
-              "group": "produits frais"
-            },
-            {
-              "name": "Germes de soja frais",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Épinards frais",
-              "quantity": "150g",
-              "group": "légumes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Sauce soja sans gluten (tamari)",
-              "quantity": "60ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Gochujang sans gluten",
-              "quantity": "40g",
-              "group": "condiments"
-            },
-            {
-              "name": "Huile de sésame grillée",
-              "quantity": "15ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Ail frais",
-              "quantity": "2 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Sucre roux",
-              "quantity": "10g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Graines de sésame blanc",
-              "quantity": "15g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "selon goût",
-              "group": "condiments"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 77398,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1064
-    },
-    {
-      "offset_ms": 86844,
+      "offset_ms": 94950,
       "event": "stage_complete",
       "stage": "grocery-list",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 29759,
+      "duration_ms": 12125,
       "tokens": {
-        "prompt": 6373,
-        "completion": 4241,
-        "total": 10614
+        "prompt": 6150,
+        "completion": 1785,
+        "total": 7935
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01K4bKFwqg13M39rqMHnV7CM",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Bibimbap - Riz mélangé coréen",
-              "cuisine": "Coréenne",
-              "timeMinutes": 45,
-              "portions": 2,
-              "emoji": "🍚",
-              "ingredients": [
-                {
-                  "name": "Riz blanc court grain",
-                  "quantity": "200g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Bœuf haché",
-                  "quantity": "150g",
-                  "group": "protéines"
-                },
-                {
-                  "name": "Œufs",
-                  "quantity": "2",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Germes de soja frais",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Épinards frais",
-                  "quantity": "150g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Carottes",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Sauce soja sans gluten (tamari)",
-                  "quantity": "60ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Gochujang sans gluten",
-                  "quantity": "40g",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Huile de sésame grillée",
-                  "quantity": "15ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Ail frais",
-                  "quantity": "2 gousses",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Sucre roux",
-                  "quantity": "10g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Graines de sésame blanc",
-                  "quantity": "15g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "selon goût",
-                  "group": "condiments"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Cuire le riz",
-                  "instructions": [
-                    "Cuire le riz blanc à la vapeur selon les instructions du paquet (environ 15-20 minutes)"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 2,
-                  "title": "Préparer les légumes",
-                  "instructions": [
-                    "Émincer finement les carottes en julienne et les champignons"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 3,
-                  "title": "Cuire les carottes",
-                  "instructions": [
-                    "Faire sauter les carottes à feu moyen-vif pendant 3-4 minutes, assaisonner de sel et poivre"
-                  ],
-                  "durationMinutes": 4
-                },
-                {
-                  "order": 4,
-                  "title": "Cuire les champignons",
-                  "instructions": [
-                    "Cuire les champignons à part dans un peu d'huile, ajouter 1 gousse d'ail minced, 5ml de tamari et 5g de sucre"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 5,
-                  "title": "Préparer les épinards",
-                  "instructions": [
-                    "Blanchir les épinards 2 minutes, presser l'eau et mélanger avec 5ml de tamari, 1 gousse d'ail et un trait d'huile de sésame"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 6,
-                  "title": "Préparer les germes de soja",
-                  "instructions": [
-                    "Faire sauter les germes de soja crus ou légèrement blanchis avec 5ml de tamari et une pincée de sel"
-                  ],
-                  "durationMinutes": 2
-                },
-                {
-                  "order": 7,
-                  "title": "Mariner et cuire le bœuf",
-                  "instructions": [
-                    "Mariner le bœuf haché avec 30ml de tamari, 5ml d'huile de sésame et 5g de sucre pendant 10 minutes",
-                    "Faire cuire le bœuf mariné dans une poêle à feu vif jusqu'à coloration dorée (5-7 minutes)"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 8,
-                  "title": "Cuire les œufs",
-                  "instructions": [
-                    "Faire cuire les œufs au plat dans une poêle avec un peu d'huile (blancs cuits, jaune coulant)"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 9,
-                  "title": "Assembler les bowls",
-                  "instructions": [
-                    "Assembler les bowls : riz chaud en base, disposer les légumes cuits en monticules séparés autour, ajouter le bœuf et l'œuf au centre",
-                    "Mélanger la gochujang avec 5ml d'eau chaude et déposer sur le riz, parsemer de graines de sésame"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 10,
-                  "title": "Servir",
-                  "instructions": [
-                    "Servir et mélanger tous les ingrédients ensemble avant de déguster"
-                  ],
-                  "durationMinutes": 0
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Cuire chaque légume séparément pour préserver leurs textures distinctes",
-                  "Utiliser obligatoirement des produits certifiés sans gluten (gochujang et tamari)",
-                  "L'huile de sésame grillée apporte l'authenticité",
-                  "L'œuf au plat avec jaune coulant est essentiel pour lier le plat"
-                ],
-                "variations": [
-                  "Remplacer le bœuf par du poulet mariné ou du tofu pour version végétarienne",
-                  "Ajouter des courges rôties ou brocoli cuit à la vapeur",
-                  "Augmenter la quantité de gochujang pour plus d'épice"
-                ],
-                "conservation": "Restes à consommer le jour même; les légumes ramollissent au réfrigérateur; rechauffer le riz et les légumes à feu doux avant de réassembler",
-                "nutrition": "Protéines 28g, glucides 62g, lipides 18g par portion; riche en fibres et minéraux grâce aux légumes variés; sans gluten si produits certifiés utilisés; allergens: sésame, œufs, vérifier traces de gluten"
-              },
-              "calories": 580
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpesvd6j0000cvij44y3bat6",
-            "title": "Bibimbap - Riz mélangé coréen"
-          }
-        },
-        {
-          "id": "toolu_014SyN3HgpFK1pvUREC4vXPc",
-          "name": "db-upsert_grocery_list",
-          "arguments": {
-            "data": {
-              "planId": "cmmrunf9l0000cpijlrn58jpw",
-              "items": [
-                {
-                  "name": "Riz blanc court grain",
-                  "quantity": "200g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Sucre roux",
-                  "quantity": "10g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Graines de sésame blanc",
-                  "quantity": "15g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Bœuf haché",
-                  "quantity": "150g",
-                  "group": "protéines"
-                },
-                {
-                  "name": "Œufs",
-                  "quantity": "2 unités",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Germes de soja frais",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Épinards frais",
-                  "quantity": "150g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Carottes",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Ail frais",
-                  "quantity": "2 gousses",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Sauce soja sans gluten (tamari)",
-                  "quantity": "60ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Gochujang sans gluten",
-                  "quantity": "40g",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Huile de sésame grillée",
-                  "quantity": "15ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "selon goût",
-                  "group": "condiments"
-                }
-              ]
-            }
-          },
-          "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}"
-        },
-        {
-          "id": "toolu_01DPcNyWMx2vEUsG3v2jpkHW",
-          "name": "db-upsert_grocery_list",
-          "arguments": {
-            "data": {
-              "planId": "cmmrunf9l0000cpijlrn58jpw",
-              "items": [
-                {
-                  "name": "Riz blanc court grain",
-                  "quantity": "200g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Bœuf haché",
-                  "quantity": "150g",
-                  "group": "protéines"
-                },
-                {
-                  "name": "Œufs",
-                  "quantity": "2",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Germes de soja frais",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Épinards frais",
-                  "quantity": "150g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Carottes",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "100g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Sauce soja sans gluten (tamari)",
-                  "quantity": "60ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Gochujang sans gluten",
-                  "quantity": "40g",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Huile de sésame grillée",
-                  "quantity": "15ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Ail frais",
-                  "quantity": "2 gousses",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Sucre roux",
-                  "quantity": "10g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Graines de sésame blanc",
-                  "quantity": "15g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "selon goût",
-                  "group": "condiments"
-                }
-              ]
-            }
-          },
-          "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}"
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "items": [
-          {
-            "name": "Riz blanc court grain",
-            "quantity": "200g",
-            "group": "épicerie sèche"
-          },
-          {
-            "name": "Bœuf haché",
-            "quantity": "150g",
-            "group": "protéines"
-          },
-          {
-            "name": "Œufs",
-            "quantity": "2",
-            "group": "produits frais"
-          },
-          {
-            "name": "Germes de soja frais",
-            "quantity": "100g",
-            "group": "légumes"
-          },
-          {
-            "name": "Épinards frais",
-            "quantity": "150g",
-            "group": "légumes"
-          },
-          {
-            "name": "Carottes",
-            "quantity": "100g",
-            "group": "légumes"
-          },
-          {
-            "name": "Champignons de Paris",
-            "quantity": "100g",
-            "group": "légumes"
-          },
-          {
-            "name": "Sauce soja sans gluten (tamari)",
-            "quantity": "60ml",
-            "group": "condiments"
-          },
-          {
-            "name": "Gochujang sans gluten",
-            "quantity": "40g",
-            "group": "condiments"
-          },
-          {
-            "name": "Huile de sésame grillée",
-            "quantity": "15ml",
-            "group": "condiments"
-          },
-          {
-            "name": "Ail frais",
-            "quantity": "2 gousses",
-            "group": "légumes"
-          },
-          {
-            "name": "Sucre roux",
-            "quantity": "10g",
-            "group": "épicerie sèche"
-          },
-          {
-            "name": "Graines de sésame blanc",
-            "quantity": "15g",
-            "group": "épicerie sèche"
-          },
-          {
-            "name": "Sel et poivre",
-            "quantity": "selon goût",
-            "group": "condiments"
-          }
-        ],
-        "sections": {
-          "légumes": [
-            {
-              "name": "Germes de soja frais",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Épinards frais",
-              "quantity": "150g",
-              "group": "légumes"
-            },
-            {
-              "name": "Carottes",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "100g",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail frais",
-              "quantity": "2 gousses",
-              "group": "légumes"
-            }
-          ],
-          "protéines": [
-            {
-              "name": "Bœuf haché",
-              "quantity": "150g",
-              "group": "protéines"
-            }
-          ],
-          "produits frais": [
-            {
-              "name": "Œufs",
-              "quantity": "2",
-              "group": "produits frais"
-            }
-          ],
-          "épicerie sèche": [
-            {
-              "name": "Riz blanc court grain",
-              "quantity": "200g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Sucre roux",
-              "quantity": "10g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Graines de sésame blanc",
-              "quantity": "15g",
-              "group": "épicerie sèche"
-            }
-          ],
-          "condiments": [
-            {
-              "name": "Sauce soja sans gluten (tamari)",
-              "quantity": "60ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Gochujang sans gluten",
-              "quantity": "40g",
-              "group": "condiments"
-            },
-            {
-              "name": "Huile de sésame grillée",
-              "quantity": "15ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "selon goût",
-              "group": "condiments"
-            }
-          ]
-        }
+        "items": "[{\"name\": \"Riz blanc ou riz jasmin cuit\", \"quantity\": \"400g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Bœuf (rumsteck)\", \"quantity\": \"200g\", \"group\": \"protéines\"}, {\"name\": \"Œufs\", \"quantity\": \"2\", \"group\": \"produits frais\"}, {\"name\": \"Épinards frais\", \"quantity\": \"150g\", \"group\": \"légumes\"}, {\"name\": \"Pousses de soja (germes de haricot mungo)\", \"quantity\": \"150g\", \"group\": \"légumes\"}, {\"name\": \"Carotte\", \"quantity\": \"1 moyenne\", \"group\": \"légumes\"}, {\"name\": \"Champignons shiitake\", \"quantity\": \"150g\", \"group\": \"légumes\"}, {\"name\": \"Gochujang certifié sans gluten\", \"quantity\": \"3 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Sauce soja sans gluten\", \"quantity\": \"2 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Huile de sésame grillé\", \"quantity\": \"2 cuillères à soupe\", \"group\": \"condiments\"}, {\"name\": \"Vinaigre de riz\", \"quantity\": \"1 cuillère à soupe\", \"group\": \"condiments\"}, {\"name\": \"Sucre ou miel\", \"quantity\": \"1 cuillère à café\", \"group\": \"épicerie sèche\"}, {\"name\": \"Ail frais\", \"quantity\": \"2 gousses\", \"group\": \"légumes\"}, {\"name\": \"Sel fin\", \"quantity\": \"au goût\", \"group\": \"condiments\"}, {\"name\": \"Nori (algue séchée)\", \"quantity\": \"1 feuille\", \"group\": \"autres\", \"optional\": true}]",
+        "sections": "{\"légumes\": [{\"name\": \"Épinards frais\", \"quantity\": \"150g\"}, {\"name\": \"Pousses de soja (germes de haricot mungo)\", \"quantity\": \"150g\"}, {\"name\": \"Carotte\", \"quantity\": \"1 moyenne\"}, {\"name\": \"Champignons shiitake\", \"quantity\": \"150g\"}, {\"name\": \"Ail frais\", \"quantity\": \"2 gousses\"}], \"protéines\": [{\"name\": \"Bœuf (rumsteck)\", \"quantity\": \"200g\"}, {\"name\": \"Œufs\", \"quantity\": \"2\"}], \"épicerie sèche\": [{\"name\": \"Riz blanc ou riz jasmin cuit\", \"quantity\": \"400g\"}, {\"name\": \"Sucre ou miel\", \"quantity\": \"1 cuillère à café\"}], \"condiments\": [{\"name\": \"Gochujang certifié sans gluten\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Sauce soja sans gluten\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Huile de sésame grillé\", \"quantity\": \"2 cuillères à soupe\"}, {\"name\": \"Vinaigre de riz\", \"quantity\": \"1 cuillère à soupe\"}, {\"name\": \"Sel fin\", \"quantity\": \"au goût\"}], \"autres\": [{\"name\": \"Nori (algue séchée)\", \"quantity\": \"1 feuille\", \"optional\": true}]}"
       }
     },
     {
-      "offset_ms": 86877,
+      "offset_ms": 94969,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
-      "duration_ms": 86913,
-      "total_tokens": 40952,
-      "total_tool_calls": 9,
+      "duration_ms": 94999,
+      "total_tokens": 50711,
+      "total_tool_calls": 10,
       "total_stages": 6
     }
   ]

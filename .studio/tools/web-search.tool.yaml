@@ -14,9 +14,7 @@ commands:
     execute:
       type: shell
       command: |
-        curl -s -X POST "https://api.tavily.com/search" \
-          -H "Content-Type: application/json" \
-          -d "{\"api_key\": \"${TAVILY_API_KEY}\", \"query\": \"{{query}}\", \"max_results\": 5}"
+        bash scripts/tavily-search.sh "{{query}}"
       parse_output: json
 
 prompt_snippet: |

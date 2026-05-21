@@ -1,6 +1,4 @@
 name: meal-orchestrator
-provider: ollama
-model: qwen2.5
 tools:
   - studio_run-run_pipeline
 

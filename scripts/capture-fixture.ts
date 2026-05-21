@@ -84,10 +84,23 @@ function normaliseEvents(rawLines: string[]): { events: FixtureEvent[]; duration
     const { ts, run_id, ...rest } = raw
     const offset_ms = new Date(ts).getTime() - startTs
     const eventStr = JSON.stringify(rest)
-    if (eventStr.length > MAX_EVENT_BYTES) {
-      return { offset_ms, event: raw.event, truncated: true as const }
+    if (eventStr.length <= MAX_EVENT_BYTES) {
+      return { offset_ms, ...rest }
     }
-    return { offset_ms, ...rest }
+    // For stage_complete, preserve structural metadata and truncate only heavy payloads.
+    // Dropping status/duration_ms/tokens would make the fixture useless for debugging.
+    if (raw.event === 'stage_complete') {
+      const { tool_calls, output, ...structural } = rest as Record<string, unknown> & { event: string }
+      const summaryToolCalls = Array.isArray(tool_calls)
+        ? (tool_calls as Array<Record<string, unknown>>).map((tc) => ({
+            id: tc.id,
+            name: tc.name,
+            truncated: true as const,
+          }))
+        : []
+      return { offset_ms, ...structural, tool_calls: summaryToolCalls, output, truncated: true as const }
+    }
+    return { offset_ms, event: raw.event, truncated: true as const }
   })
 
   return { events, duration_ms }

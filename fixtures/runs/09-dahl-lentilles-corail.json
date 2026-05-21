@@ -1,6 +1,7 @@
 {
   "id": "09",
   "slug": "dahl-lentilles-corail",
+  "run_id": "911c0b68",
   "input": {
     "dish_name": "Dahl de lentilles corail",
     "userId": "cmmrunf9l0000cpijlrn58jpw",
@@ -11,8 +12,8 @@
       "pour 4 personnes"
     ]
   },
-  "captured_at": "2026-05-21T01:18:59.259Z",
-  "duration_ms": 79492,
+  "captured_at": "2026-05-21T17:43:35.746Z",
+  "duration_ms": 87082,
   "events": [
     {
       "offset_ms": 0,
@@ -30,7 +31,7 @@
       }
     },
     {
-      "offset_ms": 2,
+      "offset_ms": 23,
       "event": "stage_start",
       "stage": "culinary-research",
       "stage_index": 0,
@@ -38,7 +39,7 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 5,
+      "offset_ms": 27,
       "event": "stage_context",
       "stage": "culinary-research",
       "context_keys": {
@@ -46,121 +47,361 @@
       }
     },
     {
-      "offset_ms": 2532,
+      "offset_ms": 1932,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "dahl lentilles corail cuisine indienne technique préparation"
+        "query": "dahl lentilles corail technique culinaire indienne"
       }
     },
     {
-      "offset_ms": 2663,
+      "offset_ms": 3339,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "dahl lentilles corail technique culinaire indienne",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://blog.lafourche.fr/dahl-indien-lentilles-corail",
+            "title": "Dahl indien de lentilles corail",
+            "content": "# Dahl indien de lentilles corail. Nous vous proposons aujourd'hui de vous évader et de partir en Inde grce à cette délicieuse recette ! Nous vous conseillons de servir ce dahl avec du riz complet et du jus de citron afin d'accentuer le goût des lentilles et des épinards. Merci aux Editions La Plage de partager avec nous leur recette issue du livre Le régime de santé planétaire d'Hélène Schernberg et Louise Browaeys. Temps de préparation : 20 min. * 250 g de lentilles corail bio. * 250 g d'épinards ou de fanes de radis ou de navet. à soupe d'huile d'olive, d'huile de coco ou de beurre clarifié. à café bombée de curcuma en poudre. à café de graines de cumin. à café de graines de coriandre. Ajoutez les épinards (ou les fanes), le lait de coco et le curcuma en poudre. 3. Pendant ce temps, faites chauffer l'huile ou le beurre clarifié. Faites revenir quelques minutes l'oignon et l'ail avec le gingembre rpé, les graines de cumin et de coriandre.",
+            "score": 0.99997926,
+            "raw_content": null
+          },
+          {
+            "url": "https://videfrigo.com/dahl-indien-de-lentilles-corail-a-la-patate-douce",
+            "title": "Dahl indien de lentilles corail à la patate douce - Vide Frigo",
+            "content": "Ingrédients · Huile végétale · 2 cuillères à thé de curcuma · 2 cuillères à thé de cari · 1 oignon · 2 gousses d'ail · 1 cuillère à thé de gingembre.",
+            "score": 0.9999784,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.byopaline.com/recette-dahl-lentilles-corail/amp",
+            "title": "Dahl de lentilles corail et cheese naan - recettes indiennes",
+            "content": "Ingrédients · 250 g lentilles corail · 1 oignon · gingembre frais · 400 mL crème de coco · 1 c. à soupe concentré de tomate · coriandre fraîche · curry",
+            "score": 0.99996996,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.cookismo.fr/dahl-de-lentilles-corail/45945",
+            "title": "Dahl de lentilles corail : recette authentique, facile et rapide",
+            "content": "Ingrédients · 200 g lentilles corail (1 tasse) · 1/4 oignon rouge · 4 gousses d'ail · 2 c. à café gingembre râpé · 2 c. à café curry en poudre · 1 c.",
+            "score": 0.9999609,
+            "raw_content": null
+          },
+          {
+            "url": "https://fabicooking.com/lentilles-vegetariennes-a-lindienne-indian-dahl",
+            "title": "Saveurs de Bombay: Dahl de lentilles corail - FabiCooking",
+            "content": "Ingredients · 300 g de lentilles corail · 3 cuillers à soupe d'huile de coco ou végétale · 2 oignons moyens · 4 gousses d'ail · 2 cuillers à soupe de poudre de coco",
+            "score": 0.99995637,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.18,
+        "request_id": "f56e2044-00ef-412f-a99d-e8031a88b946"
       },
-      "duration_ms": 132
+      "duration_ms": 1406
     },
     {
-      "offset_ms": 2663,
+      "offset_ms": 3339,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "red lentil dhal cultural context India origins"
+        "query": "red lentil dhal cultural context Indian cuisine"
       }
     },
     {
-      "offset_ms": 2783,
+      "offset_ms": 4387,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "red lentil dhal cultural context Indian cuisine",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.mykitchenescapades.com/red-lentil-dahl",
+            "title": "Red Lentil Dahl (Authentic Indian Recipe)",
+            "content": "It is a traditional Indian subcontinent cuisine, specifically from the region of Bengal, but it is popular and enjoyed in many other parts of",
+            "score": 0.99998987,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ujCba5x5Qgc",
+            "title": "Easy Red Lentil Dahl Inspired By My Life Living In India - YouTube",
+            "content": "Let's make an Indian-inspired red lentil dahl. This easy recipe is the perfect weeknight dish to make that is a crowd favorite that your",
+            "score": 0.9999838,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.bayviewmagazine.com/article/2019/09/celebrating-cultures-one-recipe-time-red-lentil-daal-recipe-far-far-away",
+            "title": "Celebrating Cultures, One Recipe at a Time Red Lentil Daal",
+            "content": "A staple Indian meal isn't complete without a daal. Indian cuisine enjoys a wide variety of daals: Red lentil or masoor daal, split pigeon peas, moong beans",
+            "score": 0.99997807,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.sugarlovespices.com/indian-inspired-red-lentil-dahl",
+            "title": "Indian-inspired Red Lentil Dahl - SugarLoveSpices",
+            "content": "Indian-inspired Red Lentil Dahl, an exotic comforting beautifully looking dish that will please the vegetarian or vegan people in your life.",
+            "score": 0.999949,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4Fk0v__j9lY",
+            "title": "Indian Red Lentil Dal Recipe - YouTube",
+            "content": "This Red Lentil Dal recipe makes the perfect plant-based Indian meal! Rich, fragrant, and packed with protein for a meal you can feel good",
+            "score": 0.99972624,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.91,
+        "request_id": "557040dd-8617-4b6f-b47f-2220cb5c4c86"
       },
-      "duration_ms": 120
+      "duration_ms": 1048
     },
     {
-      "offset_ms": 2783,
+      "offset_ms": 4387,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "dahl lentilles corail profil saveurs épices caractéristiques"
+        "query": "dhal lentilles corail saveurs épices profil gustatif"
       }
     },
     {
-      "offset_ms": 2908,
+      "offset_ms": 5711,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "dhal lentilles corail saveurs épices profil gustatif",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.instagram.com/p/DCPVHAPtWR9",
+            "title": "Dahl de lentilles de corail Un plat sain et réconfortant ... - Instagram",
+            "content": "✓ **Saveurs :** Le feu des épices apaisé par le frais du cru. ... épices pour offrir une texture fondante et un goût profondément chaleureux",
+            "score": 0.73868835,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.epices.com/blog/dahl-lentilles-corail",
+            "title": "Dahl de lentilles corail: Recette, origine et variantes - Epices.com",
+            "content": "Le dahl est souvent agrémenté d'oignons, d'ail, de tomates, de feuilles de curry et d'autres ingrédients pour lui donner une saveur plus riche. Le dahl de",
+            "score": 0.73207545,
+            "raw_content": null
+          },
+          {
+            "url": "https://domcooks.com/recettes/dhal-de-lentilles-au-curcuma-et-lait-de-coco-pleurotes-au-paprika-fume",
+            "title": "Dahl de lentilles corail - Recette facile et rapide - Dom Cooks",
+            "content": "Le dhal de lentilles corail est très rapide à cuire, plein de protéines végétales et super digeste. · L'ajout d'épices chaleureuses (curcuma,",
+            "score": 0.71425,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.lefourgon.com/fr/blog/dahl-lentilles-corail",
+            "title": "Comment préparer un dahl de lentilles corail parfait | Le Fourgon",
+            "content": "Le curcuma : cette épice jaune vif est connue pour avoir des propriétés anti-inflammatoires et antioxydantes. · Le cumin : avec son goût terreux",
+            "score": 0.7009158,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/groups/1557677278505218/posts/1662301261376152",
+            "title": "️ Dahl de Lentilles Corail et Légumes au Lait d'Amande et Épices ...",
+            "content": "Dahl de lentilles corail Un plat végétarien savoureux et réconfortant, plein d'épices et de saveurs ! Ingrédients pour 4 personnes",
+            "score": 0.69622743,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.18,
+        "request_id": "1dc667a8-341d-4bf1-95fa-eb3f12b9e905"
       },
-      "duration_ms": 125
+      "duration_ms": 1324
     },
     {
-      "offset_ms": 7026,
+      "offset_ms": 9800,
       "event": "stage_complete",
       "stage": "culinary-research",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 7024,
+      "duration_ms": 9797,
       "tokens": {
-        "prompt": 2441,
-        "completion": 570,
-        "total": 3011
+        "prompt": 4694,
+        "completion": 559,
+        "total": 5253
       },
       "tool_calls": [
         {
-          "id": "toolu_01HuZgoYuUBabHHBZT42kzpg",
+          "id": "toolu_011BpkF5JS6LSefF4xNQo5JP",
           "name": "web_search-search",
           "arguments": {
-            "query": "dahl lentilles corail cuisine indienne technique préparation"
+            "query": "dahl lentilles corail technique culinaire indienne"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "dahl lentilles corail technique culinaire indienne",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://blog.lafourche.fr/dahl-indien-lentilles-corail",
+                "title": "Dahl indien de lentilles corail",
+                "content": "# Dahl indien de lentilles corail. Nous vous proposons aujourd'hui de vous évader et de partir en Inde grce à cette délicieuse recette ! Nous vous conseillons de servir ce dahl avec du riz complet et du jus de citron afin d'accentuer le goût des lentilles et des épinards. Merci aux Editions La Plage de partager avec nous leur recette issue du livre Le régime de santé planétaire d'Hélène Schernberg et Louise Browaeys. Temps de préparation : 20 min. * 250 g de lentilles corail bio. * 250 g d'épinards ou de fanes de radis ou de navet. à soupe d'huile d'olive, d'huile de coco ou de beurre clarifié. à café bombée de curcuma en poudre. à café de graines de cumin. à café de graines de coriandre. Ajoutez les épinards (ou les fanes), le lait de coco et le curcuma en poudre. 3. Pendant ce temps, faites chauffer l'huile ou le beurre clarifié. Faites revenir quelques minutes l'oignon et l'ail avec le gingembre rpé, les graines de cumin et de coriandre.",
+                "score": 0.99997926,
+                "raw_content": null
+              },
+              {
+                "url": "https://videfrigo.com/dahl-indien-de-lentilles-corail-a-la-patate-douce",
+                "title": "Dahl indien de lentilles corail à la patate douce - Vide Frigo",
+                "content": "Ingrédients · Huile végétale · 2 cuillères à thé de curcuma · 2 cuillères à thé de cari · 1 oignon · 2 gousses d'ail · 1 cuillère à thé de gingembre.",
+                "score": 0.9999784,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.byopaline.com/recette-dahl-lentilles-corail/amp",
+                "title": "Dahl de lentilles corail et cheese naan - recettes indiennes",
+                "content": "Ingrédients · 250 g lentilles corail · 1 oignon · gingembre frais · 400 mL crème de coco · 1 c. à soupe concentré de tomate · coriandre fraîche · curry",
+                "score": 0.99996996,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.cookismo.fr/dahl-de-lentilles-corail/45945",
+                "title": "Dahl de lentilles corail : recette authentique, facile et rapide",
+                "content": "Ingrédients · 200 g lentilles corail (1 tasse) · 1/4 oignon rouge · 4 gousses d'ail · 2 c. à café gingembre râpé · 2 c. à café curry en poudre · 1 c.",
+                "score": 0.9999609,
+                "raw_content": null
+              },
+              {
+                "url": "https://fabicooking.com/lentilles-vegetariennes-a-lindienne-indian-dahl",
+                "title": "Saveurs de Bombay: Dahl de lentilles corail - FabiCooking",
+                "content": "Ingredients · 300 g de lentilles corail · 3 cuillers à soupe d'huile de coco ou végétale · 2 oignons moyens · 4 gousses d'ail · 2 cuillers à soupe de poudre de coco",
+                "score": 0.99995637,
+                "raw_content": null
+              }
+            ],
+            "response_time": 1.18,
+            "request_id": "f56e2044-00ef-412f-a99d-e8031a88b946"
           }
         },
         {
-          "id": "toolu_01H6mVZryZRaGzMnURk9PTD4",
+          "id": "toolu_019pGJDSt3JQNFkrFWyMvZrw",
           "name": "web_search-search",
           "arguments": {
-            "query": "red lentil dhal cultural context India origins"
+            "query": "red lentil dhal cultural context Indian cuisine"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "red lentil dhal cultural context Indian cuisine",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.mykitchenescapades.com/red-lentil-dahl",
+                "title": "Red Lentil Dahl (Authentic Indian Recipe)",
+                "content": "It is a traditional Indian subcontinent cuisine, specifically from the region of Bengal, but it is popular and enjoyed in many other parts of",
+                "score": 0.99998987,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=ujCba5x5Qgc",
+                "title": "Easy Red Lentil Dahl Inspired By My Life Living In India - YouTube",
+                "content": "Let's make an Indian-inspired red lentil dahl. This easy recipe is the perfect weeknight dish to make that is a crowd favorite that your",
+                "score": 0.9999838,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.bayviewmagazine.com/article/2019/09/celebrating-cultures-one-recipe-time-red-lentil-daal-recipe-far-far-away",
+                "title": "Celebrating Cultures, One Recipe at a Time Red Lentil Daal",
+                "content": "A staple Indian meal isn't complete without a daal. Indian cuisine enjoys a wide variety of daals: Red lentil or masoor daal, split pigeon peas, moong beans",
+                "score": 0.99997807,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.sugarlovespices.com/indian-inspired-red-lentil-dahl",
+                "title": "Indian-inspired Red Lentil Dahl - SugarLoveSpices",
+                "content": "Indian-inspired Red Lentil Dahl, an exotic comforting beautifully looking dish that will please the vegetarian or vegan people in your life.",
+                "score": 0.999949,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=4Fk0v__j9lY",
+                "title": "Indian Red Lentil Dal Recipe - YouTube",
+                "content": "This Red Lentil Dal recipe makes the perfect plant-based Indian meal! Rich, fragrant, and packed with protein for a meal you can feel good",
+                "score": 0.99972624,
+                "raw_content": null
+              }
+            ],
+            "response_time": 0.91,
+            "request_id": "557040dd-8617-4b6f-b47f-2220cb5c4c86"
           }
         },
         {
-          "id": "toolu_01WdTt8fV9i18JgUs57Xjd82",
+          "id": "toolu_013BUN7S8zkyXGxcoxmwzHMA",
           "name": "web_search-search",
           "arguments": {
-            "query": "dahl lentilles corail profil saveurs épices caractéristiques"
+            "query": "dhal lentilles corail saveurs épices profil gustatif"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "dhal lentilles corail saveurs épices profil gustatif",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.instagram.com/p/DCPVHAPtWR9",
+                "title": "Dahl de lentilles de corail Un plat sain et réconfortant ... - Instagram",
+                "content": "✓ **Saveurs :** Le feu des épices apaisé par le frais du cru. ... épices pour offrir une texture fondante et un goût profondément chaleureux",
+                "score": 0.73868835,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.epices.com/blog/dahl-lentilles-corail",
+                "title": "Dahl de lentilles corail: Recette, origine et variantes - Epices.com",
+                "content": "Le dahl est souvent agrémenté d'oignons, d'ail, de tomates, de feuilles de curry et d'autres ingrédients pour lui donner une saveur plus riche. Le dahl de",
+                "score": 0.73207545,
+                "raw_content": null
+              },
+              {
+                "url": "https://domcooks.com/recettes/dhal-de-lentilles-au-curcuma-et-lait-de-coco-pleurotes-au-paprika-fume",
+                "title": "Dahl de lentilles corail - Recette facile et rapide - Dom Cooks",
+                "content": "Le dhal de lentilles corail est très rapide à cuire, plein de protéines végétales et super digeste. · L'ajout d'épices chaleureuses (curcuma,",
+                "score": 0.71425,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.lefourgon.com/fr/blog/dahl-lentilles-corail",
+                "title": "Comment préparer un dahl de lentilles corail parfait | Le Fourgon",
+                "content": "Le curcuma : cette épice jaune vif est connue pour avoir des propriétés anti-inflammatoires et antioxydantes. · Le cumin : avec son goût terreux",
+                "score": 0.7009158,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.facebook.com/groups/1557677278505218/posts/1662301261376152",
+                "title": "️ Dahl de Lentilles Corail et Légumes au Lait d'Amande et Épices ...",
+                "content": "Dahl de lentilles corail Un plat végétarien savoureux et réconfortant, plein d'épices et de saveurs ! Ingrédients pour 4 personnes",
+                "score": 0.69622743,
+                "raw_content": null
+              }
+            ],
+            "response_time": 1.18,
+            "request_id": "1dc667a8-341d-4bf1-95fa-eb3f12b9e905"
           }
         }
       ],
       "output": {
-        "topic_summary": "Le dahl de lentilles corail est un plat indien classique à base de lentilles rouges réduites en purée, relevé d'épices et cuit rapidement. C'est un plat végétal, riche en protéines, particulièrement apprécié pour sa texture crémeuse et son temps de cuisson court.",
-        "key_techniques": "Trempage optionnel des lentilles, cuisson à la vapeur ou à l'eau bouillante (15-20 min), tempérage des épices dans l'huile chaude (tadka), mélange progressif pour obtenir une texture lisse ou semi-épaisse",
-        "cultural_context": "Originaire du sous-continent indien, le dahl est un aliment de base de la cuisine indienne et sud-asiatique, consommé quotidiennement dans les foyers. Il représente une source majeure de protéines végétales dans la culture culinaire indienne traditionnelle.",
-        "flavor_profile": "Saveurs chaleureuses et épicées dominées par le curcuma, le cumin et la coriandre, avec des notes terreuses de lentilles adoucies par de la noix de coco ou du lait. Finition riche apportée par le tempérage aux oignons, ail et piments."
+        "topic_summary": "Le dahl de lentilles corail est un plat traditionnel indien à base de lentilles corail cuites rapidement avec des épices aromatiques, du lait de coco et des légumes. C'est un plat végétalien, sans gluten, réconfortant et riche en protéines végétales, préparable en environ 20-30 minutes.",
+        "key_techniques": "Cuisson rapide des lentilles corail (15-20 min); tempérage des épices dans l'huile chaude (cumin, coriandre, curcuma); émulsion avec le lait de coco; incorporation progressive des légumes et assaisonnements.",
+        "cultural_context": "Le dahl est un élément fondamental de la cuisine indienne, particulièrement populaire dans les régions du Bengale et du sous-continent indien. C'est un plat de base dans la cuisine végétarienne et végétalienne indienne, apprécié pour sa simplicité et ses propriétés nutritionnelles.",
+        "flavor_profile": "Profil savoureux alliant le warmth des épices (curcuma, cumin, coriandre, curry), la douceur subtile du lait de coco, et la saveur umami de l'ail et du gingembre. Équilibre entre chaleur épicée et onctuosité crémeuse, avec des notes terreuses des lentilles."
       }
     },
     {
-      "offset_ms": 7027,
+      "offset_ms": 9800,
       "event": "stage_start",
       "stage": "ingredient-sourcing",
       "stage_index": 1,
@@ -168,98 +409,258 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 7028,
+      "offset_ms": 9801,
       "event": "stage_context",
       "stage": "ingredient-sourcing",
       "context_keys": {
         "input": 186,
-        "previous_stage_output": 1040
+        "previous_stage_output": 1115
       }
     },
     {
-      "offset_ms": 8375,
+      "offset_ms": 11444,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "dahl lentilles corail recette ingrédients quantités"
+        "query": "dahl lentilles corail ingrédients recette indienne"
       }
     },
     {
-      "offset_ms": 8598,
+      "offset_ms": 12399,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "dahl lentilles corail ingrédients recette indienne",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.radiofrance.fr/francebleu/podcasts/la-vie-en-bleu-la-recette-du-jour/testez-une-recette-indienne-le-dahl-de-lentilles-corail-7934930",
+            "title": "Testez une recette indienne : le Dahl de lentilles corail - Radio France",
+            "content": "Ingrédients : · 200 g lentilles corail · 1 oignon · 3 gousses d'ail · 170 ml de lait de coco · Un morceau de gingembre (selon vos préférences)",
+            "score": 0.9999943,
+            "raw_content": null
+          },
+          {
+            "url": "https://cuisine-addict.com/dahl-lentilles-corail",
+            "title": "Dahl de lentilles corail - Recette indienne - Cuisine Addict",
+            "content": "Rincez et égouttez les lentilles corail. Pelez les oignons et ciselez-les finement. Pelez et dégermez l'ail puis pressez-le avec le",
+            "score": 0.9999937,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.byopaline.com/recette-dahl-lentilles-corail/amp",
+            "title": "Dahl de lentilles corail et cheese naan - recettes indiennes",
+            "content": "Ingrédients · 250 g lentilles corail · 1 oignon · gingembre frais · 400 mL crème de coco · 1 c. à soupe concentré de tomate · coriandre fraîche · curry",
+            "score": 0.9999919,
+            "raw_content": null
+          },
+          {
+            "url": "https://cannellecoriandre.com/dahl-lentilles-corail-lait-coco",
+            "title": "Dahl de lentilles corail et lait coco à l'indienne - Cannelle et Coriandre",
+            "content": "Ingrédients · 250g de lentilles corail · 1 oignon · 2 gousses d'ail · 1 cuil. à soupe d'huile de coco · 1 cuil. à café de pâte de gingembre (ou",
+            "score": 0.9999896,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.marmiton.org/recettes/recette_dahl-de-lentilles-corail_166862.aspx",
+            "title": "Recette de Dahl de lentilles corail - Marmiton",
+            "content": "Le dahl de lentilles corail est un plat indien végétarien, nourrissant, parfumé et ultra simple à préparer. Parfait pour un dîner sain et réconfortant. Qu'est-",
+            "score": 0.999985,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.81,
+        "request_id": "4504c461-1ab7-4c83-a8c2-0b44833eef05"
       },
-      "duration_ms": 223
+      "duration_ms": 956
     },
     {
-      "offset_ms": 8599,
+      "offset_ms": 12399,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "red lentil dhal ingredients amounts serves 4"
+        "query": "red lentil dhal ingredients quantities servings"
       }
     },
     {
-      "offset_ms": 8723,
+      "offset_ms": 13430,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "red lentil dhal ingredients quantities servings",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.simplyrecipes.com/recipes/red_lentil_dal",
+            "title": "Red Lentil Dal - Simply Recipes",
+            "content": "Ingredients · 1 cup red lentils (yellow lentils will work as well) · 3 cups water · 3 plum tomatoes · 2 teaspoons vegetable oil · 1/2 cup finely chopped white or",
+            "score": 0.8479807,
+            "raw_content": null
+          },
+          {
+            "url": "https://food52.com/recipes/73712-red-lentil-dhal",
+            "title": "Red Lentil Dhal - Food52",
+            "content": "Ingredients ; 1/2 onion, chopped ; 3 cloves garlic, minced or grated ; 1 teaspoon freshly grated or minced ginger ; 2 small tomatoes, diced ; 2 teaspoon ground",
+            "score": 0.8455478,
+            "raw_content": null
+          },
+          {
+            "url": "https://madeleineolivia.co.uk/red-lentil-dahl",
+            "title": "Red Lentil Dahl - Madeleine Olivia - Vegan Recipes",
+            "content": "Ingredients · 1 onion (roughly chopped ) · 2 garlic cloves (roughly chopped ) · 1 tsp turmeric · 1 tsp cumin · 1 tsp chilli · 1 tsp ground coriander · 1 tsp garam",
+            "score": 0.8405867,
+            "raw_content": null
+          },
+          {
+            "url": "https://veggiedesserts.com/red-lentil-dahl",
+            "title": "Red Lentil Dahl",
+            "content": "# The BEST Easy Red Lentil Dahl. Table of plates of curry with text: Quick and easy lentil dhal. Red lentil dal with rice and spinach. How to make red lentil dal. This easy Red Lentil Dahl recipe is a reader favorite! It's a creamy, comforting Indian curry made with lentils, coconut milk, tomatoes, onion, garlic, and warming spices. Naturally vegan, gluten-free, and made in 1-pot, this pantry-friendly dal is ready in just 30 minutes. Readers come back to it again and again because it's easy to make, endlessly adaptable, and ready in about **30 minutes**. This is a one-pot Indian-style lentil curry made with **red lentils, coconut milk, garlic, ginger, tomatoes,** and a handful of warm spices like turmeric, cumin, and garam masala. I love to serve this lentil curry with rice or my super easy naan bread recipe (just 4 ingredients and 15 minutes for homemade naan bread, plus it's yeast-free and easily vegan or gluten free).",
+            "score": 0.779339,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.apinchofhealthy.com/red-lentil-dal",
+            "title": "Red Lentil Dal (Masoor Dal Recipe) - A Pinch of Healthy",
+            "content": "Nutrition is for 4 servings, including 3/4 cup cooked jasmine rice per serving. Nutrition Facts. Red Lentil Dal (Masoor Dal Recipe). Amount Per Serving.",
+            "score": 0.73914057,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.89,
+        "request_id": "f234a3ec-6a28-42da-ad11-3a42a00f237e"
       },
-      "duration_ms": 125
+      "duration_ms": 1031
     },
     {
-      "offset_ms": 17118,
+      "offset_ms": 20006,
       "event": "stage_complete",
       "stage": "ingredient-sourcing",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 10091,
+      "duration_ms": 10205,
       "tokens": {
-        "prompt": 2963,
-        "completion": 1157,
-        "total": 4120
+        "prompt": 4645,
+        "completion": 932,
+        "total": 5577
       },
       "tool_calls": [
         {
-          "id": "toolu_01Ei3NvnCEFwtZTeozBbKxqA",
+          "id": "toolu_01BhyQa6k8eFBWtbrSAFCozb",
           "name": "web_search-search",
           "arguments": {
-            "query": "dahl lentilles corail recette ingrédients quantités"
+            "query": "dahl lentilles corail ingrédients recette indienne"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "dahl lentilles corail ingrédients recette indienne",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.radiofrance.fr/francebleu/podcasts/la-vie-en-bleu-la-recette-du-jour/testez-une-recette-indienne-le-dahl-de-lentilles-corail-7934930",
+                "title": "Testez une recette indienne : le Dahl de lentilles corail - Radio France",
+                "content": "Ingrédients : · 200 g lentilles corail · 1 oignon · 3 gousses d'ail · 170 ml de lait de coco · Un morceau de gingembre (selon vos préférences)",
+                "score": 0.9999943,
+                "raw_content": null
+              },
+              {
+                "url": "https://cuisine-addict.com/dahl-lentilles-corail",
+                "title": "Dahl de lentilles corail - Recette indienne - Cuisine Addict",
+                "content": "Rincez et égouttez les lentilles corail. Pelez les oignons et ciselez-les finement. Pelez et dégermez l'ail puis pressez-le avec le",
+                "score": 0.9999937,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.byopaline.com/recette-dahl-lentilles-corail/amp",
+                "title": "Dahl de lentilles corail et cheese naan - recettes indiennes",
+                "content": "Ingrédients · 250 g lentilles corail · 1 oignon · gingembre frais · 400 mL crème de coco · 1 c. à soupe concentré de tomate · coriandre fraîche · curry",
+                "score": 0.9999919,
+                "raw_content": null
+              },
+              {
+                "url": "https://cannellecoriandre.com/dahl-lentilles-corail-lait-coco",
+                "title": "Dahl de lentilles corail et lait coco à l'indienne - Cannelle et Coriandre",
+                "content": "Ingrédients · 250g de lentilles corail · 1 oignon · 2 gousses d'ail · 1 cuil. à soupe d'huile de coco · 1 cuil. à café de pâte de gingembre (ou",
+                "score": 0.9999896,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.marmiton.org/recettes/recette_dahl-de-lentilles-corail_166862.aspx",
+                "title": "Recette de Dahl de lentilles corail - Marmiton",
+                "content": "Le dahl de lentilles corail est un plat indien végétarien, nourrissant, parfumé et ultra simple à préparer. Parfait pour un dîner sain et réconfortant. Qu'est-",
+                "score": 0.999985,
+                "raw_content": null
+              }
+            ],
+            "response_time": 0.81,
+            "request_id": "4504c461-1ab7-4c83-a8c2-0b44833eef05"
           }
         },
         {
-          "id": "toolu_01Tf1YUwhDY6qoDEscYX2CB5",
+          "id": "toolu_01N9i5ZBRB8kzGe91t5fZ2uk",
           "name": "web_search-search",
           "arguments": {
-            "query": "red lentil dhal ingredients amounts serves 4"
+            "query": "red lentil dhal ingredients quantities servings"
           },
           "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
+            "query": "red lentil dhal ingredients quantities servings",
+            "follow_up_questions": null,
+            "answer": null,
+            "images": [],
+            "results": [
+              {
+                "url": "https://www.simplyrecipes.com/recipes/red_lentil_dal",
+                "title": "Red Lentil Dal - Simply Recipes",
+                "content": "Ingredients · 1 cup red lentils (yellow lentils will work as well) · 3 cups water · 3 plum tomatoes · 2 teaspoons vegetable oil · 1/2 cup finely chopped white or",
+                "score": 0.8479807,
+                "raw_content": null
+              },
+              {
+                "url": "https://food52.com/recipes/73712-red-lentil-dhal",
+                "title": "Red Lentil Dhal - Food52",
+                "content": "Ingredients ; 1/2 onion, chopped ; 3 cloves garlic, minced or grated ; 1 teaspoon freshly grated or minced ginger ; 2 small tomatoes, diced ; 2 teaspoon ground",
+                "score": 0.8455478,
+                "raw_content": null
+              },
+              {
+                "url": "https://madeleineolivia.co.uk/red-lentil-dahl",
+                "title": "Red Lentil Dahl - Madeleine Olivia - Vegan Recipes",
+                "content": "Ingredients · 1 onion (roughly chopped ) · 2 garlic cloves (roughly chopped ) · 1 tsp turmeric · 1 tsp cumin · 1 tsp chilli · 1 tsp ground coriander · 1 tsp garam",
+                "score": 0.8405867,
+                "raw_content": null
+              },
+              {
+                "url": "https://veggiedesserts.com/red-lentil-dahl",
+                "title": "Red Lentil Dahl",
+                "content": "# The BEST Easy Red Lentil Dahl. Table of plates of curry with text: Quick and easy lentil dhal. Red lentil dal with rice and spinach. How to make red lentil dal. This easy Red Lentil Dahl recipe is a reader favorite! It's a creamy, comforting Indian curry made with lentils, coconut milk, tomatoes, onion, garlic, and warming spices. Naturally vegan, gluten-free, and made in 1-pot, this pantry-friendly dal is ready in just 30 minutes. Readers come back to it again and again because it's easy to make, endlessly adaptable, and ready in about **30 minutes**. This is a one-pot Indian-style lentil curry made with **red lentils, coconut milk, garlic, ginger, tomatoes,** and a handful of warm spices like turmeric, cumin, and garam masala. I love to serve this lentil curry with rice or my super easy naan bread recipe (just 4 ingredients and 15 minutes for homemade naan bread, plus it's yeast-free and easily vegan or gluten free).",
+                "score": 0.779339,
+                "raw_content": null
+              },
+              {
+                "url": "https://www.apinchofhealthy.com/red-lentil-dal",
+                "title": "Red Lentil Dal (Masoor Dal Recipe) - A Pinch of Healthy",
+                "content": "Nutrition is for 4 servings, including 3/4 cup cooked jasmine rice per serving. Nutrition Facts. Red Lentil Dal (Masoor Dal Recipe). Amount Per Serving.",
+                "score": 0.73914057,
+                "raw_content": null
+              }
+            ],
+            "response_time": 0.89,
+            "request_id": "f234a3ec-6a28-42da-ad11-3a42a00f237e"
           }
         }
       ],
       "output": {
-        "ingredients_list": "[{\"ingredient\": \"Lentilles corail\", \"quantity\": \"250g\", \"unit\": \"g\"}, {\"ingredient\": \"Eau\", \"quantity\": \"750\", \"unit\": \"ml\"}, {\"ingredient\": \"Oignon\", \"quantity\": \"1\", \"unit\": \"moyen\"}, {\"ingredient\": \"Ail\", \"quantity\": \"3\", \"unit\": \"gousses\"}, {\"ingredient\": \"Gingembre frais\", \"quantity\": \"1\", \"unit\": \"cuillère à café (râpé)\"}, {\"ingredient\": \"Tomate\", \"quantity\": \"1\", \"unit\": \"moyenne\"}, {\"ingredient\": \"Curcuma\", \"quantity\": \"1\", \"unit\": \"cuillère à café\"}, {\"ingredient\": \"Cumin\", \"quantity\": \"1\", \"unit\": \"cuillère à café\"}, {\"ingredient\": \"Coriandre moulue\", \"quantity\": \"0.5\", \"unit\": \"cuillère à café\"}, {\"ingredient\": \"Piment rouge séché\", \"quantity\": \"1\", \"unit\": \"entier\"}, {\"ingredient\": \"Graines de moutarde\", \"quantity\": \"1\", \"unit\": \"cuillère à café\"}, {\"ingredient\": \"Huile de coco ou huile neutre\", \"quantity\": \"3\", \"unit\": \"cuillères à soupe\"}, {\"ingredient\": \"Lait de coco\", \"quantity\": \"100\", \"unit\": \"ml\"}, {\"ingredient\": \"Sel\", \"quantity\": \"à goût\", \"unit\": \"\"}, {\"ingredient\": \"Citron frais\", \"quantity\": \"0.5\", \"unit\": \"citron\"}, {\"ingredient\": \"Coriandre fraîche\", \"quantity\": \"poignée\", \"unit\": \"garniture\"}]",
-        "substitutions": "{\"lentilles_corail\": \"Lentilles jaunes ou vertes (temps de cuisson légèrement augmenté)\", \"lait_de_coco\": \"Crème de coco, lait d'amande ou bouillon de légumes pour texture plus légère\", \"huile_de_coco\": \"Huile de tournesol, huile d'arachide ou ghee végétal\", \"gingembre_frais\": \"Gingembre en poudre (1/4 cuillère à café) ou gingembre confit\", \"coriandre_fraiche\": \"Persil plat ou menthe fraîche pour garnition\", \"piment_rouge_seche\": \"Piment en poudre de Cayenne (1/4 cuillère à café) ou omis pour version douce\"}",
-        "sourcing_notes": "{\"lentilles_corail\": \"Disponibles dans tous les supermarchés, rayon légumineuses sèches ou bio.\", \"lait_de_coco\": \"Chercher une marque sans additifs pour un dahl crémeux authentique; les versions en boîte sont plus concentrées que les briques.\", \"epices_principales\": \"Curcuma, cumin et coriandre moulue se trouvent au rayon épices; préférer des épices fraîches (moins de 6 mois) pour meilleur rendu saveur.\", \"graines_de_moutarde\": \"Épice spécifique pour le tempérage (tadka), essentielle au goût authentique; magasins indiens ou rayon épices spécialisé.\", \"gingembre_ail_frais\": \"Choisir gingembre ferme et ail non germiné; se conservent 2-3 semaines au frais.\"}"
+        "ingredients_list": "[{\"ingredient\": \"Lentilles corail\", \"quantity\": \"250g\"}, {\"ingredient\": \"Oignon blanc ou jaune\", \"quantity\": \"1 moyen\"}, {\"ingredient\": \"Ail\", \"quantity\": \"3 gousses\"}, {\"ingredient\": \"Gingembre frais\", \"quantity\": \"15g (1 morceau)\"}, {\"ingredient\": \"Lait de coco\", \"quantity\": \"400ml\"}, {\"ingredient\": \"Tomates fraîches ou concentré\", \"quantity\": \"2 tomates moyennes ou 1 c.à.s concentré\"}, {\"ingredient\": \"Huile de coco ou huile neutre\", \"quantity\": \"2 c.à.s\"}, {\"ingredient\": \"Curcuma en poudre\", \"quantity\": \"1 c.à.c\"}, {\"ingredient\": \"Cumin en grains ou poudre\", \"quantity\": \"1 c.à.c\"}, {\"ingredient\": \"Coriandre en grains ou poudre\", \"quantity\": \"1 c.à.c\"}, {\"ingredient\": \"Garam masala\", \"quantity\": \"1 c.à.c\"}, {\"ingredient\": \"Sel\", \"quantity\": \"selon goût\"}, {\"ingredient\": \"Poivre noir\", \"quantity\": \"selon goût\"}, {\"ingredient\": \"Eau ou bouillon de légumes\", \"quantity\": \"500ml\"}, {\"ingredient\": \"Coriandre fraîche (facultatif)\", \"quantity\": \"poignée pour garnir\"}]",
+        "substitutions": "{\"Lentilles corail\": \"Lentilles jaunes (légèrement plus longues à cuire, +5 min)\", \"Lait de coco\": \"Lait d'amande ou crème de riz pour alléger\", \"Garam masala\": \"Mélange curry en poudre (1,5 c.à.c)\", \"Cumin grains\": \"Cumin poudre (0,5 c.à.c)\", \"Gingembre frais\": \"Poudre de gingembre (0,5 c.à.c)\"}",
+        "sourcing_notes": "{\"Lentilles corail\": \"Disponibles en magasins bio et épiceries ethniques, conservation longue durée.\", \"Lait de coco\": \"Vérifier composition sans additifs, préférer boîte conserve ou brique BIO.\", \"Garam masala\": \"Mélange traditionnel d'épices indien, disponible en magasins spécialisés ou fabrication maison.\", \"Gingembre frais\": \"Choisir ferme et sans moisissure, peut être congelé pour utilisation ultérieure.\", \"Coriandre fraîche\": \"Optionnel mais traditionnel, disponible en marchés et supermarchés spécialisés.\"}"
       }
     },
     {
-      "offset_ms": 17119,
+      "offset_ms": 20006,
       "event": "stage_start",
       "stage": "nutritional-profile",
       "stage_index": 2,
@@ -267,403 +668,49 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 17122,
+      "offset_ms": 20007,
       "event": "stage_context",
       "stage": "nutritional-profile",
       "context_keys": {
         "input": 186,
-        "previous_stage_output": 2612
+        "previous_stage_output": 2013
       }
     },
     {
-      "offset_ms": 28884,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Dahl de lentilles corail",
-          "cuisine": "Indienne",
-          "timeMinutes": 30,
-          "portions": 4,
-          "emoji": "🍲",
-          "calories": 285,
-          "ingredients": [
-            {
-              "name": "Lentilles corail",
-              "quantity": "250",
-              "group": "légumineuses"
-            },
-            {
-              "name": "Eau",
-              "quantity": "750",
-              "group": "liquide"
-            },
-            {
-              "name": "Oignon",
-              "quantity": "1",
-              "group": "aromaties"
-            },
-            {
-              "name": "Ail",
-              "quantity": "3",
-              "group": "aromaties"
-            },
-            {
-              "name": "Gingembre frais",
-              "quantity": "5",
-              "group": "aromaties"
-            },
-            {
-              "name": "Tomate",
-              "quantity": "1",
-              "group": "légumes"
-            },
-            {
-              "name": "Curcuma",
-              "quantity": "1",
-              "group": "épices"
-            },
-            {
-              "name": "Cumin",
-              "quantity": "1",
-              "group": "épices"
-            },
-            {
-              "name": "Coriandre moulue",
-              "quantity": "0.5",
-              "group": "épices"
-            },
-            {
-              "name": "Piment rouge séché",
-              "quantity": "1",
-              "group": "épices"
-            },
-            {
-              "name": "Graines de moutarde",
-              "quantity": "1",
-              "group": "épices"
-            },
-            {
-              "name": "Huile de coco",
-              "quantity": "3",
-              "group": "matières grasses"
-            },
-            {
-              "name": "Lait de coco",
-              "quantity": "100",
-              "group": "produits laitiers végétaux"
-            },
-            {
-              "name": "Sel",
-              "quantity": "à goût",
-              "group": "assaisonnement"
-            },
-            {
-              "name": "Citron frais",
-              "quantity": "0.5",
-              "group": "agrumes"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "poignée",
-              "group": "herbes fraîches",
-              "optional": true
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparation des ingrédients",
-              "instructions": [
-                "Éplucher et émincer l'oignon finement",
-                "Hacher l'ail et râper le gingembre frais",
-                "Découper la tomate en petits dés",
-                "Rincer les lentilles corail à l'eau froide"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 2,
-              "title": "Tempérage (Tadka) - Base aromatique",
-              "instructions": [
-                "Chauffer l'huile de coco dans une grande casserole à feu moyen-vif",
-                "Ajouter les graines de moutarde et laisser crépiter 30 secondes",
-                "Ajouter l'oignon émincé et faire dorer 2-3 minutes",
-                "Incorporer l'ail haché et le gingembre râpé, cuire 1 minute"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 3,
-              "title": "Ajout des épices et aromates",
-              "instructions": [
-                "Ajouter le curcuma, le cumin et la coriandre moulue",
-                "Verser les dés de tomate et cuire 2 minutes pour libérer les arômes",
-                "Émietter le piment rouge séché et l'ajouter au mélange"
-              ],
-              "durationMinutes": 3
-            },
-            {
-              "order": 4,
-              "title": "Cuisson des lentilles",
-              "instructions": [
-                "Ajouter les lentilles corail rincées à la casserole",
-                "Verser l'eau et bien mélanger",
-                "Porter à ébullition, puis réduire le feu et laisser mijoter 15-18 minutes à découvert",
-                "Les lentilles doivent être tendres mais encore légèrement fermes"
-              ],
-              "durationMinutes": 18
-            },
-            {
-              "order": 5,
-              "title": "Finition",
-              "instructions": [
-                "Verser le lait de coco et mélanger délicatement",
-                "Ajouter le jus du demi-citron frais",
-                "Rectifier le sel selon le goût",
-                "Garnir de coriandre fraîche hachée"
-              ],
-              "durationMinutes": 2
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Les lentilles corail se désagrègent légèrement : c'est normal et désiré pour une texture crémeuse",
-              "Ne pas couvrir la casserole pendant la cuisson pour que l'eau s'évapore progressivement",
-              "Le dahl s'épaissit en refroidissant : ajuster la consistance avec de l'eau si nécessaire"
-            ],
-            "variations": [
-              "Version plus épicée : augmenter le piment ou ajouter 1 piment frais haché",
-              "Version crémeuse : remplacer le lait de coco par du lait d'amande ou de la crème de noix de coco",
-              "Dahl minimaliste : omettre la tomate et ajouter 100ml de bouillon de légumes"
-            ],
-            "conservation": "Se conserve 3-4 jours au réfrigérateur en récipient hermétique. Congélation possible jusqu'à 3 mois. Réchauffer à feu doux en ajoutant un peu d'eau si trop épais.",
-            "nutrition": "Riche en protéines végétales (10-12g par portion), glucides complexes et fibres. Excellente source de curcumine (curcuma) aux propriétés anti-inflammatoires. Gras sains du lait et huile de coco."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 29862,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesxjs7000009ijjh4qaiyn",
-        "title": "Dahl de lentilles corail"
-      },
-      "duration_ms": 978
-    },
-    {
-      "offset_ms": 31273,
+      "offset_ms": 34131,
       "event": "stage_complete",
       "stage": "nutritional-profile",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 14154,
+      "duration_ms": 14125,
       "tokens": {
-        "prompt": 7994,
-        "completion": 1915,
-        "total": 9909
+        "prompt": 7578,
+        "completion": 1958,
+        "total": 9536
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01L6q3gWVpb8ciT19UJ8dtVq",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Dahl de lentilles corail",
-              "cuisine": "Indienne",
-              "timeMinutes": 30,
-              "portions": 4,
-              "emoji": "🍲",
-              "calories": 285,
-              "ingredients": [
-                {
-                  "name": "Lentilles corail",
-                  "quantity": "250",
-                  "group": "légumineuses"
-                },
-                {
-                  "name": "Eau",
-                  "quantity": "750",
-                  "group": "liquide"
-                },
-                {
-                  "name": "Oignon",
-                  "quantity": "1",
-                  "group": "aromaties"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "3",
-                  "group": "aromaties"
-                },
-                {
-                  "name": "Gingembre frais",
-                  "quantity": "5",
-                  "group": "aromaties"
-                },
-                {
-                  "name": "Tomate",
-                  "quantity": "1",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Curcuma",
-                  "quantity": "1",
-                  "group": "épices"
-                },
-                {
-                  "name": "Cumin",
-                  "quantity": "1",
-                  "group": "épices"
-                },
-                {
-                  "name": "Coriandre moulue",
-                  "quantity": "0.5",
-                  "group": "épices"
-                },
-                {
-                  "name": "Piment rouge séché",
-                  "quantity": "1",
-                  "group": "épices"
-                },
-                {
-                  "name": "Graines de moutarde",
-                  "quantity": "1",
-                  "group": "épices"
-                },
-                {
-                  "name": "Huile de coco",
-                  "quantity": "3",
-                  "group": "matières grasses"
-                },
-                {
-                  "name": "Lait de coco",
-                  "quantity": "100",
-                  "group": "produits laitiers végétaux"
-                },
-                {
-                  "name": "Sel",
-                  "quantity": "à goût",
-                  "group": "assaisonnement"
-                },
-                {
-                  "name": "Citron frais",
-                  "quantity": "0.5",
-                  "group": "agrumes"
-                },
-                {
-                  "name": "Coriandre fraîche",
-                  "quantity": "poignée",
-                  "group": "herbes fraîches",
-                  "optional": true
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparation des ingrédients",
-                  "instructions": [
-                    "Éplucher et émincer l'oignon finement",
-                    "Hacher l'ail et râper le gingembre frais",
-                    "Découper la tomate en petits dés",
-                    "Rincer les lentilles corail à l'eau froide"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 2,
-                  "title": "Tempérage (Tadka) - Base aromatique",
-                  "instructions": [
-                    "Chauffer l'huile de coco dans une grande casserole à feu moyen-vif",
-                    "Ajouter les graines de moutarde et laisser crépiter 30 secondes",
-                    "Ajouter l'oignon émincé et faire dorer 2-3 minutes",
-                    "Incorporer l'ail haché et le gingembre râpé, cuire 1 minute"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 3,
-                  "title": "Ajout des épices et aromates",
-                  "instructions": [
-                    "Ajouter le curcuma, le cumin et la coriandre moulue",
-                    "Verser les dés de tomate et cuire 2 minutes pour libérer les arômes",
-                    "Émietter le piment rouge séché et l'ajouter au mélange"
-                  ],
-                  "durationMinutes": 3
-                },
-                {
-                  "order": 4,
-                  "title": "Cuisson des lentilles",
-                  "instructions": [
-                    "Ajouter les lentilles corail rincées à la casserole",
-                    "Verser l'eau et bien mélanger",
-                    "Porter à ébullition, puis réduire le feu et laisser mijoter 15-18 minutes à découvert",
-                    "Les lentilles doivent être tendres mais encore légèrement fermes"
-                  ],
-                  "durationMinutes": 18
-                },
-                {
-                  "order": 5,
-                  "title": "Finition",
-                  "instructions": [
-                    "Verser le lait de coco et mélanger délicatement",
-                    "Ajouter le jus du demi-citron frais",
-                    "Rectifier le sel selon le goût",
-                    "Garnir de coriandre fraîche hachée"
-                  ],
-                  "durationMinutes": 2
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Les lentilles corail se désagrègent légèrement : c'est normal et désiré pour une texture crémeuse",
-                  "Ne pas couvrir la casserole pendant la cuisson pour que l'eau s'évapore progressivement",
-                  "Le dahl s'épaissit en refroidissant : ajuster la consistance avec de l'eau si nécessaire"
-                ],
-                "variations": [
-                  "Version plus épicée : augmenter le piment ou ajouter 1 piment frais haché",
-                  "Version crémeuse : remplacer le lait de coco par du lait d'amande ou de la crème de noix de coco",
-                  "Dahl minimaliste : omettre la tomate et ajouter 100ml de bouillon de légumes"
-                ],
-                "conservation": "Se conserve 3-4 jours au réfrigérateur en récipient hermétique. Congélation possible jusqu'à 3 mois. Réchauffer à feu doux en ajoutant un peu d'eau si trop épais.",
-                "nutrition": "Riche en protéines végétales (10-12g par portion), glucides complexes et fibres. Excellente source de curcumine (curcuma) aux propriétés anti-inflammatoires. Gras sains du lait et huile de coco."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpesxjs7000009ijjh4qaiyn",
-            "title": "Dahl de lentilles corail"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "macros": "Protéines: 18g, Glucides: 38g, Lipides: 8g",
-        "allergens": "Aucun allergène majeur déclaré",
-        "dietary_flags": "Vegan, Sans gluten, Riche en protéines végétales, Riche en fibres",
-        "adjustment_recommendations": "Aucun ajustement requis"
+        "macros": "protéines: 18g, glucides: 35g, lipides: 8g",
+        "allergens": "Peut contenir des traces de sésame (selon les épices mélangées)",
+        "dietary_flags": "vegan, sans gluten, riche en fibres, riche en protéines végétales",
+        "adjustment_recommendations": "Ajouter 1 c.à.c de jus de citron frais pour rehausser les saveurs épicées et améliorer l'absorption du fer des lentilles"
       }
     },
     {
-      "offset_ms": 31274,
+      "offset_ms": 34132,
       "event": "group_start",
       "group": "recipe-refinement",
       "max_iterations": 3
     },
     {
-      "offset_ms": 31274,
+      "offset_ms": 34132,
       "event": "group_iteration",
       "group": "recipe-refinement",
       "iteration": 1,
       "max_iterations": 3
     },
     {
-      "offset_ms": 31274,
+      "offset_ms": 34132,
       "event": "stage_start",
       "stage": "recipe-drafting",
       "stage_index": 3,
@@ -671,16 +718,16 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 31275,
+      "offset_ms": 34133,
       "event": "stage_context",
       "stage": "recipe-drafting",
       "context_keys": {
         "input": 186,
-        "previous_stage_output": 3891
+        "previous_stage_output": 3497
       }
     },
     {
-      "offset_ms": 45824,
+      "offset_ms": 46905,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
@@ -690,7 +737,7 @@
           "cuisine": "Indienne",
           "timeMinutes": 30,
           "portions": 4,
-          "emoji": "🍲",
+          "emoji": "🍛",
           "calories": 285,
           "ingredients": [
             {
@@ -698,11 +745,7 @@
               "quantity": "250g"
             },
             {
-              "name": "Eau",
-              "quantity": "750ml"
-            },
-            {
-              "name": "Oignon",
+              "name": "Oignon blanc ou jaune",
               "quantity": "1 moyen"
             },
             {
@@ -711,51 +754,56 @@
             },
             {
               "name": "Gingembre frais",
-              "quantity": "1 cuillère à café râpé"
-            },
-            {
-              "name": "Tomate",
-              "quantity": "1 moyenne"
-            },
-            {
-              "name": "Curcuma",
-              "quantity": "1 cuillère à café"
-            },
-            {
-              "name": "Cumin",
-              "quantity": "1 cuillère à café"
-            },
-            {
-              "name": "Coriandre moulue",
-              "quantity": "0.5 cuillère à café"
-            },
-            {
-              "name": "Piment rouge séché",
-              "quantity": "1 entier"
-            },
-            {
-              "name": "Graines de moutarde",
-              "quantity": "1 cuillère à café"
-            },
-            {
-              "name": "Huile de coco",
-              "quantity": "3 cuillères à soupe"
+              "quantity": "15g"
             },
             {
               "name": "Lait de coco",
-              "quantity": "100ml"
+              "quantity": "400ml"
+            },
+            {
+              "name": "Tomates fraîches",
+              "quantity": "2 moyennes"
+            },
+            {
+              "name": "Huile de coco",
+              "quantity": "2 c.à.s"
+            },
+            {
+              "name": "Curcuma en poudre",
+              "quantity": "1 c.à.c"
+            },
+            {
+              "name": "Cumin en grains",
+              "quantity": "1 c.à.c"
+            },
+            {
+              "name": "Coriandre en grains",
+              "quantity": "1 c.à.c"
+            },
+            {
+              "name": "Garam masala",
+              "quantity": "1 c.à.c"
             },
             {
               "name": "Sel",
-              "quantity": "à goût"
+              "quantity": "selon goût"
             },
             {
-              "name": "Citron frais",
-              "quantity": "0.5 citron"
+              "name": "Poivre noir",
+              "quantity": "selon goût"
+            },
+            {
+              "name": "Eau ou bouillon de légumes",
+              "quantity": "500ml"
             },
             {
               "name": "Coriandre fraîche",
-              "quantity": "poignée pour garnir"
+              "quantity": "poignée",
+              "optional": true
+            },
+            {
+              "name": "Jus de citron frais",
+              "quantity": "1 c.à.c"
             }
           ],
           "steps": [
@@ -765,117 +813,113 @@
               "instructions": [
                 "Rincer les lentilles corail sous l'eau froide jusqu'à ce que l'eau soit claire",
                 "Émincer finement l'oignon",
-                "Hacher l'ail et râper le gingembre",
-                "Couper la tomate en petits dés"
+                "Mincer l'ail et le gingembre frais",
+                "Concasser les tomates fraîches ou préparer le concentré"
               ],
               "durationMinutes": 5
             },
             {
               "order": 2,
-              "title": "Cuire les lentilles",
+              "title": "Tempérer les épices",
               "instructions": [
-                "Verser l'eau dans une casserole et la porter à ébullition",
-                "Ajouter les lentilles corail rincées",
-                "Réduire le feu et laisser cuire 12-15 minutes jusqu'à ce que les lentilles soient tendres et commencent à se désagréger",
-                "Les lentilles ne doivent pas être complètement réduites en purée"
+                "Chauffer l'huile de coco à feu moyen dans une grande casserole",
+                "Ajouter les grains de cumin et laisser grésiller 30 secondes",
+                "Ajouter les grains de coriandre et continuer 30 secondes supplémentaires",
+                "Verser l'oignon émincé et faire revenir 3 minutes jusqu'à translucidité"
               ],
-              "durationMinutes": 15
+              "durationMinutes": 3
             },
             {
               "order": 3,
-              "title": "Préparer la base épicée",
+              "title": "Ajouter aromatiques et épices en poudre",
               "instructions": [
-                "Pendant la cuisson des lentilles, verser 1 cuillère à soupe d'huile de coco dans une poêle",
-                "Faire revenir l'oignon émincé à feu moyen jusqu'à ce qu'il soit translucide (3-4 minutes)",
-                "Ajouter l'ail haché et le gingembre râpé, cuire 1 minute pour parfumer",
-                "Verser la tomate en dés, curcuma, cumin et coriandre moulue",
-                "Mélanger et laisser cuire 2-3 minutes jusqu'à ce que la tomate se ramollisse"
+                "Ajouter l'ail et le gingembre minces, mélanger 1 minute",
+                "Saupoudrer le curcuma et le garam masala, bien mélanger",
+                "Ajouter les tomates concassées, laisser cuire 2 minutes"
               ],
-              "durationMinutes": 8
+              "durationMinutes": 3
             },
             {
               "order": 4,
-              "title": "Combiner les éléments",
+              "title": "Incorporer les lentilles et liquides",
               "instructions": [
-                "Verser le mélange épicé dans la casserole de lentilles cuites",
-                "Ajouter le lait de coco et mélanger délicatement",
-                "Ajuster la consistance avec un peu d'eau si nécessaire (le dahl doit être fluide mais onctueux)",
-                "Saler et poivrer selon le goût",
-                "Laisser mijoter 2-3 minutes"
+                "Verser les lentilles corail rincées dans la casserole",
+                "Ajouter l'eau ou le bouillon de légumes",
+                "Bien mélanger, porter à ébullition",
+                "Réduire le feu à moyen-doux et laisser cuire à couvert"
               ],
-              "durationMinutes": 5
+              "durationMinutes": 2
             },
             {
               "order": 5,
-              "title": "Préparer le tempérage (tadka)",
+              "title": "Cuisson des lentilles",
               "instructions": [
-                "Dans une petite poêle, chauffer les 2 cuillères à soupe d'huile de coco restantes à feu vif",
-                "Ajouter les graines de moutarde et le piment rouge séché entier",
-                "Laisser les graines éclater et le piment griller légèrement (30-45 secondes)",
-                "Verser immédiatement ce mélange épicé chaud sur le dahl",
-                "Le dahl va crépiter légèrement : c'est normal et souhaité"
+                "Laisser cuire à couvert pendant 15-18 minutes",
+                "Les lentilles doivent être tendres mais pas désintégrées",
+                "Remuer occasionnellement pour éviter l'adhérence",
+                "Ajouter du bouillon chaud si nécessaire pour obtenir une texture crémeuse"
               ],
-              "durationMinutes": 2
+              "durationMinutes": 17
             },
             {
               "order": 6,
-              "title": "Finition et service",
+              "title": "Finition et assaisonnement",
               "instructions": [
-                "Ajouter le jus du demi-citron frais",
-                "Mélanger délicatement",
-                "Garnir de coriandre fraîche ciselée",
-                "Servir chaud, accompagné de riz basmati ou de pain plat (naan, chapati)"
+                "Verser le lait de coco et bien mélanger",
+                "Ajouter le jus de citron frais",
+                "Goûter et ajuster l'assaisonnement avec sel et poivre",
+                "Laisser mijoter 2 minutes supplémentaires",
+                "Garnir de coriandre fraîche si disponible"
               ],
-              "durationMinutes": 2
+              "durationMinutes": 3
             }
           ],
           "notes": {
             "chef": [
-              "Le temps de cuisson total respecte la contrainte de 30 minutes : 5 min préparation + 15 min lentilles + 8 min base + 2 min assemblage = 30 minutes maximum",
-              "Les lentilles corail cuisant très rapidement (12-15 min), elles ne nécessitent pas de trempage préalable",
-              "Le tempérage (tadka) est une étape cruciale de la cuisine indienne : l'huile chaude libère les arômes des épices et crée une saveur distinctive et authentique",
-              "La texture finale du dahl doit être crémeuse mais pas trop épaisse : les lentilles se désagrègent partiellement naturellement",
-              "Veiller à ajouter le tempérage à la fin pour préserver l'intégrité des arômes"
+              "Les lentilles corail cuisent rapidement, ne pas dépasser le temps de cuisson sinon elles deviennent pâteuses",
+              "Le tempérage des épices dans l'huile chaude (blooming) développe les arômes et améliore la saveur globale",
+              "Le jus de citron frais rehausse les saveurs épicées et améliore l'absorption du fer des lentilles",
+              "Texture crémeuse idéale : épaisse mais coulante, ajuster l'eau selon vos préférences"
             ],
             "variations": [
-              "Version crémière : augmenter le lait de coco à 150-200ml pour une texture plus lisse",
-              "Dahl aux épinards : ajouter 150g d'épinards frais en même temps que le lait de coco",
-              "Version très épicée : augmenter les piments rouges à 2 entiers ou ajouter 1/4 de cuillère à café de cayenne",
-              "Dahl aux tomates séchées : remplacer 1 tomate fraîche par 2-3 tomates séchées réhydratées",
-              "Santé bonus : ajouter 1 cuillère à soupe de graines de lin ou courge moulues pour plus de protéines et oméga-3"
+              "Version plus légère : remplacer le lait de coco par du lait d'amande ou de riz",
+              "Ajouter des légumes : épinards, courge butternut, carottes en dés (ajouter avec les lentilles)",
+              "Saveur fumée : ajouter un trait d'huile de sésame en finition",
+              "Piquant supplémentaire : ajouter du piment rouge frais ou en poudre (1/2 c.à.c)",
+              "Garam masala maison : torréfier et moudre clous de girofle, bâton de cannelle, graines de coriandre, cumin et cardamome"
             ],
-            "conservation": "Se conserve 3-4 jours au réfrigérateur en conteneur hermétique. Peut être congelé jusqu'à 2 mois. Réchauffer à feu doux en ajoutant un peu d'eau si nécessaire",
-            "nutrition": "Par portion : 285 calories | Protéines : 18g | Glucides : 38g | Lipides : 8g | Fibres : 8g | Riche en fer et folate. 100% vegan, sans gluten naturel"
+            "conservation": "Conserver au réfrigérateur dans un récipient hermétique pendant 3-4 jours. Réchauffer à feu doux en ajoutant un peu d'eau ou de bouillon. Congélation possible jusqu'à 2 mois.",
+            "nutrition": "Par portion (285 cal) : protéines 18g, glucides 35g, lipides 8g. Sans gluten. Vegan. Riche en fibres et protéines végétales. Source de fer et de magnésium."
           }
         }
       }
     },
     {
-      "offset_ms": 46953,
+      "offset_ms": 47850,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpesxwyn00001pij64f1kh1q",
+        "id": "cmpfs3zji0000k6ijt8yv0qht",
         "title": "Dahl de lentilles corail"
       },
-      "duration_ms": 1129
+      "duration_ms": 945
     },
     {
-      "offset_ms": 53219,
+      "offset_ms": 56618,
       "event": "stage_complete",
       "stage": "recipe-drafting",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 21944,
+      "duration_ms": 22485,
       "tokens": {
-        "prompt": 6260,
-        "completion": 3175,
-        "total": 9435
+        "prompt": 5961,
+        "completion": 3259,
+        "total": 9220
       },
       "tool_calls": [
         {
-          "id": "toolu_01Rxw6S5PFkMRY87DaWtd9FR",
+          "id": "toolu_017rYzwHwytGhG9NHdsLyQdU",
           "name": "db-upsert_recipe",
           "arguments": {
             "data": {
@@ -884,7 +928,7 @@
               "cuisine": "Indienne",
               "timeMinutes": 30,
               "portions": 4,
-              "emoji": "🍲",
+              "emoji": "🍛",
               "calories": 285,
               "ingredients": [
                 {
@@ -892,11 +936,7 @@
                   "quantity": "250g"
                 },
                 {
-                  "name": "Eau",
-                  "quantity": "750ml"
-                },
-                {
-                  "name": "Oignon",
+                  "name": "Oignon blanc ou jaune",
                   "quantity": "1 moyen"
                 },
                 {
@@ -905,51 +945,56 @@
                 },
                 {
                   "name": "Gingembre frais",
-                  "quantity": "1 cuillère à café râpé"
-                },
-                {
-                  "name": "Tomate",
-                  "quantity": "1 moyenne"
-                },
-                {
-                  "name": "Curcuma",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Cumin",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Coriandre moulue",
-                  "quantity": "0.5 cuillère à café"
-                },
-                {
-                  "name": "Piment rouge séché",
-                  "quantity": "1 entier"
-                },
-                {
-                  "name": "Graines de moutarde",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Huile de coco",
-                  "quantity": "3 cuillères à soupe"
+                  "quantity": "15g"
                 },
                 {
                   "name": "Lait de coco",
-                  "quantity": "100ml"
+                  "quantity": "400ml"
+                },
+                {
+                  "name": "Tomates fraîches",
+                  "quantity": "2 moyennes"
+                },
+                {
+                  "name": "Huile de coco",
+                  "quantity": "2 c.à.s"
+                },
+                {
+                  "name": "Curcuma en poudre",
+                  "quantity": "1 c.à.c"
+                },
+                {
+                  "name": "Cumin en grains",
+                  "quantity": "1 c.à.c"
+                },
+                {
+                  "name": "Coriandre en grains",
+                  "quantity": "1 c.à.c"
+                },
+                {
+                  "name": "Garam masala",
+                  "quantity": "1 c.à.c"
                 },
                 {
                   "name": "Sel",
-                  "quantity": "à goût"
+                  "quantity": "selon goût"
                 },
                 {
-                  "name": "Citron frais",
-                  "quantity": "0.5 citron"
+                  "name": "Poivre noir",
+                  "quantity": "selon goût"
+                },
+                {
+                  "name": "Eau ou bouillon de légumes",
+                  "quantity": "500ml"
                 },
                 {
                   "name": "Coriandre fraîche",
-                  "quantity": "poignée pour garnir"
+                  "quantity": "poignée",
+                  "optional": true
+                },
+                {
+                  "name": "Jus de citron frais",
+                  "quantity": "1 c.à.c"
                 }
               ],
               "steps": [
@@ -959,93 +1004,89 @@
                   "instructions": [
                     "Rincer les lentilles corail sous l'eau froide jusqu'à ce que l'eau soit claire",
                     "Émincer finement l'oignon",
-                    "Hacher l'ail et râper le gingembre",
-                    "Couper la tomate en petits dés"
+                    "Mincer l'ail et le gingembre frais",
+                    "Concasser les tomates fraîches ou préparer le concentré"
                   ],
                   "durationMinutes": 5
                 },
                 {
                   "order": 2,
-                  "title": "Cuire les lentilles",
+                  "title": "Tempérer les épices",
                   "instructions": [
-                    "Verser l'eau dans une casserole et la porter à ébullition",
-                    "Ajouter les lentilles corail rincées",
-                    "Réduire le feu et laisser cuire 12-15 minutes jusqu'à ce que les lentilles soient tendres et commencent à se désagréger",
-                    "Les lentilles ne doivent pas être complètement réduites en purée"
+                    "Chauffer l'huile de coco à feu moyen dans une grande casserole",
+                    "Ajouter les grains de cumin et laisser grésiller 30 secondes",
+                    "Ajouter les grains de coriandre et continuer 30 secondes supplémentaires",
+                    "Verser l'oignon émincé et faire revenir 3 minutes jusqu'à translucidité"
                   ],
-                  "durationMinutes": 15
+                  "durationMinutes": 3
                 },
                 {
                   "order": 3,
-                  "title": "Préparer la base épicée",
+                  "title": "Ajouter aromatiques et épices en poudre",
                   "instructions": [
-                    "Pendant la cuisson des lentilles, verser 1 cuillère à soupe d'huile de coco dans une poêle",
-                    "Faire revenir l'oignon émincé à feu moyen jusqu'à ce qu'il soit translucide (3-4 minutes)",
-                    "Ajouter l'ail haché et le gingembre râpé, cuire 1 minute pour parfumer",
-                    "Verser la tomate en dés, curcuma, cumin et coriandre moulue",
-                    "Mélanger et laisser cuire 2-3 minutes jusqu'à ce que la tomate se ramollisse"
+                    "Ajouter l'ail et le gingembre minces, mélanger 1 minute",
+                    "Saupoudrer le curcuma et le garam masala, bien mélanger",
+                    "Ajouter les tomates concassées, laisser cuire 2 minutes"
                   ],
-                  "durationMinutes": 8
+                  "durationMinutes": 3
                 },
                 {
                   "order": 4,
-                  "title": "Combiner les éléments",
+                  "title": "Incorporer les lentilles et liquides",
                   "instructions": [
-                    "Verser le mélange épicé dans la casserole de lentilles cuites",
-                    "Ajouter le lait de coco et mélanger délicatement",
-                    "Ajuster la consistance avec un peu d'eau si nécessaire (le dahl doit être fluide mais onctueux)",
-                    "Saler et poivrer selon le goût",
-                    "Laisser mijoter 2-3 minutes"
+                    "Verser les lentilles corail rincées dans la casserole",
+                    "Ajouter l'eau ou le bouillon de légumes",
+                    "Bien mélanger, porter à ébullition",
+                    "Réduire le feu à moyen-doux et laisser cuire à couvert"
                   ],
-                  "durationMinutes": 5
+                  "durationMinutes": 2
                 },
                 {
                   "order": 5,
-                  "title": "Préparer le tempérage (tadka)",
+                  "title": "Cuisson des lentilles",
                   "instructions": [
-                    "Dans une petite poêle, chauffer les 2 cuillères à soupe d'huile de coco restantes à feu vif",
-                    "Ajouter les graines de moutarde et le piment rouge séché entier",
-                    "Laisser les graines éclater et le piment griller légèrement (30-45 secondes)",
-                    "Verser immédiatement ce mélange épicé chaud sur le dahl",
-                    "Le dahl va crépiter légèrement : c'est normal et souhaité"
+                    "Laisser cuire à couvert pendant 15-18 minutes",
+                    "Les lentilles doivent être tendres mais pas désintégrées",
+                    "Remuer occasionnellement pour éviter l'adhérence",
+                    "Ajouter du bouillon chaud si nécessaire pour obtenir une texture crémeuse"
                   ],
-                  "durationMinutes": 2
+                  "durationMinutes": 17
                 },
                 {
                   "order": 6,
-                  "title": "Finition et service",
+                  "title": "Finition et assaisonnement",
                   "instructions": [
-                    "Ajouter le jus du demi-citron frais",
-                    "Mélanger délicatement",
-                    "Garnir de coriandre fraîche ciselée",
-                    "Servir chaud, accompagné de riz basmati ou de pain plat (naan, chapati)"
+                    "Verser le lait de coco et bien mélanger",
+                    "Ajouter le jus de citron frais",
+                    "Goûter et ajuster l'assaisonnement avec sel et poivre",
+                    "Laisser mijoter 2 minutes supplémentaires",
+                    "Garnir de coriandre fraîche si disponible"
                   ],
-                  "durationMinutes": 2
+                  "durationMinutes": 3
                 }
               ],
               "notes": {
                 "chef": [
-                  "Le temps de cuisson total respecte la contrainte de 30 minutes : 5 min préparation + 15 min lentilles + 8 min base + 2 min assemblage = 30 minutes maximum",
-                  "Les lentilles corail cuisant très rapidement (12-15 min), elles ne nécessitent pas de trempage préalable",
-                  "Le tempérage (tadka) est une étape cruciale de la cuisine indienne : l'huile chaude libère les arômes des épices et crée une saveur distinctive et authentique",
-                  "La texture finale du dahl doit être crémeuse mais pas trop épaisse : les lentilles se désagrègent partiellement naturellement",
-                  "Veiller à ajouter le tempérage à la fin pour préserver l'intégrité des arômes"
+                  "Les lentilles corail cuisent rapidement, ne pas dépasser le temps de cuisson sinon elles deviennent pâteuses",
+                  "Le tempérage des épices dans l'huile chaude (blooming) développe les arômes et améliore la saveur globale",
+                  "Le jus de citron frais rehausse les saveurs épicées et améliore l'absorption du fer des lentilles",
+                  "Texture crémeuse idéale : épaisse mais coulante, ajuster l'eau selon vos préférences"
                 ],
                 "variations": [
-                  "Version crémière : augmenter le lait de coco à 150-200ml pour une texture plus lisse",
-                  "Dahl aux épinards : ajouter 150g d'épinards frais en même temps que le lait de coco",
-                  "Version très épicée : augmenter les piments rouges à 2 entiers ou ajouter 1/4 de cuillère à café de cayenne",
-                  "Dahl aux tomates séchées : remplacer 1 tomate fraîche par 2-3 tomates séchées réhydratées",
-                  "Santé bonus : ajouter 1 cuillère à soupe de graines de lin ou courge moulues pour plus de protéines et oméga-3"
+                  "Version plus légère : remplacer le lait de coco par du lait d'amande ou de riz",
+                  "Ajouter des légumes : épinards, courge butternut, carottes en dés (ajouter avec les lentilles)",
+                  "Saveur fumée : ajouter un trait d'huile de sésame en finition",
+                  "Piquant supplémentaire : ajouter du piment rouge frais ou en poudre (1/2 c.à.c)",
+                  "Garam masala maison : torréfier et moudre clous de girofle, bâton de cannelle, graines de coriandre, cumin et cardamome"
                 ],
-                "conservation": "Se conserve 3-4 jours au réfrigérateur en conteneur hermétique. Peut être congelé jusqu'à 2 mois. Réchauffer à feu doux en ajoutant un peu d'eau si nécessaire",
-                "nutrition": "Par portion : 285 calories | Protéines : 18g | Glucides : 38g | Lipides : 8g | Fibres : 8g | Riche en fer et folate. 100% vegan, sans gluten naturel"
+                "conservation": "Conserver au réfrigérateur dans un récipient hermétique pendant 3-4 jours. Réchauffer à feu doux en ajoutant un peu d'eau ou de bouillon. Congélation possible jusqu'à 2 mois.",
+                "nutrition": "Par portion (285 cal) : protéines 18g, glucides 35g, lipides 8g. Sans gluten. Vegan. Riche en fibres et protéines végétales. Source de fer et de magnésium."
               }
             }
           },
           "result": {
             "success": true,
-            "id": "cmpesxwyn00001pij64f1kh1q",
+            "id": "cmpfs3zji0000k6ijt8yv0qht",
             "title": "Dahl de lentilles corail"
           }
         }
@@ -1053,31 +1094,27 @@
       "output": {
         "title": "Dahl de lentilles corail",
         "cuisine": "Indienne",
-        "timeMinutes": "30",
+        "timeMinutes": "25",
         "portions": "4",
         "emoji": "🍲",
-        "ingredients": "[{\"name\": \"Lentilles corail\", \"quantity\": \"250g\"}, {\"name\": \"Eau\", \"quantity\": \"750ml\"}, {\"name\": \"Oignon\", \"quantity\": \"1 moyen\"}, {\"name\": \"Ail\", \"quantity\": \"3 gousses\"}, {\"name\": \"Gingembre frais\", \"quantity\": \"1 cuillère à café (râpé)\"}, {\"name\": \"Tomate\", \"quantity\": \"1 moyenne\"}, {\"name\": \"Curcuma\", \"quantity\": \"1 cuillère à café\"}, {\"name\": \"Cumin\", \"quantity\": \"1 cuillère à café\"}, {\"name\": \"Coriandre moulue\", \"quantity\": \"0.5 cuillère à café\"}, {\"name\": \"Piment rouge séché\", \"quantity\": \"1 entier\"}, {\"name\": \"Graines de moutarde\", \"quantity\": \"1 cuillère à café\"}, {\"name\": \"Huile de coco\", \"quantity\": \"3 cuillères à soupe\"}, {\"name\": \"Lait de coco\", \"quantity\": \"100ml\"}, {\"name\": \"Sel\", \"quantity\": \"à goût\"}, {\"name\": \"Citron frais\", \"quantity\": \"0.5\"}, {\"name\": \"Coriandre fraîche\", \"quantity\": \"poignée (garniture)\"}]",
+        "ingredients": "[{\"name\": \"Lentilles corail\", \"quantity\": \"250g\"}, {\"name\": \"Oignon blanc ou jaune\", \"quantity\": \"1 moyen\"}, {\"name\": \"Ail\", \"quantity\": \"3 gousses\"}, {\"name\": \"Gingembre frais\", \"quantity\": \"15g\"}, {\"name\": \"Lait de coco\", \"quantity\": \"400ml\"}, {\"name\": \"Tomates fraîches\", \"quantity\": \"2 tomates moyennes\"}, {\"name\": \"Huile de coco\", \"quantity\": \"2 c.à.s\"}, {\"name\": \"Curcuma en poudre\", \"quantity\": \"1 c.à.c\"}, {\"name\": \"Cumin en grains\", \"quantity\": \"1 c.à.c\"}, {\"name\": \"Coriandre en grains\", \"quantity\": \"1 c.à.c\"}, {\"name\": \"Garam masala\", \"quantity\": \"1 c.à.c\"}, {\"name\": \"Eau ou bouillon de légumes\", \"quantity\": \"500ml\"}, {\"name\": \"Jus de citron frais\", \"quantity\": \"1 c.à.c\"}, {\"name\": \"Coriandre fraîche\", \"quantity\": \"poignée\", \"optional\": true}, {\"name\": \"Sel\", \"quantity\": \"selon goût\"}, {\"name\": \"Poivre noir\", \"quantity\": \"selon goût\"}]",
         "steps": [
-          "Rincer les lentilles corail à l'eau froide",
-          "Chauffer 750ml d'eau dans une grande casserole et porter à ébullition",
-          "Ajouter les lentilles rincées et cuire 15-18 minutes jusqu'à ce qu'elles soient tendres et réduites en purée",
-          "Pendant ce temps, préparer le tempérage : hacher finement l'oignon, l'ail, le gingembre et la tomate",
-          "Chauffer l'huile de coco dans une poêle à feu moyen-vif",
-          "Ajouter les graines de moutarde et le piment rouge séché, laisser crépiter 30 secondes",
-          "Ajouter l'oignon et cuire 3-4 minutes jusqu'à ce qu'il soit doré",
-          "Incorporer l'ail, le gingembre et cuire 1 minute",
-          "Ajouter la tomate, le curcuma, le cumin et la coriandre moulue, mélanger et cuire 2 minutes",
-          "Verser le tempérage dans les lentilles cuites, bien mélanger",
-          "Ajouter le lait de coco et mélanger pour obtenir une texture crémeuse",
-          "Assaisonner avec le sel et un trait de jus de citron frais",
-          "Laisser mijoter 2-3 minutes pour que les saveurs se mélangent",
-          "Servir chaud, garni de coriandre fraîche"
+          "Rincer les lentilles corail à l'eau froide et réserver",
+          "Émincer l'oignon et hacher finement l'ail et le gingembre",
+          "Chauffer l'huile de coco dans une grande casserole à feu moyen-vif. Tempérer les grains de cumin et de coriandre pendant 1 minute jusqu'à libération des arômes",
+          "Ajouter l'oignon émincé et cuire 3-4 minutes jusqu'à translucidité. Incorporer l'ail et le gingembre, cuire 1 minute",
+          "Saupoudrer le curcuma et le garam masala, mélanger et cuire 30 secondes pour révéler les saveurs",
+          "Ajouter les lentilles rincées, l'eau ou bouillon, et les tomates fraîches coupées en morceaux. Porter à ébullition",
+          "Réduire le feu et laisser cuire 15-18 minutes à couvert jusqu'à ce que les lentilles soient tendres",
+          "Verser le lait de coco progressivement en remuant pour émulsionner. Ajuster la consistency selon les préférences",
+          "Assaisonner avec le jus de citron, le sel et le poivre noir. Laisser mijoter 2-3 minutes supplémentaires",
+          "Servir chaud garni de coriandre fraîche hachée si souhaité"
         ],
-        "notes": "Plat vegan, sans gluten et riche en protéines végétales. Pour 4 personnes avec temps de préparation respectant la limite de 30 minutes. Peut se servir avec du riz basmati ou du pain naan pour une meal complète."
+        "notes": "{\"chef\": [\"Les lentilles corail se désintègrent légèrement, créant une texture onctueuse naturelle idéale pour un dahl\", \"Le tempérage des épices dans l'huile chaude intensifie leurs saveurs et les rend plus digestibles\", \"Ajuster la consistance avec de l'eau si trop épaisse, ou ajouter du lait de coco si trop liquide\"], \"variations\": [\"Ajouter des légumes supplémentaires: épinards, carottes, ou courges en cubes\", \"Utiliser du lait d'amande ou crème de riz à la place du lait de coco pour une version allégée\", \"Remplacer garam masala par 1,5 c.à.c de curry en poudre\", \"Servir avec du riz basmati, du naan sans gluten, ou avec du pain plat maison\"], \"conservation\": \"Se conserve 4-5 jours au réfrigérateur en récipient hermétique. Peut être congelé jusqu'à 3 mois. Réchauffer doucement en ajoutant un peu d'eau si nécessaire\", \"nutrition\": \"Par portion: protéines 18g, glucides 35g, lipides 8g. Riche en fibres et protéines végétales. Végan, sans gluten. L'ajout de jus de citron frais améliore l'absorption du fer des lentilles\"}"
       }
     },
     {
-      "offset_ms": 53219,
+      "offset_ms": 56618,
       "event": "stage_start",
       "stage": "technique-validation",
       "stage_index": 4,
@@ -1085,338 +1122,41 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 53221,
+      "offset_ms": 56619,
       "event": "stage_context",
       "stage": "technique-validation",
       "context_keys": {
-        "previous_stage_output": 2312
+        "previous_stage_output": 3185
       }
     },
     {
-      "offset_ms": 59864,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Dahl de lentilles corail",
-          "cuisine": "Indienne",
-          "timeMinutes": 30,
-          "portions": 4,
-          "emoji": "🍲",
-          "ingredients": [
-            {
-              "name": "Lentilles corail",
-              "quantity": "250g"
-            },
-            {
-              "name": "Eau",
-              "quantity": "750ml"
-            },
-            {
-              "name": "Oignon",
-              "quantity": "1 moyen"
-            },
-            {
-              "name": "Ail",
-              "quantity": "3 gousses"
-            },
-            {
-              "name": "Gingembre frais",
-              "quantity": "1 cuillère à café (râpé)"
-            },
-            {
-              "name": "Tomate",
-              "quantity": "1 moyenne"
-            },
-            {
-              "name": "Curcuma",
-              "quantity": "1 cuillère à café"
-            },
-            {
-              "name": "Cumin",
-              "quantity": "1 cuillère à café"
-            },
-            {
-              "name": "Coriandre moulue",
-              "quantity": "0.5 cuillère à café"
-            },
-            {
-              "name": "Piment rouge séché",
-              "quantity": "1 entier"
-            },
-            {
-              "name": "Graines de moutarde",
-              "quantity": "1 cuillère à café"
-            },
-            {
-              "name": "Huile de coco",
-              "quantity": "3 cuillères à soupe"
-            },
-            {
-              "name": "Lait de coco",
-              "quantity": "100ml"
-            },
-            {
-              "name": "Sel",
-              "quantity": "à goût"
-            },
-            {
-              "name": "Citron frais",
-              "quantity": "0.5"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "poignée (garniture)"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparation des lentilles",
-              "instructions": [
-                "Rincer les lentilles corail à l'eau froide"
-              ]
-            },
-            {
-              "order": 2,
-              "title": "Cuisson des lentilles",
-              "instructions": [
-                "Chauffer 750ml d'eau dans une grande casserole et porter à ébullition",
-                "Ajouter les lentilles rincées et cuire 15-18 minutes jusqu'à ce qu'elles soient tendres et réduites en purée"
-              ],
-              "durationMinutes": 18
-            },
-            {
-              "order": 3,
-              "title": "Préparation du tempérage",
-              "instructions": [
-                "Hacher finement l'oignon, l'ail, le gingembre et la tomate"
-              ]
-            },
-            {
-              "order": 4,
-              "title": "Tempérage aux épices",
-              "instructions": [
-                "Chauffer l'huile de coco dans une poêle à feu moyen-vif",
-                "Ajouter les graines de moutarde et le piment rouge séché, laisser crépiter 30 secondes",
-                "Ajouter l'oignon et cuire 3-4 minutes jusqu'à ce qu'il soit doré",
-                "Incorporer l'ail, le gingembre et cuire 1 minute",
-                "Ajouter la tomate, le curcuma, le cumin et la coriandre moulue, mélanger et cuire 2 minutes"
-              ],
-              "durationMinutes": 10
-            },
-            {
-              "order": 5,
-              "title": "Assemblage et finition",
-              "instructions": [
-                "Verser le tempérage dans les lentilles cuites, bien mélanger",
-                "Ajouter le lait de coco et mélanger pour obtenir une texture crémeuse",
-                "Assaisonner avec le sel et un trait de jus de citron frais",
-                "Laisser mijoter 2-3 minutes pour que les saveurs se mélangent",
-                "Servir chaud, garni de coriandre fraîche"
-              ],
-              "durationMinutes": 3
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Plat vegan, sans gluten et riche en protéines végétales",
-              "Pour 4 personnes avec temps de préparation respectant la limite de 30 minutes"
-            ],
-            "variations": [
-              "Peut se servir avec du riz basmati ou du pain naan pour une meal complète"
-            ],
-            "conservation": "Se conserve 3-4 jours au réfrigérateur. Réchauffer à feu doux en ajoutant un peu d'eau si nécessaire"
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 60927,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpesy7pk0000seijzgnhn8f4",
-        "title": "Dahl de lentilles corail"
-      },
-      "duration_ms": 1063
-    },
-    {
-      "offset_ms": 62028,
+      "offset_ms": 68261,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 8809,
+      "duration_ms": 11642,
       "tokens": {
-        "prompt": 7893,
-        "completion": 1426,
-        "total": 9319
+        "prompt": 8510,
+        "completion": 2079,
+        "total": 10589
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01A2HYYjPi87XouzzGMHDWW5",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Dahl de lentilles corail",
-              "cuisine": "Indienne",
-              "timeMinutes": 30,
-              "portions": 4,
-              "emoji": "🍲",
-              "ingredients": [
-                {
-                  "name": "Lentilles corail",
-                  "quantity": "250g"
-                },
-                {
-                  "name": "Eau",
-                  "quantity": "750ml"
-                },
-                {
-                  "name": "Oignon",
-                  "quantity": "1 moyen"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "3 gousses"
-                },
-                {
-                  "name": "Gingembre frais",
-                  "quantity": "1 cuillère à café (râpé)"
-                },
-                {
-                  "name": "Tomate",
-                  "quantity": "1 moyenne"
-                },
-                {
-                  "name": "Curcuma",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Cumin",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Coriandre moulue",
-                  "quantity": "0.5 cuillère à café"
-                },
-                {
-                  "name": "Piment rouge séché",
-                  "quantity": "1 entier"
-                },
-                {
-                  "name": "Graines de moutarde",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Huile de coco",
-                  "quantity": "3 cuillères à soupe"
-                },
-                {
-                  "name": "Lait de coco",
-                  "quantity": "100ml"
-                },
-                {
-                  "name": "Sel",
-                  "quantity": "à goût"
-                },
-                {
-                  "name": "Citron frais",
-                  "quantity": "0.5"
-                },
-                {
-                  "name": "Coriandre fraîche",
-                  "quantity": "poignée (garniture)"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparation des lentilles",
-                  "instructions": [
-                    "Rincer les lentilles corail à l'eau froide"
-                  ]
-                },
-                {
-                  "order": 2,
-                  "title": "Cuisson des lentilles",
-                  "instructions": [
-                    "Chauffer 750ml d'eau dans une grande casserole et porter à ébullition",
-                    "Ajouter les lentilles rincées et cuire 15-18 minutes jusqu'à ce qu'elles soient tendres et réduites en purée"
-                  ],
-                  "durationMinutes": 18
-                },
-                {
-                  "order": 3,
-                  "title": "Préparation du tempérage",
-                  "instructions": [
-                    "Hacher finement l'oignon, l'ail, le gingembre et la tomate"
-                  ]
-                },
-                {
-                  "order": 4,
-                  "title": "Tempérage aux épices",
-                  "instructions": [
-                    "Chauffer l'huile de coco dans une poêle à feu moyen-vif",
-                    "Ajouter les graines de moutarde et le piment rouge séché, laisser crépiter 30 secondes",
-                    "Ajouter l'oignon et cuire 3-4 minutes jusqu'à ce qu'il soit doré",
-                    "Incorporer l'ail, le gingembre et cuire 1 minute",
-                    "Ajouter la tomate, le curcuma, le cumin et la coriandre moulue, mélanger et cuire 2 minutes"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 5,
-                  "title": "Assemblage et finition",
-                  "instructions": [
-                    "Verser le tempérage dans les lentilles cuites, bien mélanger",
-                    "Ajouter le lait de coco et mélanger pour obtenir une texture crémeuse",
-                    "Assaisonner avec le sel et un trait de jus de citron frais",
-                    "Laisser mijoter 2-3 minutes pour que les saveurs se mélangent",
-                    "Servir chaud, garni de coriandre fraîche"
-                  ],
-                  "durationMinutes": 3
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Plat vegan, sans gluten et riche en protéines végétales",
-                  "Pour 4 personnes avec temps de préparation respectant la limite de 30 minutes"
-                ],
-                "variations": [
-                  "Peut se servir avec du riz basmati ou du pain naan pour une meal complète"
-                ],
-                "conservation": "Se conserve 3-4 jours au réfrigérateur. Réchauffer à feu doux en ajoutant un peu d'eau si nécessaire"
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpesy7pk0000seijzgnhn8f4",
-            "title": "Dahl de lentilles corail"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
         "verdict": "approved",
-        "critique": "Recette techniquement solide et respectant tous les critères. Les lentilles corail se cuisent en 15-18 minutes, le tempérage parallèle optimise le temps total (≈30 min). Saveurs équilibrées et méthode classique du dahl indien.",
-        "persisted": true,
-        "recipe_id": "cmpesy7pk0000seijzgnhn8f4"
+        "critique": "Recette techniquement solide et parfaitement alignée avec les contraintes. Les temps de cuisson sont réalistes pour des lentilles corail (15-18 min), l'ordre des étapes respecte les bonnes pratiques (tempérage des épices, réduction du feu après ébullition). Végan et sans gluten confirmés.",
+        "recipe_id": "cmpfs4eaa0000qpijbrshepum"
       }
     },
     {
-      "offset_ms": 62028,
+      "offset_ms": 68261,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 62029,
+      "offset_ms": 68261,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -1424,181 +1164,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 62030,
+      "offset_ms": 68262,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
         "input": 186,
-        "previous_stage_output": 6522
+        "previous_stage_output": 7047
       }
     },
     {
-      "offset_ms": 66176,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmmrunf9l0000cpijlrn58jpw",
-          "items": [
-            {
-              "name": "Lentilles corail",
-              "quantity": "250g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Eau",
-              "quantity": "750ml",
-              "group": "autres"
-            },
-            {
-              "name": "Oignon",
-              "quantity": "1 moyen",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail",
-              "quantity": "3 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Gingembre frais",
-              "quantity": "1 cuillère à café (râpé)",
-              "group": "légumes"
-            },
-            {
-              "name": "Tomate",
-              "quantity": "1 moyenne",
-              "group": "légumes"
-            },
-            {
-              "name": "Curcuma",
-              "quantity": "1 cuillère à café",
-              "group": "condiments"
-            },
-            {
-              "name": "Cumin",
-              "quantity": "1 cuillère à café",
-              "group": "condiments"
-            },
-            {
-              "name": "Coriandre moulue",
-              "quantity": "0.5 cuillère à café",
-              "group": "condiments"
-            },
-            {
-              "name": "Piment rouge séché",
-              "quantity": "1 entier",
-              "group": "condiments"
-            },
-            {
-              "name": "Graines de moutarde",
-              "quantity": "1 cuillère à café",
-              "group": "condiments"
-            },
-            {
-              "name": "Huile de coco",
-              "quantity": "3 cuillères à soupe",
-              "group": "produits frais"
-            },
-            {
-              "name": "Lait de coco",
-              "quantity": "100ml",
-              "group": "produits frais"
-            },
-            {
-              "name": "Sel",
-              "quantity": "à goût",
-              "group": "condiments"
-            },
-            {
-              "name": "Citron frais",
-              "quantity": "0.5",
-              "group": "légumes"
-            },
-            {
-              "name": "Coriandre fraîche",
-              "quantity": "poignée",
-              "group": "légumes"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 67269,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1093
-    },
-    {
-      "offset_ms": 68896,
-      "event": "tool_call_start",
-      "tool": "shell-run_command",
-      "params": {
-        "command": "cd /home/arianeguay/dev/src/little-chef-by-studio && find . -name \"*.prisma\" -type f | head -5"
-      }
-    },
-    {
-      "offset_ms": 69045,
-      "event": "tool_call_complete",
-      "tool": "shell-run_command",
-      "result": {
-        "stdout": "./.worktrees/stu-210-grocery-list-db/prisma/schema.prisma\n./.worktrees/stu-210-grocery-list-db/node_modules/.pnpm/@prisma+client@7.4.2_prisma@7.4.2_@types+react@19.2.14_react-dom@19.2.3_react@19.2.3__r_6e3ba3dfe5bf958e06a14e126c070379/node_modules/.prisma/client/schema.prisma\n./.worktrees/stu-108-onboarding/prisma/schema.prisma\n./.worktrees/stu-108-onboarding/node_modules/.pnpm/@prisma+client@7.4.2_prisma@7.4.2_@types+react@19.2.14_react-dom@19.2.3_react@19.2.3__r_6e3ba3dfe5bf958e06a14e126c070379/node_modules/.prisma/client/schema.prisma\n./.worktrees/feat-stu-250-mentions-minimum/prisma/schema.prisma",
-        "stderr": "",
-        "exitCode": 0
-      },
-      "duration_ms": 149
-    },
-    {
-      "offset_ms": 70211,
-      "event": "tool_call_start",
-      "tool": "repo_manager-read_file",
-      "params": {
-        "path": "prisma/schema.prisma"
-      }
-    },
-    {
-      "offset_ms": 70212,
-      "event": "tool_call_complete",
-      "tool": "repo_manager-read_file",
-      "result": {
-        "path": "prisma/schema.prisma",
-        "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel User {\n  id            String       @id @default(cuid())\n  name          String?\n  email         String       @unique\n  emailVerified DateTime?\n  image         String?\n  createdAt     DateTime     @default(now())\n  accounts      Account[]\n  recipes       Recipe[]\n  sessions      Session[]\n  plans         WeeklyPlan[]\n  profile       UserProfile?\n  chatQuota     ChatQuota?\n}\n\nmodel Account {\n  id                String  @id @default(cuid())\n  userId            String\n  type              String\n  provider          String\n  providerAccountId String\n  refresh_token     String?\n  access_token      String?\n  expires_at        Int?\n  token_type        String?\n  scope             String?\n  id_token          String?\n  session_state     String?\n  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n\n  @@unique([provider, providerAccountId])\n}\n\nmodel Session {\n  id           String   @id @default(cuid())\n  sessionToken String   @unique\n  userId       String\n  expires      DateTime\n  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel VerificationToken {\n  identifier String\n  token      String   @unique\n  expires    DateTime\n\n  @@unique([identifier, token])\n}\n\nmodel Recipe {\n  id                String             @id @default(cuid())\n  title             String\n  createdAt         DateTime           @default(now())\n  calories          Int?\n  cuisine           String?\n  emoji             String?\n  ingredients       Json\n  isFavorite        Boolean            @default(false)\n  notes             Json?\n  portions          Int?\n  steps             Json\n  timeMinutes       Int?\n  userId            String\n  user              User               @relation(fields: [userId], references: [id])\n  WeeklyPlanRecipes WeeklyPlanRecipe[]\n\n  @@index([userId, isFavorite])\n}\n\nmodel WeeklyPlan {\n  id          String             @id @default(cuid())\n  userId      String\n  weekStart   DateTime\n  createdAt   DateTime           @default(now())\n  GroceryList GroceryList?\n  user        User               @relation(fields: [userId], references: [id])\n  recipes     WeeklyPlanRecipe[]\n}\n\nmodel WeeklyPlanRecipe {\n  id       String     @id @default(cuid())\n  planId   String\n  recipeId String\n  position Int\n  addedAt  DateTime   @default(now())\n  plan     WeeklyPlan @relation(fields: [planId], references: [id])\n  recipe   Recipe     @relation(fields: [recipeId], references: [id])\n\n  @@unique([planId, recipeId])\n  @@unique([planId, position])\n}\n\nmodel GroceryList {\n  id     String     @id @default(cuid())\n  items  Json\n  planId String     @unique\n  plan   WeeklyPlan @relation(fields: [planId], references: [id])\n}\n\nmodel studio_pipeline_runs {\n  id            String    @id\n  pipeline_name String\n  status        String\n  result        String\n  started_at    String\n  completed_at  String?\n  log_path      String?\n  parent_run_id String?\n  created_at    DateTime? @default(now()) @db.Timestamptz(6)\n\n  @@index([created_at(sort: Desc)], map: \"idx_studio_pipeline_runs_created\")\n  @@index([parent_run_id], map: \"idx_studio_pipeline_runs_parent\")\n  @@index([status], map: \"idx_studio_pipeline_runs_status\")\n}\n\nmodel UserProfile {\n  id                    String    @id @default(cuid())\n  userId                String    @unique\n  dietary               String[]  @default([])\n  dislikes              String[]  @default([])\n  cuisines              String[]  @default([])\n  mealsPerWeek          Int       @default(5)\n  portions              Int       @default(2)\n  maxTimeMinutes        Int       @default(30)\n  budgetWeekly          String    @default(\"medium\")\n  onboardingCompleted   Boolean   @default(false)\n  onboardingCompletedAt DateTime?\n  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel ChatQuota {\n  id      String  @id @default(cuid())\n  userId  String  @unique\n  month   String\n  used    Int     @default(0)\n  max     Int     @default(10)\n  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n"
-      },
-      "duration_ms": 0
-    },
-    {
-      "offset_ms": 72347,
-      "event": "tool_call_start",
-      "tool": "repo_manager-read_file",
-      "params": {
-        "path": "prisma/schema.prisma"
-      }
-    },
-    {
-      "offset_ms": 72348,
-      "event": "tool_call_complete",
-      "tool": "repo_manager-read_file",
-      "result": {
-        "path": "prisma/schema.prisma",
-        "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel User {\n  id            String       @id @default(cuid())\n  name          String?\n  email         String       @unique\n  emailVerified DateTime?\n  image         String?\n  createdAt     DateTime     @default(now())\n  accounts      Account[]\n  recipes       Recipe[]\n  sessions      Session[]\n  plans         WeeklyPlan[]\n  profile       UserProfile?\n  chatQuota     ChatQuota?\n}\n\nmodel Account {\n  id                String  @id @default(cuid())\n  userId            String\n  type              String\n  provider          String\n  providerAccountId String\n  refresh_token     String?\n  access_token      String?\n  expires_at        Int?\n  token_type        String?\n  scope             String?\n  id_token          String?\n  session_state     String?\n  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n\n  @@unique([provider, providerAccountId])\n}\n\nmodel Session {\n  id           String   @id @default(cuid())\n  sessionToken String   @unique\n  userId       String\n  expires      DateTime\n  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel VerificationToken {\n  identifier String\n  token      String   @unique\n  expires    DateTime\n\n  @@unique([identifier, token])\n}\n\nmodel Recipe {\n  id                String             @id @default(cuid())\n  title             String\n  createdAt         DateTime           @default(now())\n  calories          Int?\n  cuisine           String?\n  emoji             String?\n  ingredients       Json\n  isFavorite        Boolean            @default(false)\n  notes             Json?\n  portions          Int?\n  steps             Json\n  timeMinutes       Int?\n  userId            String\n  user              User               @relation(fields: [userId], references: [id])\n  WeeklyPlanRecipes WeeklyPlanRecipe[]\n\n  @@index([userId, isFavorite])\n}\n\nmodel WeeklyPlan {\n  id          String             @id @default(cuid())\n  userId      String\n  weekStart   DateTime\n  createdAt   DateTime           @default(now())\n  GroceryList GroceryList?\n  user        User               @relation(fields: [userId], references: [id])\n  recipes     WeeklyPlanRecipe[]\n}\n\nmodel WeeklyPlanRecipe {\n  id       String     @id @default(cuid())\n  planId   String\n  recipeId String\n  position Int\n  addedAt  DateTime   @default(now())\n  plan     WeeklyPlan @relation(fields: [planId], references: [id])\n  recipe   Recipe     @relation(fields: [recipeId], references: [id])\n\n  @@unique([planId, recipeId])\n  @@unique([planId, position])\n}\n\nmodel GroceryList {\n  id     String     @id @default(cuid())\n  items  Json\n  planId String     @unique\n  plan   WeeklyPlan @relation(fields: [planId], references: [id])\n}\n\nmodel studio_pipeline_runs {\n  id            String    @id\n  pipeline_name String\n  status        String\n  result        String\n  started_at    String\n  completed_at  String?\n  log_path      String?\n  parent_run_id String?\n  created_at    DateTime? @default(now()) @db.Timestamptz(6)\n\n  @@index([created_at(sort: Desc)], map: \"idx_studio_pipeline_runs_created\")\n  @@index([parent_run_id], map: \"idx_studio_pipeline_runs_parent\")\n  @@index([status], map: \"idx_studio_pipeline_runs_status\")\n}\n\nmodel UserProfile {\n  id                    String    @id @default(cuid())\n  userId                String    @unique\n  dietary               String[]  @default([])\n  dislikes              String[]  @default([])\n  cuisines              String[]  @default([])\n  mealsPerWeek          Int       @default(5)\n  portions              Int       @default(2)\n  maxTimeMinutes        Int       @default(30)\n  budgetWeekly          String    @default(\"medium\")\n  onboardingCompleted   Boolean   @default(false)\n  onboardingCompletedAt DateTime?\n  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n\nmodel ChatQuota {\n  id      String  @id @default(cuid())\n  userId  String  @unique\n  month   String\n  used    Int     @default(0)\n  max     Int     @default(10)\n  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)\n}\n"
-      },
-      "duration_ms": 1
-    },
-    {
-      "offset_ms": 79462,
+      "offset_ms": 86996,
       "event": "stage_complete",
-      "truncated": true
+      "stage": "grocery-list",
+      "status": "success",
+      "attempts": 1,
+      "duration_ms": 18735,
+      "tokens": {
+        "prompt": 5896,
+        "completion": 3494,
+        "total": 9390
+      },
+      "tool_calls": [],
+      "output": {
+        "items": "[{\"name\": \"Lentilles corail\", \"quantity\": \"250g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Oignon blanc ou jaune\", \"quantity\": \"1 moyen\", \"group\": \"légumes\"}, {\"name\": \"Ail\", \"quantity\": \"3 gousses\", \"group\": \"légumes\"}, {\"name\": \"Gingembre frais\", \"quantity\": \"15g\", \"group\": \"légumes\"}, {\"name\": \"Tomates fraîches\", \"quantity\": \"2 tomates moyennes\", \"group\": \"légumes\"}, {\"name\": \"Coriandre fraîche\", \"quantity\": \"poignée\", \"group\": \"légumes\", \"optional\": true}, {\"name\": \"Lait de coco\", \"quantity\": \"400ml\", \"group\": \"produits frais\"}, {\"name\": \"Eau ou bouillon de légumes\", \"quantity\": \"500ml\", \"group\": \"épicerie sèche\"}, {\"name\": \"Huile de coco\", \"quantity\": \"2 c.à.s\", \"group\": \"condiments\"}, {\"name\": \"Curcuma en poudre\", \"quantity\": \"1 c.à.c\", \"group\": \"épicerie sèche\"}, {\"name\": \"Cumin en grains\", \"quantity\": \"1 c.à.c\", \"group\": \"épicerie sèche\"}, {\"name\": \"Coriandre en grains\", \"quantity\": \"1 c.à.c\", \"group\": \"épicerie sèche\"}, {\"name\": \"Garam masala\", \"quantity\": \"1 c.à.c\", \"group\": \"épicerie sèche\"}, {\"name\": \"Jus de citron frais\", \"quantity\": \"1 c.à.c\", \"group\": \"condiments\"}, {\"name\": \"Sel\", \"quantity\": \"selon goût\", \"group\": \"condiments\"}, {\"name\": \"Poivre noir\", \"quantity\": \"selon goût\", \"group\": \"condiments\"}]",
+        "sections": "{\"légumes\": [{\"name\": \"Oignon blanc ou jaune\", \"quantity\": \"1 moyen\", \"group\": \"légumes\"}, {\"name\": \"Ail\", \"quantity\": \"3 gousses\", \"group\": \"légumes\"}, {\"name\": \"Gingembre frais\", \"quantity\": \"15g\", \"group\": \"légumes\"}, {\"name\": \"Tomates fraîches\", \"quantity\": \"2 tomates moyennes\", \"group\": \"légumes\"}, {\"name\": \"Coriandre fraîche\", \"quantity\": \"poignée\", \"group\": \"légumes\", \"optional\": true}], \"épicerie sèche\": [{\"name\": \"Lentilles corail\", \"quantity\": \"250g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Eau ou bouillon de légumes\", \"quantity\": \"500ml\", \"group\": \"épicerie sèche\"}, {\"name\": \"Curcuma en poudre\", \"quantity\": \"1 c.à.c\", \"group\": \"épicerie sèche\"}, {\"name\": \"Cumin en grains\", \"quantity\": \"1 c.à.c\", \"group\": \"épicerie sèche\"}, {\"name\": \"Coriandre en grains\", \"quantity\": \"1 c.à.c\", \"group\": \"épicerie sèche\"}, {\"name\": \"Garam masala\", \"quantity\": \"1 c.à.c\", \"group\": \"épicerie sèche\"}], \"produits frais\": [{\"name\": \"Lait de coco\", \"quantity\": \"400ml\", \"group\": \"produits frais\"}], \"condiments\": [{\"name\": \"Huile de coco\", \"quantity\": \"2 c.à.s\", \"group\": \"condiments\"}, {\"name\": \"Jus de citron frais\", \"quantity\": \"1 c.à.c\", \"group\": \"condiments\"}, {\"name\": \"Sel\", \"quantity\": \"selon goût\", \"group\": \"condiments\"}, {\"name\": \"Poivre noir\", \"quantity\": \"selon goût\", \"group\": \"condiments\"}]}"
+      }
     },
     {
-      "offset_ms": 79492,
+      "offset_ms": 87082,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
-      "duration_ms": 79524,
-      "total_tokens": 49265,
-      "total_tool_calls": 11,
+      "duration_ms": 87116,
+      "total_tokens": 49565,
+      "total_tool_calls": 10,
       "total_stages": 6
     }
   ]

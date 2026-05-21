@@ -1,6 +1,4 @@
 name: culinary-researcher
-provider: ollama
-model: qwen2.5
 tools:
   - web_search-search
 

@@ -1,6 +1,4 @@
 name: culinary-critic
-provider: ollama
-model: qwen2.5
 tools: []                
 
 system_prompt: |

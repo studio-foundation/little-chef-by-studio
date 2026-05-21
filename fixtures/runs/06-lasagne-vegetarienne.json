@@ -1,6 +1,7 @@
 {
   "id": "06",
   "slug": "lasagne-vegetarienne",
+  "run_id": "3d5bc0a3",
   "input": {
     "dish_name": "Lasagne végétarienne maison",
     "userId": "cmmrunf9l0000cpijlrn58jpw",
@@ -10,8 +11,8 @@
       "peut se préparer à l'avance"
     ]
   },
-  "captured_at": "2026-05-21T01:15:16.544Z",
-  "duration_ms": 89143,
+  "captured_at": "2026-05-21T17:38:31.246Z",
+  "duration_ms": 99096,
   "events": [
     {
       "offset_ms": 0,
@@ -28,7 +29,7 @@
       }
     },
     {
-      "offset_ms": 5,
+      "offset_ms": 21,
       "event": "stage_start",
       "stage": "culinary-research",
       "stage_index": 0,
@@ -36,7 +37,7 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 12,
+      "offset_ms": 25,
       "event": "stage_context",
       "stage": "culinary-research",
       "context_keys": {
@@ -44,7 +45,7 @@
       }
     },
     {
-      "offset_ms": 2333,
+      "offset_ms": 1879,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
@@ -52,113 +53,213 @@
       }
     },
     {
-      "offset_ms": 2497,
+      "offset_ms": 2987,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "lasagne végétarienne maison techniques culinaires",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.cleacuisine.fr/pates/lasagnes-vegetariennes",
+            "title": "Lasagnes végétariennes - Clea cuisine",
+            "content": "Faire revenir le haché végétal dans la sauteuse avec un peu d'huile, puis ajouter les légumes râpés, 300 g de sauce tomate et les herbes de Provence. Mélanger",
+            "score": 0.7067782,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.radiofrance.fr/francebleu/podcasts/coup-de-fourchette/preparer-des-lasagnes-maison-sans-viande-la-recette-vegetarienne-4488571",
+            "title": "Préparer des lasagnes maison sans viande : la recette végétarienne",
+            "content": "La recette des lasagnes végétariennes · 2 cuillères à soupe d'huile d'olive · 1 oignon, finement émincé · 2 gousses d'ail écrasées · 4 tomates mûres",
+            "score": 0.68191797,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.papillesetpupilles.fr/2021/01/lasagnes-vegetariennes-aux-legumes-dhiver.html",
+            "title": "Lasagnes végétariennes aux poireaux et carottes - Papilles et Pupilles",
+            "content": "Versez 2 cuillères à soupe d'huile au fond du plat. Déposez 2 feuilles de lasagne côte à côte pour tapisser le fond du plat. Tartinez de la moitié de la ricotta",
+            "score": 0.6133529,
+            "raw_content": null
+          },
+          {
+            "url": "https://l-herboriste.com/lasagnes-a-la-poele",
+            "title": "Lasagnes à la poêle - L'Herboriste, cuisine végétale",
+            "content": "Epluchez vos légumes et coupez-les en petits morceaux. · Faites chauffer une grande poêle assez profonde (vous allez y préparer vos lasagnes donc",
+            "score": 0.580091,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.zeste.ca/articles/top-lasagnes-vegetariennes-a-cuisiner",
+            "title": "TOP : 6 lasagnes végétariennes à cuisiner - Zeste",
+            "content": "De l'aubergine, du persil, de l'ail et du fromage pecorino, de la chapelure, des raisins secs et des épices pour une lasagne d'aubergines fidèle",
+            "score": 0.5746579,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.93,
+        "request_id": "1a32a396-f86d-4ebc-b244-6c465b5372b5"
       },
-      "duration_ms": 164
+      "duration_ms": 1108
     },
     {
-      "offset_ms": 2498,
+      "offset_ms": 2988,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "lasagne végétarienne histoire origine italienne"
+        "query": "histoire lasagne italienne contexte culturel tradition"
       }
     },
     {
-      "offset_ms": 2634,
+      "offset_ms": 4448,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "histoire lasagne italienne contexte culturel tradition",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.italymagazine.com/dual-language/short-history-lasagna",
+            "title": "A Short History of Lasagna | ITALY Magazine",
+            "content": "The traditional *lasagna alla bolognese* is a first course consisting of layers of thin pasta dough made with flour, egg and spinach; between each layer are ragù sauce and béchamel. Tomato appeared in the recipe for the first time in the 1880s in Naples; while the use of layered lasagna in vogue today is due to Francesco Zambrini from Bologna, who introduced it in the 19th century. The success and fatherhood of Bolognese lasagna is due to some Bologna-based restaurateurs who popularized the use of spinach in the dough at the beginning of the 20th century, and around the same time the use of ragù sauce, béchamel and grated Parmigiano. As with any traditional dish, there are many recipes and variations of Bolognese lasagna, but the Accademia Italiana di Cucina (Italian Kitchen Academy), after careful analysis, has registered what can be considered the original and traditional recipe at the Chamber of Commerce of Bologna, and it consists exactly of the three main ingredients mentioned above: egg pasta dough with spinach, ragù sauce and béchamel.",
+            "score": 0.99986863,
+            "raw_content": null
+          },
+          {
+            "url": "https://foodnotesfrombologna.substack.com/p/the-true-history-of-lasagne-alla-bolognese",
+            "title": "The true history of lasagne alla Bolognese - Food Notes from Bologna",
+            "content": "It is an iconic dish of Italian gastronomic culture that belongs to recent history. The green lasagna of Bologna and food porn-style lasagna",
+            "score": 0.9995159,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.britannica.com/topic/lasagna",
+            "title": "Lasagna | Italian Origins, Ingredients, Cooking Styles, & Types | Britannica",
+            "content": "lasagna   Italian-style pasta products. lasagna Portion of baked lasagna served on a plate. # lasagna. **lasagna**, pasta dish of Italian origin, made with broad often ruffled noodles and a tomato or white sauce. *Lasagna*, in the singular, is a southern Italian variation of what northern Italians call *lasagne*, in the plural. Lasagna in its modern form, made of a meat sauce much like ragù Bolognese that is layered with noodles and béchamel (*besciamella* or *balsamella*) sauce, is believed to have originated in the province of Emilia-Romagna. Variations abound throughout Italy: the lasagna served in Naples, for example, usually contains small meatballs, ricotta and mozzarella cheeses, and sliced hard-boiled eggs, while that served in Genoa uses pesto as its sauce. Noodles known in Italy as *lasagne verdi* are made with spinach as an ingredient. In an ovenproof dish, a layer of tomato sauce is spooned in and then overlaid lengthwise by a layer of overlapping noodles.",
+            "score": 0.9991239,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.lacucinaitaliana.com/italian-food/italian-dishes/lasagna-origins-and-varieties-of-the-beloved-baked-pasta",
+            "title": "Lasagna: Origins and Varieties of the Beloved Baked Pasta - La Cucina Italiana",
+            "content": "# Lasagna: Origins and Varieties of the Beloved Baked Pasta. Image may contain: Food, Pasta, Lasagna, and Pizza. ## Francine Segan, food historian and Italian food expert, digs into the origins and the countless regional variations of lasagna. Basically, lasagna is a baked casserole made with wide flat pasta and layered with fillings such as ragú, bechamel, vegetables and various cheeses. Lasagna – the name and the dish – is of ancient origin. As for written evidence, a dish consisting of layers of dough, meats and cheeses appears in the ancient Roman 1st century AD cookbook *De Re Coquinaria (“on the Subject of Cooking”)* by Apicius. In southern Italy lasagna is generally made with dried sheets of pasta layered with rich meat ragú, ricotta and mozzarella. In the north, especially in Bologna, the most popular version of lasagna features fresh egg pasta colored green with spinach and layered with ragú, bechamel and Parmigiano Reggiano.",
+            "score": 0.99890983,
+            "raw_content": null
+          },
+          {
+            "url": "https://jenncampusauthor.com/lasagna-legacy-italian-food-history-recipe",
+            "title": "Lasagna Legacy: Italian Food History (+recipe) - Jenn Campus",
+            "content": "Lasagna was a once-a-year indulgence. To get a more precise answer on its transformation from peasant food to richer fare we head to the year 1282.",
+            "score": 0.9988927,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.32,
+        "request_id": "01e2bac6-a03c-4491-80d8-7317104cdfc8"
       },
-      "duration_ms": 137
+      "duration_ms": 1460
     },
     {
-      "offset_ms": 2635,
+      "offset_ms": 4449,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "lasagne végétarienne saveurs profil gustatif légumes"
+        "query": "lasagne préparation à l'avance conservation béchamel sauce tomate"
       }
     },
     {
-      "offset_ms": 2751,
+      "offset_ms": 6461,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "lasagne préparation à l'avance conservation béchamel sauce tomate",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.cuisineaz.com/articles/peut-on-preparer-les-lasagnes-a-l-avance-14472.aspx",
+            "title": "Préparez vos lasagnes à l'avance pour un repas réussi",
+            "content": "2. Ne cuisez pas complètement la sauce béchamel ou la sauce tomate : ces sauces continueront de cuire lors du passage au four, ce qui évitera qu",
+            "score": 0.9998104,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.papillesetpupilles.fr/2012/11/recette-de-lasagnes-lasagnes-a-la-bolognaise.html",
+            "title": "Lasagnes à la bolognaise maison avec béchamel",
+            "content": "Peut-on préparer ces lasagnes à l'avance ? Oui. Vous pouvez monter le plat quelques heures à l'avance et le conserver au réfrigérateur. Sortez-le environ 30",
+            "score": 0.99750805,
+            "raw_content": null
+          },
+          {
+            "url": "https://cuisine.journaldesfemmes.fr/astuces-termes-et-tournemains/2730049-comment-reussir-des-lasagnes",
+            "title": "Comment réussir des lasagnes ? 8 astuces à suivre",
+            "content": "Bonne nouvelle : prendre de l'avance et réaliser ses lasagnes la veille, c'est possible ! Pour se faire, confectionnez votre sauce tomate et",
+            "score": 0.99293363,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.undejeunerdesoleil.com/2020/02/lasagnes-bolognaise-belle-maman.html",
+            "title": "Lasagnes bolognaise belle-maman - Recette italienne",
+            "content": "Beurrer le fond du moule et verser toujours de la sauce en premier (si pas de sauce tomate, mettez de la béchamel); Posez ensuite une couche",
+            "score": 0.992597,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/groups/2499500540269216/posts/4457953794423871",
+            "title": "Bonjour, avez-vous déjà préparer la veille des lasagnes avec des ...",
+            "content": "La sauce ne doit pas trop s'évaporer car c'est elle qui va ramollir les pâtes. - 4 préparer la béchamel - 5 monter le plat de lasagnes: 1couche",
+            "score": 0.9918121,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.88,
+        "request_id": "6fa9754d-9f9f-44dd-8951-b11cfc18257d"
       },
-      "duration_ms": 116
+      "duration_ms": 2012
     },
     {
-      "offset_ms": 6263,
+      "offset_ms": 11490,
       "event": "stage_complete",
       "stage": "culinary-research",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 6259,
+      "duration_ms": 11488,
       "tokens": {
-        "prompt": 2429,
-        "completion": 540,
-        "total": 2969
+        "prompt": 5066,
+        "completion": 592,
+        "total": 5658
       },
       "tool_calls": [
         {
-          "id": "toolu_01BV6edCng6hMkrPWWq9Ybn9",
+          "id": "toolu_017EAjFBeTFdTn4rmGP6WjtL",
           "name": "web_search-search",
-          "arguments": {
-            "query": "lasagne végétarienne maison techniques culinaires"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_012jeTZpWnBqfp5xKccT9Kh3",
+          "id": "toolu_01HVQcfMJQQVnA6aT5pTJemx",
           "name": "web_search-search",
-          "arguments": {
-            "query": "lasagne végétarienne histoire origine italienne"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_01DEdvMDNhJdR1gCpkwrJCRD",
+          "id": "toolu_01FqqmggLtaeseZZMJfCvNnp",
           "name": "web_search-search",
-          "arguments": {
-            "query": "lasagne végétarienne saveurs profil gustatif légumes"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         }
       ],
       "output": {
-        "topic_summary": "La lasagne végétarienne maison est un plat de pâtes italien adapté sans viande, composé de couches alternées de pâtes, sauce tomate, légumes et fromage. C'est un plat complet, nourrissant et ideal pour préparer à l'avance pour 6 personnes.",
-        "key_techniques": "Layering (empilement des couches), réduction de sauce tomate, sauté des légumes, préparation de béchamel ou ricotta, gratinage au four à 180-200°C",
-        "cultural_context": "La lasagne est un plat traditionnel italien de la région de l'Émilie-Romagne. La version végétarienne modernise ce classique en remplaçant la viande par une combinaison de légumes (aubergines, courgettes, champignons) tout en conservant la structure authentique.",
-        "flavor_profile": "Saveurs umami intenses (tomate, parmesan, champignons), notes herbacées (basilic, origan), fraîcheur des légumes, richesse crémeuse du fromage. Équilibre entre acidité tomate et onctuosité fromagère."
-      }
+        "topic_summary": "La lasagne végétarienne maison est un plat de pâtes en couches alternant sauce tomate riche aux légumes, béchamel crémeuse et fromages, pouvant intégrer des légumes variés (aubergines, poireaux, carottes) ou des protéines végétales. Ce classique italien adapté au régime sans viande permet une préparation à l'avance idéale pour les repas en famille.",
+        "key_techniques": "Sauté des légumes aux herbes provençales, préparation de la béchamel (roux beurre-farine et lait), empilement en couches régulières de pâtes-sauce-fromage, cuisson au four permettant l'interpénétration des saveurs. Conservation au réfrigérateur avant cuisson.",
+        "cultural_context": "Héritière de la lasagne alla bolognese originaire de l'Émilie-Romagne, la lasagne végétarienne adapte la tradition italienne millénaire aux contraintes modernes. Historiquement paysanne puis aristocratique, elle symbolise la cuisine italienne festive et familiale, ici revisitée en version sans viande.",
+        "flavor_profile": "Saveurs richement stratifiées combinant l'umami terreux des légumes caramélisés, la douceur acidulée de la sauce tomate, la créativité veloutée de la béchamel et la profondeur salée du fromage. Herbacé discret des Herbes de Provence complétant l'ensemble."
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 6263,
+      "offset_ms": 11491,
       "event": "stage_start",
       "stage": "ingredient-sourcing",
       "stage_index": 1,
@@ -166,98 +267,229 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 6264,
+      "offset_ms": 11492,
       "event": "stage_context",
       "stage": "ingredient-sourcing",
       "context_keys": {
         "input": 154,
-        "previous_stage_output": 928
+        "previous_stage_output": 1248
       }
     },
     {
-      "offset_ms": 7960,
+      "offset_ms": 13368,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "lasagne végétarienne recette ingrédients 6 personnes"
+        "query": "lasagne végétarienne maison recette ingrédients sauce tomate béchamel"
       }
     },
     {
-      "offset_ms": 8083,
+      "offset_ms": 14524,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "lasagne végétarienne maison recette ingrédients sauce tomate béchamel",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.hellofresh.be/recipes/lasagne-vegetarienne-et-bechamel-maison-6230c8b714d8da685214c218?locale=fr-BE",
+            "title": "Lasagne végétarienne et béchamel maison Recette - HelloFresh",
+            "content": "Ingrédients · 1 pièce(s). Gousse d'ail · ½ pièce(s). Oignon · 200 g. Mélange de légumes italiens · ½ sachet(s). Épices italiennes · 195 g. Passata · 125 ml. Lait demi",
+            "score": 0.83452857,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/100065540372547/videos/lasagnes-v%C3%A9g%C3%A9tariennes-facile-d%C3%A9licieuseliste-des-ingr%C3%A9dients-pour-la-sauce-b%C3%A9ch/870304542101276",
+            "title": "Lasagnes Végétariennes Facile Délicieuse Liste des ingrédients ...",
+            "content": "Lasagnes Végétariennes Facile Délicieuse Liste des ingrédients → Pour la sauce béchamel 75 g de beurre doux 75 g de farine de blé 1 litre de",
+            "score": 0.8302782,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.ricardocuisine.com/recettes/6896-lasagne-cremeuse-aux-legumes-rotis",
+            "title": "Lasagne crémeuse aux légumes rôtis - Ricardo Cuisine",
+            "content": "Elle est composée d'une sauce tomate maison, d'une béchamel au parmesan, ainsi que de légumes rôtis qu'on superpose avec les pâtes à lasagne. Un plat qu'on aime",
+            "score": 0.80735475,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.zeste.ca/articles/top-lasagnes-vegetariennes-a-cuisiner",
+            "title": "TOP : 6 lasagnes végétariennes à cuisiner - Zeste",
+            "content": "Et ces lasagnes végétariennes en sont un bel exemple! Des petits légumes, du fromage, de la béchamel et une savoureuse sauce tomate",
+            "score": 0.7159213,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.marmiton.org/recettes/recette_lasagnes-vegetariennes-facile_10527.aspx",
+            "title": "Recette de Lasagnes végétariennes (facile) - Marmiton",
+            "content": "1 couche de lasagnes, 1 couche de préparation, 1 couche de béchamel, 1 couche de gruyère, et ainsi de suite (en rajoutant un peu de sel à chaque fois),",
+            "score": 0.71088976,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.02,
+        "request_id": "f7bd63c6-b5e1-445c-ab15-fad3a336dcdd"
       },
-      "duration_ms": 123
+      "duration_ms": 1156
     },
     {
-      "offset_ms": 8084,
+      "offset_ms": 14524,
       "event": "tool_call_start",
       "tool": "web_search-search",
       "params": {
-        "query": "lasagne végétarienne courges courgettes aubergines champignons proportions"
+        "query": "quantités lasagne 6 personnes pâtes fromage"
       }
     },
     {
-      "offset_ms": 8197,
+      "offset_ms": 15843,
       "event": "tool_call_complete",
       "tool": "web_search-search",
       "result": {
-        "detail": {
-          "error": "Unauthorized: missing or invalid API key."
-        }
+        "query": "quantités lasagne 6 personnes pâtes fromage",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.galbani.fr/comment-cuisiner-comme-les-italiens/bien-maitriser-quantite-de-lasagnes-fonction-nombre-dinvites",
+            "title": "Quelle Quantité de Lasagnes en Fonction du Nombre d'invités",
+            "content": "Pour des lasagnes crémeuses, vous pouvez compter par personne : 60 à 80 ml de béchamel + 20 à 30 g de fromages râpés (mozzarella, emmental, parmesan…). La",
+            "score": 0.99971086,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.facebook.com/groups/819628098905633/posts/1652499752285126",
+            "title": "Lasagne à la bolognaise Pour 6 personnes (un plat 19 x 25 cm) : 12 ...",
+            "content": "Lasagne à la bolognaise Pour 6 personnes (un plat 19 x 25 cm) : 12 pâtes à lasagne, 750 g de sauce tomate, 400 g de viande de bœuf hachée,",
+            "score": 0.9986749,
+            "raw_content": null
+          },
+          {
+            "url": "https://cuisine.journaldesfemmes.fr/recette/3122324-lasagnes-pour-6-personnes-par-isabelle-duvivier",
+            "title": "Recette de Lasagnes pour 6 personnes (par Isabelle Duvivier)",
+            "content": "1 Pour réaliser la sauce : je la prépare en générale la veille au soir, car elle doit mijoter. Émincer les oignons et l'ail.",
+            "score": 0.98228765,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0nE7dAlDshk",
+            "title": "La meilleure façon de... Réussir ses lasagnes - 750g - YouTube",
+            "content": "... personnes 250 g de feuilles de lasagne sèches 100 g de parmesan en ... 6 Dans la cocotte, chauffer 3 cl d'huile d'olive 7 Colorer les",
+            "score": 0.9688562,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.barilla.com/fr-ca/recette/tous/p%C3%A2tes-lasagne-barilla-avec-boeuf-hach%C3%A9-et-sauce-tomate",
+            "title": "Pâtes lasagne Barilla avec boeuf haché et sauce tomate",
+            "content": "Savourez une recette classique de lasagne au bœuf avec fromage et une touche de basilic frais. ... Une boîte contient 15 feuilles, suffisamment pour préparer une",
+            "score": 0.95565146,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.17,
+        "request_id": "58a36ff9-0957-4505-906b-ac68d22fa69b"
       },
-      "duration_ms": 114
+      "duration_ms": 1319
     },
     {
-      "offset_ms": 15131,
+      "offset_ms": 15843,
+      "event": "tool_call_start",
+      "tool": "web_search-search",
+      "params": {
+        "query": "légumes lasagne végétarienne aubergine poireau carotte"
+      }
+    },
+    {
+      "offset_ms": 17174,
+      "event": "tool_call_complete",
+      "tool": "web_search-search",
+      "result": {
+        "query": "légumes lasagne végétarienne aubergine poireau carotte",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.papillesetpupilles.fr/2021/01/lasagnes-vegetariennes-aux-legumes-dhiver.html",
+            "title": "Lasagnes végétariennes aux poireaux et carottes - Papilles et Pupilles",
+            "content": "Lasagnes végétariennes aux poireaux et carottes, fondantes et parfumées. Une recette d'hiver sans viande, simple, délicieuse et généreuse, à partager.",
+            "score": 0.7763013,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.lavieclaire.com/recettes/lasagnes-vegetales-tomate-poireau",
+            "title": "Lasagnes végétales tomate-poireau - La Vie Claire",
+            "content": "1. Lavez les poireaux et la carotte. · 2. Faites revenir dans une cocotte huilée l'oignon et l'ail pendant 2 minutes. · 3. Lorsque les légumes sont cuits, ajoutez",
+            "score": 0.7608822,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.marieclaire.fr/cuisine/lasagnes-aux-legumes,1196802.asp",
+            "title": "Recette lasagnes aux légumes et à la ricotta - Marie Claire",
+            "content": "# Lasagnes aux légumes et à la ricotta. Ces lasagnes végétariennes sont un délice ! Aubergines, courgettes, oignons, coulis de tomates et épinards sont (entre autres) réunis avec de la ricotta pour donner ce plat complet riche de couleurs et de saveurs ! ## Les ingrédients de la recette. Le genre de salade de ptes qu’on refait tout l’été sans jamais s’en lasserSans allumer le four, ce cake tomates séchées-feta au air fryer est devenu mon indispensable des pique-niquesLéger, parfumé et parfait à préparer à l’avance : ce dahl printanier va vous simplifier la semaineCes beignets de tomates croustillants sont la spécialité la plus surprenante de SantorinGalettes de courgettes croustillantes : la recette facile et ultra gourmande qui fait l’unanimité !",
+            "score": 0.6972179,
+            "raw_content": null
+          },
+          {
+            "url": "https://menu-vegetarien.com/lasagnes-aubergines-courgettes",
+            "title": "Lasagnes aux aubergines et courgettes - Menu vegetarien",
+            "content": "Dans un saladier, mettre les poivrons, les courgettes, les aubergines et l'oignon. Mélanger l'huile, le basilic, le thym, l'ail et l'échalote dans un bol,",
+            "score": 0.680136,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.lafeestephanie.com/2018/09/lasagnes-aux-legumes-dete-sauce-au.html",
+            "title": "Lasagnes aux légumes d'été, sauce au pesto - un plat vegan pour ...",
+            "content": "1. Préparer les légumes: laver et couper les aubergines et les courgettes en tranches de 5 mm environ. Ôter la tige des poivrons, puis couper en",
+            "score": 0.6208291,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.17,
+        "request_id": "9d39f205-7760-487e-8366-559a1bebf92e"
+      },
+      "duration_ms": 1331
+    },
+    {
+      "offset_ms": 26345,
       "event": "stage_complete",
       "stage": "ingredient-sourcing",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 8868,
+      "duration_ms": 14855,
       "tokens": {
-        "prompt": 2903,
-        "completion": 964,
-        "total": 3867
+        "prompt": 5589,
+        "completion": 1160,
+        "total": 6749
       },
       "tool_calls": [
         {
-          "id": "toolu_0199ypSG8LJySJXTckLmPiZ8",
+          "id": "toolu_016mZCVNcmfUq2vjPpRR9Vtf",
           "name": "web_search-search",
-          "arguments": {
-            "query": "lasagne végétarienne recette ingrédients 6 personnes"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
         },
         {
-          "id": "toolu_0194k5GTpnxCpSuGxygBP1CV",
+          "id": "toolu_01JvE6gc5zSjZ3WsnFmoSvT4",
           "name": "web_search-search",
-          "arguments": {
-            "query": "lasagne végétarienne courges courgettes aubergines champignons proportions"
-          },
-          "result": {
-            "detail": {
-              "error": "Unauthorized: missing or invalid API key."
-            }
-          }
+          "truncated": true
+        },
+        {
+          "id": "toolu_01PYoz7SYf2zegMVfcbGgWSa",
+          "name": "web_search-search",
+          "truncated": true
         }
       ],
       "output": {
-        "ingredients_list": "[{\"name\": \"Pâtes à lasagne\", \"quantity\": \"500g\"}, {\"name\": \"Sauce tomate\", \"quantity\": \"1200ml\"}, {\"name\": \"Aubergines\", \"quantity\": \"2 moyennes\"}, {\"name\": \"Courgettes\", \"quantity\": \"2 moyennes\"}, {\"name\": \"Champignons de Paris\", \"quantity\": \"400g\"}, {\"name\": \"Oignon\", \"quantity\": \"2 moyens\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\"}, {\"name\": \"Ricotta\", \"quantity\": \"500g\"}, {\"name\": \"Parmesan râpé\", \"quantity\": \"200g\"}, {\"name\": \"Mozzarella râpée\", \"quantity\": \"250g\"}, {\"name\": \"Œuf\", \"quantity\": \"2\"}, {\"name\": \"Basilic frais\", \"quantity\": \"15g\"}, {\"name\": \"Origan sec\", \"quantity\": \"1 cuillère à café\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"100ml\"}, {\"name\": \"Sel et poivre\", \"quantity\": \"à goût\"}]",
-        "substitutions": "{\"Ricotta\": \"Fromage blanc ou crème fraîche (400g pour garder la densité)\", \"Champignons de Paris\": \"Champignons de couche, pleurotes ou champignons mixtes selon disponibilité\", \"Basilic frais\": \"Persil plat (10g) + origan supplémentaire, ou basilic séché (1 cuillère à café)\", \"Mozzarella\": \"Emmental râpé ou fromage à pâte filée local\", \"Sauce tomate fraîche\": \"Sauce tomate en conserve ou tomates pelées (1.2kg) réduites en sauce\"}",
-        "sourcing_notes": "{\"Pâtes à lasagne\": \"Préférer les pâtes de blé dur ou lasagne fraiches si possible pour meilleure texture.\", \"Aubergines et courgettes\": \"Choisir des légumes fermes et de taille régulière pour une cuisson uniforme.\", \"Champignons\": \"Nettoyer avec un linge humide plutôt que laver pour éviter l'absorption d'eau excessive.\", \"Ricotta\": \"Vérifier la date limite et la texture crémeuse; disponible au rayon fromagerie.\", \"Parmesan\": \"Privilégier le Parmigiano-Reggiano pour une meilleure saveur umami, ou Grana Padano en alternative.\", \"Tomates\": \"Pour sauce maison: tomates cerises ou tomates en conserve de qualité premium avec peu d'additifs.\"}"
-      }
+        "ingredients_list": "[{\"ingredient\": \"Pâtes à lasagne sèches\", \"quantité\": \"250-300 g\"}, {\"ingredient\": \"Sauce tomate (passata ou coulis)\", \"quantité\": \"800-900 ml\"}, {\"ingredient\": \"Beurre doux\", \"quantité\": \"100 g\"}, {\"ingredient\": \"Farine de blé\", \"quantité\": \"100 g\"}, {\"ingredient\": \"Lait entier\", \"quantité\": \"1 litre\"}, {\"ingredient\": \"Fromage râpé (Parmesan + Emmental)\", \"quantité\": \"200-250 g\"}, {\"ingredient\": \"Mozzarella (optionnel)\", \"quantité\": \"150 g\"}, {\"ingredient\": \"Oignons\", \"quantité\": \"2-3 moyens\"}, {\"ingredient\": \"Ail\", \"quantité\": \"3-4 gousses\"}, {\"ingredient\": \"Poireaux\", \"quantité\": \"2-3 moyens (500 g)\"}, {\"ingredient\": \"Carottes\", \"quantité\": \"2-3 moyennes (300 g)\"}, {\"ingredient\": \"Aubergine (optionnel)\", \"quantité\": \"1 moyenne (300 g)\"}, {\"ingredient\": \"Épices italiennes ou Herbes de Provence\", \"quantité\": \"1-2 c. à café\"}, {\"ingredient\": \"Huile d'olive\", \"quantité\": \"3-4 c. à soupe\"}, {\"ingredient\": \"Sel et poivre\", \"quantité\": \"à goût\"}, {\"ingredient\": \"Basilic frais (optionnel)\", \"quantité\": \"1 petit bouquet\"}]",
+        "substitutions": "{\"Parmesan + Emmental\": \"Utiliser du Gruyère (150 g) seul ou en mélange; la Ricotta peut remplacer partiellement la béchamel pour une version plus légère\", \"Herbes de Provence\": \"Origan séché (1 c. à café) + Thym séché (0,5 c. à café), ou mélange d'épices italiennes du commerce\", \"Poireaux\": \"Oignon blanc (500 g) ou épinards frais (300 g blanchis) pour un goût différent\", \"Lait entier\": \"Lait demi-écrémé ou boisson végétale (amande, avoine) pour version plus légère\"}",
+        "sourcing_notes": "{\"Pâtes à lasagne\": \"Privilégier les pâtes sèches de qualité (Barilla, Buitoni) qui se stratifient bien; préférer les feuilles fraîches si disponibles pour une meilleure interpénétration des saveurs.\", \"Passata\": \"Sauce tomate déjà lissée, plus facile à utiliser; peut être remplacée par coulis de tomates ou tomates concassées en conserve.\", \"Fromages\": \"Mélange Parmesan (saveur) + Emmental (fonte) optimal; privilégier fromages AOP pour authenticité italienne.\", \"Herbes de Provence\": \"Mélange sec standardisé; pour meilleur goût, utiliser herbs fraîches: basilic, origan, thym frais.\", \"Légumes de saison\": \"Hiver (poireaux, carottes) ou été (courgettes, aubergines); les légumes surgelés blancs sont acceptables pour gain de temps.\"}"
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 15132,
+      "offset_ms": 26346,
       "event": "stage_start",
       "stage": "nutritional-profile",
       "stage_index": 2,
@@ -265,391 +497,49 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 15134,
+      "offset_ms": 26347,
       "event": "stage_context",
       "stage": "nutritional-profile",
       "context_keys": {
         "input": 154,
-        "previous_stage_output": 2013
+        "previous_stage_output": 2467
       }
     },
     {
-      "offset_ms": 25366,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Lasagne végétarienne maison",
-          "cuisine": "italienne",
-          "timeMinutes": 90,
-          "portions": 6,
-          "emoji": "🍝",
-          "ingredients": [
-            {
-              "name": "Pâtes à lasagne",
-              "quantity": "500g",
-              "group": "féculents"
-            },
-            {
-              "name": "Sauce tomate",
-              "quantity": "1200ml",
-              "group": "sauce"
-            },
-            {
-              "name": "Aubergines",
-              "quantity": "2 moyennes",
-              "group": "légumes"
-            },
-            {
-              "name": "Courgettes",
-              "quantity": "2 moyennes",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "400g",
-              "group": "légumes"
-            },
-            {
-              "name": "Oignon",
-              "quantity": "2 moyens",
-              "group": "aromatiques"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4 gousses",
-              "group": "aromatiques"
-            },
-            {
-              "name": "Ricotta",
-              "quantity": "500g",
-              "group": "fromages"
-            },
-            {
-              "name": "Parmesan râpé",
-              "quantity": "200g",
-              "group": "fromages"
-            },
-            {
-              "name": "Mozzarella râpée",
-              "quantity": "250g",
-              "group": "fromages"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "2",
-              "group": "œufs"
-            },
-            {
-              "name": "Basilic frais",
-              "quantity": "15g",
-              "group": "herbes"
-            },
-            {
-              "name": "Origan sec",
-              "quantity": "1 cuillère à café",
-              "group": "épices"
-            },
-            {
-              "name": "Huile d'olive",
-              "quantity": "100ml",
-              "group": "lipides"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "à goût",
-              "group": "assaisonnement"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparation des légumes",
-              "instructions": [
-                "Laver et découper les aubergines en rondelles de 5mm",
-                "Laver et découper les courgettes en rondelles de 5mm",
-                "Nettoyer les champignons avec un linge humide et les émincer finement",
-                "Émincer les oignons et hacher l'ail"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 2,
-              "title": "Cuisson des légumes",
-              "instructions": [
-                "Faire suer oignons et ail dans 50ml d'huile d'olive",
-                "Ajouter aubergines et courgettes, cuire 10 minutes",
-                "Ajouter champignons, cuire 5 minutes supplémentaires",
-                "Assaisonner avec sel, poivre et origan"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 3,
-              "title": "Préparation de la ricotta",
-              "instructions": [
-                "Mélanger ricotta, parmesan, mozzarella et œufs",
-                "Assaisonner avec sel, poivre et basilic frais",
-                "Bien homogénéiser"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 4,
-              "title": "Montage de la lasagne",
-              "instructions": [
-                "Verser une couche mince de sauce tomate au fond du plat",
-                "Disposer une couche de pâtes",
-                "Ajouter une couche de légumes sautés",
-                "Ajouter une couche de mélange ricotta",
-                "Répéter jusqu'à épuisement des ingrédients, en terminant par sauce tomate et fromage"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 5,
-              "title": "Cuisson",
-              "instructions": [
-                "Cuire à 180°C pendant 35-40 minutes",
-                "La lasagne doit être dorée et les fromages fondus",
-                "Laisser reposer 10 minutes avant de servir"
-              ],
-              "durationMinutes": 45
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Peut être préparée 24h à l'avance et cuite au moment de servir",
-              "Réchauffage: 160°C pendant 20-25 minutes couvert",
-              "Utiliser un plat de 30x20cm ou équivalent (1.5L minimum)"
-            ],
-            "variations": [
-              "Version vegan: remplacer ricotta par fromage tofu/noix, oeufs par œuf de lin",
-              "Ajouter des épinards blanchis entre les couches pour plus de légumes verts",
-              "Version light: réduire les fromages de 30% et augmenter les légumes"
-            ],
-            "conservation": "Au réfrigérateur jusqu'à 3 jours couverte, ou congélation jusqu'à 2 mois avant cuisson",
-            "nutrition": "Riche en protéines (fromage et œufs), glucides complexes (pâtes), fibres (légumes). Source de calcium."
-          },
-          "calories": 480
-        }
-      }
-    },
-    {
-      "offset_ms": 26740,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpessi3j0000eaijfaxdb7z7",
-        "title": "Lasagne végétarienne maison"
-      },
-      "duration_ms": 1374
-    },
-    {
-      "offset_ms": 29262,
+      "offset_ms": 42905,
       "event": "stage_complete",
       "stage": "nutritional-profile",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 14131,
+      "duration_ms": 16560,
       "tokens": {
-        "prompt": 7498,
-        "completion": 1814,
-        "total": 9312
+        "prompt": 7865,
+        "completion": 2181,
+        "total": 10046
       },
-      "tool_calls": [
-        {
-          "id": "toolu_012qHwRddK3XBdaA4HajduFZ",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Lasagne végétarienne maison",
-              "cuisine": "italienne",
-              "timeMinutes": 90,
-              "portions": 6,
-              "emoji": "🍝",
-              "ingredients": [
-                {
-                  "name": "Pâtes à lasagne",
-                  "quantity": "500g",
-                  "group": "féculents"
-                },
-                {
-                  "name": "Sauce tomate",
-                  "quantity": "1200ml",
-                  "group": "sauce"
-                },
-                {
-                  "name": "Aubergines",
-                  "quantity": "2 moyennes",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Courgettes",
-                  "quantity": "2 moyennes",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "400g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Oignon",
-                  "quantity": "2 moyens",
-                  "group": "aromatiques"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "4 gousses",
-                  "group": "aromatiques"
-                },
-                {
-                  "name": "Ricotta",
-                  "quantity": "500g",
-                  "group": "fromages"
-                },
-                {
-                  "name": "Parmesan râpé",
-                  "quantity": "200g",
-                  "group": "fromages"
-                },
-                {
-                  "name": "Mozzarella râpée",
-                  "quantity": "250g",
-                  "group": "fromages"
-                },
-                {
-                  "name": "Œuf",
-                  "quantity": "2",
-                  "group": "œufs"
-                },
-                {
-                  "name": "Basilic frais",
-                  "quantity": "15g",
-                  "group": "herbes"
-                },
-                {
-                  "name": "Origan sec",
-                  "quantity": "1 cuillère à café",
-                  "group": "épices"
-                },
-                {
-                  "name": "Huile d'olive",
-                  "quantity": "100ml",
-                  "group": "lipides"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "à goût",
-                  "group": "assaisonnement"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparation des légumes",
-                  "instructions": [
-                    "Laver et découper les aubergines en rondelles de 5mm",
-                    "Laver et découper les courgettes en rondelles de 5mm",
-                    "Nettoyer les champignons avec un linge humide et les émincer finement",
-                    "Émincer les oignons et hacher l'ail"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 2,
-                  "title": "Cuisson des légumes",
-                  "instructions": [
-                    "Faire suer oignons et ail dans 50ml d'huile d'olive",
-                    "Ajouter aubergines et courgettes, cuire 10 minutes",
-                    "Ajouter champignons, cuire 5 minutes supplémentaires",
-                    "Assaisonner avec sel, poivre et origan"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 3,
-                  "title": "Préparation de la ricotta",
-                  "instructions": [
-                    "Mélanger ricotta, parmesan, mozzarella et œufs",
-                    "Assaisonner avec sel, poivre et basilic frais",
-                    "Bien homogénéiser"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 4,
-                  "title": "Montage de la lasagne",
-                  "instructions": [
-                    "Verser une couche mince de sauce tomate au fond du plat",
-                    "Disposer une couche de pâtes",
-                    "Ajouter une couche de légumes sautés",
-                    "Ajouter une couche de mélange ricotta",
-                    "Répéter jusqu'à épuisement des ingrédients, en terminant par sauce tomate et fromage"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 5,
-                  "title": "Cuisson",
-                  "instructions": [
-                    "Cuire à 180°C pendant 35-40 minutes",
-                    "La lasagne doit être dorée et les fromages fondus",
-                    "Laisser reposer 10 minutes avant de servir"
-                  ],
-                  "durationMinutes": 45
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Peut être préparée 24h à l'avance et cuite au moment de servir",
-                  "Réchauffage: 160°C pendant 20-25 minutes couvert",
-                  "Utiliser un plat de 30x20cm ou équivalent (1.5L minimum)"
-                ],
-                "variations": [
-                  "Version vegan: remplacer ricotta par fromage tofu/noix, oeufs par œuf de lin",
-                  "Ajouter des épinards blanchis entre les couches pour plus de légumes verts",
-                  "Version light: réduire les fromages de 30% et augmenter les légumes"
-                ],
-                "conservation": "Au réfrigérateur jusqu'à 3 jours couverte, ou congélation jusqu'à 2 mois avant cuisson",
-                "nutrition": "Riche en protéines (fromage et œufs), glucides complexes (pâtes), fibres (légumes). Source de calcium."
-              },
-              "calories": 480
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpessi3j0000eaijfaxdb7z7",
-            "title": "Lasagne végétarienne maison"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "macros": "protéines: 18g, glucides: 42g, lipides: 12g",
-        "allergens": "gluten (pâtes), produits laitiers (ricotta, parmesan, mozzarella), œufs",
-        "dietary_flags": "végétarien, peut se préparer à l'avance",
-        "adjustment_recommendations": "Augmenter légèrement les protéines en ajoutant des lentilles corail (100g) ou du tofu nature émietté (150g) à la couche de légumes pour plus de satié​té. Réduire le sel ajouté car le parmesan et la mozzarella en apportent déjà significativement."
+        "macros": "protéines: 18g, glucides: 52g, lipides: 14g",
+        "allergens": "gluten (pâtes), lait (béchamel, fromages), œuf (possible dans les pâtes fraîches)",
+        "dietary_flags": "végétarien, peut contenir gluten (sans gluten si pâtes sans gluten), contient laitages",
+        "adjustment_recommendations": "Pour réduire les lipides: remplacer le lait entier par lait demi-écrémé et diminuer le beurre à 70g. Pour plus de protéines végétales: ajouter 200g de lentilles corail cuites à la sauce tomate ou remplacer partiellement par ricotta."
       }
     },
     {
-      "offset_ms": 29264,
+      "offset_ms": 42906,
       "event": "group_start",
       "group": "recipe-refinement",
       "max_iterations": 3
     },
     {
-      "offset_ms": 29264,
+      "offset_ms": 42906,
       "event": "group_iteration",
       "group": "recipe-refinement",
       "iteration": 1,
       "max_iterations": 3
     },
     {
-      "offset_ms": 29264,
+      "offset_ms": 42906,
       "event": "stage_start",
       "stage": "recipe-drafting",
       "stage_index": 3,
@@ -657,16 +547,16 @@
       "max_attempts": 3
     },
     {
-      "offset_ms": 29266,
+      "offset_ms": 42907,
       "event": "stage_context",
       "stage": "recipe-drafting",
       "context_keys": {
         "input": 154,
-        "previous_stage_output": 3418
+        "previous_stage_output": 4236
       }
     },
     {
-      "offset_ms": 44473,
+      "offset_ms": 59782,
       "event": "tool_call_start",
       "tool": "db-upsert_recipe",
       "params": {
@@ -677,387 +567,217 @@
           "timeMinutes": 90,
           "portions": 6,
           "emoji": "🍝",
-          "calories": 450,
+          "calories": 420,
           "ingredients": [
             {
-              "name": "Pâtes à lasagne",
-              "quantity": "500g"
+              "name": "Pâtes à lasagne sèches",
+              "quantity": "300 g",
+              "group": "Base"
             },
             {
-              "name": "Sauce tomate",
-              "quantity": "1200ml"
+              "name": "Sauce tomate (passata ou coulis)",
+              "quantity": "800 ml",
+              "group": "Sauce tomate"
             },
             {
-              "name": "Aubergines",
-              "quantity": "2 moyennes"
+              "name": "Beurre doux",
+              "quantity": "100 g",
+              "group": "Béchamel"
             },
             {
-              "name": "Courgettes",
-              "quantity": "2 moyennes"
+              "name": "Farine de blé",
+              "quantity": "100 g",
+              "group": "Béchamel"
             },
             {
-              "name": "Champignons de Paris",
-              "quantity": "400g"
-            },
-            {
-              "name": "Oignon",
-              "quantity": "2 moyens"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4 gousses"
-            },
-            {
-              "name": "Ricotta",
-              "quantity": "500g"
+              "name": "Lait entier",
+              "quantity": "1000 ml",
+              "group": "Béchamel"
             },
             {
               "name": "Parmesan râpé",
-              "quantity": "200g"
+              "quantity": "150 g",
+              "group": "Fromages"
             },
             {
-              "name": "Mozzarella râpée",
-              "quantity": "250g"
+              "name": "Emmental râpé",
+              "quantity": "100 g",
+              "group": "Fromages"
             },
             {
-              "name": "Œuf",
-              "quantity": "2"
+              "name": "Mozzarella",
+              "quantity": "150 g",
+              "group": "Fromages",
+              "optional": true
             },
             {
-              "name": "Basilic frais",
-              "quantity": "15g"
+              "name": "Oignons",
+              "quantity": "3 moyens (300 g)",
+              "group": "Légumes"
             },
             {
-              "name": "Origan sec",
-              "quantity": "1 cuillère à café"
+              "name": "Ail",
+              "quantity": "4 gousses",
+              "group": "Légumes"
+            },
+            {
+              "name": "Poireaux",
+              "quantity": "3 moyens (500 g)",
+              "group": "Légumes"
+            },
+            {
+              "name": "Carottes",
+              "quantity": "3 moyennes (300 g)",
+              "group": "Légumes"
+            },
+            {
+              "name": "Aubergine",
+              "quantity": "1 moyenne (300 g)",
+              "group": "Légumes",
+              "optional": true
+            },
+            {
+              "name": "Herbes de Provence",
+              "quantity": "2 c. à café",
+              "group": "Assaisonnements"
             },
             {
               "name": "Huile d'olive",
-              "quantity": "100ml"
+              "quantity": "4 c. à soupe",
+              "group": "Assaisonnements"
             },
             {
               "name": "Sel",
-              "quantity": "à goût"
+              "quantity": "à goût",
+              "group": "Assaisonnements"
             },
             {
               "name": "Poivre",
-              "quantity": "à goût"
+              "quantity": "à goût",
+              "group": "Assaisonnements"
+            },
+            {
+              "name": "Basilic frais",
+              "quantity": "1 petit bouquet",
+              "group": "Assaisonnements",
+              "optional": true
             }
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Préparation des légumes",
+              "title": "Préparer les légumes",
               "instructions": [
-                "Laver les aubergines et courgettes, les couper en dés de 1cm",
-                "Nettoyer les champignons avec un linge humide et les émincer finement",
-                "Émincer les oignons et hacher finement l'ail"
+                "Éplucher et émincer finement les oignons et l'ail",
+                "Nettoyer les poireaux et les couper en rondelles fines",
+                "Peler et râper les carottes",
+                "Si utilisant l'aubergine, la couper en petits dés et la dégorger légèrement avec du sel (15 minutes)"
               ],
               "durationMinutes": 15
             },
             {
               "order": 2,
-              "title": "Cuisson des légumes",
+              "title": "Préparer la sauce tomate",
               "instructions": [
-                "Chauffer 50ml d'huile d'olive dans une grande poêle à feu moyen-vif",
-                "Faire revenir les oignons et l'ail pendant 2-3 minutes jusqu'à fragrances",
-                "Ajouter les aubergines et les courgettes, laisser cuire 8-10 minutes",
-                "Ajouter les champignons et poursuivre la cuisson 5 minutes",
-                "Saler et poivrer à goût"
+                "Chauffer 2 c. à soupe d'huile d'olive dans une grande cocotte",
+                "Faire revenir oignons et ail jusqu'à translucidité (3 minutes)",
+                "Ajouter les poireaux, carottes et aubergine, cuire 5 minutes en remuant",
+                "Verser la sauce tomate, ajouter les Herbes de Provence",
+                "Saler et poivrer légèrement, puis laisser mijoter 20 minutes à couvert",
+                "Rectifier l'assaisonnement et ajouter le basilic frais si disponible"
               ],
-              "durationMinutes": 20
+              "durationMinutes": 30
             },
             {
               "order": 3,
-              "title": "Préparation de la sauce tomate",
+              "title": "Préparer la béchamel",
               "instructions": [
-                "Verser la sauce tomate dans une casserole",
-                "Ajouter l'origan sec et 10g de basilic frais ciselé",
-                "Faire réduire à feu moyen pendant 10-15 minutes pour concentrer les saveurs",
-                "Saler et poivrer selon le goût"
+                "Faire fondre le beurre à feu moyen dans une casserole",
+                "Ajouter la farine d'un coup en remuant vigoureusement avec un fouet",
+                "Cuire le roux 2 minutes sans cesser de remuer pour éliminer le goût de farine",
+                "Verser progressivement le lait froid en fouettant constamment pour éviter les grumeaux",
+                "Continuer la cuisson en remuant régulièrement jusqu'à épaississement (8-10 minutes)",
+                "La sauce doit napper la cuillère; si trop épaisse, ajouter du lait",
+                "Saler et poivrer légèrement"
               ],
               "durationMinutes": 15
             },
             {
               "order": 4,
-              "title": "Préparation du mélange ricotta",
+              "title": "Assembler la lasagne",
               "instructions": [
-                "Dans un saladier, mélanger la ricotta avec les 2 œufs",
-                "Ajouter 150g de parmesan râpé et le basilic frais restant (5g)",
-                "Bien mélanger jusqu'à obtenir une pâte homogène et crémeuse",
-                "Saler et poivrer légèrement (le parmesan apporte déjà du sel)"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 5,
-              "title": "Cuisson des pâtes à lasagne",
-              "instructions": [
-                "Porter une casserole d'eau salée à ébullition",
-                "Cuire les pâtes à lasagne selon les instructions de l'emballage, moins 2 minutes (elles vont recuire au four)",
-                "Égoutter délicatement et réserver"
-              ],
-              "durationMinutes": 12
-            },
-            {
-              "order": 6,
-              "title": "Assemblage de la lasagne",
-              "instructions": [
-                "Préchauffer le four à 190°C",
-                "Huiler légèrement un plat à lasagne rectangulaire (30x20cm)",
-                "Verser une fine couche de sauce tomate au fond (100ml)",
-                "Disposer une couche de pâtes à lasagne",
-                "Étaler 1/3 du mélange ricotta, puis 1/3 des légumes sautés",
-                "Couvrir avec une nouvelle couche de sauce tomate",
-                "Répéter l'opération deux fois supplémentaires (3 couches de pâtes au total)",
-                "Terminer avec une couche de sauce tomate",
-                "Couvrir généreusement avec la mozzarella râpée et le parmesan restant (50g)",
-                "Arroser des 50ml d'huile d'olive restants"
+                "Préchauffer le four à 180°C (thermostat 6)",
+                "Verser une fine couche de sauce tomate au fond d'un plat de 25x35 cm",
+                "Disposer une couche de pâtes à lasagne en les chevauchant légèrement",
+                "Verser 1/3 de la sauce tomate, puis 1/3 de la béchamel",
+                "Saupoudrer avec un mélange des fromages râpés (Parmesan + Emmental)",
+                "Répéter l'opération deux fois (couche pâtes-sauce tomate-béchamel-fromage)",
+                "Terminer avec une dernière couche de pâtes, puis le reste de la béchamel",
+                "Couvrir généreusement avec les fromages restants et la mozzarella si utilisée"
               ],
               "durationMinutes": 10
             },
             {
-              "order": 7,
-              "title": "Cuisson au four",
+              "order": 5,
+              "title": "Cuire la lasagne",
               "instructions": [
-                "Enfourner à 190°C pour 35-40 minutes jusqu'à ce que le fromage soit doré et brun",
-                "La lasagne est prête quand les bords bouillonnent légèrement et le dessus est gratinée",
-                "Sortir du four et laisser reposer 5-10 minutes avant de servir pour que la lasagne se stabilise"
+                "Enfourner à 180°C pendant 35-40 minutes",
+                "La surface doit être dorée et légèrement bouillonnante sur les bords",
+                "Si le dessus brunît trop vite, couvrir d'un papier aluminium à mi-cuisson",
+                "Laisser reposer 5 minutes à la sortie du four avant de servir"
               ],
               "durationMinutes": 40
             }
           ],
           "notes": {
             "chef": [
-              "Cette recette peut être entièrement préparée 24 heures à l'avance. Couvrir avec du film plastique et réfrigérer avant la cuisson au four.",
-              "Augmenter les protéines en ajoutant 100g de lentilles corail cuites ou 150g de tofu nature émietté mélangés aux légumes pour plus de satiété.",
-              "Privilégier le Parmigiano-Reggiano pour une meilleure saveur umami prononcée.",
-              "Ne pas laver les champignons à l'eau; les nettoyer avec un linge humide pour éviter l'absorption excessive d'humidité.",
-              "Pour une texture optimale, choisir des aubergines et courgettes fermes et de taille régulière."
+              "Préparation à l'avance: assembler la lasagne la veille, couvrir et réfrigérer. Ajouter 5-10 minutes à la cuisson si elle sort du froid",
+              "Ne pas utiliser des pâtes fraîches trop humides qui ramoilleraient pendant la cuisson",
+              "L'inter­pénétration des saveurs s'améliore après quelques heures; idéal pour préparer 6-12 heures avant cuisson",
+              "Vérifier que chaque couche de sauce soit bien répartie pour éviter des zones sèches",
+              "Laisser reposer quelques minutes avant de découper permet une meilleure tenue des portions"
             ],
             "variations": [
-              "Version avec béchamel: remplacer le mélange ricotta-œuf par une béchamel légère (50g beurre, 50g farine, 500ml lait) pour une texture plus crémeuse.",
-              "Lasagne carnée: ajouter 300g de viande hachée végétale ou viande mixte sautée avec les oignons.",
-              "Lasagne blanche: utiliser uniquement ricotta et mozzarella sans sauce tomate, ajouter 50ml de lait pour la souplesse.",
-              "Version légère: réduire la mozzarella à 150g et la ricotta à 300g, ajouter du fromage blanc pour compenser.",
-              "Lasagne aux fruits de mer (variante non-végétarienne): remplacer les légumes par 400g de crevettes et calamars sautés."
+              "Version légère: remplacer le lait entier par lait demi-écrémé et réduire le beurre à 70 g",
+              "Avec protéines: ajouter 200 g de lentilles corail cuites à la sauce tomate",
+              "Épinards version: remplacer les poireaux par 500 g d'épinards frais blanchis et essorés",
+              "Fromage unique: utiliser 250 g de Gruyère AOP pour une version plus simple",
+              "Ricotta légère: remplacer 1/3 de la béchamel par 250 g de ricotta mélangée avec du lait"
             ],
-            "conservation": "La lasagne cuite se conserve au réfrigérateur pendant 3-4 jours couverte. Elle peut aussi être congelée jusqu'à 2 mois. Réchauffer au four à 160°C pendant 20-25 minutes recouvert de papier aluminium.",
-            "nutrition": "Par portion (pour 6): Protéines 18g, Glucides 42g, Lipides 12g. Calories totales environ 450 kcal par portion. Riche en calcium et fer grâce aux fromages et légumes."
+            "conservation": "Jusqu'à 3 jours au réfrigérateur couvert. Peut se congeler jusqu'à 2 mois (assembler sans cuire). À décongeler 12 heures au froid avant cuisson",
+            "nutrition": "Par portion (6 personnes): 420 kcal, protéines 18g, glucides 52g, lipides 14g. Source importante de calcium (fromages et lait) et de fibres (légumes)"
           }
         }
       }
     },
     {
-      "offset_ms": 45508,
+      "offset_ms": 60781,
       "event": "tool_call_complete",
       "tool": "db-upsert_recipe",
       "result": {
         "success": true,
-        "id": "cmpesswjj0000caij80ui15yn",
+        "id": "cmpfrxh8o0000lrij98s1rsla",
         "title": "Lasagne végétarienne maison"
       },
-      "duration_ms": 1035
+      "duration_ms": 999
     },
     {
-      "offset_ms": 56960,
+      "offset_ms": 73574,
       "event": "stage_complete",
       "stage": "recipe-drafting",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 27695,
+      "duration_ms": 30668,
       "tokens": {
-        "prompt": 5851,
-        "completion": 3370,
-        "total": 9221
+        "prompt": 6424,
+        "completion": 4109,
+        "total": 10533
       },
       "tool_calls": [
         {
-          "id": "toolu_017M8CKL7yvJeXsAn6DPXp4k",
+          "id": "toolu_01M9MxHRSJNF4Ks912dhv5aS",
           "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Lasagne végétarienne maison",
-              "cuisine": "Italienne",
-              "timeMinutes": 90,
-              "portions": 6,
-              "emoji": "🍝",
-              "calories": 450,
-              "ingredients": [
-                {
-                  "name": "Pâtes à lasagne",
-                  "quantity": "500g"
-                },
-                {
-                  "name": "Sauce tomate",
-                  "quantity": "1200ml"
-                },
-                {
-                  "name": "Aubergines",
-                  "quantity": "2 moyennes"
-                },
-                {
-                  "name": "Courgettes",
-                  "quantity": "2 moyennes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "400g"
-                },
-                {
-                  "name": "Oignon",
-                  "quantity": "2 moyens"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "4 gousses"
-                },
-                {
-                  "name": "Ricotta",
-                  "quantity": "500g"
-                },
-                {
-                  "name": "Parmesan râpé",
-                  "quantity": "200g"
-                },
-                {
-                  "name": "Mozzarella râpée",
-                  "quantity": "250g"
-                },
-                {
-                  "name": "Œuf",
-                  "quantity": "2"
-                },
-                {
-                  "name": "Basilic frais",
-                  "quantity": "15g"
-                },
-                {
-                  "name": "Origan sec",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Huile d'olive",
-                  "quantity": "100ml"
-                },
-                {
-                  "name": "Sel",
-                  "quantity": "à goût"
-                },
-                {
-                  "name": "Poivre",
-                  "quantity": "à goût"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparation des légumes",
-                  "instructions": [
-                    "Laver les aubergines et courgettes, les couper en dés de 1cm",
-                    "Nettoyer les champignons avec un linge humide et les émincer finement",
-                    "Émincer les oignons et hacher finement l'ail"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 2,
-                  "title": "Cuisson des légumes",
-                  "instructions": [
-                    "Chauffer 50ml d'huile d'olive dans une grande poêle à feu moyen-vif",
-                    "Faire revenir les oignons et l'ail pendant 2-3 minutes jusqu'à fragrances",
-                    "Ajouter les aubergines et les courgettes, laisser cuire 8-10 minutes",
-                    "Ajouter les champignons et poursuivre la cuisson 5 minutes",
-                    "Saler et poivrer à goût"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 3,
-                  "title": "Préparation de la sauce tomate",
-                  "instructions": [
-                    "Verser la sauce tomate dans une casserole",
-                    "Ajouter l'origan sec et 10g de basilic frais ciselé",
-                    "Faire réduire à feu moyen pendant 10-15 minutes pour concentrer les saveurs",
-                    "Saler et poivrer selon le goût"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 4,
-                  "title": "Préparation du mélange ricotta",
-                  "instructions": [
-                    "Dans un saladier, mélanger la ricotta avec les 2 œufs",
-                    "Ajouter 150g de parmesan râpé et le basilic frais restant (5g)",
-                    "Bien mélanger jusqu'à obtenir une pâte homogène et crémeuse",
-                    "Saler et poivrer légèrement (le parmesan apporte déjà du sel)"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 5,
-                  "title": "Cuisson des pâtes à lasagne",
-                  "instructions": [
-                    "Porter une casserole d'eau salée à ébullition",
-                    "Cuire les pâtes à lasagne selon les instructions de l'emballage, moins 2 minutes (elles vont recuire au four)",
-                    "Égoutter délicatement et réserver"
-                  ],
-                  "durationMinutes": 12
-                },
-                {
-                  "order": 6,
-                  "title": "Assemblage de la lasagne",
-                  "instructions": [
-                    "Préchauffer le four à 190°C",
-                    "Huiler légèrement un plat à lasagne rectangulaire (30x20cm)",
-                    "Verser une fine couche de sauce tomate au fond (100ml)",
-                    "Disposer une couche de pâtes à lasagne",
-                    "Étaler 1/3 du mélange ricotta, puis 1/3 des légumes sautés",
-                    "Couvrir avec une nouvelle couche de sauce tomate",
-                    "Répéter l'opération deux fois supplémentaires (3 couches de pâtes au total)",
-                    "Terminer avec une couche de sauce tomate",
-                    "Couvrir généreusement avec la mozzarella râpée et le parmesan restant (50g)",
-                    "Arroser des 50ml d'huile d'olive restants"
-                  ],
-                  "durationMinutes": 10
-                },
-                {
-                  "order": 7,
-                  "title": "Cuisson au four",
-                  "instructions": [
-                    "Enfourner à 190°C pour 35-40 minutes jusqu'à ce que le fromage soit doré et brun",
-                    "La lasagne est prête quand les bords bouillonnent légèrement et le dessus est gratinée",
-                    "Sortir du four et laisser reposer 5-10 minutes avant de servir pour que la lasagne se stabilise"
-                  ],
-                  "durationMinutes": 40
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Cette recette peut être entièrement préparée 24 heures à l'avance. Couvrir avec du film plastique et réfrigérer avant la cuisson au four.",
-                  "Augmenter les protéines en ajoutant 100g de lentilles corail cuites ou 150g de tofu nature émietté mélangés aux légumes pour plus de satiété.",
-                  "Privilégier le Parmigiano-Reggiano pour une meilleure saveur umami prononcée.",
-                  "Ne pas laver les champignons à l'eau; les nettoyer avec un linge humide pour éviter l'absorption excessive d'humidité.",
-                  "Pour une texture optimale, choisir des aubergines et courgettes fermes et de taille régulière."
-                ],
-                "variations": [
-                  "Version avec béchamel: remplacer le mélange ricotta-œuf par une béchamel légère (50g beurre, 50g farine, 500ml lait) pour une texture plus crémeuse.",
-                  "Lasagne carnée: ajouter 300g de viande hachée végétale ou viande mixte sautée avec les oignons.",
-                  "Lasagne blanche: utiliser uniquement ricotta et mozzarella sans sauce tomate, ajouter 50ml de lait pour la souplesse.",
-                  "Version légère: réduire la mozzarella à 150g et la ricotta à 300g, ajouter du fromage blanc pour compenser.",
-                  "Lasagne aux fruits de mer (variante non-végétarienne): remplacer les légumes par 400g de crevettes et calamars sautés."
-                ],
-                "conservation": "La lasagne cuite se conserve au réfrigérateur pendant 3-4 jours couverte. Elle peut aussi être congelée jusqu'à 2 mois. Réchauffer au four à 160°C pendant 20-25 minutes recouvert de papier aluminium.",
-                "nutrition": "Par portion (pour 6): Protéines 18g, Glucides 42g, Lipides 12g. Calories totales environ 450 kcal par portion. Riche en calcium et fer grâce aux fromages et légumes."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpesswjj0000caij80ui15yn",
-            "title": "Lasagne végétarienne maison"
-          }
+          "truncated": true
         }
       ],
       "output": {
@@ -1066,21 +786,23 @@
         "timeMinutes": "90",
         "portions": "6",
         "emoji": "🍝",
-        "ingredients": "[{\"name\": \"Pâtes à lasagne\", \"quantity\": \"500g\"}, {\"name\": \"Sauce tomate\", \"quantity\": \"1200ml\"}, {\"name\": \"Aubergines\", \"quantity\": \"2 moyennes\"}, {\"name\": \"Courgettes\", \"quantity\": \"2 moyennes\"}, {\"name\": \"Champignons de Paris\", \"quantity\": \"400g\"}, {\"name\": \"Oignon\", \"quantity\": \"2 moyens\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\"}, {\"name\": \"Ricotta\", \"quantity\": \"500g\"}, {\"name\": \"Parmesan râpé\", \"quantity\": \"200g\"}, {\"name\": \"Mozzarella râpée\", \"quantity\": \"250g\"}, {\"name\": \"Œuf\", \"quantity\": \"2\"}, {\"name\": \"Basilic frais\", \"quantity\": \"15g\"}, {\"name\": \"Origan sec\", \"quantity\": \"1 cuillère à café\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"100ml\"}, {\"name\": \"Sel et poivre\", \"quantity\": \"à goût\"}]",
+        "ingredients": "[{\"name\": \"Pâtes à lasagne sèches\", \"quantity\": \"300 g\"}, {\"name\": \"Sauce tomate (passata)\", \"quantity\": \"900 ml\"}, {\"name\": \"Beurre doux\", \"quantity\": \"100 g\"}, {\"name\": \"Farine de blé\", \"quantity\": \"100 g\"}, {\"name\": \"Lait entier\", \"quantity\": \"1 litre\"}, {\"name\": \"Parmesan râpé\", \"quantity\": \"150 g\"}, {\"name\": \"Emmental râpé\", \"quantity\": \"100 g\"}, {\"name\": \"Mozzarella\", \"quantity\": \"150 g\"}, {\"name\": \"Oignons\", \"quantity\": \"3 moyens\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\"}, {\"name\": \"Poireaux\", \"quantity\": \"500 g\"}, {\"name\": \"Carottes\", \"quantity\": \"300 g\"}, {\"name\": \"Aubergine\", \"quantity\": \"300 g\", \"optional\": true}, {\"name\": \"Herbes de Provence\", \"quantity\": \"2 c. à café\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"4 c. à soupe\"}, {\"name\": \"Sel et poivre\", \"quantity\": \"à goût\"}, {\"name\": \"Basilic frais\", \"quantity\": \"1 petit bouquet\", \"optional\": true}]",
         "steps": [
-          "Préparer les légumes : peler et couper les aubergines et courgettes en tranches fines (5-7mm), hacher les oignons et l'ail",
-          "Sauté des légumes : faire revenir oignons et ail dans huile d'olive, puis ajouter aubergines, courgettes et champignons hachés. Cuire 15 minutes jusqu'à tendreté, assaisonner avec sel, poivre et origan",
-          "Préparer le mélange ricotta : mélanger ricotta, œufs, 100g de parmesan, basilic frais haché, sel et poivre jusqu'à texture homogène",
-          "Cuire les pâtes : faire bouillir de l'eau salée, cuire les pâtes à lasagne selon les instructions du paquet (garder légèrement al dente), égoutter et réserver",
-          "Assembler la lasagne : dans un plat de 25x35cm, étaler une fine couche de sauce tomate, puis une couche de pâtes, puis mélange légumes, puis mélange ricotta. Répéter les couches : sauce, pâtes, légumes, ricotta jusqu'à remplissage du plat",
-          "Finaliser : terminer par une couche de sauce tomate, puis parsemer avec le reste du parmesan (100g) et mozzarella (250g)",
-          "Cuire au four : enfourner à 180°C pendant 30-35 minutes jusqu'à gratinage doré et sauce qui frémit sur les bords. Laisser reposer 10 minutes avant de servir"
+          "Préparer les légumes : éplucher et émincer finement les oignons et l'ail. Nettoyer les poireaux et les couper en demi-lunes. Éplucher les carottes et les couper en petits dés. Couper l'aubergine en petits cubes si utilisée.",
+          "Faire revenir les légumes : chauffer l'huile d'olive dans une large cocotte. Y ajouter les oignons et l'ail, laisser blondir 2-3 minutes. Ajouter les poireaux, carottes et aubergine. Sauté 10 minutes en remuant régulièrement jusqu'à dorage léger.",
+          "Préparer la sauce tomate : verser la passata dans la cocotte avec les légumes. Ajouter les Herbes de Provence, saler et poivrer. Laisser mijoter 15-20 minutes à feu moyen jusqu'à épaississement léger.",
+          "Préparer la béchamel : faire fondre le beurre dans une casserole. Ajouter la farine en remuant constamment pendant 2 minutes pour former un roux blond. Verser progressivement le lait tiède en fouettant pour éviter les grumeaux. Cuire 10-15 minutes en remuant fréquemment jusqu'à épaississement. Assaisonner sel et poivre.",
+          "Cuire les pâtes : cuire les pâtes à lasagne selon les instructions du paquet, jusqu'à al dente. Égoutter et réserver sur un linge propre.",
+          "Assembler la lasagne : préchauffer le four à 180°C. Beurrer le fond d'un plat rectangulaire (30x20 cm). Commencer par une fine couche de béchamel, puis ajouter une couche de pâtes, sauce tomate aux légumes, puis béchamel. Saupoudrer un peu de fromage. Répéter jusqu'à épuisement des ingrédients, en terminant par une couche de béchamel et fromage mélangé (Parmesan + Emmental).",
+          "Cuire au four : enfourner à 180°C pendant 40-45 minutes jusqu'à ce que le dessus soit doré et légèrement croustillant. Sortir du four et laisser reposer 10 minutes avant de servir.",
+          "Finition : si désiré, parsemer de basilic frais et de mozzarella déchiquetée avant de servir."
         ],
-        "notes": "Conseil du chef : cette lasagne peut se préparer entièrement la veille et cuite au moment du service pour gain de temps. Variations possibles : ajouter 100g de lentilles corail cuites ou 150g de tofu nature émietté à la couche de légumes pour renforcer les protéines. Substitutions : remplacer ricotta par fromage blanc ou crème fraîche (400g), utiliser emmental à la place de mozzarella, ou persil plat si basilic indisponible. Conservation : se congèle très bien avant cuisson jusqu'à 3 mois, ou au réfrigérateur cuit pendant 4 jours. Allergens : gluten (pâtes), produits laitiers (ricotta, parmesan, mozzarella), œufs."
-      }
+        "notes": "{\"chef\": [\"La lasagne peut se préparer entièrement 24h à l'avance et cuite le jour même pour meilleur résultat. Conserver au réfrigérateur couvert d'un film plastique.\", \"Pour une version plus légère, remplacer le lait entier par du lait demi-écrémé et réduire le beurre à 70g sans altérer le résultat.\", \"Les pâtes fraîches donnent une meilleure interpénétration des saveurs que les pâtes sèches, privilégier si disponibles.\", \"Ne pas surcharger chaque couche pour éviter que la lasagne ne s'écoule à la cuisson.\"], \"variations\": [\"Ajouter 200g de lentilles corail cuites à la sauce tomate pour augmenter les protéines végétales.\", \"Remplacer partiellement la béchamel par 250g de ricotta battue avec 1 œuf pour une version plus légère et plus riche.\", \"Ajouter des épinards frais blanchis (300g) pour une variante verte.\", \"Utiliser du Gruyère seul (150g) à la place du mélange Parmesan-Emmental.\", \"Remplacer les poireaux par 500g d'oignons blancs pour un goût plus doux.\"], \"conservation\": \"Au réfrigérateur 3-4 jours couvert. Peut se congeler crue jusqu'à 2 mois ou cuite 1 mois. Décongeler au réfrigérateur avant cuisson ou réchauffer directement au four couvert de papier aluminium à 160°C pendant 30-40 minutes.\", \"nutrition\": \"Par portion (1/6e) : environ 650 kcal, protéines 18g, glucides 52g, lipides 14g. Riche en calcium (fromage, lait) et fibres (légumes). Contient gluten et laitages.\"}"
+      },
+      "truncated": true
     },
     {
-      "offset_ms": 56960,
+      "offset_ms": 73574,
       "event": "stage_start",
       "stage": "technique-validation",
       "stage_index": 4,
@@ -1088,378 +810,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 56962,
+      "offset_ms": 73575,
       "event": "stage_context",
       "stage": "technique-validation",
       "context_keys": {
-        "previous_stage_output": 2743
+        "previous_stage_output": 4390
       }
     },
     {
-      "offset_ms": 63856,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Lasagne végétarienne maison",
-          "cuisine": "Italienne",
-          "timeMinutes": 90,
-          "portions": 6,
-          "emoji": "🍝",
-          "ingredients": [
-            {
-              "name": "Pâtes à lasagne",
-              "quantity": "500g"
-            },
-            {
-              "name": "Sauce tomate",
-              "quantity": "1200ml"
-            },
-            {
-              "name": "Aubergines",
-              "quantity": "2 moyennes"
-            },
-            {
-              "name": "Courgettes",
-              "quantity": "2 moyennes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "400g"
-            },
-            {
-              "name": "Oignon",
-              "quantity": "2 moyens"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4 gousses"
-            },
-            {
-              "name": "Ricotta",
-              "quantity": "500g"
-            },
-            {
-              "name": "Parmesan râpé",
-              "quantity": "200g"
-            },
-            {
-              "name": "Mozzarella râpée",
-              "quantity": "250g"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "2"
-            },
-            {
-              "name": "Basilic frais",
-              "quantity": "15g"
-            },
-            {
-              "name": "Origan sec",
-              "quantity": "1 cuillère à café"
-            },
-            {
-              "name": "Huile d'olive",
-              "quantity": "100ml"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "à goût"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparer les légumes",
-              "instructions": [
-                "Peler et couper les aubergines et courgettes en tranches fines (5-7mm)",
-                "Hacher les oignons et l'ail"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 2,
-              "title": "Sauté des légumes",
-              "instructions": [
-                "Faire revenir oignons et ail dans huile d'olive",
-                "Ajouter aubergines, courgettes et champignons hachés",
-                "Cuire 15 minutes jusqu'à tendreté",
-                "Assaisonner avec sel, poivre et origan"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 3,
-              "title": "Préparer le mélange ricotta",
-              "instructions": [
-                "Mélanger ricotta, œufs, 100g de parmesan, basilic frais haché",
-                "Assaisonner avec sel et poivre jusqu'à texture homogène"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 4,
-              "title": "Cuire les pâtes",
-              "instructions": [
-                "Faire bouillir de l'eau salée",
-                "Cuire les pâtes à lasagne selon les instructions du paquet (garder légèrement al dente)",
-                "Égoutter et réserver"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 5,
-              "title": "Assembler la lasagne",
-              "instructions": [
-                "Dans un plat de 25x35cm, étaler une fine couche de sauce tomate",
-                "Ajouter une couche de pâtes, puis mélange légumes, puis mélange ricotta",
-                "Répéter les couches : sauce, pâtes, légumes, ricotta jusqu'à remplissage du plat"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 6,
-              "title": "Finaliser",
-              "instructions": [
-                "Terminer par une couche de sauce tomate",
-                "Parsemer avec le reste du parmesan (100g) et mozzarella (250g)"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 7,
-              "title": "Cuire au four",
-              "instructions": [
-                "Enfourner à 180°C pendant 30-35 minutes jusqu'à gratinage doré et sauce qui frémit sur les bords",
-                "Laisser reposer 10 minutes avant de servir"
-              ],
-              "durationMinutes": 45
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Cette lasagne peut se préparer entièrement la veille et cuite au moment du service pour gain de temps",
-              "Laisser reposer 10 minutes après cuisson avant de servir pour une découpe nette"
-            ],
-            "variations": [
-              "Ajouter 100g de lentilles corail cuites à la couche de légumes pour renforcer les protéines",
-              "Ajouter 150g de tofu nature émietté à la couche de légumes",
-              "Remplacer ricotta par fromage blanc ou crème fraîche (400g)",
-              "Utiliser emmental à la place de mozzarella",
-              "Utiliser persil plat si basilic indisponible"
-            ],
-            "conservation": "Se congèle très bien avant cuisson jusqu'à 3 mois, ou au réfrigérateur cuit pendant 4 jours",
-            "nutrition": "Allergens : gluten (pâtes), produits laitiers (ricotta, parmesan, mozzarella), œufs"
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 65331,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpestbvh0000f1ij51aym91g",
-        "title": "Lasagne végétarienne maison"
-      },
-      "duration_ms": 1475
-    },
-    {
-      "offset_ms": 66380,
+      "offset_ms": 86853,
       "event": "stage_complete",
       "stage": "technique-validation",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 9420,
+      "duration_ms": 13279,
       "tokens": {
-        "prompt": 8034,
-        "completion": 1567,
-        "total": 9601
+        "prompt": 9307,
+        "completion": 2148,
+        "total": 11455
       },
-      "tool_calls": [
-        {
-          "id": "toolu_01JskBYupGC67RdE6V3N4tPd",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Lasagne végétarienne maison",
-              "cuisine": "Italienne",
-              "timeMinutes": 90,
-              "portions": 6,
-              "emoji": "🍝",
-              "ingredients": [
-                {
-                  "name": "Pâtes à lasagne",
-                  "quantity": "500g"
-                },
-                {
-                  "name": "Sauce tomate",
-                  "quantity": "1200ml"
-                },
-                {
-                  "name": "Aubergines",
-                  "quantity": "2 moyennes"
-                },
-                {
-                  "name": "Courgettes",
-                  "quantity": "2 moyennes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "400g"
-                },
-                {
-                  "name": "Oignon",
-                  "quantity": "2 moyens"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "4 gousses"
-                },
-                {
-                  "name": "Ricotta",
-                  "quantity": "500g"
-                },
-                {
-                  "name": "Parmesan râpé",
-                  "quantity": "200g"
-                },
-                {
-                  "name": "Mozzarella râpée",
-                  "quantity": "250g"
-                },
-                {
-                  "name": "Œuf",
-                  "quantity": "2"
-                },
-                {
-                  "name": "Basilic frais",
-                  "quantity": "15g"
-                },
-                {
-                  "name": "Origan sec",
-                  "quantity": "1 cuillère à café"
-                },
-                {
-                  "name": "Huile d'olive",
-                  "quantity": "100ml"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "à goût"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparer les légumes",
-                  "instructions": [
-                    "Peler et couper les aubergines et courgettes en tranches fines (5-7mm)",
-                    "Hacher les oignons et l'ail"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 2,
-                  "title": "Sauté des légumes",
-                  "instructions": [
-                    "Faire revenir oignons et ail dans huile d'olive",
-                    "Ajouter aubergines, courgettes et champignons hachés",
-                    "Cuire 15 minutes jusqu'à tendreté",
-                    "Assaisonner avec sel, poivre et origan"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 3,
-                  "title": "Préparer le mélange ricotta",
-                  "instructions": [
-                    "Mélanger ricotta, œufs, 100g de parmesan, basilic frais haché",
-                    "Assaisonner avec sel et poivre jusqu'à texture homogène"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 4,
-                  "title": "Cuire les pâtes",
-                  "instructions": [
-                    "Faire bouillir de l'eau salée",
-                    "Cuire les pâtes à lasagne selon les instructions du paquet (garder légèrement al dente)",
-                    "Égoutter et réserver"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 5,
-                  "title": "Assembler la lasagne",
-                  "instructions": [
-                    "Dans un plat de 25x35cm, étaler une fine couche de sauce tomate",
-                    "Ajouter une couche de pâtes, puis mélange légumes, puis mélange ricotta",
-                    "Répéter les couches : sauce, pâtes, légumes, ricotta jusqu'à remplissage du plat"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 6,
-                  "title": "Finaliser",
-                  "instructions": [
-                    "Terminer par une couche de sauce tomate",
-                    "Parsemer avec le reste du parmesan (100g) et mozzarella (250g)"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 7,
-                  "title": "Cuire au four",
-                  "instructions": [
-                    "Enfourner à 180°C pendant 30-35 minutes jusqu'à gratinage doré et sauce qui frémit sur les bords",
-                    "Laisser reposer 10 minutes avant de servir"
-                  ],
-                  "durationMinutes": 45
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Cette lasagne peut se préparer entièrement la veille et cuite au moment du service pour gain de temps",
-                  "Laisser reposer 10 minutes après cuisson avant de servir pour une découpe nette"
-                ],
-                "variations": [
-                  "Ajouter 100g de lentilles corail cuites à la couche de légumes pour renforcer les protéines",
-                  "Ajouter 150g de tofu nature émietté à la couche de légumes",
-                  "Remplacer ricotta par fromage blanc ou crème fraîche (400g)",
-                  "Utiliser emmental à la place de mozzarella",
-                  "Utiliser persil plat si basilic indisponible"
-                ],
-                "conservation": "Se congèle très bien avant cuisson jusqu'à 3 mois, ou au réfrigérateur cuit pendant 4 jours",
-                "nutrition": "Allergens : gluten (pâtes), produits laitiers (ricotta, parmesan, mozzarella), œufs"
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpestbvh0000f1ij51aym91g",
-            "title": "Lasagne végétarienne maison"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
         "verdict": "approved",
-        "critique": "Recette validée et persistée avec succès en base de données. Tous les critères sont respectés : recette végétarienne, portions pour 6 personnes, préparation possible à l'avance."
+        "critique": "Recette persisted avec succès. La lasagne végétarienne est techniquement réalisable et conforme à tous les critères du brief."
       }
     },
     {
-      "offset_ms": 66380,
+      "offset_ms": 86853,
       "event": "group_complete",
       "group": "recipe-refinement",
       "iterations": 1,
       "status": "success"
     },
     {
-      "offset_ms": 66381,
+      "offset_ms": 86854,
       "event": "stage_start",
       "stage": "grocery-list",
       "stage_index": 5,
@@ -1467,599 +851,40 @@
       "max_attempts": 2
     },
     {
-      "offset_ms": 66382,
+      "offset_ms": 86854,
       "event": "stage_context",
       "stage": "grocery-list",
       "context_keys": {
         "input": 154,
-        "previous_stage_output": 6374
+        "previous_stage_output": 8787
       }
     },
     {
-      "offset_ms": 70858,
-      "event": "tool_call_start",
-      "tool": "db-upsert_grocery_list",
-      "params": {
-        "data": {
-          "planId": "cmmrunf9l0000cpijlrn58jpw",
-          "items": [
-            {
-              "name": "Pâtes à lasagne",
-              "quantity": "500g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Aubergines",
-              "quantity": "2 moyennes",
-              "group": "légumes"
-            },
-            {
-              "name": "Courgettes",
-              "quantity": "2 moyennes",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "400g",
-              "group": "légumes"
-            },
-            {
-              "name": "Oignon",
-              "quantity": "2 moyens",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Basilic frais",
-              "quantity": "15g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Sauce tomate",
-              "quantity": "1200ml",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Ricotta",
-              "quantity": "500g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Parmesan râpé",
-              "quantity": "200g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Mozzarella râpée",
-              "quantity": "250g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "2",
-              "group": "produits frais"
-            },
-            {
-              "name": "Origan sec",
-              "quantity": "1 cuillère à café",
-              "group": "condiments"
-            },
-            {
-              "name": "Huile d'olive",
-              "quantity": "100ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "à goût",
-              "group": "condiments"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "offset_ms": 72251,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_grocery_list",
-      "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}",
-      "duration_ms": 1392
-    },
-    {
-      "offset_ms": 82077,
-      "event": "tool_call_start",
-      "tool": "db-upsert_recipe",
-      "params": {
-        "data": {
-          "userId": "cmmrunf9l0000cpijlrn58jpw",
-          "title": "Lasagne végétarienne maison",
-          "cuisine": "Italienne",
-          "timeMinutes": 90,
-          "portions": 6,
-          "emoji": "🍝",
-          "ingredients": [
-            {
-              "name": "Pâtes à lasagne",
-              "quantity": "500g",
-              "group": "épicerie sèche"
-            },
-            {
-              "name": "Sauce tomate",
-              "quantity": "1200ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Aubergines",
-              "quantity": "2 moyennes",
-              "group": "légumes"
-            },
-            {
-              "name": "Courgettes",
-              "quantity": "2 moyennes",
-              "group": "légumes"
-            },
-            {
-              "name": "Champignons de Paris",
-              "quantity": "400g",
-              "group": "légumes"
-            },
-            {
-              "name": "Oignon",
-              "quantity": "2 moyens",
-              "group": "légumes"
-            },
-            {
-              "name": "Ail",
-              "quantity": "4 gousses",
-              "group": "légumes"
-            },
-            {
-              "name": "Ricotta",
-              "quantity": "500g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Parmesan râpé",
-              "quantity": "200g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Mozzarella râpée",
-              "quantity": "250g",
-              "group": "produits frais"
-            },
-            {
-              "name": "Œuf",
-              "quantity": "2",
-              "group": "produits frais"
-            },
-            {
-              "name": "Basilic frais",
-              "quantity": "15g",
-              "group": "légumes"
-            },
-            {
-              "name": "Origan sec",
-              "quantity": "1 cuillère à café",
-              "group": "condiments"
-            },
-            {
-              "name": "Huile d'olive",
-              "quantity": "100ml",
-              "group": "condiments"
-            },
-            {
-              "name": "Sel et poivre",
-              "quantity": "à goût",
-              "group": "condiments"
-            }
-          ],
-          "steps": [
-            {
-              "order": 1,
-              "title": "Préparer les légumes",
-              "instructions": [
-                "Peler et couper les aubergines et courgettes en tranches fines (5-7mm)",
-                "Hacher les oignons et l'ail"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 2,
-              "title": "Sauté des légumes",
-              "instructions": [
-                "Faire revenir oignons et ail dans huile d'olive",
-                "Ajouter aubergines, courgettes et champignons hachés",
-                "Cuire 15 minutes jusqu'à tendreté",
-                "Assaisonner avec sel, poivre et origan"
-              ],
-              "durationMinutes": 20
-            },
-            {
-              "order": 3,
-              "title": "Préparer le mélange ricotta",
-              "instructions": [
-                "Mélanger ricotta, œufs, 100g de parmesan, basilic frais haché",
-                "Ajouter sel et poivre jusqu'à texture homogène"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 4,
-              "title": "Cuire les pâtes",
-              "instructions": [
-                "Faire bouillir de l'eau salée",
-                "Cuire les pâtes à lasagne selon les instructions du paquet",
-                "Garder légèrement al dente",
-                "Égoutter et réserver"
-              ],
-              "durationMinutes": 12
-            },
-            {
-              "order": 5,
-              "title": "Assembler la lasagne",
-              "instructions": [
-                "Dans un plat de 25x35cm, étaler une fine couche de sauce tomate",
-                "Ajouter une couche de pâtes, puis mélange légumes, puis mélange ricotta",
-                "Répéter les couches jusqu'à remplissage du plat"
-              ],
-              "durationMinutes": 15
-            },
-            {
-              "order": 6,
-              "title": "Finaliser",
-              "instructions": [
-                "Terminer par une couche de sauce tomate",
-                "Parsemer avec le reste du parmesan (100g) et mozzarella (250g)"
-              ],
-              "durationMinutes": 5
-            },
-            {
-              "order": 7,
-              "title": "Cuire au four",
-              "instructions": [
-                "Enfourner à 180°C pendant 30-35 minutes jusqu'à gratinage doré",
-                "Sauce qui frémit sur les bords",
-                "Laisser reposer 10 minutes avant de servir"
-              ],
-              "durationMinutes": 35
-            }
-          ],
-          "notes": {
-            "chef": [
-              "Cette lasagne peut se préparer entièrement la veille et cuite au moment du service pour gain de temps.",
-              "Préférer les pâtes de blé dur ou lasagne fraiches si possible pour meilleure texture.",
-              "Choisir des légumes fermes et de taille régulière pour une cuisson uniforme.",
-              "Nettoyer les champignons avec un linge humide plutôt que laver pour éviter l'absorption d'eau excessive.",
-              "Privilégier le Parmigiano-Reggiano pour une meilleure saveur umami, ou Grana Padano en alternative."
-            ],
-            "variations": [
-              "Ajouter 100g de lentilles corail cuites à la couche de légumes pour renforcer les protéines",
-              "Ajouter 150g de tofu nature émietté à la couche de légumes pour renforcer les protéines",
-              "Remplacer ricotta par fromage blanc ou crème fraîche (400g)",
-              "Utiliser emmental à la place de mozzarella",
-              "Utiliser persil plat si basilic indisponible"
-            ],
-            "conservation": "Se congèle très bien avant cuisson jusqu'à 3 mois, ou au réfrigérateur cuit pendant 4 jours.",
-            "nutrition": "Protéines: 18g, glucides: 42g, lipides: 12g par portion. Allergènes: gluten (pâtes), produits laitiers (ricotta, parmesan, mozzarella), œufs."
-          }
-        }
-      }
-    },
-    {
-      "offset_ms": 83622,
-      "event": "tool_call_complete",
-      "tool": "db-upsert_recipe",
-      "result": {
-        "success": true,
-        "id": "cmpestpwv0000enij6gz7gvi7",
-        "title": "Lasagne végétarienne maison"
-      },
-      "duration_ms": 1545
-    },
-    {
-      "offset_ms": 89112,
+      "offset_ms": 99080,
       "event": "stage_complete",
       "stage": "grocery-list",
       "status": "success",
       "attempts": 1,
-      "duration_ms": 22732,
+      "duration_ms": 12226,
       "tokens": {
-        "prompt": 5972,
-        "completion": 3533,
-        "total": 9505
+        "prompt": 6375,
+        "completion": 1904,
+        "total": 8279
       },
-      "tool_calls": [
-        {
-          "id": "toolu_015yvoGaXsnARat98udJK9Vw",
-          "name": "db-upsert_grocery_list",
-          "arguments": {
-            "data": {
-              "planId": "cmmrunf9l0000cpijlrn58jpw",
-              "items": [
-                {
-                  "name": "Pâtes à lasagne",
-                  "quantity": "500g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Aubergines",
-                  "quantity": "2 moyennes",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Courgettes",
-                  "quantity": "2 moyennes",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "400g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Oignon",
-                  "quantity": "2 moyens",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "4 gousses",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Basilic frais",
-                  "quantity": "15g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Sauce tomate",
-                  "quantity": "1200ml",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Ricotta",
-                  "quantity": "500g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Parmesan râpé",
-                  "quantity": "200g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Mozzarella râpée",
-                  "quantity": "250g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Œuf",
-                  "quantity": "2",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Origan sec",
-                  "quantity": "1 cuillère à café",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Huile d'olive",
-                  "quantity": "100ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "à goût",
-                  "group": "condiments"
-                }
-              ]
-            }
-          },
-          "error": "{\"success\":false,\"error\":\"\\nInvalid `prisma.groceryList.upsert()` invocation in\\n/home/arianeguay/dev/src/little-chef-by-studio/scripts/upsert-grocery-list.ts:41:48\\n\\n  38   process.exit(1)\\n  39 }\\n  40 \\n→ 41 const groceryList = await prisma.groceryList.upsert(\\nForeign key constraint violated on the constraint: `GroceryList_planId_fkey`\"}"
-        },
-        {
-          "id": "toolu_01SvgSC6PWVu5M7MF7BaoM8D",
-          "name": "db-upsert_recipe",
-          "arguments": {
-            "data": {
-              "userId": "cmmrunf9l0000cpijlrn58jpw",
-              "title": "Lasagne végétarienne maison",
-              "cuisine": "Italienne",
-              "timeMinutes": 90,
-              "portions": 6,
-              "emoji": "🍝",
-              "ingredients": [
-                {
-                  "name": "Pâtes à lasagne",
-                  "quantity": "500g",
-                  "group": "épicerie sèche"
-                },
-                {
-                  "name": "Sauce tomate",
-                  "quantity": "1200ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Aubergines",
-                  "quantity": "2 moyennes",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Courgettes",
-                  "quantity": "2 moyennes",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Champignons de Paris",
-                  "quantity": "400g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Oignon",
-                  "quantity": "2 moyens",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Ail",
-                  "quantity": "4 gousses",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Ricotta",
-                  "quantity": "500g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Parmesan râpé",
-                  "quantity": "200g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Mozzarella râpée",
-                  "quantity": "250g",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Œuf",
-                  "quantity": "2",
-                  "group": "produits frais"
-                },
-                {
-                  "name": "Basilic frais",
-                  "quantity": "15g",
-                  "group": "légumes"
-                },
-                {
-                  "name": "Origan sec",
-                  "quantity": "1 cuillère à café",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Huile d'olive",
-                  "quantity": "100ml",
-                  "group": "condiments"
-                },
-                {
-                  "name": "Sel et poivre",
-                  "quantity": "à goût",
-                  "group": "condiments"
-                }
-              ],
-              "steps": [
-                {
-                  "order": 1,
-                  "title": "Préparer les légumes",
-                  "instructions": [
-                    "Peler et couper les aubergines et courgettes en tranches fines (5-7mm)",
-                    "Hacher les oignons et l'ail"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 2,
-                  "title": "Sauté des légumes",
-                  "instructions": [
-                    "Faire revenir oignons et ail dans huile d'olive",
-                    "Ajouter aubergines, courgettes et champignons hachés",
-                    "Cuire 15 minutes jusqu'à tendreté",
-                    "Assaisonner avec sel, poivre et origan"
-                  ],
-                  "durationMinutes": 20
-                },
-                {
-                  "order": 3,
-                  "title": "Préparer le mélange ricotta",
-                  "instructions": [
-                    "Mélanger ricotta, œufs, 100g de parmesan, basilic frais haché",
-                    "Ajouter sel et poivre jusqu'à texture homogène"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 4,
-                  "title": "Cuire les pâtes",
-                  "instructions": [
-                    "Faire bouillir de l'eau salée",
-                    "Cuire les pâtes à lasagne selon les instructions du paquet",
-                    "Garder légèrement al dente",
-                    "Égoutter et réserver"
-                  ],
-                  "durationMinutes": 12
-                },
-                {
-                  "order": 5,
-                  "title": "Assembler la lasagne",
-                  "instructions": [
-                    "Dans un plat de 25x35cm, étaler une fine couche de sauce tomate",
-                    "Ajouter une couche de pâtes, puis mélange légumes, puis mélange ricotta",
-                    "Répéter les couches jusqu'à remplissage du plat"
-                  ],
-                  "durationMinutes": 15
-                },
-                {
-                  "order": 6,
-                  "title": "Finaliser",
-                  "instructions": [
-                    "Terminer par une couche de sauce tomate",
-                    "Parsemer avec le reste du parmesan (100g) et mozzarella (250g)"
-                  ],
-                  "durationMinutes": 5
-                },
-                {
-                  "order": 7,
-                  "title": "Cuire au four",
-                  "instructions": [
-                    "Enfourner à 180°C pendant 30-35 minutes jusqu'à gratinage doré",
-                    "Sauce qui frémit sur les bords",
-                    "Laisser reposer 10 minutes avant de servir"
-                  ],
-                  "durationMinutes": 35
-                }
-              ],
-              "notes": {
-                "chef": [
-                  "Cette lasagne peut se préparer entièrement la veille et cuite au moment du service pour gain de temps.",
-                  "Préférer les pâtes de blé dur ou lasagne fraiches si possible pour meilleure texture.",
-                  "Choisir des légumes fermes et de taille régulière pour une cuisson uniforme.",
-                  "Nettoyer les champignons avec un linge humide plutôt que laver pour éviter l'absorption d'eau excessive.",
-                  "Privilégier le Parmigiano-Reggiano pour une meilleure saveur umami, ou Grana Padano en alternative."
-                ],
-                "variations": [
-                  "Ajouter 100g de lentilles corail cuites à la couche de légumes pour renforcer les protéines",
-                  "Ajouter 150g de tofu nature émietté à la couche de légumes pour renforcer les protéines",
-                  "Remplacer ricotta par fromage blanc ou crème fraîche (400g)",
-                  "Utiliser emmental à la place de mozzarella",
-                  "Utiliser persil plat si basilic indisponible"
-                ],
-                "conservation": "Se congèle très bien avant cuisson jusqu'à 3 mois, ou au réfrigérateur cuit pendant 4 jours.",
-                "nutrition": "Protéines: 18g, glucides: 42g, lipides: 12g par portion. Allergènes: gluten (pâtes), produits laitiers (ricotta, parmesan, mozzarella), œufs."
-              }
-            }
-          },
-          "result": {
-            "success": true,
-            "id": "cmpestpwv0000enij6gz7gvi7",
-            "title": "Lasagne végétarienne maison"
-          }
-        }
-      ],
+      "tool_calls": [],
       "output": {
-        "items": "[{\"name\": \"Aubergines\", \"quantity\": \"2 moyennes\", \"group\": \"légumes\"}, {\"name\": \"Courgettes\", \"quantity\": \"2 moyennes\", \"group\": \"légumes\"}, {\"name\": \"Champignons de Paris\", \"quantity\": \"400g\", \"group\": \"légumes\"}, {\"name\": \"Oignon\", \"quantity\": \"2 moyens\", \"group\": \"légumes\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\", \"group\": \"légumes\"}, {\"name\": \"Basilic frais\", \"quantity\": \"15g\", \"group\": \"légumes\"}, {\"name\": \"Ricotta\", \"quantity\": \"500g\", \"group\": \"produits frais\"}, {\"name\": \"Mozzarella râpée\", \"quantity\": \"250g\", \"group\": \"produits frais\"}, {\"name\": \"Parmesan râpé\", \"quantity\": \"200g\", \"group\": \"produits frais\"}, {\"name\": \"Œuf\", \"quantity\": \"2\", \"group\": \"produits frais\"}, {\"name\": \"Pâtes à lasagne\", \"quantity\": \"500g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Sauce tomate\", \"quantity\": \"1200ml\", \"group\": \"épicerie sèche\"}, {\"name\": \"Origan sec\", \"quantity\": \"1 cuillère à café\", \"group\": \"condiments\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"100ml\", \"group\": \"condiments\"}, {\"name\": \"Sel et poivre\", \"quantity\": \"à goût\", \"group\": \"condiments\"}]",
-        "sections": "{\"légumes\": [{\"name\": \"Aubergines\", \"quantity\": \"2 moyennes\", \"group\": \"légumes\"}, {\"name\": \"Courgettes\", \"quantity\": \"2 moyennes\", \"group\": \"légumes\"}, {\"name\": \"Champignons de Paris\", \"quantity\": \"400g\", \"group\": \"légumes\"}, {\"name\": \"Oignon\", \"quantity\": \"2 moyens\", \"group\": \"légumes\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\", \"group\": \"légumes\"}, {\"name\": \"Basilic frais\", \"quantity\": \"15g\", \"group\": \"légumes\"}], \"produits frais\": [{\"name\": \"Ricotta\", \"quantity\": \"500g\", \"group\": \"produits frais\"}, {\"name\": \"Mozzarella râpée\", \"quantity\": \"250g\", \"group\": \"produits frais\"}, {\"name\": \"Parmesan râpé\", \"quantity\": \"200g\", \"group\": \"produits frais\"}, {\"name\": \"Œuf\", \"quantity\": \"2\", \"group\": \"produits frais\"}], \"épicerie sèche\": [{\"name\": \"Pâtes à lasagne\", \"quantity\": \"500g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Sauce tomate\", \"quantity\": \"1200ml\", \"group\": \"épicerie sèche\"}], \"condiments\": [{\"name\": \"Origan sec\", \"quantity\": \"1 cuillère à café\", \"group\": \"condiments\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"100ml\", \"group\": \"condiments\"}, {\"name\": \"Sel et poivre\", \"quantity\": \"à goût\", \"group\": \"condiments\"}]}"
+        "items": "[{\"name\": \"Pâtes à lasagne sèches\", \"quantity\": \"300 g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Sauce tomate (passata)\", \"quantity\": \"900 ml\", \"group\": \"épicerie sèche\"}, {\"name\": \"Beurre doux\", \"quantity\": \"100 g\", \"group\": \"produits frais\"}, {\"name\": \"Farine de blé\", \"quantity\": \"100 g\", \"group\": \"épicerie sèche\"}, {\"name\": \"Lait entier\", \"quantity\": \"1 litre\", \"group\": \"produits frais\"}, {\"name\": \"Parmesan râpé\", \"quantity\": \"150 g\", \"group\": \"protéines\"}, {\"name\": \"Emmental râpé\", \"quantity\": \"100 g\", \"group\": \"protéines\"}, {\"name\": \"Mozzarella\", \"quantity\": \"150 g\", \"group\": \"protéines\"}, {\"name\": \"Oignons\", \"quantity\": \"3 moyens\", \"group\": \"légumes\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\", \"group\": \"légumes\"}, {\"name\": \"Poireaux\", \"quantity\": \"500 g\", \"group\": \"légumes\"}, {\"name\": \"Carottes\", \"quantity\": \"300 g\", \"group\": \"légumes\"}, {\"name\": \"Aubergine\", \"quantity\": \"300 g\", \"group\": \"légumes\"}, {\"name\": \"Herbes de Provence\", \"quantity\": \"2 c. à café\", \"group\": \"condiments\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"4 c. à soupe\", \"group\": \"condiments\"}, {\"name\": \"Sel\", \"quantity\": \"à goût\", \"group\": \"condiments\"}, {\"name\": \"Poivre\", \"quantity\": \"à goût\", \"group\": \"condiments\"}, {\"name\": \"Basilic frais\", \"quantity\": \"1 petit bouquet\", \"group\": \"légumes\"}]",
+        "sections": "{\"légumes\": [{\"name\": \"Oignons\", \"quantity\": \"3 moyens\"}, {\"name\": \"Ail\", \"quantity\": \"4 gousses\"}, {\"name\": \"Poireaux\", \"quantity\": \"500 g\"}, {\"name\": \"Carottes\", \"quantity\": \"300 g\"}, {\"name\": \"Aubergine\", \"quantity\": \"300 g\"}, {\"name\": \"Basilic frais\", \"quantity\": \"1 petit bouquet\"}], \"protéines\": [{\"name\": \"Parmesan râpé\", \"quantity\": \"150 g\"}, {\"name\": \"Emmental râpé\", \"quantity\": \"100 g\"}, {\"name\": \"Mozzarella\", \"quantity\": \"150 g\"}], \"épicerie sèche\": [{\"name\": \"Pâtes à lasagne sèches\", \"quantity\": \"300 g\"}, {\"name\": \"Sauce tomate (passata)\", \"quantity\": \"900 ml\"}, {\"name\": \"Farine de blé\", \"quantity\": \"100 g\"}], \"produits frais\": [{\"name\": \"Beurre doux\", \"quantity\": \"100 g\"}, {\"name\": \"Lait entier\", \"quantity\": \"1 litre\"}], \"condiments\": [{\"name\": \"Herbes de Provence\", \"quantity\": \"2 c. à café\"}, {\"name\": \"Huile d'olive\", \"quantity\": \"4 c. à soupe\"}, {\"name\": \"Sel\", \"quantity\": \"à goût\"}, {\"name\": \"Poivre\", \"quantity\": \"à goût\"}]}"
       }
     },
     {
-      "offset_ms": 89143,
+      "offset_ms": 99096,
       "event": "pipeline_complete",
       "pipeline_name": "recipe-developer",
       "status": "success",
-      "duration_ms": 89199,
-      "total_tokens": 44475,
-      "total_tool_calls": 9,
+      "duration_ms": 99128,
+      "total_tokens": 52720,
+      "total_tool_calls": 10,
       "total_stages": 6
     }
   ]
