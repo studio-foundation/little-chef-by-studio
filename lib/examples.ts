@@ -4,9 +4,12 @@ export interface RecipeExample {
   label: string
   input: {
     dish_name: string
+    userId: string
     constraints: string[]
   }
 }
+
+const USER_ID = 'cmmrunf9l0000cpijlrn58jpw'
 
 export const EXAMPLES: RecipeExample[] = [
   {
@@ -15,6 +18,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Pad Thai vegan',
     input: {
       dish_name: 'Pad Thai vegan',
+      userId: USER_ID,
       constraints: ['sans produits animaux', 'temps de préparation max 30 minutes', 'pour 4 personnes'],
     },
   },
@@ -24,6 +28,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Risotto aux champignons',
     input: {
       dish_name: 'Risotto aux champignons sauvages',
+      userId: USER_ID,
       constraints: ['végétarien', 'pour 4 personnes', 'ingrédients accessibles en épicerie standard'],
     },
   },
@@ -33,6 +38,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Tacos tofu coréens',
     input: {
       dish_name: 'Tacos au tofu coréens',
+      userId: USER_ID,
       constraints: ['sans produits animaux', 'pour 6 personnes', 'épicé niveau moyen'],
     },
   },
@@ -42,6 +48,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Soupe miso hivernale',
     input: {
       dish_name: "Soupe miso enrichie pour l'hiver",
+      userId: USER_ID,
       constraints: ['sans gluten', 'pour 2 personnes', 'réconfortant', "peu d'ingrédients"],
     },
   },
@@ -51,6 +58,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Curry vert thaï poulet',
     input: {
       dish_name: 'Curry vert thaï au poulet',
+      userId: USER_ID,
       constraints: ['temps de préparation max 30 minutes', 'pour 4 personnes', 'niveau intermédiaire'],
     },
   },
@@ -60,6 +68,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Lasagne végétarienne',
     input: {
       dish_name: 'Lasagne végétarienne maison',
+      userId: USER_ID,
       constraints: ['végétarien', 'pour 6 personnes', "peut se préparer à l'avance"],
     },
   },
@@ -69,6 +78,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Bibimbap sans gluten',
     input: {
       dish_name: 'Bibimbap',
+      userId: USER_ID,
       constraints: ['sans gluten', 'pour 2 personnes', 'budget raisonnable'],
     },
   },
@@ -78,6 +88,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Salade niçoise',
     input: {
       dish_name: 'Salade niçoise classique',
+      userId: USER_ID,
       constraints: ['sans cuisson', 'pour 4 personnes', 'recette classique fidèle'],
     },
   },
@@ -87,6 +98,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Dahl de lentilles corail',
     input: {
       dish_name: 'Dahl de lentilles corail',
+      userId: USER_ID,
       constraints: ['sans produits animaux', 'sans gluten', 'temps de préparation max 30 minutes', 'pour 4 personnes'],
     },
   },
@@ -96,6 +108,7 @@ export const EXAMPLES: RecipeExample[] = [
     label: 'Boeuf bourguignon',
     input: {
       dish_name: 'Boeuf bourguignon traditionnel',
+      userId: USER_ID,
       constraints: ['pour 6 personnes', 'recette traditionnelle', 'mijotage long accepté'],
     },
   },

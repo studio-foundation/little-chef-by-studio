@@ -50,6 +50,7 @@ function writeInputYaml(example: RecipeExample): string {
   const tmpPath = join(tmpdir(), `studio-input-${example.slug}.yaml`)
   const yaml = [
     `dish_name: "${example.input.dish_name}"`,
+    `userId: "${example.input.userId}"`,
     `constraints:`,
     ...example.input.constraints.map((c) => `  - ${c}`),
   ].join('\n')
